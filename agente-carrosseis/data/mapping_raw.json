@@ -1,0 +1,407 @@
+{
+  "matches": [
+    {
+      "pasta": "SEM17/agradeça quando o lead disser vou pensar",
+      "post_id": "",
+      "confidence": "nenhuma",
+      "motivo": "Tema vou-pensar/objeção aparece em dezenas de posts, mas nenhuma legenda traz a frase distintiva 'Agradeça quando o lead disser vou pensar' nem 'é ali que a venda começa'. Sem frase ancora, não chuto."
+    },
+    {
+      "pasta": "SEM17/a gente mudou completamente a forma de fazer anúncios",
+      "post_id": "",
+      "confidence": "nenhuma",
+      "motivo": "Markers fortes (R$4 mil agência relatório de sexta; doutora 100mil/mês sem gestor) não aparecem em nenhuma legenda publicada. Posts de tráfego/agência existem mas sem essas frases. Provavelmente não publicado organicamente."
+    },
+    {
+      "pasta": "SEM17/fábrica de contatos",
+      "post_id": "",
+      "confidence": "nenhuma",
+      "motivo": "Hook 'abordar seguidor é incomodar / mina de ouro no perfil' não bate literalmente em nenhuma legenda. Tema prospecção ativa existe mas frases distintivas ausentes."
+    },
+    {
+      "pasta": "SEM17/perfil-100k",
+      "post_id": "18150721105464978",
+      "confidence": "baixa",
+      "motivo": "Tema '15k vs 100k' bate (18150721105464978 'diferença entre 15k e 100k'), mas essa legenda é sobre Paciente Educado em consulta, não sobre os 5 ajustes do perfil. Conceito 15k/100k coincide; provável não ser o mesmo post. Confiança baixa."
+    },
+    {
+      "pasta": "SEM17/pacientes-24h",
+      "post_id": "18100653518001972",
+      "confidence": "media",
+      "motivo": "Frase distintiva 'janela de interesse das primeiras 24 horas / cada seguidora chega num pico de interesse que dura pouco' bate com o tema 'transformar seguidor em paciente em 24h'. Mesma tese de janela temporal."
+    },
+    {
+      "pasta": "SEM18/os 5 sinais no perfil",
+      "post_id": "",
+      "confidence": "nenhuma",
+      "motivo": "Hook '5 sinais/5 padrões silenciosos que fazem perfis pararem de converter' não aparece literal. Há posts de posicionamento/perfil mas sem a estrutura dos 5 sinais. Não chuto."
+    },
+    {
+      "pasta": "SEM18/o mês de 37 dias da virgínia",
+      "post_id": "18126776830594616",
+      "confidence": "alta",
+      "motivo": "Frase distintiva e única no corpus inteiro: 'mês de 37 dias da Virgínia Fonseca' + 'escuta ativa'. Bate exatamente (18126776830594616 'O segredo do mês de 37 dias da Virgínia Fonseca não é o marketing, é a escuta ativa')."
+    },
+    {
+      "pasta": "SEM18/o-que-o-cliente-espera-de-voce",
+      "post_id": "18126776830594616",
+      "confidence": "media",
+      "motivo": "Mesma campanha Virgínia 37 dias que a AD acima (são duas builds do mesmo tema). Só existe 1 post publicado com esse tema único, então ambas as builds apontam pra ele; provavelmente só uma foi ao ar."
+    },
+    {
+      "pasta": "SEM18/segura o orçamento",
+      "post_id": "18074903717254893",
+      "confidence": "alta",
+      "motivo": "Frase distintiva 'segura o orçamento / canetinha branca / trauma positivo, ela para de contar seringas e foca na transformação' bate (18074903717254893). Mesmo conceito de não entregar o orçamento na mão."
+    },
+    {
+      "pasta": "SEM18/de 70k a 200k no interior",
+      "post_id": "18171497062407098",
+      "confidence": "alta",
+      "motivo": "Nome próprio único 'Fran Crepaldi' + 'cidade pequena/interior' + 'acompanhamento diário' bate exatamente (18171497062407098 'A história da Fran Crepaldi é o fim oficial dessa desculpa... cidade'). Há outro post Débora interior (18081532787577485) que é caso diferente."
+    },
+    {
+      "pasta": "SEM19/AD001 - O Diabo Veste Prada 2",
+      "post_id": "18093979937137854",
+      "confidence": "alta",
+      "motivo": "Distintivo 'O Diabo Veste Prada' + 'R$ 35 bilhões do mercado de estética' + 'competência técnica é o básico'. Bate literal (18093979937137854)."
+    },
+    {
+      "pasta": "SEM19/AD002 - Cliente que Educa Fecha com Concorrencia",
+      "post_id": "18150721105464978",
+      "confidence": "media",
+      "motivo": "Tese 'Paciente Educado entende de estética mas nada de urgência / 15k vs 100k é como conduz a conversa' (18150721105464978) bate com 'cliente que educa fecha com concorrência'. Conceito do paciente-educado é distintivo, mas há 2 builds desse tema (SEM20/AD004)."
+    },
+    {
+      "pasta": "SEM19/AD003 - Recorrencia que Garante 58k",
+      "post_id": "18111635848894756",
+      "confidence": "alta",
+      "motivo": "Frase distintiva 'Você não precisa de mais paciente nova. Você precisa parar de perder a que já tem / sua paciente bem cuidada é cliente pra vida toda / sem recorrência você é refém do tráfego' bate exato (18111635848894756, cta SUMIDA). Núcleo recorrência."
+    },
+    {
+      "pasta": "SEM19/AD004 - Erro Silencioso na Consulta",
+      "post_id": "18138544813525665",
+      "confidence": "media",
+      "motivo": "Tese 'quanto mais explica/dá aula de anatomia, menos fecha; paciente diz vou pensar; erro invisível' (18138544813525665, cta PACIENTE) bate com 'erro silencioso que mata a venda antes do preço'. Conceito vender-vs-ensinar. Possível sobreposição com SEM24/AD002."
+    },
+    {
+      "pasta": "SEM19/AD005 - As 3 Frases",
+      "post_id": "",
+      "confidence": "nenhuma",
+      "motivo": "Hook das 3 frases ('vou pensar/falar com marido/é caro' têm a mesma causa, falha de percepção de valor) não aparece com essa estrutura tríade em nenhuma legenda. Tema objeção genérico demais pra cravar."
+    },
+    {
+      "pasta": "SEM19/AD006 - Audiencia vs Autoridade",
+      "post_id": "18135690958529112",
+      "confidence": "media",
+      "motivo": "Distintivo 'Shakira não é conhecida por... decidir ser conhecida por UMA coisa' (18135690958529112, cta UMA) é o núcleo audiência-vs-autoridade/Shakira. Os números '2 milhões/15 marcas/R$800 milhões' não aparecem na legenda, então é o conceito, não a abertura."
+    },
+    {
+      "pasta": "SEM19/AD007 - Pergunta Antes do Plano",
+      "post_id": "",
+      "confidence": "nenhuma",
+      "motivo": "Hook 'consulta perfeita termina em vou pensar / pergunta que separa quem vende de quem ensina' não bate literal. Tema condução/vender-vs-ensinar sobrepõe com AD004 mas sem frase própria. Não chuto."
+    },
+    {
+      "pasta": "SEM19/AD009 - Audiencia vs Autoridade v2",
+      "post_id": "18135690958529112",
+      "confidence": "baixa",
+      "motivo": "Mesma campanha Shakira/audiência-vs-autoridade da AD006 (build v2). Só existe 1 post com esse tema (18135690958529112), então as duas builds disputam o mesmo; provável só uma publicada."
+    },
+    {
+      "pasta": "SEM19/AD010 - Figurante ou Referência",
+      "post_id": "",
+      "confidence": "nenhuma",
+      "motivo": "Distintivo 'Met Gala / 450 famosos pagaram R$500 mil / Beyoncé' NÃO aparece em nenhuma legenda (busca por 'met'/'gala' vazia). Não publicado organicamente."
+    },
+    {
+      "pasta": "SEM19/AD011 - Supercaso Antes e Depois",
+      "post_id": "17937131391248838",
+      "confidence": "media",
+      "motivo": "Tese 'Postar Antes e Depois vai além de resultado bonito; feed-cardápio atrai quem busca menor preço; virada é transformar' (17937131391248838, cta CASO) bate com 'seu melhor antes e depois nunca vira paciente'. Há outros posts antes-depois (17962358406064076) com mesma tese."
+    },
+    {
+      "pasta": "SEM20/AD002 - Desculpa do Marido",
+      "post_id": "17947503495174446",
+      "confidence": "media",
+      "motivo": "'Você está sendo boazinha ou abandonando a paciente / aceitar vou pensar ou preciso falar com meu marido' (17947503495174446) bate com 'desculpa do marido / abandonar no deserto da dúvida'. Conceito de abandono + objeção marido. 'Deserto da dúvida' não literal."
+    },
+    {
+      "pasta": "SEM20/AD003 - Doutora Mais Jovem",
+      "post_id": "",
+      "confidence": "nenhuma",
+      "motivo": "Hook 'doutora mais jovem já testou e fatura 3x / agora você tem duas profissões: doutora e empresária' não aparece em nenhuma legenda. Não chuto."
+    },
+    {
+      "pasta": "SEM20/AD004 - Cliente Que Educa",
+      "post_id": "18012509519882497",
+      "confidence": "media",
+      "motivo": "Mesmíssima tese Paciente Educado 15k/100k (18012509519882497 é repost de 18150721105464978). Como há 2 builds (SEM19/AD002 e esta), atribuo a segunda ocorrência publicada a esta. Conceito distintivo mas duplicado."
+    },
+    {
+      "pasta": "SEM20/AD005 - 5 Conteudos No Feed",
+      "post_id": "",
+      "confidence": "nenhuma",
+      "motivo": "Hook '5 conteúdos no feed pra agendar sozinho' não bate literal; nenhuma legenda lista os 5 pilares com essa frase. Tema captação-por-conteúdo existe genérico. Não chuto (há build gêmea SEM24/AD004 de 4 conteúdos)."
+    },
+    {
+      "pasta": "SEM20/AD006 - Momento Certo Nao Existe",
+      "post_id": "",
+      "confidence": "nenhuma",
+      "motivo": "Hook 'momento certo não existe, o método certo sim / 4 doutoras em 30 dias / Heloísa 25-30k' não aparece. Nomes/números específicos ausentes. Não chuto."
+    },
+    {
+      "pasta": "SEM20/AD007 - Medo Que Vaza",
+      "post_id": "18094748102102988",
+      "confidence": "media",
+      "motivo": "'A gente acha que está sendo gentil, na verdade está com medo... entrega de graça no WhatsApp' (18094748102102988, SUPERCASO) bate com 'quanto você perde por causa do seu medo / o medo do paciente é reflexo do seu'. Núcleo medo-do-profissional-que-vaza."
+    },
+    {
+      "pasta": "SEM20/AD008 - Perguntas não óbvias",
+      "post_id": "18143261824510265",
+      "confidence": "alta",
+      "motivo": "cta CONVERSA bate exato (18143261824510265, cta CONVERSA) e tese 'WhatsApp não é balcão de informações, toda resposta sem aprofundar perde o lead' casa com framework de perguntas de descoberta/declaração de intenção. cta + tema fecham."
+    },
+    {
+      "pasta": "SEM20/AD009 - Gestor Queima Orcamento",
+      "post_id": "18092835314239887",
+      "confidence": "media",
+      "motivo": "'Por que o tráfego da agência não vira Pix / agências jogam o jogo do volume / quanto custa o Botox' (18092835314239887) bate com 'paga gestor pra receber só Quanto custa o Botox / queima orçamento com curiosas'. Núcleo gestor-queima-orçamento."
+    },
+    {
+      "pasta": "SEM20/AD010 - Comparecimento Conducao",
+      "post_id": "",
+      "confidence": "nenhuma",
+      "motivo": "Hook 'comparecimento não é sorte é condução / cerimônia do Pix' não aparece literal (busca cerimônia/comparecimento vazia). Tema condução existe difuso. Não chuto."
+    },
+    {
+      "pasta": "SEM21/AD001 - Vitrine Que Afasta",
+      "post_id": "18119565529726575",
+      "confidence": "media",
+      "motivo": "'Enquanto você não for solução pra um problema único, será comparada pelo preço / vira o pato' (18119565529726575, cta AJUSTE) casa com 'vitrine que afasta / briga por preço de ml / foco em um problema'. cta AJUSTE bate com a AD. 'recém-formadas/rosto derretido' não literal."
+    },
+    {
+      "pasta": "SEM21/AD002 - Negligencia Clinica",
+      "post_id": "18306836503249744",
+      "confidence": "baixa",
+      "motivo": "'É angustiante ver técnica de ouro cobrando menos / ser ética não é entregar só a queixa principal' (18306836503249744) tangencia 'medo de passar o plano completo é negligência clínica'. Conceito próximo mas 'negligência clínica' não aparece literal. Baixa."
+    },
+    {
+      "pasta": "SEM21/AD003 - Captacao Pacientes Modelo",
+      "post_id": "18083552483143499",
+      "confidence": "baixa",
+      "motivo": "'Preciso de curso de captação? o que lota a agenda de pacientes modelos é a estrutura do anúncio' (18083552483143499, PACIENTE) toca 'captação de pacientes modelo', mas a AD é sobre PIX de sinal/ManyChat/Reels e essa legenda é sobre anúncio (melhor par de SEM22/AD002). Baixa por sobreposição."
+    },
+    {
+      "pasta": "SEM21/AD004 - 5 Objecoes WhatsApp",
+      "post_id": "18113350918867588",
+      "confidence": "alta",
+      "motivo": "cta 218 bate exato (18113350918867588, cta 218) + tese 'Objeção nunca foi um não, é sinal de interesse; vou falar com meu marido/esse mês está puxado; não tratar vácuo como decisão final' = núcleo das 5 objeções no WhatsApp e liderança da cadência."
+    },
+    {
+      "pasta": "SEM21/AD005 - Venda Invisível",
+      "post_id": "17915412753385493",
+      "confidence": "media",
+      "motivo": "'Paciente não quer comprar ml nem técnica, quer segurança de resolver; perfil-catálogo cria barreira' (17915412753385493, SUPERCASO) casa com 'vender harmonização sem vender harmonização / ativa a defesa racional / ele te ignora'. Núcleo venda-invisível/transformação."
+    },
+    {
+      "pasta": "SEM21/AD006 - Follow-Up Impossivel de Ignorar",
+      "post_id": "18360586885230120",
+      "confidence": "alta",
+      "motivo": "cta 615 bate exato (18360586885230120, cta 615) + frase distintiva 'vácuo de lead / Só passando pra saber se ainda tem interesse / ativa o modo cobrador' = exatamente o 'Follow-Up Sem Vergonha / modo cobrador de dívidas'."
+    },
+    {
+      "pasta": "SEM21/AD007 - Voce Cria as Objecoes",
+      "post_id": "17884878831519194",
+      "confidence": "baixa",
+      "motivo": "'Quanto mais responde a objeção, menos o lead fecha; entrega o controle da conversa' (17884878831519194) tangencia, mas a AD é sobre legenda do feed criar objeções (10ml/antes-e-depois), não sobre controle no WhatsApp. cta LEGENDA não bate. Baixa."
+    },
+    {
+      "pasta": "SEM21/AD008 - 6 Engrenagens da Agenda",
+      "post_id": "",
+      "confidence": "nenhuma",
+      "motivo": "Hook '6 engrenagens / arquitetura de negócios que cursos técnicos não ensinam / cada peça isolada não muda nada' não aparece. Sem post da estrutura das 6 engrenagens. Não chuto."
+    },
+    {
+      "pasta": "SEM21/AD009 - Frase Que Abre Conversa",
+      "post_id": "",
+      "confidence": "nenhuma",
+      "motivo": "Nome próprio 'Francislane / saiu de 1 para 10 consultas / nunca mandou seja bem-vinda' não aparece em nenhuma legenda. Não publicado organicamente."
+    },
+    {
+      "pasta": "SEM21/AD010 - Janela de 5 Minutos",
+      "post_id": "17992358831982744",
+      "confidence": "alta",
+      "motivo": "cta INDICA bate exato (17992358831982744, cta INDICA) + frase distintiva '3, 5 ou até 7 indicações de uma única paciente / a indicação ativa acontece dentro da sala / timing perfeito' = a janela de 5 min no fim da consulta. cta + conceito fecham."
+    },
+    {
+      "pasta": "SEM22/AD001 - Quem Fala Primeiro Perde",
+      "post_id": "18590442034043697",
+      "confidence": "alta",
+      "motivo": "Frase distintiva 'perde a venda nos 3 segundos após falar o preço / quando o paciente fica quieto ele está calculando, não achando caro' (18590442034043697, SUPERCASO) = exatamente 'o que você faz nos 3 segundos após o preço / quem fala primeiro perde'. Há gêmeo 17893772529532193 mesma tese."
+    },
+    {
+      "pasta": "SEM22/AD002 - Anuncio Mais Feio",
+      "post_id": "18083552483143499",
+      "confidence": "alta",
+      "motivo": "cta PACIENTE bate (18083552483143499, PACIENTE) + 'lota agenda de pacientes modelos não é certificado de formação, é a estrutura do anúncio nos bastidores' = 'anúncio oculto que lota agenda de paciente modelo, sem gastar com cursos'. Conceito anúncio + modelo."
+    },
+    {
+      "pasta": "SEM22/AD003 - A Regua da Experiencia",
+      "post_id": "",
+      "confidence": "nenhuma",
+      "motivo": "Hook 'melhor produto não compensa experiência mediana / régua do bem atendido sobe / Disney na clínica' não aparece. Busca Disney/régua/mediana vazia. Não chuto."
+    },
+    {
+      "pasta": "SEM23/AD004 - E Se Fosse Voce no Microfone",
+      "post_id": "18103431964910698",
+      "confidence": "alta",
+      "motivo": "cta DIFERENCIAL bate exato (18103431964910698, cta DIFERENCIAL) + 'no dia em que alguém pergunta por que deveria escolher você, o silêncio que vem... nunca te ensinaram a traduzir em palavras' = exatamente 'e se fosse você no microfone / qual o diferencial, ainda não senti'."
+    },
+    {
+      "pasta": "SEM23/AD005 - A Jogada Mais Fria do Ano",
+      "post_id": "",
+      "confidence": "nenhuma",
+      "motivo": "Distintivo 'Spotify deu presente / jogada mais fria do ano / comprar ingresso virou inferno' NÃO aparece (busca spotify vazia). Não publicado organicamente."
+    },
+    {
+      "pasta": "SEM23/AD007 - Quando Comparam Seu Preco",
+      "post_id": "17862441423637626",
+      "confidence": "baixa",
+      "motivo": "'maioria acha que perde porque a consulta é cara, quase nunca é; desconto reforça a conta' (17862441423637626, ATENDIMENTO) tangencia preço/objeção, mas o gancho distintivo 'quanto mais você justifica mais barata parece' não aparece literal. Há muitos posts de preço; baixa."
+    },
+    {
+      "pasta": "SEM23/AD008 - Todas Quebradas",
+      "post_id": "",
+      "confidence": "nenhuma",
+      "motivo": "Distintivo 'Natália Beauty disse que harmonizadoras eram todas quebradas / que continuemos quebradas' NÃO aparece (busca quebrad/natália vazia). Não publicado organicamente."
+    },
+    {
+      "pasta": "SEM23/AD009 - Perfil Que Atrai",
+      "post_id": "18415809907134714",
+      "confidence": "media",
+      "motivo": "'Se seu perfil é ímã de gente que some no preço, seu posicionamento educa o cliente errado; feed-catálogo de o que eu faço' (18415809907134714, LINK-BIO) casa com 'atrair leads qualificados / posicionamento confuso'. Tema perfil-que-atrai (gêmeo de SEM24/AD006)."
+    },
+    {
+      "pasta": "SEM24/AD001 - Gesto Que Afasta",
+      "post_id": "17862441423637626",
+      "confidence": "baixa",
+      "motivo": "'paciente foge quando resolver parece custar mais que o problema; você mesma reforça ao entregar desconto que ninguém pediu' (17862441423637626, ATENDIMENTO) tangencia o 'gesto gentil que afasta', mas os markers próprios ('se segure doutora / orçamento ambulante / resolve por aqui mesmo') não aparecem. Baixa."
+    },
+    {
+      "pasta": "SEM24/AD002 - Paciente Que Voce Educa",
+      "post_id": "17931885357249550",
+      "confidence": "media",
+      "motivo": "'quanto mais conteúdo técnico posta, menos pacientes qualificados; transformar feed em aula de anatomia desperta o errado' (17931885357249550, LINK-BIO) casa com 'paciente que fecha 10-30mil não consome conteúdo educativo / 47º post sobre skinbooster'. Núcleo conteúdo-educativo-afasta."
+    },
+    {
+      "pasta": "SEM24/AD003 - Objecoes de Preco",
+      "post_id": "",
+      "confidence": "nenhuma",
+      "motivo": "Markers específicos (declaração de intenção / 'só pra eu entender se a doutora vai conseguir te ajudar' / 'chave Pix agora pra confirmar') não aparecem literais. Tema objeção-preço genérico demais; SEM20/AD008 e SEM26/AD003 cobrem declaração-de-intenção melhor. Não chuto aqui."
+    },
+    {
+      "pasta": "SEM24/AD004 - 4 Conteudos Que Agendam Sozinho",
+      "post_id": "18113611522868747",
+      "confidence": "media",
+      "motivo": "'paciente não está no perfil pra julgar se o feed é perfeito, busca razões pra confiar; o conteúdo que gera agendamento...' (18113611522868747, cta POST) casa com '4 conteúdos pra te chamar quase agendando sozinho / movimento gera movimento'. Núcleo pilares-de-conteúdo que agendam."
+    },
+    {
+      "pasta": "SEM24/AD005 - Cheiro de Vendedor",
+      "post_id": "17864301771584031",
+      "confidence": "media",
+      "motivo": "'Vou ver certinho e qualquer coisa te aviso / o gargalo é a psicologia do atendimento, não o lead' (17864301771584031) casa com 'leads somem na hora de pagar / cheiro de quem entrou só pra vender horário, isso vaza'. Núcleo mentalidade-que-vaza no atendimento."
+    },
+    {
+      "pasta": "SEM24/AD006 - Perfil Que Atrai",
+      "post_id": "18415809907134714",
+      "confidence": "baixa",
+      "motivo": "Mesma tese perfil-que-atrai/posicionamento-confuso que SEM23/AD009 (build gêmea). Só há 1 post forte desse tema (18415809907134714), então as duas builds disputam; baixa por duplicação."
+    },
+    {
+      "pasta": "SEM24/AD007 - Paciente Que Nao Acredita",
+      "post_id": "",
+      "confidence": "nenhuma",
+      "motivo": "Markers '2026 chegou desconfiado / Calma não é pessoal, é geracional / só decide com provas reais' não aparecem (busca geracional/desconfiado vazia). Build gêmea SEM25/AD005 mesmo tema; ambas sem post. Não chuto."
+    },
+    {
+      "pasta": "SEM24/AD008 - Perfeicao Saiu de Moda",
+      "post_id": "18430577230125160",
+      "confidence": "media",
+      "motivo": "'O que você acha que é erro, na verdade é o que vende: o consultório real, o vídeo despretensioso' (18430577230125160, SUPERCASO) casa com 'a perfeição saiu de moda / pararam de confiar no que parece perfeito demais'. Núcleo imperfeito-como-prova."
+    },
+    {
+      "pasta": "SEM25/AD001 - Falar Com o Marido",
+      "post_id": "17947503495174446",
+      "confidence": "baixa",
+      "motivo": "'aceitar vou pensar / preciso falar com meu marido = abandonar a paciente sem decisão' (17947503495174446) toca objeção-marido, mas o gancho distintivo 'falar com o marido nunca é sobre o marido / cortina de fumaça / nome que ela dá pro medo' não aparece literal. Compete com SEM20/AD002. Baixa."
+    },
+    {
+      "pasta": "SEM25/AD002 - Fatura Mais Atende Menos",
+      "post_id": "",
+      "confidence": "nenhuma",
+      "motivo": "Hook 'doutora que fatura mais atende menos / balde furado / poucas alavancas geram a maior parte do resultado' não aparece com essas frases (há um 'balde furado' em 18362801170231928 mas é sobre recorrência/funil, contexto diferente). Não chuto."
+    },
+    {
+      "pasta": "SEM25/AD003 - Abate no Procedimento",
+      "post_id": "",
+      "confidence": "nenhuma",
+      "motivo": "Distintivo 'a consulta é X mas a gente abate no procedimento / soa como desculpa / posicionamento firme' não aparece (busca abate vazia). Não publicado organicamente."
+    },
+    {
+      "pasta": "SEM25/AD004 - Captar Pelos Stories",
+      "post_id": "",
+      "confidence": "nenhuma",
+      "motivo": "Hook 'captar pelo stories / não é procedimento, é uma história / enquete' não aparece (busca stories/enquete só traz post não relacionado). Não chuto."
+    },
+    {
+      "pasta": "SEM25/AD005 - Paciente Que Nao Acredita",
+      "post_id": "",
+      "confidence": "nenhuma",
+      "motivo": "Mesma campanha 'paciente não acredita / geracional / consumidor de 2026 desconfiado' que SEM24/AD007. Nenhum post traz essas frases. Não publicado organicamente."
+    },
+    {
+      "pasta": "SEM25/AD006 - Contornar 5 Objecoes",
+      "post_id": "18366349324225646",
+      "confidence": "alta",
+      "motivo": "cta 218 bate (18366349324225646, cta 218) + mesma tese 'Objeção nunca foi um não / vou falar com meu marido / não tratar vácuo como decisão final'. É a segunda ocorrência publicada das 5 objeções WhatsApp (a primeira, 18113350918867588, casei com SEM21/AD004)."
+    },
+    {
+      "pasta": "SEM26/AD001 - 4 Perfis de Paciente",
+      "post_id": "",
+      "confidence": "nenhuma",
+      "motivo": "Markers 'Comunicação não é o que você fala é o que o outro compreende / ouvir é físico, escutar é entender / pressa é inimiga da conversão' não aparecem (busca comunicação/escutar vazia). Não chuto."
+    },
+    {
+      "pasta": "SEM26/AD003 - Fechar 80% em Consulta",
+      "post_id": "18096259148607309",
+      "confidence": "alta",
+      "motivo": "Frase distintiva 'fechar pelo menos 80% das vendas em consulta / quanto mais age com ansiedade de vendedora, menos vende / ouça mais, fale menos' bate (18096259148607309, LINK-BIO). cta link-bio coincide e o número 80% é específico."
+    },
+    {
+      "pasta": "SEM26/AD005 - Ninguem Acorda Querendo Botox",
+      "post_id": "",
+      "confidence": "nenhuma",
+      "motivo": "Distintivo 'Ninguém acorda querendo comprar botox / adoraria comprar o rosto descansado de volta / nenhuma marcou avaliação, vieram curiosas' não aparece literal. Tema educar-paciente existe difuso. Não chuto."
+    },
+    {
+      "pasta": "SEM26/AD006 - Vilao da Marca",
+      "post_id": "",
+      "confidence": "nenhuma",
+      "motivo": "Distintivo 'Toda marca de sucesso tem vilão / marca sem inimigo é história sem conflito' NÃO aparece (busca vilão vazia). Não publicado organicamente."
+    },
+    {
+      "pasta": "SEM26/AD007 - WhatsApp da Clinica",
+      "post_id": "18601487575063147",
+      "confidence": "media",
+      "motivo": "'WhatsApp é balcão de informações? alguém pergunta o preço você dá / toda resposta sem aprofundar você perde' (18601487575063147, SUPERCASO) casa com 'o que NUNCA responder no WhatsApp / quanto custa a consulta'. Núcleo scripts-de-resposta/condução no WhatsApp. (18143261824510265 mesma tese já usado pra SEM20/AD008 via cta CONVERSA.)"
+    },
+    {
+      "pasta": "ad004-1paciente",
+      "post_id": "",
+      "confidence": "nenhuma",
+      "motivo": "Mesmos markers da SEM17 'mudou completamente a forma de fazer anúncios / R$4 mil agência relatório de sexta / 100mil sem gestor'. Nenhuma legenda traz essas frases. É build do mesmo tema de tráfego auto-financiado, não publicado organicamente."
+    }
+  ],
+  "resumo_cobertura": "Dos 67 ADs construídos: 11 casaram com confidence ALTA (frase/conceito distintivo + frequentemente o cta batendo): Virgínia 37 dias (18126776830594616), Segura Orçamento/canetinha (18074903717254893), Fran Crepaldi 70-200k (18171497062407098), Diabo Veste Prada R$35bi (18093979937137854), Recorrência 58k 'não precisa de paciente nova' (18111635848894756), Perguntas não óbvias cta CONVERSA (18143261824510265), 5 Objeções WhatsApp cta 218 (18113350918867588), Follow-Up cta 615 'modo cobrador' (18360586885230120), Janela 5min/indicações cta INDICA (17992358831982744), Quem Fala Primeiro '3 segundos após o preço' (18590442034043697), Anúncio modelo cta PACIENTE (18083552483143499), E Se Fosse Você cta DIFERENCIAL (18103431964910698), Contornar 5 Objeções cta 218 (18366349324225646), Fechar 80% em consulta (18096259148607309). ~17 casaram com confidence MEDIA (conceito-núcleo batendo, sem a abertura literal): pacientes-24h, cliente-que-educa 15k/100k (x2 builds), erro silencioso 'mais explica menos fecha', Shakira/audiência, desculpa marido 'abandonando paciente', medo que vaza, gestor queima orçamento, vitrine que afasta, venda invisível, antes-e-depois supercaso, perfil que atrai, paciente que educa SEM24, 4 conteúdos, cheiro de vendedor, perfeição saiu de moda, WhatsApp da clínica. O restante (~9 baixa + ~26 nenhuma) ficou sem match confiável. ADs SEM match (confidence nenhuma) — quase certamente NÃO publicadas organicamente, pois seus markers ultra-distintivos não existem em nenhuma legenda: Met Gala/450 famosos (SEM19/AD010), Spotify jogada fria (SEM23/AD005), Todas Quebradas/Natália Beauty (SEM23/AD008), Vilão da Marca (SEM26/AD006), Abate no Procedimento (SEM25/AD003), Francislane 1-para-10 (SEM21/AD009), 6 Engrenagens (SEM21/AD008), Doutora Mais Jovem (SEM20/AD003), Captar pelos Stories (SEM25/AD004), Paciente Não Acredita/geracional 2026 (SEM24/AD007 e SEM25/AD005, mesma campanha), Momento Certo Não Existe/Heloísa (SEM20/AD006), Régua da Experiência/Disney (SEM22/AD003), Fatura Mais Atende Menos (SEM25/AD002), 4 Perfis de Paciente/escutar (SEM26/AD001), Ninguém Acorda Querendo Botox (SEM26/AD005), 3 Frases (SEM19/AD005), Pergunta Antes do Plano (SEM19/AD007), 5 Sinais no Perfil (SEM18), Fábrica de Contatos (SEM17), Agradeça vou pensar (SEM17), e as 2 builds de 'mudou a forma de anúncios' (SEM17 + ad004-1paciente). NOTA: ignorei datas (build != publicação) e ancorei só em frase distintiva + cta; quando duas builds do mesmo tema único existem (Virgínia, Shakira, Paciente Educado, 5 Objeções, Perfil Que Atrai, Paciente Não Acredita), atribuí o post à build mais provável e rebaixei a gêmea, já que provavelmente só uma foi ao ar."
+}

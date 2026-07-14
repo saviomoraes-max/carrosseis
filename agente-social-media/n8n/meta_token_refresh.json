@@ -1,0 +1,226 @@
+{
+  "name": "meta_token_refresh",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "days",
+              "daysInterval": 1,
+              "triggerAtHour": 8,
+              "triggerAtMinute": 0
+            }
+          ]
+        }
+      },
+      "id": "a1000000-0000-4000-8000-000000000001",
+      "name": "Disparar Checagem Diária",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [0, 0]
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "-- Pega o token mais recente e calcula quantos dias faltam pra expirar.\n-- expires_at NULL (token não-expirável) vira 9999 dias e nunca renova.\nSELECT id, token, expires_at,\n       (CASE WHEN expires_at IS NULL THEN 9999\n             ELSE GREATEST(0, EXTRACT(EPOCH FROM (expires_at - now())) / 86400)\n        END)::int AS diasRestantes\nFROM meta_token\nORDER BY created_at DESC\nLIMIT 1;",
+        "options": {}
+      },
+      "id": "a1000000-0000-4000-8000-000000000002",
+      "name": "Buscar Token Atual",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.4,
+      "position": [220, 0],
+      "credentials": {
+        "postgres": {
+          "id": "SUBSTITUIR_APOS_IMPORTAR",
+          "name": "Postgres Railway"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose"
+          },
+          "conditions": [
+            {
+              "leftValue": "={{ $json.diasrestantes ?? $json.diasRestantes }}",
+              "rightValue": 15,
+              "operator": {
+                "type": "number",
+                "operation": "lte"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "a1000000-0000-4000-8000-000000000003",
+      "name": "Verificar Se Precisa Renovar",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [440, 0]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://graph.facebook.com/v23.0/oauth/access_token",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "grant_type",
+              "value": "fb_exchange_token"
+            },
+            {
+              "name": "client_id",
+              "value": "={{ $env.META_APP_ID }}"
+            },
+            {
+              "name": "client_secret",
+              "value": "={{ $env.META_APP_SECRET }}"
+            },
+            {
+              "name": "fb_exchange_token",
+              "value": "={{ $('Buscar Token Atual').item.json.token }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "a1000000-0000-4000-8000-000000000004",
+      "name": "Renovar Token na Meta",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [660, -100],
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "// Valida o payload da Meta antes de gravar (nunca assumir resposta completa).\nif (!$json.access_token) {\n  throw new Error('Meta não retornou access_token: ' + JSON.stringify($json));\n}\n// Calcula o expires_at a partir do expires_in (segundos) retornado pela Meta.\n// Se a Meta não mandar expires_in, assume 60 dias (5.184.000 s) por segurança.\nconst expiresIn = $json.expires_in ?? 5184000;\nconst expiresAt = new Date(Date.now() + expiresIn * 1000).toISOString();\nreturn { json: { token: $json.access_token, expires_at: expiresAt } };"
+      },
+      "id": "a1000000-0000-4000-8000-000000000005",
+      "name": "Calcular Expiração",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [880, -100]
+    },
+    {
+      "parameters": {
+        "operation": "insert",
+        "schema": {
+          "__rl": true,
+          "value": "public",
+          "mode": "list"
+        },
+        "table": {
+          "__rl": true,
+          "value": "meta_token",
+          "mode": "list"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "token": "={{ $json.token }}",
+            "expires_at": "={{ $json.expires_at }}"
+          }
+        },
+        "options": {}
+      },
+      "id": "a1000000-0000-4000-8000-000000000006",
+      "name": "Gravar Token Novo",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.4,
+      "position": [1100, -100],
+      "credentials": {
+        "postgres": {
+          "id": "SUBSTITUIR_APOS_IMPORTAR",
+          "name": "Postgres Railway"
+        }
+      }
+    },
+    {
+      "parameters": {},
+      "id": "a1000000-0000-4000-8000-000000000007",
+      "name": "Manter Token Atual",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [660, 120]
+    }
+  ],
+  "connections": {
+    "Disparar Checagem Diária": {
+      "main": [
+        [
+          {
+            "node": "Buscar Token Atual",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Buscar Token Atual": {
+      "main": [
+        [
+          {
+            "node": "Verificar Se Precisa Renovar",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Verificar Se Precisa Renovar": {
+      "main": [
+        [
+          {
+            "node": "Renovar Token na Meta",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Manter Token Atual",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Renovar Token na Meta": {
+      "main": [
+        [
+          {
+            "node": "Calcular Expiração",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Calcular Expiração": {
+      "main": [
+        [
+          {
+            "node": "Gravar Token Novo",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  }
+}

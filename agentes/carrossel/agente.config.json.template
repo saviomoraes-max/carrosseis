@@ -1,0 +1,8 @@
+{
+  "_instrucoes": "Copie este arquivo como agente.config.json, preencha os caminhos do SEU ambiente e nunca commite o agente.config.json (já está no .gitignore)",
+
+  "BASE": "/Volumes/SSD kenipe/agentes/carrossel",
+  "TEMPLATE_DIR": "/Users/SEU_USUARIO/reconecta/carrosseis/_template",
+  "NOISE_SRC": "/Users/SEU_USUARIO/reconecta/carrosseis/ad004-1paciente/img/noise.png",
+  "PYTHON": "/opt/homebrew/bin/python3"
+}

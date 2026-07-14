@@ -1,0 +1,33 @@
+{
+  "nome": "anuncio_reconecta_teste",
+  "fps": 30,
+  "largura": 1920,
+  "altura": 1080,
+  "_comentario": "fps unico pra timeline e clips. 'in'/'out'/'duracao_s' em SEGUNDOS. 'in' = ponto de entrada DENTRO da midia; 'out' opcional (se vier, duracao = out - in). 'posicao_s' = onde o clip comeca NA timeline (segundos). 'track' = numero da track de video (1 = V1). Caminhos relativos a este arquivo, dentro de media/.",
+  "clips": [
+    {
+      "arquivo": "media/clip1.mp4",
+      "in": 0.0,
+      "out": 4.0,
+      "duracao_s": 4.0,
+      "posicao_s": 0.0,
+      "track": 1
+    },
+    {
+      "arquivo": "media/clip2.mp4",
+      "in": 1.5,
+      "out": 4.5,
+      "duracao_s": 3.0,
+      "posicao_s": 4.0,
+      "track": 1
+    },
+    {
+      "arquivo": "media/clip3.mp4",
+      "in": 0.0,
+      "out": 5.0,
+      "duracao_s": 5.0,
+      "posicao_s": 7.0,
+      "track": 1
+    }
+  ]
+}

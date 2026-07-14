@@ -1,0 +1,82 @@
+{
+  "version": "3.0",
+  "source": "Figma master v3 — https://www.figma.com/design/fuIFq4fA94kKjvf2A7vhXo (AD001 'Como fazer depoimento', 7 frames 1080x1350)",
+  "extraído_em": "2026-06-02",
+  "extraído_via": "Figma REST API (/v1/files + /v1/images) — token read-only descartável",
+  "supersede": "v2.0 (multi-fundo cream/dark, corpo em Inter). v3 redesenha o sistema: bordô único + grão, corpo em Grift, componentes de callout e footer pill.",
+  "renderer": "reconecta_carousel_v3.py (mesma mecânica do v2: canvas 1080x1350 renderizado a 420x525, helper px(), export.py compatível)",
+  "atualizar_quando": "Figma master v3 for revisado — re-rodar a leitura via API, comparar primitivas e regenerar este arquivo + o renderer",
+
+  "design_system": {
+    "canvas": { "w": 1080, "h": 1350, "formato": "feed 4:5", "margem_lateral": 93, "content_width": 894 },
+
+    "paleta": {
+      "BG_DARK":        { "hex": "#340909", "uso": "fundo bordô de TODO slide. A fill do Figma é #2d0000, mas com o grão sobe pra ~#340909 no render — usamos o tom final, mais quente." },
+      "HERO_FADE":      { "hex": "#1a0001", "uso": "cor do gradiente de fade da capa (mais escuro que o bordô)" },
+      "HEADLINE":       { "hex": "#f2ddb6", "uso": "TODA headline Alga + notas itálicas champagne" },
+      "BODY":           { "hex": "#ececec", "uso": "corpo (Grift) e texto dentro do callout — off-white" },
+      "LIGHT":          { "hex": "#f5f5f5", "uso": "footer text, @handle, bordas do pill, sparkle e seta" },
+      "LABEL":          { "hex": "#ececec", "uso": "label 'RECONECTA' no canto superior direito" },
+      "CALLOUT_BG":     { "hex": "#1d0f09", "uso": "fill da caixa de callout (marrom muito escuro)" },
+      "CALLOUT_BORDER": { "hex": "#ff0000", "uso": "borda 1px vermelha da caixa de callout" },
+      "FOOTER_BG":      { "rgba": "rgba(4,4,22,0.05)", "uso": "fill do footer pill — quase transparente" },
+      "FOOTER_BORDER":  { "hex": "#f5f5f5", "uso": "borda 1px do footer pill" }
+    },
+
+    "tipografia": {
+      "familias": [
+        { "nome": "Alga", "pesos": ["SemiBold(600/700)"], "arquivo": "Alga-SemiBold.otf", "uso": "EXCLUSIVO de headlines (serif display champagne)" },
+        { "nome": "Grift", "pesos": ["Regular(400)", "Italic", "Black(900)", "BlackItalic"], "uso": "corpo, callout, label 'RECONECTA'. Pesos 500/600/700 são SINTETIZADOS pelo Chromium — Black ganha família própria 'GriftBlack' pra o 700 inline não saltar pro 900" },
+        { "nome": "Inter", "pesos": ["Medium(500)", "Bold(700)"], "uso": "@handle da capa e texto do footer/CTA" },
+        { "nome": "Instrument Serif", "pesos": ["Italic(400)"], "arquivo": "InstrumentSerif-Italic.ttf", "uso": "só o 'powered by' do masthead da capa" }
+      ],
+      "escala_output_px": {
+        "headline_default": { "size": 88, "line_height": 1.1, "letter_spacing": 0 },
+        "headline_hero":    { "size": 95, "line_height": 0.97, "letter_spacing": -5.7 },
+        "headline_obs":     "tamanho varia por slide conforme o texto (Figma usou 75.8 / 78 / 88 / 95 / 98). Default 88, override por slide.",
+        "corpo":            { "size": 35, "line_height": 1.25, "weight": 400, "weight_callout_nota": 500 },
+        "label_reconecta":  { "size": 18.6, "line_height": 1.0, "letter_spacing": 0.19, "weight": 600 },
+        "masthead":         { "size": 28, "weight_powered": "Instrument Serif italic 400", "weight_marca": "Grift Black 900" },
+        "handle":           { "size": 28, "weight": 500, "letter_spacing": -1.68 },
+        "footer":           { "size": 18, "weight": 700, "letter_spacing": 2.52, "caixa": "CAPS" }
+      },
+      "enfase_inline": "no corpo/callout, **texto** vira negrito (Grift 700 sintético, mesma cor). Sem travessão/hífen no meio de frase."
+    },
+
+    "componentes": {
+      "label_topo": { "texto": "RECONECTA", "posição": "canto superior direito, top 71, right 93", "fonte": "Grift 600", "presente_em": "todos os slides menos a capa" },
+      "masthead_capa": { "texto": "powered by RECONECTA", "posição": "centralizado no topo, y≈93", "presente_em": "só a capa (slide 1)" },
+      "perfil_capa": { "elementos": "avatar 57px circular + @handle (Inter 500) + selo verificado azul", "posição": "acima da headline na capa" },
+      "selo_verificado": { "tipo": "SVG azul próprio (#1d9bf0 + check branco)", "atenção": "NÃO usar verified_badge.png — esse asset está contaminado com avatar+handle de terceiros ('brandsdecoded')" },
+      "callout_box": { "fill": "#1d0f09", "borda": "1px real #ff0000 (via px(), senão vira ~2.6px no export e fica grosso/vivo demais)", "raio": 21, "padding": "36px vertical / 55px horizontal", "texto": "Grift 500 #ececec, com negrito de abertura opcional. Usar aspas curvas “ ”." },
+      "footer_pill": { "largura": "full (894)", "altura": 58, "raio": "capsule", "fill": "rgba(4,4,22,0.05)", "borda": "1px real #f5f5f5", "conteúdo": "[ ........... LABEL / →] alinhado à direita. SEM sparkle. LABEL='ARRASTE PARA O LADO'" },
+      "cta_pill": { "largura": "auto (compacta)", "altura": 54, "raio": "capsule", "conteúdo": "[LABEL /], ex. 'COMENTA CASO'. SEM sparkle.", "presente_em": "slide final, no lugar do footer full" },
+      "grão": { "asset": "grain.png (ruído quase branco)", "opacidade": 0.35, "blend": "soft-light", "uso": "sobre todo slide; clareia/aquece o bordô uniformemente. overlay NÃO serve (some nas áreas escuras)" }
+    },
+
+    "fundo_foto": {
+      "técnica": "foto full-bleed (object-fit cover) + gradiente SUAVE multi-stop top→base (transparent→BG_DARK) pra texto legível embaixo. Linear de um ponto só fica DURO (linha visível) — usar rampa.",
+      "PHOTO_STOPS": "[(0,0),(30,0),(44,.18),(54,.48),(64,.78),(74,.94),(86,1)]",
+      "HERO_STOPS": "[(0,0),(32,0),(47,.20),(58,.55),(68,.84),(78,.96),(88,1)] cor #1a0001",
+      "focal": "object-position por slide — crop fino dentro da folga do cover (que é pequena, ~7%)",
+      "zoom": "escala da foto com âncora na BASE (transform-origin 50% 100%) — SOBE o conteúdo e fecha o crop no rosto. É o jeito de subir de verdade em slides com muito texto (object-position sozinho não dá conta). zoom=1.5 ≈ subir ~50%"
+    }
+  },
+
+  "primitivas_de_slide": {
+    "slide_hero": { "figma": "Frame 1", "estrutura": "foto full-bleed + masthead central + (linha de perfil + headline) ancorados na base + footer" },
+    "slide_photo": { "figma": "Frames 2, 3, 5", "estrutura": "foto full-bleed + (headline + corpo [+ callout]) ancorados na base (24px acima do footer) + footer" },
+    "slide_text": { "figma": "Frames 4, 6", "estrutura": "só bordô+grão + (headline + corpo [+ callout] [+ nota itálica]) centralizado na vertical + footer" },
+    "slide_cta": { "figma": "Frame 7", "estrutura": "só bordô+grão + (headline + corpo + cta_pill) centralizado, SEM footer full" }
+  },
+
+  "regras_de_layout": {
+    "gap_padrao": 24,
+    "ancoragem_slide_foto": "ancorado pela base. COM callout termina ~24px acima do footer (y≈1175); SEM callout fica mais alto (y≈1110) pra dar respiro acima do footer",
+    "ancoragem_slide_texto": "bloco centralizado em y≈660 (levemente acima do meio do canvas)",
+    "ancoragem_slide_cta": "bloco ancorado pelo TOPO em y≈336 (terço superior), como no Figma",
+    "footer": "topo em y=1199, altura 58 → 93px de margem inferior",
+    "bordas": "TODA borda (callout, pills) em 1px REAL via px() — 1px no viewport 420 vira ~2.6px no export 1080 e fica grossa",
+    "quebra_manual": "headline e corpo honram \\n (white-space pre-wrap) pra reproduzir quebras do Figma"
+  }
+}

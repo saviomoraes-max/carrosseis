@@ -1,0 +1,257 @@
+{
+  "rodado_em": "2026-07-06",
+  "candidatos_avaliados": 15,
+  "fontes_pesquisadas": [
+    "tendências negócio clínica estética 2026 brasil",
+    "comportamento consumidor beleza estética 2026 brasil",
+    "captação de pacientes harmonização facial 2026",
+    "economia da beleza brasil crescimento 2026",
+    "marketing para profissionais de saúde estética instagram 2026",
+    "gestão clínica odontologia rentabilidade agenda cheia 2026",
+    "indicação de pacientes estratégia recorrência clínica 2026"
+  ],
+  "aprovados": [
+    {
+      "rank": 1,
+      "tema_candidato": "Indicação passiva deixou de ser suficiente — crescimento previsível exige sistema ativo de indicação",
+      "fonte": {
+        "titulo": "Marketing para clínicas em 2026: da indicação ao crescimento previsível",
+        "url": "https://4medic.com.br/marketing-para-clinicas-em-2026-da-indicacao-ao-crescimento-previsivel/"
+      },
+      "tema_mapeado": "indicacao / follow-up (cadência de lead)",
+      "prioridade": "alta",
+      "dor_ou_desejo_conectado": "falta de recorrência e de indicação / depender de sorte / agenda que não enche",
+      "por_que_relevante": "Pesquisa 2026 aponta que clínicas que dependem só de indicação passiva têm crescimento vulnerável a fatores externos. A doutora que espera paciente indicar sem sistema ativo fica refém de quando a paciente lembrar — não de quando o negócio precisa. Indicação ativa é o tema mais subproduzido e com maior upside no corpus (score 8.831, comments_rate 6.5%).",
+      "gancho_vencedor_sugerido": "numero/lista",
+      "gancho_exemplo": "Como receber 3, 5 ou até 7 indicações de uma única paciente — sem pedir favor e sem programa de desconto.",
+      "pontuacao": {
+        "conecta_dor_ou_desejo": 3,
+        "mapeia_tema": 3,
+        "ancoravel_em_gancho_vencedor": 3,
+        "sem_distorcao": 3
+      },
+      "score_total": 12
+    },
+    {
+      "rank": 2,
+      "tema_candidato": "Planos de tratamento contínuo vs. procedimento isolado — clínica que vende sessão perde recorrência para quem vende resultado em etapas",
+      "fonte": {
+        "titulo": "Tendências saúde estética: o que muda em 2026 para clínicas e pacientes",
+        "url": "https://adoxy.com.br/blog/tendencias-de-saude-estetica/"
+      },
+      "tema_mapeado": "recorrencia",
+      "prioridade": "alta",
+      "dor_ou_desejo_conectado": "falta de recorrência e de indicação / paciente que não valoriza / não volta / faturamento aquém do talento técnico",
+      "por_que_relevante": "Mercado de estética 2026 premiou clínicas que migraram da lógica de sessão avulsa para protocolos com reavaliação programada. A doutora que vende uma aplicação está entregando recorrência de graça para quem vende o ciclo completo de resultado. Tema recorrência é subproduzido (7x no corpus) e vencedor (score 3.087, reach 24.6k, shares 671).",
+      "gancho_vencedor_sugerido": "pergunta-paradoxo",
+      "gancho_exemplo": "Por que a paciente que te pagou R$1.200 uma vez nunca mais voltou — enquanto a doutora ao lado tem ela na agenda todo trimestre?",
+      "pontuacao": {
+        "conecta_dor_ou_desejo": 3,
+        "mapeia_tema": 3,
+        "ancoravel_em_gancho_vencedor": 3,
+        "sem_distorcao": 3
+      },
+      "score_total": 12
+    },
+    {
+      "rank": 3,
+      "tema_candidato": "Parcerias entre especialidades como fluxo de indicação qualificada — rede profissional que enche agenda sem anúncio",
+      "fonte": {
+        "titulo": "Indicação de Pacientes: 7 Estratégias Comprovadas para sua Clínica",
+        "url": "https://c.facilconsulta.com.br/indicacao-de-pacientes-7-estrategias-comprovadas-para-sua-clinica/"
+      },
+      "tema_mapeado": "indicacao / follow-up (cadência de lead)",
+      "prioridade": "alta",
+      "dor_ou_desejo_conectado": "falta de recorrência e de indicação / depender de tráfego pago / agenda que não enche",
+      "por_que_relevante": "Clínicas que constroem rede de indicação entre especialidades (clínico geral que indica HOF, dermatologista que indica dentista para bruxismo) criam fluxo de paciente qualificado sem custo de aquisição. Ângulo novo no corpus: a indicação ENTRE profissionais, não só da paciente para amiga. Zero overlap com os 7 carrosséis de indicação existentes.",
+      "gancho_vencedor_sugerido": "numero/lista",
+      "gancho_exemplo": "3 parcerias que podem encher sua agenda sem investir R$1 em anúncio — e que nenhuma doutora no seu bairro ainda fez.",
+      "pontuacao": {
+        "conecta_dor_ou_desejo": 3,
+        "mapeia_tema": 3,
+        "ancoravel_em_gancho_vencedor": 2,
+        "sem_distorcao": 3
+      },
+      "score_total": 11
+    },
+    {
+      "rank": 4,
+      "tema_candidato": "Agenda cheia não é sinônimo de lucro — armadilha da clínica ocupada com margem apertada",
+      "fonte": {
+        "titulo": "Gestão odontológica: sua clínica cresce ou só lota?",
+        "url": "https://www.clinicorp.com/post/clinica-crescendo-ou-ficando-mais-ocupada"
+      },
+      "tema_mapeado": "recorrencia",
+      "prioridade": "alta",
+      "dor_ou_desejo_conectado": "faturamento aquém do talento técnico / trabalhar demais, sem equilíbrio com a vida / agenda cheia que não converte em faturamento real",
+      "por_que_relevante": "Pesquisa de gestão clínica 2026 documenta a armadilha: a doutora mais ocupada da clínica pode ser a que menos lucra, porque atende volume baixo ticket sem margem. A solução é compor ticket médio por paciente, não aumentar número de atendimentos — ângulo direto de recorrência e precificação.",
+      "gancho_vencedor_sugerido": "pergunta-paradoxo",
+      "gancho_exemplo": "Por que a doutora com agenda cheia há 3 meses fecha o mês com menos lucro do que a que atende metade?",
+      "pontuacao": {
+        "conecta_dor_ou_desejo": 3,
+        "mapeia_tema": 2,
+        "ancoravel_em_gancho_vencedor": 3,
+        "sem_distorcao": 3
+      },
+      "score_total": 11
+    },
+    {
+      "rank": 5,
+      "tema_candidato": "Quiet Beauty consolidado em 2026 — paciente de valor rejeita resultado marcante e afasta quem ainda comunica transformação exagerada",
+      "fonte": {
+        "titulo": "Harmonização Facial em 2026: o que a ciência mudou e por que resultados naturais se tornaram a nova regra",
+        "url": "https://clinicasense.med.br/artigos/harmonizacao-facial-em-2026-o-que-a-ciencia-mudou-e-por-que-resultados-naturais-se-tornaram-a-nova-regra-na-estetica-medica"
+      },
+      "tema_mapeado": "posicionamento / perfil-que-atrai",
+      "prioridade": "alta",
+      "dor_ou_desejo_conectado": "perfil/posicionamento que atrai o público errado / paciente que pede desconto ou compara preço",
+      "por_que_relevante": "Movimento Quiet Beauty consolidado em 2026: paciente de alto valor busca equilíbrio e naturalidade, não transformação visível. Doutora que ainda comunica 'antes/depois exagerado' atrai exatamente quem quer resultado barato e óbvio — e afasta quem pagaria 5x mais pelo resultado que 'parece natural'. Tema posicionamento é o mais subproduzido do corpus (15x, maior saves_rate 8%).",
+      "gancho_vencedor_sugerido": "pergunta-paradoxo",
+      "gancho_exemplo": "Por que o seu melhor antes/depois — aquele que mostra a maior transformação — é exatamente o que afasta a paciente disposta a pagar R$8k?",
+      "pontuacao": {
+        "conecta_dor_ou_desejo": 2,
+        "mapeia_tema": 3,
+        "ancoravel_em_gancho_vencedor": 2,
+        "sem_distorcao": 3
+      },
+      "score_total": 10
+    },
+    {
+      "rank": 6,
+      "tema_candidato": "Faturamento previsível via KPIs de agenda — clínica que mede taxa de retorno e ticket médio cresce com controle",
+      "fonte": {
+        "titulo": "Previsibilidade de Faturamento na Odontologia use Sua Agenda",
+        "url": "https://hartsystem.com/previsibilidade-de-faturamento-na-odontologia/"
+      },
+      "tema_mapeado": "prospeccao-ativa / captacao (anuncio que lota agenda)",
+      "prioridade": "alta",
+      "dor_ou_desejo_conectado": "depender de sorte / faturamento aquém do talento técnico / previsibilidade, recorrência e indicação",
+      "por_que_relevante": "Clínicas que acompanham 3 indicadores (taxa de retorno, ticket médio por paciente, tempo médio entre consultas) têm previsibilidade de faturamento. A doutora que não mede não sabe quantas pacientes novas precisa captar — e fica refém do mês que vem. Ângulo novo: captação começa pelos números da base, não pelo tráfego.",
+      "gancho_vencedor_sugerido": "numero/lista",
+      "gancho_exemplo": "3 números que toda doutora deveria saber antes de abrir a agenda de segunda — e que a maioria nunca calculou.",
+      "pontuacao": {
+        "conecta_dor_ou_desejo": 3,
+        "mapeia_tema": 2,
+        "ancoravel_em_gancho_vencedor": 2,
+        "sem_distorcao": 3
+      },
+      "score_total": 10
+    },
+    {
+      "rank": 7,
+      "tema_candidato": "Estética preventiva crescendo — jovens adultos buscando longevidade facial como nova audiência de captação",
+      "fonte": {
+        "titulo": "Tendências em harmonização orofacial para 2026 - IBRAMED",
+        "url": "https://ibramed.com.br/tendencias-em-harmonizacao-orofacial-para-2026/"
+      },
+      "tema_mapeado": "prospeccao-ativa / captacao (anuncio que lota agenda)",
+      "prioridade": "alta",
+      "dor_ou_desejo_conectado": "agenda que não enche / depende de sorte / faturar mais trabalhando menos",
+      "por_que_relevante": "Crescimento expressivo de jovens (25-35) buscando procedimentos preventivos em 2026. Doutora que ainda só comunica para público de correção está ignorando um segmento novo com ticket médio crescente e fidelidade alta (paciente que começa cedo, fica anos). Ângulo de captação: ampliar público sem ampliar esforço.",
+      "gancho_vencedor_sugerido": "numero/lista",
+      "gancho_exemplo": "Por que a paciente de 28 anos que consultou uma vez vale mais para o seu negócio do que a de 45 que veio corrigir — e como atrair as duas.",
+      "pontuacao": {
+        "conecta_dor_ou_desejo": 2,
+        "mapeia_tema": 2,
+        "ancoravel_em_gancho_vencedor": 2,
+        "sem_distorcao": 2
+      },
+      "score_total": 8
+    },
+    {
+      "rank": 8,
+      "tema_candidato": "Hiper-realismo documental no Instagram 2026 — bastidores como narrativa principal supera resultado perfeito em engajamento",
+      "fonte": {
+        "titulo": "Tendências do Instagram 2026: O Guia Estratégico de Conteúdo",
+        "url": "https://www.posuscs.com.br/tendencias-do-instagram-2026-o-guia-estrategico-de-conteudo/noticia/3826"
+      },
+      "tema_mapeado": "posicionamento / perfil-que-atrai",
+      "prioridade": "alta",
+      "dor_ou_desejo_conectado": "perfil/posicionamento que atrai o público errado / depender de tráfego pago / agência",
+      "por_que_relevante": "Algoritmo e comportamento do usuário IG 2026 premiaram conteúdo de bastidores e processo sobre resultado final. Doutora que só posta foto de resultado 'perfeito' não gera confiança — e o sends_per_reach (sinal nº1 de distribuição) é mais alto em conteúdo que a colega manda pra outra colega, não em conteúdo que impressiona. Conecta diretamente com o padrão de posicionamento que gera saves.",
+      "gancho_vencedor_sugerido": "pergunta-paradoxo",
+      "gancho_exemplo": "Por que o perfil com as fotos mais bonitas recebe menos mensagem de 'quero agendar' do que o da doutora que mostra o consultório desorganizado às 7h?",
+      "pontuacao": {
+        "conecta_dor_ou_desejo": 2,
+        "mapeia_tema": 2,
+        "ancoravel_em_gancho_vencedor": 2,
+        "sem_distorcao": 2
+      },
+      "score_total": 8
+    },
+    {
+      "rank": 9,
+      "tema_candidato": "Dentista como gestor — clínica que opera só na técnica não escala faturamento mesmo com agenda cheia",
+      "fonte": {
+        "titulo": "Mercado odontológico em 2026: 6 coisas que mudaram e que todo dentista precisa saber",
+        "url": "https://blog.unic.com.br/mercado-odontologico-em-2026/"
+      },
+      "tema_mapeado": "posicionamento / perfil-que-atrai",
+      "prioridade": "alta",
+      "dor_ou_desejo_conectado": "faturamento aquém do talento técnico / trabalhar demais, sem equilíbrio / agenda cheia sem lucro proporcional",
+      "por_que_relevante": "Mercado odontológico 2026 exige visão de gestor: acompanhar indicadores, estruturar processos, precificar por valor. Doutora que opera só pela técnica não cresce porque não sabe quantas pacientes precisam chegar, qual ticket aumentar, quem reativar. Ângulo de posicionamento: identidade 'doutora-empresária' sem chamar de 'empreendedora'.",
+      "gancho_vencedor_sugerido": "pergunta-paradoxo",
+      "gancho_exemplo": "Por que a melhor profissional da região fecha o mês com menos lucro do que uma colega com metade do talento técnico?",
+      "pontuacao": {
+        "conecta_dor_ou_desejo": 3,
+        "mapeia_tema": 1,
+        "ancoravel_em_gancho_vencedor": 2,
+        "sem_distorcao": 2
+      },
+      "score_total": 8
+    },
+    {
+      "rank": 10,
+      "tema_candidato": "Consumidor de estética pesquisa 5 clínicas antes de decidir — como se destacar sem baixar preço",
+      "fonte": {
+        "titulo": "Panorama Completo do Mercado de Estética no Brasil",
+        "url": "https://tipoweb.com.br/estrategias/panorama-completo-mercado-estetica-brasil-2026/"
+      },
+      "tema_mapeado": "conducao-consulta",
+      "prioridade": "media",
+      "dor_ou_desejo_conectado": "paciente que pede desconto ou compara preço / consulta que não fecha (vou pensar)",
+      "por_que_relevante": "Consumidor de beleza 2026 é mais criterioso e pesquisa antes de decidir — compara preço, lê avaliações, olha antes/depois. A doutora que não sabe o que acontece entre o 'vi seu perfil' e o 'quero agendar' está perdendo na etapa de consideração, não por falta de qualidade. Ângulo de condução: o que decide quem é escolhida entre as 5.",
+      "gancho_vencedor_sugerido": "pergunta-paradoxo",
+      "gancho_exemplo": "O que faz a paciente que pesquisou 5 clínicas escolher exatamente a sua — sem ser o menor preço?",
+      "pontuacao": {
+        "conecta_dor_ou_desejo": 3,
+        "mapeia_tema": 2,
+        "ancoravel_em_gancho_vencedor": 3,
+        "sem_distorcao": 3
+      },
+      "score_total": 11
+    }
+  ],
+  "descartados": [
+    {
+      "tema": "Mercado de beleza bateu R$ 242bi em 2025 (+11.2%) — Brasil 3º maior mercado global",
+      "fonte": "https://ecommercenapratica.com/blog/mercado-da-beleza/",
+      "motivo": "Dado macroeconômico sem ponte com a dor individual da doutora HOF. Para virar carrossel acionável, exigiria distorção forçada ('R$242bi de mercado, mas sua agenda está vazia'). Padrão de descarte: analogia-mercado sem entrega tática. conecta=1, sem_distorcao=1."
+    },
+    {
+      "tema": "\"Ensina primeiro, vende depois\" — conteúdo educativo como principal estratégia de captação",
+      "fonte": "https://labgrowth.com.br/marketing-para-clinicas-de-estetica/",
+      "motivo": "Conflita diretamente com a tese central da marca: RECONECTA defende que conteúdo técnico afasta paciente comprador e educa quem nunca vai pagar. Usar essa tendência como carrossel contradiz o voice DNA. sem_distorcao=0 — não há como encaixar sem inverter o posicionamento da marca."
+    },
+    {
+      "tema": "IA para gestão clínica — automação administrativa e diagnóstico personalizado",
+      "fonte": "https://faculdadeith.com.br/2025/12/10/tendencias-estetica-avancada-2026/",
+      "motivo": "Tema de eficiência operacional genérico, não conecta com dores prioritárias (agenda/captação/posicionamento). Público RECONECTA não está preso em ineficiência operacional — está preso em captação e ticket. conecta=1, mapeia=0. Não passa o gate."
+    },
+    {
+      "tema": "Bioestimuladores de colágeno como destaque técnico de harmonização facial 2026",
+      "fonte": "https://ibramed.com.br/tendencias-em-harmonizacao-orofacial-para-2026/",
+      "motivo": "Tendência de procedimento clínico, não de negócio. Público-alvo RECONECTA são doutoras que já dominam a técnica — o que falta é a agenda cheia, não o protocolo. Sem distorção, não vira carrossel de captação. Nota: o ângulo RECORRÊNCIA de bioestimuladores (ciclo que força retorno) já está coberto no rank 2. conecta=0 sem distorção de ângulo."
+    },
+    {
+      "tema": "Resolução CFO 2026 — mudanças regulatórias em harmonização orofacial",
+      "fonte": "https://clinicaartface.com.br/blog/resolucao-cfo-harmonizacao-facial",
+      "motivo": "Conteúdo regulatório/compliance. Não conecta com dores de captação, agenda ou posicionamento. Exigiria distorção severa para virar carrossel acionável sobre negócio. mapeia=0, conecta=1."
+    },
+    {
+      "tema": "Mercado de beleza premium cresce 10% no Q1 2026 (CNN Brasil/Circana)",
+      "fonte": "https://www.cnnbrasil.com.br/economia/setor-de-beleza-no-brasil-cresceu-10-no-1o-trimestre-diz-circana/",
+      "motivo": "Dado de mercado agregado (cosmético + higiene + estética geral). Não é específico de HOF nem de consultório. Para a doutora individual, o número é validador mas não é conteúdo de negócio. Mesmo problema do R$242bi: distorção necessária. conecta=1, sem_distorcao=1."
+    }
+  ]
+}

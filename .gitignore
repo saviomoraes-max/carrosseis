@@ -1,0 +1,22 @@
+# Configuração local do agente (cada membro cria o seu, não vai pro git)
+agentes/carrossel/agente.config.json
+
+# Banco de imagens e dados gerados localmente
+agentes/carrossel/bank/
+agentes/carrossel/bank_manifest.json
+agentes/carrossel/provas_sociais/
+agentes/carrossel/provas_indice.json
+agentes/carrossel/logs/
+agentes/carrossel/SEM*/
+agentes/carrossel/.slack_token
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Config local do Claude Code (por usuário, nunca no git)
+.claude/settings.local.json
+.claude/worktrees/
+
+# Posts produzidos localmente (máquinas sem o SSD)
+producao/

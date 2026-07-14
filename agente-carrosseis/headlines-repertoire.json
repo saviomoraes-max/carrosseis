@@ -1,0 +1,277 @@
+{
+  "_doc": "Repertório persistente de técnicas de headline. O gerador escolhe uma técnica que case com o tema e ADAPTA a estrutura_abstrata — nunca inventa. Exemplos são fonte de inspiração estrutural (uso interno).",
+  "gerado_em": "2026-06-30",
+  "tecnicas": [
+    {
+      "tecnica": "curiosity-gap / pergunta-paradoxo",
+      "estrutura_abstrata": "Forma A (paradoxo embutido): \"Por que [grupo/coisa que deveria ter um resultado] [tem o resultado oposto]?\" — ex: \"Por que [quem mais estuda o caso] [erra mais na hora de fechar]?\" | Forma B (se-então invertido): \"Se você é tão [qualidade boa que você tem], por que [resultado bom não acontece]?\" | Forma C (mas-virada): \"Por que estamos [movimento positivo], mas [movimento negativo que contradiz]?\" A lacuna é a relação causal escondida: o leitor sabe os dois lados, não sabe o que liga um ao outro, e isso só fecha lendo.",
+      "porque_funciona": "A pergunta planta uma contradição que o cérebro não consegue deixar em aberto (curiosity gap de Loewenstein: a lacuna entre o que sei e o que quero saber vira coceira). O paradoxo é o gatilho mais forte porque o leitor reconhece os DOIS termos como verdadeiros (\"eu sou inteligente\" + \"eu não sou rico\") e a tensão entre eles exige resolução. Diferente de uma afirmação, a pergunta não entrega a resposta, então não tem como \"discordar e seguir\" — a única saída é o swipe. E como a pergunta usa um grupo onde o LEITOR se encaixa (inteligente, estudioso, dedicado), a coceira é pessoal, não abstrata.",
+      "fit": "Usar quando existe uma contradição REAL e reconhecível no nicho: o profissional faz tudo \"certo\" (estuda, se dedica, é tecnicamente bom) e mesmo assim não tem o resultado (agenda cheia, faturamento). Ideal pra capa de carrossel quando o slide 2 entrega o mecanismo escondido que resolve o paradoxo. Funciona melhor quando os dois termos são autoevidentes pro público.",
+      "anti": "Não usar quando a \"contradição\" é forçada ou o leitor não se reconhece nos dois termos (vira pergunta retórica vazia). Não usar se a resposta for óbvia demais (sem lacuna real = anticlímax no slide 2). Evitar empilhar com amplificador sensacionalista (\"Por que TODO dentista FRACASSA?\"). Não usar quando o conteúdo é uma lista tática direta (aí número/lista vence). E nunca prometer um paradoxo que o carrossel não resolve.",
+      "mapeia_para_gancho_reconecta": "venceu",
+      "exemplos": [
+        {
+          "headline": "Why Good Leaders Make Bad Decisions",
+          "portal": "Harvard Business Review (hbr.org)",
+          "url": "https://hbr.org/2009/02/why-good-leaders-make-bad-decisions",
+          "origem": "internacional"
+        },
+        {
+          "headline": "Why Price Match Guarantees Can Be Bad For Consumers",
+          "portal": "Harvard Business Review (hbr.org)",
+          "url": "https://hbr.org/2012/10/why-price-match-guarantees-can",
+          "origem": "internacional"
+        },
+        {
+          "headline": "Se você é tão inteligente, por que não é rico?",
+          "portal": "Exame",
+          "url": "https://exame.com/carreira/se-voce-e-tao-inteligente-por-que-nao-e-rico/",
+          "origem": "nacional"
+        },
+        {
+          "headline": "Por que estamos vivendo mais, mas poupando menos para o futuro? Veja explicações",
+          "portal": "InfoMoney",
+          "url": "https://www.infomoney.com.br/minhas-financas/por-que-estamos-vivendo-mais-mas-poupando-menos-para-o-futuro-veja-explicacoes/",
+          "origem": "nacional"
+        },
+        {
+          "headline": "Pearls Before Breakfast: Can one of the nation's great musicians cut through the fog of a D.C. rush hour? Let's find out.",
+          "portal": "The Washington Post",
+          "url": "https://www.washingtonpost.com/lifestyle/magazine/pearls-before-breakfast-can-one-of-the-nations-great-musicians-cut-through-the-fog-of-a-dc-rush-hour-lets-find-out/2014/09/23/8a6d46da-4331-11e4-b47c-f5889e061e5f_story.html",
+          "origem": "internacional",
+          "nota": "Forma 'experimento': pergunta testável (a excelência consegue vencer um contexto banal?) + convite 'Let's find out'. Pulitzer de feature 2008. Base do RLS005 (violinista do metrô, 2026-07): a resposta contraintuitiva do experimento (ninguém parou) é o que carrega a viralização."
+        }
+      ]
+    },
+    {
+      "tecnica": "numero-lista",
+      "estrutura_abstrata": "\"[N] [coisas/erros/hábitos/sinais] que [verbo de consequência relevante pro leitor]\" — opcionalmente prefixado por uma fonte de autoridade (\"Médico lista...\", \"Especialista aponta...\") e/ou sufixado por um curiosity gap (\"...e você não sabia\"). O número é específico e pequeno (3, 5, 7), nunca redondo-vago tipo \"vários\".",
+      "porque_funciona": "O número promete um contrato cognitivo fechado: o leitor sabe exatamente quanto esforço a leitura vai custar (são 5, não infinito) e que existe um fim. Isso reduz a fricção de clicar. Ao mesmo tempo, o número cria uma lacuna contável: \"são 5 erros, será que eu cometo algum?\" — a mente quer fechar a lista e se auditar. Número ímpar e pequeno soa mais curado e crível do que redondo grande (10, 20). Quando some autoridade na frente (\"médico lista\") a lista herda credibilidade; quando some o gap atrás (\"e você não sabia\") ativa a vaidade do leitor que se acha informado.",
+      "fit": "Quando o conteúdo é genuinamente enumerável e a capa pode prometer um inventário fechado: erros que o profissional comete sem perceber, sinais de um problema, etapas de um método, hábitos que sabotam. Forte pra abrir carrossel porque o número já anuncia a quantidade de slides úteis. Ideal quando queremos que o leitor se audite contra a lista.",
+      "anti": "Não usar quando o conteúdo na verdade é UMA ideia só esticada artificialmente em N itens. Evitar números grandes/redondos (10, 15, 20) que sinalizam listicle raso de SEO. Não usar quando a força do material está numa virada de raciocínio ou num paradoxo. Evitar empilhar com adjetivo amplificador (\"7 erros CHOCANTES\").",
+      "mapeia_para_gancho_reconecta": "venceu",
+      "exemplos": [
+        {
+          "headline": "Médico lista 5 hábitos que prejudicam a saúde mental e você não sabia",
+          "portal": "Metrópoles",
+          "url": "https://www.metropoles.com/saude/5-habitos-prejudicam-saude-mental",
+          "origem": "nacional"
+        },
+        {
+          "headline": "Dia Mundial da Saúde Mental: veja 5 hábitos que prejudicam",
+          "portal": "Metrópoles",
+          "url": "https://www.metropoles.com/saude/dia-mundial-saude-mental-5-habitos",
+          "origem": "nacional"
+        },
+        {
+          "headline": "5 Things New Managers Should Focus on First",
+          "portal": "Harvard Business Review",
+          "url": "https://hbr.org/2017/05/5-things-new-managers-should-focus-on-first",
+          "origem": "internacional"
+        },
+        {
+          "headline": "3 Things Managers Should Be Doing Every Day",
+          "portal": "Harvard Business Review",
+          "url": "https://hbr.org/2015/09/3-things-managers-should-be-doing-every-day",
+          "origem": "internacional"
+        }
+      ]
+    },
+    {
+      "tecnica": "negacao-pivo",
+      "estrutura_abstrata": "\"Não é [causa óbvia/culpada de praxe], é [causa real, deslocada].\" Variante de só-negação: \"[Tema] não é [enquadramento errado]\". Variante de localização: \"O problema não está em [onde todo mundo olha], está em [onde ninguém olha].\" Núcleo invariável: nega o diagnóstico de senso comum e reancora a causa em outro lugar.",
+      "porque_funciona": "A primeira metade (\"não é X\") valida o que o leitor já pensa só pra puxar o tapete: ele se reconhece no diagnóstico errado. Isso cria uma microexpectativa de correção — se não é X, então o quê? — e o cérebro fica em débito até receber o Y. A negação também faz trabalho de identidade: alivia culpa (\"não é falta de força de vontade\") ou desmonta uma desculpa (\"não é falta de tempo\"). O pivô entrega um reframe que reorganiza a causa: dá a sensação de insight. É curiosity gap + alívio/acusação + promessa de mecanismo, em uma frase de duas batidas.",
+      "fit": "Quando o público carrega um diagnóstico equivocado e confortável sobre por que está travado, e a sacada do carrossel é trocar a causa. Ideal para abrir desmontando a desculpa-padrão do nicho (\"não é falta de paciente, é...\", \"não é o preço, é...\") e ancorar no mecanismo RECONECTA. Forte para slide 1 de carrossel de reframe e para o slide-virada. Funciona melhor quando o Y é específico e não-óbvio.",
+      "anti": "Não usar quando o Y é genérico ou óbvio (\"não é sorte, é trabalho duro\") — vira clichê motivacional. Evitar quando você não tem como sustentar o pivô com mecanismo/prova no corpo do carrossel. Não empilhar negações (\"não é A, não é B, não é C, é D\"). E cuidado com tom acusatório demais no high-ticket: negar a desculpa não pode soar como \"a culpa é sua\".",
+      "mapeia_para_gancho_reconecta": "mediano",
+      "exemplos": [
+        {
+          "headline": "Disruption: It's Not the Tech, It's the Timing",
+          "portal": "Harvard Business Review",
+          "url": "https://hbr.org/2016/11/right-tech-wrong-time",
+          "origem": "internacional"
+        },
+        {
+          "headline": "It's not a labor shortage — it's a wage and workers rights shortage",
+          "portal": "The Hill",
+          "url": "https://thehill.com/opinion/finance/570441-its-not-a-labor-shortage-its-a-wage-and-worker-rights-shortage/",
+          "origem": "internacional"
+        },
+        {
+          "headline": "Obesidade não é falta de força de vontade – é doença",
+          "portal": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/opiniao/artigos/obesidade-nao-e-falta-de-forca-de-vontade-e-doenca/",
+          "origem": "nacional"
+        },
+        {
+          "headline": "É doença e não falta de vontade: médico diz o que perder 47 kg o ensinou",
+          "portal": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/saude/e-doenca-e-nao-falta-de-vontade-medico-conta-o-que-aprendeu-ao-emagrecer/",
+          "origem": "nacional"
+        },
+        {
+          "headline": "Digital Transformation Is Not About Technology",
+          "portal": "Harvard Business Review",
+          "url": "https://hbr.org/2019/03/digital-transformation-is-not-about-technology",
+          "origem": "internacional"
+        },
+        {
+          "headline": "Pricing Needs to Reflect Who People Want to Be, Not Just What They Want",
+          "portal": "Harvard Business Review",
+          "url": "https://hbr.org/2019/01/pricing-needs-to-reflect-who-people-want-to-be-not-just-what-they-want",
+          "origem": "internacional",
+          "nota": "negação-pivô aplicada a PREÇO: nega o enquadramento funcional (o que querem) e reancora em identidade (quem querem ser). Base do argumento 'o preço escolhe o cliente' (RLS004 brigadeiro, 2026-07)."
+        }
+      ]
+    },
+    {
+      "tecnica": "contraste-mensuravel",
+      "estrutura_abstrata": "\"De [ponto de partida com número/baixo] a [ponto de chegada com número/alto]\" ou \"[Métrica] saltou de [X] para [Y] em [janela de tempo]\". O núcleo é DOIS números concretos da MESMA métrica (dinheiro, tempo, quantidade) ancorando os dois extremos de uma transformação, idealmente com a janela de tempo explícita. Variante de multiplicador: \"[dobrou/triplicou] [métrica] para [Y] em [tempo]\".",
+      "porque_funciona": "A mente precifica a distância entre os dois números antes de decidir se quer a explicação. Um número sozinho é só um fato; dois números em contraste viram uma RAZÃO — o cérebro calcula o delta e esse salto abre a lacuna de causalidade: \"como saiu daqui pra lá?\". A janela de tempo transforma o salto em algo replicável e urgente, não sorte. O ponto de partida humilde (\"do zero\", \"R$ 20 mil emprestado\") cria identificação. É prova social quantificada sem precisar de adjetivo: o número grande É o elogio, o leitor faz a conta sozinho.",
+      "fit": "Quando você tem DOIS números reais e verificáveis da mesma métrica (antes e depois), de preferência com janela de tempo. Ideal pra capa de carrossel de caso/SUPERCASO onde a transformação da mentorada é mensurável. Funciona melhor quando o ponto de partida é humilde/relacionável. Casa direto com a \"Agenda do Milhão\" e com depoimentos onde o R$ aparece nítido.",
+      "anti": "Não usar sem os dois números REAIS — inventar o \"de X\" pra forçar o contraste viola \"nunca inventar dados\". Não usar quando o ponto de chegada é modesto (gap pequeno = sem ginástica mental). Evitar quando partida e chegada são métricas diferentes (compara laranja com maçã). Não empilhar com adjetivo amplificador. E cuidado com promessa implícita de que o resultado é garantido pra todos.",
+      "mapeia_para_gancho_reconecta": "mediano",
+      "exemplos": [
+        {
+          "headline": "Em 2 anos, startup vai do zero aos R$ 40 milhões com marketing de ponto de ônibus para Itaú e Amazon",
+          "portal": "Exame",
+          "url": "https://exame.com/negocios/em-2-anos-startup-vai-do-zero-aos-r-40-milhoes-com-marketing-de-ponto-de-onibus-para-itau-e-amazon/",
+          "origem": "nacional"
+        },
+        {
+          "headline": "Como empreender do zero? Casal pega R$ 20 mil emprestado e fatura R$ 48 milhões",
+          "portal": "Exame",
+          "url": "https://exame.com/invest/minhas-financas/empreender-zero-casal-mil-emprestado-fatura-milhoes/amp/",
+          "origem": "nacional"
+        },
+        {
+          "headline": "De zero a US$ 100 milhões: 6 decisões financeiras que impulsionaram essa startup de IA",
+          "portal": "Exame",
+          "url": "https://exame.com/negocios/de-zero-a-us-100-milhoes-6-decisoes-financeiras-que-impulsionaram-ess-startup-de-ia/",
+          "origem": "nacional"
+        },
+        {
+          "headline": "Cursor Recurring Revenue Doubles in Three Months to $2 Billion",
+          "portal": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-03-02/cursor-recurring-revenue-doubles-in-three-months-to-2-billion",
+          "origem": "internacional"
+        },
+        {
+          "headline": "Scale AI Expects to More Than Double Sales to $2 Billion in 2025",
+          "portal": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2025-04-02/scale-ai-expects-to-more-than-double-sales-to-2-billion-in-2025",
+          "origem": "internacional"
+        }
+      ]
+    },
+    {
+      "tecnica": "auto-reconhecimento (pergunta-espelho)",
+      "estrutura_abstrata": "\"[Sinais de que / Será que] você [está fazendo / é / tem] [comportamento ou condição comum] sem perceber?\" — variações: \"X sinais de que você é [identidade indesejada]\", \"Como [hábito banal que você tem] pode estar [te prejudicando]\", \"Você saberia dizer se [você é o problema]?\"",
+      "porque_funciona": "A headline não acusa nem ensina: devolve um espelho. O leitor é forçado a rodar uma auto-auditoria (\"será que eu faço isso?\") e, como o comportamento é descrito como invisível/automático (\"sem perceber\"), ele não consegue se eximir de imediato — a única forma de fechar a lacuna é abrir e ler. A ginástica é dupla: susto de identidade + curiosidade de diagnóstico. O \"sem perceber\" desarma a defesa. Isso filtra o público certo: quem se reconhece é exatamente o lead com o problema que o produto resolve.",
+      "fit": "Quando o público comete um erro estrutural que ele não enxerga como erro (acha que está fazendo certo) — dentista que \"agrada e vai pensar\", profissional que afasta paciente sem perceber, gestor que sabota a própria agenda. Ideal pra slide 1 de topo de funil onde o objetivo é parar o scroll por identidade, não por dado. Funciona melhor com comportamento cotidiano e automático.",
+      "anti": "Quando o público JÁ sabe que tem o problema (o espelho não gera susto). Evitar quando o comportamento é raro/extremo (ninguém se reconhece) ou quando a condição é grave/clínica (vira alarmismo). Não usar como muleta repetida em todo carrossel. E nunca prometer diagnóstico que o conteúdo não entrega.",
+      "mapeia_para_gancho_reconecta": "mediano",
+      "exemplos": [
+        {
+          "headline": "Signs You Might Be a Toxic Colleague",
+          "portal": "Harvard Business Review (hbr.org)",
+          "url": "https://hbr.org/2016/03/signs-you-might-be-a-toxic-colleague",
+          "origem": "internacional"
+        },
+        {
+          "headline": "Would You Know If You're a Toxic Colleague?",
+          "portal": "Harvard Business Review (hbr.org)",
+          "url": "https://hbr.org/tip/2016/04/would-you-know-if-youre-a-toxic-colleague",
+          "origem": "internacional"
+        },
+        {
+          "headline": "Is Self-Sabotage Burning You Out?",
+          "portal": "Harvard Business Review (hbr.org)",
+          "url": "https://hbr.org/2020/11/is-self-sabotage-burning-you-out",
+          "origem": "internacional"
+        },
+        {
+          "headline": "Por que dizer não é tão difícil e como isso pode estar adoecendo você?",
+          "portal": "Jovem Pan (jovempan.com.br)",
+          "url": "https://jovempan.com.br/saude/por-que-dizer-nao-e-tao-dificil-e-como-isso-pode-estar-adoecendo-voce.html",
+          "origem": "nacional"
+        }
+      ]
+    },
+    {
+      "tecnica": "paradoxo-contraintuitivo",
+      "estrutura_abstrata": "\"[Ação que parece sabotar o objetivo] [na verdade entrega o objetivo].\" Ou no formato pergunta/comando: \"Quer [resultado desejado]? [Faça o oposto do esperado].\" A headline coloca lado a lado a ação aparentemente errada e o ganho — o leitor precisa abrir pra entender o mecanismo que reconcilia os dois. Variável A (o \"erro\": fazer menos, cortar, recusar, ir devagar) + Variável B (o ganho que A deveria destruir, mas produz).",
+      "porque_funciona": "Cria dissonância cognitiva proposital: o cérebro fica com um loop aberto (\"fazer MENOS rende MAIS?\"). Como a afirmação contradiz o senso comum mas vem de fonte séria, o leitor não descarta como burrice; precisa abrir pra resolver a contradição e descobrir o mecanismo escondido. É curiosity gap turbinada por desafio à crença. Funciona melhor quando o público vive a crença oposta no dia a dia (acha que precisa fazer MAIS pra crescer). Contrato implícito: a matéria PRECISA entregar o mecanismo que sustenta o paradoxo, senão vira clickbait furado.",
+      "fit": "Quando a tese RECONECTA contraria o instinto óbvio do dentista/médico: \"atender menos paciente e faturar mais\", \"a vitrine bonita que afasta cliente\", \"recusar caso te dá autoridade\". Ideal quando o público já tenta com força a direção oposta (mais volume, mais desconto) e está exausto sem resultado. Casa com SUPERCASO e com a Agenda do Milhão (poucos pacientes certos > muitos errados).",
+      "anti": "Não use quando a afirmação contra-intuitiva for só provocação sem mecanismo real (público de saúde é cético). Evite se o \"paradoxo\" exigir exagero pra existir (\"pare de trabalhar e fique rico\"). Não funciona com tema onde o senso comum JÁ é o certo. Evite empilhar amplificador sensacionalista. E não use quando o leitor não vive a crença oposta — sem a premissa instalada, não há dissonância.",
+      "mapeia_para_gancho_reconecta": "mediano",
+      "exemplos": [
+        {
+          "headline": "Want to Be More Productive? Try Doing Less.",
+          "portal": "Harvard Business Review",
+          "url": "https://hbr.org/2020/05/want-to-be-more-productive-try-doing-less",
+          "origem": "internacional"
+        },
+        {
+          "headline": "Leaders Shouldn't Try to Do It All",
+          "portal": "Harvard Business Review",
+          "url": "https://hbr.org/2025/01/leaders-shouldnt-try-to-do-it-all",
+          "origem": "internacional"
+        },
+        {
+          "headline": "The Outsized Benefits of \"Minimalist\" Leadership",
+          "portal": "Harvard Business Review",
+          "url": "https://hbr.org/2023/12/the-outsized-benefits-of-minimalist-leadership",
+          "origem": "internacional"
+        },
+        {
+          "headline": "Reduzir reuniões traz menos gastos e mais produtividade",
+          "portal": "Forbes Brasil",
+          "url": "https://forbes.com.br/carreira/2022/08/reduzir-reunioes-traz-menos-gastos-e-mais-produtividade/",
+          "origem": "nacional"
+        },
+        {
+          "headline": "O impacto surpreendente de cortar 30% das suas reuniões",
+          "portal": "Exame",
+          "url": "https://exame.com/carreira/o-impacto-surpreendente-de-cortar-30-das-suas-reunioes/",
+          "origem": "nacional"
+        },
+        {
+          "headline": "Como fechar negócio até com quem se assustou com seus preços",
+          "portal": "Exame",
+          "url": "https://exame.com/pme/como-fechar-negocio-ate-com-quem-se-assustou-com-seus-precos/",
+          "origem": "nacional",
+          "nota": "paradoxo de preço: fechar COM quem se assustou com o preço. Achado na pesquisa do RLS004 (brigadeiro/posicionamento, 2026-07)."
+        }
+      ]
+    },
+    {
+      "tecnica": "especificidade-concreta",
+      "estrutura_abstrata": "[Número/quantidade precisa e pequena: \"11 minutos por dia\", \"$1 bilhão por mês\"] + [efeito desproporcional ancorado nesse número: \"reduz risco de morte precoce\", \"queima o caixa\"]. Variante forte: pergunta-gatilho com o número na frente — \"Tem [número exato]? [Consequência grande].\" O número é específico e improvável (11, não \"10\"; $1 bi/mês, não \"muito dinheiro\"). Promessa PRECISA, não promessa MAIOR (Schwartz).",
+      "porque_funciona": "Um número quebrado e específico sinaliza que existe um estudo/fonte real por trás (\"11 minutos\" lê-se como \"alguém mediu isso\", enquanto \"alguns minutos\" soa inventado). A precisão cria credibilidade instantânea E uma lacuna de curiosidade — \"por que 11 e não 10?\". Schwartz: a mente confia mais na promessa estreita e mensurável do que na grande e vaga. O número pequeno (11 min, 1 paciente) reduz a fricção de entrada: \"isso eu consigo fazer\". Baixa barreira + alto payoff ancorado num dado = irresistível conferir.",
+      "fit": "Quando você tem UM dado real e preciso pra ancorar a promessa: um número de tempo/dinheiro/quantidade específico e levemente surpreendente. Ideal pra capa que precisa de credibilidade imediata sem soar sensacionalista. Forte quando o número é pequeno/acessível (\"11 minutos\", \"1 paciente que educa\", \"5 conteúdos no feed\") ou quando um valor financeiro exato choca pela escala.",
+      "anti": "Quando você NÃO tem o dado real — fabricar número viola \"nunca inventar dados em copy\". Quando o número é redondo e óbvio (\"10 dicas\", \"100% de aumento\"), perde o efeito de precisão. Quando a especificidade exige adjetivo amplificador pra funcionar. Evitar quando o número precisa de muito contexto pra fazer sentido numa headline de capa.",
+      "mapeia_para_gancho_reconecta": "mediano",
+      "exemplos": [
+        {
+          "headline": "Got 11 minutes? A daily brisk walk could lower risk for early death.",
+          "portal": "The Washington Post",
+          "url": "https://www.washingtonpost.com/wellness/2023/02/28/daily-exercise-longevity-walking-11-minutes/",
+          "origem": "internacional"
+        },
+        {
+          "headline": "Daily 11 minute brisk walk enough to reduce risk of early death",
+          "portal": "University of Cambridge",
+          "url": "https://www.cam.ac.uk/research/news/daily-11-minute-brisk-walk-enough-to-reduce-risk-of-early-death",
+          "origem": "internacional"
+        },
+        {
+          "headline": "Musk's xAI Burns Through $1 Billion a Month as Costs Pile Up",
+          "portal": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2025-06-17/musk-s-xai-burning-through-1-billion-a-month-as-costs-pile-up",
+          "origem": "internacional"
+        }
+      ]
+    }
+  ]
+}

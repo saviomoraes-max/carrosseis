@@ -1,0 +1,131 @@
+{
+  "_doc": "Filtro de relevância do agente de carrosséis. A skill de tendências roda cada candidato por aqui ANTES de virar carrossel. Tendência que não conversa com o público é DESCARTADA e logada, nunca adaptada na marra.",
+  "publico": {
+    "quem": "Dentistas, médicos e biomédicos que fazem harmonização facial (HOF). Predominantemente mulheres, tratadas por 'doutora'.",
+    "nivel": "Tecnicamente boas, mas presas num faturamento que não reflete o talento.",
+    "nao_e_para": "Público leigo/paciente final; iniciantes sem clínica; nichos fora de estética."
+  },
+  "dores_nucleo": [
+    "agenda que não enche / depende de sorte",
+    "paciente que pede desconto ou compara preço",
+    "faturamento aquém do talento técnico",
+    "depender de tráfego pago / agência",
+    "consulta que não fecha (vou pensar)",
+    "paciente que não valoriza / não volta",
+    "falta de recorrência e de indicação",
+    "perfil/posicionamento que atrai o público errado",
+    "trabalhar demais, sem equilíbrio com a vida"
+  ],
+  "desejos": [
+    "agenda cheia de paciente que paga e valoriza",
+    "faturar mais trabalhando menos",
+    "autoridade e posicionamento (ser escolhida, não comparada)",
+    "previsibilidade, recorrência e indicação"
+  ],
+  "temas_priorizados": [
+    {
+      "tema": "posicionamento / perfil-que-atrai",
+      "veredito": "venceu",
+      "prioridade": "alta",
+      "recomendacao_volume": "aumentar"
+    },
+    {
+      "tema": "recorrencia",
+      "veredito": "venceu",
+      "prioridade": "alta",
+      "recomendacao_volume": "aumentar"
+    },
+    {
+      "tema": "indicacao / follow-up (cadência de lead)",
+      "veredito": "venceu",
+      "prioridade": "alta",
+      "recomendacao_volume": "aumentar"
+    },
+    {
+      "tema": "prospeccao-ativa / captacao (anuncio que lota agenda)",
+      "veredito": "venceu",
+      "prioridade": "alta",
+      "recomendacao_volume": "aumentar"
+    },
+    {
+      "tema": "conducao-consulta",
+      "veredito": "mediano",
+      "prioridade": "media",
+      "recomendacao_volume": "manter"
+    },
+    {
+      "tema": "supercaso (CTA/mecanismo)",
+      "veredito": "mediano",
+      "prioridade": "media",
+      "recomendacao_volume": "manter"
+    },
+    {
+      "tema": "conteudo-educativo-afasta / venda-invisivel",
+      "veredito": "mediano",
+      "prioridade": "media",
+      "recomendacao_volume": "manter"
+    },
+    {
+      "tema": "objecao-preco",
+      "veredito": "mediano",
+      "prioridade": "baixa",
+      "recomendacao_volume": "reduzir"
+    },
+    {
+      "tema": "autoridade / posicionamento-autoridade",
+      "veredito": "so_existiu",
+      "prioridade": "baixa",
+      "recomendacao_volume": "reduzir"
+    },
+    {
+      "tema": "trafego-auto-financiado / gestor-queima-orcamento",
+      "veredito": "so_existiu",
+      "prioridade": "baixa",
+      "recomendacao_volume": "reduzir"
+    },
+    {
+      "tema": "caso-real-interior (nome próprio)",
+      "veredito": "mediano",
+      "prioridade": "baixa",
+      "recomendacao_volume": "reduzir"
+    },
+    {
+      "tema": "experiencia / virginia-37-dias / inovacao-ajuste-fino",
+      "veredito": "so_existiu",
+      "prioridade": "baixa",
+      "recomendacao_volume": "reduzir"
+    }
+  ],
+  "rubrica_de_pontuacao": {
+    "_como": "Pontue 0-3 cada critério. Só vira candidato se passar no GATE.",
+    "criterios": [
+      {
+        "c": "conecta_dor_ou_desejo",
+        "peso": "obrigatório",
+        "regra": "a tendência toca uma dor/desejo do público sem forçar? 0=não toca → DESCARTA."
+      },
+      {
+        "c": "mapeia_tema",
+        "peso": "alto",
+        "regra": "encaixa num tema do inventário? bônus se o tema é prioridade ALTA (aumentar)."
+      },
+      {
+        "c": "ancoravel_em_gancho_vencedor",
+        "peso": "medio",
+        "regra": "dá pra abrir com pergunta-paradoxo ou número/lista (ganchos que venceram)?"
+      },
+      {
+        "c": "sem_distorcao",
+        "peso": "obrigatório",
+        "regra": "encaixa naturalmente? se só cabe torcendo o sentido → DESCARTA e loga."
+      }
+    ],
+    "gate": "Passa se: conecta_dor_ou_desejo>=2 E sem_distorcao>=2 E mapeia_tema>=1. Empate desempata por prioridade do tema (aumentar > manter > reduzir).",
+    "vies_de_prioridade": "Tendências que mapeiam pra temas 'aumentar' (indicação, recorrência, perfil-que-atrai, prospecção) sobem na fila. Temas 'reduzir' (objeção-preço pura, autoridade-via-celebridade) só entram com ângulo novo e execução forte."
+  },
+  "descarte_obrigatorio": [
+    "tendência puramente de cultura pop/celebridade sem ponte real pra uma dor (analogia-celebridade só existiu na conta)",
+    "tema que exige inventar dado/caso pra funcionar",
+    "assunto de público leigo (paciente final), não da doutora"
+  ]
+}

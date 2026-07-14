@@ -1,0 +1,93 @@
+=== tendencias-research 2026-07-01 07:42 ===
+Fila gravada. Aqui está o resumo completo:
+
+---
+
+## Tendências Research — Resultado
+
+**15 candidatos avaliados · 12 aprovados · 3 descartados**
+
+### Aprovados (por prioridade)
+
+| Rank | Tema | Mapeado para | Prioridade |
+|------|------|-------------|-----------|
+| 1 | Jornadas de cuidado 30-90 dias vs sessão avulsa | recorrência | **alta** (score 12) |
+| 2 | WhatsApp como palco de vendas — consulta começa antes da clínica | indicação / follow-up | **alta** (score 12) |
+| 3 | CFM liberou antes/depois real — arma que a maioria não usa | supercaso / posicionamento | **alta** (score 10) |
+| 4 | Quiet Beauty — resultado natural afasta paciente de valor se posicionamento errado | perfil-que-atrai | **alta** (score 9) |
+| 5 | Algoritmo Instagram 2026: shares > curtidas | prospecção-ativa / captação | **alta** (score 9) |
+| 6 | Bioestimuladores como protocolo de manutenção = recorrência automática | recorrência | **alta** (score 9) |
+| 7 | **Julho/agosto = janela de pré-verão** ⚠️ URGÊNCIA SAZONAL | prospecção-ativa / captação | **alta** (score 8) |
+| 8 | Tempo de resposta ao lead: 15 min decide a consulta | indicação / follow-up | **alta** (score 11) |
+| 9 | Público masculino em alta — maioria das clínicas não sabe converter | perfil-que-atrai | **alta** (score 8) |
+| 10 | Base dormente: paciente que pagou R$6k sumiu há 6 meses | recorrência | **alta** (score 8) |
+| 11 | Conteúdo educativo repele enquanto parece construir autoridade | conteudo-educativo-afasta | **média** (score 11) |
+| 12 | IA para segmentação de anúncios — gestor queima orçamento sem critério | tráfego | **baixa** (score 7) |
+
+### Descartados (com motivo)
+- **Brasil top 4 mundial de beleza** — dado macro sem ponte com dor da doutora HOF
+- **Neuro glow / bem-estar holístico** — conteúdo de paciente leigo, não da profissional
+- **IA para análise facial** — ferramenta técnica de procedimento, sem dor de negócio
+
+---
+
+**Observação de urgência:** o candidato rank 7 (janela de pré-verão julho/agosto) tem janela de relevância curta — ideal para os próximos 2 carrosséis antes de agosto. O gerador-carrossel pode consumir a fila em `/agente-carrosseis/data/trends-queue.json` diretamente.
+
+Sources:
+- [Tendências em harmonização orofacial para 2026 - IBRAMED](https://ibramed.com.br/tendencias-em-harmonizacao-orofacial-para-2026/)
+- [Harmonização Facial em 2026: O Que Está em Alta - Dra. Leticia Bidigaray](https://draleticiabidigaray.com.br/2026/01/08/harmonizacao-facial-2026/)
+- [Captação de pacientes online: guia para clínicas em 2026](https://blog.meets.com.br/captacao-de-pacientes-online-guia-para-clinicas-em-2026/)
+- [Tráfego Pago para Clínicas de Estética em 2026](https://raphaelhenriques.com/blog/trafego-pago-para-clinicas-de-cirurgia-plastica-e-estetica-2026/)
+- [GUIA COMPLETO: As 26 Mudanças do Algoritmo do Instagram em 2026](https://rafaelterra.com.br/guia-algoritmo-instagram-2026/)
+- [Tendências saúde estética: o que muda em 2026](https://adoxy.com.br/blog/tendencias-de-saude-estetica/)
+- [Resolução CFM libera fotos como "Antes e Depois"](https://portal.cfm.org.br/noticias/resolucao-libera-fotos-como-antes-e-depois/)
+- [Calendário 2026: datas estratégicas para negócios de beleza](https://blog.trinks.com/calendario-2026-datas-estrategicas-para-negocios-de-beleza/)
+- [Panorama Completo do Mercado de Estética no Brasil 2026](https://tipoweb.com.br/estrategias/panorama-completo-mercado-estetica-brasil-2026/)
+- [Octaprice: O consumidor do futuro 2026](https://octaprice.com/pt-br/o-consumidor-do-futuro-2026-as-6-tendencias-para-a-industra-da-beleza/)
+--- fim (exit 0) ---
+=== tendencias-research 2026-07-03 07:35 ===
+API Error: Stream idle timeout - partial response received
+--- fim (exit 1) ---
+=== tendencias-research 2026-07-06 07:41 ===
+Fila gravada. Resumo da rodada de 2026-07-06:
+
+---
+
+**10 aprovados** (ordenados por tema "aumentar" → score):
+
+| Rank | Tema | Tema mapeado | Score |
+|------|------|--------------|-------|
+| 1 | Indicação passiva não escala — sistema ativo de indicação | indicação/follow-up | 12 |
+| 2 | Planos de tratamento contínuo vs. sessão isolada | recorrência | 12 |
+| 3 | Parcerias entre especialidades como fluxo de indicação | indicação/follow-up | 11 |
+| 4 | Agenda cheia ≠ lucro — armadilha da ocupação | recorrência | 11 |
+| 5 | Quiet Beauty — paciente de valor rejeita resultado marcante | posicionamento/perfil-que-atrai | 10 |
+| 6 | Faturamento previsível via KPIs de agenda | captação/prospecção-ativa | 10 |
+| 7 | Estética preventiva — jovens como nova audiência de captação | captação/prospecção-ativa | 8 |
+| 8 | Hiper-realismo documental no IG — bastidores > resultado perfeito | posicionamento/perfil-que-atrai | 8 |
+| 9 | Dentista como gestor — técnica não escala faturamento sozinha | posicionamento/perfil-que-atrai | 8 |
+| 10 | Consumidor pesquisa 5 clínicas — como ser escolhida sem baixar preço | condução-consulta | 11 |
+
+**6 descartados** com motivo: mercado macro sem ponte tática (×2), "ensina antes de vender" conflita com tese da marca, IA operacional fora das dores prioritárias, bioestimuladores como técnica (ângulo de negócio já coberto no rank 2), regulatório CFO.
+
+O rank 3 (parcerias entre especialidades) é o ângulo mais novo — não existia nas 7x de indicação do corpus. Bom candidato para o próximo carrossel.
+
+Sources:
+- [Marketing para clínicas em 2026: da indicação ao crescimento previsível](https://4medic.com.br/marketing-para-clinicas-em-2026-da-indicacao-ao-crescimento-previsivel/)
+- [Tendências saúde estética: o que muda em 2026](https://adoxy.com.br/blog/tendencias-de-saude-estetica/)
+- [Indicação de Pacientes: 7 Estratégias Comprovadas](https://c.facilconsulta.com.br/indicacao-de-pacientes-7-estrategias-comprovadas-para-sua-clinica/)
+- [Gestão odontológica: sua clínica cresce ou só lota?](https://www.clinicorp.com/post/clinica-crescendo-ou-ficando-mais-ocupada)
+- [Harmonização Facial em 2026: resultados naturais como nova regra](https://clinicasense.med.br/artigos/harmonizacao-facial-em-2026-o-que-a-ciencia-mudou-e-por-que-resultados-naturais-se-tornaram-a-nova-regra-na-estetica-medica)
+- [Previsibilidade de Faturamento na Odontologia](https://hartsystem.com/previsibilidade-de-faturamento-na-odontologia/)
+- [Tendências do Instagram 2026: Guia Estratégico](https://www.posuscs.com.br/tendencias-do-instagram-2026-o-guia-estrategico-de-conteudo/noticia/3826)
+- [Panorama Completo do Mercado de Estética no Brasil](https://tipoweb.com.br/estrategias/panorama-completo-mercado-estetica-brasil-2026/)
+--- fim (exit 0) ---
+=== tendencias-research 2026-07-08 07:32 ===
+API Error: Stream idle timeout - partial response received
+--- fim (exit 1) ---
+=== tendencias-research 2026-07-10 07:39 ===
+API Error: Stream idle timeout - partial response received
+--- fim (exit 1) ---
+=== tendencias-research 2026-07-13 07:44 ===
+API Error: Stream idle timeout - partial response received
+--- fim (exit 1) ---

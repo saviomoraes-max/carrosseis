@@ -1,0 +1,339 @@
+{
+  "version": "2.0",
+  "source": "Figma master — https://www.figma.com/design/Umktc72a6ZMfPhmNnew6TB/Design-referencia-claude (10 frames Futurista 1-10)",
+  "extraído_em": "2026-05-07",
+  "supersede": "v1.0 (baseline do template Python). Sistema visual completamente redesenhado.",
+  "atualizar_quando": "Figma master for revisado — rerodar figma-reader, comparar primitivas e regerar este arquivo",
+
+  "design_system": {
+    "paleta": {
+      "BG_DARK": {
+        "hex": "#2d0000",
+        "uso": "background padrão de slides dark (slides 2, 5 (gradient base), 6, 7, 8, 9, 10)"
+      },
+      "BG_CREAM": {
+        "hex": "#f2ddb6",
+        "uso": "background de slides cream (slide 4) — bege quente"
+      },
+      "BG_LIGHT": {
+        "hex": "#f5f5f5",
+        "uso": "background de slide com imagem full-bleed (slide 5 — fica visível antes do gradient cobrir)"
+      },
+      "BG_ACCENT": {
+        "hex": "#ff4d00",
+        "uso": "background de fallback no slide hero (slide 1 — coberto pela imagem) e cor da Info bar em fundo cream slide 4"
+      },
+      "POP_HEADLINE": {
+        "hex": "#f0d28a",
+        "uso": "TODA headline Alga e qualquer ênfase tipográfica — champagne / off-gold (substituiu vermelho #ff1616 em 2026-05-18 — vermelho cansava a vista e brigava com fundo bordô)"
+      },
+      "POP_FOOTER_CREAM": {
+        "hex": "#ff1717",
+        "uso": "texto do Footer 'ARRASTE PARA O LADO' quando em fundo cream (slide 4)"
+      },
+      "TEXT_LIGHT": {
+        "hex": "#f5f5f5",
+        "uso": "texto principal Inter em fundos dark; bordas finas em imagens; Footer text em fundos dark"
+      },
+      "TEXT_DARK": {
+        "hex": "#040416",
+        "uso": "texto Inter em fundos cream (slide 4) — quase preto azulado, NÃO #000"
+      },
+      "FOOTER_BG": {
+        "rgba": "rgba(4,4,22,0.05)",
+        "uso": "background do pill Footer — quase transparente, fica como fantasma"
+      }
+    },
+
+    "tipografia": {
+      "familias_obrigatórias": [
+        {
+          "nome": "Alga",
+          "pesos": ["Medium", "SemiBold"],
+          "uso": "EXCLUSIVAMENTE em headlines hero (texto vermelho POP_HEADLINE)"
+        },
+        {
+          "nome": "Inter",
+          "pesos": ["Medium", "Bold"],
+          "uso": "TODO o resto — body, info bar, footer, handle @, subtitle"
+        }
+      ],
+      "mudança_vs_v1": "Grift foi REMOVIDO. Adicionar Inter (Google Fonts, free) ao _template/fonts/.",
+
+      "escala": {
+        "hero_alga_grande": {"size": 128, "line_height": 1.04, "tracking": -7.68, "uso": "headline principal em slides text-only e text+image (slides 2, 4, 5, 6, 8, 10)"},
+        "hero_alga_compacto": {"size": 95, "line_height": 0.97, "tracking": -5.7, "uso": "headline do slide 1 (precisa caber junto com perfil/handle)"},
+        "body_dense": {"size": 64, "line_height": 1.44, "tracking": -1.28, "uso": "body do slide 2 (texto-only com leitura larga)"},
+        "body_grande": {"size": 48, "line_height": 1.44, "tracking": -0.96, "uso": "body de slides text-only (slides 6, 8)"},
+        "body_padrão": {"size": 40, "line_height": 1.24, "tracking": -0.97, "weight": "Bold", "uso": "subtitle do slide 1"},
+        "body_médio": {"size": 38, "line_height": 1.44, "tracking": -0.76, "uso": "body em slides text+image (slides 4, 5)"},
+        "body_compacto": {"size": 36, "line_height": 1.44, "tracking": 0.33, "uso": "body do slide 10 (texto curto sob imagem)"},
+        "handle": {"size": 28, "line_height": "normal", "tracking": -1.68, "weight": "Medium", "uso": "@oleonardorosso no slide hero"},
+        "footer_text": {"size": 18, "line_height": "normal", "tracking": 2.52, "weight": "Bold", "uppercase": true, "uso": "ARRASTE PARA O LADO"},
+        "info_bar_text": {"size": 11, "line_height": "normal", "weight": "Bold", "uppercase": true, "uso": "RECONECTA no canto superior direito"}
+      }
+    },
+
+    "viewport": {
+      "feed": "1080x1350px",
+      "ads": "1080x1080px (adaptação separada)",
+      "preview_html": "420x525px com scale_factor 2.5714"
+    },
+
+    "spacing": {
+      "padding_lateral_info_bar": 38,
+      "padding_lateral_content": 48,
+      "padding_lateral_content_alt": 33,
+      "top_info_bar": "29-35px (varia ligeiramente por slide)",
+      "top_footer": "1246-1256px (footer ancorado próximo do bottom)",
+      "footer_height": 58,
+      "info_bar_height": 16,
+      "gap_content_block": "37-53px (entre blocos verticais dentro da área de conteúdo)"
+    },
+
+    "border_radius": {
+      "imagem": 60,
+      "footer_pill": 32,
+      "border_imagem": "1px solid #f5f5f5"
+    }
+  },
+
+  "elementos_universais": {
+    "Grains": {
+      "obrigatório_em": "TODOS os slides (1-10) — overlay full-bleed",
+      "asset": "noise/grain texture PNG (200x200 tileable, opacity 0.32)",
+      "blend_mode": "multiply ou normal com opacity 0.32",
+      "z_index": "acima de imagens e gradients, abaixo do texto"
+    },
+    "InfoBar": {
+      "obrigatório_em": "TODOS os slides (1-10)",
+      "posição": "top: 29-35px, left: 38px, width: 1004px, height: 16px",
+      "conteúdo": "apenas 'RECONECTA' alinhado à direita (canto esquerdo VAZIO)",
+      "estilo": "Inter Bold 11px, uppercase, letter-spacing normal",
+      "cor_por_fundo": {
+        "fundo_dark": "#f5f5f5",
+        "fundo_cream_f2ddb6": "#2d0000 ou #ff4d00",
+        "fundo_cream_f5f5f5": "#f5f5f5"
+      }
+    },
+    "Footer": {
+      "obrigatório_em": "TODOS os slides EXCETO o último (CTA usa cta_pill no lugar)",
+      "posição": "centralizado horizontal, top: ~1246-1256px",
+      "dimensões": "width 983-1009px (varia), height 58px, padding 16px 25px",
+      "conteúdo": "'ARRASTE PARA O LADO  /  →' alinhado à direita (sem asterisco)",
+      "estilo": "background rgba(4,4,22,0.05), border 1px solid #f5f5f5, border-radius 32px (pill)",
+      "tipografia": "Inter Bold 18px, uppercase, tracking 2.52px",
+      "cor_texto_por_fundo": {
+        "fundo_dark": "#f5f5f5",
+        "fundo_cream_f2ddb6": "#ff1717"
+      },
+      "ícone_seta": "SVG 21x26px (inline no Python)"
+    },
+    "CTAPill": {
+      "obrigatório_em": "ÚLTIMO slide (CTA final) — substitui o Footer",
+      "posição": "INLINE dentro do bloco vertical-center do slide_I_cta — alinhada à esquerda junto com os textos",
+      "estilo": "compacta (width fit-content), padding 14px 22px (mais apertado que footer_pill), gap interno 18px",
+      "conteúdo_padrão": "'CLIQUE NO LINK DA BIO  /  →'",
+      "customizável": "texto pode ser ajustado via param cta_text (ex: 'COMENTA TURBINAR', 'TOQUE NO BOTÃO' pra ads)"
+    }
+  },
+
+  "primitivas_de_slide": [
+    {
+      "id": "A_hero_perfil",
+      "nome_figma": "Futurista 1",
+      "uso": "slide 1 (hero/capa) — ÚNICA primitiva que carrega o bloco de perfil/@",
+      "background": "imagem full-bleed (object-cover)",
+      "overlay": "linear-gradient(210deg, rgba(0,0,0,0) 22.39%, rgb(0,0,0) 63.48%) — diagonal escurecendo o canto inferior",
+      "estrutura": {
+        "info_bar_top_right": "RECONECTA",
+        "perfil_block_em_top_684px_left_48px": {
+          "avatar_circular": "57x57px com border thin",
+          "handle_inter_medium_28px": "@oleonardorosso",
+          "ícone_verificado": "33x38px (badge azul)"
+        },
+        "headline_alga_95px": "ancorada após perfil_block, w 965px, vermelho POP_HEADLINE, line-height 0.97, tracking -5.7px",
+        "subtitle_inter_bold_40px": "abaixo da headline, h 125px, w 838px, cor TEXT_LIGHT, line-height 1.24",
+        "footer_pill": "ancorado bottom dentro do flex column"
+      },
+      "regras": [
+        "headline em Alga 95px (não 128px) pra caber junto com perfil",
+        "imagem deve ser editorial/portrait, NÃO sensual",
+        "gradient diagonal cobre canto inferior pra contraste com headline"
+      ]
+    },
+    {
+      "id": "B_text_only_short_body",
+      "nome_figma": "Futurista 2",
+      "uso": "slide com headline grande + body médio em fundo dark",
+      "background": "BG_DARK #2d0000",
+      "estrutura": {
+        "info_bar_top_right": "RECONECTA cor TEXT_LIGHT",
+        "headline_alga_128px": "left 38px, top 127px, w 904px, vermelho POP_HEADLINE",
+        "body_inter_medium_64px": "left 38px, top 730px, w 904px, cor TEXT_LIGHT, line-height 1.44, tracking -1.28px",
+        "footer_pill": "centralizado, top 1256px"
+      }
+    },
+    {
+      "id": "C_dual_image_stacked",
+      "nome_figma": "Futurista 3 e 9",
+      "uso": "slide com 2 imagens empilhadas verticalmente — pode ser cream (3) ou dark (9)",
+      "background": "BG_CREAM #f2ddb6 (variante 3) OU BG_DARK #2d0000 (variante 9)",
+      "estrutura": {
+        "info_bar_top_right": "RECONECTA (cor varia por fundo)",
+        "imagem_top": "1004x474px, border-radius 60px, border 1px #f5f5f5",
+        "imagem_bottom": "1004x474px (mesma dimensão), gap vertical ~74px",
+        "área_total_imagens": "ocupa o miolo do slide (top ~137px até ~1186px)",
+        "footer_pill": "ancorado bottom"
+      },
+      "regras": [
+        "as 2 imagens devem ter o mesmo tamanho (visualmente equilibradas)",
+        "border-radius 60px é OBRIGATÓRIO em todas imagens",
+        "border thin off-white (#f5f5f5) em todas as imagens"
+      ]
+    },
+    {
+      "id": "D_text_body_image_cream",
+      "nome_figma": "Futurista 4",
+      "uso": "slide cream com headline + body explicativo + imagem grande embaixo",
+      "background": "BG_CREAM #f2ddb6",
+      "estrutura": {
+        "info_bar_top_right": "RECONECTA cor BG_ACCENT #ff4d00",
+        "headline_alga_128px": "top 113px, w 970px, vermelho POP_HEADLINE",
+        "body_inter_medium_38px": "abaixo headline, gap 48px, w 970px, cor TEXT_DARK #040416, tracking -0.76",
+        "imagem_grande": "970x523px, border-radius 60px, border 1px #f5f5f5, abaixo do body com gap 48px",
+        "footer_pill": "ancorado bottom, texto vermelho POP_FOOTER_CREAM #ff1717"
+      }
+    },
+    {
+      "id": "E_image_bg_text_bottom",
+      "nome_figma": "Futurista 5",
+      "uso": "slide com imagem full-bleed + gradient escurecendo embaixo + texto no terço inferior",
+      "background": "imagem full-bleed (object-cover) + gradient",
+      "overlay": "linear-gradient(to bottom, rgba(0,0,0,0) 8.37%, #000 73.111%) — gradient vertical do top transparente ao bottom preto",
+      "estrutura": {
+        "info_bar_top_right": "RECONECTA cor TEXT_LIGHT",
+        "headline_alga_128px": "left 48px, top 654px, w 927px, vermelho POP_HEADLINE",
+        "body_inter_medium_38px": "abaixo headline, gap 53px, w 906px, cor TEXT_LIGHT",
+        "footer_pill": "ancorado bottom"
+      }
+    },
+    {
+      "id": "F_text_only_large_body",
+      "nome_figma": "Futurista 6 e 8",
+      "uso": "slide texto-only com headline + body médio em fundo dark — variante de B com body um pouco menor",
+      "background": "BG_DARK #2d0000",
+      "estrutura": {
+        "info_bar_top_right": "RECONECTA cor TEXT_LIGHT",
+        "headline_alga_128px": "left 38-49px, top 117-194px, w 889-977px, vermelho POP_HEADLINE",
+        "body_inter_medium_48px": "left 38-49px, top 760-763px, w 767-865px, cor TEXT_LIGHT, tracking -0.96px",
+        "footer_pill": "centralizado, bottom"
+      }
+    },
+    {
+      "id": "G_single_big_image",
+      "nome_figma": "Futurista 7",
+      "uso": "slide com UMA imagem grande dominando o slide",
+      "background": "BG_DARK #2d0000",
+      "estrutura": {
+        "info_bar_top_right": "RECONECTA cor TEXT_LIGHT",
+        "imagem_grande": "1004x1048px, left 38px, top 137px, border-radius 60px, border 1px #f5f5f5",
+        "footer_pill": "ancorado bottom"
+      },
+      "regras": ["imagem ocupa praticamente o slide inteiro entre info bar e footer"]
+    },
+    {
+      "id": "H_text_image_text",
+      "nome_figma": "Futurista 10",
+      "uso": "slide com headline grande + imagem média + body embaixo (quebra ritmo)",
+      "background": "BG_DARK #2d0000",
+      "estrutura": {
+        "info_bar_top_right": "RECONECTA cor TEXT_LIGHT",
+        "headline_alga_128px": "left 33px, top 74px, w 760px, vermelho POP_HEADLINE",
+        "imagem_média": "970x445px, border-radius 60px, border 1px #f5f5f5, abaixo headline com gap 41px",
+        "body_inter_medium_36px": "abaixo imagem, gap 41px, w 970px, h 246px, cor TEXT_LIGHT, tracking 0.33px",
+        "footer_pill": "ancorado bottom"
+      }
+    },
+    {
+      "id": "I_cta_final",
+      "nome_figma": "extensão do sistema (não vem do Figma master) — segue ID visual",
+      "uso_obrigatório": "ÚLTIMO slide do carrossel (CTA final)",
+      "background": "BG_DARK #2d0000",
+      "estrutura": {
+        "info_bar_top_right": "RECONECTA cor TEXT_LIGHT",
+        "bloco_vertical_center": "container absolute em top:50% transform translateY(-50%), left:38px, width:1004px",
+        "layout_interno": "flex column, align-items flex-start, gap 32px entre cada um dos 3 itens",
+        "item_1_headline_alga_128px": "vermelho POP_HEADLINE, line-height 1.04, w 889px",
+        "item_2_body_inter_medium_48px": "TEXT_LIGHT, line-height 1.44, w 865px",
+        "item_3_cta_pill_compacta": "fit-content, padding 14px 22px, alinhada à esquerda no início do flex (left:38px)"
+      },
+      "regra_específica": "ÚNICA primitiva que NÃO usa footer_pill no bottom. Sempre vai por último."
+    }
+  ],
+
+  "regras_invioláveis": [
+    "Toda imagem usa border-radius 60px + border 1px solid #f5f5f5 (sem exceção).",
+    "Grains overlay obrigatório em todos os slides (não só hero).",
+    "Info bar 'RECONECTA' aparece no top-right de TODOS os slides (canto esquerdo vazio).",
+    "Footer pill 'ARRASTE PARA O LADO  /  →' aparece em todos os slides EXCETO o último (CTA).",
+    "Último slide (CTA) usa cta_pill 'CLIQUE NO LINK DA BIO  /  →' — mesma id visual do footer.",
+    "ZERO asteriscos em qualquer pill — só texto + barra + seta.",
+    "Headlines hero SEMPRE em Alga + cor POP_HEADLINE #f0d28a (champagne). Nunca em vermelho — vermelho foi abolido como cor de ênfase em texto (2026-05-18).",
+    "Body SEMPRE em Inter (Medium ou Bold). Grift NÃO é mais usado.",
+    "Apenas slide 1 (hero) carrega bloco perfil@ — outros slides não.",
+    "Sem travessão (—) ou hífen (-) entre palavras no meio de frase. Usar ponto ou vírgula.",
+    "Hero não pode ser sexualmente apelativa — preferir editorial/portrait.",
+    "Sem progress bar, sem swipe arrow no shell (footer 'ARRASTE PARA O LADO' substitui o feedback de swipe).",
+    "Em fundo cream (#f2ddb6): texto body usa #040416, footer text usa #ff1717.",
+    "Em fundo dark (#2d0000): texto body usa #f5f5f5, footer text usa #f5f5f5."
+  ],
+
+  "conflitos_com_memórias_anteriores_a_resolver": [
+    {
+      "memória": "feedback_hero_masthead.md — 'cantos superiores vazios na hero'",
+      "conflito": "Figma novo tem InfoBar 'RECONECTA' no top-right E perfil@ no slide 1. Nova regra: top-LEFT vazio sempre, top-RIGHT tem 'RECONECTA' obrigatório.",
+      "ação": "ajustar a memória pra refletir 'apenas canto superior esquerdo vazio na hero'"
+    },
+    {
+      "memória": "feedback_cta_sem_handles.md — 'CTA sem @oleonardorosso'",
+      "conflito": "Figma novo tem @oleonardorosso explícito no slide 1 (hero). Novo entendimento: handle aparece SÓ no slide 1 hero (como assinatura), nunca no CTA final.",
+      "ação": "manter regra pra CTA final, mas excecionar slide 1 hero"
+    },
+    {
+      "memória": "feedback_sem_numero_ad.md — 'sem AD0014 no masthead'",
+      "conflito": "nenhum — Figma só usa 'RECONECTA' como label, sem número.",
+      "ação": "manter"
+    },
+    {
+      "memória": "reconecta_visual_system.md — vincy.society / Fraunces+DM Sans",
+      "conflito": "TOTAL — vincy era a referência anterior, Figma novo é outra direção visual (Alga+Inter, sem frame thick, sem script cursive).",
+      "ação": "marcar memória como superseded; criar nova reconecta_visual_system_v2.md"
+    }
+  ],
+
+  "checklist_revisor_design": [
+    "Grains overlay aplicado em todos os slides?",
+    "Info bar 'RECONECTA' top-right em todos os slides? Canto top-left vazio?",
+    "Footer pill 'ARRASTE PARA O LADO' nos slides 1 a N-1? CTA pill 'CLIQUE NO LINK DA BIO' SÓ no último?",
+    "Zero asteriscos em qualquer pill?",
+    "Headlines hero em Alga + cor #f0d28a (champagne) — NUNCA vermelho?",
+    "Body em Inter (Medium/Bold) — zero Grift?",
+    "Imagens com border-radius 60px + border 1px #f5f5f5?",
+    "Slide 1 é a ÚNICA com bloco perfil/@? Outros slides sem perfil?",
+    "Tipografia respeita escala (128px hero / 38-64px body / 18px footer / 11px info)?",
+    "Cores de texto corretas pro fundo (TEXT_LIGHT em dark, TEXT_DARK em cream)?",
+    "Footer text vermelho #ff1717 quando fundo é cream?",
+    "Hero é editorial/portrait, não sensual?",
+    "Zero travessão/hífen entre palavras?",
+    "Promessa do slide 1 entregue até o slide 5-6?"
+  ],
+
+  "assets_necessários": [
+    {"tipo": "fonte", "nome": "Inter Medium + Inter Bold", "fonte": "Google Fonts (free)", "ação": "baixar e colocar em _template/fonts/Inter-Medium.ttf e Inter-Bold.ttf"},
+    {"tipo": "fonte", "nome": "Alga Medium + Alga SemiBold", "status": "Alga-SemiBold.otf já existe; verificar se Alga-Medium é necessário ou se SemiBold cobre"},
+    {"tipo": "imagem", "nome": "grain_texture.png", "spec": "200x200px tileable, ruído alta freq", "uso": "Grains overlay em todos os slides"},
+    {"tipo": "ícone", "nome": "footer_seta", "spec": "21x26px, → estilizada (SVG inline no Python — path extraído do Figma)"},
+    {"tipo": "ícone", "nome": "verificado_azul.png", "spec": "33x38px, badge IG verificado, slide 1 apenas"}
+  ]
+}

@@ -1,0 +1,24 @@
+# RECONECTA — Pipeline de automação de edição de anúncios para Premiere Pro (macOS)
+# Versões fixadas conforme os fatos verificados (jun/2026).
+
+# ---------------------------------------------------------------------------
+# ROTA A (recomendada, testável SEM extensão): OpenTimelineIO -> FCP7 XML
+# ---------------------------------------------------------------------------
+# O meta-pacote "Plugins" traz o core 0.18.1 JUNTO com os adapters
+# (inclui otio-fcp-adapter = adapter 'fcp_xml', a rota segura pro Premiere).
+# O core puro (OpenTimelineIO) pós-v0.16 NÃO inclui os adapters.
+OpenTimelineIO-Plugins==0.18.1
+
+# Adapter FCPXML (Final Cut Pro X) — NÃO vem no bundle Plugins.
+# Só é necessário se você quiser TAMBÉM emitir .fcpxml (útil pra DaVinci/FCP,
+# NÃO importável direto no Premiere). otio_assemble.py emite os dois quando
+# este adapter está presente; sem ele, gera só o .xml (FCP7) e segue normal.
+otio-fcpx-xml-adapter==0.1.0
+
+# ---------------------------------------------------------------------------
+# ROTA B (opcional, exige Premiere aberto + extensão CEP "Pymiere Link")
+# ---------------------------------------------------------------------------
+# pymiere 1.4.1 é o último release (mai/2023), não mantido, classifiers até
+# Python 3.9. RECOMENDADO instalar/rodar a Rota B num venv Python 3.10
+# (não no Python 3.14 do Homebrew). Veja o README.
+pymiere==1.4.1

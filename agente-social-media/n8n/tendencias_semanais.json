@@ -1,0 +1,442 @@
+{
+  "name": "tendencias_semanais",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "weeks",
+              "weeksInterval": 1,
+              "triggerAtDay": [5],
+              "triggerAtHour": 8,
+              "triggerAtMinute": 0
+            }
+          ]
+        }
+      },
+      "id": "c3000000-0000-4000-8000-000000000001",
+      "name": "Disparar Sexta 08h",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [0, 0]
+    },
+    {
+      "parameters": {
+        "url": "https://trends.google.com/trending/rss?geo=BR",
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "text"
+            }
+          }
+        }
+      },
+      "id": "c3000000-0000-4000-8000-000000000002",
+      "name": "Buscar Trends Google BR",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [280, -500],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "// Parseia o RSS do Google Trends (campos no namespace ht:) sem lib externa.\n// A tag <description> vem vazia — o que interessa é title + ht:approx_traffic + ht:news_item_url.\nconst xml = $input.first().json.data || '';\nconst itens = [...xml.matchAll(/<item>([\\s\\S]*?)<\\/item>/g)];\nconst resultado = [];\nfor (const [, corpo] of itens.slice(0, 20)) {\n  const titulo = (corpo.match(/<title>(?:<!\\[CDATA\\[)?(.*?)(?:\\]\\]>)?<\\/title>/) || [])[1];\n  const trafego = (corpo.match(/<ht:approx_traffic>(?:<!\\[CDATA\\[)?(.*?)(?:\\]\\]>)?<\\/ht:approx_traffic>/) || [])[1];\n  const noticia = (corpo.match(/<ht:news_item_url>(?:<!\\[CDATA\\[)?(.*?)(?:\\]\\]>)?<\\/ht:news_item_url>/) || [])[1];\n  if (titulo) {\n    resultado.push({ json: { source: 'google_trends_br', title: titulo.trim(), url: noticia || null, extra: { trafego: trafego || null } } });\n  }\n}\nreturn resultado;"
+      },
+      "id": "c3000000-0000-4000-8000-000000000003",
+      "name": "Extrair Termos do Trends",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [560, -500]
+    },
+    {
+      "parameters": {
+        "url": "https://news.google.com/rss/search?q=%22harmoniza%C3%A7%C3%A3o%20facial%22%20OR%20%22cl%C3%ADnica%20de%20est%C3%A9tica%22&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "text"
+            }
+          }
+        }
+      },
+      "id": "c3000000-0000-4000-8000-000000000004",
+      "name": "Buscar Google News do Nicho",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [280, -300],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "// Extrai manchetes do RSS do Google News (title + link por item).\nconst xml = $input.first().json.data || '';\nconst itens = [...xml.matchAll(/<item>([\\s\\S]*?)<\\/item>/g)];\nconst resultado = [];\nfor (const [, corpo] of itens.slice(0, 15)) {\n  const titulo = (corpo.match(/<title>(?:<!\\[CDATA\\[)?(.*?)(?:\\]\\]>)?<\\/title>/) || [])[1];\n  const link = (corpo.match(/<link>(.*?)<\\/link>/) || [])[1];\n  if (titulo) {\n    resultado.push({ json: { source: 'google_news', title: titulo.trim(), url: (link || '').trim() || null, extra: null } });\n  }\n}\nreturn resultado;"
+      },
+      "id": "c3000000-0000-4000-8000-000000000005",
+      "name": "Extrair Manchetes do Nicho",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [560, -300]
+    },
+    {
+      "parameters": {
+        "url": "https://g1.globo.com/rss/g1/"
+      },
+      "id": "c3000000-0000-4000-8000-000000000006",
+      "name": "Ler RSS G1",
+      "type": "n8n-nodes-base.rssFeedRead",
+      "typeVersion": 1,
+      "position": [280, -100],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "// Normaliza itens do G1 pro formato comum dos candidatos.\nreturn $input.all().slice(0, 15).map((i) => ({\n  json: { source: 'g1', title: i.json.title || '', url: i.json.link || null, extra: null },\n}));"
+      },
+      "id": "c3000000-0000-4000-8000-000000000007",
+      "name": "Normalizar G1",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [560, -100]
+    },
+    {
+      "parameters": {
+        "url": "https://rss.uol.com.br/feed/noticias.xml"
+      },
+      "id": "c3000000-0000-4000-8000-000000000008",
+      "name": "Ler RSS UOL",
+      "type": "n8n-nodes-base.rssFeedRead",
+      "typeVersion": 1,
+      "position": [280, 100],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "// Normaliza itens do UOL pro formato comum dos candidatos.\nreturn $input.all().slice(0, 15).map((i) => ({\n  json: { source: 'uol', title: i.json.title || '', url: i.json.link || null, extra: null },\n}));"
+      },
+      "id": "c3000000-0000-4000-8000-000000000009",
+      "name": "Normalizar UOL",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [560, 100]
+    },
+    {
+      "parameters": {
+        "url": "https://www.reddit.com/r/brasil/hot.rss"
+      },
+      "id": "c3000000-0000-4000-8000-000000000010",
+      "name": "Ler Reddit Brasil",
+      "type": "n8n-nodes-base.rssFeedRead",
+      "typeVersion": 1,
+      "position": [280, 300],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "// Normaliza posts do r/brasil pro formato comum dos candidatos.\nreturn $input.all().slice(0, 15).map((i) => ({\n  json: { source: 'reddit_brasil', title: i.json.title || '', url: i.json.link || null, extra: null },\n}));"
+      },
+      "id": "c3000000-0000-4000-8000-000000000011",
+      "name": "Normalizar Reddit",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [560, 300]
+    },
+    {
+      "parameters": {
+        "url": "https://getdaytrends.com/brazil/",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+            }
+          ]
+        },
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "text"
+            }
+          }
+        }
+      },
+      "id": "c3000000-0000-4000-8000-000000000012",
+      "name": "Buscar Trends do X",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [280, 500],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "// Extrai os trending topics do X/Brasil do HTML server-rendered do getdaytrends.\nconst html = $input.first().json.data || '';\nconst achados = [...html.matchAll(/href=\"\\/brazil\\/trend\\/([^\"]+)\"[^>]*>([\\s\\S]*?)<\\/a>/g)];\nconst vistos = new Set();\nconst resultado = [];\nfor (const [, slug, texto] of achados) {\n  const titulo = texto.replace(/<[^>]*>/g, '').trim() || decodeURIComponent(slug);\n  if (!titulo || vistos.has(titulo)) continue;\n  vistos.add(titulo);\n  // slug já vem percent-encoded do href — usar cru pra não re-encodar\n  resultado.push({ json: { source: 'x_getdaytrends', title: titulo, url: `https://getdaytrends.com/brazil/trend/${slug}`, extra: null } });\n  if (resultado.length >= 20) break;\n}\nreturn resultado;"
+      },
+      "id": "c3000000-0000-4000-8000-000000000013",
+      "name": "Extrair Trending Topics",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [560, 500]
+    },
+    {
+      "parameters": {
+        "mode": "append",
+        "numberInputs": 6
+      },
+      "id": "c3000000-0000-4000-8000-000000000014",
+      "name": "Juntar Fontes",
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3,
+      "position": [840, 0]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "// Remove vazios e duplicatas (mesma fonte + mesmo título) antes de gravar.\nconst vistos = new Set();\nconst resultado = [];\nfor (const item of $input.all()) {\n  const titulo = (item.json.title || '').trim();\n  if (!titulo) continue;\n  const chave = `${item.json.source}::${titulo.toLowerCase()}`;\n  if (vistos.has(chave)) continue;\n  vistos.add(chave);\n  resultado.push({ json: {\n    source: item.json.source,\n    title: titulo.slice(0, 500),\n    url: item.json.url || null,\n    extra: item.json.extra ? JSON.stringify(item.json.extra) : null,\n  } });\n}\nreturn resultado;"
+      },
+      "id": "c3000000-0000-4000-8000-000000000015",
+      "name": "Limpar e Deduplicar",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1060, 0]
+    },
+    {
+      "parameters": {
+        "operation": "insert",
+        "schema": {
+          "__rl": true,
+          "value": "public",
+          "mode": "list"
+        },
+        "table": {
+          "__rl": true,
+          "value": "trends_candidates",
+          "mode": "list"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "source": "={{ $json.source }}",
+            "title": "={{ $json.title }}",
+            "url": "={{ $json.url }}",
+            "extra": "={{ $json.extra }}"
+          }
+        },
+        "options": {
+          "skipOnConflict": true
+        }
+      },
+      "id": "c3000000-0000-4000-8000-000000000016",
+      "name": "Gravar Candidatos",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.4,
+      "position": [1280, 0],
+      "credentials": {
+        "postgres": {
+          "id": "SUBSTITUIR_APOS_IMPORTAR",
+          "name": "Postgres Railway"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Disparar Sexta 08h": {
+      "main": [
+        [
+          {
+            "node": "Buscar Trends Google BR",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Buscar Google News do Nicho",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Ler RSS G1",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Ler RSS UOL",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Ler Reddit Brasil",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Buscar Trends do X",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Buscar Trends Google BR": {
+      "main": [
+        [
+          {
+            "node": "Extrair Termos do Trends",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extrair Termos do Trends": {
+      "main": [
+        [
+          {
+            "node": "Juntar Fontes",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Buscar Google News do Nicho": {
+      "main": [
+        [
+          {
+            "node": "Extrair Manchetes do Nicho",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extrair Manchetes do Nicho": {
+      "main": [
+        [
+          {
+            "node": "Juntar Fontes",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Ler RSS G1": {
+      "main": [
+        [
+          {
+            "node": "Normalizar G1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Normalizar G1": {
+      "main": [
+        [
+          {
+            "node": "Juntar Fontes",
+            "type": "main",
+            "index": 2
+          }
+        ]
+      ]
+    },
+    "Ler RSS UOL": {
+      "main": [
+        [
+          {
+            "node": "Normalizar UOL",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Normalizar UOL": {
+      "main": [
+        [
+          {
+            "node": "Juntar Fontes",
+            "type": "main",
+            "index": 3
+          }
+        ]
+      ]
+    },
+    "Ler Reddit Brasil": {
+      "main": [
+        [
+          {
+            "node": "Normalizar Reddit",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Normalizar Reddit": {
+      "main": [
+        [
+          {
+            "node": "Juntar Fontes",
+            "type": "main",
+            "index": 4
+          }
+        ]
+      ]
+    },
+    "Buscar Trends do X": {
+      "main": [
+        [
+          {
+            "node": "Extrair Trending Topics",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extrair Trending Topics": {
+      "main": [
+        [
+          {
+            "node": "Juntar Fontes",
+            "type": "main",
+            "index": 5
+          }
+        ]
+      ]
+    },
+    "Juntar Fontes": {
+      "main": [
+        [
+          {
+            "node": "Limpar e Deduplicar",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Limpar e Deduplicar": {
+      "main": [
+        [
+          {
+            "node": "Gravar Candidatos",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  }
+}
