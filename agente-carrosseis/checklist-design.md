@@ -68,6 +68,9 @@ Engine alternativo `reconecta_blocks.py` (kit seclabel/cards/from_to; canon SEM2
 - [ ] Em slide `photo`: o scrim é FIXO no engine (transparente até ~30%, rampa contínua até o rodapé, nunca 100% sólido) e já cumpre a regra do Sávio — a checagem é VISUAL no PNG: rampa suave, sem degrau, **faixa escura chapada sobre a foto = reprova** (regra do Sávio, jul/26).
 
 ### 1.4 Prova social (proof)
+- [ ] **A seleção de prints é do AGENTE, nunca do usuário (regra do Sávio, 15/jul).** Fluxo: pool curado (`img/depoimentos-sugeridos/` das semanas + `DEPOIMENTOS-MAP.md`) → registro de usados por PÁGINA (pXX que já foi ao ar não volta, mesmo em arquivo `_crop`/`_anon` diferente; detalhe-estrela da mesma clínica idem — cropar a linha do detalhe resolve) → tema do print casa com a TESE do post → crop de anonimização por varredura de banda de pixel (nunca coordenada chutada) → **conferir cada crop VISUALMENTE antes do render**.
+- [ ] **O número-chave precisa ser LEGÍVEL na largura final** (~520-565px no slide). Print largo com texto pequeno (dashboard 1235px de largura) encolhe o R$ até sumir — cropar a região do número ou trocar de print. *Caso real 15/jul: o "R$ 779.741" de um dashboard virou pó na escala; troquei por bolha de WhatsApp legível.*
+- [ ] **Stagger sem buraco:** as posições `y` são função das alturas ESCALADAS reais (`altura_original × w ÷ largura_original`), não do default — print curto com y de print alto abre um vão morto no meio da cascata. *Caso real 15/jul: bolha de 88px com y=470 deixou ~150px de buraco.*
 - [ ] **Posições em cascata** com rotação alternada (default -2.5° / 2° / -2°): stagger legível na ordem de leitura, punch → cards. O engine centra o GRUPO na horizontal sozinho.
 - [ ] **A bolha essencial** (a que sustenta o punch) tem que caber INTEIRA em 360px de altura na largura escolhida: `altura_original × largura_no_slide ÷ largura_original ≤ 360`. Não cabe → cropar a bolha ANTES (ver armadilha 3).
 - [ ] **Anonimização é pré-render**: blur/crop de nome, telefone, CNPJ, avatar (crop de cabeçalho resolve 80%); R$ e números de resultado ficam NÍTIDOS. Originais intactos — trabalhar em cópia `_anon`/`_crop`.
@@ -153,3 +156,6 @@ Pergunta de decisão: **"isso pode acontecer de novo em qualquer post futuro?"**
 | 10 | **Aprovar sem abrir o PNG** | a causa-raiz de 1, 2 e 3 terem passado | Read em todos os slides, sempre, com evidência no relato |
 | 11 | **Consertar no post o que é bug do engine** | tentação recorrente | §4: pergunta de decisão + retrocompat + aviso durável |
 | 12 | **Re-render de post publicado** | regra permanente | Exportado é imutável; post novo = pasta nova |
+| 13 | **Número ilegível em print largo** | 15/jul: R$779k de dashboard sumiu na escala | Legibilidade na largura final; cropar a região do número ou trocar o print (§1.4) |
+| 14 | **Buraco no stagger da prova** | 15/jul: bolha curta com y default | Posições y em função das alturas ESCALADAS (§1.4) |
+| 15 | **Pedir print ao usuário** | 15/jul: "não tem por que regredir o que a gente já progrediu" | Seleção automática: pool + registro por página + crop por banda (§1.4) |

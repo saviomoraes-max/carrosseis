@@ -33,6 +33,7 @@
 ### PASSE A — Escrever na ordem certa
 1. Tabela de âncoras (seção 2) fechada.
 2. Esqueleto: UM punch por slide, escrito antes dos bodies. Punch = contraste seco ou afirmação que vira o senso comum de cabeça pra baixo — **nunca um título descritivo ou resumo** ("As 4 respostas que funcionam" = título; "O lead não some no vou pensar. Some na sua próxima mensagem." = punch).
+   - **Verbatim vence paráfrase:** se a âncora tem um marcador de voz que JÁ É a tese do slide, o punch é o VERBATIM dela, não a sua versão. *Caso real (AD001, 15/jul): escrevi "QUEM QUEBRA O SILÊNCIO PRIMEIRO, PAGA POR ELE" com "Quem fala primeiro, perde." disponível no corpus — o portão restaurou o dela.*
 3. **Arquitetura de funil (regra do Sávio, 14/jul/26):** capa = TOPO de funil (dor ou cena ampla que a doutora FRIA reconhece na hora; zero jargão de metodologia, zero nome de framework, zero promessa de fundo); slide 2 = MEIO de funil (a prova ou o porquê que conecta a dor ao mecanismo); slides 3+ = FUNDO de funil (mecanismo, aplicação, script, CTA). Base em dado: os 16 hits com s/r ≥ 3% (análise de 14/jul) abrem todos em reconhecimento amplo — a fala da paciente entre aspas é TOFU porque é cena, não mecanismo.
 4. Bodies montados A PARTIR das âncoras (preferir montar com as linhas literais dela a "escrever no estilo dela").
 5. Legenda por último, já em modo anti-eco (seção 4).
@@ -43,6 +44,7 @@
 - [ ] **Teste do corte:** se eu deletar esta frase, o slide perde algo? Não perde → deleta. (A maioria das frases de IA existe pra "completar o parágrafo", não pra dizer algo.)
 - [ ] **Palavras amaciadoras:** "quase", "meio", "um pouco", "talvez", "acaba que" — ela é assertiva; amaciador sem função = cortar. *Caso real: "quase nunca é sobre o marido" (o verbatim dela é "nunca").*
 - [ ] **Pessoa e registro consistentes** dentro da frase e do slide (lead/ela, você/tu — não misturar no mesmo período).
+- [ ] **Rabo sem âncora = cortar.** Frase literal dela NÃO ganha extensão minha emendada ("...e a pergunta fica com ela", "Ela ouve isso sem você falar nada"). O verbatim fecha a frase; se a aterrissagem extra não tem âncora própria (grep no corpus ANTES), ela não existe. *Caso real: as duas extensões acima caíram no portão do AD001 (15/jul) por grep negativo.*
 
 ### PASSE C — Slide a slide
 - [ ] **O body NÃO reafirma o punch.** Teste explícito: a última frase do body diz o mesmo que o punch com outras palavras? → trocar por uma aterrissagem NOVA (detalhe concreto, monólogo interno, gancho pro próximo slide). *Caso real: punch "some na sua próxima mensagem" + fecho do body "a tua mensagem seguinte matou" = a mesma tese 2x no mesmo slide.*
@@ -51,6 +53,8 @@
 - [ ] **Etiqueta pós-aspa = 0.** Nada de rótulo depois da frase pronta ("Isso reabre a conversa.", "Ela vira sua aliada."). A frase se explica; o que humaniza é o ERRO encenado ANTES dela. *Caso real: 4 itens com etiqueta simétrica = "cara de IA" na hora.*
 - [ ] **Cada item de lista responde sozinho "por quê / como assim?"** Não responde → encenar o erro antes da regra (verbatim comprimido = manual).
 - [ ] **Formas VARIADAS entre itens:** um abre pelo erro, outro solta a frase seca, outro reframe. Molde repetido (setup + "Devolve:" + aspa ×4) = mecânico. Variar também os VERBOS de comando (grep: um mesmo verbo estrutural ≤2 no slide).
+- [ ] **Fechos dos itens variam TAMBÉM:** máx 1 selo/kicker curto por lista — 3 itens fechando com selo no mesmo ritmo e sobre o mesmo sujeito ("...fica com ela" / "...ELA faz" / "...sem você falar nada") = simetria mecânica. *Caso real AD001, 15/jul.*
+- [ ] **Eco vizinho título↔body:** o fecho de um item não repete string do TÍTULO do item seguinte (o grep de ecos inclui títulos, não só bodies). *Caso real: "a pergunta fica com ela" colado em "O PROBLEMA FICA COM ELA".*
 - [ ] **Slides de entrega têm as 4 camadas:** ação concreta + mecanismo causal + exemplo vivo (frase pronta/vignette) + frame. Slide de entrega sem exemplo vivo = aula.
 - [ ] **Escada da especificidade:** toda palavra abstrata que sobrou (experiência, valor, cuidado, transformação usada como conceito) → dá pra trocar por cena, objeto, hora ou número? Troca. ("ela se sente cuidada" → "um áudio de 20 segundos numa terça, sem motivo").
 
@@ -82,13 +86,14 @@
 
 ## 5 · Render & design — checar nos PNGs, não na copy
 
-> **Versão completa:** `checklist-design.md` (régua física do engine, art direction da hero, fx por foto, inspeção slide a slide, engine-vs-post, 12 armadilhas com caso real). Este §5 é o resumo; em produção, rodar o arquivo dedicado.
+> **Versão completa:** `checklist-design.md` (régua física do engine, art direction da hero, fx por foto, inspeção slide a slide, engine-vs-post, 15 armadilhas com caso real). Este §5 é o resumo; em produção, rodar o arquivo dedicado.
 
 - [ ] **Renderizar do diretório certo:** `cd carrosseis/_template/html-engine && python3 engine.py "<pasta>/copy.engine.json" "<pasta>/slides"`. **Conferir `ok slide_N` pra TODOS + mtime fresco** (`ls -la slides/`). *Caso real: render sem `cd` falhou silencioso; li "SEM OVERFLOW" de render que não aconteceu e revisei PNG velho.*
 - [ ] **`_overflow.json` não existe.** Se existir: cortar COPY (nunca fonte). Micro-corte não resolve — derrubar LINHA inteira: caçar linha órfã (1-2 palavras) no PNG e encurtar ali.
 - [ ] **Abri e OLHEI cada PNG** (Read em todos, SEMPRE que a copy ou imagem mudar):
   - **Hero (engine atualizado 14/jul):** o engine NUNCA mais quebra linha art-directed no meio — desce a fonte de 98px até a linha mais longa caber (piso 60px; abaixo disso avisa "REQUEBRAR" e grava `_overflow.json`). Conferir no render: linhas do PNG = `\n`+1 e corpo não desceu de ~78px (log "hero fit"). Cantos superiores VAZIOS. Legibilidade sobre a foto: fx escolhido OLHANDO a foto (`checklist-design.md` §1.3).
   - **Photo/text/list:** gap uniforme, nada colado em borda, corpo ≥30.
+  - **Proof — a SELEÇÃO de prints é do agente, nunca do usuário (regra do Sávio, 15/jul):** pool curado nos `img/depoimentos-sugeridos/` das semanas + `DEPOIMENTOS-MAP.md`. REGISTRO por PÁGINA: pXX que já foi ao ar não volta, mesmo em arquivo/crop/versão diferente; detalhe-estrela da mesma clínica idem (caso "tráfego R$250" — cropar a linha resolve); tema do print casa com a TESE do post (ticket alto pra post de preço, consultas pra post de consulta). O punch só fecha DEPOIS dos prints escolhidos, com número literal deles.
   - **Proof (engine atualizado 14/jul):** o bloco de prints abraça o conteúdo sozinho (log "proof fit"; `block_h` só pra travar altura na mão) — conferir clareira equilibrada em cima/embaixo; NENHUM nome/telefone/CNPJ/avatar legível (crop/blur PIL em `_anon`/`_crop`, originais intactos); R$ NÍTIDO; punch = números LITERAIS dos prints. **Print ALTO é CLIPADO em silêncio:** o engine limita o card a 360px (`.print{max-height:360px}`) — se `altura_original × largura_no_slide ÷ largura_original > 360`, o fim da mensagem some SEM aviso. Cropar a bolha essencial antes e CONFERIR NO PNG que a última linha aparece inteira. *(Caso real 09/jul: o "de outubro" que sustentava o punch sumiu no clip; e não chute coordenada de crop em screenshot alto — meça as bolhas por varredura de pixel ou itere crop→olhar.)*
   - **CTA:** card Figma verbatim + "TOQUE NO LINK DA BIO" (ou COMENTE "SUPERCASO" quando o usuário pedir).
 - [ ] **`img/NECESSARIO.txt`** criado no início e atualizado (o usuário deposita as imagens lá).
@@ -114,6 +119,8 @@ Linha editorial pedida pelo Leonardo (Slack, 14/jul): dois públicos a cobrir no
 ## 7 · Antes de entregar **(PARE)**
 
 - [ ] **Portão adversarial rodado** (Workflow: finders por dimensão → verificação adversarial que refuta por padrão). TODOS os diffs confirmados aplicados, re-render, overflow re-conferido.
+- [ ] **Reconciliação de diffs conflitantes (15/jul):** finders diferentes propõem fixes diferentes pra MESMA linha — nunca aplicar em sequência cega. Prioridade: 1º restaurar/preservar verbatim dela · 2º matar o eco/defeito confirmado · 3º contagens de palavra. Depois de aplicar TODOS os diffs, **re-grep dos ecos no estado final** — diff pode criar eco novo (caso "fala primeiro" 2×: dentro da cota, mas tem que ser contado e declarado, não descoberto pelo leitor).
+- [ ] **Refutador morto não absolve:** se um verificador do portão falhar (limite de sessão, erro), o achado fica SEM VEREDITO e bloqueia — silêncio nunca é aprovação. *Caso real 14/jul: 6 refutadores morreram no limite e o script contou "zero confirmados" como aprovada; a legenda tinha 3 bloqueios reais.*
 - [ ] **Entrega com:** resumo por slide + legenda completa + âncoras citadas (peça + marcador) + o que falta + status honesto do que foi e não foi verificado.
 - [ ] **Export só após aprovação:** `[AA] [SS] [AD00N_M] - Título.png` na raiz (ano 26, semana ISO). Nunca sobrescrever exportado — post novo = pasta nova.
 
@@ -142,3 +149,7 @@ Linha editorial pedida pelo Leonardo (Slack, 14/jul): dois públicos a cobrir no
 | 17 | **Testemunho fabricado na 1ª pessoa** ("Eu já vi doutora brilhante desistir...") | "Eu vi/atendi/conheci" + caso = precisa de âncora igual a qualquer número; sem fonte → vira "eu sei como pesa" (empatia), nunca caso (caso 09/jul) |
 | 18 | **Framework renomeado/misturado** (rótulo dela + conjunto diferente do que ela publicou: "4 alavancas" com uma alavanca trocada) | Se o rótulo é dela, o CONJUNTO inteiro tem que bater com a peça-fonte; mistura de peças = rótulo novo neutro (caso 09/jul) |
 | 19 | **Causa inventada na prova** ("o feed captando" num print que credita "comercial alinhada"; "janeiro incluso" sem breakdown mensal) | O punch só AFIRMA o que o print MOSTRA; editorial não atribui causa que a aluna não disse (2 casos 09/jul) |
+| 20 | **Paráfrase por cima de verbatim disponível** (AD001 15/jul) | Punch = marcador de voz dela quando ele já é a tese (Passe A) |
+| 21 | **Rabo sem âncora emendado em verbatim** (AD001 15/jul) | Verbatim fecha a frase; extensão só com âncora própria (Passe B) |
+| 22 | **Selo simétrico ×3 nos fechos da lista** (AD001 15/jul) | Máx 1 kicker por lista; fechos variam (Passe C) |
+| 23 | **Diffs do portão aplicados em sequência cega** (15/jul) | Reconciliar por prioridade + re-grep pós-diff (§7) |
