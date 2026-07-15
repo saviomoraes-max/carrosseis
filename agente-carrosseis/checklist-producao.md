@@ -94,6 +94,16 @@
 - [ ] **`img/NECESSARIO.txt`** criado no início e atualizado (o usuário deposita as imagens lá).
 - [ ] **`open` no `preview.html`** sempre que renderizar pro usuário.
 
+## 5-B · MIX EDITORIAL DA SEMANA (regra do Sávio, 15/jul/26 — vale pra toda pauta)
+
+Toda semana de conteúdo mira **80 / 10 / 10**:
+
+- **~80% VALIDADO** — o pipeline atual: tema ancorado no corpus + engenharia reversa dos 16 hits (s/r ≥ 3%), checklists, portão. É o piso confiável.
+- **~10% NOTÍCIA EM ALTA** (1 slot/semana, CONDICIONAL) — notícia de conhecimento GERAL no pico (≤72h do auge; regra nascida do caso Spotify, morto por timing em 06/jul). Fluxo: skill `tendencias-research` roda 2x/semana → candidato passa no filtro de relevância do nicho → a notícia vira a CENA do slide 1 (TOFU natural) e o nosso ensino entra do slide 3+ (mesma arquitetura de funil). **Não passou no filtro = slot vira validado** — nunca adaptar tendência na marra.
+- **~10% DISRUPTIVO** (1 slot/semana) — tese CONTRÁRIA a uma crença que o próprio mercado de estética/mentoria vende, sustentada pela nossa metodologia. Precedente real no acervo: "Agradeça quando o lead disser vou pensar" e "Quanto mais você responde objeção, menos fecha" (s/r 4,13%). Regras duras: nunca contradizer a metodologia; âncora obrigatória em ensino real; no portão, refutador extra com a pergunta "isso queima a marca ou só incomoda o suficiente?".
+
+Linha editorial pedida pelo Leonardo (Slack, 14/jul): dois públicos a cobrir no calendário — **(a) iniciante com medo de vender/não saber oferecer** (âncora no acervo: hit 08/jun "A gente acha que está sendo gentil. Na verdade, está com medo.", s/r 3,02%) e **(b) quem tem lead mas sem ticket médio / perde venda / consulta longa** (o território campeão, mediana s/r 2,05%). O pilar (a) entra como slot recorrente a partir da SEM30.
+
 ## 6 · Produção em LOTE (2+ posts de uma vez — 09/jul, lote sexta/sábado/domingo)
 
 - [ ] **MAPA DE TERRITÓRIO antes da primeira palavra (PARE):** ler o `copy.engine.json` de TODOS os posts já publicados da semana e listar o que cada um REIVINDICOU: frases literais dela já usadas, fórmula do hero, abertura da legenda, dispositivo do burn, formato do punch de prova, prints usados. O que está no mapa NÃO se reusa. *Casos reais de hoje, pegos só pelo mapa: "ninguém acorda querendo botox" ia ser um hero — o AD012 já tinha usado no body; "prateleira de supermercado" ia pra legenda — era do AD008; "nenhuma paciente sai sem retorno" ia pra alavanca 4 — era item do AD004.*
