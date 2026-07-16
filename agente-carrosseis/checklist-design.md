@@ -50,7 +50,8 @@ Engine alternativo `reconecta_blocks.py` (kit seclabel/cards/from_to; canon SEM2
 - [ ] **Nenhuma linha órfã**: linha de 1 palavra só se for palavra-punch deliberada (um número, um "NADA."), nunca preposição/conector sobrando ("COM", "MÊS,").
 - [ ] **Vírgula/ponto fecham linha**, não abrem a próxima.
 - [ ] **A linha mais longa dita o corpo da fonte** (auto-fit desce de 98px até caber). Linha longa demais = headline pequena demais: abaixo de ~78px a capa perde presença no feed → REQUEBRAR em mais linhas antes de aceitar corpo menor. Piso duro: 60px (o render avisa "REQUEBRAR" e grava em `_overflow.json`).
-- [ ] **Ênfases:** `{vermelho}` na palavra/número disruptivo (1 por punch, na palavra que vira o sentido); `«champagne»` só em aparte/ironia. Vermelho em palavra neutra = desperdício da arma.
+- [ ] **HERO SEM marca de cor (regra do Sávio, 15/jul):** a headline da capa é creme INTEGRAL — zero `{vermelho}`, zero `«champagne»`. Dado: os 5 melhores alcances da era nova não têm cor na hero; os 2 únicos com vermelho são os 2 piores (ressalva: eram também os mais novos no export — associação, não prova; mas nenhum vencedor usou). Capa com pop de cor puxa pra estética de anúncio, o oposto da capa TOFU editorial.
+- [ ] **Ênfases (slides internos):** `{vermelho}` na palavra/número disruptivo (1 por punch, na palavra que vira o sentido); `«champagne»` só em aparte/ironia. Vermelho em palavra neutra = desperdício da arma. Os vencedores usam cor nos punches internos — a restrição é só na hero.
 
 ### 1.2 As fotos do post
 - [ ] **Pasta `img/` + `img/NECESSARIO.txt` criados NO INÍCIO** (antes da copy): listar cada imagem esperada (hero, foto do photo, prints de prova) com uma linha do que serve — é por esse arquivo que o usuário sabe o que depositar.
