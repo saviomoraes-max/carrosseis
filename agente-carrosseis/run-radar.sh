@@ -52,7 +52,10 @@ try:
     d = json.load(open(sys.argv[1]))
 except Exception:
     print("Radar rodou mas o radar-quente.json não parseia — conferir."); sys.exit(0)
-linhas = [f"📡 Radar {d.get('rodado_em','')}: {d.get('resumo_1_linha','?')}"]
+# <!channel> = @canal do Slack — SÓ quando há candidato (pedido do Sávio, 21/jul);
+# no "sem candidato hoje" ninguém é marcado.
+prefixo = "<!channel> " if d.get('alerta') and d.get('candidatos') else ""
+linhas = [f"{prefixo}📡 Radar {d.get('rodado_em','')}: {d.get('resumo_1_linha','?')}"]
 for c in d.get('candidatos', [])[:2]:
     mp = c.get('mini_ponte', {})
     linhas.append(f"• {c.get('titulo','?')} (postável até {c.get('postavel_ate','?')}; ponte: {c.get('rubrica',{}).get('ponte','?')})")
