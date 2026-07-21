@@ -20,17 +20,37 @@
       {
         "frase": "Confiança não se anuncia. Se constrói.",
         "queimada_ate": "SEM36",
-        "usos": ["SEM24/AD007 (dela)", "SEM25/AD005 (dela, copy idêntica)", "SEM30/AD002 punch S3 (3º uso em 6 semanas; aprovado no portão por encaixe único com a notícia Vini Jr — 'não é cedo demais AQUI', mas fecha a conta)"]
+        "usos": [
+          "SEM24/AD007 (dela)",
+          "SEM25/AD005 (dela, copy idêntica)",
+          "SEM30/AD002 punch S3 (3º uso em 6 semanas; aprovado no portão por encaixe único com a notícia Vini Jr — 'não é cedo demais AQUI', mas fecha a conta)"
+        ]
       },
       {
         "frase": "pesquisa, compara, duvida (consumidor 2026 desconfiado)",
         "queimada_ate": "SEM36",
-        "usos": ["SEM24/AD007 + SEM25/AD005 (dela)", "SEM30/AD002 item 1"]
+        "usos": [
+          "SEM24/AD007 + SEM25/AD005 (dela)",
+          "SEM30/AD002 item 1"
+        ]
       },
       {
         "frase": "Não o antes e depois da pele: a dor do antes e a vida do depois + par 'quanto custa?/quando você tem horário?'",
         "queimada_ate": "SEM36",
-        "usos": ["SEM24/AD007 + SEM25/AD005 (dela)", "SEM30/AD002 item 1"]
+        "usos": [
+          "SEM24/AD007 + SEM25/AD005 (dela)",
+          "SEM30/AD002 item 1",
+          "SEM30/AD003 (tangencial: CTA executa a virada quanto custa→agendamento SEM usar o par — aprovado no portão)"
+        ]
+      },
+      {
+        "frase": "Posso te enviar a chave Pix agora para confirmar seu horário?",
+        "queimada_ate": "SEM34",
+        "usos": [
+          "SEM24/AD003 (dela, objeções de preço)",
+          "SEM27/AD006 (Cerimônia do Pix)",
+          "SEM30/AD003 item 3 — 2º uso nosso em 4 semanas; 3º só depois da liberação"
+        ]
       }
     ]
   },
