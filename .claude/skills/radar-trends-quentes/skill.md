@@ -60,7 +60,10 @@ o slot vira validado (§5-B). Nunca forçar candidato fraco pra "ter o que repor
 
 ## Passo 5 — Reportar (stdout, o runner entrega o aviso)
 Imprimir SÓ: a linha `RADAR: <resumo_1_linha>` + top candidato (título, janela, ponte,
-hero_candidato) em ≤6 linhas. O runner (`run-radar.sh`) manda isso pro Slack/notificação.
+hero_candidato) em ≤6 linhas. O runner (`run-radar.sh`) monta o aviso do Slack a partir
+do JSON — incluindo a JUSTIFICATIVA: por que o escolhido entrou (janela/ponte/risco) e
+por que cada tema em alta foi descartado. Por isso os `descartados` precisam SEMPRE ter
+`motivo` claro e curto (uma frase) — eles são exibidos no canal, não são só log.
 
 ## Regras duras
 - Radar APONTA, nunca produz: produção de post só com OK do Sávio (mini-ponte é esboço).

@@ -54,13 +54,27 @@ except Exception:
     print("Radar rodou mas o radar-quente.json não parseia — conferir."); sys.exit(0)
 # <!channel> = @canal do Slack — SÓ quando há candidato (pedido do Sávio, 21/jul);
 # no "sem candidato hoje" ninguém é marcado.
+def curto(t, n=110):
+    t = str(t or '').strip().replace('\n', ' ')
+    return t if len(t) <= n else t[:n].rsplit(' ', 1)[0] + '…'
 prefixo = "<!channel> " if d.get('alerta') and d.get('candidatos') else ""
 linhas = [f"{prefixo}📡 Radar {d.get('rodado_em','')}: {d.get('resumo_1_linha','?')}"]
 for c in d.get('candidatos', [])[:2]:
     mp = c.get('mini_ponte', {})
-    linhas.append(f"• {c.get('titulo','?')} (postável até {c.get('postavel_ate','?')}; ponte: {c.get('rubrica',{}).get('ponte','?')})")
+    r = c.get('rubrica', {})
+    linhas.append(f"• {c.get('titulo','?')} (postável até {c.get('postavel_ate','?')})")
+    linhas.append(f"  ✔ por quê: estourou {c.get('estourou_em','?')} · ponte: {r.get('ponte','?')} · risco de marca: {r.get('risco_marca','?')}")
     hero = mp.get('hero_candidato','').replace('\n',' / ')
     if hero: linhas.append(f"  hero: {hero}")
+# justificativa dos que ficaram DE FORA (pedido do Sávio, 21/jul: o radar sempre
+# explica por que X entrou e os outros temas em alta não)
+desc = d.get('descartados', [])
+if desc:
+    linhas.append("🗑 Por que os outros temas em alta não entraram:")
+    for x in desc[:8]:
+        linhas.append(f"• {curto(x.get('tema',''), 70)} → {curto(x.get('motivo',''))}")
+    if len(desc) > 8:
+        linhas.append(f"(+{len(desc)-8} descartes no radar-quente.json)")
 print("\n".join(linhas))
 PYEOF
 )
