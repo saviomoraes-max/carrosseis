@@ -12,6 +12,7 @@
 - [ ] **Li `voice-dna.md` INTEIRO nesta sessão** — os 5 dispositivos, o CANON, "O CHEIRO DE IA", a legenda-fórmula e TODOS os anti-padrões.
 - [ ] **Li `portao-qualidade.md`.**
 - [ ] **Sei o que já foi postado na semana** e qual foi a fórmula de gancho e o rótulo de lista de cada um. *Como: `ls` na `SEM__/` + `copy.engine.json` de cada AD exportado. Regra VARIE: não repetir fórmula de gancho nem rótulo de lista do post imediatamente anterior; não reabrir a legenda com o dispositivo do post anterior.*
+- [ ] **STATUS DE PUBLICAÇÃO antes de EDITAR qualquer post (PARE — 21/jul):** a pasta não diz se foi ao ar e o perf-manual só ganha entrada quando chegam números. Regra: todo post publicado ganha `POSTADO.txt` na raiz da pasta (com a data) NO DIA da publicação; pasta sem o marcador e com dúvida → PERGUNTAR ao usuário antes de tocar em copy/render/export. *Caso real 21/jul: troquei a hero do SEM30/AD001 já publicado achando que estava no banco; o Sávio pegou e revertemos. Post publicado é IMUTÁVEL.*
 
 ## 1 · Tema **(PARE)**
 
