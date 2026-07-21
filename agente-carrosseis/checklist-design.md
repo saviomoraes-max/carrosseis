@@ -17,7 +17,7 @@ Engine: `carrosseis/_template/html-engine/engine.py` (réplica do Figma fuIFq4fA
 | `GAP` | 32px | gap ÚNICO entre todos os elementos (regra do Sávio, 30/jun) |
 | `SAFE_V` | 130px | faixa segura vertical = 1090px; conteúdo de fundo centra DENTRO dela |
 | `OVERFLOW_LIMIT` | 1130px | conteúdo medido acima disso = flag; entre 1090 e 1130 centra apertado mas limpo |
-| Hero headline | 98px, auto-fit até piso 60px | quebra art-directed é LEI (ver §1); linha nunca quebra no meio |
+| Hero headline | 98px, auto-fit até piso 60px | quebra art-directed é LEI (ver §1); linha nunca quebra no meio; a linha pode SANGRAR até ~992px (`HERO_LINE_MAX_W`, respiro de ~44px por borda) — é o look das campeãs, não travar nos 894 úteis |
 | Punch | 60px | slides photo/text/list/proof/cta (todos menos o hero, que usa a headline própria); `"align": "left"` opcional |
 | Corpo / itens | 34px, Grift | piso de legibilidade: NUNCA reduzir fonte pra caber copy |
 | Prints (proof) | `max-height: 360px` | **clipa o card em silêncio** — ver armadilha 3 |
@@ -49,7 +49,7 @@ Engine alternativo `reconecta_blocks.py` (kit seclabel/cards/from_to; canon SEM2
 - [ ] **3-5 linhas** com comprimentos BALANCEADOS: forma de bloco ou ampulheta, nunca escada (cada linha menor que a anterior) nem dente (uma linha curtíssima no meio).
 - [ ] **Nenhuma linha órfã**: linha de 1 palavra só se for palavra-punch deliberada (um número, um "NADA."), nunca preposição/conector sobrando ("COM", "MÊS,").
 - [ ] **Vírgula/ponto fecham linha**, não abrem a próxima.
-- [ ] **A linha mais longa dita o corpo da fonte** (auto-fit desce de 98px até caber). Linha longa demais = headline pequena demais: abaixo de ~78px a capa perde presença no feed → REQUEBRAR em mais linhas antes de aceitar corpo menor. Piso duro: 60px (o render avisa "REQUEBRAR" e grava em `_overflow.json`).
+- [ ] **A linha mais longa dita o corpo da fonte** (auto-fit desce de 98px até caber; linha pode sangrar até ~992px). Linha longa demais = headline pequena demais: abaixo de ~78px a capa perde presença no feed → REQUEBRAR em mais linhas antes de aceitar corpo menor. Piso duro: 60px (o render avisa "REQUEBRAR" e grava em `_overflow.json`). **"Aceitar <78 porque a quebra foi aprovada" NÃO existe** — requebrar preserva as palavras (copy literal) e só muda o `\n`, que é art direction nossa. *Caso real 20/jul (Vini Jr): rodou a 68px, ficou registrado como "aceito" e o Sávio pegou na hora ("headline muito pequena vs os posts que mais performaram"); requebra em 4 linhas com o verbo isolado voltou aos 98px cheios.*
 - [ ] **HERO SEM marca de cor (regra do Sávio, 15/jul):** a headline da capa é creme INTEGRAL — zero `{vermelho}`, zero `«champagne»`. Dado: os 5 melhores alcances da era nova não têm cor na hero; os 2 únicos com vermelho são os 2 piores (ressalva: eram também os mais novos no export — associação, não prova; mas nenhum vencedor usou). Capa com pop de cor puxa pra estética de anúncio, o oposto da capa TOFU editorial.
 - [ ] **Ênfases (slides internos):** `{vermelho}` na palavra/número disruptivo (1 por punch, na palavra que vira o sentido); `«champagne»` só em aparte/ironia. Vermelho em palavra neutra = desperdício da arma. Os vencedores usam cor nos punches internos — a restrição é só na hero.
 

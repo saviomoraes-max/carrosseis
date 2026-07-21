@@ -430,13 +430,19 @@ _PROOF_FIT_JS = """() => {
 # fit da headline do hero: desce o corpo (passo 2px) até a linha art-directed mais
 # longa caber inteira. Piso de 60px: abaixo disso é problema de COPY (requebrar as
 # linhas), não de fonte — o piso libera o wrap pra não cortar e o render avisa.
+# Régua de largura: as heroes canônicas (SEM29 campeãs) SANGRAM além da margem de
+# 93px — travar nos 894px úteis encolhe a capa vs o benchmark (feedback do Sávio,
+# 20/jul). A linha pode ir até HERO_LINE_MAX_W (respiro de ~44px de cada borda do
+# canvas); o texto segue centrado, só sangra simétrico sobre a margem.
 HERO_FIT_FLOOR = 60
+HERO_LINE_MAX_W = 992
 _HERO_FIT_JS = """() => {
   const h = document.querySelector('.hero-h');
   if (!h) return null;
   const lines = [...h.querySelectorAll('.hl')];
   if (!lines.length) return null;
-  const fits = () => lines.every(l => l.scrollWidth <= h.clientWidth + 1);
+  const MAXW = Math.max(h.clientWidth, %d);
+  const fits = () => lines.every(l => l.scrollWidth <= MAXW + 1);
   let size = parseFloat(getComputedStyle(h).fontSize);
   while (!fits() && size > %d) {
     size -= 2;
@@ -447,7 +453,7 @@ _HERO_FIT_JS = """() => {
     return {size: size, floor_hit: true};
   }
   return {size: size, floor_hit: false};
-}""" % HERO_FIT_FLOOR
+}""" % (HERO_LINE_MAX_W, HERO_FIT_FLOOR)
 
 
 def render(copy_path, out_dir):
