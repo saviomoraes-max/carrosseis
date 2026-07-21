@@ -4,9 +4,11 @@
 # com.reconecta.radar-quente. Desligar:
 #   launchctl bootout gui/$(id -u) ~/Library/LaunchAgents/com.reconecta.radar-quente.plist
 #
-# Slack: usa $SLACK_BOT_TOKEN (definido via `launchctl setenv` — NUNCA em arquivo) e o
-# canal em $RADAR_SLACK_CHANNEL (id C... ou #nome). Token inválido/ausente → fallback
-# pra notificação do macOS + log (o radar nunca deixa de rodar por causa do aviso).
+# Slack: token e canal vêm do ambiente ($SLACK_BOT_TOKEN / $RADAR_SLACK_CHANNEL) OU,
+# de preferência, do Keychain do macOS (persistente entre reinícios, nunca em arquivo):
+#   security add-generic-password -s reconecta-slack -a bot-token -w 'xoxb-...' -U
+#   security add-generic-password -s reconecta-slack -a radar-channel -w 'C0XXXXXXX' -U
+# Token inválido/ausente → fallback pra notificação do macOS + log (o radar roda igual).
 # Modelo: opus (o julgamento da ponte é o núcleo do radar — decisão 21/jul/26).
 
 export PATH="/Users/saviomoraes/.local/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
@@ -62,6 +64,10 @@ PYEOF
 log "$MSG"
 
 # --- avisar: Slack se der, senão notificação macOS ---
+# env vence; senão busca no Keychain (persistente; 1º acesso pede "Sempre Permitir")
+SLACK_BOT_TOKEN="${SLACK_BOT_TOKEN:-$(security find-generic-password -s reconecta-slack -a bot-token -w 2>/dev/null)}"
+RADAR_SLACK_CHANNEL="${RADAR_SLACK_CHANNEL:-$(security find-generic-password -s reconecta-slack -a radar-channel -w 2>/dev/null)}"
+export RADAR_SLACK_CHANNEL
 enviado=""
 if [ -n "$SLACK_BOT_TOKEN" ] && [ -n "$RADAR_SLACK_CHANNEL" ]; then
   resp=$(curl -s -X POST https://slack.com/api/chat.postMessage \
