@@ -163,10 +163,11 @@ html,body{{width:{W}px;height:{H}px;}}
 .center-wrap > .punch, .center-wrap > .body, .center-wrap > .callout,
 .center-wrap > .list-container,
 .bottom-wrap > .punch, .bottom-wrap > .body{{width:100%;}}
-/* hero-h é flex item: sem width explícito ele cresce até max-content (linha nowrap
-   estoura o canvas e o fit mede scrollWidth==clientWidth e não encolhe — caso real
-   20/jul, hero Vini Jr). width:100% devolve a régua dos 894px úteis ao fit. */
-.bottom-wrap > .hero-h{{width:100%;}}
+/* hero-h fica SEM width: como flex item ele cresce até max-content e o
+   align-items:center do wrap centraliza inclusive o sangramento além da margem
+   (simétrico, como nas capas canônicas). width:100% aqui pendura a linha larga
+   só pra direita — caso real 21/jul (AD003, ponto final na borda; o Sávio pegou).
+   A régua de largura vive no fit (HERO_LINE_MAX_W), medida por Range no texto. */
 
 .display{{font-family:'DxMonstral';color:{CREAM};text-transform:uppercase;
           line-height:.99;letter-spacing:0;}}
@@ -441,8 +442,13 @@ _HERO_FIT_JS = """() => {
   if (!h) return null;
   const lines = [...h.querySelectorAll('.hl')];
   if (!lines.length) return null;
-  const MAXW = Math.max(h.clientWidth, %d);
-  const fits = () => lines.every(l => l.scrollWidth <= MAXW + 1);
+  const MAXW = %d;
+  const textW = (l) => {
+    const r = document.createRange();
+    r.selectNodeContents(l);
+    return r.getBoundingClientRect().width;
+  };
+  const fits = () => lines.every(l => textW(l) <= MAXW + 1);
   let size = parseFloat(getComputedStyle(h).fontSize);
   while (!fits() && size > %d) {
     size -= 2;
