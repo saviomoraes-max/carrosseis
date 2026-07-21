@@ -1,14 +1,15 @@
 #!/bin/zsh
-# Radar de trends quentes — roda a skill radar-trends-quentes headless (diário, 07:20)
-# e avisa o Sávio (Slack; fallback: notificação macOS). Disparado pelo LaunchAgent
-# com.reconecta.radar-quente. Desligar:
+# Radar de trends quentes ("Leo Diaz Reconecta" no Slack) — roda a skill
+# radar-trends-quentes headless (diário, 07:20) e avisa no Slack (fallback:
+# notificação macOS). Disparado pelo LaunchAgent com.reconecta.radar-quente. Desligar:
 #   launchctl bootout gui/$(id -u) ~/Library/LaunchAgents/com.reconecta.radar-quente.plist
 #
-# Slack: token e canal vêm do ambiente ($SLACK_BOT_TOKEN / $RADAR_SLACK_CHANNEL) OU,
-# de preferência, do Keychain do macOS (persistente entre reinícios, nunca em arquivo):
+# Slack: token e canal vêm do KEYCHAIN do macOS (persistente, nunca em arquivo):
 #   security add-generic-password -s reconecta-slack -a bot-token -w 'xoxb-...' -U
 #   security add-generic-password -s reconecta-slack -a radar-channel -w 'C0XXXXXXX' -U
+# Keychain VENCE o env (bug 21/jul: env carregava o token morto do bot antigo).
 # Token inválido/ausente → fallback pra notificação do macOS + log (o radar roda igual).
+# Aviso em Block Kit (header/veredito/candidato/descartes) — legibilidade, pedido 21/jul.
 # Modelo: opus (o julgamento da ponte é o núcleo do radar — decisão 21/jul/26).
 
 export PATH="/Users/saviomoraes/.local/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
@@ -36,7 +37,7 @@ for tentativa in 1 2 3; do
 done
 
 notifica_mac() {
-  /usr/bin/osascript -e "display notification \"$1\" with title \"Radar de trends\" sound name \"Glass\"" 2>/dev/null
+  /usr/bin/osascript -e "display notification \"$1\" with title \"Leo Diaz Reconecta\" sound name \"Glass\"" 2>/dev/null
 }
 
 if [ -z "$ok" ]; then
@@ -45,63 +46,99 @@ if [ -z "$ok" ]; then
   exit 1
 fi
 
-# --- montar o aviso a partir do json (determinístico, sem depender do modelo) ---
-MSG=$(python3 - "$RADAR_JSON" <<'PYEOF'
-import json, sys
-try:
-    d = json.load(open(sys.argv[1]))
-except Exception:
-    print("Radar rodou mas o radar-quente.json não parseia — conferir."); sys.exit(0)
-# <!channel> = @canal do Slack — SÓ quando há candidato (pedido do Sávio, 21/jul);
-# no "sem candidato hoje" ninguém é marcado.
-def curto(t, n=110):
-    t = str(t or '').strip().replace('\n', ' ')
-    return t if len(t) <= n else t[:n].rsplit(' ', 1)[0] + '…'
-prefixo = "<!channel> " if d.get('alerta') and d.get('candidatos') else ""
-linhas = [f"{prefixo}📡 Radar {d.get('rodado_em','')}: {d.get('resumo_1_linha','?')}"]
-for c in d.get('candidatos', [])[:2]:
-    mp = c.get('mini_ponte', {})
-    r = c.get('rubrica', {})
-    linhas.append(f"• {c.get('titulo','?')} (postável até {c.get('postavel_ate','?')})")
-    linhas.append(f"  ✔ por quê: estourou {c.get('estourou_em','?')} · ponte: {r.get('ponte','?')} · risco de marca: {r.get('risco_marca','?')}")
-    hero = mp.get('hero_candidato','').replace('\n',' / ')
-    if hero: linhas.append(f"  hero: {hero}")
-# justificativa dos que ficaram DE FORA (pedido do Sávio, 21/jul: o radar sempre
-# explica por que X entrou e os outros temas em alta não)
-desc = d.get('descartados', [])
-if desc:
-    linhas.append("🗑 Por que os outros temas em alta não entraram:")
-    for x in desc[:8]:
-        linhas.append(f"• {curto(x.get('tema',''), 70)} → {curto(x.get('motivo',''))}")
-    if len(desc) > 8:
-        linhas.append(f"(+{len(desc)-8} descartes no radar-quente.json)")
-print("\n".join(linhas))
-PYEOF
-)
-log "$MSG"
-
-# --- avisar: Slack se der, senão notificação macOS ---
-# KEYCHAIN VENCE o env (bug 21/jul: o env ainda carregava o token morto do bot antigo
-# via launchctl setenv e o script preferia ele). Env é só fallback.
+# --- chaves (Keychain vence o env) ---
 KC_TOKEN=$(security find-generic-password -s reconecta-slack -a bot-token -w 2>/dev/null)
 KC_CHANNEL=$(security find-generic-password -s reconecta-slack -a radar-channel -w 2>/dev/null)
 SLACK_BOT_TOKEN="${KC_TOKEN:-$SLACK_BOT_TOKEN}"
 RADAR_SLACK_CHANNEL="${KC_CHANNEL:-$RADAR_SLACK_CHANNEL}"
 export RADAR_SLACK_CHANNEL
+
+# --- montar o aviso em Block Kit (determinístico, sem depender do modelo) ---
+# Estrutura: header com data → veredito (com @canal SÓ se houver candidato) → bloco do
+# candidato (janela/ponte/risco/hero) → "o que ficou de fora, e por quê" com respiro.
+PAYLOAD="$LOGDIR/.radar-slack-payload.json"
+RESUMO=$(python3 - "$RADAR_JSON" "$PAYLOAD" <<'PYEOF'
+import json, os, sys
+try:
+    d = json.load(open(sys.argv[1]))
+except Exception:
+    print("Radar rodou mas o radar-quente.json não parseia — conferir."); sys.exit(0)
+
+def curto(t, n=90):
+    t = ' '.join(str(t or '').split())
+    for sep in ('; ', ' — '):
+        if sep in t and len(t) > n:
+            t = t.split(sep)[0]
+    return t if len(t) <= n else t[:n].rsplit(' ', 1)[0] + '…'
+
+def tema_curto(t):
+    t = ' '.join(str(t or '').split()).split(' (')[0]
+    return t if len(t) <= 60 else t[:60].rsplit(' ', 1)[0] + '…'
+
+quando = str(d.get('rodado_em', ''))
+try:
+    data, hora = quando.split(' ')
+    _, m, dia = data.split('-')
+    quando_fmt = f"{dia}/{m} às {hora.replace(':', 'h')}"
+except Exception:
+    quando_fmt = quando
+
+alerta = bool(d.get('alerta') and d.get('candidatos'))
+resumo = d.get('resumo_1_linha', '?')
+
+blocks = [
+    {"type": "header", "text": {"type": "plain_text", "text": f"📡 Radar de trends — {quando_fmt}", "emoji": True}},
+    {"type": "section", "text": {"type": "mrkdwn", "text": ("<!channel> " if alerta else "") + f"*Veredito:* {resumo}"}},
+]
+for c in d.get('candidatos', [])[:2]:
+    mp = c.get('mini_ponte', {}); r = c.get('rubrica', {})
+    hero = mp.get('hero_candidato', '').replace('\n', ' / ')
+    txt = (f"🔥 *{c.get('titulo', '?')}*\n"
+           f"*Janela:* estourou {c.get('estourou_em', '?')} · postável até {c.get('postavel_ate', '?')}\n"
+           f"*Ponte com a nossa dor:* {r.get('ponte', '?')}\n"
+           f"*Risco de marca:* {r.get('risco_marca', '?')}")
+    if hero:
+        txt += f"\n*Hero rascunhada:* _{hero}_"
+    blocks += [{"type": "divider"}, {"type": "section", "text": {"type": "mrkdwn", "text": txt}}]
+
+desc = d.get('descartados', [])
+if desc:
+    itens = [f"• *{tema_curto(x.get('tema'))}*\n_{curto(x.get('motivo'))}_" for x in desc[:6]]
+    corpo = "\n\n".join(itens)
+    if len(desc) > 6:
+        corpo += f"\n\n_+{len(desc) - 6} outros descartes no radar-quente.json_"
+    blocks += [{"type": "divider"},
+               {"type": "section", "text": {"type": "mrkdwn", "text": "*O que ficou de fora, e por quê:*\n\n" + corpo}}]
+
+blocks.append({"type": "context", "elements": [{"type": "mrkdwn",
+    "text": "Detalhes: agente-carrosseis/data/radar-quente.json · rodada automática diária às 07:20 · pra produzir: \"desembola o candidato do radar\""}]})
+
+payload = {"channel": os.environ.get('RADAR_SLACK_CHANNEL', ''),
+           "text": f"📡 Radar: {resumo}",
+           "unfurl_links": False,
+           "blocks": blocks}
+json.dump(payload, open(sys.argv[2], 'w'), ensure_ascii=False)
+print(resumo)
+PYEOF
+)
+log "resumo: $RESUMO"
+
+# --- avisar: Slack se der, senão notificação macOS ---
 enviado=""
-if [ -n "$SLACK_BOT_TOKEN" ] && [ -n "$RADAR_SLACK_CHANNEL" ]; then
+if [ -n "$SLACK_BOT_TOKEN" ] && [ -n "$RADAR_SLACK_CHANNEL" ] && [ -s "$PAYLOAD" ]; then
   resp=$(curl -s -X POST https://slack.com/api/chat.postMessage \
     -H "Authorization: Bearer $SLACK_BOT_TOKEN" \
     -H "Content-Type: application/json; charset=utf-8" \
-    -d "$(python3 -c "import json,os,sys; print(json.dumps({'channel': os.environ['RADAR_SLACK_CHANNEL'], 'text': sys.argv[1]}))" "$MSG")")
+    --data-binary @"$PAYLOAD")
   if echo "$resp" | grep -q '"ok":true'; then
-    enviado=1; log "--- aviso enviado no Slack ($RADAR_SLACK_CHANNEL) ---"
+    enviado=1; log "--- aviso enviado no Slack (Block Kit) ---"
   else
     log "--- Slack falhou: $(echo "$resp" | head -c 200) ---"
   fi
 fi
+rm -f "$PAYLOAD"
 if [ -z "$enviado" ]; then
-  notifica_mac "$(echo "$MSG" | head -2 | tail -1)"
+  notifica_mac "$RESUMO"
   log "--- aviso via notificação macOS (Slack indisponível) ---"
 fi
 
