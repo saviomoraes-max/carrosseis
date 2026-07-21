@@ -67,9 +67,12 @@ PYEOF
 log "$MSG"
 
 # --- avisar: Slack se der, senão notificação macOS ---
-# env vence; senão busca no Keychain (persistente; 1º acesso pede "Sempre Permitir")
-SLACK_BOT_TOKEN="${SLACK_BOT_TOKEN:-$(security find-generic-password -s reconecta-slack -a bot-token -w 2>/dev/null)}"
-RADAR_SLACK_CHANNEL="${RADAR_SLACK_CHANNEL:-$(security find-generic-password -s reconecta-slack -a radar-channel -w 2>/dev/null)}"
+# KEYCHAIN VENCE o env (bug 21/jul: o env ainda carregava o token morto do bot antigo
+# via launchctl setenv e o script preferia ele). Env é só fallback.
+KC_TOKEN=$(security find-generic-password -s reconecta-slack -a bot-token -w 2>/dev/null)
+KC_CHANNEL=$(security find-generic-password -s reconecta-slack -a radar-channel -w 2>/dev/null)
+SLACK_BOT_TOKEN="${KC_TOKEN:-$SLACK_BOT_TOKEN}"
+RADAR_SLACK_CHANNEL="${KC_CHANNEL:-$RADAR_SLACK_CHANNEL}"
 export RADAR_SLACK_CHANNEL
 enviado=""
 if [ -n "$SLACK_BOT_TOKEN" ] && [ -n "$RADAR_SLACK_CHANNEL" ]; then
