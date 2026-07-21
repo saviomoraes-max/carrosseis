@@ -163,6 +163,10 @@ html,body{{width:{W}px;height:{H}px;}}
 .center-wrap > .punch, .center-wrap > .body, .center-wrap > .callout,
 .center-wrap > .list-container,
 .bottom-wrap > .punch, .bottom-wrap > .body{{width:100%;}}
+/* hero-h é flex item: sem width explícito ele cresce até max-content (linha nowrap
+   estoura o canvas e o fit mede scrollWidth==clientWidth e não encolhe — caso real
+   20/jul, hero Vini Jr). width:100% devolve a régua dos 894px úteis ao fit. */
+.bottom-wrap > .hero-h{{width:100%;}}
 
 .display{{font-family:'DxMonstral';color:{CREAM};text-transform:uppercase;
           line-height:.99;letter-spacing:0;}}
