@@ -1,6 +1,46 @@
 {
   "_doc": "Repertório persistente de técnicas de headline. O gerador escolhe uma técnica que case com o tema e ADAPTA a estrutura_abstrata — nunca inventa. Exemplos são fonte de inspiração estrutural (uso interno).",
   "gerado_em": "2026-06-30",
+  "queimadas": {
+    "_doc": "Famílias e frases com uso recente demais no feed (portão 20/jul/26). NÃO usar em punch/título/capa/legenda até a semana de liberação. Checar este bloco ANTES de ancorar punch novo.",
+    "familias": [
+      {
+        "familia": "sorte como vilã (não é sorte / depender de sorte / teve sorte)",
+        "queimada_ate": "SEM34",
+        "usos": [
+          "SEM23/AD005 (âncora verbatim original: 'a sua agenda para de depender de sorte')",
+          "SEM27/AD004 proof: 'AGENDA CHEIA NÃO É SORTE.'",
+          "SEM27/AD006 título+capa: 'Comparecimento não se espera' / 'NÃO É SORTE. NEM PEDIDO.'",
+          "SEM29/RLS007 capa: 'Ela teve sorte, você pensou. Não foi.'",
+          "SEM30/AD002 punch lista: 'O QUE FAZ UMA AGENDA PARAR DE DEPENDER DE SORTE' (4º uso em ~1 mês — foi o último)"
+        ]
+      }
+    ],
+    "frases": [
+      {
+        "frase": "Confiança não se anuncia. Se constrói.",
+        "queimada_ate": "SEM36",
+        "usos": ["SEM24/AD007 (dela)", "SEM25/AD005 (dela, copy idêntica)", "SEM30/AD002 punch S3 (3º uso em 6 semanas; aprovado no portão por encaixe único com a notícia Vini Jr — 'não é cedo demais AQUI', mas fecha a conta)"]
+      },
+      {
+        "frase": "pesquisa, compara, duvida (consumidor 2026 desconfiado)",
+        "queimada_ate": "SEM36",
+        "usos": ["SEM24/AD007 + SEM25/AD005 (dela)", "SEM30/AD002 item 1"]
+      },
+      {
+        "frase": "Não o antes e depois da pele: a dor do antes e a vida do depois + par 'quanto custa?/quando você tem horário?'",
+        "queimada_ate": "SEM36",
+        "usos": ["SEM24/AD007 + SEM25/AD005 (dela)", "SEM30/AD002 item 1"]
+      }
+    ]
+  },
+  "regra_de_capa": {
+    "_doc": "v2, refinada em 16/jul/26 após leitura do Sávio ('estamos deixando menos topo de funil'). O benchmark de 15/jul foi calibrado nos hits de CARROSSEL (perf_compact.json — distribuição puxada por seguidores, saves/sends de doutora quente) e supercorrigiu ao mandar trazer a clínica pra capa. Capa de REELS frio é outro jogo: a série RLS é desenhada como PARÁBOLA universal (história ampla → pivô pra doutora no meio do vídeo), e nichar a capa estreita o topo do funil e quebra a camuflagem ('o anúncio que mais performa é o que não parece anúncio' — regra da casa do swipe file). Ficam DUAS PISTAS:",
+    "pista_reels_tofu": "capa = história/cena AMPLA, zero jargão (arquitetura de funil do Sávio, 14/jul). Identidade só quando couber em 'você' AMPLO, que qualquer pessoa veste ('Ela teve sorte, você pensou. Não foi.'). NUNCA 'sua clínica/seu Direct' na capa fria — grita anúncio de nicho e derruba alcance.",
+    "pista_warm_carrossel": "capas/hooks de carrossel e conteúdo warm/retargeting seguem identidade+âncora (você/sua clínica/cena do consultório: Direct cheio perguntando preço, objeção, antes/depois) — é onde os hits validados vivem (16 hits s/r≥3% abrem todos em reconhecimento da persona).",
+    "veto_que_fica_nas_duas_pistas": "NÃO entregar o punchline/moral na capa — loop aberto obrigatório (foi o defeito real que o benchmark achou no RLS005: 'ganhou 32 dólares' fecha a anedota e deixa concordar-e-rolar). Brevidade ≤8 palavras, 1 linha, legível sem som. Número curado quando houver. Sem listicle/tutorial.",
+    "prova": "a régua de Reels frio ainda NÃO tem dado próprio (perf é de carrossel; RLS é série nova). Decidir por A/B nos próximos RLS: perna história-pura vs perna 'você'-amplo, medido por sends/reach + comentários SUPERCASO por alcance + follows — nunca por views brutos."
+  },
   "tecnicas": [
     {
       "tecnica": "curiosity-gap / pergunta-paradoxo",
@@ -242,6 +282,20 @@
           "url": "https://exame.com/pme/como-fechar-negocio-ate-com-quem-se-assustou-com-seus-precos/",
           "origem": "nacional",
           "nota": "paradoxo de preço: fechar COM quem se assustou com o preço. Achado na pesquisa do RLS004 (brigadeiro/posicionamento, 2026-07)."
+        },
+        {
+          "headline": "Anatel revoga obrigatoriedade do uso do prefixo 0303 em ligações",
+          "portal": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2025-08/anatel-revoga-obrigatoriedade-do-uso-do-prefixo-0303-em-ligacoes",
+          "origem": "nacional",
+          "nota": "Paradoxo institucional: criaram um código (0303, 2022) pra IDENTIFICAR telemarketing e ele virou sinal de 'não atenda' — as pessoas bloquearam tanto que a regra foi REVOGADA (ago/2025). Base do RLS006 (número desconhecido/posicionamento, 2026-07). Capa derivada: 'Criaram um número só pra você não atender' — a ação institucional com efeito oposto ao declarado abre o curiosity gap."
+        },
+        {
+          "headline": "Viés de sobrevivência: por que histórias de sucesso enganam",
+          "portal": "A Mente é Maravilhosa",
+          "url": "https://amenteemaravilhosa.com.br/como-historias-sucesso-influenciam-vies-sobrevivencia-psicologia/",
+          "origem": "nacional",
+          "nota": "Reframe contraintuitivo (viés de sobrevivência / avião de Abraham Wald): a leitura óbvia do sucesso está ENVIESADA porque só olha quem venceu — 'sorte' é a explicação preguiçosa pro que foi decisão+rotina invisível. Base do RLS007 (sorte × decisões, 2026-07). Capas derivadas: negação-pivô por citação ('Ela teve sorte.' Duvido.) e reframe ('Você só vê quem deu certo'). Técnica: validar o reflexo do leitor (chamar de sorte) e virar."
         }
       ]
     },
