@@ -176,6 +176,17 @@ html,body{{width:{W}px;height:{H}px;}}
 .hero-h .hl{{display:block;white-space:nowrap;}}
 .punch{{font-size:60px;line-height:1.0;letter-spacing:-.005em;text-align:center;}}
 .punch.left{{text-align:left;}}
+/* quebra art-directed do punch é lei (como no hero): a linha nunca quebra no meio.
+   Linha larga demais NÃO encolhe a fonte — o render acusa e a linha é REQUEBRADA.
+   Caso real 21/jul: "SE VOCÊ QUER PARAR DE PERDER" não coube e o browser derrubou
+   "PERDER" órfão em silêncio (AD005 SEM30, o Sávio pegou no preview). */
+.punch .pl{{display:block;white-space:nowrap;}}
+/* subheadline do hero: a VIRADA de registro embaixo da aspa (canon SEM25/AD002,
+   "headline grande + itálico champagne embaixo"). Nunca embutir a virada como
+   linha gigante da própria headline — desequilibra a pirâmide e encolhe a capa. */
+.hero-sub{{font-family:'Grift';font-style:italic;font-weight:400;font-size:40px;
+   line-height:1.25;color:{CHAMPAGNE};text-align:center;
+   text-shadow:0 2px 14px rgba(10,2,2,.65);}}
 .red{{color:{RED};}}
 .champ{{color:{CHAMPAGNE};font-family:'Grift';font-style:italic;}}
 
@@ -230,7 +241,11 @@ def _pill(label):
 
 def _punch(s):
     align = " left" if s.get("align") == "left" else ""
-    return f'<div class="display punch{align}">{_inline(s["punch"])}</div>'
+    # cada linha art-directed vira bloco nowrap — o render mede e acusa linha
+    # que não cabe (requebrar copy, nunca deixar o browser quebrar sozinho)
+    lines = s["punch"].split("\n")
+    inner = "".join(f'<span class="pl">{_inline(l)}</span>' for l in lines)
+    return f'<div class="display punch{align}">{inner}</div>'
 
 
 def _bodies(s):
@@ -266,9 +281,14 @@ def slide_hero(s, base_dir):
     lines = s["headline"].split("\n")
     inner = "".join(f'<span class="hl">{_inline(l)}</span>' for l in lines)
     headline = f'<div class="display hero-h"{hstyle}>{inner}</div>'
+    # "sub" opcional: a virada de registro embaixo da aspa (itálico champagne).
+    # Capa com aspa + comentário usa headline=aspa e sub=virada — nunca as duas
+    # no mesmo bloco (a linha longa da virada desequilibra e encolhe a headline).
+    sub = (f'<div class="hero-sub">{_inline(s["sub"])}</div>'
+           if s.get("sub") else "")
     return (f'<div class="slide" style="background:{BG_HERO};">{photo}{scrim}'
             f'<div class="grain"></div>'
-            f'<div class="bottom-wrap" style="bottom:88px;">{headline}'
+            f'<div class="bottom-wrap" style="bottom:88px;">{headline}{sub}'
             f'{_pill("RECONECTA")}</div></div>')
 
 
@@ -437,6 +457,26 @@ _PROOF_FIT_JS = """() => {
 # canvas); o texto segue centrado, só sangra simétrico sobre a margem.
 HERO_FIT_FLOOR = 60
 HERO_LINE_MAX_W = 992
+# guarda das linhas do punch: linha art-directed que não cabe no container NÃO
+# encolhe a fonte (hierarquia tipográfica é fixa) — o render acusa e a linha é
+# requebrada na copy. Sem isso o browser quebrava sozinho e derrubava palavra
+# órfã em silêncio (caso "PERDER", AD005 SEM30, 21/jul).
+_PUNCH_CHECK_JS = """() => {
+  const punch = document.querySelector('.punch');
+  if (!punch) return null;
+  const lines = [...punch.querySelectorAll('.pl')];
+  if (!lines.length) return null;
+  const maxW = punch.getBoundingClientRect().width;
+  const bad = [];
+  lines.forEach(l => {
+    const r = document.createRange();
+    r.selectNodeContents(l);
+    const w = r.getBoundingClientRect().width;
+    if (w > maxW + 1) bad.push({text: l.textContent, w: Math.round(w), max: Math.round(maxW)});
+  });
+  return bad.length ? bad : null;
+}"""
+
 _HERO_FIT_JS = """() => {
   const h = document.querySelector('.hero-h');
   if (!h) return null;
@@ -486,6 +526,14 @@ def render(copy_path, out_dir):
                           f"{fit['size']}px — REQUEBRAR a headline em linhas mais curtas.")
                 elif fit["size"] < 98:
                     print(f"  hero fit: headline a {fit['size']}px pra honrar as quebras")
+            # punch: linha art-directed que não cabe = overflow (requebrar copy)
+            pbad = page.evaluate(_PUNCH_CHECK_JS)
+            if pbad:
+                overflows.append({"slide": idx, "type": "punch_line", "lines": pbad})
+                for b in pbad:
+                    print(f"⚠ PUNCH slide_{idx}: linha \"{b['text']}\" tem {b['w']}px "
+                          f"e o container {b['max']}px — REQUEBRAR a linha (nunca "
+                          f"deixar o browser quebrar sozinho).")
             # proof: bloco de prints abraça o conteúdo real antes da centralização
             pfit = page.evaluate(_PROOF_FIT_JS)
             if pfit is not None:

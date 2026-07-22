@@ -34,7 +34,7 @@ Marcação inline vale em `headline`, `punch`, `body` e `items` (title/body) —
 
 | type | campos | notas |
 |---|---|---|
-| `hero` | `headline`, `image`, `fx?` | sem punch; sem masthead; pill automático |
+| `hero` | `headline`, `sub?`, `image`, `fx?` | sem punch; sem masthead; pill automático; `sub` = virada de registro (itálico champagne, ver §1.1) |
 | `photo` | `punch`, `body[]`, `image` | sem imagem = placeholder centralizado (render de prova) |
 | `text` | `punch`, `body[]` | fundo BG_TEXT |
 | `list` | `punch`, `items[{title, body}]` | números vermelhos automáticos |
@@ -50,8 +50,13 @@ Engine alternativo `reconecta_blocks.py` (kit seclabel/cards/from_to; canon SEM2
 - [ ] **Nenhuma linha órfã**: linha de 1 palavra só se for palavra-punch deliberada (um número, um "NADA."), nunca preposição/conector sobrando ("COM", "MÊS,").
 - [ ] **Vírgula/ponto fecham linha**, não abrem a próxima.
 - [ ] **A linha mais longa dita o corpo da fonte** (auto-fit desce de 98px até caber; linha pode sangrar até ~992px). Linha longa demais = headline pequena demais: abaixo de ~78px a capa perde presença no feed → REQUEBRAR em mais linhas antes de aceitar corpo menor. Piso duro: 60px (o render avisa "REQUEBRAR" e grava em `_overflow.json`). **"Aceitar <78 porque a quebra foi aprovada" NÃO existe** — requebrar preserva as palavras (copy literal) e só muda o `\n`, que é art direction nossa. *Caso real 20/jul (Vini Jr): rodou a 68px, ficou registrado como "aceito" e o Sávio pegou na hora ("headline muito pequena vs os posts que mais performaram"); requebra em 4 linhas com o verbo isolado voltou aos 98px cheios.*
+- [ ] **Capa com VIRADA DE REGISTRO usa `sub`, nunca linha na headline (regra do Sávio, 22/jul).** Capa "aspa da paciente + comentário da mentora" (ou qualquer frase-tese + virada): a aspa é a `headline` (creme, linhas balanceadas) e a virada vai no campo `sub` — itálico champagne 40px embaixo, padrão canon SEM25/AD002. Embutir a virada como linha da headline desequilibra a pirâmide (a linha longa encolhe a aspa inteira) e mistura duas vozes no mesmo registro tipográfico. *Caso real 22/jul (AD005 SEM30): "NUNCA É SOBRE O MARIDO." como 3ª linha da headline — muito mais larga que a aspa, capa fora do padrão; o Sávio pegou no preview.*
 - [ ] **HERO SEM marca de cor (regra do Sávio, 15/jul):** a headline da capa é creme INTEGRAL — zero `{vermelho}`, zero `«champagne»`. Dado: os 5 melhores alcances da era nova não têm cor na hero; os 2 únicos com vermelho são os 2 piores (ressalva: eram também os mais novos no export — associação, não prova; mas nenhum vencedor usou). Capa com pop de cor puxa pra estética de anúncio, o oposto da capa TOFU editorial.
 - [ ] **Ênfases (slides internos):** `{vermelho}` na palavra/número disruptivo (1 por punch, na palavra que vira o sentido); `«champagne»` só em aparte/ironia. Vermelho em palavra neutra = desperdício da arma. Os vencedores usam cor nos punches internos — a restrição é só na hero.
+
+### 1.1b Quebras do punch (TODOS os slides com punch, incluindo CTA)
+- [ ] **Quebra por UNIDADE DE SENTIDO: cada linha lida SOZINHA tem que fazer sentido.** O teste é ler o punch linha a linha em voz alta, parando em cada `\n` — fragmento que soa errado isolado ("PERDER" sozinho; "VENDA PRA UMA CONVERSA" sem o verbo) = requebrar. Conector curto no FIM da linha ("...APRENDER A") é aceitável (sinaliza continuação); palavra órfã caída no COMEÇO de linha nunca.
+- [ ] **A linha art-directed do punch é lei, igual à do hero** (engine: `.pl` nowrap). Linha que não cabe nos 894px úteis NÃO encolhe a fonte (60px é fixo, hierarquia) — o render acusa `⚠ PUNCH ... REQUEBRAR` e grava em `_overflow.json`; a solução é sempre requebrar o `\n` (art direction nossa, copy intacta). *Caso real 22/jul (AD005 SEM30, CTA): "SE VOCÊ QUER PARAR DE PERDER" não coube, o browser quebrou sozinho e "PERDER" caiu órfão em silêncio; o Sávio pegou no preview — "seja tão rigoroso no design quanto na copy".*
 
 ### 1.2 As fotos do post
 - [ ] **Pasta `img/` + `img/NECESSARIO.txt` criados NO INÍCIO** (antes da copy): listar cada imagem esperada (hero, foto do photo, prints de prova) com uma linha do que serve — é por esse arquivo que o usuário sabe o que depositar.
@@ -87,6 +92,7 @@ Engine alternativo `reconecta_blocks.py` (kit seclabel/cards/from_to; canon SEM2
 - [ ] **Ler as linhas de fit do log** (elas contam o que o engine ajustou por você):
   - `hero fit: headline a Xpx` → o corpo desceu; se X < ~78, voltar ao §1.1 e requebrar.
   - `⚠ HERO ... REQUEBRAR` → bloqueio: headline não coube nem no piso.
+  - `⚠ PUNCH slide_N: linha "..." tem Xpx e o container Ypx` → bloqueio: requebrar a linha do punch (§1.1b) — nunca aceitar quebra do browser.
   - `proof fit: bloco de prints a Xpx` → normal; a régua de aperto é o TOTAL (punch + 32 + bloco) contra a faixa: passou de 1090 centra apertado, e o ⚠ OVERFLOW dispara em 1130. Na prática: punch de 2 linhas → bloco até ~940px confortável; punch de 1 linha → até ~990px.
   - Slide proof **SEM** linha `proof fit:` no log = bloco travado por `block_h` — confirmar que travar foi intencional; se não foi, remover o `block_h` do json.
 - [ ] **`_overflow.json` NÃO existe** na pasta slides/. Se existir: **cortar COPY, nunca fonte**. Micro-corte não resolve — derrubar LINHA inteira (caçar a linha órfã de 1-2 palavras no PNG e encurtar ali).
@@ -162,3 +168,5 @@ Pergunta de decisão: **"isso pode acontecer de novo em qualquer post futuro?"**
 | 15 | **Pedir print ao usuário** | 15/jul: "não tem por que regredir o que a gente já progrediu" | Seleção automática: pool + registro por página + crop por banda (§1.4) |
 | 16 | **Sangria assimétrica do hero** (linha mais larga que os 894 úteis com `width:100%` pendura só pra DIREITA — CSS centraliza dentro da caixa e o excesso vaza pro fim da linha) | 21/jul: AD003, ponto final encostado na borda direita; o Sávio pegou no preview | hero-h fica sem width (max-content + align-items:center do wrap = sangria simétrica); o fit mede o TEXTO por Range contra `HERO_LINE_MAX_W` |
 | 17 | **Render de prova sem inspeção** ("é só placeholder" NÃO isenta o §3 — foi assim que 16 e o nome em print passaram batidos no mesmo dia) | 21/jul: rendi o AD003 sem abrir nenhum PNG; dois defeitos foram pro preview do usuário | TODO render abre TODOS os PNGs + preview, sem exceção de "prova" |
+| 18 | **Virada de registro embutida na headline da capa** (linha-comentário muito mais larga que a aspa desequilibra e encolhe a capa inteira) | 22/jul: AD005 SEM30, "NUNCA É SOBRE O MARIDO." como 3ª linha; o Sávio pegou no preview | Aspa = `headline`; virada = `sub` (itálico champagne embaixo, canon SEM25/AD002) — §1.1 |
+| 19 | **Punch quebrado pelo browser em silêncio** (linha art-directed larga demais caía em word-wrap e derrubava palavra órfã) | 22/jul: AD005 SEM30 CTA, "PERDER" sozinho na linha; o Sávio pegou no preview | Engine: `.pl` nowrap + guarda no render (`⚠ PUNCH ... REQUEBRAR`); quebrar por unidade de sentido — §1.1b |
