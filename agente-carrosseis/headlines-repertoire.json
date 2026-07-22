@@ -14,6 +14,25 @@
           "SEM29/RLS007 capa: 'Ela teve sorte, você pensou. Não foi.'",
           "SEM30/AD002 punch lista: 'O QUE FAZ UMA AGENDA PARAR DE DEPENDER DE SORTE' (4º uso em ~1 mês — foi o último)"
         ]
+      },
+      {
+        "familia": "gentileza como máscara (sendo gentil→com medo / gentileza→passividade)",
+        "queimada_ate": "SEM36",
+        "usos": [
+          "hit 08/jun (Leonardo, s/r 3,02%)",
+          "SEM29/AD002 S3 ('GENTILEZA ATENDE. POSTURA AGENDA.')",
+          "SEM30/AD004 hero+S3 (pilar (a) do Leonardo — sancionado, mas fecha a conta)"
+        ]
+      },
+      {
+        "familia": "objeção do marido — teses do SEM25/AD001 ('nunca é sobre o marido' / 'muro→motivo' / 'nome do medo de decidir')",
+        "queimada_ate": "SEM36",
+        "usos": [
+          "SEM20/AD002 (Desculpa do Marido)",
+          "SEM25/AD001 (Falar Com o Marido)",
+          "SEM25/AD006 item (script curto)",
+          "SEM30/AD005 hero (única tese re-rodada; punch S3 trocado pro verbatim SEM18 no portão)"
+        ]
       }
     ],
     "frases": [
@@ -50,6 +69,23 @@
           "SEM24/AD003 (dela, objeções de preço)",
           "SEM27/AD006 (Cerimônia do Pix)",
           "SEM30/AD003 item 3 — 2º uso nosso em 4 semanas; 3º só depois da liberação"
+        ]
+      },
+      {
+        "frase": "a consulta é X, mas a gente abate no procedimento (abate antecipado=desculpa; guardado=compromisso)",
+        "queimada_ate": "SEM34",
+        "usos": [
+          "SEM25/AD003 (post inteiro)",
+          "SEM30/AD004 item 2 — 2º uso em 5 semanas"
+        ]
+      },
+      {
+        "frase": "não é favor/gentileza, é negligência clínica (segurar o plano completo)",
+        "queimada_ate": "SEM36",
+        "usos": [
+          "SEM20/AD007 ('Não apresentar o plano completo é negligência clínica.')",
+          "SEM21/AD002 (post Negligência Clínica)",
+          "SEM30/AD004 S3 punch — 3º uso; mantido no portão, próximo só depois da liberação"
         ]
       }
     ]
