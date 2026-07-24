@@ -20,3 +20,9 @@ agentes/carrossel/.slack_token
 
 # Posts produzidos localmente (máquinas sem o SSD)
 producao/
+
+# Pulso de trends — saídas de runtime (estado, snapshot, logs, temporários)
+agente-carrosseis/data/trends-pulse*
+agente-carrosseis/logs/trends-pulse*
+agente-carrosseis/logs/.pulse-*
+__pycache__/
