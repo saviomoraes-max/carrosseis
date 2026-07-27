@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "meta-insights": {
+      "command": "/Users/saviomoraes/reconecta/agente-carrosseis/run-meta-mcp.sh",
+      "args": []
+    }
+  }
+}
