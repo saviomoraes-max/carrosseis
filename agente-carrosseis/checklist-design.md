@@ -200,6 +200,7 @@ Pergunta de decisão: **"isso pode acontecer de novo em qualquer post futuro?"**
 | 5 | **Overflow "resolvido" com fonte menor** | tentação recorrente | Piso de legibilidade é inegociável: cortar COPY, derrubar linha inteira |
 | 6 | **Chute de coordenada de crop** em screenshot alto | AD010 09/jul: crop às cegas cortou bolha errada | Medir bolhas por varredura de pixel OU iterar crop→olhar |
 | 7 | **Texto sobre área clara sem tratamento** | AD009 14/jul: pontas sobre a vitrine | §1.3: escolher fx OLHANDO a foto |
+| 7-B | **Foto clara demais no terço inferior** (o scrim não escurece o suficiente e a headline compete com a foto) — *caso real 29/jul: a capa do AD004 saiu com retrato de fundo branco/roupa clara; o Sávio pegou no preview: "está muito clara"* | Escolher a foto do hero A pela LUMINOSIDADE DO TERÇO INFERIOR, não pelo enquadramento do rosto: a metade de baixo tem que ser naturalmente escura (roupa escura, sombra, fundo profundo). Regra prática: se você conseguisse ler texto preto sobre aquela zona, ela está clara demais pro creme |
 | 8 | **Faixa escura chapada sobre a foto** | feedback do Sávio (jul/26, slide_photo) | Rampa contínua sem degrau (scrim do photo é fixo no engine; conferir VISUAL no PNG) |
 | 9 | **Dado pessoal legível em print** | regra permanente (depoimentos) | Blur/crop pré-render; R$ nítido; zoom 100% no PNG final |
 | 10 | **Aprovar sem abrir o PNG** | a causa-raiz de 1, 2 e 3 terem passado | Read em todos os slides, sempre, com evidência no relato |

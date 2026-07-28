@@ -98,7 +98,7 @@ do encerramento; nenhuma capa pergunta preço.
 
 **QUA produzido (29/07):** AD004 "A Triagem Que Espanta" + AD005 "Aí Você Me Avisa" —
 portão de 59 agentes (22 confirmados + 3 divididos + 58 adjudicados na reconciliação §7,
-0 refutador morto). Prints p36 e p34 (inéditos). Imagens: magnific_1s1sIVUr4r +
+0 refutador morto). Prints p36 e p34 (inéditos). Imagens: magnific_DBDBH6Ipcl +
 hf_20260722_003343 (AD004) · hf_20260728_142602 + magnific_74745r3JAL (AD005).
 Estreia do bloco B6: marcou 2 punches como APROVADO-MORNO e os dois eram de slots sem
 registro de candidatos — o gabarito agora exige cobertura de TODOS os slots.
