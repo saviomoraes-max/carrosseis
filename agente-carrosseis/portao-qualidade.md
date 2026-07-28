@@ -46,6 +46,7 @@
 - [ ] **C2 · Slides de entrega têm as 4 camadas:** ação concreta + mecanismo (cadeia causal) + exemplo vivo (frase pronta/vignette) + frame conceitual.
 - [ ] **C3 · Cada slide intermediário puxa o próximo** (gancho explícito).
 - [ ] **C4 · Legibilidade:** corpo dentro do piso (≥30), respiro, sem encolher texto pra caber copy.
+- [ ] **C5 · SENTIDO LITERAL — leitura fria linha a linha *(novo, 29/jul; falha dura na capa)*.** Antes de qualquer análise de eco/voz/território, ler CADA linha de punch, headline e frase pronta **isolada**, como quem tem zero contexto e 2 segundos. A linha se sustenta sozinha? Falta palavra? **Elipse sem verbo reprova** ("nunca mais", "e pronto", "e já era", "e olhe lá"). *Evidência: a leitura isolada de cada linha da capa + veredito.* *Caso real: a capa "«Isso é só na avaliação.» «Agenda pelo link.» E A LEAD, NUNCA MAIS." passou por 59 agentes deste portão porque nenhuma dimensão perguntava se a frase FECHA — o Sávio pegou no preview ("nunca mais O QUÊ? erro grotesco"). Todo portão novo carrega uma dimensão de SENTIDO, e ela roda ANTES das outras.*
 
 ## BLOCO D — Continuidade narrativa
 
