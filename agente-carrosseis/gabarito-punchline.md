@@ -8,6 +8,17 @@
 
 ## O PROCEDIMENTO (obrigatório, com evidência no self-check)
 
+> **COBERTURA TOTAL (lição de 29/jul, comprovada):** o registro tem que cobrir **TODOS os
+> slots — capa, S2, S3, S4, S5 e S6**. Na 1ª rodada eu registrei só capa+S2+S3, e os DOIS
+> punches que o portão marcou APROVADO-MORNO caíram exatamente nos slots sem registro
+> (AD004 S4 e AD005 S5). Não é coincidência: punch sem seleção é punch de primeira
+> tentativa. Proof e CTA podem ter registro enxuto (3 candidatos), mas TÊM registro.
+>
+> **O registro vale pro POST INTEIRO, não pro slot.** Candidato morto não pode reaparecer
+> noutra superfície com sinônimo trocado — caso real 29/jul: "NINGUÉM FOI GROSSA. SÓ
+> NINGUÉM FOI GENTE." morreu no S2 e voltou na legenda como "…só ninguém foi humana".
+> Antes de fechar a legenda: reler a lista de mortos e grepar as construções.
+
 Pra CADA punch do post:
 1. **Escreva 5 candidatos, um por mecanismo** (tabela abaixo). Não 5 variações do mesmo.
 2. **Leia os 5 em voz alta.** Corte os que soam como legenda de LinkedIn.

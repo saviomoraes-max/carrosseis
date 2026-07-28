@@ -96,6 +96,13 @@ pesquisa/compara/duvida, quanto-custa/horário, dor-do-antes, Pix, abate,
 negligência clínica. Adjacências checadas: QUA-B foge da gentileza pelo ângulo
 do encerramento; nenhuma capa pergunta preço.
 
+**QUA produzido (29/07):** AD004 "A Triagem Que Espanta" + AD005 "Aí Você Me Avisa" —
+portão de 59 agentes (22 confirmados + 3 divididos + 58 adjudicados na reconciliação §7,
+0 refutador morto). Prints p36 e p34 (inéditos). Imagens: magnific_1s1sIVUr4r +
+hf_20260722_003343 (AD004) · hf_20260728_142602 + magnific_74745r3JAL (AD005).
+Estreia do bloco B6: marcou 2 punches como APROVADO-MORNO e os dois eram de slots sem
+registro de candidatos — o gabarito agora exige cobertura de TODOS os slots.
+
 **Status:** APROVADA (28/07). TER produzido: AD002 "Vou Pensar na Porta" + AD003 "O Áudio
 de 3 Minutos" (portão 58 agentes: 23 confirmados aplicados + 48 adjudicados §7; renders
 limpos; aguardando OK do Sávio pro export).
@@ -132,7 +139,10 @@ PRONTA · SEX-A cada item com ação/frase colável · SEX-B já é reframe puro
   "consulta sem X"; ancorar na frase "aí você me avisa".
 - **QUI-A (no-show):** proof não pode ser faturamento mensal (3º dia seguido de R$ =
   fadiga); buscar print de comparecimento/agenda.
-- **SEX-A (agenda):** proof que conte COMPOSIÇÃO de agenda, não faturamento.
+- **SEX-A (agenda):** proof que conte COMPOSIÇÃO de agenda, não faturamento. E **nomear em
+  1 cláusula** que o retorno-vilão é o GRÁTIS de cortesia, não o retorno-parte-do-tratamento
+  do AD005 (colisão frontal apontada pelo portão de quarta); CTA fora do molde "a agenda que
+  X" (consumido na quarta); "encaixe" foi devolvido a SEX pelo ajuste do AD004.
 - **SEX-B (disruptivo consulta longa):** não reusar "responde tudo"/"podcast"/minutagem
   na capa (território de terça); "aula" também está gasto (AD002 S3).
 - **Prints usados HOJE:** p27 (AD002) + p45 (AD003). Varredura por punch é lei (p28 e
