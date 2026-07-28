@@ -52,7 +52,7 @@ METRICAS_REELS = ["views", "reach", "saved", "shares", "likes", "comments",
                   "ig_reels_avg_watch_time", "ig_reels_video_view_total_time"]
 
 COLUNAS = [
-    "snapshot_em", "post_id", "publicado_em", "tipo", "permalink", "legenda_inicio",
+    "snapshot_em", "conta", "post_id", "publicado_em", "tipo", "permalink", "legenda_inicio",
     "views", "reach", "saved", "shares", "likes", "comments",
     "total_interactions", "follows", "profile_visits",
     "reels_avg_watch_time_ms", "reels_total_watch_time_ms",
@@ -224,6 +224,7 @@ def coletar(token, dias):
         legenda = (p.get("caption") or "").replace("\n", " ")[:120]
         linhas.append({
             "snapshot_em": agora,
+            "conta": info.get("username", ""),
             "post_id": p["id"],
             "publicado_em": p["timestamp"],
             "tipo": p.get("media_product_type") or p.get("media_type"),
