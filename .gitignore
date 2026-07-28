@@ -26,3 +26,9 @@ agente-carrosseis/data/trends-pulse*
 agente-carrosseis/logs/trends-pulse*
 agente-carrosseis/logs/.pulse-*
 __pycache__/
+
+# Métricas IG (Graph API) — venv local e qualquer cópia de token nunca vão pro git
+agente-carrosseis/metricas-ig/.venv/
+agente-carrosseis/metricas-ig/token
+agente-carrosseis/metricas-ig/*.token
+agente-carrosseis/data/metricas-ig/

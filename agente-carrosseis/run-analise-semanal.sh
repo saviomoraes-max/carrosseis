@@ -1,14 +1,19 @@
 #!/bin/zsh
-# Análise semanal do Instagram (segunda 07:50) — puxa insights da semana anterior
-# via MCP meta-insights (@mikusnuz/meta-mcp, Graph API v25), analisa e posta no
-# Slack. Disparado pelo LaunchAgent com.reconecta.analise-semanal. Desligar:
+# Análise semanal do Instagram (segunda 07:50) — puxa insights da semana anterior,
+# analisa e posta no Slack. Disparado pelo LaunchAgent com.reconecta.analise-semanal.
+# Desligar:
 #   launchctl bootout gui/$(id -u) ~/Library/LaunchAgents/com.reconecta.analise-semanal.plist
 #
-# Credenciais (Keychain, nunca em arquivo):
-#   reconecta-meta/insights-token + reconecta-meta/ig-user-id  (Graph API)
-#   reconecta-slack/bot-token + reconecta-slack/radar-channel  (aviso)
-# Sem token Meta → modo degradado: avisa no Slack que a análise precisa do token
-# e usa o que houver em data/perf-manual.json.
+# FONTE DE VERDADE (nesta ordem):
+#   1. metricas-ig/historico.csv — coletor oficial do time (Meta Graph API). O
+#      runner roda a coleta ANTES de analisar, pra ter o snapshot do dia.
+#   2. MCP meta-insights (@mikusnuz/meta-mcp) — se o CSV não existir.
+#   3. data/perf-manual.json — modo degradado, avisado no Slack.
+#
+# Credenciais (nunca em arquivo do repo):
+#   ~/.config/meta-api/token (600)                             coletor do time
+#   reconecta-meta/insights-token + ig-user-id  (Keychain)     MCP
+#   reconecta-slack/bot-token + radar-channel   (Keychain)     aviso
 
 export PATH="/Users/saviomoraes/.local/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
 BASE="/Users/saviomoraes/reconecta"
@@ -24,10 +29,21 @@ OUT_RESUMO="$OUTDIR/SEM${SEMANA}-resumo.txt"
 log() { echo "$1" >> "$LOGDIR/analise-semanal.log" }
 log "=== analise-semanal SEM${SEMANA} $(date '+%Y-%m-%d %H:%M') ==="
 
+# --- coleta fresca antes de analisar (snapshot do dia na curva de cada post) ---
+COLETOR="$BASE/agente-carrosseis/metricas-ig/coletar.sh"
+CSV="$BASE/agente-carrosseis/data/metricas-ig/historico.csv"
+if [ -x "$COLETOR" ]; then
+  log "coletando métricas (--dias 14)"
+  "$COLETOR" --dias 14 >> "$LOGDIR/analise-semanal.log" 2>&1 \
+    || log "coleta falhou (segue com o CSV que já existir)"
+else
+  log "coletor ausente; análise vai depender do MCP ou do perf-manual"
+fi
+
 PROMPT="Análise semanal do Instagram RECONECTA (SEM${SEMANA}, a semana que acabou).
-1. Use as ferramentas do MCP meta-insights: liste as mídias dos últimos 14 dias e puxe os insights por post (views, reach, saved, shares, likes, comments, follows, profile_visits) e os da conta (reach com breakdown de seguidor/não-seguidor se disponível).
-2. Se o MCP falhar por falta de credencial, use agente-carrosseis/data/perf-manual.json e diga claramente no resumo que a análise está em modo degradado aguardando o token Meta.
-3. Calcule por post: s/r (shares/reach), saves/reach, follows. Ranqueie a semana, compare com os 16 hits históricos (agente-carrosseis/data/carousels_perf.json) e com a semana anterior em data/analise-semanal/ se existir.
+1. FONTE PRIMÁRIA: ${CSV} (coletor oficial via Meta Graph API, uma linha por post por snapshot — use o snapshot mais recente de cada post e a diferença entre snapshots pra ver a curva). Se o arquivo não existir, tente o MCP meta-insights; se também falhar, use agente-carrosseis/data/perf-manual.json e diga no resumo que a análise está em MODO DEGRADADO.
+2. Calcule por post: s/r (shares/reach), saves/reach, follows. Ranqueie a semana, compare com os 16 hits históricos (agente-carrosseis/data/carousels_perf.json) e com a semana anterior em data/analise-semanal/ se existir.
+3. REGRA DURA — a Graph API NÃO expõe retenção de 3 segundos nem % de alcance de não-seguidores POR POST (só o breakdown seguidor/não-seguidor da CONTA por dia). Se algum desses dois números entrar na análise, ele tem que vir marcado como 'manual no app' e com o valor que o Sávio informou. ESTIMAR qualquer um dos dois é proibido — na dúvida, escreva 'não disponível'.
 4. Extraia os ELEMENTOS vencedores reaplicáveis (fórmula de capa, mecânica de prova, arquitetura, CTA) — nunca temas prontos (regra: conteúdo novo nasce do zero).
 5. Grave o relatório completo em ${OUT_JSON} (JSON válido) e um resumo de ATÉ 12 linhas pro Slack em ${OUT_RESUMO} (texto puro, sem markdown pesado): top 3 posts com s/r, o que aprendemos, 2-3 recomendações objetivas pra semana atual.
 NÃO produza carrossel. NÃO edite posts."
