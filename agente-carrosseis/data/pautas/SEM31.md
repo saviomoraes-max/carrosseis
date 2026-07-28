@@ -100,6 +100,28 @@ do encerramento; nenhuma capa pergunta preço.
 de 3 Minutos" (portão 58 agentes: 23 confirmados aplicados + 48 adjudicados §7; renders
 limpos; aguardando OK do Sávio pro export).
 
+**DIRETRIZ DE COPY QUA→SEX (pedido do Sávio 28/07: "basear mais nos que melhor
+performaram") — extraída do TOP-8 maduro (D+7+, s/r):**
+5,79% + 5,10% "Objeção nunca foi um não" (POSTADO 2X, pagou 2x) · 5,52% vácuo de lead
+quase agendado · 5,32% Antes e Depois · 4,62% responder o preço na velocidade errada ·
+4,54% fechamento = atenção no problema · 4,13% "quanto mais responde objeção, menos
+fecha" · 3,95% "acha que perde porque a consulta é cara". **7 de 8 são CONVERSA
+COMERCIAL com objeção/resposta no centro.** O que eles fazem e a copy dos próximos FAZ:
+1. **Capa lidera com REFRAME DISRUPTIVO de uma crença ou a objeção/frase LITERAL** —
+   nunca cena editorial construída ("Objeção nunca foi um não" > "O vou pensar que sai
+   sorrindo"). O campeão absoluto é um reframe seco.
+2. **≥1 slide de SCRIPTS palavra-por-palavra** (resposta pronta, colável hoje) — é o
+   miolo de TODOS os campeões. Metodologia nomeada sustenta (S4+), NUNCA lidera.
+3. **Território-rei: objeção→resposta.** O mesmo reframe postado 2x com 1 mês de
+   distância fez 5,79 e 5,10 — objeção não satura, muda a objeção da vez.
+4. **Utilidade de amanhã de manhã:** a doutora aplica no próximo atendimento sem
+   adaptar nada.
+Aplicação por slot: QUA-A capa = a frase-vilã literal da recepção + scripts do certo ·
+QUA-B capa = "aí você me avisa" literal (ou reframe do encerramento) + o script da
+pergunta que fecha data · QUI-A mantém a hora literal na capa + mensagem de véspera
+PRONTA · SEX-A cada item com ação/frase colável · SEX-B já é reframe puro (padrão do
+4,13%).
+
 **Notas de produção OBRIGATÓRIAS pros próximos slots (saíram do portão de terça):**
 - **QUA-A (triagem):** enquadrar a frase-vilã da recepção como o extremo OPOSTO do
   áudio-podcast de terça — ela erra porque corta SEM acolher e sem conduzir à data; a
@@ -115,7 +137,7 @@ limpos; aguardando OK do Sávio pro export).
   na capa (território de terça); "aula" também está gasto (AD002 S3).
 - **Prints usados HOJE:** p27 (AD002) + p45 (AD003). Varredura por punch é lei (p28 e
   p10 estavam queimados e a lista de memória não sabia).
-- **Imagens usadas HOJE (pool IMG/SEM31):** magnific_74745r3JAL (AD002 hero) ·
+- **Imagens usadas HOJE (pool IMG/SEM31):** magnific_PiPi1S342C (AD002 hero) ·
   hf_20260703_221845 (AD002 s2) · magnific_SOSOCczUb8 (AD003 hero B) ·
   magnific_SOSJSs8Ub8 (AD003 s2). Não repetem na semana; celebridades do pool
   (Hathaway/Bieber/Jenner) reservadas pra slot de trend.
