@@ -131,6 +131,48 @@ Regra de ouro: **depois de QUALQUER re-render, olhar TODOS os slides de novo**, 
 ### CTA (último slide)
 - [ ] Card Figma verbatim + "TOQUE NO LINK DA BIO" (exceção única: COMENTE "SUPERCASO" quando o usuário pedir). Sem @handles. Sem headline nova inventada no CTA.
 
+## 3-B · CAPA B (design novo do Sávio — POST B da era 2 posts/dia, SEM31+)
+
+> Fonte de verdade: Figma `RqH8mGZh6JLe5qKl3fo3aw`, replicado por API em 28/jul/26 e
+> validado por render-compare (texto/marca dentro de 1-2px; diff global 4,78/255;
+> resíduo = antialiasing de rasterizador). Tipo `hero_b` no engine. **Só a capa
+> muda: slides 2-6 do post B são IDÊNTICOS aos do post A** (mesmos tipos, mesmas
+> regras deste checklist).
+
+**Anatomia (não mexer sem novo render-compare):**
+- Camadas: bordô `#6b0f0f` → foto full-bleed (cover) → scrim `linear-gradient(180deg,
+  rgba(26,0,1,0) 28.74%, rgba(26,0,1,.84) 69.86%)` → ruído `noise-b.jpg` em
+  `screen` 32% (recorte exato da composição; asset versionado junto do engine) →
+  texto. **O scrim satura em 84%** — a foto SEMPRE respira embaixo; escurecer na
+  mão pra "ler melhor" quebra o design.
+- Headline: Inter **68px/82.3px, ls -4.08px**, creme `#faf0de`, centrada na caixa
+  de 894px, **caixa NORMAL (nunca uppercase)**, base da última linha a ~216px do
+  rodapé; marca "/ →" fixa embaixo (componente do engine, não se edita por post).
+- **Ênfase por PESO, nunca por cor:** `{palavra}` = Inter Black 900 no MESMO creme.
+  Zero vermelho, zero champagne, zero itálico na capa B. Padrão de uso (do exemplo
+  do Sávio): nomes próprios e o sintagma-chave em Black; conectivos em Regular.
+- **Quebra NATURAL** (filosofia oposta à do hero A): sem `\n` obrigatório — o
+  browser quebra na caixa, como no Figma. `\n` só como override consciente.
+- Sem masthead, sem pill, sem grain do padrão A. Cantos superiores 100% vazios
+  (a regra da capa continua valendo).
+
+**Checagens no render (o engine acusa; conferir no log + PNG):**
+- [ ] `capa B ok: N linha(s), sem órfã` no log. **Órfã** (1 palavra sozinha na
+  última linha) = editar a COPY (trocar palavra/ordem — a fonte NÃO encolhe).
+- [ ] **≤5 linhas.** Acima disso a headline é longa demais pra capa.
+- [ ] Foto: retrato/cena com o sujeito no TERÇO SUPERIOR (o texto ocupa 800-1140;
+  rosto/foco tem que viver acima disso). Zona 380px+ escurece progressivamente —
+  foto de foco baixo morre no scrim.
+- [ ] Legibilidade: headline sobre a zona ≥70% do scrim (o layout já garante);
+  conferir no PNG que nenhuma área clara da foto vaza atrás do texto.
+
+| Armadilha própria da capa B | Antídoto |
+|---|---|
+| Uppercase na headline (hábito do hero A) | Caixa normal é lei; conferir no PNG |
+| `{}` esperando vermelho | Na capa B `{}` = peso 900 creme (semântica local) |
+| Órfã na última linha (quebra é do browser) | Guarda do render + editar copy |
+| Escurecer scrim/foto na mão | Scrim é constante do design (84% máx) |
+
 ## 4 · Defeito estrutural → conserta o ENGINE, não o slide
 
 Pergunta de decisão: **"isso pode acontecer de novo em qualquer post futuro?"**

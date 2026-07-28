@@ -4,7 +4,16 @@ Engine HTML do carrossel RECONECTA — padrão validado (80% dos posts).
 
 Replica fiel do design do Figma (arquivo fuIFq4fA94kKjvf2A7vhXo):
 fundo bordô + grão, display Dx Monstral creme, corpo Grift, masthead/CTA Inter.
-6 tipos de slide: hero · photo · text · list · proof · cta.
+7 tipos de slide: hero · hero_b · photo · text · list · proof · cta.
+
+hero_b = CAPA DO POST B (design novo do Sávio, Figma RqH8mGZh6JLe5qKl3fo3aw,
+28/jul/26 — replicado por API + render-compare). Capa editorial de notícia:
+foto full-bleed, scrim que satura em 84% (a foto sempre respira embaixo),
+textura de ruído ISO em blend screen 32% (asset noise-b.jpg, recorte exato da
+composição original), headline Inter 68px creme em CAIXA NORMAL com quebra
+NATURAL (sem \\n obrigatório — filosofia oposta à do hero A) e ênfase por PESO
+({palavra} vira Inter Black 900, NUNCA vermelho), marca "/ →" no rodapé.
+Slides 2-6 do post B são idênticos aos do post A.
 
 LAYOUT (regras do usuário, 30/jun):
 - GAP de 32px entre TODOS os elementos (título→corpo, corpo→corpo, entre itens, etc.).
@@ -25,6 +34,7 @@ import base64, html, json, os, re, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 FONTS = os.path.join(HERE, "..", "fonts")
 GRAIN = os.path.join(HERE, "..", "grain.png")
+NOISE_B = os.path.join(HERE, "noise-b.jpg")   # textura da capa B (recorte exato do Figma)
 
 W, H = 1080, 1350
 MARGIN = 93
@@ -78,8 +88,10 @@ def _fonts_css():
         _font_face("Grift", "Grift-Italic.ttf", "400", "italic"),
         _font_face("Grift", "Grift-Black.ttf", "900"),
         _font_face("Grift", "Grift-BlackItalic.ttf", "900", "italic"),
+        _font_face("Inter", "Inter-Regular.ttf", "400"),
         _font_face("Inter", "Inter-Medium.ttf", "500"),
         _font_face("Inter", "Inter-Bold.ttf", "700"),
+        _font_face("Inter", "Inter-Black.ttf", "900"),
     ]
     return "\n".join(faces)
 
@@ -107,6 +119,37 @@ def _inline(text):
             continue
         out.append(html.escape(c))
         i += 1
+    return "".join(out)
+
+
+def _words_spans(text):
+    """Cada palavra num <span class='w'> — a guarda de órfã da capa B agrupa os
+    spans por linha renderizada (a quebra aqui é NATURAL, não art-directed)."""
+    parts = []
+    for tok in re.split(r"(\s+)", text):
+        if not tok:
+            continue
+        if tok.isspace():
+            parts.append(" ")
+        else:
+            parts.append(f'<span class="w">{html.escape(tok)}</span>')
+    return "".join(parts)
+
+
+def _inline_hb(text):
+    """Marcação da capa B: {palavra} vira PESO (Inter Black 900), nunca cor —
+    o design novo enfatiza por peso no mesmo creme. «» não existe aqui. \\n é
+    respeitado se vier, mas a quebra padrão é natural (caixa de 894px)."""
+    out = []
+    for i, bloco in enumerate(text.split("\n")):
+        if i:
+            out.append("<br>")
+        pos = 0
+        for m in re.finditer(r"\{([^}]*)\}", bloco):
+            out.append(_words_spans(bloco[pos:m.start()]))
+            out.append(f'<span class="hb-em">{_words_spans(m.group(1))}</span>')
+            pos = m.end()
+        out.append(_words_spans(bloco[pos:]))
     return "".join(out)
 
 
@@ -189,6 +232,27 @@ html,body{{width:{W}px;height:{H}px;}}
    text-shadow:0 2px 14px rgba(10,2,2,.65);}}
 .red{{color:{RED};}}
 .champ{{color:{CHAMPAGNE};font-family:'Grift';font-style:italic;}}
+
+/* ---- CAPA B (design novo, Figma RqH8mGZh6JLe5qKl3fo3aw — medidas da API) ----
+   headline: caixa de 894px (margens 93), Inter 68/82.3 ls -4.08px, creme #FAF0DE,
+   caixa NORMAL (nunca uppercase), quebra NATURAL centrada; ênfase = peso 900.
+   bloco ancorado embaixo: base do texto a 216px do rodapé, marca "/ →" fixa. */
+.hb-wrap{{position:absolute;left:{MARGIN}px;right:{MARGIN}px;bottom:135px;
+   display:flex;flex-direction:column;align-items:center;gap:30px;z-index:6;}}
+.hb-h{{width:100%;font-family:'Inter';font-weight:400;font-size:68px;
+   line-height:82.3px;letter-spacing:-4.08px;color:#faf0de;text-align:center;}}
+.hb-em{{font-weight:900;}}
+.hb-scrim{{position:absolute;inset:0;z-index:2;
+   background:linear-gradient(180deg,rgba(26,0,1,0) 28.74%,rgba(26,0,1,.84) 69.86%);}}
+.hb-noise{{position:absolute;inset:0;z-index:3;mix-blend-mode:screen;opacity:.32;
+   background-size:1080px 1350px;pointer-events:none;}}
+.hb-mark{{display:flex;align-items:center;gap:22px;height:40px;margin-left:-8px;}}
+.hb-slash{{font-family:'Inter';font-weight:700;font-size:32.7px;
+   letter-spacing:4.57px;color:{LABEL};line-height:40px;}}
+.hb-arrow{{width:31px;height:3.6px;background:{LABEL};position:relative;}}
+.hb-arrow::after{{content:'';position:absolute;right:-1px;top:-5.4px;width:11px;
+   height:11px;border-top:3.6px solid {LABEL};border-right:3.6px solid {LABEL};
+   transform:rotate(45deg);}}
 
 .body{{font-family:'Grift';font-weight:400;font-size:34px;line-height:1.4;
        color:{BODY};text-align:center;}}
@@ -292,6 +356,23 @@ def slide_hero(s, base_dir):
             f'{_pill("RECONECTA")}</div></div>')
 
 
+def slide_hero_b(s, base_dir):
+    """Capa do POST B. Camadas na ordem do Figma: bordô -> foto full-bleed ->
+    scrim (satura em 84%, a foto respira embaixo) -> ruído screen 32% ->
+    headline + marca "/ ->". Sem masthead, sem pill, sem grain do padrão A."""
+    img = _img_data(s.get("image"), base_dir)
+    photo = f'<img class="photo" src="{img}">' if img else ""
+    noise = (f'<div class="hb-noise" style="background-image:url('
+             f'data:image/jpeg;base64,{_b64_file(NOISE_B)});"></div>'
+             if os.path.exists(NOISE_B) else "")
+    headline = f'<div class="hb-h">{_inline_hb(s["headline"])}</div>'
+    mark = ('<div class="hb-mark"><span class="hb-slash">/</span>'
+            '<span class="hb-arrow"></span></div>')
+    return (f'<div class="slide" style="background:{BG_HERO};">{photo}'
+            f'<div class="hb-scrim"></div>{noise}'
+            f'<div class="hb-wrap">{headline}{mark}</div></div>')
+
+
 def slide_photo(s, base_dir):
     img = _img_data(s.get("image"), base_dir)
     # sem foto ainda (placeholder): centraliza como text pra não ficar void preto no topo.
@@ -380,8 +461,8 @@ def slide_cta(s, base_dir):
 
 
 RENDERERS = {
-    "hero": slide_hero, "photo": slide_photo, "text": slide_text,
-    "list": slide_list, "proof": slide_proof, "cta": slide_cta,
+    "hero": slide_hero, "hero_b": slide_hero_b, "photo": slide_photo,
+    "text": slide_text, "list": slide_list, "proof": slide_proof, "cta": slide_cta,
 }
 
 
@@ -477,6 +558,39 @@ _PUNCH_CHECK_JS = """() => {
   return bad.length ? bad : null;
 }"""
 
+# guardas da CAPA B: aqui a quebra é NATURAL por design (caixa de 894px, como no
+# Figma) — então não há fit de fonte (68px é constante do design). O que se vigia:
+#   órfã   -> última linha com 1 palavra (feio em headline de notícia; REQUEBRAR
+#             a copy ou editar — mesma doutrina do caso "PERDER" do punch)
+#   linhas -> mais de 5 linhas = headline longa demais pra capa
+#   larga  -> palavra única maior que a caixa (não quebra, estoura em silêncio)
+_HERO_B_CHECK_JS = """() => {
+  const h = document.querySelector('.hb-h');
+  if (!h) return null;
+  const ws = [...h.querySelectorAll('.w')];
+  if (!ws.length) return null;
+  const linhas = [];
+  ws.forEach(w => {
+    const r = w.getBoundingClientRect();
+    const key = Math.round(r.top);
+    let l = linhas.find(x => Math.abs(x.top - key) < 4);
+    if (!l) { l = {top: key, words: [], right: r.right, left: r.left}; linhas.push(l); }
+    l.words.push(w.textContent);
+    l.right = Math.max(l.right, r.right);
+    l.left = Math.min(l.left, r.left);
+  });
+  linhas.sort((a, b) => a.top - b.top);
+  const maxW = h.getBoundingClientRect().width;
+  const larga = linhas.filter(l => (l.right - l.left) > maxW + 1)
+                      .map(l => l.words.join(' '));
+  const ultima = linhas[linhas.length - 1];
+  return {
+    linhas: linhas.length,
+    orfa: ultima.words.length === 1 ? ultima.words[0] : null,
+    larga: larga.length ? larga : null,
+  };
+}"""
+
 _HERO_FIT_JS = """() => {
   const h = document.querySelector('.hero-h');
   if (!h) return null;
@@ -526,6 +640,23 @@ def render(copy_path, out_dir):
                           f"{fit['size']}px — REQUEBRAR a headline em linhas mais curtas.")
                 elif fit["size"] < 98:
                     print(f"  hero fit: headline a {fit['size']}px pra honrar as quebras")
+            # capa B: órfã / linhas demais / palavra larga = overflow (editar copy)
+            hb = page.evaluate(_HERO_B_CHECK_JS)
+            if hb:
+                probs = []
+                if hb.get("orfa"):
+                    probs.append(f'órfã "{hb["orfa"]}" sozinha na última linha')
+                if hb["linhas"] > 5:
+                    probs.append(f'{hb["linhas"]} linhas (máx 5 na capa B)')
+                if hb.get("larga"):
+                    probs.append(f'linha estoura a caixa: {hb["larga"]}')
+                if probs:
+                    overflows.append({"slide": idx, "type": "hero_b", "problemas": probs})
+                    for pr in probs:
+                        print(f"⚠ CAPA-B slide_{idx}: {pr} — EDITAR a headline "
+                              f"(trocar palavra/ordem; a fonte não encolhe).")
+                else:
+                    print(f"  capa B ok: {hb['linhas']} linha(s), sem órfã")
             # punch: linha art-directed que não cabe = overflow (requebrar copy)
             pbad = page.evaluate(_PUNCH_CHECK_JS)
             if pbad:
