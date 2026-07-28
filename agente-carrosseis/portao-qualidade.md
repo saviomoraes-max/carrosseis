@@ -24,6 +24,22 @@
 - [ ] **B4 · Léxico e dial.** Vocabulário proibido = zero. Dial de postura + gíria leve no registro doutora (validado no SEM27/AD002), não gíria gen-g pesada nem corporativo frio.
 - [ ] **B5 · Voz não-robótica (dispositivos do `voice-dna.md`).** O carrossel aplica os dispositivos reais dela: **≥1 frase pronta exata** por slide de entrega (aspas, colável), **≥1 contraste seco** (one-liner disruptivo), **≥1 detalhe concreto inesperado** (hora/número/objeto), **número de capa escalado** (3,5,7 não redondo), e **encena a cena** em vez de explicar o conceito. *Evidência: citar a frase pronta + o contraste + o detalhe.* Se ler como "IA descrevendo um conceito" (abstrato, genérico, sem fala literal) → **reprova**. É o gate que separa "âncora certa" de "soa como ela".
 
+## BLOCO B-6 · COMPETITIVIDADE — "limpo ≠ bom" *(novo, 28/jul — o gate anti-morno)*
+
+> Motivo: o portão até aqui só reprovava DEFEITO nomeável. Copy correta e morna passava
+> em tudo. Este bloco compara com os CAMPEÕES, não com as regras.
+
+- [ ] **B6.1 · Punch a punch contra o top vigente.** Cada punch de S2-S6 é lido AO LADO
+  dos 3 melhores punches do top-8 maduro (`data/pautas/SEM{xx}.md` traz a lista viva) e
+  responde: numa disputa cega, este punch perde FEIO pra algum deles? Perde feio =
+  APROVADO-MORNO → volta pro produtor com pedido de 2 candidatos novos por mecanismo
+  diferente (`gabarito-punchline.md`). *Evidência: o par comparado + veredito por punch.*
+- [ ] **B6.2 · Teste do corredor.** A doutora repetiria este punch DE CABEÇA pra sócia
+  no corredor, hoje, sem errar? Punch que não se repete de cabeça não compartilha.
+- [ ] **B6.3 · Seleção provada.** O produtor mostrou os candidatos MORTOS de cada punch
+  (procedimento do gabarito: 5 candidatos, 1 sobrevive). Punch de primeira tentativa
+  sem seleção registrada = devolver, mesmo que bom (o processo é o produto).
+
 ## BLOCO C — Estrutura e 4 camadas *(herdado do revisor-copy)*
 
 - [ ] **C1 · 1 ideia por slide** (não duas).
