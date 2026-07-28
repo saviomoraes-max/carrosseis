@@ -1,4 +1,4 @@
-# Pauta SEM31 (28-31/jul/2026) — PROPOSTA aguardando aprovação do Sávio
+# Pauta SEM31 (28-31/jul/2026) — APROVADA pelo Sávio em 28/07
 
 > Montada pelo `checklist-pauta.md` (1ª rodada do checklist) sobre a análise
 > `data/analise-semanal/SEM30.json` (export Business Suite 01/06→27/07).
@@ -13,7 +13,7 @@
 
 ---
 
-## TER 29/07
+## TER 28/07
 
 **A (atual) — "Qualquer coisa, eu te chamo."**
 A frase educada com que a paciente sai da consulta sem fechar — e que significa
@@ -31,7 +31,7 @@ erro encenado antes do script (mecânica dos slides de entrega dos hits) +
 momento datável. · Encaminhamento: "manda pra colega que responde por áudio"
 (destinatária nomeada na própria mecânica). · Público (b) · validado.
 
-## QUA 30/07
+## QUA 29/07
 
 **A (atual) — "A triagem que espanta."**
 As frases prontas da recepção que derrubam a lead antes de chegar em você
@@ -48,7 +48,7 @@ parecer vendedora na hora de propor data e plano. Pilar (a) do Leonardo
 SEM36) — o ângulo é o ENCERRAMENTO da consulta, não a gentileza. ·
 Encaminhamento: a amiga que abriu clínica agora. · Público (a) · validado.
 
-## QUI 31/07 — na real, 31/07 é quinta
+## QUI 30/07
 
 **A (atual) — "Confirmou às 20h. Às 9h07, a cadeira vazia."**
 No-show: a véspera que confirma mas não conduz. O que mandar na noite anterior
@@ -63,7 +63,7 @@ Função declarada: alcance + follows, não s/r (padrão Vini Jr: 80k alcance /
 (≤72h, ponte sem distorção, risco de marca) → OK do Sávio → produz. Não passou
 no filtro = vira validado (reserva abaixo).
 
-## SEX 01/08
+## SEX 31/07
 
 **A (atual) — "Agenda cheia, caixa vazio."**
 A anatomia da agenda lotada que não fatura: encaixe, retorno grátis, avaliação
@@ -96,4 +96,26 @@ pesquisa/compara/duvida, quanto-custa/horário, dor-do-antes, Pix, abate,
 negligência clínica. Adjacências checadas: QUA-B foge da gentileza pelo ângulo
 do encerramento; nenhuma capa pergunta preço.
 
-**Status:** PROPOSTA — produção só slot a slot após OK.
+**Status:** APROVADA (28/07). TER produzido: AD002 "Vou Pensar na Porta" + AD003 "O Áudio
+de 3 Minutos" (portão 58 agentes: 23 confirmados aplicados + 48 adjudicados §7; renders
+limpos; aguardando OK do Sávio pro export).
+
+**Notas de produção OBRIGATÓRIAS pros próximos slots (saíram do portão de terça):**
+- **QUA-A (triagem):** enquadrar a frase-vilã da recepção como o extremo OPOSTO do
+  áudio-podcast de terça — ela erra porque corta SEM acolher e sem conduzir à data; a
+  resposta certa continua curta e COM data (como o item 2 do AD003). A capa de QUA-A não
+  pode ler como desmentido do item 3 do AD003 ("o que fica pra lá"). Nomear a diferença.
+- **QUA-B (consulta sem próximo passo):** NÃO usar o molde "a consulta que termina..."
+  na capa (o CTA do AD002 já é "A CONSULTA QUE TERMINA COM DATA MARCADA") nem punch
+  "consulta sem X"; ancorar na frase "aí você me avisa".
+- **QUI-A (no-show):** proof não pode ser faturamento mensal (3º dia seguido de R$ =
+  fadiga); buscar print de comparecimento/agenda.
+- **SEX-A (agenda):** proof que conte COMPOSIÇÃO de agenda, não faturamento.
+- **SEX-B (disruptivo consulta longa):** não reusar "responde tudo"/"podcast"/minutagem
+  na capa (território de terça); "aula" também está gasto (AD002 S3).
+- **Prints usados HOJE:** p27 (AD002) + p45 (AD003). Varredura por punch é lei (p28 e
+  p10 estavam queimados e a lista de memória não sabia).
+- **Imagens usadas HOJE (pool IMG/SEM31):** magnific_74745r3JAL (AD002 hero) ·
+  hf_20260703_221845 (AD002 s2) · magnific_SOSOCczUb8 (AD003 hero B) ·
+  magnific_SOSJSs8Ub8 (AD003 s2). Não repetem na semana; celebridades do pool
+  (Hathaway/Bieber/Jenner) reservadas pra slot de trend.
