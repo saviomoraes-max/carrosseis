@@ -65,19 +65,20 @@ no filtro = vira validado (reserva abaixo).
 
 ## SEX 31/07
 
-**A (atual) — "Agenda cheia, caixa vazio."**
-A anatomia da agenda lotada que não fatura: encaixe, retorno grátis, avaliação
-que não converte. O que compõe uma agenda saudável (metodologia só do slide 3
-em diante, como manda o arco de funil). · Elemento herdado: post de anatomia/
-raio-X com sinal concreto por item (formato dos hits de entrega). ·
-Encaminhamento: a sócia ("olha a NOSSA agenda nisso"). · Público (b) · validado.
+**A (atual) — "A frase que abre conversa" (TROCADO 29/07, ver nota).**
+O caso da doutora Francislane: de 1 para 10 consultas no mês falando com quem já
+segue, e nunca mandou uma única "seja bem-vinda". A falha está na primeira
+pergunta. · Âncora: SEM21/AD009 (caso real + script colável, inédito em 21d). ·
+Encaminhamento: a colega que reclama do alcance e nunca falou com quem já está
+lá dentro. · Público (a)/(b) · validado.
 
-**B (Figma v2) — SLOT DISRUPTIVO: "A consulta longa está te custando a venda."**
-Tese contrária à crença do mercado (consulta detalhada = valor percebido),
-sustentada pelo território campeão (consulta/fechamento, mediana s/r 2,05%).
-Regras do slot: âncora obrigatória em ensino real dela; refutador extra no
-portão ("queima a marca ou só incomoda o suficiente?"). · Encaminhamento: a
-colega da consulta de 1h30 que não fecha. · Público (b) · disruptivo.
+**B (Figma v2) — SLOT DISRUPTIVO: "Você deixou ele sair sem decidir" (TROCADO 29/07).**
+Verbatim dela: "Você não perde lead porque ele não quis. Você perde porque deixou
+ele sair sem decidir." + "Se você evita qualquer desconforto, você evita a
+decisão." · Âncora: SEM25/AD006 (3 saídas com script; a objeção do marido fica
+fora, queimada). · Fecha a semana: de seg a qui mostramos 6 lugares onde a lead
+se perde; sexta diz que nenhum deles é porque ela não queria. · Público (b) ·
+disruptivo.
 
 ---
 
@@ -151,3 +152,32 @@ PRONTA · SEX-A cada item com ação/frase colável · SEX-B já é reframe puro
   hf_20260703_221845 (AD002 s2) · magnific_SOSOCczUb8 (AD003 hero B) ·
   magnific_SOSJSs8Ub8 (AD003 s2). Não repetem na semana; celebridades do pool
   (Hathaway/Bieber/Jenner) reservadas pra slot de trend.
+
+
+---
+
+## TROCA DOS DOIS SLOTS DE SEXTA (29/07) — motivo registrado
+
+Os temas originais ("Agenda cheia, caixa vazio" e "A consulta longa está te
+custando a venda") foram descartados por bloqueio das nossas próprias regras:
+
+1. **SEX-A canibalizava post publicado (armadilha 9, PARE).** A única âncora de
+   "agenda cheia x caixa" é SEM25/AD002 — a MESMA peça que virou o SEM27/AD011,
+   publicado há 4-5 semanas com capa "A DOUTORA QUE FATURA MAIS ATENDE MENOS QUE
+   VOCÊ", punch "AS 4 ALAVANCAS DA AGENDA LEVE" e os verbatims "muito esforço,
+   pouco resultado" e "esforço no lugar errado". Reescrever seria reencenar.
+2. **SEX-B não tinha âncora nenhuma.** Grep no corpus por consulta longa / tempo
+   de consulta / consulta demorada: ZERO peças. Zero-achismo proíbe escrever.
+
+Substitutos escolhidos por: âncora sólida + território virgem na semana +
+mecânica dos winners (caso real com número escalado na capa / reframe disruptivo
+verbatim). Território conferido: "abordar", "seja bem-vinda", "decidir",
+"Francislane" livres; "seguidor" só em corpo (baixa saliência).
+
+**Prints da sexta:** prova_0155 ("5 novas consultas pra semana que vem") e p11
+("30 dias de atendimento, 400k, aiii que paz") — inéditos por varredura de punch.
+O p30 foi testado e descartado: linha seca de planilha, sem voz humana.
+
+**Imagens:** magnific_VdVdFkJMMU + magnific_ohohSBy829 (AD008) · hf_20260728_142016
++ magnific_5x5xO1pKxe (AD009). **magnific_5x5xUo3Kxe DESCARTADA do pool** (decote/
+lingerie — fere a regra de imagens não sugestivas). Pool: 18 restantes.
