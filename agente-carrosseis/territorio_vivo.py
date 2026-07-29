@@ -42,17 +42,63 @@ def norm(s):
     return re.sub(r"[^a-z0-9 ]", " ", s)
 
 
+# cache do historico.csv: post_id -> data de publicação REAL (Graph API/Business Suite)
+_PUB_CACHE = None
+
+
+def _publicados_por_legenda():
+    """Mapa {inicio-da-legenda-normalizado: data} a partir do historico.csv.
+    É a única fonte de data de PUBLICAÇÃO de verdade; mtime é data de PRODUÇÃO."""
+    global _PUB_CACHE
+    if _PUB_CACHE is not None:
+        return _PUB_CACHE
+    _PUB_CACHE = {}
+    csvp = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                        "data", "metricas-ig", "historico.csv")
+    if os.path.exists(csvp):
+        import csv as _csv
+        with open(csvp, encoding="utf-8") as f:
+            for r in _csv.DictReader(f):
+                leg = norm(r.get("legenda_inicio", ""))[:40]
+                pub = (r.get("publicado_em") or "")[:10]
+                if leg and pub:
+                    ant = _PUB_CACHE.get(leg)
+                    if not ant or pub < ant:
+                        _PUB_CACHE[leg] = pub
+    return _PUB_CACHE
+
+
 def data_do_post(pasta):
-    """POSTADO.txt (data no texto ou mtime) > mtime do copy.json."""
+    """Data de PUBLICAÇÃO, nesta ordem de confiança:
+       1. POSTADO.txt com data no texto
+       2. historico.csv casando pelo início da legenda (fonte real da Graph API)
+       3. mtime do copy mais NOVO — último recurso, e é o que causou o bug de 29/jul:
+          posts produzidos em lote (SEM27) tinham mtime de produção e sumiam da
+          janela de 21 dias, escondendo um post gêmeo publicado 19 dias antes.
+    """
     p = os.path.join(pasta, "POSTADO.txt")
     if os.path.exists(p):
         txt = open(p, encoding="utf-8", errors="replace").read()
         m = re.search(r"(\d{4}-\d{2}-\d{2})", txt)
         if m:
             return datetime.strptime(m.group(1), "%Y-%m-%d")
+    js = sorted(glob.glob(os.path.join(pasta, "copy*.json")),
+                key=os.path.getmtime, reverse=True)
+    if not js:
+        return None
+    # 2. casar pela legenda com o histórico de métricas
+    try:
+        j = json.load(open(js[0], encoding="utf-8"))
+        chave = norm(j.get("legenda", ""))[:40]
+        if chave:
+            pub = _publicados_por_legenda().get(chave)
+            if pub:
+                return datetime.strptime(pub, "%Y-%m-%d")
+    except Exception:
+        pass
+    if os.path.exists(p):
         return datetime.fromtimestamp(os.path.getmtime(p))
-    js = glob.glob(os.path.join(pasta, "copy*.json"))
-    return datetime.fromtimestamp(os.path.getmtime(js[0])) if js else None
+    return datetime.fromtimestamp(os.path.getmtime(js[0]))
 
 
 def classifica_capa(h):
@@ -68,7 +114,7 @@ def classifica_capa(h):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--dias", type=int, default=21)
+    ap.add_argument("--dias", type=int, default=45)  # 45: a janela de 21 escondia o lote SEM27 (bug de 29/jul)
     args = ap.parse_args()
 
     agora = datetime.now()
@@ -105,9 +151,18 @@ def main():
                 nums = re.findall(r"[\d][\d.,]{2,}|\d+k|\d+K", head)
                 prints.append({"post": nome, "dias": idade, "punch": head.replace("\n", " / "),
                                "numeros": nums})
-            blocos = [head] + (s.get("body") or [])
-            for it in (s.get("items") or []):
-                blocos += [it.get("title", ""), it.get("body", "")]
+            # copies antigas (SEM27) trazem body/items como string — normalizar
+            body = s.get("body") or []
+            if isinstance(body, str):
+                body = [body]
+            blocos = [head] + [x for x in body if isinstance(x, str)]
+            itens = s.get("items") or []
+            if isinstance(itens, list):
+                for it in itens:
+                    if isinstance(it, dict):
+                        blocos += [it.get("title", ""), it.get("body", "")]
+                    elif isinstance(it, str):
+                        blocos.append(it)
             for b in blocos:
                 for m in re.finditer(r"(?:\S+\s+){3}\S+", norm(b)):
                     frases.setdefault(m.group(0), set()).add(nome)
