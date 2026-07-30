@@ -235,3 +235,32 @@ Território: 24 dos 67 posts do corpus já minerados em 3 semanas. Restam 41 pe�
 mas a veia de conversa comercial (a que performa) está afinando. A SEM32 vai
 precisar OU de corpus novo (gravar com o Leo), OU de mais reuso declarado agora que
 a política permite.
+
+### Revisão do slide 4 do AD006 (30/jul, pedido do Sávio)
+
+O Sávio pediu a manobra do SEM25/AD003 de volta, com estas palavras: *"acho
+importante a gente conduzir a doutora a saber gerar o compromisso"*. Era uma
+contradição real na copy — o item 1 dizia "NUNCA PROMETA O ABATIMENTO" e a
+doutrina do campeão é o oposto: **segura e TROCA**.
+
+Slide 4 reescrito: punch "O ABATIMENTO NÃO SOME. ELE SÓ MUDA DE {MOMENTO}." e
+os três passos (não emendar no preço · a manobra da pausa quando ela perguntar ·
+o sinal). O item 2 traz os dois scripts literais do SEM25 e a pausa ("peça um
+minutinho, como quem vai verificar").
+
+**Engine ganhou o campo opcional `fecho` no slide `list`** — a linha de saldo
+DEPOIS dos passos, que é a forma do campeão (scripts primeiro, e só então a frase
+que nomeia o que você acabou de fazer). O fecho do AD006 é o verbatim do SEM25:
+*"Você não ofereceu desconto. Transformou o abatimento em compromisso de
+agendamento."* Regressão conferida: os 6 slides do AD009 renderizam byte a byte
+idênticos com o engine novo.
+
+**Por que valeu repetir (o dado):** SEM25/AD003 publicado 16/jun, leitura madura
+em D+42 — alcance 12.522, **s/r 3,95%**, saves/r 2,53%, 96 comentários. A mediana
+de s/r desde mai/26 é 0,64%. O post fez ~6x a mediana. Este é o tipo de reuso que
+a política nova existe pra permitir.
+
+Legenda §3 reescrita pra descrever o slide 4 novo (apontava pras "três frases",
+agora aponta pra manobra). Item 1 do slide 4 teve o título trocado de "A FRASE SAI
+DA ABERTURA" pra "NUNCA EMENDE O ABATIMENTO NO PREÇO" (C5: "a frase" não se
+sustenta lido frio) e o slide passou de 7px de overflow encurtando copy, nunca fonte.

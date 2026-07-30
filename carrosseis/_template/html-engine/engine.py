@@ -204,7 +204,7 @@ html,body{{width:{W}px;height:{H}px;}}
 .bottom-wrap{{position:absolute;left:{MARGIN}px;right:{MARGIN}px;
    display:flex;flex-direction:column;align-items:center;gap:{GAP}px;z-index:6;}}
 .center-wrap > .punch, .center-wrap > .body, .center-wrap > .callout,
-.center-wrap > .list-container,
+.center-wrap > .list-container, .center-wrap > .fecho,
 .bottom-wrap > .punch, .bottom-wrap > .body{{width:100%;}}
 /* hero-h fica SEM width: como flex item ele cresce até max-content e o
    align-items:center do wrap centraliza inclusive o sangramento além da margem
@@ -276,6 +276,12 @@ html,body{{width:{W}px;height:{H}px;}}
 .item-col{{display:flex;flex-direction:column;gap:{GAP}px;}}
 .it-title{{font-family:'Grift';font-weight:900;font-size:34px;color:{CREAM};line-height:1.05;}}
 .it-body{{font-family:'Grift';font-weight:400;font-size:34px;line-height:1.35;color:{BODY};}}
+
+/* fecho da lista — o saldo, DEPOIS dos passos (forma do SEM25/AD003, s/r 3,95%:
+   os scripts primeiro, e só então a frase que diz o que você acabou de fazer).
+   Campo opcional "fecho" no slide list; sem ele nada muda. */
+.fecho{{font-family:'Grift';font-weight:900;font-size:40px;line-height:1.12;
+        color:{CHAMPAGNE};text-align:center;}}
 
 /* callout (gancho pro próximo slide) */
 .callout{{border:2px solid {RED};border-radius:14px;padding:30px 34px;
@@ -407,9 +413,11 @@ def slide_list(s, base_dir):
                   f'<div class="item-col">'
                   f'<div class="it-title">{_inline(title)}</div>'
                   f'<div class="it-body">{_inline(it["body"])}</div></div></div>')
+    fecho = (f'<div class="fecho">{_inline(s["fecho"])}</div>'
+             if s.get("fecho") else "")
     return (f'<div class="slide"><div class="grain"></div>{_mast()}'
             f'<div class="center-wrap">{_punch(s)}'
-            f'<div class="list-container">{items}</div></div></div>')
+            f'<div class="list-container">{items}</div>{fecho}</div></div>')
 
 
 def slide_proof(s, base_dir):
