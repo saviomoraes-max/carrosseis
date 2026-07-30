@@ -52,7 +52,9 @@
 
 - [ ] **D1 · A promessa da capa é entregue** nos slides de entrega.
 - [ ] **D2 · Sem repetição de ideia** entre slides vizinhos.
-- [ ] **D3 · A prova social conecta** semanticamente com a entrega central (não é prova solta).
+- [ ] **D3 · A prova social conecta** semanticamente com a entrega central (não é prova solta). **E o punch não é o eco do print:** se o print é uma frase só, o punch ARGUMENTA e o print PROVA — punch repetindo o print palavra por palavra vira gagueira e queima o slide. *Caso real 30/jul (SEM31/AD006): print "Passando de uma consulta de 80 reais para uma consulta de 250,00" com punch citando exatamente isso; virou "A CONSULTA NÃO MUDOU. MUDOU O QUE ELA DIZ QUE A CONSULTA VALE."* Quando o print é longo, aí sim o punch comprime (é o padrão dos outros: pull-quote das 3 batidas fortes).
+
+- [ ] **D4 · Repetição do que funcionou NÃO é achado *(política do Sávio, 30/jul)*.** Reusar mecânica, fórmula de capa, tipo de prova ou tese que já performou é a INTENÇÃO — "a intenção é sempre repetir o que pode ter feito um post se sair muito bem". Não abrir achado por "isso já foi usado". Só vira reprova em dois casos: **(a) adjacência de feed** — os dois usos caem no mesmo dia ou em dias seguidos (o leitor vê os dois na mesma rolagem), ou **(b) cópia integral** — a formulação inteira palavra por palavra, sem ângulo novo. *Evidência: citar os dois usos com a distância em dias.* *Caso real: a frase "a consulta é abatida no procedimento" travou um post inteiro por estar num registro de queimadas; o registro é CONTADOR de desgaste, não muro.*
 
 ## BLOCO E — CTA e distribuição
 

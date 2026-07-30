@@ -181,3 +181,57 @@ O p30 foi testado e descartado: linha seca de planilha, sem voz humana.
 **Imagens:** magnific_VdVdFkJMMU + magnific_ohohSBy829 (AD008) · hf_20260728_142016
 + magnific_5x5xO1pKxe (AD009). **magnific_5x5xUo3Kxe DESCARTADA do pool** (decote/
 lingerie — fere a regra de imagens não sugestivas). Pool: 18 restantes.
+
+---
+
+## Fechamento da semana (30/jul/26)
+
+**10 posts fechados: AD001 (publicado seg) + AD002-AD009 exportados.**
+
+### AD006 — o slot que travou duas vezes e como saiu
+
+1. **1ª tese (no-show / régua de confirmação):** reprovada por ser GÊMEA do
+   SEM27/AD006 — mesma peça-fonte (SEM20/AD010), mesmo movimento de capa, mesmo
+   verbatim "já está feito", mesma timeline de Follow-Up Humanizado. Aquele post
+   fez s/r 1,02%. Só apareceu depois que o `territorio_vivo.py` passou a usar data
+   de PUBLICAÇÃO real (o bug de mtime escondia o lote da SEM27).
+2. **2ª tese (a consulta abatida no procedimento):** reprovada por queimada até
+   SEM34 (2 usos: SEM25/AD003 post inteiro + SEM30/AD004 item 2, há 6 dias).
+3. **Resolução — decisão do Sávio, 30/jul:** *"pode repetir coisas que deram certo
+   em outros posts (a intenção é sempre repetir o que pode ter feito um post se
+   sair muito bem)"*. Queimada LIBERADA, 3º uso registrado, nova data SEM38.
+   **A política mudou de veto pra contador** — ver `checklist-producao.md` §6,
+   `checklist-pauta.md` §2 e a nova dimensão **D4** do `portao-qualidade.md`.
+
+### Print duplicado na quinta (pego no fechamento)
+
+AD006 e AD007 saíam no MESMO dia com o print IDÊNTICO (dHash distância 0), cada um
+citando uma linha diferente da mesma conversa ("12 novas consultas / agenda
+LO-TA-DA" no AD007, "8 avaliações / abri um dia a mais" no AD006). Nenhuma
+verificação de TEXTO pegaria — os punches eram diferentes. Pegou a varredura por
+IMAGEM (`prints_usados.py` sem argumento, que cruza o lote inteiro).
+
+**Fix:** AD007 mantém o print (o punch dele já tinha passado no portão); AD006
+ganhou `prova_1437` — *"Passando de uma consulta de 80 reais para uma consulta de
+250,00"*, que prova a tese do post de forma literal (a consulta tem preço próprio),
+bem melhor que o print de volume que estava lá. Inédito no acervo, sem nome nem
+telefone no recorte. Punch reescrito pra ARGUMENTAR em vez de ecoar o print:
+"A CONSULTA NÃO MUDOU. / MUDOU O QUE ELA DIZ / QUE A CONSULTA {VALE}." (virou D3).
+
+Pasta renomeada de "AD006 - Confirmou e Nao Veio" pra "AD006 - A Consulta Abatida"
+(o nome era da 1ª tese).
+
+### Observação honesta pra SEM32
+
+As capas do trilho A saíram três em sequência na mesma fórmula (aspa + frase
+literal da clínica): AD002 "vou pensar", AD004 "isso é só na avaliação", AD006 "a
+consulta é abatida". É exatamente a mecânica dos campeões maduros e está dentro da
+política nova — mas são dias CONSECUTIVOS, que é o único caso que a D4 ainda trata
+como risco. Vale medir: se as três performarem, a fórmula aguenta sequência e a D4
+pode afrouxar; se a 2ª e a 3ª caírem, é saturação de fórmula e o trilho A precisa
+alternar. **Medir com s/r maduro (D+14), nunca D+1.**
+
+Território: 24 dos 67 posts do corpus já minerados em 3 semanas. Restam 41 peças,
+mas a veia de conversa comercial (a que performa) está afinando. A SEM32 vai
+precisar OU de corpus novo (gravar com o Leo), OU de mais reuso declarado agora que
+a política permite.
