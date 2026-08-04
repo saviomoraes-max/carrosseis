@@ -1,0 +1,693 @@
+{
+ "mediana_shares_rate": 0.00615,
+ "mecanicas_vencedoras": [
+  {
+   "mecanica": "Capa = a objeção/frase literal do lead entre aspas OU reframe disruptivo da conversa comercial — nunca a metodologia, nunca a marca. Padrões do corpus: afirmacao-disruptiva, numero/lista, negacao+pivo.",
+   "evidencia": "18113350918867588 = SEM21/AD004 'As 5 objeções que mais fazem você perder agendamentos no WhatsApp' (numero/lista); 18360586885230120 = SEM21/AD006 'O Follow-Up Impossível de Ignorar' (afirmacao-disruptiva); 17893772529532193 = SEM24/AD005 'O real motivo dos seus leads sumirem na hora de pagar a consulta' (afirmacao-disruptiva); 18601487575063147 = SEM26/AD007 'O que NUNCA responder no WhatsApp da sua clínica' (negacao+pivo); 17862441423637626 = SEM25/AD003 'A frase \"mas a gente abate no procedimento\" está te custando suas melhores pacientes' (frase literal); 18074903717254893 = SEM18/AD004 'Entregar o orçamento na mão da paciente é o pedido oficial para ela ir embora' (reframe). Hooks confirmados nos build.py/copy.md do SSD e no corpus.json.",
+   "taxas": [
+    "18113350918867588: s/r 5,79%",
+    "18360586885230120: s/r 5,52%",
+    "17893772529532193: s/r 5,06%",
+    "18074903717254893: s/r 4,54%",
+    "18601487575063147: s/r 3,90%",
+    "17862441423637626: s/r 3,88%"
+   ]
+  },
+  {
+   "mecanica": "Slide 2 = diagnóstico que NOMEIA o erro comportamental da doutora (o que ela faz hoje e por que perde), nunca contexto institucional ou aquecimento. Nas 6 peças do top casadas com o SSD, o slide 2 do corpus é tipo 'diagnostico' ou entra direto na objeção 1.",
+   "evidencia": "SEM21/AD006 s2: 'modo cobrador de dívidas' com as mensagens genéricas que o lead ignora (18360586885230120); SEM24/AD005 s2: 'sente-se o cheiro de quem entrou só pra vender' (17893772529532193); SEM25/AD003 s2: 'o erro que parece gentileza' (17862441423637626); SEM21/AD004 s2: já é a Objeção 01 'Vou ver minha agenda' com problema real + erro comum (18113350918867588); SEM26/AD007 s2: objeção 1 'Quanto custa a consulta?' resposta que perde vs que entende o caso (18601487575063147). Estruturas em corpus.json, campo estrutura[n=2].",
+   "taxas": [
+    "18113350918867588: s/r 5,79%",
+    "18360586885230120: s/r 5,52%",
+    "17893772529532193: s/r 5,06%",
+    "17862441423637626: s/r 3,88%",
+    "18601487575063147: s/r 3,90%"
+   ]
+  },
+  {
+   "mecanica": "Script literal colável no miolo: a condução palavra-por-palavra entre aspas, quase sempre no formato 'resposta que perde vs resposta que conduz' (cards ✗/✓ ou bolha de WhatsApp). 8 dos 12 do top têm script pronto pra copiar.",
+   "evidencia": "SEM21/AD004 e SEM25/AD006 (mesmos 5 scripts: 'Perfeito, pra eu não ficar te chamando… quando você costuma organizar sua agenda?' etc.) = 18113350918867588 e 18366349324225646; SEM26/AD007 renderiza bolha estilo WhatsApp 'O LEAD DIZ' + card good/bad (18601487575063147); SEM25/AD003 tem o script do valor até o Pix (17862441423637626); SEM21/AD006 entrega as mensagens prontas do GIF do cachorrinho e do áudio mudo + 'É isso mesmo ou estou enganada?' (18360586885230120); SEM17/agradeça tem 5 scripts perde-vs-continua (mecânica de 17884878831519194); SEM18/AD004 tem o script do café com o marido (18074903717254893). Tudo lido nos copy.md/build.py do SSD.",
+   "taxas": [
+    "18113350918867588: s/r 5,79%",
+    "18366349324225646: s/r 4,98%",
+    "18360586885230120: s/r 5,52%",
+    "17884878831519194: s/r 4,13%",
+    "18074903717254893: s/r 4,54%",
+    "17862441423637626: s/r 3,88%",
+    "18601487575063147: s/r 3,90%"
+   ]
+  },
+  {
+   "mecanica": "Metodologia nomeada (SUPERCASO/framework) só aparece no último terço — sustenta o CTA, nunca lidera. No top, o nome da metodologia entra no slide de CTA ou como nome do material; a única peça do top onde SUPERCASO estrutura o miolo (SEM19/AD011) ainda abre com pergunta-paradoxo sobre a dor, não com a marca.",
+   "evidencia": "SEM26/AD007: SUPERCASO só no s6/CTA (18601487575063147); SEM21/AD004: 'framework de perguntas' só no s9 via comente 218 (18113350918867588); SEM24/AD005: MATERIAL só no s7 (17893772529532193); SEM19/AD011 abre com 'Por que o seu melhor antes e depois nunca vira paciente que agenda?' e só no s3 nomeia 'antes e depois vira SUPERCASO com 4 pilares' (mecânica de 17937131391248838, s/r 5,64%). Estruturas em corpus.json.",
+   "taxas": [
+    "18601487575063147: s/r 3,90%",
+    "18113350918867588: s/r 5,79%",
+    "17893772529532193: s/r 5,06%",
+    "17937131391248838: s/r 5,64%"
+   ]
+  },
+  {
+   "mecanica": "CTA = comment-to-DM com gatilho específico (número ou palavra) prometendo a EXTENSÃO do que o post já entregou inteiro — o material vem depois da entrega completa, não no lugar dela.",
+   "evidencia": "Gatilhos confirmados no campo cta do perf e no corpus: 218 (framework de perguntas) em 18113350918867588 e 18366349324225646; 615 (guia de follow-up) em 18360586885230120; CASO em 17937131391248838; SUPERCASO em 17893772529532193 e 18601487575063147; 715 em 17906172393221466. Todos os posts entregam os scripts ANTES de pedir o comentário — o CTA de SEM21/AD004 s9 vem depois dos 5 scripts completos.",
+   "taxas": [
+    "18113350918867588: s/r 5,79%",
+    "18366349324225646: s/r 4,98%",
+    "18360586885230120: s/r 5,52%",
+    "17937131391248838: s/r 5,64%",
+    "17893772529532193: s/r 5,06%",
+    "18601487575063147: s/r 3,90%",
+    "17906172393221466: s/r 3,39%"
+   ]
+  },
+  {
+   "mecanica": "Repetir o mesmo mecanismo vencedor paga duas vezes: a peça de 5 objeções foi postada na SEM21 e reformulada na SEM25 com os MESMOS scripts e o MESMO gatilho 218, e as duas versões ficaram no top 5 do acervo inteiro (1º e 5º lugares).",
+   "evidencia": "18113350918867588 (20/mai, SEM21/AD004) e 18366349324225646 (18/jun, SEM25/AD006) — legendas quase idênticas ('Objeção nunca foi um não…'), scripts idênticos confirmados em copy.md (SEM21) e build.py (SEM25), ambos cta=218. 29 dias de intervalo entre os posts.",
+   "taxas": [
+    "18113350918867588: s/r 5,79% (reach 10.137)",
+    "18366349324225646: s/r 4,98% (reach 3.732)"
+   ]
+  }
+ ],
+ "mecanicas_perdedoras": [
+  {
+   "mecanica": "Legenda de anúncio com a promessa da marca liderando ('1 consulta paga a cada 30 novos seguidores… Comente SUPERCASO') — a metodologia É a capa, zero conversa comercial, zero script. 4 posts idênticos no bottom 12, todos com reach de mídia paga (36k a 422k) e share praticamente nulo. Anomalia declarada: o mesmo texto aparece 1x no top (18133397656512900, s/r 3,75%) mas com reach de só 2.376 — denominador pequeno de criativo pago, não conta como evidência orgânica.",
+   "evidencia": "17853684090540869 (s/r 0,05%, reach 422.231), 17858962317467570 (s/r 0,04%, reach 50.621), 17966000483807502 (s/r 0,04%, reach 36.256), 17872712730327542 (s/r 0,01%, reach 136.010) — legendas idênticas no perf_compact.json."
+  },
+  {
+   "mecanica": "Pitch direto de venda/agendamento sem entregar nada antes: matemática de promessa ('R$27,5 mil por semana… R$1,32 milhão/ano') ou oferta de descongelar leads, com CTA de sessão estratégica/palavra-gatilho de cara. O post pede antes de dar.",
+   "evidencia": "18423990412189371 (s/r 0,01%, reach 79.506): 'R$13,5 mil + R$14 mil = R$27,5 mil por semana… Toque no link da Bio e agende a sua sessão estratégica'; 18074666857996965 (s/r 0,04%, reach 110.195): 'Vamos comentar SUPERCASO para DESCONGELAR seus leads'. Legendas no perf_compact.json."
+  },
+  {
+   "mecanica": "A marca falando de si mesma (evento, institucional, pessoal, motivacional) — sem erro nomeado, sem script, sem destinatário de encaminhamento. São os únicos posts com s/r arredondando pra zero.",
+   "evidencia": "18315549106270776 (s/r 0,00%, reach 133.399): evento '80 doutoras… grupo seleto'; 17925553008161367 (s/r 0,00%): motivacional 'você já é'; 18058584974524578 (s/r 0,05%): post pessoal de dia dos pais. Legendas no perf_compact.json."
+  },
+  {
+   "mecanica": "História/parábola liderando no lugar da conversa comercial: case de aluna com o método como herói ('a história da Fran é o fim oficial dessa desculpa'), analogia de celebridade (Shakira 'conhecida por UMA coisa') ou reflexão sobre o perfil — tudo sem uma única linha colável. Mesmo sendo posts da era boa (mai/26), ficaram no bottom 12.",
+   "evidencia": "18171497062407098 (s/r 0,06%, reach 11.289): case Fran Crepaldi, lição = 'método sem direção é informação solta'; 18135690958529112 (s/r 0,02%, reach 90.065): parábola da Shakira; 18127022830606856 (s/r 0,04%, reach 60.906): 'O que o seu paciente sente quando entra no seu perfil hoje?' — pergunta reflexiva sem script nem objeção. Legendas no perf_compact.json."
+  }
+ ],
+ "pecas_virgens_densas": 10,
+ "pecas_virgens_total": 39,
+ "bloqueios": {
+  "territorio_quente": [
+   {
+    "item": "Abatimento da consulta no procedimento (post inteiro: 'nunca emende o abatimento no preço' + sinal + troca por compromisso). 3º uso da família em 6 semanas, acabou de rodar",
+    "post": "SEM31/AD006 - A Consulta Abatida (publicado)",
+    "dias": 4,
+    "status": "BLOQUEIO"
+   },
+   {
+    "item": "'Você cria a objeção no próprio feed' — 10ml na legenda, lead faz a conta e some (retoma tese do SEM21/AD007)",
+    "post": "SEM31/AD007 - Voce Cria a Objecao",
+    "dias": 4,
+    "status": "BLOQUEIO"
+   },
+   {
+    "item": "Frase de abertura pra seguidor que já está lá (1→10 consultas; 'a paciente não é fria, a sua abertura é'; 'você é daqui da cidade?')",
+    "post": "SEM31/AD008 - A Frase Que Abre Conversa",
+    "dias": 4,
+    "status": "BLOQUEIO"
+   },
+   {
+    "item": "Deixar o lead sair sem decidir ('a conversa acabou em paz. E em nada' + pergunta certa pra cada saída: ver a agenda / mês puxado / não sei ainda)",
+    "post": "SEM31/AD009 - Sair Sem Decidir",
+    "dias": 4,
+    "status": "BLOQUEIO"
+   },
+   {
+    "item": "Triagem/recepção que espanta ('isso é só na avaliação' / 'agenda pelo link'; 'a política está certa, o jeito espanta'; print R$240.130/+56%)",
+    "post": "SEM31/AD004 - A Triagem Que Espanta",
+    "dias": 5,
+    "status": "BLOQUEIO"
+   },
+   {
+    "item": "Retorno 'aí você me avisa' — 'nenhuma paciente sai sem o próximo retorno agendado' + 'não é opcional, é parte do tratamento' (print 367K/273K)",
+    "post": "SEM31/AD005 - Ai Voce Me Avisa",
+    "dias": 5,
+    "status": "BLOQUEIO"
+   },
+   {
+    "item": "'Vou pensar' que sai sorrindo pela porta / 'a venda não morre no preço, morre no começo da consulta' (verbatim do SEM19/AD004) + print 53 consultas/R$384.209",
+    "post": "SEM31/AD002 - Vou Pensar na Porta",
+    "dias": 6,
+    "status": "BLOQUEIO"
+   },
+   {
+    "item": "Áudio de 3 minutos que responde tudo e não agenda nada / 'consulta pelo WhatsApp' / resposta de duas linhas (print 37 pacientes em dezembro)",
+    "post": "SEM31/AD003 - O Audio de 3 Minutos",
+    "dias": 6,
+    "status": "BLOQUEIO"
+   },
+   {
+    "item": "Régua da experiência Disney (70% voltam; 'melhor produto não compensa experiência mediana'; mensagem de depois que só cuida; print 200K em 16 dias)",
+    "post": "SEM31/AD001 - Regua da Experiencia Disney (publicado)",
+    "dias": 7,
+    "status": "BLOQUEIO"
+   },
+   {
+    "item": "Analogia do cabeleireiro (paciente nova te vê como 'cabeleireiro desconhecido'; 3 atalhos; print 24 voltando contra 13 chegando)",
+    "post": "SEM30/AD006 - Trocar de Cabeleireiro (publicado)",
+    "dias": 10,
+    "status": "DECLARAR"
+   },
+   {
+    "item": "'Você não está sendo gentil, está com medo' + 'negligência clínica' + oferta completa sem pedido de desculpa (2 famílias queimadas no mesmo post)",
+    "post": "SEM30/AD004 - Gentileza ou medo (publicado)",
+    "dias": 11,
+    "status": "DECLARAR"
+   },
+   {
+    "item": "'Quanto custa?' antes do bom dia — script da primeira mensagem em 3 tempos + 'da dor pro Pix' (print 200K com poucos leads)",
+    "post": "SEM30/AD003 - Quanto custa antes do bom dia (publicado)",
+    "dias": 12,
+    "status": "DECLARAR"
+   },
+   {
+    "item": "'Vou falar com meu marido' — não vender pro marido, armar a paciente + pergunta do espelho (família marido já queimada até SEM36; print 500K/15 de 18)",
+    "post": "SEM30/AD005 - Vou falar com meu marido",
+    "dias": 12,
+    "status": "DECLARAR"
+   },
+   {
+    "item": "Vini Jr / 'confiança não se anuncia, se constrói' / consumidor 2026 que pesquisa-compara-duvida (print R$17.260 por indicação)",
+    "post": "SEM30/AD002 - Como o Vini Jr escolheu (publicado)",
+    "dias": 13,
+    "status": "DECLARAR"
+   },
+   {
+    "item": "Resgate da lead sumida — GIF do cachorrinho, áudio mudo, linha da perseguição (3 tentativas/4 dias); print 306 mil em maio",
+    "post": "SEM30/AD001 - O resgate da lead que sumiu (publicado)",
+    "dias": 14,
+    "status": "DECLARAR"
+   },
+   {
+    "item": "Fecho-CTA 'SE VOCÊ QUER...' — 4-gram 'se voce quer que' em 4 posts (últ. 4d), 'se voce quer parar' em 3 (últ. 4d), 'se voce quer aprender' em 2 (últ. 7d), 'se voce quer a' em 2 (últ. 5d): é a fórmula-casa de fecho, mas TODA a SEM31 fechou assim",
+    "post": "SEM29-SEM31 (11 posts)",
+    "dias": 4,
+    "status": "DECLARAR"
+   },
+   {
+    "item": "4-gram 'a consulta foi linda' repetido em SEM29/AD004 (16d) e SEM31/AD005 (5d) — não repetir a cena pela 3ª vez em 3 semanas",
+    "post": "SEM31/AD005 + SEM29/AD004",
+    "dias": 5,
+    "status": "BLOQUEIO"
+   },
+   {
+    "item": "Prints/provas da SEM31 (400K/30 dias, 240.130/56%, 367K+273K, 384.209/53, 37 em dezembro, 200K/16 dias, 12 consultas, 5 consultas): mesmos prints em post da SEM32 = prova repetida em posts vizinhos no grid",
+    "post": "SEM31/AD001-AD009",
+    "dias": 4,
+    "status": "BLOQUEIO"
+   }
+  ],
+  "formulas_capa": [
+   {
+    "formula": "aspa (fala literal entre aspas na capa)",
+    "usos_14d": 5,
+    "nota": "SATURADA: SEM30/AD003 (12d), SEM30/AD005 (12d), e TRÊS SEGUIDAS no trilho A em 28/29/30 jul — SEM31/AD002 (6d), AD004 (5d), AD006 (4d). Abrir a SEM32 com capa em aspa cria a 4ª quase-consecutiva no grid: não usar nos primeiros slots; a partir do meio da semana, DECLARAR."
+   },
+   {
+    "formula": "afirmacao (tese direta/reframe)",
+    "usos_14d": 4,
+    "nota": "SEM30/AD004 (11d), SEM31/AD005 (5d), AD007 (4d), AD009 (4d). Disponível, mas foi o 2º trilho mais usado da SEM31."
+   },
+   {
+    "formula": "pergunta",
+    "usos_14d": 3,
+    "nota": "SEM30/AD001 (14d), AD002 (13d), AD006 (10d). Zero uso na SEM31 — trilho mais descansado junto com número."
+   },
+   {
+    "formula": "numero",
+    "usos_14d": 3,
+    "nota": "SEM31/AD001 (7d, 70% Disney), AD003 (6d, áudio de 3 min), AD008 (4d, 1→10 consultas). Livre, mas os 3 usos são todos da SEM31."
+   }
+  ],
+  "doutrina_por_assunto": [
+   {
+    "assunto": "abatimento",
+    "doutrina_vigente": "NUNCA emendar o abatimento no preço ('a consulta é X, mas a gente abate' de cara é erro); passar o valor e conduzir pro agendamento na mesma frase, e se ela perguntar do abate, segurar e trocar por compromisso de agendamento — desconto só depois de objeção real, nunca preventivo.",
+    "fonte": "SEM25/AD003 (campeão s/r 3,95%), SEM30/AD004 item 'O ABATE NA HORA CERTA', SEM31/AD006 S4 (fecho: 'transformou o abatimento em compromisso de agendamento'), SEM20/AD007 ('espere a objeção real antes de pensar em desconto')"
+   },
+   {
+    "assunto": "preço",
+    "doutrina_vigente": "Preço só depois da dor instalada e das perguntas de compromisso ('o sim aqui antecede o sim do preço'); dito com firmeza e seguido de silêncio absoluto — quem fala primeiro perde; nunca justificar o valor, nunca preço cru por mensagem, nunca ancorar em ml/unidade de medida.",
+    "fonte": "SEM22/AD001 + SEM29/AD001 ('diga o preço e entre em silêncio absoluto'), SEM26/AD003 ('perguntas de compromisso ANTES do preço'), SEM19/AD004/SEM31/AD002 ('a venda não morre no preço'), SEM29/AD004 ('sem unidade de medida')"
+   },
+   {
+    "assunto": "sinal",
+    "doutrina_vigente": "Cobrar sinal via Pix pra confirmar o horário, com cerimônia ('esse valor é para confirmarmos seu horário em sistema'): valor pago antes muda a consulta de intenção pra data reservada, sem exceção pra indicação nem conhecida.",
+    "fonte": "SEM20/AD010 ('cobre pelo seu tempo, faça cerimônia do Pix'), SEM24/AD003 ('o investimento da consulta é de R$200, posso te enviar a chave Pix agora'), SEM31/AD006 item 'O SINAL SEGURA O DIA'"
+   },
+   {
+    "assunto": "agendamento",
+    "doutrina_vigente": "Conduzir pro agendamento na mesma frase do valor e fechar com pergunta, não com pedido ('vamos marcar?' deixa adiar); da dor direto pro Pix, nunca terminar em 'qualquer coisa me chama'; a próxima consulta sai marcada antes dela levantar da cadeira.",
+    "fonte": "SEM25/AD003 + SEM31/AD006 ('conduza pro agendamento na mesma frase'), SEM27/AD009 item 'FECHE COM UMA PERGUNTA, NÃO COM UM PEDIDO', SEM30/AD003 item 'DA DOR PRO PIX', SEM27/AD007 item 'DEIXE O PRÓXIMO PASSO MARCADO'"
+   },
+   {
+    "assunto": "comparecimento",
+    "doutrina_vigente": "Comparecimento não é sorte, é condução: régua de contato em 3 tempos (imediato/24h antes/dia) + sinal pago — ela não falta porque esqueceu, falta porque a consulta não custou.",
+    "fonte": "SEM20/AD010 ('comparecimento não é sorte, é condução' + timeline Imediato/24h/Dia), SEM31/AD006 S3 ('ela não falta porque esqueceu. Falta porque não custou')"
+   },
+   {
+    "assunto": "retorno",
+    "doutrina_vigente": "Nenhuma paciente sai da clínica sem o próximo retorno agendado (regra inegociável, janela 60/90 dias) e a frase é 'esse retorno não é opcional, é parte do tratamento' — nunca 'aí você me avisa', nunca depender da memória dela; entre visitas, presença digital leve sem vender.",
+    "fonte": "SEM19/AD003 (origem da regra e da frase), SEM31/AD005 itens 'REGRA INEGOCIÁVEL' e 'ARGUMENTO DE CUIDADO' + 'PROXIMIDADE DIGITAL SILENCIOSA'"
+   },
+   {
+    "assunto": "whatsapp",
+    "doutrina_vigente": "WhatsApp acolhe, direciona e marca — nunca faz a consulta: sem preço por direct, sem áudio longo explicando tratamento (resposta de duas linhas apontando pra consulta), sem avaliar pela foto; procedimento, quantidade, valor e tempo não se respondem por mensagem.",
+    "fonte": "SEM30/AD004 item 'A CONSULTA VOLTA PRO LUGAR DELA', SEM31/AD003 itens 'A RESPOSTA DE DUAS LINHAS' e 'O QUE FICA PRA LÁ', SEM21/AD008 ('pare de dar o preço por direct'), SEM24/AD001 (avaliar pela foto esvazia a consulta)"
+   },
+   {
+    "assunto": "objeção",
+    "doutrina_vigente": "Nunca comprar a desculpa nem liberar fácil: toda objeção se resolve devolvendo a pergunta e conduzindo de volta pra dor ('vou pensar' é teste, 'mês puxado' é financeiro vestido de calendário); marido: armar a paciente, nunca vender pro marido; e objeção se previne na consulta — quem planta objeção no feed cria a própria.",
+    "fonte": "SEM30/AD003 item 'CURIOSIDADE E DIREÇÃO', SEM27/AD002 ('vou pensar quase nunca é dúvida. É teste'), SEM31/AD009 item 'QUANDO O MÊS TÁ PUXADO', SEM30/AD005 item 'NÃO VENDA PRO MARIDO', SEM21/AD007 + SEM31/AD007"
+   },
+   {
+    "assunto": "conteúdo",
+    "doutrina_vigente": "Feed fala dor e transformação, nunca técnica: ml, unidades e nome de produto saem da legenda (viram conta na cabeça do lead), conteúdo educativo atrai curiosa e não paciente high-ticket, o caso se conta como história (SUPERCASO) e cada post tem UM CTA só.",
+    "fonte": "SEM31/AD007 item 'O NÚMERO QUE VIRA CONTA', SEM24/AD002 ('paciente que fecha plano de 10, 20, 30 mil não consome conteúdo educativo'), SEM26/AD005, SEM27/AD012 (lente SUPERCASO), SEM27/AD008 item 'CTA único'"
+   },
+   {
+    "assunto": "triagem",
+    "doutrina_vigente": "A política de triagem está certa, o jeito é que espanta: acolher e perguntar antes de qualquer regra da casa ('algum caso que postamos te fez entrar em contato?'), e a qualificação pesada acontece automática ANTES do lead chegar no WhatsApp — nunca regulamento na primeira resposta.",
+    "fonte": "SEM31/AD004 ('a política está certa. O jeito espanta' + item 'A PERGUNTA, NÃO O REGULAMENTO'), SEM21/AD003 ('a qualificação precisa ser automática' + filtro antes do link do WhatsApp)"
+   }
+  ],
+  "queimadas": [
+   {
+    "frase": "a consulta é X, mas a gente abate no procedimento (abate antecipado=desculpa; guardado=compromisso)",
+    "usos": 3,
+    "ultimo_uso_dias": 4,
+    "status": "BLOQUEIO na SEM32 — não pela queimada (liberada pelo Sávio em 30/jul: contador, não veto), mas porque o 3º uso foi POST INTEIRO (SEM31/AD006) publicado há 4 dias: repetir a família agora é adjacência de feed. Registro marca até SEM38."
+   },
+   {
+    "frase": "sorte como vilã (não é sorte / depender de sorte / teve sorte)",
+    "usos": 5,
+    "ultimo_uso_dias": 13,
+    "status": "DECLARAR — 5 usos em ~1 mês (SEM23/AD005, SEM27/AD004, SEM27/AD006, SEM29/RLS007, SEM30/AD002), registro marca queimada até SEM34; SEM32 cai antes da janela: quem usar declara os 5 usos e justifica."
+   },
+   {
+    "frase": "gentileza como máscara (sendo gentil→com medo / gentileza→passividade)",
+    "usos": 3,
+    "ultimo_uso_dias": 11,
+    "status": "DECLARAR — hit 08/jun do Leonardo (s/r 3,02%), SEM29/AD002, SEM30/AD004; registro marca até SEM36."
+   },
+   {
+    "frase": "objeção do marido — teses do SEM25/AD001 (nunca é sobre o marido / muro→motivo / nome do medo de decidir)",
+    "usos": 4,
+    "ultimo_uso_dias": 12,
+    "status": "DECLARAR — SEM20/AD002, SEM25/AD001, SEM25/AD006, SEM30/AD005; registro marca até SEM36."
+   },
+   {
+    "frase": "Confiança não se anuncia. Se constrói.",
+    "usos": 3,
+    "ultimo_uso_dias": 13,
+    "status": "DECLARAR — 3º uso em 6 semanas foi SEM30/AD002 (aprovado por encaixe único com o Vini Jr); registro até SEM36. Cópia integral palavra por palavra = reprova (D4)."
+   },
+   {
+    "frase": "pesquisa, compara, duvida (consumidor 2026 desconfiado)",
+    "usos": 3,
+    "ultimo_uso_dias": 13,
+    "status": "DECLARAR — SEM24/AD007, SEM25/AD005, SEM30/AD002; registro até SEM36."
+   },
+   {
+    "frase": "Não o antes e depois da pele: a dor do antes e a vida do depois + par quanto custa?/quando você tem horário?",
+    "usos": 4,
+    "ultimo_uso_dias": 12,
+    "status": "DECLARAR — SEM24/AD007, SEM25/AD005, SEM30/AD002, SEM30/AD003 (tangencial, sem o par); registro até SEM36."
+   },
+   {
+    "frase": "Posso te enviar a chave Pix agora para confirmar seu horário?",
+    "usos": 3,
+    "ultimo_uso_dias": 12,
+    "status": "DECLARAR — SEM24/AD003, SEM27/AD006, SEM30/AD003 (2º uso nosso em 4 semanas); registro marcava 3º só depois de SEM34. Como script colável do miolo, uso com declaração; verbatim como punch/capa = evitar."
+   },
+   {
+    "frase": "não é favor/gentileza, é negligência clínica (segurar o plano completo)",
+    "usos": 3,
+    "ultimo_uso_dias": 11,
+    "status": "DECLARAR — SEM20/AD007, SEM21/AD002, SEM30/AD004 (3º uso, mantido no portão com nota 'próximo só depois da liberação'); registro até SEM36."
+   }
+  ]
+ },
+ "notas_da_pauta": "MÉTODO: pauta montada com checklist-pauta.md integral + SEM31-leitura.md integral + corpus.json (estruturas completas das 8 peças-fonte conferidas) + perf_compact.json (taxas verificadas post a post) + doutrina/território do input. Zero frase inventada: todo verbatim citado existe no corpus ou no perf.\n\nESPINHA CUMPRIDA: 9 dos 10 slots têm a frase-que-custa nomeada na tese (a exceção estrutural é o FLEX de quinta, definido no dia). Nenhuma tese vira item de lista: [26] e [5] são listas POR DESENHO do corpus, mas cada item é script/sinal colável (padrão do campeão 5-objeções), não teses diluídas.\n\nMIX: 7 conversa comercial + 1 captação operacional (SEG-B, validado denso) + 1 trend FLEX (QUI-B, julgado por alcance) + 1 disruptivo (SEX-B, com refutador extra). O slot de bastidor-autoridade ficou FORA por decisão baseada em dado: a SEM31-leitura provou zero institucional/bastidor entre os 12 hits ≥2% e o Disney fez 0,27% — segui o mix do checklist (validado/trend/disruptivo). Pilar (a) do Leonardo coberto na QUA-A; demais slots público (b).\n\nFÓRMULAS DE CAPA (grid conferido, inclusive contra a sexta da SEM31): trilho A = afirmacao→pergunta→aspa→numero→pergunta; trilho B = numero→afirmacao→numero→(livre, sem afirmacao/aspa)→afirmacao. Nenhuma repetição em dias consecutivos no mesmo trilho; aspa = 1 uso na semana (QUA-A, declarada como 6º uso/14d); SEG não colide com SEX 31/jul (AD008 numero-A / AD009 afirmacao-B vs SEG afirmacao-A / numero-B).\n\nBLOQUEIOS RESPEITADOS: nenhum print da SEM31 (varredura prints_usados.py por punch E imagem é lei na produção); fecho 'SE VOCÊ QUER...' BANIDO nos 10 posts (4-gram saturado, 11 posts SEM29-31); 'a consulta foi linda' banida; sem travessão; capa fria sem 'sua clínica'; CTA sem handles; palavra 'abatido' fora de capa/punch da SEG-B (viral AD006 a 4-8d).\n\nVERIFICAÇÕES PENDENTES (honestas): (1) [45] SEM23/AD007 não está na lista de virgens do input (truncada) — conferi contra todos os títulos produzidos SEM27-31 e o território vivo: sem re-mineração; confirmar no headlines-repertoire antes de produzir. (2) A leitura de peças virgens veio truncada após o [36]; se houver nota de contaminação sobre [5] ou [45] no arquivo-fonte do orquestrador, TER-B e SEX-A têm a reserva como fallback. (3) SEX-A é o slot mais fraco da espinha (não-CC) — declarado no próprio slot, com troca pré-aprovada pela reserva.\n\nRESERVA: 'Não quero ficar artificial' (objeção da cadeira via lente SUPERCASO, herdada da SEM31, nunca usada) — cobre QUI-B sem trend aprovada OU SEX-A por decisão do Sávio.\n\nREVER COM DADO: 17/ago (D+14 da sexta SEM31) — (a) se as 3 aspas consecutivas da SEM31 caírem maduras, a D4 aperta e QUA-A teria sido a última aspa em sequência tolerada; (b) D+14 do SEM31/AD002 mede se a família vou-pensar saturou (afeta QUI-A); (c) trilho B segue sem conclusão de design (n=4, uma semana) — SEM32 é a segunda medição, não afirmar nada antes dela. Corpus: restam ~34 peças virgens mas a veia de conversa comercial está afinando (aviso do fechamento SEM31 confirmado — esta pauta já precisou de 1 slot não-CC); gravar corpus novo com o Leo continua sendo a recomendação estrutural.",
+ "slots": [
+  {
+   "slot": {
+    "dia": "SEG 03/08",
+    "trilho": "A",
+    "titulo": "A Consulta Que Virou Aula",
+    "tese": "A frase que a doutora diz achando que é profissionalismo: 'deixa eu te explicar direitinho o protocolo'. Você não está vendendo, está dando uma aula — e a paciente sai 'educada', sem urgência, e fecha com quem faz mais barato. O custo: as melhores vendas entregues à concorrência. Post inteiro nessa tese: consulta-aula → por que o cérebro dela calcula em vez de decidir → script antes (frio: 'o valor é R$6.000') vs depois (conecta dor ao preço) → ouça 80/fale 20 + gere inconformismo.",
+    "peca_fonte": "[22] SEM20/AD004 - Cliente Que Educa (virgem, conversa comercial; miolo intacto — só o verbatim '9 a cada 10' foi consumido pela leva SEM27 e fica FORA)",
+    "elemento_herdado": "Mecânica frase-que-custa-caro liderando (a frase dita como profissionalismo que custa dinheiro) + slide 2 = diagnóstico que NOMEIA o erro comportamental + script perde-vs-conduz no miolo",
+    "fonte_do_elemento": "Mecânica campeã com 7 dos 12 hits do período (SEM31-leitura item 4; ex.: 3,02% 'gentil/medo' 18094748102102988, 4,61% 'velocidade do preço'); slide-2 diagnóstico = 17893772529532193 s/r 5,06%; script colável = mecânica presente em 8/12 do top (18113350918867588 s/r 5,79%). Declarado: a família 'quanto mais explica menos fecha' tem 1 uso fraco medido (18138544813525665, 06/mai, s/r 0,73%) — aquela capa era pergunta genérica ('Você já sentiu...?'); esta lidera com o reframe seco, padrão do campeão absoluto",
+    "formula_capa": "afirmacao (reframe seco, verbatim do corpus: 'Você não está vendendo. Está dando uma aula.')",
+    "assunto_doutrina": "objeção (prevenção na consulta) + preço (dor antes do valor)",
+    "coerencia_doutrina": "Reforça a doutrina, não contradiz: 'objeção se previne na consulta' (SEM21/AD007+SEM31/AD007) e 'preço só depois da dor instalada' (SEM26/AD003). O post manda conectar dor ao preço ANTES do valor — exatamente a prescrição vigente. Não toca abatimento nem desconto.",
+    "teste_encaminhamento": "A sócia/colega que sai da consulta orgulhosa 'da aula que deu' e não entende por que a paciente sumiu — quem lê reconhece a cena de ontem e manda com a legenda mental 'isso é você'. Momento datável na produção: a cena do bloco de explicação de 20 minutos antes do preço.",
+    "rever_com_dado_sem31": false
+   },
+   "status": "CAIU",
+   "refutadores_mortos": 0,
+   "objecoes": [
+    {
+     "lente": "território e doutrina",
+     "motivo": "A capa proposta (\"Você não está vendendo. Está dando uma aula.\") é verbatim encadeado do SEM31/AD002 - Vou Pensar na Porta, post de 6 dias atrás que está na lista de BLOQUEIO e no mesmo trilho A — pisa em território com menos de 14 dias com a frase-âncora inteira. Além disso, a justificativa de fonte do slot é falsa: alega que o miolo do SEM20/AD004 está \"intacto, só o '9 a cada 10' consumido pela leva SEM27\", mas a leva SEM27 produziu a tese INTEIRA — SEM27/AD005 tem como capa \"A CONSULTA VIROU AULA. VOCÊ VIROU {ORÇAMENTO}\" (o próprio título do slot já foi capa) e cobre consulta-aula → comparação de preço → \"quanto mais justifica, mais barata parece\"; SEM27/AD014 cobre \"Consulta não é modo aula. É modo decisão\" e o beat \"quanto mais completa a explicação, mais preparada ela sai pra fechar com outro\". O slot inteiro é remontagem de território já ocupado, com a peça mais próxima a apenas 6 dias.",
+     "evidencia": "(1) /Volumes/SSD kenipe/estáticos/novos/SEM31/AD002 - Vou Pensar na Porta/copy.engine.json: \"você não está vendendo, está dando uma aula. E foi essa aula que ela assistiu inteira antes de te agradecer na saída\". (2) /Users/saviomoraes/reconecta/agente-carrosseis/data/territorio-vivo.json → frases_4g: \"nao esta vendendo esta\", \"dando uma aula e\", \"foi essa aula que\" atribuídos a SEM31/AD002 (dias: 6); \"voce da aula ela\" e \"a sua aula de\" atribuídos a SEM27/AD005 (dias: 31). (3) /Volumes/SSD kenipe/estáticos/novos/SEM27/AD005 - A consulta que vende o destino/copy.engine.json: capa \"ELA PERGUNTOU O PREÇO. VOCÊ DEU UMA AULA.\" + \"A CONSULTA VIROU AULA. VOCÊ VIROU {ORÇAMENTO}.\" + legenda com aula de marca/ml, \"vou pensar com o orçamento da outra doutora aberto no WhatsApp\", \"quanto mais você justifica, mais barata você parece\". (4) /Volumes/SSD kenipe/estáticos/novos/SEM27/AD014 - A paciente que chega com o diagnóstico pronto/copy.engine.json: \"Consulta não é modo aula. É modo decisão.\" + \"Quanto mais completa a tua explicação, mais preparada ela sai pra fechar com quem parece mais seguro\".",
+     "conserto": "Matar o slot como está. Se o tema \"consulta que sobre-explica\" voltar, só depois do território do SEM31/AD002 esfriar (≥14d, ou seja, a partir de ~11/08) E com cena inédita não coberta por SEM27/AD005 nem SEM27/AD014 — por exemplo, um beat do SEM20/AD004 que comprovadamente não foi consumido, verificado por grep contra os copy.engine.json de SEM27+ antes de aprovar. A capa não pode reutilizar nenhum dos 4-grams registrados (\"dando uma aula\", \"foi essa aula\", \"consulta virou aula\"). Para SEG 03/08 no trilho A, substituir por slot de assunto fora do cluster consulta-aula/explicação (todo o cluster está queimado entre SEM27 e SEM31)."
+    },
+    {
+     "lente": "FORÇA (encaminhamento real vs genérico; conversa comercial vs institucional; comparação com campeões medidos)",
+     "motivo": "A base da mecânica confere (SEM31-leitura item 4 existe, os 4 post IDs e taxas batem no perf_compact, tese é conversa comercial), mas a alegação central do slot — \"peça virgem, miolo intacto, só o '9 a cada 10' foi consumido\" — é FALSA em dois pontos fatais. (1) O verbatim proposto pra capa, \"Você não está vendendo. Está dando uma aula.\", foi publicado há 6 dias DENTRO do SEM31/AD002 \"Vou Pensar na Porta\", que está na lista de BLOQUEIO: abrir a SEM32 com essa frase na capa é repetição quase literal adjacente no grid, de post bloqueado, e o slot não declarou isso. (2) A tese inteira consulta-aula já FOI um post completo há 31 dias: SEM27/AD005 \"A consulta que vende o destino\" (hero \"ELA PERGUNTOU O PREÇO. VOCÊ DEU UMA AULA.\", slide \"A CONSULTA VIROU AULA. VOCÊ VIROU ORÇAMENTO.\", punch \"quem parou de explicar, começou a fechar\"), reprisada em SEM27/AD013 slide 2 (\"você explica o procedimento. ela ouve uma aula.\") e no burn do SEM31/AD003 (\"manda pra colega que grava áudio... explicando o tratamento todo\"). Este slot seria a 4ª passada na tese explica-demais em ~5 semanas. Isso também mata o teste de encaminhamento: a \"colega orgulhosa da aula que deu\" já foi o alvo de share literal da legenda do SEM27/AD005 (\"manda pra aquela colega que explica bioestimulador desenhando\") — não é cena fresca, é a mesma pessoa atingida pela mesma cena há um mês. E a defesa do slot (\"o uso fraco de 0,73% tinha capa-pergunta genérica; esta lidera com reframe seco\") já foi testada: o SEM27/AD005 liderou exatamente com o reframe seco de aula e não aparece em nenhum dos hits ≥2% listados na leitura. Nota menor: o slot cita o mesmo post duas vezes como evidências distintas (17893772529532193 é o próprio post \"velocidade do preço\"; 5,06% no perf_compact e 4,61% na leitura são snapshots diferentes do mesmo post, não dois casos).",
+     "evidencia": "1) /Volumes/SSD kenipe/estáticos/novos/SEM31/AD002 - Vou Pensar na Porta/copy.engine.json — contém literalmente: \"você não está vendendo, está dando uma aula. E foi essa aula que ela assistiu inteira antes de te agradecer na saída\" (post de 6 dias, item de BLOQUEIO). Grep por \"dando uma aula\" em SEM27-31 retorna SÓ esse arquivo — colisão direta com a capa proposta. 2) /Volumes/SSD kenipe/estáticos/novos/SEM27/AD005 - A consulta que vende o destino/copy.engine.json — hero \"ELA PERGUNTOU O PREÇO. VOCÊ DEU UMA AULA.\", \"A CONSULTA VIROU AULA. VOCÊ VIROU ORÇAMENTO.\", \"Aula informa. Consulta decide.\", legenda com share-target \"manda pra aquela colega que explica bioestimulador desenhando\". 3) /Users/saviomoraes/reconecta/agente-carrosseis/data/territorio-vivo.json — n-grams \"nao esta vendendo esta\"/\"dando uma aula e\"/\"foi essa aula que\" atribuídos a sem31/ad002; \"você dá aula. ela vai pensar.\" e \"quem parou de explicar, começou a fechar\" a sem27/ad005 (31d); \"ela ouve uma aula\" a sem27/ad013 (21d). 4) /Users/saviomoraes/reconecta/agente-carrosseis/data/analise-semanal/SEM31-leitura.md linhas 43-50 (mecânica 7/12 confirmada) e 45-50: nenhum dos hits listados é o post da aula. 5) /Users/saviomoraes/reconecta/agente-carrosseis/data/perf_compact.json — 18113350918867588 s/r 5,79%; 17893772529532193 s/r 5,06% (13/jun, \"velocidade do preço\" — mesmo post citado 2x pelo slot); 18094748102102988 s/r 3,02%; 18138544813525665 s/r 0,73% (06/mai, capa \"quanto mais explica, menos fecha\"). 6) /Users/saviomoraes/reconecta/agente-carrosseis/data/corpus.json peça 22 (SEM20/AD004) — verbatim e miolo existem; grep separado confirma que \"ouça 80\"/\"fale 20\"/\"inconformismo\" NÃO foram consumidos em SEM27-31, mas \"9 a cada 10\" foi (13 arquivos) e o frame aula foi (SEM27/AD005, SEM27/AD013, SEM31/AD002).",
+     "conserto": "Manter o slot de SEG com a mecânica frase-que-custa-caro ocupando o post inteiro (é a consequência literal da SEM31-leitura), mas reconstruir SEM o frame aula/explicar-demais, que está queimado por 4 posts em 5 semanas. Usar a parte VERDADEIRAMENTE virgem do SEM20/AD004, confirmada por grep: \"ouça 80%, fale 20%\" + \"gere inconformismo\" + a tradução emocional \"o paciente não compra 1ml de preenchedor, compra o fim da sensação de parecer cansada mesmo tendo dormido bem\" — tese: a consulta que só pergunta o que a paciente quer fazer (em vez de ouvir 80 e aprofundar a consequência) entrega o preço sem dor instalada. A frase-que-custa-caro da capa precisa ser nova (ex.: a pergunta \"educada\" de abertura da consulta que mata a venda), com 4-grams checados contra territorio-vivo.json e doutrina.py antes de travar. Fórmula de capa pode continuar afirmação (permitida no slot de SEG; aspa está vetada nos primeiros slots). Não usar \"Você não está vendendo. Está dando uma aula.\" em nenhum slide."
+    },
+    {
+     "lente": "mecânica do viral",
+     "motivo": "A mecânica frase-que-custa-caro é validada e a tese ocupa o post inteiro, mas o ativo central da mecânica está comprometido em três pontos: (1) a capa proposta (\"Você não está vendendo. Está dando uma aula.\") é linha literal do corpo do SEM31/AD002 - Vou Pensar na Porta, post publicado há 6 dias e listado como BLOQUEIO no território quente — seria a mesma frase repetida em posts vizinhos no grid; (2) o miolo \"ouça 80/fale 20\" também já está no mesmo post bloqueado (\"ESCUTA 80/20\", passo 1 do mapa); (3) a alegação \"miolo intacto, só o '9 a cada 10' foi consumido\" é falsa por omissão: SEM27/AD005 rodou a tese consulta-aula INTEIRA como post (capa + \"VOCÊ DÁ AULA. ELA VAI PENSAR.\" + \"QUEM PAROU DE EXPLICAR, COMEÇOU A FECHAR\") e SEM27/AD013 repetiu no slide 2 — este seria o 4º uso da tese em ~5 semanas. Agravante zero-achismo: a frase que abre a tese (\"deixa eu te explicar direitinho o protocolo\") não existe em nenhuma fonte (corpus, perf, território, doutrina, copy.engine.json do SSD) — é inventada. E pela régua do viral, a família tem 2 testes como post inteiro e 0 hits: o único medido fez s/r 0,73%, e nenhuma frase da família aparece entre os 12 hits ≥2% do período.",
+     "evidencia": "(a) /Volumes/SSD kenipe/estáticos/novos/SEM31/AD002 - Vou Pensar na Porta/copy.engine.json — slide de texto contém verbatim \"você não está vendendo, está dando uma aula. E foi essa aula que ela assistiu inteira antes de te agradecer na saída\" + slide list \"ESCUTA 80/20 — Os primeiros minutos são dela, não do protocolo\"; o contexto de bloqueios marca SEM31/AD002 como BLOQUEIO (6 dias). (b) /Users/saviomoraes/reconecta/agente-carrosseis/data/territorio-vivo.json — SEM27/AD005 (31d): \"POR QUE A CONSULTA QUE MAIS EXPLICA É A QUE MENOS FECHA?\", \"VOCÊ DÁ AULA. ELA VAI PENSAR.\", \"QUEM PAROU DE EXPLICAR, COMEÇOU A FECHAR\"; SEM27/AD013 (21d): \"VOCÊ EXPLICA O PROCEDIMENTO. ELA OUVE UMA AULA.\"; e os n-grams \"nao esta vendendo esta\"/\"dando uma aula e\" já registrados pro SEM31/AD002. (c) grep -ri \"direitinho\" em corpus.json, perf_compact.json, territorio-vivo.json, doutrina.json e em todos os copy.engine.json do SSD: zero ocorrências — frase sem fonte. (d) /Users/saviomoraes/reconecta/agente-carrosseis/data/perf_compact.json — 18138544813525665 (06/mai, \"quanto mais explica, menos o paciente fecha... dar uma aula de anatomia\"): s/r 0,73%, saves/r 0,58%, único teste medido da família como post inteiro. (e) /Users/saviomoraes/reconecta/agente-carrosseis/data/analise-semanal/SEM31-leitura.md item 4 — as 6 frases campeãs da mecânica listadas não incluem nenhuma da família consulta-aula.",
+     "conserto": "Manter a mecânica frase-que-custa-caro (validada pela SEM31-leitura item 4), mas trocar a munição: escolher uma frase REAL do corpus que (1) exista verbatim em peça ou hit medido, (2) não apareça no territorio-vivo.json dos últimos 30 dias, e (3) não pertença à família consulta-aula (2 testes, 0 hits). O corpus [22] ainda tem marcadores não queimados como candidatos a verificar contra o território (ex.: \"O paciente não compra 1ml de preenchedor. Ele compra o fim da sensação de parecer cansada mesmo tendo dormido bem\" — checar colisão com SEM31/AD007 - 10ml antes de usar). Alternativa: adiar qualquer retomada da tese consulta-aula pra depois do D+14 da SEM31 (17/ago), quando o bloqueio do AD002 expira e a re-medição confirma ou não o 0,87% dele. Em qualquer versão, remover a frase inventada \"deixa eu te explicar direitinho o protocolo\" ou substituí-la por frase com fonte real."
+    }
+   ]
+  },
+  {
+   "slot": {
+    "dia": "SEG 03/08",
+    "trilho": "B",
+    "titulo": "Paciente Modelo Sem Queimar Produto",
+    "tese": "A frase que a clínica posta achando que é captação: 'vagas para modelo'. Custa um WhatsApp lotado de gente desqualificada que some na hora de fechar — e produto queimado de graça. O método cirúrgico do corpus ocupa o post inteiro: data exata + protocolo definido, Reels de 5-15s, ManyChat assume o direct, sinal de R$300 que filtra (comercial só recebe o comprovante do PIX), rodar 1x a cada 2 meses e arquivar o Reels.",
+    "peca_fonte": "[31] SEM21/AD003 - Captacao Pacientes Modelo (virgem, densa, operacional)",
+    "elemento_herdado": "CTA comment-to-DM com gatilho específico prometendo a EXTENSÃO depois da entrega completa (o post entrega o método inteiro; o gatilho MODELO dá o template Canva + automação) + passos com sinal-que-filtra",
+    "fonte_do_elemento": "Mecânica 5 dos campeões (gatilhos 218/615/CASO: 18113350918867588 s/r 5,79%, 18360586885230120 s/r 5,52%, 17937131391248838 s/r 5,64% — todos entregam antes de pedir). Território adjacente tem hit medido: captação-com-estrutura 18083552483143499 (26/mai) s/r 3,14%, saves/r 4,67% — é a peça-IRMÃ do anúncio oculto ([41]), não esta; declarado como prova de território, não da peça",
+    "formula_capa": "numero (o sinal de R$300 e o zero de anúncio na capa; sem a palavra 'abate' — ver coerência)",
+    "assunto_doutrina": "sinal",
+    "coerencia_doutrina": "Doutrina do sinal: 'valor pago antes muda a consulta de intenção pra compromisso, com cerimônia do Pix' (SEM20/AD010, SEM24/AD003, SEM31/AD006) — o sinal de R$300 que filtra é a MESMA lógica aplicada à captação. Risco tratado: o corpus diz 'sinal abatido no material'; a palavra 'abatido' fica FORA de capa e punch (adjacência com o viral SEM31/AD006 'A Consulta Abatida', 4-8d no grid) e não contradiz a doutrina do abatimento porque aqui é sinal abatido no CUSTO de material de ação pontual, não consulta abatida no procedimento.",
+    "teste_encaminhamento": "Manda pra sócia ou pra comercial com 'bora rodar isso na próxima ação' — o post é um plano executável de segunda-feira, com o papel exato do comercial (receber o comprovante) nomeado. Declarado: SEM29/AD005 (anúncio oculto, 17d) tocou 'paciente modelo' por MECÂNICA paga; esta é orgânica/ManyChat — território distinto, >14d.",
+    "rever_com_dado_sem31": false
+   },
+   "status": "DIVIDIDO",
+   "refutadores_mortos": 0,
+   "objecoes": [
+    {
+     "lente": "território e doutrina",
+     "motivo": "O slot não contradiz doutrina (D5 passa: sinal-que-filtra é coerente com SEM20/AD010, SEM24/AD003 e SEM31/AD006, e o \"abatido no material\" está literal na peça-fonte virgem SEM21/AD003) e a fórmula \"numero\" não repete em dia consecutivo no trilho. Ele cai no TERRITÓRIO: a capa proposta faz do sinal de R$300 o número-herói 4 dias depois de SEM31/AD006 \"A Consulta Abatida\" (publicado, status BLOQUEIO) ter reivindicado a mesma mecânica como item nomeado \"O SINAL SEGURA O DIA\" — valor pago antes que muda intenção em compromisso. Com só 3 posts entre eles (AD007/AD008/AD009, todos 4d), os dois usos ficam na mesma tela do grid de 3 colunas, e o item de bloqueio já registra \"3º uso da família em 6 semanas, acabou de rodar\" — este seria o 4º, na posição mais visível. A mitigação declarada só tira a PALAVRA \"abatido\" da capa; a MECÂNICA do sinal continua na capa, e a política da casa reprova exatamente \"usos em posts adjacentes no feed\". O tema em si (captação de modelo) é virgem e sobrevive; a capa como especificada, não.",
+     "evidencia": "1) /Users/saviomoraes/reconecta/agente-carrosseis/data/doutrina.json — SEM31/AD006 (dias: 4, publicado: true) tem a regra literal \"O SINAL SEGURA O DIA — Valor pago antes muda o status da consulta: deixa de ser intenção e vira data reservada\"; SEM21/AD003 (dias: 75, publicado: FALSE = virgem confirmada) tem \"(Ex: R$ 300), que será abatido no valor final do material\", \"O papel do seu comercial é apenas receber o comprovante do PIX\" e \"Quem não tem compromisso para pagar o sinal\". 2) /Users/saviomoraes/reconecta/agente-carrosseis/data/territorio-vivo.json — \"SEM31/AD006 - A Consulta Abatida\", dias 4, publicado true; AD007/AD008/AD009 todos dias 4 (só 3 posts entre AD006 e o slot de SEG no grid); \"SEM29/AD005\", dias 17, publicado false (toque anterior em paciente modelo nem foi ao ar). 3) /Volumes/SSD kenipe/estáticos/novos/SEM21/AD003 - Captacao Pacientes Modelo/copy.md — confere data exata (linha 27), Reels 5-15s (34), 1x a cada dois meses (54), arquivar (56): a tese não inventa nada. 4) /Users/saviomoraes/reconecta/agente-carrosseis/checklist-pauta.md §2 — \"Tema novo não pisa em território de post com menos de 14 dias\" (PARE) e reprova de queimada \"se os usos caem em posts adjacentes no feed\".",
+     "conserto": "Manter o slot (tema virgem, método verificado) com duas mudanças: (1) trocar o herói da capa — liderar com o outro número já declarado (\"zero de anúncio\" / o WhatsApp lotado de desqualificada que some), ou migrar pra fórmula \"pergunta\" (0 usos na SEM31, trilho mais descansado junto com número); o sinal de R$300 desce pro miolo como passo do método, declarado na pauta como 4º uso da família sinal/abatimento em 6 semanas. (2) Se o Sávio quiser manter R$300 na capa, empurrar o slot pra QUI/SEX (≥7-8d do AD006), tirando os dois usos da mesma tela do grid."
+    }
+   ]
+  },
+  {
+   "slot": {
+    "dia": "TER 04/08",
+    "trilho": "A",
+    "titulo": "O Relatório Bonito de Sexta",
+    "tese": "A frase que a doutora diz achando que é gestão inteligente: 'deixa com a agência, eles são os profissionais do tráfego'. Custa R$4 mil por mês pra receber relatório bonito toda sexta, agenda vazia e um WhatsApp que só apita 'quanto custa o Botox' — porque agências otimizam para mensagens (o único número que o Gerenciador enxerga) e o algoritmo não sabe a diferença entre uma curiosa e uma paciente pronta pra pagar. Post inteiro: o ciclo relatório-bonito/agenda-vazia → o erro invisível da otimização → 2-3 Supercasos bem apresentados + configuração manual.",
+    "peca_fonte": "[27] SEM20/AD009 - Gestor Queima Orcamento (virgem, densa). O 'R$4 mil por mês pela agência' vem do território-irmão [1] SEM17 — 1 marcador emprestado e declarado, não a peça",
+    "elemento_herdado": "Território tráfego-frustração comprovado por taxa + mecânica frase-que-custa (a terceirização 'inteligente' que custa caro) + momento datável do corpus na capa (o relatório de toda sexta)",
+    "fonte_do_elemento": "Hit medido no território: 17892839337463078 (10/mai) s/r 2,58%, capa com a dor literal 'Eu invisto em tráfego, mas ninguém me chama no WhatsApp'; momento datável = regra do checklist §3 ('relatório bonito toda sexta' é verbatim do corpus). Fórmula pergunta = trilho mais descansado (3 usos/14d, zero na SEM31)",
+    "formula_capa": "pergunta (molde do hook do corpus: 'Por que você aceita pagar gestor de tráfego para receber apenas \"Quanto custa o Botox\" no seu WhatsApp?')",
+    "assunto_doutrina": "whatsapp (+ tráfego — produção roda doutrina.py trafego antes de escrever)",
+    "coerencia_doutrina": "Mesmo diagnóstico da doutrina do WhatsApp: a curiosa que pergunta preço por mensagem não é paciente (SEM30/AD004, SEM31/AD003, SEM21/AD008). O post ataca a ORIGEM (anúncio otimizado pra mensagem), não prescreve responder preço no direct — zero contradição. Adjacência declarada: SEM30/AD003 'quanto custa antes do bom dia' (14d na terça) ensinava a RESPONDER; este explica por que o anúncio ATRAI quem pergunta — ângulos opostos do funil, declarado na pauta.",
+    "teste_encaminhamento": "A sócia que aprova o boleto da agência todo mês — a doutora manda o post na quinta à noite com 'lê isso antes da reunião de sexta com a agência'. Destinatária e dia nomeados pela própria mecânica do post.",
+    "rever_com_dado_sem31": false
+   },
+   "status": "CAIU",
+   "refutadores_mortos": 0,
+   "objecoes": [
+    {
+     "lente": "território e doutrina",
+     "motivo": "A coerência de doutrina do assunto central do post (criativo de anúncio/tráfego) não foi verificada e é inverificável pelo caminho que o próprio slot prescreve: \"doutrina.py trafego\" retorna \"assunto desconhecido\" (assuntos válidos: abatimento, preço, sinal, agendamento, comparecimento, retorno, whatsapp, objeção, conteúdo, triagem). E esse furo esconde uma colisão real não-declarada: SEM29/AD005 (d+17, registrado em doutrina.json) prescreveu criativo \"estático, SEM antes e depois\" e já reivindicou o ângulo anti-agência (\"Não é projeto de agência: em 45 minutos o anúncio está no ar\"), enquanto o slot fecha em \"2-3 Supercasos bem apresentados\", que a própria peça-fonte SEM20/AD009 define como \"2-3 Supercasos + imagem antes/depois\". Dois posts em ~3 semanas com prescrições de criativo opostas no mesmo eixo anti-agência = contradição silenciosa (D5); o campo coerencia_doutrina do slot só cobre whatsapp e afirma \"zero contradição\" sem ter checado tráfego. O resto do slot verifica (peça 27 real e quase-verbatim, \"relatório bonito toda sexta\"/\"R$4 mil\" verbatim da peça 1 SEM17, hit 17892839337463078 confirmado com s/r 2,58% e legenda com a dor literal, território <14d limpo, fórmula pergunta descansada) — o slot cai como está escrito, não a ideia.",
+     "evidencia": "(1) Rodado `python3 /Users/saviomoraes/reconecta/agente-carrosseis/doutrina.py trafego` → \"assunto desconhecido. use um de: abatimento, preço, sinal, agendamento, comparecimento, retorno, whatsapp, objeção, conteúdo, triagem\". (2) /Users/saviomoraes/reconecta/agente-carrosseis/data/doutrina.json, post \"SEM29/AD005 - O anúncio que o seu feed nunca viu\" (dias:17): regra slide 4 \"IMAGEM PARADA — O criativo que converte aqui é estático, sem antes e depois, com uma frase só: 'Seja nosso paciente modelo'\" e \"NO AR EM 45 MINUTOS — Não é projeto de agência\"; copy completa confirmada em \"/Volumes/SSD kenipe/estáticos/novos/SEM29/AD005 - O anúncio que o seu feed nunca viu/copy.engine.json\". (3) corpus.json índice 27 (SEM20/AD009), slide 4 virada: \"não precisa de 10 anúncios, precisa de 2-3 Supercasos bem apresentados + imagem antes/depois\"; índice 1 (SEM17): \"2-3 antes/depois carregam 90% do faturamento\" + verbatim \"R$ 4 mil por mês para a agência te entregar relatório bonito toda sexta, e a sua agenda continuar vazia\". (4) perf_compact.json: post_id 17892839337463078, data 05/10/2026, shares_rate 0.0258, legenda \"Eu invisto em tráfego, mas ninguém me chama no WhatsApp\". (5) territorio-vivo.json: nenhum post de tráfego/agência com <14d (mais próximos SEM29/AD005 d+17 e SEM27/AD013 d+21). (6) doutrina.py whatsapp rodado: nenhuma prescrição contradita pelo slot.",
+     "conserto": "Duas mudanças no slot, nenhuma mata a pauta: (a) declarar a adjacência de doutrina com SEM29/AD005 no campo coerencia_doutrina, com a diferenciação explícita que a produção deve amarrar em 1 frase no post — AD005 ensina o anúncio pra COLHER casos-modelo (criativo estático sem antes/depois), este ensina o anúncio pra VENDER com os 2-3 Supercasos que a doutora JÁ tem (antes/depois entra aqui porque o produto é a transformação, não a vaga de modelo) — pra nenhum leitor sair com \"num post ele diz sem antes/depois, no outro diz com\". (b) trocar a instrução inexecutável \"roda doutrina.py trafego\" por: adicionar o assunto \"trafego/anuncio\" ao doutrina.py ANTES da produção da SEM32 (as regras do SEM29/AD005 e SEM21/AD003 já estão no doutrina.json, é só mapear o assunto), ou, no mínimo, apontar pra \"conteúdo\" + leitura manual das regras do SEM29/AD005."
+    },
+    {
+     "lente": "FORÇA — encaminhamento real vs genérico; conversa comercial vs institucional; comparação com campeões medidos",
+     "motivo": "A justificativa central (\"território tráfego-frustração comprovado por taxa\") não sobrevive ao dado completo. O único hit citado tem s/r 2,58% com reach de apenas 2.019 (52 shares) — abaixo do alvo da era (s/r≥3%) e metade da taxa dos campeões — e o MESMO criativo rodou 16 dias antes com s/r 0,44%. Pior: todo post de tráfego-agência que ganhou distribuição real colapsou (reach 110K → s/r 0,04%; 20K → 0,10%; 15K → 0,43%), e 7 dos 9 posts do território no perf_compact têm score negativo. Os campeões medidos (s/r 5,0-5,8% em reach 8-26K) são todos conversa comercial com objeção→resposta e script executável; este slot é diagnóstico de marketing + configuração de anúncio + pitch de Supercaso — metodologia liderando, sem elemento colável — o mesmo perfil dos posts no fundo do ranking. O teste do encaminhamento cumpre a forma (sócia + quinta à noite) mas a mecânica é construída: a leitora natural é quem paga a agência, e não há script que force o forward como nos campeões.",
+     "evidencia": "perf_compact.json (/Users/saviomoraes/reconecta/agente-carrosseis/data/perf_compact.json): hit 17892839337463078 confirmado (05/10, s/r 0,0258, reach 2.019) MAS gêmeo 18310073977302780 (04/24, mesma capa \"Eu invisto em tráfego...\") fez s/r 0,0044/score -0,18; posts de tráfego-agência em alcance alto: 110.195 reach→s/r 0,0004, 20.298→0,001, 15.404→0,0043; top-10 do ranking é todo conversa comercial/objeção (s/r 0,050-0,058). corpus.json [27] e [1]: hook e \"relatório bonito toda sexta\"/\"R$4 mil\" verbatim confirmados — as âncoras de texto são reais, o problema é a performance do território. checklist-pauta.md §3 (linhas 30-36): forma do teste cumprida, mas o próprio §3 nasceu de posts que pareciam fortes e flopearam por share.",
+     "conserto": "Manter a dor viva (\"WhatsApp que só apita quanto custa o Botox\") mas virar o post pro território campeão: conversa comercial — o que a doutora FAZ com a enxurrada de curiosas que o anúncio trouxe (script colável de triagem curiosa→consulta, no molde objeção→resposta dos hits de 5%+). O diagnóstico da agência vira 1 slide de contexto, não a tese. Se o Sávio quiser manter o post de tráfego como está, a pauta precisa declarar honestamente o dado real (1 hit pequeno de 2,58% + série de flops em alcance alto, incluindo o gêmeo do próprio criativo a 0,44%) em vez de \"comprovado por taxa\", e assumir o slot como aposta disruptiva (~10% do mix), não como validado."
+    },
+    {
+     "lente": "mecânica do viral (frase-que-custa × conversa comercial × tese ocupa o post)",
+     "motivo": "O slot é metodologia/gestão disfarçada de frase-que-custa. A SEM31-leitura (item 5) mostra que TODOS os 12 hits ≥2% do período são conversa comercial, zero metodologia-liderando — e o corpo deste post é mecânica de Gerenciador (otimização para mensagens, algoritmo, configuração manual, Supercasos), a mesma categoria institucional/educativa da analogia Disney que fez 0,27%. As 7 frases-que-custam campeãs (5,09% a 2,37%) são todas ditas DENTRO da conversa com a paciente; 'deixa com a agência' é decisão de gestão fora da conversa — e essa frase nem existe no corpus (grep negativo), é inventada. A única prova de taxa no território (hit 2,58% de 10/mai) desmente o slot: a dor de tráfego estava só na capa e o corpo era conversa comercial ('o problema não é o seu Instagram, é a sua espera'), com reach de apenas 2.019 (52 shares) e da era anterior. A peça fonte SEM20/AD009 é virgem e é um anúncio comment-to-DM TURBINAR: zero evidência orgânica medida de que corpo de mecânica de anúncio distribui.",
+     "evidencia": "(1) /Users/saviomoraes/reconecta/agente-carrosseis/data/analise-semanal/SEM31-leitura.md — item 4 (mecânica campeã = frase dita na conversa, 7/12 hits), item 5 ('Todos os 12 posts ≥2% são conversa comercial. Zero institucional, zero metodologia-liderando... AD001 Disney fez 0,27%'). (2) /Users/saviomoraes/reconecta/agente-carrosseis/data/perf_compact.json — post 17892839337463078: reach 2019, shares_rate 0,0258, legenda com corpo 'o problema não é o seu Instagram, é a sua espera. O seguidor novo... visita que acabou de bater na sua porta' (conversa comercial, não mecânica de anúncio). (3) /Users/saviomoraes/reconecta/agente-carrosseis/data/corpus.json — verbatim confirmado 'R$ 4 mil por mês para a agência te entregar relatório bonito toda sexta, e a sua agenda continuar vazia' (peça SEM17); grep NEGATIVO para 'deixa com a agencia' e 'profissionais do trafego' em todo o corpus. (4) /Volumes/SSD kenipe/estáticos/novos/SEM20/AD009 - Gestor Queima Orcamento/copy.md — corpo 100% mecânica de Gerenciador/configuração, CTA 'Comenta TURBINAR' (formato de anúncio pago, nunca medido orgânico).",
+     "conserto": "Manter a dor de tráfego como GANCHO de capa (o verbatim do corpus 'R$4 mil... relatório bonito toda sexta' é forte e real), mas trocar o corpo por conversa comercial — exatamente o que o hit de 10/mai fez: o que a doutora FAZ com o 'quanto custa o Botox' que o anúncio trouxe (a resposta que custa vs a que agenda), casando com a doutrina vigente de WhatsApp/preço. Alternativa: se o time quiser mesmo o post de mecânica de anúncio, reclassificar como slot de ALCANCE/topo de funil julgado por alcance (regra do item 6 da leitura para gancho de notícia), não como trilho A de terça julgado por taxa. Em qualquer versão, remover a frase inventada 'deixa com a agência, eles são os profissionais do tráfego' ou ancorá-la em fonte real (print/depoimento) antes de escrever."
+    }
+   ]
+  },
+  {
+   "slot": {
+    "dia": "TER 04/08",
+    "trilho": "B",
+    "titulo": "A Comparação Que Você Justifica",
+    "tese": "A frase que a doutora diz achando que é postura profissional: justificar o preço quando a paciente compara ('minha consulta é mais completa porque...'). Quanto mais você justifica, mais barata você parece — justificar manda a mensagem silenciosa de que talvez ela tenha razão em duvidar. Custa a paciente e a autoridade. Post inteiro: o aperto e a autojustificativa → a mensagem silenciosa → o script de quem tem certeza: 'deixa eu entender, você quer comparar preço ou quer resolver o que te trouxe aqui?' → se ela quisesse o mais barato, já teria fechado.",
+    "peca_fonte": "[45] SEM23/AD007 - Quando Comparam Seu Preco (sem re-mineração em SEM27-31 — conferido contra os títulos produzidos e o território vivo; original sem taxa casada no perf_compact, declarado)",
+    "elemento_herdado": "Objeção→resposta com script literal colável (a mecânica-rei) + 'muda a objeção da vez': comparação de preço é objeção NÃO rodada nas últimas 6 semanas (vou pensar, marido, quanto-custa, agenda/mês-puxado todas queimadas ou bloqueadas)",
+    "fonte_do_elemento": "Mecânica-rei: 18113350918867588 s/r 5,79% + 18366349324225646 s/r 4,98% (mesmo mecanismo pago 2x); script perde-vs-conduz presente em 8/12 do top. O script deste post já existe palavra-por-palavra no corpus (marcador literal)",
+    "formula_capa": "afirmacao (reframe com o verbatim do corpus: 'Quanto mais você justifica, mais barata você parece.')",
+    "assunto_doutrina": "preço + objeção",
+    "coerencia_doutrina": "É literalmente a doutrina vigente em forma de post: 'nunca justificar o valor' (preço — SEM22/AD001+SEM29/AD001) e 'toda objeção se resolve devolvendo a pergunta e conduzindo de volta pra dor' (objeção — SEM30/AD003, SEM27/AD002). Zero contradição; reforço mútuo declarado no doutrina.json na produção.",
+    "teste_encaminhamento": "A colega que acabou de perder uma paciente pra 'outra que cobra a metade' e passou 10 minutos se explicando no WhatsApp — manda com 'para de se justificar, responde assim'. O script colável é o motivo do envio.",
+    "rever_com_dado_sem31": false
+   },
+   "status": "CAIU",
+   "refutadores_mortos": 0,
+   "objecoes": [
+    {
+     "lente": "território e doutrina",
+     "motivo": "A verificação de território do slot é falsa: ele afirma \"comparação de preço é objeção NÃO rodada nas últimas 6 semanas — conferido contra o território vivo\", mas a família compara/mais-barato rodou 3x na janela — SEM29/AD004 há 16d (prescrição \"sempre existe um ml mais barato que o seu\"), SEM30/AD006 há 10d COM A COMPARAÇÃO NA CAPA (\"Você trocaria de cabeleireiro por um mais barato?\"), e SEM31/AD001 há 7d (post em BLOQUEIO: \"a paciente passa a comparar todo mundo com isso. Inclusive você\") — e a própria pauta SEM31 listou \"pesquisa/compara/duvida\" nas queimadas conferidas. Sob a política queimada-é-contador isso exigia DECLARAÇÃO com contador e diferenciação de mecânica; como está, é verificação assinada e desmentida pelos arquivos (zero-achismo reprova). Agravante de fórmula: o trilho B fechou a SEM31 com TRÊS capas 'afirmacao' seguidas (AD005 5d, AD007 4d, AD009 4d) e o slot abre o trilho B da SEM32 com a 4ª — o mesmo padrão que a nota da aspa mandou evitar, com pergunta/numero declarados descansados. Doutrina em si: sem contradição (o script e a capa existem verbatim na peça-fonte SEM23/AD007, 59d, e reforçam \"nunca justificar o valor\").",
+     "evidencia": "territorio-vivo.json → punches: {\"post\": \"SEM30/AD006 - Trocar de Cabeleireiro\", \"dias\": 10, \"slide\": 1, \"texto\": \"VOCÊ TROCARIA DE / CABELEIREIRO / POR UM MAIS BARATO?\"}; frases_4g: \"paciente passa a comparar\"→SEM31/AD001 (7d, BLOQUEIO), \"ml mais barato que\"/\"o que ela compara\"→SEM29/AD004 (16d), + 15 outros 4-grams da família na janela. doutrina.json → SEM29/AD004 (16d, publicado): \"SEM UNIDADE DE MEDIDA — O que ela compara é preço de ml, e sempre existe um ml mais barato que o seu\"; SEM23/AD007 (59d): capa \"Quanto mais você justifica, mais barata você parece.\" e script \"deixa eu entender, você quer comparar preço ou quer resolver o que te trouxe aqui?\" confirmados verbatim (peça-fonte real, fora da janela de 45d). /Volumes/SSD kenipe/estáticos/novos/SEM30/AD006 - Trocar de Cabeleireiro/copy.engine.json: \"Ela pergunta o preço porque é o único jeito que ela tem de te comparar por enquanto\". pautas/SEM31.md: \"Queimadas conferidas... nenhum tema pisa em... pesquisa/compara/duvida...\"; estrutura TER-SEX 2 posts/dia confirma trilho B = AD003/AD005/AD007/AD009, e o contexto de fórmulas dá AD005, AD007 e AD009 todas como 'afirmacao' (5d/4d/4d). checklist-pauta.md linha 27 (\"Adjacência conta... o resultado da checagem é uma DECLARAÇÃO na pauta\") e linha 43 (\"fórmula vencedora também satura\").",
+     "conserto": "Manter a tese e a peça-fonte, consertar duas coisas: (1) reescrever a declaração de território com o contador real da família compara — 3 usos na janela de 45d, último há 7d em post BLOQUEIO (SEM31/AD001), capa do cabeleireiro há 10d — e declarar explicitamente a diferenciação de mecânica (objeção→resposta com script colável vs analogia de confiança/apresentação de orçamento), deixando a decisão registrada na pauta em vez de negar o histórico; conferir na produção que capa e corpo não ecoam \"mais barato que\"/\"cabeleireiro\". (2) Trocar a fórmula de capa de 'afirmacao' (seria a 4ª consecutiva do trilho B) para 'pergunta' (0 usos na SEM31, trilho declarado descansado junto com número), movendo o reframe verbatim \"Quanto mais você justifica, mais barata você parece.\" para punch do slide 2, onde continua colável sem repetir a fórmula saturada do trilho."
+    },
+    {
+     "lente": "FORÇA",
+     "motivo": "A alegação central de força do slot (\"comparação de preço é objeção NÃO rodada nas últimas 6 semanas\", \"sem re-mineração em SEM27-31\") é comprovadamente falsa: SEM27/AD005 \"A consulta que vende o destino\" (31 dias atrás, dentro da janela e listado no território vivo) já re-minerou o miolo inteiro da peça-fonte — a capa proposta é verbatim de um punch de slide publicado (\"QUANTO MAIS VOCÊ JUSTIFICA, MAIS {BARATA} VOCÊ PARECE.\"), o script colável aparece palavra por palavra no card \"DEVOLVA A COMPARAÇÃO\", e a \"mensagem silenciosa\" idem. O teste de encaminhamento repousa no script como motivo do envio, mas o script circulou há um mês: o slot não muda a objeção da vez, repete a da SEM27 achando que é inédita. A verificação declarada conferiu só TÍTULOS, e o título do AD005 não denuncia o conteúdo. As partes verdadeiras (peça-fonte existe no corpus com os verbatims; métricas 5,79%/4,98% batem no perf_compact; coerência de doutrina ok) não salvam a premissa de frescura que justificava o slot.",
+     "evidencia": "/Volumes/SSD kenipe/estáticos/novos/SEM27/AD005 - A consulta que vende o destino/copy.engine.json — slides[2].punch = \"QUANTO MAIS VOCÊ JUSTIFICA, MAIS {BARATA} VOCÊ PARECE.\"; slides[2].body = \"justificar preço manda uma mensagem silenciosa: «talvez ela tenha razão em duvidar»\"; slides[3].items[2] = card \"DEVOLVA A COMPARAÇÃO\" com \"Não justifica. Devolve: 'deixa eu entender: você quer comparar preço ou quer resolver o que te trouxe aqui?'\"; legenda repete \"quanto mais você justifica, mais barata você parece\". /Users/saviomoraes/reconecta/agente-carrosseis/data/territorio-vivo.json — SEM27/AD005 presente com \"dias\": 31 (dentro das 6 semanas alegadas como limpas). Confirmações a favor: /Users/saviomoraes/reconecta/agente-carrosseis/data/corpus.json (SEM23/AD007 com os dois verbatims em marcadores_voz) e /Users/saviomoraes/reconecta/agente-carrosseis/data/perf_compact.json (18113350918867588 shares_rate 0.0579; 18366349324225646 shares_rate 0.0498).",
+     "conserto": "Se quiser manter a objeção comparação-de-preço: (1) corrigir a peca_fonte declarando a re-mineração em SEM27/AD005; (2) trocar a capa — o verbatim \"Quanto mais você justifica, mais barata você parece\" está queimado há 31 dias como punch de slide, usar outra fórmula (pergunta ou número, os trilhos descansados); (3) mudar a CENA para território que o AD005 não cobriu — o AD005 é a cena da consulta presencial; o slot pode viver na cena do WhatsApp pós-consulta (\"ela mandou print do orçamento da outra\"), com script novo minerado do corpus para essa cena, não o mesmo \"deixa eu entender\". Se não houver script de corpus para a cena nova, trocar o slot por objeção genuinamente não rodada nas últimas 6 semanas, verificando desta vez contra o CONTEÚDO dos copy.engine.json (grep no texto), não contra títulos."
+    }
+   ]
+  },
+  {
+   "slot": {
+    "dia": "QUA 05/08",
+    "trilho": "A",
+    "titulo": "Não Sou Vendedora",
+    "tese": "A frase que a doutora repete achando que é ética: 'Eu sou dentista, não sou vendedora'. É uma crença-escudo — e crença vira comportamento que o paciente lê: o medo dela vaza, ele 'cheira' a insegurança e busca a proteção que precisa na concorrência. Custa o plano apresentado sem convicção, todo mês. Post inteiro na taxonomia do corpus: medos legítimos (estes você acolhe) vs medos fabricados (estes você dissolve) → as crenças nomeadas → o comportamento novo da próxima consulta, fechando com o silêncio depois do valor.",
+    "peca_fonte": "[25] SEM20/AD007 - Medo Que Vaza (virgem, conversa comercial; ângulo inédito = taxonomia dos medos)",
+    "elemento_herdado": "Crença-escudo-que-custa (variação da mecânica campeã: não é frase dita À paciente, é a frase dita a si mesma) + capa de aspa literal",
+    "fonte_do_elemento": "A crença-escudo tem hit medido na família: 18094748102102988 (08/jun) s/r 3,02% ('A gente acha que está sendo gentil. Na verdade, está com medo.'). Capa-aspa = mecânica 1 (17862441423637626 s/r 3,88%). CONTADOR DECLARADO: 6º uso de aspa em ~14d (5 usos até 30/jul, 3 consecutivos no trilho A da SEM31); esta entra 6 dias depois da última, no meio da semana, conforme a regra 'a partir do meio da semana, DECLARAR' — e é a ÚNICA aspa da SEM32",
+    "formula_capa": "aspa ('Eu sou dentista, não sou vendedora.' — verbatim do corpus, DECLARADA como 6º uso/14d)",
+    "assunto_doutrina": "medo/postura de venda (família gentileza-máscara QUEIMADA até SEM36 — não entra) + preço (silêncio)",
+    "coerencia_doutrina": "Estende sem contradizer o SEM30/AD004 ('você não está sendo gentil, está com medo', 13d na quarta, DECLARAR): lá a tese era gentileza-como-máscara; aqui é a taxonomia legítimo-vs-fabricado e a crença 'não sou vendedora' — a palavra 'gentileza' fica fora da copy. 'Use o silêncio depois do valor' (corpus) = doutrina do preço ('diga o preço e entre em silêncio absoluto', SEM22/AD001+SEM29/AD001). Negligência-clínica (2ª família queimada do AD004) também fica fora.",
+    "teste_encaminhamento": "Pilar (a) do Leonardo ✓: manda pra colega recém-formada que repete 'eu não sei vender' em todo almoço de congresso — o grid das crenças faz ela se marcar ('a 3 e a 7 sou eu'). O convite de auto-marcação é o motivo do envio.",
+    "rever_com_dado_sem31": true
+   },
+   "status": "CAIU",
+   "refutadores_mortos": 0,
+   "objecoes": [
+    {
+     "lente": "Território e Doutrina",
+     "motivo": "A capa/título do slot pisa em território de post publicado com menos de 14 dias e a declaração de coerência não cobre a colisão real. O CTA do SEM30/AD004 (publicado, 11 dias em 03/08, D+13 na QUA 05/08) já reivindicou verbatim a crença que é a capa deste post: \"SE VOCÊ QUER APRENDER A OFERECER O PLANO INTEIRO SEM SE SENTIR VENDEDORA...\". O slot declara apenas o overlap gentil→medo e vende \"a crença 'não sou vendedora'\" como diferencial inédito, quando ela é um punch de 11 dias registrado em territorio-vivo.json. Como o CTA do AD004 promete exatamente o conteúdo que este post entrega, no grid ele lê como continuação do AD004 dentro da janela — violação do item PARE do checklist-pauta.md §2 (\"tema novo não pisa em território de post com menos de 14 dias\"). Agravante declaratório: o hit que sustenta o elemento herdado (18094748102102988, s/r 3,02%) É o post da família gentileza-máscara que o próprio slot diz estar queimada até SEM36; medida e família excluída são o mesmo post e isso não está declarado. O que se sustenta, verificado: peça-fonte SEM20/AD007 é de fato virgem (doutrina.json, publicado: false, 81d), a aspa e a taxonomia acolhe/dissolve existem no corpus, os dois hits citados existem no perf_compact.json com as taxas exatas, e \"silêncio depois do valor\" não contradiz a doutrina de preço.",
+     "evidencia": "1) /Users/saviomoraes/reconecta/agente-carrosseis/data/territorio-vivo.json (gerado_em 2026-08-03, janela 45d): punch {\"post\": \"SEM30/AD004 - Gentileza ou medo\", \"dias\": 11, \"slide\": 6, \"texto\": \"SE VOCÊ QUER APRENDER A / OFERECER O PLANO INTEIRO / SEM SE SENTIR VENDEDORA...\"} e {\"pasta\": \"SEM30/AD004 - Gentileza ou medo\", \"dias\": 11, \"publicado\": true}; também slide 1 \"VOCÊ NÃO ESTÁ / SENDO GENTIL. / ESTÁ COM MEDO.\". 2) /Users/saviomoraes/reconecta/agente-carrosseis/checklist-pauta.md §2 (PARE): \"Tema novo não pisa em território de post com menos de 14 dias.\" 3) /Users/saviomoraes/reconecta/agente-carrosseis/data/doutrina.json: \"SEM20/AD007 - Medo Que Vaza\" com publicado: False, dias: 81, contendo \"Eu sou dentista, não sou vendedora.\" e \"Use o silêncio depois do valor.\" (confirma peça virgem e verbatim). 4) /Users/saviomoraes/reconecta/agente-carrosseis/data/corpus.json, peça \"RECONECTA — Medo Que Vaza\": \"2 cards medos legítimos (acolhe) vs fabricados (dissolve)\" e \"grid 3x3 das 9 crenças\" (taxonomia existe). 5) /Users/saviomoraes/reconecta/agente-carrosseis/data/perf_compact.json: post_id 18094748102102988 (06/08/2026-jun-08, shares_rate 0.0302, legenda \"A gente acha que está sendo gentil. Na verdade, está com medo.\") e post_id 17862441423637626 (shares_rate 0.0388) — hits reais, mas o primeiro é o post da família gentileza-máscara.",
+     "conserto": "Mover o slot de QUA 05/08 para QUI 06/08 ou depois: o SEM30/AD004 completa 14 dias em 06/08 e sai da janela de território, dissolvendo a objeção principal sem tocar no conteúdo. Reescrever a coerencia_doutrina nomeando explicitamente o punch do slide 6 do AD004 (\"SEM SE SENTIR VENDEDORA\") e diferenciando a promessa: lá o CTA prometia oferecer o plano inteiro sem se sentir vendedora; aqui o post entrega a taxonomia das crenças — a copy não pode reusar a formulação \"sentir-se vendedora\" fora da aspa da capa. Na fonte_do_elemento, declarar que o hit de s/r 3,02% pertence à família gentileza-máscara queimada até SEM36 (queimada é contador, então declara-se e decide-se; hoje a pauta omite isso). Manter o rever_com_dado_sem31 com a ressalva de que na QUA os posts aspa da SEM31 estarão em D+6/D+7 (leitura ainda provisória pela regra de maturidade)."
+    },
+    {
+     "lente": "FORÇA — teste do encaminhamento genuíno, conversa comercial vs institucional, comparação com campeões medidos",
+     "motivo": "A peça-fonte não é \"virgem\" no sentido que importa: a versão publicada do Medo Que Vaza (15/mai/2026, janela SEM20, CTA SUPERCASO, tese idêntica) está no perf_compact.json com s/r 0,11% (13 shares / 12.021 reach), saves/r 0,12%, score -2,957 — leitura madura, um dos piores do dataset de 150. O \"ângulo inédito = taxonomia dos medos\" é exatamente a estrutura que flopou: o grid de crenças, dispositivo central do teste de encaminhamento do slot, já foi testado no feed e não gerou encaminhamento. Além disso, a estrutura da peça no corpus (diagnóstico→grid de crenças→tabela→mapa de comportamentos) é mindset/introspecção, não a mecânica dos winners (objeção→resposta com scripts palavra-por-palavra, checklist-pauta linha 26); e os dois números fortes citados são emprestados — o 3,02% é da família gentileza-máscara queimada até SEM36, o 3,88% é da fórmula de capa, não da tese. Removido o queimado e a fórmula, o núcleo próprio do slot é o que mediu 0,11%.",
+     "evidencia": "(1) /Users/saviomoraes/reconecta/agente-carrosseis/data/perf_compact.json — post 18399601702154161, \"05/15/2026 06:46\", cta \"SUPERCASO\", legenda \"O seu paciente não tem medo do seu preço; ele tem medo da sua dúvida... programado para detectar hesitação\": reach 12021, shares_rate 0.0011, saves_rate 0.0012, score -2.957; nenhum outro post/pasta da SEM20 casa com essa tese. Os hits citados pelo slot conferem (18094748102102988 s/r 3,02%; 17862441423637626 s/r 3,88%), mas são adjacentes. (2) /Users/saviomoraes/reconecta/agente-carrosseis/data/corpus.json índice 25 (SEM20/AD007) — aspa \"Eu sou dentista, não sou vendedora.\" verbatim; estrutura slides 2-6 = diagnóstico/grid/tabela/mapa, zero script colável. (3) /Users/saviomoraes/reconecta/agente-carrosseis/checklist-pauta.md linhas 19 (mediana era copywriter 1,38% — o 0,11% é fundo absoluto) e 26 (mecânica dos winners: miolo = scripts palavra-por-palavra, objeção→resposta).",
+     "conserto": "Manter no máximo a aspa \"Eu sou dentista, não sou vendedora\" como capa (precedente real da mecânica 1, s/r 3,88%) e reconstruir o miolo como conversa comercial: a cena da apresentação do plano com scripts palavra-por-palavra (a fala hesitante de hoje vs a fala da próxima consulta, fechando no silêncio pós-valor conforme doutrina do preço), abandonando o grid/taxonomia de crenças. Obrigatório declarar na pauta o flop medido da versão publicada (s/r 0,11%, post 18399601702154161) e justificar por escrito o que muda em relação ao que já falhou — ou trocar o slot por peça-fonte com histórico melhor."
+    },
+    {
+     "lente": "mecânica do viral",
+     "motivo": "A frase da capa passa no teste da mecânica campeã (frase dita achando que é ética, custa o plano sem convicção todo mês — verbatim no corpus), mas o CORPO planejado reprova nos dois outros testes da lente. (1) A tese NÃO ocupa o post: o slot promete \"post inteiro na taxonomia\" e o teste de encaminhamento aposta no grid (\"a 3 e a 7 sou eu\") — na peça-fonte, \"Eu sou dentista, não sou vendedora\" é 1 das 9 células de um grid 3x3, seguido de lista de 9 comportamentos e grid 2x3. Isso é exatamente a estrutura que a leitura da SEM31 mediu como assassina: mesma tese como post inteiro = 3,73-3,95%, rebaixada a item de lista = 0,30% (12x de diferença). Os 7 hits da mecânica campeã são todos frase única aprofundada; zero post-taxonomia entre os 12 hits ≥2% do período. (2) A evidência \"peça virgem + hit medido da família\" é um nó: o mapping liga o próprio SEM20/AD007 ao post 18094748102102988 (confiança media) — o MESMO hit de 3,02% que o slot cita como prova independente da crença-escudo. Ou a peça não é virgem (publicada 08/jun, reach 3.840), ou o hit pertence ao post gentileza-máscara, família que o próprio slot declara queimada até SEM36. Um dado ambíguo apresentado como dois fatos independentes viola o zero-achismo.",
+     "evidencia": "(a) /Users/saviomoraes/reconecta/agente-carrosseis/data/analise-semanal/SEM31-leitura.md, linhas 34-41: \"A tese tem que SER o post, não um item\" — SEM25/AD003 post inteiro 3,95%, SEM31/AD006 post inteiro 3,73%, SEM30/AD004 item de lista 0,30%; linha 75-76: \"Repetir: a mecânica da frase-que-custa-caro, com a tese OCUPANDO o post inteiro. Evitar: tese vencedora rebaixada a item de lista\". (b) /Users/saviomoraes/reconecta/agente-carrosseis/data/corpus.json, item 25 (SEM20/AD007): estrutura slide 3 = \"grid 3x3 das 9 crenças\", slide 4 = \"lista numerada dos 9 comportamentos\", slide 6 = \"grid 2x3 dos 6 comportamentos novos\"; a frase \"Eu sou dentista, não sou vendedora.\" existe verbatim em marcadores_voz, mas como uma crença entre nove. (c) /Users/saviomoraes/reconecta/agente-carrosseis/data/perf_compact.json: 18094748102102988 (06/08/2026) s/r 0,0302 reach 3.840 com legenda \"A gente acha que está sendo gentil. Na verdade, está com medo... entrega de graça pelo WhatsApp\" (tese gentileza-máscara, não a taxonomia); 17862441423637626 s/r 0,0388 confirmado. (d) /Users/saviomoraes/reconecta/agente-carrosseis/data/mapping_raw.json, matches[25]: liga \"SEM20/AD007 - Medo Que Vaza\" ao post_id 18094748102102988, confidence \"media\" — o hit citado como prova da família pode ser a publicação da própria peça-fonte, contradizendo o \"virgem\".",
+     "conserto": "Manter capa e título, refazer o miolo pra tese única no formato dos 7 hits: a frase \"Eu sou dentista, não sou vendedora\" ocupa os 8 slides — cena da consulta onde a crença aparece → o que ela custa por mês (plano apresentado sem convicção) → a inversão (apresentar o plano completo é dever clínico, não venda; \"Não apresentar o plano completo é negligência clínica\" está no corpus mas a família negligência-clínica está queimada, então usar a formulação positiva) → o comportamento da próxima consulta → fecho com o silêncio depois do valor (alinhado à doutrina do preço). CORTAR o grid 3x3 das 9 crenças e a lista dos 9 comportamentos; no máximo UM contraste legítimo-vs-fabricado em um slide, nunca como motor do post. E antes de aprovar: resolver o nó do mapping — se 18094748102102988 for a publicação do AD007, reescrever peca_fonte (não é virgem) e trocar a fonte do elemento por outro hit da família (ex.: 2,37% de 16/jul, \"a frase mais educada do WhatsApp\", que não colide com a família queimada)."
+    }
+   ]
+  },
+  {
+   "slot": {
+    "dia": "QUA 05/08",
+    "trilho": "B",
+    "titulo": "As 6 Perguntas Que Fazem a Paciente Se Vender",
+    "tese": "A frase que a clínica solta achando que é atendimento ágil: responder 'o valor é R$X' como primeira fala — abre o balcão de orçamento e mata a consulta antes dela existir. O que custa: a lead decide pelo preço porque ninguém perguntou pela dor. Post inteiro: as 6 perguntas reais do corpus ('O que te trouxe até aqui hoje?', a Declaração de Intenção, 'como você entende que a consulta vai te ajudar?'...), cada uma com o que ela destrava — tirando o 'bafo de vendedor' até a paciente se vender pra você.",
+    "peca_fonte": "[26] SEM20/AD008 - Perguntas não óbvias (virgem, densa, conversa comercial; 'o que te trouxe até aqui' circulou em SEM27/AD010/AD014 há 25-26d — >14d, DECLARADO; o inédito é o framework completo)",
+    "elemento_herdado": "Miolo de scripts palavra-por-palavra (as 6 perguntas são todas coláveis) + CTA comment-to-DM prometendo a extensão DEPOIS da entrega completa — com demanda comprovada: o gatilho 218 do campeão absoluto prometia exatamente 'framework de perguntas'",
+    "fonte_do_elemento": "Scripts no miolo = mecânica 3 (8/12 do top); demanda pelo material = 18113350918867588 s/r 5,79% e 18366349324225646 s/r 4,98%, ambos cta=218 'framework de perguntas' — este post ENTREGA o framework no feed antes de pedir o comentário (mecânica 5). Pergunta-formula com hit análogo: 17906172393221466 s/r 3,39%",
+    "formula_capa": "numero (6 perguntas — contagem real conferida na estrutura do corpus, slides 2-7)",
+    "assunto_doutrina": "whatsapp + agendamento",
+    "coerencia_doutrina": "Alinha com a doutrina do WhatsApp ('acolhe, direciona e marca — sem preço por direct', SEM20-21/AD008 é a própria fonte da doutrina) e com agendamento ('feche com pergunta, não com pedido', SEM27/AD009 — a pergunta 6 faz exatamente isso). Adjacência declarada: SEM30/AD003 (14d) era a primeira mensagem no WhatsApp; este é a conversa de descoberta que substitui o interrogatório de balcão.",
+    "teste_encaminhamento": "Manda pra comercial/secretária que faz a triagem: 'usa essas 6 na próxima lead' — cada pergunta é copiável no atendimento de amanhã de manhã sem adaptar nada (critério de utilidade dos campeões).",
+    "rever_com_dado_sem31": false
+   },
+   "status": "CAIU",
+   "refutadores_mortos": 0,
+   "objecoes": [
+    {
+     "lente": "Território e doutrina",
+     "motivo": "O slot pisa em território de post com menos de 14 dias e a declaração de clearance está factualmente errada. A pergunta-âncora do framework (\"o que te trouxe até aqui hoje?\") e a mecânica central (\"perguntas de descoberta até a paciente se vender antes do preço\") foram reivindicadas há 6 dias pelo SEM31/AD002 - Vou Pensar na Porta, que está em BLOQUEIO no contexto: o slide 4 do AD002 é um mini-framework de perguntas (\"o que te trouxe aqui hoje?\", \"como vem sendo conviver com isso?\", \"como seria sua vida se isso não existisse?\") fechando com \"o sim aqui antecede o sim do preço\" — exatamente o coração do slot proposto. O slot declarou a circulação da pergunta só via SEM27/AD010/AD014 (25-26d, >14d) e omitiu a circulação de 6 dias; também datou SEM30/AD003 como \"14d\" quando o territorio-vivo marca 12 dias. Pela regra do checklist-pauta.md (linha 28), tema novo não pisa em território <14d — e aqui não é eco incidental, é a âncora e a moldura. Em doutrina o slot NÃO cai (alinha com preço/whatsapp/agendamento), e a contagem \"6 perguntas\" confere no corpus idx 26 — o defeito é exclusivamente territorial.",
+     "evidencia": "(1) checklist-pauta.md:28 — \"Tema novo não pisa em território de post com menos de 14 dias.\" (2) territorio-vivo.json, frases_4g: \"o que te trouxe\" => [\"SEM31/AD002 - Vou Pensar na Porta\"] (6 dias; BLOQUEIO no contexto); posts: SEM30/AD003 = 12 dias (slot alega 14d). (3) /Volumes/SSD kenipe/estáticos/novos/SEM31/AD002 - Vou Pensar na Porta/copy.engine.json, slide 4 \"O MAPA: 3 PASSOS ANTES DO PLANO\": \"Você pergunta e cala: 'o que te trouxe aqui hoje?'\" + \"como vem sendo conviver com isso?\" + \"Como seria sua vida se isso não existisse?\" + \"o sim aqui antecede o sim do preço\" — pergunta-âncora verbatim e mecânica paciente-se-vende-antes-do-preço, há 6 dias. (4) corpus.json idx 26 (SEM20/AD008): 6 perguntas nos slides 2-7 confirmadas; pergunta 1 = \"O que te trouxe até aqui hoje?\". (5) doutrina.json (whatsapp/preço/agendamento): sem contradição encontrada.",
+     "conserto": "Duas rotas: (a) ADIAR o slot pra SEM33+, quando SEM31/AD002 passar de 14 dias — o framework completo é forte e a demanda comprovada (cta 218) continua valendo; ou (b) RE-ESCOPAR agora: cortar a pergunta 1 (\"o que te trouxe até aqui\") e a moldura \"se vender antes do preço\", ancorando o post nas perguntas 2, 3, 4 e 6 do corpus (admiração→compromisso, Declaração de Intenção, consciência do lead, \"como a consulta vai te ajudar\") — que não circularam em <14d — com capa \"numero\" ajustada pra 4 perguntas e sem reproduzir a âncora queimada. Em qualquer rota, corrigir a peca_fonte/coerencia_doutrina: declarar SEM31/AD002 (6d, BLOQUEIO) como circulação mais recente da âncora e datar SEM30/AD003 como 12d."
+    },
+    {
+     "lente": "mecânica do viral",
+     "motivo": "O slot tem a frase-que-custa certa (\"o valor é R$X\" como primeira fala) mas a rebaixa a setup: a capa é \"As 6 Perguntas...\" (fórmula numero, 0/3 na SEM31: 0,27%/0,42%/0,18%) e o corpo é lista de 6 itens — exatamente o formato que a leitura da SEM31 mandou evitar (\"a tese OCUPANDO o post inteiro\"; lista diluiu a mesma munição de 3,73% pra 0,30%). Zero posts medidos com capa-lista entre os 150 do perf. E a justificativa central de demanda é inverificável: \"gatilho 218 prometia 'framework de perguntas'\" não existe em nenhum arquivo de dados — as legendas dos dois posts cta=218 são reframe de OBJEÇÃO (\"Objeção nunca foi um não\"), e o s/r de 5,79% deles mede compartilhamento do reframe da capa, não demanda pelo material (comments_rate real: 0,58%/0,72%). Esses campeões nem entregaram framework no feed — eram reframe + promessa, o oposto da \"mecânica 5\" que o slot alega. Alegação menor também falha: \"trouxe até aqui\" circula em SEM27/AD010, mas não achei em AD014.",
+     "evidencia": "analise-semanal/SEM31-leitura.md (item 3: post inteiro 3,73-3,95% vs item de lista 0,30%; consequência SEM32: \"tese OCUPANDO o post inteiro\", \"evitar tese rebaixada a item de lista\"; fórmula numero SEM31 = 0,27/0,42/0,18) · perf_compact.json (18113350918867588 e 18366349324225646 confirmados com s/r 5,79%/4,98% MAS legenda = \"Objeção nunca foi um não...\", posts de objeção, não de perguntas; grep \"framework de perguntas\" vazio em perf_compact/perf-manual/territorio-vivo/doutrina; zero posts medidos com abertura \"as/os N\") · corpus.json (SEM20/AD008 confere: 6 perguntas slides 2-7, hook padrao \"numero/lista\"; peça ausente do perf = nunca validada) · SEM27/AD010 copy.engine.json (\"trouxe até aqui\" presente; AD014 sem match)",
+     "conserto": "Reformular pro shape dos campeões: capa = a frase/objeção literal (\"respondeu 'o valor é R$X' e a consulta morreu ali\" — parear com o hit 4,61% de 13/jun \"responder o preço na velocidade que a paciente pergunta\", que prova que ESTA tese sustenta post inteiro), tese ocupando o post; miolo entrega 2-3 perguntas do corpus como scripts colável (mantém a mecânica dos 8/12), e o CTA comment-to-DM promete as 6 completas — coerente com o que os dois posts cta=218 de fato fizeram (reframe + promessa, sem entregar framework no feed). Corrigir fonte_do_elemento: remover a alegação \"218 prometia framework de perguntas\" ou prová-la com a legenda completa (perf_compact trunca em ~280 chars); trocar demanda por s/r pela métrica certa (comments_rate). Declarar adjacência também de SEM31/AD003 (áudio que responde tudo, BLOQUEIO 6d) e SEM31/AD008/AD009 (pergunta certa na conversa, BLOQUEIO 4d), não só SEM30/AD003."
+    }
+   ]
+  },
+  {
+   "slot": {
+    "dia": "QUI 06/08",
+    "trilho": "A",
+    "titulo": "Três Desculpas, Uma Causa",
+    "tese": "A frase que a doutora diz achando que é transparência técnica: listar a receita no fechamento ('são 3ml disso, 2 frascos daquilo... fica R$6 mil'). Coloca o cérebro da paciente em modo defesa, ela calcula preço-por-ml em vez de valor-por-transformação — e devolve 'vou pensar', 'vou falar com meu marido' ou 'tá caro'. As 3 desculpas são a MESMA frase, e nenhuma é sobre dinheiro: é falha de percepção de valor. Post inteiro: a causa única → apresentação errada vs certa (mesma mão, mesmo produto, fechamentos opostos) → a tática do silêncio (passar o valor e beber um copo d'água).",
+    "peca_fonte": "[14] SEM19/AD005 - As 3 Frases (virgem, densa, conversa comercial pura)",
+    "elemento_herdado": "Reframe de objeção na capa (a mecânica que não satura: o mesmo reframe pagou 2x) + script apresentação-errada-vs-certa + tática do silêncio",
+    "fonte_do_elemento": "'Objeção nunca foi um não' fez 5,79% e 5,10% postado 2x (mecânica 6); apresentação/velocidade do preço = 4,61% (13/jun). HONESTIDADE: o post ORIGINAL desta peça mediu s/r 0,53% (17947503495174446, 12/mai) — mas aquela capa liderava com 'boazinha ou abandonando' (tom paternal); esta lidera com o reframe da causa, o padrão do campeão absoluto. Adjacências DECLARADAS: 'vou pensar' = SEM31/AD002 (9d na quinta, fora da janela de bloqueio de 4-6d mas <14d — aparece só como 1 dos 3 rótulos da capa, nunca como tese); 'marido' queimada até SEM36 — idem, só rótulo, zero prescrição sobre marido",
+    "formula_capa": "numero (3 frases → 1 causa)",
+    "assunto_doutrina": "objeção + preço",
+    "coerencia_doutrina": "Não contradiz nada e reforça três doutrinas: 'objeção se previne na consulta' (o post é prevenção, não contorno); 'nunca ancorar em ml/unidade de medida' (preço — SEM29/AD004; a apresentação-errada do post é exatamente o anti-exemplo da doutrina); 'diga o preço e entre em silêncio' (SEM22/AD001+SEM29/AD001 — o copo d'água é o mesmo gesto). Sobre marido, o post não prescreve — a doutrina 'armar a paciente, nunca vender pro marido' fica intacta.",
+    "teste_encaminhamento": "A sócia, na quinta depois do terceiro 'vou pensar' da semana — manda com 'não é o preço, é a nossa apresentação; olha o slide 4'. O par errado-vs-certo é o motivo do envio.",
+    "rever_com_dado_sem31": true
+   },
+   "status": "CAIU",
+   "refutadores_mortos": 0,
+   "objecoes": [
+    {
+     "lente": "território e doutrina",
+     "motivo": "O slot pisa em território de post com menos de 14 dias e não declara. SEM31/AD007 \"Voce Cria a Objecao\" (4 dias hoje, ~7 na quinta 06/08, status BLOQUEIO no contexto) reivindicou exatamente o motor causal do slot: número em ml → paciente/lead faz a conta → \"acha caro\" → a objeção foi criada pela própria profissional. O Slot 7 é essa mesma mecânica transplantada da legenda pro fechamento na consulta (\"ela calcula preço-por-ml\", \"as 3 desculpas são a MESMA frase e nenhuma é sobre dinheiro\" ≈ capa do AD007 \"Você mesma cria as objeções do seu lead\"). O checklist-pauta.md §2 (linha 28) diz \"Tema novo não pisa em território de post com menos de 14 dias\" — e essa regra não tem válvula de DECLARAR (a declaração vale pra queimadas e fórmulas, linha 27). Agravante metodológico: o slot declarou as adjacências fáceis (AD002 \"vou pensar\", família do marido) e omitiu justamente a mais grave, o AD007. Nas outras duas frentes da lente o slot passa: não contradiz doutrina (reforça \"nunca ancorar em ml\" SEM29/AD004, \"preço + silêncio\" SEM22/AD001+SEM29/AD001, \"objeção se previne na consulta\") e a fórmula \"numero\" é o trilho mais descansado (consecutividade no trilho A não verificável sem os demais slots da SEM32).",
+     "evidencia": "(1) /Users/saviomoraes/reconecta/agente-carrosseis/data/territorio-vivo.json → posts[] contém {\"pasta\": \"SEM31/AD007 - Voce Cria a Objecao\", \"dias\": 4} — dentro da janela de 14 dias na quinta 06/08 (~7d). (2) /Volumes/SSD kenipe/estáticos/novos/SEM31/AD007 - Voce Cria a Objecao/copy.engine.json → capa: \"Você mesma {cria} as objeções do seu lead\"; slide 2: \"ELA LEU '10ML' E FEZ A {CONTA}\"; slide 4 item 1: \"O NÚMERO QUE VIRA CONTA — Tira ml, seringa e quantidade da legenda: ela faz a conta de 10ml x o seu valor e some achando caro\" — mesma cadeia causal do slot (ml → cálculo → 'tá caro' → objeção criada pela doutora). (3) /Users/saviomoraes/reconecta/agente-carrosseis/checklist-pauta.md linha 28: \"Tema novo não pisa em território de post com menos de 14 dias\" (a válvula de declaração da linha 27 cobre queimadas/fórmulas, não território). (4) O campo elemento_herdado do slot declara adjacências com SEM31/AD002 e família do marido, mas nenhuma menção ao AD007 — omissão da adjacência mais próxima. Doutrina conferida sem contradição contra doutrina_por_assunto (preço/ml SEM29/AD004; silêncio SEM22/AD001+SEM29/AD001).",
+     "conserto": "Duas rotas: (a) ADIAR o slot pra SEM33 (D+14 do AD007 cai em ~13/ago; a quinta seguinte já está livre), mantendo tese e peça-fonte intactas e adicionando a adjacência com AD007 na declaração; ou (b) manter a data mas trocar a causa única: tirar a cena de listar receita/ml (\"são 3ml disso, 2 frascos daquilo\") e o cálculo preço-por-ml, e ancorar a falha de percepção de valor em outro mecanismo da peça-fonte SEM19/AD005 (ex.: preço entregue antes da dor instalada, ou preço justificado/pedido de desculpas — ambos cobertos pela doutrina vigente de preço sem colidir com o território do AD007). Em qualquer rota, declarar AD007 explicitamente no campo de adjacências."
+    },
+    {
+     "lente": "FORÇA",
+     "motivo": "A defesa que sustenta o slot é factualmente falsa. O slot admite que o post original mediu s/r 0,53% mas alega que o flop foi da capa antiga (\"boazinha ou abandonando\", tom paternal) e que a nova capa traria \"o reframe da causa, o padrão do campeão\". Os arquivos desmentem: \"boazinha ou abandonando\" era a LEGENDA do post, não a capa. A capa real do SEM19/AD005 já era exatamente \"'Vou pensar.' 'Vou falar com meu marido.' 'É muito caro' / As 3 frases têm a mesma causa. E elas não tem nada a ver com dinheiro\" — a mesma tese de capa que o slot propõe, testada em 12/mai, resultado 0,53% (6x abaixo do alvo de 3%). Pior: a tese \"objeção não é sobre dinheiro\" tem um SEGUNDO teste medido (post de 15/mai, s/r 0,11%) que o slot não menciona. Dois flops medidos da mesma tese contra campeões de 5%+ no mesmo território (\"objeção nunca foi um não\" 5,79%/4,98%; \"velocidade do preço\" 5,06%) = o slot não bate de frente com os campeões, ele repete o perdedor comprovado da série. Agravantes: (a) a mecânica central (listar ml → paciente calcula preço-por-ml) é adjacência NÃO declarada com SEM31/AD007 \"Você cria a objeção\" (10ml → lead faz a conta), bloqueado a 4 dias; (b) números-âncora citados errados (5,10% real 4,98%; 4,61% real 5,06%). O teste do encaminhamento até é específico (par errado-vs-certo no slide 4), mas encaminhamento hipotético não compensa duas medições reais dizendo que a capa-tese não para o scroll.",
+     "evidencia": "(1) /Volumes/SSD kenipe/estáticos/novos/SEM19/AD005 - As 3 Frases/build.py, linhas 54-62: slide 1 (hero) = \"'Vou pensar.'<br>'Vou falar com meu marido.'<br>\\\"É muito caro\\\"\" + subhead \"As 3 frases têm a mesma causa. E elas não tem nada a ver com dinheiro.\" — a capa original JÁ ERA o reframe da causa que o slot apresenta como correção. (2) /Users/saviomoraes/reconecta/agente-carrosseis/data/perf_compact.json: post 17947503495174446 (12/mai) s/r 0,53%, legenda inicia \"você está sendo 'boazinha' ou está abandonando a sua paciente?\" — prova que \"boazinha\" era legenda, não capa; post 18399601702154161 (15/mai) s/r 0,11%, legenda \"o seu paciente não tem medo do seu preço... o 'vou pensar' ou o 'está caro' não são problemas financeiros\" — segundo flop medido da mesma tese, omitido pelo slot; post 18113350918867588 (20/mai) s/r 5,79% e 18366349324225646 (18/jun) s/r 4,98% (\"objeção nunca foi um não\" — slot citou 5,10%); post 17893772529532193 (13/jun) s/r 5,06% (\"velocidade do preço\" — slot citou 4,61%). (3) /Users/saviomoraes/reconecta/agente-carrosseis/data/corpus.json, item índice 14 (SEM19/AD005): hook.headline confirma a mesma capa; slides 4-6 confirmam que o par errado-vs-certo e o copo d'água são da peça (essa parte do slot é fiel). (4) Contexto de bloqueios fornecido: SEM31/AD007 \"Você cria a objeção\" (10ml na legenda, lead faz a conta e some) BLOQUEIO a 4 dias — mesma mecânica de cálculo de unidade que o slot põe no centro da tese sem declarar.",
+     "conserto": "Manter o território (apresentação de preço em consulta) mas trocar a cabeça do post pela mecânica que comprovadamente paga: liderar com o reframe positivo do campeão (\"objeção nunca foi um não\" = sinal de interesse confuso, 5,79%/4,98% em 2 postagens) OU com a velocidade da resposta de preço (5,06% em 13/jun, tese virgem de capa: \"toda vez que você responde o preço na velocidade que a paciente pergunta, você ensina ela a decidir pelo número\"). A tese \"as 3 desculpas não são sobre dinheiro\" NÃO pode liderar capa: 2 testes medidos, 0,53% e 0,11%. O par apresentação-errada-vs-certa e o copo d'água podem sobreviver como miolo (slides 4-6 da peça original, nunca foram o problema), mas o anti-exemplo de listar ml precisa esperar a janela do SEM31/AD007 (bloqueio da mecânica de cálculo por unidade, 4d) ou ser reescrito sem a cena da conta de ml. Se reescrever, re-rodar o slot pelo portão com as âncoras de performance corrigidas (4,98% e 5,06%, não 5,10% e 4,61%)."
+    },
+    {
+     "lente": "mecânica do viral",
+     "motivo": "A defesa do slot para o flop de 0,53% é factualmente falsa: ele alega que a capa original liderava com \"boazinha ou abandonando\" (tom paternal) e que a nova lideraria com o reframe da causa — mas a capa PUBLICADA do SEM19/AD005 já era exatamente as 3 frases + \"As 3 frases têm a mesma causa. E elas não tem nada a ver com dinheiro\". O \"boazinha\" era só a legenda (invisível no scroll). Ou seja: a capa proposta (\"Três Desculpas, Uma Causa\") é a MESMA mecânica de capa que já rodou madura e mediu 0,53%, abaixo da mediana da era (0,58%). A tese em si (doutora lista receita → mata percepção de valor) tem lastro na mecânica campeã e o território prova (vizinho de 13/jun fez 5,06% liderando com a ação da clínica), mas os hits da mecânica lideram com a frase/ação da CLÍNICA, não com as desculpas da paciente — e o slot esconde a frase dos 3ml no miolo enquanto repete na capa a configuração já derrotada. Secundário: adjacência não declarada com SEM31/AD007 (BLOQUEIO, 4d) — mesmo mecanismo causal (ancorar em ml → paciente faz a conta → objeção), só muda o palco do feed pro fechamento.",
+     "evidencia": "(1) /Volumes/SSD kenipe/estáticos/novos/SEM19/AD005 - As 3 Frases/[26] [19] [AD005_1] - As 3 Frases.png — capa publicada real: \"'Vou pensar.' 'Vou falar com meu marido.' 'É muito caro'\" + subhead \"As 3 frases têm a mesma causa. E elas não tem nada a ver com dinheiro.\" (já é o reframe da causa que o slot propõe como correção). (2) /Users/saviomoraes/reconecta/agente-carrosseis/data/perf_compact.json — post 17947503495174446 (12/mai, reach 12.261): s/r 0,53%, legenda começa \"Você está sendo 'boazinha' ou está abandonando a sua paciente?\" — o tom paternal era a LEGENDA, não a capa; e post 17893772529532193 (13/jun): s/r 5,06% abrindo com \"Toda vez que você responde o preço na velocidade que a paciente pergunta...\" (a mecânica lidera com a ação da clínica). (3) /Users/saviomoraes/reconecta/agente-carrosseis/data/corpus.json item [14] — hook.headline = as 3 frases (confere com o PNG, não com a alegação do slot). (4) /Users/saviomoraes/reconecta/agente-carrosseis/data/analise-semanal/SEM31-leitura.md itens 3-5 — mecânica campeã = frase que a CLÍNICA diz achando que é boa; tese tem que SER o post. (5) Contexto de bloqueios — SEM31/AD007 \"10ml na legenda, lead faz a conta e some\", BLOQUEIO 4d, não declarado no slot.",
+     "conserto": "Manter a tese (é mecânica campeã com território provado a 5,06%), mas inverter a âncora da capa: liderar com a frase da DOUTORA dita como virtude (\"são 3ml disso, 2 frascos daquilo... fica R$6 mil\" apresentada como \"transparência técnica\") e o custo dela — seguindo o padrão do hit de 13/jun e do campeão absoluto — e rebaixar as 3 desculpas pra slide interno (a consequência, não o gancho). Se a capa usar a frase entre aspas, declarar a fórmula \"aspa\" (permitida com DECLARAR a partir do meio da semana; QUI qualifica) ou reformular como afirmação (\"Você chama de transparência. A paciente ouve preço por ml.\"). Declarar explicitamente a adjacência com SEM31/AD007 (mesmo mecanismo ml→conta→objeção, palco diferente: fechamento presencial vs feed) e diferenciar no miolo: zero menção a feed/legenda, cena 100% dentro da consulta. Corrigir a ficha de honestidade: o flop de 0,53% NÃO é explicável pela capa \"boazinha\" (isso era a legenda); tratar o 0,53% como dado contra a capa de 3-desculpas, não contra o tom paternal."
+    }
+   ]
+  },
+  {
+   "slot": {
+    "dia": "QUI 06/08",
+    "trilho": "B",
+    "titulo": "SLOT FLEX — Carona em trend (radar 07:20 de quinta)",
+    "tese": "Preenchido pelo radar do DIA (nunca antecipado): notícia ≤72h com ponte real pro nicho, sem distorção. Função DECLARADA: alcance + follows, NÃO share — julgar por alcance/seguidores, nunca por s/r (regra da SEM31-leitura item 6). Não passou no filtro (ponte/janela/risco de marca) → assume a RESERVA: 'Não quero ficar artificial' — a objeção nº1 da cadeira respondida com caso via lente SUPERCASO (reserva herdada da SEM31, nunca usada, território virgem conferido).",
+    "peca_fonte": "Radar de quinta (fluxo SEM31: radar → mini-ponte → filtro → OK do Sávio → produz). Reserva ancorada no pilar SUPERCASO (metodologia entra no último terço, nunca lidera)",
+    "elemento_herdado": "Formato de carona validado: trend serve a alcance/aquisição, com a ponte na capa (regra da capa em duas pistas para post frio)",
+    "fonte_do_elemento": "SEM30/AD002 Vini Jr: 81.823 de alcance, 135k views, 37 follows, s/r 0,27% — funcionou PRO QUE SERVE (SEM31-leitura item 6: 'gancho de notícia compra alcance, não share'). Celebridades do pool de imagens (Hathaway/Bieber/Jenner) estão reservadas pra este slot desde a SEM31",
+    "formula_capa": "definida no dia pelo radar — única restrição: NÃO usar afirmacao (SEX-B é afirmacao no mesmo trilho no dia seguinte) e não usar aspa (cota da semana consumida na QUA-A)",
+    "assunto_doutrina": "conferir no dia com doutrina.py conforme o assunto da trend",
+    "coerencia_doutrina": "Regra fixa: a ponte não pode prescrever nada que contradiga doutrina vigente; se a trend tocar preço/objeção/whatsapp, roda doutrina.py antes do OK do Sávio.",
+    "teste_encaminhamento": "Julgado no dia. Para trend, o teste muda: não é 'pra quem ela manda' e sim 'quantas contas novas o gancho alcança' — função de aquisição declarada na pauta pra ninguém cobrar share deste slot.",
+    "rever_com_dado_sem31": false
+   },
+   "status": "CAIU",
+   "refutadores_mortos": 0,
+   "objecoes": [
+    {
+     "lente": "FONTE",
+     "motivo": "O caminho primário (trend do dia) se sustenta: os números do Vini Jr são reais e ancorados (historico.csv linha 354: reach 81.823, s/r 0,265%, follows 40 hoje; \"135k views / 37 follows\" vêm do snapshot anterior na pauta SEM31.md linha 62 — maturação, não invenção) e o item 6 da SEM31-leitura existe verbatim. Mas a RESERVA derruba o slot como escrito: a alegação \"território virgem conferido\" é FALSA contra os arquivos. A objeção-âncora da reserva (\"Não quero ficar artificial\") foi encenada verbatim no SEM31/AD007 (publicado há 4 dias, listado como BLOQUEIO no território quente) e o territorio-vivo.json registra o 4-gram \"vai ficar artificial e\" apontando exatamente pra esse post. A checagem de virgindade era verdadeira quando a pauta SEM31 foi escrita (antes do AD007 ir ao ar) e o slot da SEM32 repete a checagem velha como se fosse atual — verificação declarada e falsa reprova sob ZERO ACHISMO.",
+     "evidencia": "(1) /Users/saviomoraes/reconecta/agente-carrosseis/data/territorio-vivo.json linha 7598: \"vai ficar artificial   e\": [\"SEM31/AD007 - Voce Cria a Objecao\"]. (2) /Volumes/SSD kenipe/estáticos/novos/SEM31/AD007 - Voce Cria a Objecao/copy.engine.json linha 25: '\"Vai ficar artificial?\", \"e depois de um ano?\". Nenhuma das duas nasceu na cabeça dela: as duas saíram de uma legenda sua.' — AD007 está no territorio_quente como BLOQUEIO (4 dias). (3) Em contraste, as fontes citadas pelo slot existem: /Users/saviomoraes/reconecta/agente-carrosseis/data/metricas-ig/historico.csv linha 354 (post Vini Jr 21/jul: views 138112, reach 81823, shares 217, follows 40, s_por_r 0.265); /Users/saviomoraes/reconecta/agente-carrosseis/data/analise-semanal/SEM31-leitura.md linhas 56-58 (item 6 verbatim); /Users/saviomoraes/reconecta/agente-carrosseis/data/pautas/SEM31.md linhas 61-62 (padrão \"80k alcance / 135k views / 37 follows / s/r 0,27%\") e linhas 85-87 (texto da reserva); corpus.json tem 30+ peças com marcador SUPERCASO, incluindo SEM26/AD006 \"Vilão da Marca\" (vilão = superficialidade/artificialidade).",
+     "conserto": "Manter o caminho primário do slot intacto (radar do dia, função alcance/follows julgada por alcance/seguidores — tudo ancorado). Consertar só a reserva, de um destes dois jeitos: (a) trocar a reserva por outra objeção de cadeira com território realmente virgem, conferindo territorio-vivo.json NA SEMANA DA SEM32, não herdando a checagem de 27/jul; ou (b) manter o tema mas declarar a adjacência com SEM31/AD007 e diferenciar de verdade: AD007 usou \"vai ficar artificial\" como exemplo de objeção criada no feed; a reserva teria que atacá-la NA CADEIRA via caso SUPERCASO, sem reusar o 4-gram na capa e respeitando o bloqueio de 4 dias do AD007 (que na quinta 06/08 estará em D+8 — conferir se o status BLOQUEIO já caiu pra DECLARAR até lá). Em qualquer caso, reescrever \"território virgem conferido\" para uma checagem datada e honesta."
+    },
+    {
+     "lente": "TERRITÓRIO E DOUTRINA",
+     "motivo": "A metade trend do slot é procedimentalmente defensável (conteúdo indefinido até quinta, com regras fixas de doutrina.py e restrição de capa que conferem com o contexto). O que derruba é a RESERVA, que é parte executável do slot (se a trend reprovar no filtro, ela VIRA o post de quinta): a alegação \"território virgem conferido\" é falsa. A objeção \"vai ficar artificial\" está registrada verbatim no território vivo, atribuída a SEM31/AD007 — post que está em BLOQUEIO com 4 dias (será d+7 na quinta, bem dentro da janela de 14). Pior: há risco direto de contradição D5 — o AD007 prescreve que essa objeção NÃO nasce na cabeça da paciente (\"Nenhuma das duas nasceu na cabeça dela: as duas saíram de uma legenda sua\"), e a doutrina de 'objeção' desde SEM21/AD007 diz que é o feed que coloca essa objeção na cabeça do lead. A reserva planeja tratar a MESMA frase como \"a objeção nº1 da cadeira\" (objeção orgânica da paciente) 7 dias depois de um post dizer que ela é fabricada pelo próprio feed. Publicar a reserva como está = pisar em território de post bloqueado + contradizer post anterior sem reconhecer (reprova no D5). O slot como escrito carrega um fallback quebrado com uma verificação declarada que não foi feita (ou ficou obsoleta quando o AD007 entrou no grid).",
+     "evidencia": "1) /Users/saviomoraes/reconecta/agente-carrosseis/data/territorio-vivo.json, seção frases_4g (linha ~7598): \"vai ficar artificial   e\": [\"SEM31/AD007 - Voce Cria a Objecao\"]. 2) /Volumes/SSD kenipe/estáticos/novos/SEM31/AD007 - Voce Cria a Objecao/copy.engine.json, slide 3: punch \"TUDO O QUE VOCÊ ESCREVE NO SEU FEED, VOCÊ COLOCA NA BOCA DO {LEAD}.\" + body \"“Vai ficar artificial?”, “e depois de um ano?”. Nenhuma das duas nasceu na cabeça dela: as duas saíram de uma legenda sua.\" — a objeção da reserva, citada verbatim, com tese de que ela é criada pelo feed. 3) Contexto de bloqueios: SEM31/AD007 dias=4, status=BLOQUEIO. 4) doutrina.py \"objeção\" (rodado em /Users/saviomoraes/reconecta/agente-carrosseis): SEM21/AD007 (d+73) \"Não faz sentido colocar esse tipo de objeção e medo na cabeça do lead através do feed. É na consulta que você gera valor, previne e antecipa dúvidas e objeções.\" e SEM31/AD007 listado a d+4. 5) /Users/saviomoraes/reconecta/agente-carrosseis/data/pautas/SEM31.md linhas 85-86 confirmam que a reserva existe e nunca foi usada (essa parte da alegação é verdadeira; o que é falso é o \"território virgem\").",
+     "conserto": "Manter a metade trend do slot intacta (fluxo radar → filtro → OK do Sávio, com as restrições de capa já corretas). Trocar a RESERVA: ou (a) substituir por outro tema de reserva com verificação NOVA de território e doutrina rodada agora (não herdada da SEM31), ou (b) se o Sávio quiser manter \"Não quero ficar artificial\", reescrever a reserva como continuação DECLARADA do SEM31/AD007 — \"você criou essa objeção no feed; quando ela ainda assim aparece na cadeira, responde com caso (SUPERCASO)\" — citando a tese anterior explicitamente pra passar no D5, e mesmo assim adiar essa reserva pra depois do dia 14 do AD007 (a frase verbatim está em janela de bloqueio até ~09/08; na quinta 06/08 ainda é d+7). Em qualquer dos casos, remover a alegação \"território virgem conferido\" da pauta ou datá-la (conferido em QUAL dia, contra QUAL snapshot)."
+    },
+    {
+     "lente": "FORÇA — teste do encaminhamento real, conversa comercial vs institucional, comparação com campeões medidos",
+     "motivo": "A perna primária (trend) sustenta: função de alcance/follows está ancorada no item 6 da SEM31-leitura, medido e verificado, e o teste de encaminhamento redefinido é exceção documentada, não desculpa genérica. Mas a RESERVA — que roda automaticamente se o filtro reprovar — carrega duas alegações desmentidas por arquivo: (1) \"território virgem conferido\" é falso: o territorio-vivo registra \"vai ficar artificial\" ocupado por SEM31/AD007, publicado há 4 dias e em BLOQUEIO, onde a frase exata da reserva é o exemplo central do post (\"Vai ficar artificial?... saíram de uma legenda sua\"); publicar a D+7 um post inteiro tratando essa frase como \"objeção nº1 da cadeira\" contradiz o AD007, que acabou de dizer que ela nasce do feed (risco D5), e o slot só prevê doutrina.py pro assunto da trend, não pra reserva; (2) \"objeção nº1 da cadeira\" não tem fonte: zero ocorrências de \"artificial\" no perf_compact (nenhum hit medido) e no corpus o termo só existe como \"vilão da marca/artificialidade\" (posicionamento SEM26), nunca como objeção ranqueada. A conferência de virgindade era da pauta SEM31, escrita antes do AD007 sair — ficou stale e virou achismo herdado.",
+     "evidencia": "(1) /Users/saviomoraes/reconecta/agente-carrosseis/data/analise-semanal/SEM31-leitura.md linhas 56-59 e 76-77: item 6 verbatim (\"gancho de notícia compra ALCANCE... julgado por alcance/seguidores, nunca por taxa de share\") — perna trend confirmada. (2) /Users/saviomoraes/reconecta/agente-carrosseis/data/territorio-vivo.json linha 7598: n-gram \"vai ficar artificial   e\" atribuído a \"SEM31/AD007 - Voce Cria a Objecao\". (3) /Volumes/SSD kenipe/estáticos/novos/SEM31/AD007 - Voce Cria a Objecao/copy.engine.json: body contém \"'Vai ficar artificial?', 'e depois de um ano?'. Nenhuma das duas nasceu na cabeça dela: as duas saíram de uma legenda sua.\" (4) grep \"artificial\" em /Users/saviomoraes/reconecta/agente-carrosseis/data/perf_compact.json: zero resultados (nenhum hit medido no tema). (5) /Users/saviomoraes/reconecta/agente-carrosseis/data/corpus.json: 4 ocorrências de \"artificial\", todas no ângulo vilão-da-marca/posicionamento (SEM26), nenhuma como objeção da cadeira. (6) /Users/saviomoraes/reconecta/agente-carrosseis/data/pautas/SEM31.md linhas 85-87: reserva herdada existe e diz \"validado\" sem citar fonte de performance.",
+     "conserto": "Manter intocada a perna trend (radar→mini-ponte→filtro→OK do Sávio, julgada por alcance/follows — está provada). Trocar a RESERVA: ou (a) substituir por tema de território realmente livre conferido contra o territorio-vivo ATUAL de 03/08, usando os trilhos de capa descansados (pergunta ou número, zero/baixo uso na SEM31), na mecânica campeã \"frase que a clínica acredita ser boa e custa dinheiro\" (item 4 da SEM31-leitura, 7 dos 12 hits); ou (b) se quiser manter \"não quero ficar artificial\", re-ancorar honestamente: rodar doutrina.py no assunto (não só pro assunto da trend), reconhecer explicitamente o AD007 no post (a objeção que seu feed criou agora sentou na cadeira — continuidade, não contradição), remover \"objeção nº1\" (sem fonte) e adiar pra depois do D+14 do AD007 pra sair do território quente. Em ambos os casos, apagar da pauta a alegação \"território virgem conferido\" herdada da SEM31 — verificação de território tem data de validade."
+    }
+   ]
+  },
+  {
+   "slot": {
+    "dia": "SEX 07/08",
+    "trilho": "A",
+    "titulo": "O Perfil Impecável Que Não Converte",
+    "tese": "A frase que a doutora diz achando que é marketing ativo: 'todo mês eu faço uma promoção pra movimentar'. Quando vira mensal, a paciente aprende a esperar desconto — você cresce em vista e encolhe em agenda. Post inteiro nos 5 sinais silenciosos do corpus que separam quem agenda 1 consulta paga por dia de quem culpa o algoritmo (em 3 segundos ela precisa entender o que você resolve; a promoção mensal que deseduca; etc.), com o caso Manu Barcelos como prova ('ela não nasceu Manu Barcelos').",
+    "peca_fonte": "[5] SEM18/os 5 sinais no perfil (virgem, media; prova = caso real Manu Barcelos)",
+    "elemento_herdado": "Diagnóstico com sinal por item (princípio 'passos com sinal' do time) + prova por citação-de-aluna; frase-que-custa ancorada no sinal da promoção mensal. DECLARADO COMO O SLOT MAIS FRACO DA ESPINHA: não é conversa comercial (é posicionamento) e a SEM31-leitura provou que os 12 hits ≥2% são todos conversa comercial — ele fica na SEXTA (o slot histórico mais penalizado) e mira utilidade/identificação da fria, com a troca pela reserva já pré-aprovada se o Sávio preferir",
+    "fonte_do_elemento": "Capa-pergunta = fórmula mais descansada (3 usos/14d, zero SEM31); diagnóstico-que-nomeia-o-erro = mecânica 2 (17893772529532193 s/r 5,06%). Sem taxa própria medida do original — declarado, sem invenção",
+    "formula_capa": "pergunta ('Por que perfis impecáveis não conseguem 1 consulta paga por dia?' — molde do hook do corpus, sem aspa)",
+    "assunto_doutrina": "feed/objeção (quem planta objeção no feed cria a própria)",
+    "coerencia_doutrina": "Mesma lógica da doutrina de objeção (SEM21/AD007 + SEM31/AD007): o feed deseduca antes da conversa. NÃO repete o exemplo do 10ml-na-legenda nem 'você cria a objeção' (SEM31/AD007 está a 8d na sexta, BLOQUEIO — o território aqui é o PERFIL/vitrine e a promoção mensal, nunca a legenda com ml). SEM27/AD008 '5 ajustes no perfil' (30d na sexta, >14d) declarado: lá eram AJUSTES prescritivos, aqui são SINAIS diagnósticos + caso.",
+    "teste_encaminhamento": "Manda pra colega cujo feed é lindo e a agenda não anda — 'o seu é o sinal 2'. O formato marque-se (igual ao grid de crenças da QUA-A, mas em território de perfil) dá o motivo do envio.",
+    "rever_com_dado_sem31": true
+   },
+   "status": "CAIU",
+   "refutadores_mortos": 0,
+   "objecoes": [
+    {
+     "lente": "TERRITÓRIO E DOUTRINA",
+     "motivo": "O slot promete \"post inteiro nos 5 sinais silenciosos do corpus\", mas o sinal 02 da peça-fonte (\"legenda entrega o que era pra ser conversado na consulta; a consulta vira negociação antes de você conhecer o caso dela\") é exatamente o território do SEM31/AD007 \"Você Cria a Objecao\" (4d hoje, 8d na sexta, BLOQUEIO reconhecido pelo próprio slot). A cláusula de defesa \"nunca a legenda com ml\" é impossível de cumprir junto com \"post inteiro nos 5 sinais\" — e o teste_encaminhamento ainda ancora o envio em \"o seu é o sinal 2\", o único sinal bloqueado. Como está escrito, o slot se autocontradiz e pisa em território <14d. Doutrina: SEM verificar contradição — a doutrina vigente é consistentemente anti-promoção-preventiva e o slot a reforça. Capa-pergunta confere como fórmula descansada. Agravante declarável: SEM27/AD008 (30d na sexta) compartilha molde de capa (\"os 5 X no perfil que separam quem A de quem B\"), o item \"bio de 3 segundos\", o vilão \"culpando o algoritmo\" e a cadeia perfil→desconto — a distinção \"ajustes vs sinais\" subestima a sobreposição real, embora passe na régua dos 14 dias.",
+     "evidencia": "/Users/saviomoraes/reconecta/agente-carrosseis/data/corpus.json (idx 5, \"SEM18/os 5 sinais no perfil\"): estrutura n=4 = \"Sinal 02: legenda entrega o que era pra ser conversado na consulta\"; marcadores_voz \"A consulta vira negociação antes de você conhecer o caso dela\" e \"O 'como' e 'quanto' é tratado na consulta\". /Volumes/SSD kenipe/estáticos/novos/SEM31/AD007 - Voce Cria a Objecao/copy.engine.json: slide 3 \"TUDO O QUE VOCÊ ESCREVE NO SEU FEED, VOCÊ COLOCA NA BOCA DO LEAD\", slide 4 \"O QUE SAI DA LEGENDA\". /Users/saviomoraes/reconecta/agente-carrosseis/data/territorio-vivo.json: SEM31/AD007 dias=4; SEM27/AD008 dias=26. /Volumes/SSD kenipe/estáticos/novos/SEM27/AD008 .../copy.engine.json: hero \"OS 5 AJUSTES NO PERFIL QUE SEPARAM QUEM FATURA 15K DE QUEM FATURA 100K\", item \"BIO DE 3 SEGUNDOS, NÃO CURRÍCULO\", proof \"E TEM GENTE CULPANDO O ALGORITMO\", slide 2 \"SEU PERFIL FALA PROCEDIMENTO. POR ISSO ELA PEDE DESCONTO\". /Users/saviomoraes/reconecta/agente-carrosseis/data/doutrina.json: SEM27/AD009 \"DÊ UM MOTIVO ESPECÍFICO, NÃO UM DESCONTO... Escassez por critério lê valor; por preço lê desespero\" (sem contradição com a tese do slot).",
+     "conserto": "Se o Sávio não preferir a troca pela reserva já pré-aprovada: (1) substituir o sinal 02 (legenda) por um sinal ancorado em peça fora da janela de 14d — ex.: destaques-como-vitrine do SEM23/AD009 \"Perfil Que Atrai\" (58d hoje: \"Os destaques são a vitrine que sustenta a primeira impressão\"), mantendo os outros 4 sinais verbatim do corpus; (2) reancorar o teste_encaminhamento num sinal não bloqueado (o sinal 04, promoção mensal, é o mais forte pra \"manda pra colega\"); (3) reescrever a tese de \"post inteiro nos 5 sinais do corpus\" para \"4 sinais do corpus + 1 sinal de vitrine\", declarando a substituição; (4) na capa, afastar o foil \"culpa o algoritmo\" (já usado no proof do SEM27/AD008, 30d na sexta) — o molde de pergunta funciona sem ele: \"Por que perfis impecáveis não conseguem 1 consulta paga por dia?\" já está limpo, desde que o miolo não repita \"culpando o algoritmo\"."
+    },
+    {
+     "lente": "FORÇA (encaminhamento real · conversa comercial vs institucional · paridade com campeões medidos)",
+     "motivo": "O slot carrega a mecânica campeã (frase-que-custa: \"todo mês eu faço uma promoção pra movimentar\", molde de 7 dos 12 hits) mas a executa na configuração que o dado da SEM31 provou que mata: tese diluída como item de lista. A leitura mediu a MESMA frase como post inteiro (3,95% e 3,73%) e como item de lista (0,30%) — 12x de diferença — e o slot propõe \"post inteiro nos 5 sinais\" com a frase da promoção como um dos cinco. Agrava: a peça-fonte SEM18 é virgem (zero match no perf_compact, nenhuma taxa a favor do formato lista-de-sinais), os 12 hits ≥2% são todos conversa comercial (zero institucional), a tese não tem momento datável (exigência do checklist §3) e o motivo de envio \"o seu é o sinal 2\" repete o gimmick marque-se do grid da QUA-A na mesma semana. Não derrubo por território (perfil/feed tem precedente medido de hit), derrubo pelo formato: como está, é o AD004-Gentileza-ou-medo de novo — munição boa gasta em lista.",
+     "evidencia": "(1) /Users/saviomoraes/reconecta/agente-carrosseis/data/analise-semanal/SEM31-leitura.md item 3: \"A tese tem que SER o post, não um item\" — SEM25/AD003 post inteiro 3,95%, SEM31/AD006 post inteiro 3,73%, SEM30/AD004 mesma frase como item 2 de lista 0,30%; \"Diluir a tese vencedora em item de lista mata ela\". Item 5: \"Todos os 12 posts ≥2% são conversa comercial. Zero institucional.\" (2) /Users/saviomoraes/reconecta/agente-carrosseis/data/perf_compact.json: nenhum post com \"5 sinais\"/\"culpa o algoritmo\"/\"perfil impecável\" na legenda — a peça original não tem taxa medida (o slot declara honestamente); post 17893772529532193 confirmado (s/r 5,06%); contra-prova de território: post 02/jun \"seu feed parece um cardápio\" (antes/depois no feed) é o nº2 de todo o período com s/r 5,64% e reach 26.404 — perfil/feed distribui QUANDO é frase-que-custa em post inteiro. (3) /Users/saviomoraes/reconecta/agente-carrosseis/data/corpus.json item SEM18/os 5 sinais: os 5 sinais e o caso Manu Barcelos existem como o slot descreve (sinal 04 = promoção virou rotina; sinal 05 = \"cresce em vista, encolhe em agenda\"). (4) /Users/saviomoraes/reconecta/agente-carrosseis/checklist-pauta.md §3: exige destinatário específico + capa ancorada na clínica + ≥1 momento datável — a tese do slot não tem momento datável.",
+     "conserto": "Manter o dia, o território (perfil/vitrine) e a prova Manu Barcelos, mas trocar o formato: a frase \"todo mês eu faço uma promoção pra movimentar\" VIRA o post inteiro (mecânica frase-que-custa, igual aos 7/12 hits) — capa com a frase ou o reframe dela, miolo mostrando o custo (a paciente aprende a esperar desconto; cresce em vista, encolhe em agenda) e o que fazer no lugar, com ≥1 momento datável (ex.: \"dia 28, fim do mês, a arte da promoção já está pronta\"). Os outros 4 sinais saem (ou viram 1 linha de contexto, nunca lista). Precedente medido de que o território segura post inteiro: \"feed parece um cardápio\" 5,64% s/r / 26k reach (nº2 do período). Cuidado no conserto: não encostar na legenda-com-ml (SEM31/AD007, BLOQUEIO 4d). Se o Sávio não quiser refazer, usar a troca pela reserva já pré-aprovada no próprio slot."
+    },
+    {
+     "lente": "mecânica do viral",
+     "motivo": "O slot acha a frase-que-custa certa (\"todo mês eu faço uma promoção pra movimentar\" → paciente aprende a esperar desconto) e depois a rebaixa a 1 de 5 itens de um checklist diagnóstico — exatamente o padrão que a SEM31-leitura mediu em 0,30% (item de lista) contra 3,73-3,95% (mesma frase como post inteiro), 12x de diferença. Por cima, o próprio slot declara que \"não é conversa comercial (é posicionamento)\", e a leitura provou que TODOS os 12 hits ≥2% do período são conversa comercial, zero posicionamento/institucional (Disney fez 0,27%). E a evidência de mecânica que o slot cita (post 5,06%) é uma frase-que-custa de conversa comercial ocupando o post inteiro — ela prova o formato contrário ao proposto. A peça-fonte original é virgem: não existe taxa medida sustentando o formato 5-sinais. Tese diluída + categoria sem hit + evidência que se volta contra o slot = cai.",
+     "evidencia": "(1) /Users/saviomoraes/reconecta/agente-carrosseis/data/analise-semanal/SEM31-leitura.md — item 3: \"SEM25/AD003, post inteiro → 3,95% / SEM31/AD006, post inteiro → 3,73% / SEM30/AD004, item 2 de uma lista → 0,30%. Diluir a tese vencedora em item de lista mata ela\"; item 5: \"Todos os 12 posts ≥2% são conversa comercial. Zero institucional\"; consequência pra SEM32: \"Evitar: tese vencedora rebaixada a item de lista\". (2) /Users/saviomoraes/reconecta/agente-carrosseis/data/corpus.json, peça índice 5 (SEM18/os 5 sinais no perfil): a promoção mensal é o Sinal 04, slide 6 de 10 num checklist de 5 — item de lista, não tese do post; peça ausente do perf_compact.json (virgem, sem taxa). (3) /Users/saviomoraes/reconecta/agente-carrosseis/data/perf_compact.json, post 17893772529532193 (s/r 5,06%, citado pelo slot): legenda \"Toda vez que você responde o preço na velocidade que a paciente pergunta...\" — frase-que-custa de conversa comercial como post inteiro, não diagnóstico de perfil em lista.",
+     "conserto": "Extrair o Sinal 04 e fazer dele o post inteiro, na mecânica campeã (7 dos 12 hits): capa com a frase que a doutora diz achando que é marketing (\"Todo mês eu faço uma promoção pra movimentar\") → por que ela custa agenda (a paciente aprende a esperar desconto; \"você cresce em vista, encolhe em agenda\" — marcadores literais do corpus [5]) → e a ponte pra conversa comercial: o que responder quando a paciente pergunta \"não vai ter promoção esse mês?\" (script colável, alinhado à doutrina de desconto vigente: \"desconto só depois de objeção real, nunca preventivo\" — SEM20/AD007). Isso vira frase-que-custa + conversa comercial + tese ocupando o post, os três critérios dos hits. Os outros 4 sinais e o caso Manu Barcelos ficam de fora (a prova dela é de posicionamento, não desta conversa). Alternativa já pré-aprovada no próprio slot: puxar a reserva."
+    }
+   ]
+  },
+  {
+   "slot": {
+    "dia": "SEX 07/08",
+    "trilho": "B",
+    "titulo": "Cobrar Barato É Confissão (DISRUPTIVO)",
+    "tese": "A frase que a doutora diz achando que é humildade estratégica: 'cobro um valor acessível pra não perder ninguém'. Cobrar barato é confessar que não é tão bom — o cérebro da paciente pergunta 'se é tão boa... por que o preço é de quem está começando?' e o paciente que você educou fecha com quem parece mais seguro e cobra o triplo. Custa: a matemática do corpus, 100 vendas de R$1k = 10 vendas de R$10k, mas uma via é exaustão e leilão, a outra é autoridade. O mais caro não precisa provar o tempo todo que é o melhor — o preço já diz isso por ele.",
+    "peca_fonte": "[11] SEM19/AD002 - Cliente que Educa Fecha com Concorrencia (virgem; tese do 'cobrar barato', irmã declarada de [22] e [48])",
+    "elemento_herdado": "Slot disruptivo do checklist §4 (tese contrária ao senso comum com âncora na metodologia + refutador extra no portão) + capa de reframe seco (mecânica 1). HONESTIDADE: o original mediu s/r 0,58% (18551151403067567, 04/mai) — mas liderava com pergunta institucional ('Por que vender barato é o caminho mais cansativo...') e fechava com Reunião Estratégica no link da bio, a mecânica PERDEDORA nº2 (pitch antes de entregar). Esta versão lidera com o reframe e entrega a matemática inteira antes de qualquer CTA",
+    "fonte_do_elemento": "Reframe disruptivo na capa = padrão do campeão absoluto ('Objeção nunca foi um não', 5,79%); CTA trocado pra comment-to-DM pós-entrega (mecânica 5, gatilhos com 5,79%/5,52%/5,64% medidos); anti-padrão evitado documentado nas mecânicas perdedoras (18423990412189371 s/r 0,01% = pitch direto)",
+    "formula_capa": "afirmacao (verbatim do corpus: 'Cobrar barato é confessar que não é tão bom.')",
+    "assunto_doutrina": "preço",
+    "coerencia_doutrina": "Alinha com a doutrina do preço em todos os pontos: 'nunca justificar o valor' ('o preço já diz isso por ele' é a mesma tese), 'nunca ancorar em ml', preço com firmeza. Não prescreve desconto nem abatimento (famílias bloqueadas intocadas). Adjacência interna declarada: TER-B ('justificar te faz parecer barata') é prima desta tese — 3 dias e trilhos distintos, verbatims sem eco (portão confere D5), TER-B ataca a CONVERSA, esta ataca a PRECIFICAÇÃO.",
+    "teste_encaminhamento": "Manda pra amiga que abriu clínica e montou tabela 'competitiva' — 'lê isso antes de imprimir a tabela'. Público (a)/(b); o refutador extra do portão decide se a matemática segura o post inteiro.",
+    "rever_com_dado_sem31": false
+   },
+   "status": "CAIU",
+   "refutadores_mortos": 0,
+   "objecoes": [
+    {
+     "lente": "FONTE",
+     "motivo": "A peça-fonte existe e é rica (corpus[11], 17 marcadores, matemática 100x1k/10x10k literal) e todas as taxas citadas são medidas de verdade — mas a cláusula de honestidade do elemento_herdado é FALSA no ponto decisivo: o slot alega que o original \"liderava com pergunta institucional\" e que \"esta versão lidera com o reframe\" como conserto, porém o build.py exportado prova que o slide 1 do original JÁ ERA o reframe verbatim proposto (\"Cobrar barato é confessar que não é tão bom.\") — a pergunta era só a legenda. Ou seja: a capa proposta pro slot é uma capa que já rodou exatamente igual e mediu s/r 0,58%, 10x abaixo do campeão. A única variável nova comprovada é a troca de CTA (link-bio → comment-to-DM), e o slot esconde isso atribuindo o fracasso à capa errada.",
+     "evidencia": "(1) corpus.json[11] \"SEM19/AD002 - Cliente que Educa Fecha com Concorrencia\": hook.headline = \"Cobrar barato é confessar que não é tão bom.\" (padrao afirmacao-disruptiva), marcadores incluem \"100 vendas de R$ 1k = R$ 100k\", \"Se é tão bom… por que o preço é de quem está começando?\", \"O preço já diz isso por ele\"; CTA original = Reunião Estratégica link-bio. (2) perf_compact.json: 18551151403067567 (05/04/2026) shares_rate 0.0058, legenda inicia \"Por que vender barato é o caminho mais cansativo...\"; 18423990412189371 sr 0.0001; campeão 18113350918867588 \"Objeção nunca foi um não\" sr 0.0579; gatilhos comment-to-DM sr 0.0579/0.0552/0.0564 (ctas 218/615/CASO) — todos conferidos. (3) /Volumes/SSD kenipe/estáticos/novos/SEM19/AD002 - Cliente que Educa Fecha com Concorrencia/build.py linha 43: COPY_SLIDE_1_HEADLINE = \"Cobrar barato é confessar que não é tão bom.\" — o post medido com s/r 0,58% já tinha a capa de reframe seco que o slot propõe como novidade corretiva.",
+     "conserto": "Manter a tese (fonte é sólida) mas trocar a capa: NÃO reusar o verbatim que já mediu 0,58%. Usar outro marcador da mesma peça como capa — ex. a pergunta do cérebro \"Se é tão boa… por que o preço é de quem está começando?\" (verbatim de corpus[11], e \"pergunta\" é o trilho de capa mais descansado: 0 usos na SEM31) ou \"O lucro que você não tem hoje está no preço que você ainda não teve coragem de cobrar.\" E reescrever o elemento_herdado com a honestidade correta: o original JÁ liderava com o reframe na capa e falhou; as variáveis novas desta versão são (a) capa nova e (b) CTA comment-to-DM pós-entrega — só a (b) tem taxa medida a favor."
+    },
+    {
+     "lente": "FORÇA — teste do encaminhamento real, conversa comercial vs institucional disfarçado, comparação com campeões medidos",
+     "motivo": "O slot é honesto nas fontes (todas conferem), mas a espinha proposta viola a mecânica dominante do top maduro e a defesa central é falsa. (1) MIOLO SEM CONVERSA: o checklist-pauta linha 26 (pedido do Sávio, 28/jul) manda a MECÂNICA dos campeões liderar: \"7 de 8 eram conversa comercial com objeção→resposta; miolo = scripts palavra-por-palavra; metodologia sustenta, nunca lidera\". O slot promete \"a matemática inteira antes de qualquer CTA\" — matemática de posicionamento (100x1k vs 10x10k) é mindset institucional, zero script, zero cena de conversa. É exatamente o sintoma que a regra corrige: post tecnicamente limpo, desalinhado dos que performam. (2) ATRIBUIÇÃO FURADA: o slot alega que o 0,58% do original veio da capa institucional + CTA Reunião Estratégica (mecânica perdedora nº2). Mas o perf_compact tem 3 posts LINK-BIO com s/r 3,75%–4,54% — CTA link-bio não condena post cujo miolo é condução de conversa. O que o 0,58% e o 0,01% citado têm em comum não é o CTA: é o miolo de matemática de faturamento sem conversa. O post 18423990412189371 (0,01%) é LITERALMENTE matemática de dinheiro como espinha (\"R$13,5 mil + R$14 mil = R$1,32 milhão/ano\") — o mesmo gênero que este slot quer entregar como corpo do post. Trocar capa e CTA mantendo essa espinha não conserta a causa medida da falha. (3) ENCAMINHAMENTO GENÉRICO: \"lê isso antes de imprimir a tabela\" não entrega nada pra fazer com a tabela — sem script de preço, sem régua de precificação; a amiga recebe uma acusação + matemática motivacional. Campeões compartilhados carregam ferramenta colável. (4) O contraste definitivo: o campeão de PREÇO medido (5,06%, \"Toda vez que você responde o preço na velocidade que a paciente pergunta...\") é conversa — prova que o tema preço performa QUANDO vira conduta, não tese. (5) O próprio slot confessa a fragilidade ao terceirizar: \"o refutador extra do portão decide se a matemática segura o post inteiro\". Não segura.",
+     "evidencia": "1) /Users/saviomoraes/reconecta/agente-carrosseis/checklist-pauta.md linha 26: \"capa = reframe disruptivo ou a objeção literal; miolo = scripts palavra-por-palavra; metodologia nomeada sustenta, nunca lidera\" + linha 34: resposta genérica no teste do encaminhamento = tema volta pra mesa. 2) /Users/saviomoraes/reconecta/agente-carrosseis/data/perf_compact.json: post 18551151403067567 (04/mai, s/r 0,58%, score -2,253) e 18423990412189371 (28/mar, s/r 0,01%, legenda = pura matemática de faturamento \"R$13,5 mil + R$14 mil = R$27,5 mil/semana... R$1,32 milhão/ano\") — ambos negativos, ambos miolo-matemática/pitch; e 3 posts CTA LINK-BIO com s/r 4,54% (30/abr, canetinha branca/condução), 3,83% (01/mai, \"como você conduz a conversa na cadeira\") e 3,75% (27/fev) — refutam que o CTA explique o 0,58%. Top-10 por s/r: 9 de 10 são conversa comercial (objeção WhatsApp 5,79%, vácuo de lead 5,52%, responder preço rápido 5,06%, balcão de informações 3,90%). 3) /Users/saviomoraes/reconecta/agente-carrosseis/data/corpus.json item 11 (SEM19/AD002): verbatim \"Cobrar barato é confessar que não é tão bom\", matemática 100x1k/10x10k e slides 2-4 confirmados como institucional puro (\"mercado R$35bi\", \"oceano de dinheiro\", \"mina de ouro\") — o material que o slot herda não contém uma única linha de conversa com paciente.",
+     "conserto": "Manter a capa-reframe verbatim (\"Cobrar barato é confessar que não é tão bom.\") — ela é real, virgem e casa com o padrão do campeão de 5,79%. Trocar a ESPINHA: o miolo vira a cena comercial onde o preço baixo se manifesta — ex.: a paciente que compara (\"a doutora X faz por metade\") ou a doutora que anuncia o preço já se desculpando — com script palavra-por-palavra de resposta firme, ancorado na doutrina vigente do preço (dizer com firmeza + silêncio absoluto, nunca justificar — SEM22/AD001, SEM29/AD001, fontes já na doutrina.json). A matemática 100x1k vs 10x10k desce pra UM slide de sustentação depois do script, nunca como corpo. Refazer o teste do encaminhamento com entrega concreta: a amiga da tabela recebe o script do que dizer quando compararem o preço dela, não uma acusação. Assim o slot cumpre o §4 (tese contrária + âncora na metodologia) E a linha 26 (conversa lidera, metodologia sustenta)."
+    },
+    {
+     "lente": "Mecânica do viral (frase-que-custa-caro ocupando o post; conversa comercial vs institucional)",
+     "motivo": "A tese já rodou como post inteiro, com a MESMA capa verbatim que o slot propõe como conserto, e mediu s/r 0,58% = exatamente a mediana da era, com score negativo, em medição madura (post de mai, muito além do D+14). A defesa do slot descreve errado o original: \"Por que vender barato é o caminho mais cansativo...\" era a LEGENDA, não a capa — a capa já era o reframe seco \"Cobrar barato é confessar que não é tão bom.\" (padrao afirmacao-disruptiva no corpus). E a matemática 100x1k vs 10x10k já vinha antes do CTA no original (slide 6 vs CTA no slide 9). Sobra como única mudança real a troca de CTA, sem nenhuma medição de que CTA sozinho leve 0,58% a hit. Além disso a \"frase da doutora\" (\"cobro um valor acessível pra não perder ninguém\") tem ZERO ocorrência no corpus — foi fabricada pra vestir uma tese de precificação/posicionamento com a roupa da mecânica vencedora. Os 7/12 hits da mecânica usam frase real de momento de CONVERSA COMERCIAL com script colável no miolo; este slot não tem cena de conversa nem script, o payload é matemática de posicionamento — a categoria com zero hits ≥2% no período (leitura, item 5).",
+     "evidencia": "(1) /Users/saviomoraes/reconecta/agente-carrosseis/data/perf_compact.json — post_id 18551151403067567, 05/04/2026: shares_rate 0.0058, saves_rate 0.0028, score -2.253; campo \"legenda\" começa com \"Por que vender barato é o caminho mais cansativo...\" provando que a pergunta era legenda, não capa. (2) /Users/saviomoraes/reconecta/agente-carrosseis/data/corpus.json — peça SEM19/AD002: hook.headline = \"Cobrar barato é confessar que não é tão bom.\", padrao \"afirmacao-disruptiva\"; estrutura slide 6 = \"A matemática: 100x R$1k (exaustão) vs 10x R$10k (autoridade)\", CTA no slide 9. Grep no corpus por \"valor acess\"/\"não perder ningu\"/\"humildade\"/\"acessível\" = 0 ocorrências. (3) /Users/saviomoraes/reconecta/agente-carrosseis/data/analise-semanal/SEM31-leitura.md — linha 4: mediana da era = 0,58%; item 4: mecânica campeã = frase que a clínica diz achando que é boa + custo em dinheiro (todas frases de conversa real); item 5: todos os 12 hits ≥2% são conversa comercial, zero institucional/metodologia-liderando.",
+     "conserto": "Não tentar salvar via troca de CTA — o dado maduro diz que a tese como post inteiro rende mediana. Se o território \"preço baixo\" for desejado na SEX, reconstruir do zero pela mecânica real dos winners: uma frase REAL do corpus dita num momento de conversa comercial (não uma crença de precificação), com o custo em dinheiro mostrado e um script colável no miolo — por exemplo o território de SEM23/AD007 (\"quanto mais você justifica, mais barata você parece\", frase de conversa medida no corpus), desde que se resolva a adjacência declarada com TER-B; caso contrário, substituir o slot por outra frase-que-custa-caro virgem de conversa comercial."
+    }
+   ]
+  }
+ ]
+}

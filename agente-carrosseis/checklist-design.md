@@ -213,3 +213,15 @@ Pergunta de decisão: **"isso pode acontecer de novo em qualquer post futuro?"**
 | 17 | **Render de prova sem inspeção** ("é só placeholder" NÃO isenta o §3 — foi assim que 16 e o nome em print passaram batidos no mesmo dia) | 21/jul: rendi o AD003 sem abrir nenhum PNG; dois defeitos foram pro preview do usuário | TODO render abre TODOS os PNGs + preview, sem exceção de "prova" |
 | 18 | **Virada de registro embutida na headline da capa** (linha-comentário muito mais larga que a aspa desequilibra e encolhe a capa inteira) | 22/jul: AD005 SEM30, "NUNCA É SOBRE O MARIDO." como 3ª linha; o Sávio pegou no preview | Aspa = `headline`; virada = `sub` (itálico champagne embaixo, canon SEM25/AD002) — §1.1 |
 | 19 | **Punch quebrado pelo browser em silêncio** (linha art-directed larga demais caía em word-wrap e derrubava palavra órfã) | 22/jul: AD005 SEM30 CTA, "PERDER" sozinho na linha; o Sávio pegou no preview | Engine: `.pl` nowrap + guarda no render (`⚠ PUNCH ... REQUEBRAR`); quebrar por unidade de sentido — §1.1b |
+
+## Ênfase de cor (decisão do Sávio, 04/ago/26 — vale pra TODO post novo)
+
+- [ ] **Palavra enfatizada em headline/punch/fecho/body = «champagne», NUNCA {vermelho}.**
+  Conferido nos campeões: NENHUM dos melhores posts (SEM18-26, os 12 hits ≥2%) usa
+  palavra vermelha — a ênfase deles é champagne itálico/bold (canon: SEM25/AD003
+  hero, s/r 3,95%). O vermelho entrou por convenção do engine HTML (`{x}` → #ff2222,
+  pensado pra número/detalhe/borda de callout) e a produção SEM27+ herdou sem dado.
+  *Como aplicar:* no copy.engine.json usar «palavra» (o engine renderiza champagne).
+  `{}` continua existindo só pra DETALHE numérico se algum dia o Sávio pedir — na
+  dúvida, champagne. **Exceção:** capa B (`hero_b`) enfatiza por PESO no mesmo creme
+  (`{x}` vira Inter Black 900, sem cor) — lá o `{}` é correto e fica.
