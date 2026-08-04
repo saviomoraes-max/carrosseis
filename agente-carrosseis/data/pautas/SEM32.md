@@ -64,3 +64,20 @@ print prova_0249 segue tecnicamente inédito no feed.
 **03/ago à noite — portões de TER-SEX caíram no limite de sessão** (finders sem
 veredito). Pela regra "refutador morto não absolve", AD003-AD010 seguem BLOQUEADOS
 até o portão completar. Retomado em 04/ago do cache.
+
+**04/ago — AD003 finalizado com prioridade (pedido do Sávio) e liberado pra postar.**
+Aplicados os 19 achados do portão, deduplicados: (1) print da prova TROCADO — o da
+Maria Eduarda creditava o resultado ao tráfego e citava "outra mentoria", desmentindo
+o punch; entrou prova_0243 (fechamento da semana: "apenas de lead, foram 5
+agendamentos"), inédita por dHash; (2) scripts do slide 4 VARIADOS pra não re-ensinar
+verbatim o SEM30/AD003 publicado há 13 dias (itens 2 e 3 reescritos preservando a
+mecânica; item 1 mantém o verbatim virgem do corpus[49]); (3) D5: corpo do slide 3
+alinhado com a peça-fonte ("a configuração certa traz; a primeira resposta decide");
+(4) fecho novo — o antigo entregava de graça a tese do AD004 do mesmo dia;
+(5) legenda P1-P2 reescritas (cena da conta do custo-por-paciente-fechada, zero eco);
+(6) ênfase champagne aplicada (regra de 04/ago).
+**DECLARAÇÃO DE ADJACÊNCIA (capa):** a capa aspa "QUANTO CUSTA O BOTOX?" divide o
+device "quanto custa" com o SEM30/AD003 publicado em 22/jul (13d). Diferenciação:
+SEM30 = como responder o quanto-custa (conduta no direct); SEM32/AD003 = por que o
+tráfego só entrega essa pergunta e a triagem que a converte. Mantida por ser a
+objeção literal na capa (mecânica dos campeões) — decisão registrada, Sávio ciente.

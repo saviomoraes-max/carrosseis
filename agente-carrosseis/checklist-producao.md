@@ -7,6 +7,28 @@
 
 ---
 
+## PRE-FLIGHT — os 6 cheques que pegaram TUDO nesta operação (rodar SEMPRE, com evidência)
+
+Dado da SEM32 (04/ago): o portão confirmou 78 defeitos em 8 posts produzidos "seguindo
+o checklist". Quase todos caem em 6 famílias. Rode ESTES seis com evidência antes de
+qualquer outra coisa — o resto do checklist detalha, mas é aqui que se ganha o jogo:
+
+1. **Eco legenda↔slide** — nenhum parágrafo da legenda recicla frase/cena de slide
+   (diff literal, parágrafo a parágrafo).
+2. **Eco <14d vs PUBLICADO** — punch/frase/capa contra `territorio-vivo.json` E contra
+   os posts publicados das 2 semanas (o lote da semana conta como publicado).
+3. **D5 doutrina** — `python3 doutrina.py <assunto>` pra cada assunto prescrito; nunca
+   contradizer em silêncio (nem post antigo, nem a peça-fonte, nem o par do dia).
+4. **Prova conecta e não desmente** — o print prova a TESE deste post (não credita
+   outra causa), é inédito (`prints_usados.py` no candidato E no lote) e o punch
+   argumenta sem ecoar o texto do print.
+5. **Adjacência interna do lote** — os 2 posts do MESMO dia não dividem dispositivo,
+   fórmula de capa, molde de legenda nem tese; dias seguidos não repetem fórmula no
+   mesmo trilho.
+6. **Âncora de TUDO** — número/frase/claim sem linha na tabela de âncoras não entra;
+   "plausível no espírito" é inventado (caso R$4 mil: o painel da pauta inventou e a
+   produção quase herdou).
+
 ## 0 · Setup (antes de qualquer palavra)
 
 - [ ] **Li `voice-dna.md` INTEIRO nesta sessão** — os 5 dispositivos, o CANON, "O CHEIRO DE IA", a legenda-fórmula e TODOS os anti-padrões.
@@ -131,6 +153,7 @@ Linha editorial pedida pelo Leonardo (Slack, 14/jul): dois públicos a cobrir no
 
 - [ ] **Portão adversarial rodado** (Workflow: finders por dimensão → verificação adversarial que refuta por padrão). TODOS os diffs confirmados aplicados, re-render, overflow re-conferido.
 - [ ] **Reconciliação de diffs conflitantes (15/jul):** finders diferentes propõem fixes diferentes pra MESMA linha — nunca aplicar em sequência cega. Prioridade: 1º restaurar/preservar verbatim dela · 2º matar o eco/defeito confirmado · 3º contagens de palavra.
+  · *Conserto mínimo preserva a mecânica campeã (04/ago, palavra do Sávio):* "sempre reaproveite as mecânicas que fizeram os campeões serem campeões, trazendo ângulos novos — não trocando tudo". Ao aplicar diff de eco/queimada, a PRIMEIRA opção é variar o mínimo (trocar as palavras que colidem, manter o movimento, a estrutura e a fórmula que performou); reescrever o alvo inteiro é o último recurso, só quando o defeito é a própria mecânica. Diff que "conserta" jogando fora o dispositivo vencedor cria defeito maior do que o que mata.
   **CASEBOOK DE ADJUDICAÇÃO (28/jul — como decidir quando as PRÓPRIAS regras colidem; toda exceção é DECLARADA no relatório, nunca silenciosa):**
   · *Verbatim dela × território reaceso (<7d):* o verbatim SÓ vence se está no uso ancorado original; se é TRANSPLANTE de movimento (ex.: "dá pra resolver isso por aqui mesmo" de foto→áudio) e a string reacendeu num post recente, o território vence — paráfrase declarada que preserva o MOVIMENTO. (Caso: SEM31/AD003 S3.)
   · *Diff confirmado do portão × palavra queimada DENTRO do diff:* nunca aplicar cego — reescrever o diff sem a palavra (caso: diff sugeria "leva pra casa" com "em casa" queimado; virou "antes de te agradecer na saída").
