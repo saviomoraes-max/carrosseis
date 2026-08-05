@@ -227,11 +227,15 @@ html,body{{width:{W}px;height:{H}px;}}
 /* subheadline do hero: a VIRADA de registro embaixo da aspa (canon SEM25/AD002,
    "headline grande + itálico champagne embaixo"). Nunca embutir a virada como
    linha gigante da própria headline — desequilibra a pirâmide e encolhe a capa. */
-.hero-sub{{font-family:'Grift';font-style:italic;font-weight:400;font-size:40px;
+.hero-sub{{font-family:'Grift';font-style:normal;font-weight:400;font-size:40px;
    line-height:1.25;color:{CHAMPAGNE};text-align:center;
    text-shadow:0 2px 14px rgba(10,2,2,.65);}}
 .red{{color:{RED};}}
-.champ{{color:{CHAMPAGNE};font-family:'Grift';font-style:italic;}}
+/* Ênfase champagne = SÓ COR. Nunca itálico, nunca peso menor (regra do Sávio,
+   05/ago/26: "nunca mais coloque alguma palavra em itálico e numa fonte mais
+   fina"). O defeito: .champ era italic sem font-weight, então dentro de uma
+   headline 900 a palavra caía pra 400 — itálica E fininha no meio do display. */
+.champ{{color:{CHAMPAGNE};font-style:normal;font-weight:inherit;}}
 
 /* ---- CAPA B (design novo, Figma RqH8mGZh6JLe5qKl3fo3aw — medidas da API) ----
    headline: caixa de 894px (margens 93), Inter 68/82.3 ls -4.08px, creme #FAF0DE,
@@ -285,7 +289,7 @@ html,body{{width:{W}px;height:{H}px;}}
 
 /* callout (gancho pro próximo slide) */
 .callout{{border:2px solid {RED};border-radius:14px;padding:30px 34px;
-          font-family:'Grift';font-style:italic;font-weight:400;font-size:34px;
+          font-family:'Grift';font-style:normal;font-weight:400;font-size:34px;
           line-height:1.35;color:{CHAMPAGNE};text-align:center;}}
 
 /* prova social — prints whatsapp num bloco próprio (nunca sobrepõe o punch) */

@@ -214,6 +214,18 @@ Pergunta de decisão: **"isso pode acontecer de novo em qualquer post futuro?"**
 | 18 | **Virada de registro embutida na headline da capa** (linha-comentário muito mais larga que a aspa desequilibra e encolhe a capa inteira) | 22/jul: AD005 SEM30, "NUNCA É SOBRE O MARIDO." como 3ª linha; o Sávio pegou no preview | Aspa = `headline`; virada = `sub` (itálico champagne embaixo, canon SEM25/AD002) — §1.1 |
 | 19 | **Punch quebrado pelo browser em silêncio** (linha art-directed larga demais caía em word-wrap e derrubava palavra órfã) | 22/jul: AD005 SEM30 CTA, "PERDER" sozinho na linha; o Sávio pegou no preview | Engine: `.pl` nowrap + guarda no render (`⚠ PUNCH ... REQUEBRAR`); quebrar por unidade de sentido — §1.1b |
 
+## ITÁLICO É PROIBIDO (decisão do Sávio, 05/ago/26 — regra dura)
+
+- [ ] **Nenhuma palavra, frase ou bloco em ITÁLICO. E nenhuma ênfase em peso MENOR
+  que o texto ao redor.** Palavra do Sávio: *"nunca mais faça isso, de colocar alguma
+  palavra em itálico e numa fonte mais fina"*. Ênfase é SÓ COR (champagne), no mesmo
+  peso e no mesmo estilo do texto vizinho.
+  *A causa raiz, consertada no engine em 05/ago:* `.champ` era `font-style:italic`
+  SEM `font-weight`, então dentro de uma headline de peso 900 a palavra enfatizada
+  caía pra 400 — itálica E fininha no meio do display. Agora é
+  `font-style:normal; font-weight:inherit`. `.hero-sub` e `.callout` também perderam
+  o itálico. Quem mexer no engine: não reintroduza `font-style:italic` em lugar nenhum.
+
 ## Ênfase de cor (decisão do Sávio, 04/ago/26 — vale pra TODO post novo)
 
 - [ ] **Palavra enfatizada em headline/punch/fecho/body = «champagne», NUNCA {vermelho}.**
