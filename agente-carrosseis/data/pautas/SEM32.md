@@ -81,3 +81,23 @@ device "quanto custa" com o SEM30/AD003 publicado em 22/jul (13d). Diferenciaç�
 SEM30 = como responder o quanto-custa (conduta no direct); SEM32/AD003 = por que o
 tráfego só entrega essa pergunta e a triagem que a converte. Mantida por ser a
 objeção literal na capa (mecânica dos campeões) — decisão registrada, Sávio ciente.
+
+**05/ago — registro de publicação.** No ar: AD001 (seg 03), AD003 + AD004 + **AD011**
+(ter 04), AD005 (qua 05). AD002 descartado. Falta postar: AD006 (hoje), AD007+AD008
+(qui), AD009+AD010 (sex).
+
+O **AD011** foi um post EXTRA de carona em notícia (Georgina Rodríguez, 04/ago),
+fora do plano original de 10. Função declarada: alcance, seguidores e CONVERSA nos
+comentários — CTA de opinião, sem SUPERCASO e sem link. **Julgar por alcance,
+comentários e seguidores; NUNCA por shares** (precedente medido: Vini Jr, 81.823 de
+alcance com s/r 0,27%). Ele é o primeiro post da conta desenhado pra comentário —
+o recorde atual de comentários é 167 (SEM31/AD006).
+
+**Erro de processo registrado (05/ago):** ao consertar o itálico no engine eu
+re-renderizei e re-exportei o AD004, que já estava publicado desde 04/ago — eu não
+sabia, porque o POSTADO.txt ainda não existia. Os PNGs da pasta ficaram diferentes do
+que está no ar (o publicado tem as ênfases em itálico nos slides 2-6). Marcado na
+pasta. **A regra que falhou:** "checar POSTADO.txt antes de editar" só funciona se o
+marcador for criado NO DIA. Quando a publicação é informada em lote no dia seguinte,
+a janela fica aberta. Mitigação adotada: antes de qualquer re-render em massa,
+PERGUNTAR o que já foi ao ar — não confiar só na ausência do marcador.
