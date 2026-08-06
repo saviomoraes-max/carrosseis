@@ -25,7 +25,16 @@ qualquer outra coisa — o resto do checklist detalha, mas é aqui que se ganha 
 5. **Adjacência interna do lote** — os 2 posts do MESMO dia não dividem dispositivo,
    fórmula de capa, molde de legenda nem tese; dias seguidos não repetem fórmula no
    mesmo trilho.
-6. **Âncora de TUDO** — número/frase/claim sem linha na tabela de âncoras não entra;
+6. **PRE-FLIGHT MECÂNICO ANTES DO PORTÃO (06/ago):** rode o cálculo de *run máximo
+   de palavras contíguas* da legenda contra cada slide, e da legenda/punches contra
+   os OUTROS posts do mesmo dia. Limite: 3 palavras. **Exceção única:** o §5 da
+   legenda espelha o CTA do card por exigência da E2 — ali o run alto é correto.
+   *Por que virou item: no AD012 (06/ago) os 33 agentes do portão não pegaram duas
+   colisões de 4-grama com o AD007 do MESMO DIA ("no seu feed agora" e "e manda pra
+   colega que"); um script de 20 linhas pegou as duas em 2 segundos. Verificação
+   mecânica não substitui o portão, mas o portão também não substitui ela — o que é
+   contável se conta, não se julga.*
+7. **Âncora de TUDO** — número/frase/claim sem linha na tabela de âncoras não entra;
    "plausível no espírito" é inventado (caso R$4 mil: o painel da pauta inventou e a
    produção quase herdou).
 

@@ -138,3 +138,18 @@ referências", "quase agendando sozinho", "criar do zero" — todos livres nos 4
 
 **Função e leitura:** este post é comment-to-DM, então o sinal primário é COMENTÁRIO
 e saves. O campeão de mai fez saves/r 2,86% — é essa a régua, não o share.
+
+**AD012 — fechamento (06/ago).** Portão rodado (33 agentes): 27 achados brutos, 4
+confirmados, todos aplicados — (1) D5: rótulo do pilar 1 virou "EDUCAÇÃO DO PROBLEMA"
+porque "EDUCAÇÃO" cru contradizia a capa do AD001 desta mesma semana ("a paciente que
+você educa fecha com a concorrência"); (2) C5: "desses PILARES" no CTA era
+demonstrativo sem antecedente (nenhum slide dizia "pilar") e invertia a agência —
+virou "desses 4 TIPOS", que ainda fecha o arco com a capa; (3+4) E2: a legenda §2
+reciclava duas frases inteiras do slide 2, substituída por cena adjacente nova.
+Segunda rodada (refutadores que caíram por erro de API): 0 confirmados — mas os
+finders vieram do cache, então essa rodada NÃO é auditoria limpa da versão nova.
+**Por isso rodei o pre-flight mecânico à mão sobre o arquivo final, e ele pegou duas
+colisões que os 33 agentes não pegaram:** "no seu feed agora" e "e manda pra colega
+que" colidiam com o SEM31/AD007 e com o AD007 do MESMO DIA — adjacência de feed
+(D4-a). Corrigido com variação mínima ("Desce três telas do seu feed" / "E marca
+aquela colega"). Virou o item 6 do PRE-FLIGHT no checklist-producao.md.
