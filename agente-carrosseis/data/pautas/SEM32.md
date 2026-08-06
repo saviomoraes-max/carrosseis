@@ -153,3 +153,22 @@ colisões que os 33 agentes não pegaram:** "no seu feed agora" e "e manda pra c
 que" colidiam com o SEM31/AD007 e com o AD007 do MESMO DIA — adjacência de feed
 (D4-a). Corrigido com variação mínima ("Desce três telas do seu feed" / "E marca
 aquela colega"). Virou o item 6 do PRE-FLIGHT no checklist-producao.md.
+
+**AD012 — ajustes finais do Sávio (06/ago):**
+- Ele editou a HERO e trocou a foto. Medição no render (fundo atrás da headline):
+  luz 22,0 · ruído 17,4 — melhor que a média do TOP 4 medido (28,2 · 19,9).
+- Slide 2 trocado a pedido dele: a foto anterior (torcedora gritando na
+  arquibancada, `Sy7ye0XUb8`) não conversava com "um feed só de resultado é um
+  catálogo" e era a mais poluída do post. Entrou `magnific_vuvuuqxa47` (SEM31,
+  editorial, fundo escuro): luz 37,1→28,8 e ruído 20,1→**13,8**, o mais limpo do post.
+  Conferido por dHash contra as 54 imagens em uso nas SEM3x e contra o SEM27/AD010.
+  **Descartada `magnific_DBDBH6Ipcl`** apesar de tecnicamente livre (distância 94):
+  é a mesma modelo, mesma roupa e mesmo cenário da capa do SEM31/AD004, publicado
+  há 8 dias — dHash não pega eco visual de mesma sessão fotográfica.
+- **Gatilho trocado de BANCO para CONTEÚDO** (decisão do Sávio). Zero resíduo de
+  BANCO no JSON. Ver a nota de acento abaixo.
+
+**ERRO DE PROCESSO (06/ago): o catálogo `_pool-imagens.md` tem descrições erradas.**
+Escrevi lendo as 20 imagens em lote e embaralhei; escolhi a foto do slide 2 pelo
+catálogo em vez de abrir a imagem. Aviso gravado no topo do arquivo. Regra nova:
+**imagem se escolhe abrindo a imagem, nunca por descrição de catálogo.**
