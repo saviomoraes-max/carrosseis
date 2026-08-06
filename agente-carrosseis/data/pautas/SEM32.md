@@ -101,3 +101,40 @@ pasta. **A regra que falhou:** "checar POSTADO.txt antes de editar" só funciona
 marcador for criado NO DIA. Quando a publicação é informada em lote no dia seguinte,
 a janela fica aberta. Mitigação adotada: antes de qualquer re-render em massa,
 PERGUNTAR o que já foi ao ar — não confiar só na ausência do marcador.
+
+## AD012 — "Os 4 tipos de conteúdo" (06/ago, pedido do Sávio, 3º post do dia)
+
+**Origem:** PDF "Banco de Referências" (treinamento RECONECTA, 4 pilares, 33
+referências curadas: Educação 4 · Experiência & Bastidor 11 · Lifestyle 3 · Antes e
+Depois 15). O material vai pro direct por automação; o post entrega a LENTE, o DM
+entrega o MATERIAL.
+
+**REUSO DECLARADO DE CAMPEÃO (a decisão central deste post).** Esse material já
+rodou: **SEM20/AD005 "5 Conteúdos No Feed"**, publicado 14/mai/26, mediu
+**s/r 2,59% e saves/r 2,86% com 29.369 de alcance** — hit confirmado, e o MELHOR
+saves/r do acervo inteiro. Gatilho dele: `POST`. Reusado aqui, por escolha do Sávio:
+- a fórmula da capa (número escalado + desproporção "só precisa" + promessa
+  "chegar quase agendando") — mecânica idêntica, número trocado de 5 pra 4;
+- o reframe do miolo ("a saída não é criar mais, é modelar o que já performou");
+- a arquitetura do CTA (o trabalho já foi feito → validado → é chegar e adaptar).
+
+**O que é NOVO (para não ser cópia integral, D4-b):**
+- 4 pilares, não 5 — o material foi consolidado (Experiência e Bastidor viraram um);
+- o conceito **modelagem ≠ cópia** com a engenharia explícita ("por que aquele gancho
+  parou o dedo"), que não existia no post de mai — é o insight novo do PDF;
+- a ENGENHARIA de cada pilar no slide 4 (o "o que observar"), no lugar de um slide
+  por pilar como no original de 8 slides;
+- gatilho **BANCO** (POST está queimado por ser deste mesmo material);
+- prova nova: prova_1381 "primeiro pix de consulta feita pelo direct" — inédita por
+  dHash, e prova a tese literal (o perfil gerou consulta paga sem anúncio).
+
+**Adjacência declarada (D4-a):** SEM32/AD009 "Esperando a Promoção" sai na sexta
+(07/ago) e também toca perfil/feed — dias seguidos. Diferenciação: AD009 é sobre o
+que NÃO postar (promoção virando rotina ensina a esperar desconto); AD012 é sobre a
+ARQUITETURA do feed (quais 4 tipos precisam existir). Superfícies distintas:
+desconto × variedade. SEM31/AD007 (feed cria objeção, d+6) ataca a LEGENDA com ml —
+superfície distinta de novo. Território conferido: "pilares", "modelar", "banco de
+referências", "quase agendando sozinho", "criar do zero" — todos livres nos 4-gramas.
+
+**Função e leitura:** este post é comment-to-DM, então o sinal primário é COMENTÁRIO
+e saves. O campeão de mai fez saves/r 2,86% — é essa a régua, não o share.
