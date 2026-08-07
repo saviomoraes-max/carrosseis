@@ -172,3 +172,14 @@ aquela colega"). Virou o item 6 do PRE-FLIGHT no checklist-producao.md.
 Escrevi lendo as 20 imagens em lote e embaralhei; escolhi a foto do slide 2 pelo
 catálogo em vez de abrir a imagem. Aviso gravado no topo do arquivo. Regra nova:
 **imagem se escolhe abrindo a imagem, nunca por descrição de catálogo.**
+
+**07/ago — hero do AD010 trocada pelo Sávio.** A capa da Anne Hathaway saiu e entrou
+uma foto nova (inédita, conferida no `imagens_usadas.py`). Eu levantei objeção pela
+regra de hero não-sugestiva e ele manteve a decisão: **"se eu coloquei a imagem, é
+pra você usar"** — a política de imagem dele já estava registrada em 03/ago
+("pool fechado, tudo é usável, exceção só quando ele apontar"). Decisão dele,
+registrada, não é achado de portão.
+
+**Efeito colateral bom:** a troca dissolveu a adjacência que o portão tinha apontado
+no AD013 (Anne na capa do AD010 e no AD013 no mesmo dia). Com a Anne só no AD013,
+os dois podem sair hoje sem colisão.
