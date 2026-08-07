@@ -62,7 +62,40 @@ palavra é permanente**, não foi só daquele post.
 
 ---
 
-## 3 · COMO ESTE ARQUIVO ENTRA NO FLUXO
+## 3 · O INIMIGO É COMUM. NUNCA É A DOUTORA.
+
+**A regra:** todo post ataca um inimigo do lado de FORA — o mercado que ensinou
+errado, a formação que não ensinou negócio, a régua que a internet impôs, o jeito que
+sempre foi. **Nunca a leitora.** Ela é a aliada da mentora contra esse inimigo, não o
+problema a ser corrigido.
+
+**Como detectar (rodar em CADA parágrafo de legenda e em CADA punch):** quem é o
+sujeito do erro? Se a resposta for "ela" — ela pede licença, ela tem medo, ela é
+operária, ela tem tentação, ela ainda não é autoridade — **está atacando a doutora**.
+Vira: *ninguém ensinou isso pra ela · o mercado ensinou o contrário · a régua está
+errada · isso nunca foi culpa dela*.
+
+**Vocabulário que denuncia o ataque:** rótulo depreciativo pra ela ("operária",
+"amadora", "explicadora de botox"), "falta coragem", "tentação de", "você ainda",
+"se você quer ser [coisa que ela deveria já ser]", e qualquer construção que ponha a
+transformação como conserto de caráter em vez de mudança de método.
+
+**Cuidado com o corpus:** o acervo antigo TEM esse tom (ex.: "transição operário →
+estrategista", SEM19/AD002). Verbatim do corpus **não** libera o ataque — esta regra
+vence o corpus. Reusar a mecânica sim; reusar a acusação não.
+
+*Caso real (07/ago/26, SEM32/AD010):* os cinco parágrafos da legenda punham o problema
+nela — "precificando como se ainda estivesse pedindo licença", "a travessia de
+OPERÁRIA pra estrategista", "quando bater a tentação de caber no bolso de todo mundo",
+"se você quer ser percebida como autoridade". O Sávio pegou antes de publicar:
+**"a gente tá atacando muito a doutora… isso pode dar muito ruim. A gente sempre tem
+que atacar um inimigo em comum e não a doutora."** Reescrita com o inimigo do lado de
+fora: "Ninguém senta com você na formatura pra ensinar a fazer preço… E o mercado
+ensinou uma conta que não é a da paciente."
+
+---
+
+## 4 · COMO ESTE ARQUIVO ENTRA NO FLUXO
 
 - **Produção:** ler este arquivo no PASSE A, junto com `doutrina.py <assunto>`.
 - **Portão (D5):** a dimensão de coerência de doutrina confere contra este arquivo

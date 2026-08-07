@@ -205,3 +205,18 @@ posts ANTIGOS disseram. Nenhum dos dois era contradição com post anterior — 
 contradição com a METODOLOGIA, que não estava escrita em lugar que a máquina lesse.
 Criado o `doutrina-fixa.md`, que vence o doutrina.json em conflito. Entrou como
 **D5.0** no portão (PARE, antes do resto do D5) e no PASSE A do checklist-producao.
+
+**07/ago — legenda do AD010 refeita: inimigo comum, não a doutora.** Os 5 parágrafos
+punham o erro nela ("pedindo licença", "travessia de OPERÁRIA", "tentação de caber no
+bolso de todo mundo", "se você quer ser percebida como autoridade"). Palavra do Sávio:
+*"a gente tá atacando muito a doutora… isso pode dar muito ruim. A gente sempre tem
+que atacar um inimigo em comum e não a doutora."* Reescrita com o inimigo do lado de
+fora (a formação que não ensina preço · o mercado que ensinou a conta errada). Virou a
+**seção 3 do `doutrina-fixa.md`** e entrou como item (0) do D5.0 no portão.
+Escopo respeitado: só a legenda. **O slide 4 ainda tem o mesmo problema** — punch
+"A TRAVESSIA DE «OPERÁRIA» PRA ESTRATEGISTA" e item "COBRE O PREÇO QUE FALTA CORAGEM"
+— apontado ao Sávio, aguardando decisão dele.
+
+**AD013 foi publicado e ARQUIVADO pelo Sávio** por causa do erro do CRO (ele postou
+antes da correção sair). A versão da pasta já está corrigida; se for republicar, é a
+que está lá.
