@@ -183,3 +183,25 @@ registrada, não é achado de portão.
 **Efeito colateral bom:** a troca dissolveu a adjacência que o portão tinha apontado
 no AD013 (Anne na capa do AD010 e no AD013 no mesmo dia). Com a Anne só no AD013,
 os dois podem sair hoje sem colisão.
+
+## Dois erros de DOUTRINA apontados pelo Sávio (07/ago) — viraram `doutrina-fixa.md`
+
+**1. O CRO na bio (AD013, pego ANTES de publicar).** O item 1 do slide 4 dizia «No
+lugar de "Dentista · Pós em HOF · CRO 00000", a linha que ela resolve: …». A casa
+ensina o oposto: **o registro FICA (é obrigatório de conselho) e a linha de
+posicionamento se SOMA a ele**. Palavra dele: "a gente ensina que tem que ter o CRO,
+mas tem que ter essa frase também… então ele tá em parte certo e parte errado".
+Corrigido para "O CRO fica, é obrigatório. O que falta é a linha de cima."
+Âncora conferida no acervo: SEM24/AD006 e SEM23/AD009.
+
+**2. A palavra "educativo" (AD012, já publicado).** O rótulo cru "EDUCAÇÃO" colide com
+a doutrina central de que paciente super-informada compara preço e fecha com a
+concorrência — e saiu três dias depois de o AD001 desta semana ter capa inteira sobre
+isso. O portão já tinha corrigido pra "EDUCAÇÃO DO PROBLEMA", mas o Sávio confirmou
+que o cuidado é permanente, não era só daquele post.
+
+**Por que os dois passaram:** o `doutrina.py` compara o post novo contra o que os
+posts ANTIGOS disseram. Nenhum dos dois era contradição com post anterior — eram
+contradição com a METODOLOGIA, que não estava escrita em lugar que a máquina lesse.
+Criado o `doutrina-fixa.md`, que vence o doutrina.json em conflito. Entrou como
+**D5.0** no portão (PARE, antes do resto do D5) e no PASSE A do checklist-producao.
