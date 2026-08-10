@@ -220,3 +220,23 @@ Escopo respeitado: só a legenda. **O slide 4 ainda tem o mesmo problema** — p
 **AD013 foi publicado e ARQUIVADO pelo Sávio** por causa do erro do CRO (ele postou
 antes da correção sair). A versão da pasta já está corrigida; se for republicar, é a
 que está lá.
+
+**07/ago — AD002 REATIVADO e publicado.** O slot B de segunda, descartado em 04/ago,
+voltou por decisão do Sávio e fechou a semana. Como ficou 4 dias parado, herdou 3
+regras que nasceram depois dele e precisou de atualização antes de subir:
+1. **ênfase**: `{}` vermelho → `«»` champagne nos slides 2-6 (regra de 04/ago). Era o
+   único post da semana ainda com palavra vermelha.
+2. **termo**: "modelo" solto virou **"paciente modelo"** por extenso na capa e no CTA,
+   a pedido do Sávio ("fale de paciente modelo assim como estamos falando no post").
+3. **legenda refeita pela regra do inimigo comum** (doutrina-fixa §3, nascida hoje):
+   a versão antiga dizia "é assim que a maioria abre a seleção e é ali que ela morre"
+   e "você vai esquecer o passo 3". Agora o inimigo é o mercado que ensinou o formato
+   errado — "Paciente modelo virou sinônimo de trabalhar de graça, e a culpa não é de
+   quem faz: o mercado ensinou assim."
+Pre-flight rodado na versão final: eco legenda×slide limpo, zero 4-grama com post de
+menos de 14 dias (o punch do S6 foi trocado porque "SE VOCÊ QUER A..." colidia com o
+AD008 publicado ontem), sujeito do erro fora da doutora nos 5 parágrafos.
+
+**Fechamento da SEM32: 12 posts publicados** (AD001-AD012 exceto o AD013, que foi
+publicado e arquivado pelo Sávio por causa do erro do CRO, e mais o AD011 e o AD014
+como extras de carona em notícia).
