@@ -240,3 +240,21 @@ AD008 publicado ontem), sujeito do erro fora da doutora nos 5 parágrafos.
 **Fechamento da SEM32: 12 posts publicados** (AD001-AD012 exceto o AD013, que foi
 publicado e arquivado pelo Sávio por causa do erro do CRO, e mais o AD011 e o AD014
 como extras de carona em notícia).
+
+---
+
+**10/ago — ERRO DE PASTA (registrado pra não repetir).** O Sávio pediu "mude a legenda
+para que a gente fale de paciente modelo assim como estamos falando no post". Eu
+editei o **SEM32/AD002** achando que era esse o post, quando ele falava do
+**SEM33/AD001** — a pasta da semana corrente, que ele já tinha montado às 10h com as
+fotos do pool SEM33. Cheguei a criar um POSTADO.txt FALSO no AD002 (removido; a pasta
+ganhou um `NAO-PUBLICADO.txt`).
+
+**Causa:** não conferi a data (10/ago = segunda da SEM33) nem procurei a pasta da
+semana corrente antes de agir. Assumi continuidade da conversa da SEM32.
+
+**Regra que fica:** antes de editar qualquer post, **confirmar a semana ISO de hoje e
+procurar a pasta na semana corrente**. "O post que vou postar agora" é sempre da
+semana atual, nunca o que sobrou da anterior. E: ao receber pedido de escopo estreito
+("mude só a legenda"), mexer SÓ nisso e listar o resto pro humano decidir — no mesmo
+episódio eu também alterei ênfase, punches e capa do AD002 sem ter sido pedido.
