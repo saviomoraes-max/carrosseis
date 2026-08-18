@@ -302,26 +302,29 @@ def montar(prs):
 # ---------------------------------------------------------------- exemplo
 EXEMPLOS = {
     # layout: { idx do placeholder: texto }   <- por IDX, nunca por posicao
-    "Capa": {0: "A agenda do milhão",
+    # Os titulos vao em CAIXA ALTA literal de proposito: o layout ja aplica
+    # caixa alta, mas o Google Slides pode nao honrar esse atributo na
+    # importacao. Assim o exemplo fica certo dos dois jeitos.
+    "Capa": {0: "A AGENDA DO MILHÃO",
              1: "Três pacientes novos por semana. Quatro recorrências. "
                 "O resto é consequência."},
-    "Abertura de seção": {0: "O diagnóstico", 1: "Parte 01"},
-    "Afirmação": {0: "O que trava a agenda não é captação"},
-    "Dado": {0: "Onde a conta vaza", 1: "73%",
+    "Abertura de seção": {0: "O DIAGNÓSTICO", 1: "PARTE 01"},
+    "Afirmação": {0: "O QUE TRAVA A AGENDA NÃO É CAPTAÇÃO"},
+    "Dado": {0: "ONDE A CONTA VAZA", 1: "73%",
              2: "das doutoras que travam em 70k não têm problema de leads. "
                 "Têm problema de retorno: o paciente some depois do primeiro "
                 "procedimento."},
-    "Lista": {0: "As três engrenagens",
+    "Lista": {0: "AS TRÊS ENGRENAGENS",
               1: "Primeira consulta que já agenda a próxima\n"
                  "Retorno tratado como parte do plano, não como recaída\n"
                  "Follow-up que chega antes do paciente sumir"},
-    "Comparação": {0: "Como a agenda muda",
-                   1: "Antes",
+    "Comparação": {0: "COMO A AGENDA MUDA",
+                   1: "ANTES",
                    2: "A doutora vende o procedimento e espera o paciente voltar sozinho.",
-                   3: "Depois",
+                   3: "DEPOIS",
                    4: "A doutora vende o plano e o retorno já sai agendado da cadeira."},
-    "Foto": {0: "Isso acontece na cadeira", 2: "Não no anúncio."},
-    "Encerramento": {0: "Comece pelo retorno", 2: "Próximo passo  /  →"},
+    "Foto": {0: "ISSO ACONTECE NA CADEIRA", 2: "Não no anúncio."},
+    "Encerramento": {0: "COMECE PELO RETORNO", 2: "PRÓXIMO PASSO  /  →"},
 }
 
 
