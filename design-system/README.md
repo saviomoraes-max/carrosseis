@@ -66,20 +66,20 @@ que o time usa.
    e assim ninguém edita o original sem querer
 6. Cole o link lá em cima, no começo deste README, e no guia visual
 
-### Confira na primeira importação (2 minutos)
+### A conversão foi verificada
 
-A conversão de PPTX pro Apresentações é boa, mas não é perfeita. Passe os olhos
-uma vez:
+Importado e conferido no Google Apresentações em **18/ago/2026**. Passou nos
+seis pontos:
 
-- [ ] Os títulos estão em **CAIXA ALTA**
-- [ ] A fonte dos títulos é **Archivo Black**, não Arial
-- [ ] O corpo é **Figtree**
-- [ ] Em **Slide → Aplicar layout** aparecem os 9 nomes em português
-- [ ] O `73%` do slide Dado está vermelho
-- [ ] O fundo bordô está certo, não preto nem branco
+- [x] Títulos em **CAIXA ALTA**
+- [x] Títulos em **Archivo Black**
+- [x] Corpo em **Figtree**
+- [x] Os 9 layouts aparecem em **Slide → Aplicar layout**, com nome em português
+- [x] O `73%` do slide Dado está vermelho
+- [x] Fundo bordô correto
 
-Se algo aí falhar, me avisa exatamente o quê — dá pra corrigir no gerador e
-reimportar.
+**Refaça essa conferência sempre que regerar o `.pptx`** — a conversão é boa, mas
+não é garantida entre versões.
 
 ### Quando mudar o modelo
 
