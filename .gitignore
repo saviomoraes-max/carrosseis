@@ -32,3 +32,6 @@ agente-carrosseis/metricas-ig/.venv/
 agente-carrosseis/metricas-ig/token
 agente-carrosseis/metricas-ig/*.token
 agente-carrosseis/data/metricas-ig/
+
+# Design system — venv local do gerador de PPTX
+.venv-ds/
