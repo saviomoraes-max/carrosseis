@@ -35,6 +35,10 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 FONTS = os.path.join(HERE, "..", "fonts")
 GRAIN = os.path.join(HERE, "..", "grain.png")
 NOISE_B = os.path.join(HERE, "noise-b.jpg")   # textura da capa B (recorte exato do Figma)
+# design C (Figma E1vW9mVqVHmLvttYmcOiVN, lido pela API em 17/ago/26):
+# recortes exatos da geometria dos rects do frame (ver design-c-assets no SSD)
+HC_ISO = os.path.join(HERE, "hc-iso.jpg")            # ISO Noise_03 — screen 32%
+HC_HALFTONE = os.path.join(HERE, "hc-halftone.jpg")  # "10 1" halftone — color-dodge
 
 W, H = 1080, 1350
 MARGIN = 93
@@ -92,6 +96,7 @@ def _fonts_css():
         _font_face("Inter", "Inter-Medium.ttf", "500"),
         _font_face("Inter", "Inter-Bold.ttf", "700"),
         _font_face("Inter", "Inter-Black.ttf", "900"),
+        _font_face("SubdaysTight", "SubdaysTight.ttf", "400"),
     ]
     return "\n".join(faces)
 
@@ -148,6 +153,23 @@ def _inline_hb(text):
         for m in re.finditer(r"\{([^}]*)\}", bloco):
             out.append(_words_spans(bloco[pos:m.start()]))
             out.append(f'<span class="hb-em">{_words_spans(m.group(1))}</span>')
+            pos = m.end()
+        out.append(_words_spans(bloco[pos:]))
+    return "".join(out)
+
+
+def _inline_hc(text):
+    """Marcação da capa C: {palavra} vira SUBLINHADO (textDecoration UNDERLINE do
+    Figma). «» não existe aqui. \\n é respeitado se vier, mas a quebra padrão é
+    natural (caixa de 894px, centrada)."""
+    out = []
+    for i, bloco in enumerate(text.split("\n")):
+        if i:
+            out.append("<br>")
+        pos = 0
+        for m in re.finditer(r"\{([^}]*)\}", bloco):
+            out.append(_words_spans(bloco[pos:m.start()]))
+            out.append(f'<span class="hc-em">{_words_spans(m.group(1))}</span>')
             pos = m.end()
         out.append(_words_spans(bloco[pos:]))
     return "".join(out)
@@ -257,6 +279,24 @@ html,body{{width:{W}px;height:{H}px;}}
 .hb-arrow::after{{content:'';position:absolute;right:-1px;top:-5.4px;width:11px;
    height:11px;border-top:3.6px solid {LABEL};border-right:3.6px solid {LABEL};
    transform:rotate(45deg);}}
+
+/* ---- CAPA C (3º post/dia, Figma E1vW9mVqVHmLvttYmcOiVN — medidas da API) ----
+   headline: caixa de 894px (margens 93), Subdays Tight 114/118.5 ls 2.28px, creme
+   #FAF0DE, caixa NORMAL, quebra NATURAL centrada; ênfase = SUBLINHADO.
+   camadas: bordô -> foto -> gradiente 94% (topo transparente -> #010A11) ->
+   ISO screen 32% -> halftone color-dodge. Sem masthead, sem pill, sem grain A. */
+.hc-wrap{{position:absolute;left:{MARGIN}px;right:{MARGIN}px;bottom:93px;
+   display:flex;flex-direction:column;align-items:center;z-index:6;}}
+.hc-h{{width:100%;font-family:'SubdaysTight';font-weight:400;font-size:114px;
+   line-height:118.5px;letter-spacing:2.28px;color:#faf0de;text-align:center;}}
+.hc-em{{text-decoration:underline;text-decoration-thickness:6px;
+   text-underline-offset:14px;}}
+.hc-grad{{position:absolute;inset:0;z-index:2;opacity:.94;
+   background:linear-gradient(180deg,rgba(26,0,1,0) 28.74%,rgba(1,10,17,1) 69.86%);}}
+.hc-iso{{position:absolute;inset:0;z-index:3;mix-blend-mode:screen;opacity:.32;
+   background-size:1080px 1350px;pointer-events:none;}}
+.hc-half{{position:absolute;inset:0;z-index:4;mix-blend-mode:color-dodge;
+   background-size:1080px 1350px;pointer-events:none;}}
 
 .body{{font-family:'Grift';font-weight:400;font-size:34px;line-height:1.4;
        color:{BODY};text-align:center;}}
@@ -383,6 +423,22 @@ def slide_hero_b(s, base_dir):
             f'<div class="hb-wrap">{headline}{mark}</div></div>')
 
 
+def slide_hero_c(s, base_dir):
+    """Capa do POST C (3º slot do dia). Camadas na ordem exata do Figma."""
+    img = _img_data(s.get("image"), base_dir)
+    photo = f'<img class="photo" src="{img}">' if img else ""
+    iso = (f'<div class="hc-iso" style="background-image:url('
+           f'data:image/jpeg;base64,{_b64_file(HC_ISO)});"></div>'
+           if os.path.exists(HC_ISO) else "")
+    half = (f'<div class="hc-half" style="background-image:url('
+            f'data:image/jpeg;base64,{_b64_file(HC_HALFTONE)});"></div>'
+            if os.path.exists(HC_HALFTONE) else "")
+    headline = f'<div class="hc-h">{_inline_hc(s["headline"])}</div>'
+    return (f'<div class="slide" style="background:{BG_HERO};">{photo}'
+            f'<div class="hc-grad"></div>{iso}{half}'
+            f'<div class="hc-wrap">{headline}</div></div>')
+
+
 def slide_photo(s, base_dir):
     img = _img_data(s.get("image"), base_dir)
     # sem foto ainda (placeholder): centraliza como text pra não ficar void preto no topo.
@@ -473,16 +529,38 @@ def slide_cta(s, base_dir):
 
 
 RENDERERS = {
-    "hero": slide_hero, "hero_b": slide_hero_b, "photo": slide_photo,
+    "hero": slide_hero, "hero_b": slide_hero_b, "hero_c": slide_hero_c,
+    "photo": slide_photo,
     "text": slide_text, "list": slide_list, "proof": slide_proof, "cta": slide_cta,
 }
 
 
-def build_html(slide, base_dir):
+def _skin_css(skin):
+    """Skin dos slides INTERNOS por design do post. skin 'c': punch em Subdays
+    (caixa normal — a copy C é escrita em caixa de frase), ênfase {vermelho} vira
+    SUBLINHADO creme (o C não usa vermelho), grain A vira ISO screen 32%."""
+    if skin != "c":
+        return ""
+    iso = (f"url(data:image/jpeg;base64,{_b64_file(HC_ISO)})"
+           if os.path.exists(HC_ISO) else "none")
+    return (
+        f".display{{font-family:'SubdaysTight';text-transform:none;"
+        f"letter-spacing:.02em;}}"
+        f".red{{color:{CREAM};text-decoration:underline;"
+        f"text-decoration-thickness:5px;text-underline-offset:12px;}}"
+        f".grain{{background-image:{iso};mix-blend-mode:screen;opacity:.32;"
+        f"background-size:1080px 1350px;}}"
+        f".item .num{{color:{CHAMPAGNE};}}"
+        f".callout{{border-color:{CHAMPAGNE};}}"
+    )
+
+
+def build_html(slide, base_dir, skin=None):
     fn = RENDERERS[slide["type"]]
     body = fn(slide, base_dir)
     return (f'<!doctype html><html><head><meta charset="utf-8"><style>'
-            f'{_fonts_css()}{_base_css()}</style></head><body>{body}</body></html>')
+            f'{_fonts_css()}{_base_css()}{_skin_css(skin)}</style></head>'
+            f'<body>{body}</body></html>')
 
 
 def build_preview(slides, out_dir, base_dir):
@@ -577,7 +655,7 @@ _PUNCH_CHECK_JS = """() => {
 #   linhas -> mais de 5 linhas = headline longa demais pra capa
 #   larga  -> palavra única maior que a caixa (não quebra, estoura em silêncio)
 _HERO_B_CHECK_JS = """() => {
-  const h = document.querySelector('.hb-h');
+  const h = document.querySelector('.hb-h') || document.querySelector('.hc-h');
   if (!h) return null;
   const ws = [...h.querySelectorAll('.w')];
   if (!ws.length) return null;
@@ -639,8 +717,9 @@ def render(copy_path, out_dir):
         browser = p.chromium.launch()
         page = browser.new_page(viewport={"width": W, "height": H},
                                 device_scale_factor=1)
+        skin = data.get("design")
         for idx, s in enumerate(slides, 1):
-            page.set_content(build_html(s, base_dir), wait_until="networkidle")
+            page.set_content(build_html(s, base_dir, skin), wait_until="networkidle")
             page.wait_for_timeout(120)
             # hero: garante quebra art-directed intacta (fonte desce até caber)
             fit = page.evaluate(_HERO_FIT_JS)

@@ -86,3 +86,9 @@ Antes→depois real (AD005): ~~"ELA NÃO VEIO COMPRAR PROCEDIMENTO. VEIO COMPRAR
 - "Ela se sente cuidada" (descrição de conceito) em vez de "um áudio de 20 segundos numa terça, sem motivo".
 - "3 amigas" (número chapado) em vez de "3, 5 ou 7 de uma paciente só".
 - Body que EXPLICA o mecanismo em vez de ENCENAR a cena.
+- **FECHO-AFORISMO RIMADO (24/ago/26, SEM35/AD003 — o Sávio: "bafo de IA total").**
+  "Tom não é dom. É treino, um momento por vez." — rima interna + moral da história
+  no rodapé da lista. É a metralhadora de punchline na sua forma mais açucarada:
+  fechar TODO bloco com frase de camiseta. Fix: quando a informação acabou, o slide
+  ACABA. Fecho de lista só quando carrega instrução nova (o saldo do SEM25/AD003),
+  nunca moral, nunca rima, nunca resumo poético do que já foi dito.

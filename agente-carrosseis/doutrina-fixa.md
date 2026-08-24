@@ -95,7 +95,52 @@ ensinou uma conta que não é a da paciente."
 
 ---
 
-## 4 · COMO ESTE ARQUIVO ENTRA NO FLUXO
+## 4 · O TERMO É "HARMONIZAÇÃO FACIAL". SEMPRE POR EXTENSO.
+
+**A regra:** nunca escrever **"HOF"** nem **"harmonização orofacial"**. Em qualquer
+superfície: slide, legenda, roteiro de Reels, anúncio, brief, nome de pasta, arquivo
+interno. O termo é **"harmonização facial"**, por extenso.
+
+**Por quê:** a sigla não se explica nos 2 segundos em que a doutora fria lê a capa, e
+"orofacial" é o vocabulário do conselho e da disputa de resolução, não o vocabulário
+com que ela se descreve. Quem escreve HOF está falando pra dentro do mercado; a gente
+escreve pra quem está rolando o feed.
+
+**Onde isso pega na prática:** exemplo de bio, rótulo de especialidade, descrição de
+pilar, texto de anúncio, e principalmente as linhas herdadas do acervo antigo, que usam
+a sigla à vontade. **Verbatim do corpus não libera a sigla** — esta regra vence o corpus,
+como a regra 3.
+
+*Origem (07/ago/26):* pedido direto do Sávio. O `doutrina-fixa.md` §1 acima cita
+«Dentista · Pós em HOF · CRO 00000» ao narrar o erro do SEM32/AD013 — aquilo é citação
+do post errado, preservada como registro histórico, **não** é modelo a copiar.
+
+---
+
+## 6 · ACERVO ANTIGO NÃO É METODOLOGIA
+
+**A regra:** estar no corpus (post antigo publicado) NÃO autoriza prescrever.
+Prescrição de conduta específica — script, ritual, gesto operacional ("convide o
+marido pra um café", "faça X na recepção") — só entra em post novo se tiver respaldo
+em material ATUAL da metodologia (PDFs das iscas/Caixa Preta, treinamentos, peça
+validada na era atual) ou confirmação do Sávio. O corpus continua sendo a fonte de
+VOZ e de mecanismo; deixou de ser, sozinho, licença pra ensinar.
+
+**Como detectar:** ao ancorar um passo tático, perguntar "isso aparece em algum
+material vivo da metodologia, ou só num post de SEM17-22?". Só no post antigo →
+tratar como candidato e confirmar, nunca publicar direto.
+
+*Caso real (20/ago/26, SEM34/AD009):* o item "se o marido pedir os números →
+convide pra um café na clínica" tinha âncora verbatim no corpus[8] (SEM18 "Segura o
+Orçamento", slide 6) e mesmo assim estava ERRADO: **"não falamos pra fazer café com
+o marido nem nada do tipo. se atenha apenas ao que está na nossa metodologia"**
+(Sávio). Trocado pelo movimento núcleo da mesma peça (tirar a unidade de medida da
+conversa). Nota agravante: qualquer conduta envolvendo "marido" está na família
+queimada E fora da metodologia — dupla razão pra nunca voltar.
+
+---
+
+## 7 · COMO ESTE ARQUIVO ENTRA NO FLUXO
 
 - **Produção:** ler este arquivo no PASSE A, junto com `doutrina.py <assunto>`.
 - **Portão (D5):** a dimensão de coerência de doutrina confere contra este arquivo
@@ -103,3 +148,32 @@ ensinou uma conta que não é a da paciente."
   "adjacência declarável", porque não é repetição, é erro de conteúdo.
 - **Diferença dos dois:** `doutrina.json` diz o que a gente JÁ FALOU (pode conter erro
   publicado). `doutrina-fixa.md` diz o que é CERTO. Em conflito, este vence.
+
+---
+
+## 5 · O "SUPERCASO" SÓ PROMETE O QUE A METODOLOGIA ENTREGA
+
+**A regra:** o CTA de comentário (SUPERCASO ou gatilho de material) é uma PROMESSA:
+"comenta que eu te ensino/entrego no direct". Então ele só entra em post cujo
+conteúdo a metodologia REALMENTE ensina. Tendência de mercado que a casa não ensina
+(clube de assinatura, modelo de negócio de fora, ferramenta alheia) pode virar post
+— mas SÓ como DEBATE DECLARADO: o slide e a legenda dizem com todas as letras que
+não é recomendação nem faz parte do que a gente ensina, o CTA vira conversa
+("comenta o seu lado"), e NUNCA SUPERCASO.
+
+**Como detectar (rodar em todo post de tendência):** o post tem lista de COMO FAZER
++ CTA de comentário? Então ele está prometendo ensino. Ou o tema está na
+metodologia, ou o post vira debate sem prescrição.
+
+**Nunca escrever:** "o desenho do [modelo de fora] em N decisões", "se você quer
+[resultado do modelo de fora]... comenta SUPERCASO", ou qualquer estrutura que
+posicione a casa como professora de um método que não é dela.
+
+*Caso real (18/ago/26, SEM34/AD003 "O Clube dos 15 Mil"):* a v1 apresentava o clube
+de assinatura (tendência ritspay, fora da metodologia) com lista de implementação em
+3 decisões e CTA SUPERCASO. O Sávio pegou antes de publicar: **"eu não entendi de
+onde você achou na nossa metodologia que a gente ensina a fazer clube de assinatura…
+a gente não ensina ninguém a fazer isso."** Refeito como post de conversa: dois
+lados, "não é recomendação" explícito no slide 4 e na legenda, CTA "COMENTA O SEU
+LADO". O ORIGEM da v1 até declarava "não é peça da metodologia" — mas a declaração
+interna não basta: é o POST que não pode soar ensino.

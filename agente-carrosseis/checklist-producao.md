@@ -106,7 +106,7 @@ qualquer outra coisa — o resto do checklist detalha, mas é aqui que se ganha 
 - [ ] **Contagem de ecos por grep** (não de cabeça): palavra-conceito do tema ≤2 no carrossel; verbo estrutural repetido ≤2; construção sintática assinatura ("Você não X. Você Y." / "Quem X, Y") ≤1.
 - [ ] **Quotas de dispositivos (mínimos, com citação):** ≥1 frase pronta exata POR slide de entrega · ≥1 contraste seco no carrossel · ≥1 detalhe concreto inesperado · ≥1 monólogo interno + punch · número de capa escalado/específico quando houver número.
 - [ ] **Emphasis nos lugares certos:** `{vermelho}` na palavra disruptiva do punch (não em palavra neutra); `«champagne»` só em aparte/ironia.
-- [ ] **Regras duras:** zero travessão no meio de frase · zero "high/alto ticket" · zero @handle · zero dado sem print/fonte · frase à paciente jamais expõe limitação do produto (retorno = parte do tratamento) · copy do usuário é literal (ênfase só por cor/peso).
+- [ ] **Regras duras:** zero travessão no meio de frase · zero "high/alto ticket" · zero "HOF"/"harmonização orofacial" (é **harmonização facial**, por extenso) · zero @handle · zero dado sem print/fonte · frase à paciente jamais expõe limitação do produto (retorno = parte do tratamento) · copy do usuário é literal (ênfase só por cor/peso).
 
 ### PASSE E — O adversário interno **(PARE — o passe que separa aprovado de reprovado)**
 - [ ] **Vesti a persona do Sávio e ataquei o texto.** Gerar por escrito as 5 críticas mais prováveis dele — o histórico é o guia: *"tá com cara de IA"* · *"isso não tem pé nem cabeça"* · *"de onde você tirou isso? não é da nossa metodologia"* · *"tá mecânica, não orgânica"* · *"a legenda tá repetindo o carrossel"*. Pra cada uma: ou aponto a evidência de que não se aplica, ou CONSERTO antes de entregar.
@@ -129,7 +129,31 @@ qualquer outra coisa — o resto do checklist detalha, mas é aqui que se ganha 
 
 > **Versão completa:** `checklist-design.md` (régua física do engine, art direction da hero, fx por foto, inspeção slide a slide, engine-vs-post, 15 armadilhas com caso real). Este §5 é o resumo; em produção, rodar o arquivo dedicado.
 
-- [ ] **Renderizar do diretório certo:** `cd carrosseis/_template/html-engine && python3 engine.py "<pasta>/copy.engine.json" "<pasta>/slides"`. **Conferir `ok slide_N` pra TODOS + mtime fresco** (`ls -la slides/`). *Caso real: render sem `cd` falhou silencioso; li "SEM OVERFLOW" de render que não aconteceu e revisei PNG velho.*
+- [ ] **PROTOCOLO DE RENDER VERIFICADO (PARE — endurecido em 24/ago/26, caso "CTA 715"):**
+  o render só conta como feito depois de QUATRO evidências, nesta ordem:
+  1. `cd carrosseis/_template/html-engine && python3 engine.py "<pasta>/copy.engine.json" "<pasta>/slides"`
+     — o `cd` vai NO MESMO comando (o cwd do shell persiste entre chamadas: um `cd`
+     de outro passo quebra o caminho relativo do engine e o python morre em silêncio).
+  2. **Ver as linhas `ok slide_N` impressas, uma por slide.** NUNCA filtrar a saída
+     com `grep -c`/contagem: o erro do python vira "0 avisos" e parece aprovação.
+     Se as linhas `ok` não aparecerem, o render NÃO aconteceu — não importa o que o
+     pipe disse.
+  3. **mtime fresco** dos `slides/slide_N.png` (`ls -la`) — hora de agora, não de horas atrás.
+  4. **Leitura VISUAL (Read) de todo slide cuja copy/imagem mudou**, antes de
+     exportar e antes de avisar o usuário. "O JSON está certo" não prova nada: o
+     usuário vê o PNG.
+  Só depois disso: exportar (`[AA] [SS] [AD00N_M] - Título.png`). Export de PNG
+  velho = entregar o erro com carimbo de novo.
+  *Caso real (24/ago/26): duas re-renderizações do AD001/SEM35 rodaram com cwd
+  errado; o `grep -cE "⚠"` engoliu o erro do python e imprimiu "0"; os PNGs antigos
+  (CTA SUPERCASO) foram re-exportados como novos DUAS vezes e o Sávio recebeu duas
+  entregas erradas seguidas ("aqui não aparece que você atualizou nada" e depois
+  "pq o ad001 ainda está com cta supercaso??"). O JSON estava certo desde o início —
+  a imagem, não.*
+- [ ] **Preview no navegador tem CACHE:** depois de re-render, avisar o usuário de
+  recarregar com força (Cmd+Shift+R) ou reabrir o preview — aba antiga mostra PNG
+  velho e a entrega certa parece errada. Antes de discutir "não mudou nada",
+  verificar o ARQUIVO em disco (Read no PNG), nunca a lembrança nem o navegador.
 - [ ] **`_overflow.json` não existe.** Se existir: cortar COPY (nunca fonte). Micro-corte não resolve — derrubar LINHA inteira: caçar linha órfã (1-2 palavras) no PNG e encurtar ali.
 - [ ] **Abri e OLHEI cada PNG** (Read em todos, SEMPRE que a copy ou imagem mudar):
   - **Hero (engine atualizado 14/jul):** o engine NUNCA mais quebra linha art-directed no meio — desce a fonte de 98px até a linha mais longa caber (piso 60px; abaixo disso avisa "REQUEBRAR" e grava `_overflow.json`). Conferir no render: linhas do PNG = `\n`+1 e corpo não desceu de ~78px (log "hero fit"). Cantos superiores VAZIOS. Legibilidade sobre a foto: fx escolhido OLHANDO a foto (`checklist-design.md` §1.3).
@@ -137,6 +161,19 @@ qualquer outra coisa — o resto do checklist detalha, mas é aqui que se ganha 
   - **Proof — a SELEÇÃO de prints é do agente, nunca do usuário (regra do Sávio, 15/jul):** pool curado nos `img/depoimentos-sugeridos/` das semanas + `DEPOIMENTOS-MAP.md`. REGISTRO por PÁGINA: pXX que já foi ao ar não volta, mesmo em arquivo/crop/versão diferente; detalhe-estrela da mesma clínica idem (caso "tráfego R$250" — cropar a linha resolve); tema do print casa com a TESE do post (ticket alto pra post de preço, consultas pra post de consulta). O punch só fecha DEPOIS dos prints escolhidos, com número literal deles.
   - **Proof (engine atualizado 14/jul):** o bloco de prints abraça o conteúdo sozinho (log "proof fit"; `block_h` só pra travar altura na mão) — conferir clareira equilibrada em cima/embaixo; NENHUM nome/telefone/CNPJ/avatar legível (crop/blur PIL em `_anon`/`_crop`, originais intactos); R$ NÍTIDO; punch = números LITERAIS dos prints. **Print ALTO é CLIPADO em silêncio:** o engine limita o card a 360px (`.print{max-height:360px}`) — se `altura_original × largura_no_slide ÷ largura_original > 360`, o fim da mensagem some SEM aviso. Cropar a bolha essencial antes e CONFERIR NO PNG que a última linha aparece inteira. *(Caso real 09/jul: o "de outubro" que sustentava o punch sumiu no clip; e não chute coordenada de crop em screenshot alto — meça as bolhas por varredura de pixel ou itere crop→olhar.)*
   - **CTA:** card Figma verbatim + "TOQUE NO LINK DA BIO" (ou COMENTE "SUPERCASO" quando o usuário pedir).
+- [ ] **CAPA × SLIDE 2 É DECISÃO, NÃO SORTEIO (regra do Sávio, 24/ago/26):** com o
+  par de fotos do post na mão, comparar as duas PELO PAPEL: capa = a foto que conta
+  a história da headline (protagonista da cena, tensão, cantos livres, terço
+  inferior escurecível); slide 2 = a foto do erro/da outra personagem. Registrar no
+  ORIGEM por que cada uma ganhou o lugar. *Caso real: no "Ela Veio Fazer Botox" a
+  foto editorial elegante estava na capa e a "ela" da história no slide 2 —
+  invertidas, a capa passou a mostrar a protagonista da frase.*
+- [ ] **ALTERAÇÃO DE DESIGN SÓ COM OK DO SÁVIO (PARE — regra dele, 24/ago/26):**
+  fx, sombra, fonte, espaçamento, tipo de slide novo, skin — propor com preview
+  comparativo e ESPERAR a aprovação; nunca aplicar e avisar depois. Padrão vigente
+  de capa A: `fx:{scrim:"strong"}` SEM `shadow` (o fade segura a legibilidade; a
+  sombra na fonte foi banida por ele). Exceção única: bug fix que restaura
+  comportamento já aprovado.
 - [ ] **IMAGENS: POOL SEMANAL, SELEÇÃO NOSSA (novo fluxo, 28/jul):** o Sávio deposita ~20 imagens em `/Volumes/SSD kenipe/downloads/IMG/SEM{xx}/` no início da semana — a seleção é do agente, post a post (como nos prints). Critérios: capa A = cena que encena a tese + cantos superiores vazios + terço inferior escurecível; capa B = retrato editorial com ROSTO NO TERÇO SUPERIOR (o texto vive em 800-1140) e, se possível, objeto que conta a piada da headline (caso 28/jul: telefone antigo + cara de tédio pro post do áudio); slide2 = cena do erro/momento, zona inferior livre. Celebridades reconhecíveis do pool → reservar pros slots de trend. Registrar no NECESSARIO.txt qual arquivo foi usado onde (imagem usada não repete na semana).
 - [ ] **`img/NECESSARIO.txt`** criado no início e atualizado (registra a imagem escolhida por slide).
 - [ ] **`open` no `preview.html`** sempre que renderizar pro usuário.
@@ -206,4 +243,6 @@ Linha editorial pedida pelo Leonardo (Slack, 14/jul): dois públicos a cobrir no
 | 25 | **Valência invertida entre posts consecutivos** (29/jul): "duas linhas" era a SOLUÇÃO ensinada ontem (AD003 "A RESPOSTA DE DUAS LINHAS") e virou a VILÃ hoje ("Recebeu duas linhas de regulamento") — quem salvou o script de ontem reencontra a própria receita como crime | Pior que eco: **contradição**. No mapa de território, marcar o que os posts recentes PRESCREVERAM (não só o que disseram) e checar se o post novo condena algum. Se condenar, nomear a diferença explicitamente ou trocar as palavras |
 | 26 | **Fôrma de punch repetida (as palavras mudam, o molde não)** (29/jul): "O SCRIPT DO BALCÃO, EM 3 TROCAS" × "O SCRIPT DA PRIMEIRA MENSAGEM, EM 3 TEMPOS" (6d) — e "AGENDA NÃO NASCE DE X. NASCE DE Y" × "A VENDA NÃO MORRE NO X. MORRE NO Y" (1d) | Comparar ESQUELETOS, não strings: reduzir cada punch ao molde ("O [rótulo] D[X], EM N [Y]" / "NÃO [verbo] EM A. [verbo] EM B") e checar contra os punches do `territorio-vivo.json`. Molde repetido ≤1 em 21 dias |
 | 27 | **Drible por sinônimo de string proibida** (29/jul): "devolve a pergunta" estava proibida e escrevi "devolve o foco pra ela" — mesma jogada, uma palavra trocada | Proibição é do MOVIMENTO, não da string. Ao contornar uma proibida, perguntar "estou mudando a jogada ou só a fantasia dela?"; se for fantasia, o achado continua vivo |
+| 29 | **Render fantasma v2: pipe que engole o erro** (24/ago — o `cd` de outro passo mudou o cwd, o python morreu e `grep -c` imprimiu "0 avisos") | Protocolo de render verificado (§5): `cd` no MESMO comando + linhas `ok slide_N` visíveis + mtime + Read do slide alterado. Nunca filtrar render com contagem |
+| 30 | **"Feito" sem olhar o pixel** (24/ago — dois avisos de "pronto" com PNG velho; a confiança veio do JSON, não da imagem) | Nenhum "feito" de mudança visual sem Read do PNG renderizado DEPOIS da mudança. O que o usuário vê é o arquivo, não a intenção |
 | 28 | **ELIPSE SEM VERBO NA CAPA** (29/jul, o pior da semana): "«Isso é só na avaliação.» «Agenda pelo link.» E A LEAD, NUNCA MAIS." — nunca mais O QUÊ? A frase não fecha, e está na superfície lida em 2s sem contexto. Passou por 59 agentes do portão | Leitura fria da capa LINHA POR LINHA (§3C) + dimensão SENTIDO no portão (C5), rodando ANTES de território/eco. Elipse ("nunca mais", "e pronto", "e já era") = reprova automática na capa |
