@@ -62,3 +62,31 @@ AD002: hero_c=SyN9BQCUb8 (loira sardenta, jardim dourado, topo claro) ·
 s2=tCFQ409mZJ (Dua selfie em casa — intimidade de rotina).
 AD003: hero_b=gO94XFRSXO (morena coque, estúdio azul-petróleo, encara) ·
 s2=lJ4PdEIgv9 (Mia franja, parede creme — a paciente séria na consulta).
+
+## Fechamento da produção TER→SEX (24/ago, Fable 5)
+
+12 posts produzidos (AD004–AD015), todos com caso real minerado ou cena-ritual,
+ST rodado, render verificado (cd + linhas ok + mtime + leitura visual — o protocolo
+pegou 1 render fantasma em flagrante e ele foi refeito na hora), pre-flight global
+com 30 flags adjudicados (15 consertos de eco/molde aplicados; funcionais de 4
+palavras tolerados e declarados), zero travessão/HOF/marido/handle ("sorte" zero
+por hábito). Iscas: 715 (seg) + INDICA ganha-ganha (ter) + CASO checklist (qui) —
+risco de re-rodada em 6d DECLARADO nos ORIGEM (mandato do Sávio; ângulos inéditos).
+Casting com pool 100% aberto e conferido (31 fotos, zero arquivo repetido; sessões
+próximas declaradas). Exportado com nomenclatura. Conversas com compromisso de
+moderação nas legendas: o time responde comentários todos os dias.
+
+## ADENDO 25/ago — PROVA REINTRODUZIDA
+O Sávio perguntou por que os depoimentos sumiram dos posts: NUNCA foi pedido dele.
+A regra "print não volta" esgotou o pool e o slide de prova foi cortado em silêncio
+a partir da SEM33 (SEM27-32 tinham prova em quase todo post; SEM33-35 zero). Reuso
+liberado por ele em 25/ago: "não tem problema eles já terem sido utilizados".
+
+Ação: prova (slide 6, antes do CTA) adicionada aos 8 posts de aplicação/isca de
+TER-SEX — AD004 (novo valor pago), AD006 (R$17.260 indicação), AD007 (R$826→30
+consultas), AD009 (p06 "quase 700 mil sem antes/depois", crop novo anonimizado),
+AD010 (18→15 fecharam), AD012 (pix de consulta pelo direct), AD013 (poucos leads
+200k), AD015 (12 novas consultas, agenda lotada). Conversas (AD005/008/011/014)
+seguem SEM prova: print de faturamento sequestraria o objetivo (comentário afetivo).
+Renders 7/7 ok por post, prints_usados.py: colisões = fontes declaradas, zero
+repetição interna na semana. Exports renomeados refeitos (7 slides).
