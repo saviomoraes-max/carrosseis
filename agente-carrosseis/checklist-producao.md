@@ -171,12 +171,17 @@ qualquer outra coisa — o resto do checklist detalha, mas é aqui que se ganha 
   ORIGEM por que cada uma ganhou o lugar. *Caso real: no "Ela Veio Fazer Botox" a
   foto editorial elegante estava na capa e a "ela" da história no slide 2 —
   invertidas, a capa passou a mostrar a protagonista da frase.*
-- [ ] **ALTERAÇÃO DE DESIGN SÓ COM OK DO SÁVIO (PARE — regra dele, 24/ago/26):**
-  fx, sombra, fonte, espaçamento, tipo de slide novo, skin — propor com preview
-  comparativo e ESPERAR a aprovação; nunca aplicar e avisar depois. Padrão vigente
-  de capa A: `fx:{scrim:"strong"}` SEM `shadow` (o fade segura a legibilidade; a
-  sombra na fonte foi banida por ele). Exceção única: bug fix que restaura
-  comportamento já aprovado.
+- [ ] **ALTERAÇÃO DE DESIGN OU DE ESTRUTURA SÓ COM OK DO SÁVIO (PARE — regra dele,
+  24/ago/26, ampliada por ele em 25/ago/26):** vale pro visual (fx, sombra, fonte,
+  espaçamento, tipo de slide novo, skin) E pra ESTRUTURA do padrão vencedor —
+  presença/ausência do slide de prova, quantidade e ordem de slides, formato de CTA,
+  componente que entra ou sai da fórmula. Propor com preview comparativo e ESPERAR a
+  aprovação; nunca aplicar (nem CORTAR) e avisar depois. A ampliação nasceu do caso
+  da prova que sumiu 3 semanas sem ninguém pedir (armadilha 31): "preciso que você
+  nunca altere essas coisas sem me perguntar antes". Padrão vigente de capa A:
+  `fx:{scrim:"strong"}` SEM `shadow` (o fade segura a legibilidade; a sombra na
+  fonte foi banida por ele). Exceção única: bug fix que restaura comportamento já
+  aprovado.
 - [ ] **IMAGENS: POOL SEMANAL, SELEÇÃO NOSSA (novo fluxo, 28/jul):** o Sávio deposita ~20 imagens em `/Volumes/SSD kenipe/downloads/IMG/SEM{xx}/` no início da semana — a seleção é do agente, post a post (como nos prints). Critérios: capa A = cena que encena a tese + cantos superiores vazios + terço inferior escurecível; capa B = retrato editorial com ROSTO NO TERÇO SUPERIOR (o texto vive em 800-1140) e, se possível, objeto que conta a piada da headline (caso 28/jul: telefone antigo + cara de tédio pro post do áudio); slide2 = cena do erro/momento, zona inferior livre. Celebridades reconhecíveis do pool → reservar pros slots de trend. Registrar no NECESSARIO.txt qual arquivo foi usado onde (imagem usada não repete na semana).
 - [ ] **`img/NECESSARIO.txt`** criado no início e atualizado (registra a imagem escolhida por slide).
 - [ ] **`open` no `preview.html`** sempre que renderizar pro usuário.
