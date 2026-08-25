@@ -546,6 +546,10 @@ def _skin_css(skin):
     return (
         f".display{{font-family:'SubdaysTight';text-transform:none;"
         f"letter-spacing:.02em;}}"
+        # títulos dos slides internos levemente maiores no C (Sávio, 25/ago:
+        # SubdaysTight a 60px ficava ilegível); a headline da capa (hero_c) não
+        # passa por .punch e segue nos 114px dela.
+        f".punch{{font-size:68px;}}"
         f".red{{color:{CREAM};text-decoration:underline;"
         f"text-decoration-thickness:5px;text-underline-offset:12px;}}"
         f".grain{{background-image:{iso};mix-blend-mode:screen;opacity:.32;"

@@ -90,3 +90,14 @@ AD010 (18→15 fecharam), AD012 (pix de consulta pelo direct), AD013 (poucos lea
 seguem SEM prova: print de faturamento sequestraria o objetivo (comentário afetivo).
 Renders 7/7 ok por post, prints_usados.py: colisões = fontes declaradas, zero
 repetição interna na semana. Exports renomeados refeitos (7 slides).
+
+## ADENDO 25/ago (2) — PROVA EM TODOS + TÍTULOS DO C MAIORES
+Sávio corrigiu a decisão da 1ª leva: depoimento vai em TODO post, conversa incluída
+("faz a tarefa completa"). Adicionada prova aos 5 restantes: AD003 (ticket médio
+6.600 ↔ plano de 6 mil), AD005 (p41 "primeiro 200k a gente nunca esquece" ↔ primeira
+paciente), AD008 ("aiii que paz" ↔ frase guardada, do lado de cá), AD011 (56% vs
+Abril/25 ↔ ano um), AD014 ("240K feliz demais" ↔ versão da doutora; nome borrado).
+15/15 posts da semana com prova. Zero print repetido na semana (varredura ok).
+Engine: skin C com .punch a 68px (era 60 herdado, ilegível em SubdaysTight) — pedido
+dele; headline da capa C intocada (114px). Capa do AD014 requebrada (linha 2 estourava
+o box e órfã "paciente" aparecia — pego no Read do PNG).
