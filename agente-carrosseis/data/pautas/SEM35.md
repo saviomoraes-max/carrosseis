@@ -115,3 +115,11 @@ descartado (contexto eleitoral; só havia imagem de campanha = endosso involunt�
 Renders: 42/42 ok, zero avisos; prova em todos (prints do pool SEM27, reuso autorizado,
 zero repetição interna na semana); capa do AD018 reformulada em produção (eco de fórmula
 com AD005 publicado). Nome da série "RAIO-X" = default proposto; trocar é 1 palavra.
+
+## ADENDO 27/ago (3) — RAIO-X EM DESIGN D
+Sávio aprovou o demo D ("ficou perfeito") e mandou aplicar aos posts da franquia.
+AD016 e AD019 convertidos pro D (cartões de imagem únicos, chrome dossiê, 10 slides);
+versões A preservadas em _backup-designA/ de cada pasta. ATENÇÃO: AD016 era o post
+de HOJE — se a versão A já subiu, vale a A publicada (imutável) e o D fica de
+referência; se não subiu, publicar o D. AD019 sobe sexta já em D.
+Casting AD019 documentado no ORIGEM (descartes: criança/sensual/zombaria Felca).
