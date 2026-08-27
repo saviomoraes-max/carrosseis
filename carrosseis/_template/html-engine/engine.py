@@ -66,6 +66,13 @@ CHAMPAGNE = "#f2ddb6"   # ênfase
 BODY      = "#ececec"   # corpo
 RED       = "#ff2222"   # números, destaque, borda do callout
 LABEL     = "#f5f5f5"   # masthead / cta
+# ---- design D "dossiê" (Reconecta Design System / Anúncios.fig — aprovado 27/ago,
+# layout INVERTIDO pelo Sávio: chrome no topo, copy embaixo; substitui o design B) ----
+D_PEARL    = "#EED9BD"  # texto principal
+D_GOLD     = "#EECE66"  # kicker/HUD/ênfase (no D a ênfase «» vira dourado)
+D_SCARLET  = "#D3111A"  # SÓ o ponto REC (nunca em texto)
+D_OBSIDIAN = "#161616"  # fundo dos slides
+D_BARS     = [3, 7, 3, 3, 10, 3, 6, 3, 3, 8, 3, 5, 10, 3]  # barcode do dossiê
 
 
 def _b64_font(fname):
@@ -97,6 +104,11 @@ def _fonts_css():
         _font_face("Inter", "Inter-Bold.ttf", "700"),
         _font_face("Inter", "Inter-Black.ttf", "900"),
         _font_face("SubdaysTight", "SubdaysTight.ttf", "400"),
+        # design D — TT Modernoir TRIAL (decisão do Sávio 27/ago: publicar com a
+        # trial e trocar quando licenciar) + Space Mono (chrome do dossiê)
+        _font_face("TTModernoir", "TT_Modernoir_Trial_Bold.ttf", "700"),
+        _font_face("SpaceMono", "SpaceMono-Regular.ttf", "400"),
+        _font_face("SpaceMono", "SpaceMono-Bold.ttf", "700"),
     ]
     return "\n".join(faces)
 
@@ -528,8 +540,49 @@ def slide_cta(s, base_dir):
             f'<div class="center-wrap">{_punch(s)}{_pill(html.escape(cta))}</div></div>')
 
 
+def _d_chrome(dmeta):
+    """Chrome do design D (dossiê): REC + HUD na primeira linha, rodapé INVERTIDO
+    pro topo logo abaixo (barcode + slug + contador) — ordem do Sávio, 27/ago.
+    Injetado pelo build_html em TODO slide quando design == "d"."""
+    dmeta = dmeta or {}
+    week = dmeta.get("week") or ""
+    hud = html.escape(dmeta.get("hud") or f"RECONECTA · SEM {week}".strip(" ·"))
+    slug = html.escape(dmeta.get("slug") or "RECONECTA")
+    idx, total = dmeta.get("idx"), dmeta.get("total")
+    counter = (f'<div class="d-counter">{idx:02d} / {total:02d}</div>'
+               if idx and total else "")
+    bars = "".join(f'<i style="width:{w}px"></i>' for w in D_BARS)
+    return (f'<div class="d-rec"></div><div class="d-reclabel">REC</div>'
+            f'<div class="d-hud">{hud}</div>'
+            f'<div class="d-toprow"><div class="d-barcode">{bars}</div>'
+            f'<div class="d-slug">{slug}</div>{counter}</div>')
+
+
+def slide_hero_d(s, base_dir):
+    """Capa do design D (dossiê INVERTIDO): foto full-bleed com scrim pesado
+    embaixo, kicker + headline + sub ancorados no baixo com ~140px de respiro
+    ("não literalmente colado no bottom"). O chrome vem do build_html. Casting:
+    card de anúncio com texto embutido NUNCA vira fundo; a zona inferior da foto
+    precisa aceitar o bloco de texto (regra do Sávio, 27/ago)."""
+    img = _img_data(s.get("image"), base_dir)
+    photo = f'<img class="photo" src="{img}">' if img else ""
+    scrim = ('<div class="scrim" style="background:linear-gradient(180deg,'
+             'rgba(12,11,11,.72) 0%,rgba(12,11,11,.28) 16%,rgba(12,11,11,0) 30%,'
+             'rgba(12,11,11,.18) 46%,rgba(12,11,11,.66) 64%,'
+             'rgba(12,11,11,.96) 100%);"></div>')
+    kicker = (f'<div class="d-kicker">{_inline(s["kicker"])}</div>'
+              if s.get("kicker") else "")
+    lines = s["headline"].split("\n")
+    inner = "".join(f'<span class="hl">{_inline(l)}</span>' for l in lines)
+    headline = f'<div class="display hero-h d-h">{inner}</div>'
+    sub = f'<div class="d-sub">{_inline(s["sub"])}</div>' if s.get("sub") else ""
+    return (f'<div class="slide" style="background:{D_OBSIDIAN};">{photo}{scrim}'
+            f'<div class="d-col">{kicker}{headline}{sub}</div></div>')
+
+
 RENDERERS = {
     "hero": slide_hero, "hero_b": slide_hero_b, "hero_c": slide_hero_c,
+    "hero_d": slide_hero_d,
     "photo": slide_photo,
     "text": slide_text, "list": slide_list, "proof": slide_proof, "cta": slide_cta,
 }
@@ -539,6 +592,44 @@ def _skin_css(skin):
     """Skin dos slides INTERNOS por design do post. skin 'c': punch em Subdays
     (caixa normal — a copy C é escrita em caixa de frase), ênfase {vermelho} vira
     SUBLINHADO creme (o C não usa vermelho), grain A vira ISO screen 32%."""
+    if skin == "d":
+        # design D "dossiê" (substitui o B, 27/ago): Obsidian + Pearl/Gold,
+        # TT Modernoir no display, Space Mono no chrome; ênfase «»/{} vira DOURADO
+        # (vermelho é SÓ o ponto REC); sem grain, sem pill (o slug faz o papel).
+        return (
+            f".slide{{background:{D_OBSIDIAN} !important;}}"
+            f".display{{font-family:'TTModernoir';letter-spacing:0;}}"
+            f".grain{{display:none;}}"
+            f".pill{{display:none;}}"
+            f".mast{{display:none;}}"  # o HUD do dossiê ocupa o topo-direita
+            f".punch{{color:{D_PEARL};}}"
+            f".champ{{color:{D_GOLD};font-style:normal;}}"
+            f".red{{color:{D_GOLD};}}"
+            f".item .num{{color:{D_GOLD};}}"
+            f".callout{{border-color:{D_GOLD};}}"
+            f".d-rec{{position:absolute;left:64px;top:64px;width:11px;height:11px;"
+            f"border-radius:50%;background:{D_SCARLET};z-index:5;}}"
+            f".d-reclabel{{position:absolute;left:84px;top:58px;font-family:'SpaceMono';"
+            f"font-size:20px;letter-spacing:.16em;color:rgba(238,217,189,.8);z-index:5;}}"
+            f".d-hud{{position:absolute;right:64px;top:58px;font-family:'SpaceMono';"
+            f"font-size:18px;letter-spacing:.18em;color:rgba(238,206,102,.65);"
+            f"text-transform:uppercase;z-index:5;}}"
+            f".d-toprow{{position:absolute;left:64px;right:64px;top:130px;display:flex;"
+            f"align-items:flex-end;z-index:5;}}"
+            f".d-barcode{{display:flex;align-items:flex-end;gap:4px;height:34px;}}"
+            f".d-barcode i{{display:block;background:{D_PEARL};height:34px;}}"
+            f".d-slug{{margin-left:26px;font-family:'SpaceMono';font-size:18px;"
+            f"letter-spacing:.14em;color:rgba(238,217,189,.62);text-transform:uppercase;"
+            f"padding-bottom:6px;}}"
+            f".d-counter{{margin-left:auto;font-family:'SpaceMono';font-size:18px;"
+            f"letter-spacing:.18em;color:rgba(238,206,102,.65);padding-bottom:6px;}}"
+            f".d-col{{position:absolute;left:64px;bottom:140px;width:952px;z-index:4;}}"
+            f".d-col .hero-h{{text-align:left;font-size:96px;color:{D_PEARL};}}"
+            f".d-kicker{{font-family:'SpaceMono';font-size:22px;letter-spacing:.22em;"
+            f"color:{D_GOLD};text-transform:uppercase;margin-bottom:22px;}}"
+            f".d-sub{{font-family:'Inter';font-weight:500;font-size:33px;line-height:1.32;"
+            f"color:rgba(238,217,189,.9);margin-top:30px;max-width:860px;}}"
+        )
     if skin != "c":
         return ""
     iso = (f"url(data:image/jpeg;base64,{_b64_file(HC_ISO)})"
@@ -559,9 +650,12 @@ def _skin_css(skin):
     )
 
 
-def build_html(slide, base_dir, skin=None):
+def build_html(slide, base_dir, skin=None, dmeta=None):
     fn = RENDERERS[slide["type"]]
     body = fn(slide, base_dir)
+    if skin == "d" and body.endswith("</div>"):
+        # chrome do dossiê em TODO slide (REC + HUD + rodapé invertido no topo)
+        body = body[:-len("</div>")] + _d_chrome(dmeta) + "</div>"
     return (f'<!doctype html><html><head><meta charset="utf-8"><style>'
             f'{_fonts_css()}{_base_css()}{_skin_css(skin)}</style></head>'
             f'<body>{body}</body></html>')
@@ -722,8 +816,12 @@ def render(copy_path, out_dir):
         page = browser.new_page(viewport={"width": W, "height": H},
                                 device_scale_factor=1)
         skin = data.get("design")
+        dmeta = {"hud": data.get("hud"), "slug": data.get("slug"),
+                 "week": data.get("week"), "total": len(slides)}
         for idx, s in enumerate(slides, 1):
-            page.set_content(build_html(s, base_dir, skin), wait_until="networkidle")
+            dmeta["idx"] = idx
+            page.set_content(build_html(s, base_dir, skin, dmeta),
+                             wait_until="networkidle")
             page.wait_for_timeout(120)
             # hero: garante quebra art-directed intacta (fonte desce até caber)
             fit = page.evaluate(_HERO_FIT_JS)

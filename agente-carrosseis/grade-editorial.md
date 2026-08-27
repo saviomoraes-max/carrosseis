@@ -19,6 +19,21 @@ audiência vive, não do método que a casa ensina.
 | **C — Comunidade** | 1x/sem | Cena emocional que toda clínica vive, contada como história (linhagem ritual do abraço) | Storytelling ST-01..20, prova casada por punch |
 | **D — Conversão** | 1–2x/sem | Isca ou SUPERCASO, SEMPRE no dia seguinte a um post que provou alcance (audiência aquecida), nunca nascendo BOFU em feed frio | Padrão atual de isca/aplicação, com prova |
 
+## Designs (atualizado 27/ago)
+
+- Rotação vigente: **A / D / C**. O **design B está ARQUIVADO** (ordem do Sávio,
+  27/ago) — `hero_b` continua no engine mas não entra em post novo.
+- **Design D (dossiê)**, derivado do design system do evento (pasta
+  `inbox/Reconecta Design System`): layout INVERTIDO aprovado em 27/ago — chrome no
+  topo (ponto REC + HUD + barcode + slug + contador), bloco kicker + headline + sub
+  ancorado embaixo com ~140px de respiro; TT Modernoir (display) + Space Mono
+  (chrome) + Inter (sub); Pearl/Gold sobre Obsidian; vermelho SÓ no ponto REC.
+  No Raio-X o chrome é da série (CASO Nº, PROVA Nº); em post comum, generaliza
+  (HUD = marcação da semana, kicker = editoria). Foto: card de anúncio com texto
+  embutido NUNCA vira fundo; zona inferior precisa aceitar o bloco de texto.
+- **Fonte TT Modernoir: decisão do Sávio em 27/ago = publicar com a TRIAL por ora**
+  e trocar quando licenciar. Revisitar na primeira renovação de mês.
+
 ## Regras da grade
 
 - **10 slides** como padrão nas franquias A e B (retenção por impressão é o sinal

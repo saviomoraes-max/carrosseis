@@ -204,6 +204,48 @@ Linha editorial pedida pelo Leonardo (Slack, 14/jul): dois públicos a cobrir no
 - [ ] **REGISTRO DE FRASES-TESE — É CONTADOR, NÃO VETO (revisto em 30/jul):** verbatim dela usado como punch/tese em 2+ posts nas últimas ~6 semanas → registrar no bloco `queimadas` do `headlines-repertoire.json` e CONSULTAR esse bloco antes de ancorar punch novo. **A política do Sávio é repetir o que funciona** ("a intenção é sempre repetir o que pode ter feito um post se sair muito bem", 30/jul). Então o registro serve pra você DECLARAR o desgaste — nº de usos + distância do último — e decidir, não pra bloquear sozinho. Só é reprova quando: (a) a repetição cai em posts ADJACENTES no feed (mesmo dia ou dias seguidos), ou (b) a formulação inteira é copiada palavra por palavra, sem ângulo novo. Fora disso, repetir é legítimo — e frequentemente é o certo. *Caso real 30/jul: "a consulta é abatida no procedimento" estava marcada até SEM34 com 2 usos e eu travei o post inteiro; a resposta do Sávio foi liberar. O erro não foi repetir, foi tratar o contador como muro.*
 - [ ] **Prova cruzada no portão:** o workflow de auditoria recebe, além dos postados, os OUTROS posts do lote — repetição interna é reprova igual.
 
+## 6-B · REVISÃO ANTI-BAFO DE IA + ESTRUTURA DAS REFERÊNCIAS (ordem do Sávio, 27/ago/26 — PASSO OBRIGATÓRIO de todo lote)
+
+Rodar a régua da skill `escrita-humana-reconecta` sobre TODA copy (slides E legendas)
+DEPOIS de pronta e ANTES do render final. Não é leitura por cima: é contagem de
+padrão por post. O sintoma-mestre: texto que parece "bem escrito" no automático.
+
+- [ ] **CONTRASTE "não é X, é Y" — contar por post; máx 2 e SÓ nas âncoras** (headline
+  da capa e tese final). *Caso real 27/ago: o AD016 saiu com CINCO no mesmo post
+  ("não chega pedindo licença, chega respondendo", "não é consumidora, é coautora",
+  "não é aposta de influencer, é tese de negócio"...). Como corrigir: afirmar direto
+  a coisa que importa — virou "Quando chega na loja, o produto já tem dona" e "A
+  cliente que viu a própria sugestão virar fórmula briga pelo que assinou".*
+- [ ] **FECHO AFORÍSTICO / TROCADILHO = corta e compromete.** Se o fecho rima, espelha
+  ou brinca com a própria palavra, trocar por consequência concreta. *Casos reais:
+  "Recompra é o único aplauso que não se compra" → "Recompra ninguém consegue
+  comprar: ou a entrega convence, ou a cliente some em silêncio". "Fila não nasce
+  de desconto. Nasce de motivo" → "Fila se constrói com motivo. E desconto de
+  véspera é a confissão pública de que ele faltou". (Linhagem do "Tom não é dom",
+  cortado pelo Sávio em 24/ago.)*
+- [ ] **ABERTURA DE LEGENDA no molde "a pergunta certa não é..."** (e gêmeos) =
+  reescrever entrando pelo FATO. *Caso real (AD017): virou "Um filme esgotou sessões
+  um ano antes de estrear, sem desconto e sem urgência de contador, e todo mundo
+  saiu feliz por ter pagado antes."*
+- [ ] **ECO TESE slide × legenda:** a legenda repete a TESE, nunca a FRASE. Reformular
+  com outras palavras (caso AD020: "voz se elege, carreira se constrói..." ficou no
+  slide; a legenda ganhou "achar talento nunca foi a parte difícil...").
+- [ ] **Cheques rápidos:** travessão zero · anáfora ≤2 · uma frase curta por slide
+  (ritmo) · posição tomada (zero "depende") · dado com lastro ou assumido como leitura.
+
+**Estrutura por franquia (benchmark 27/ago adaptado ao DNA — 4 camadas, prova
+adjacente, autoridade implícita via prova, nunca inventar dado):**
+- **RAIO-X (molde brandsdecoded):** capa = tese-paradoxo + série no sub · slide 2 =
+  quem é o caso com números CONCRETOS · miolo = UMA afirmação por slide, desenvolvida
+  · prova NOSSA como contraponto declarado ("no nosso mundo...") · fecho = TESE, sem
+  CTA de DM · legenda = ensaio curto com FONTE citada + hábito da casa (salva/manda)
+  + pergunta de sugestão de pauta.
+- **TREND (molde vinci):** capa = fato-choque OU pergunta polêmica · slide 2 = a
+  cena/reação com humor + **GANCHO EXPLÍCITO pro slide seguinte** (todo slide termina
+  empurrando o dedo) · mecanismo nomeado · ponte declarada pro negócio · prova ·
+  fecho = PERGUNTA DE OPINIÃO (pill de comentário, sem DM).
+- Ambas: número concreto o mais cedo possível (capa ou slide 2); zero "muito/vários".
+
 ## 7 · Antes de entregar **(PARE)**
 
 - [ ] **Portão adversarial rodado** (Workflow: finders por dimensão → verificação adversarial que refuta por padrão). TODOS os diffs confirmados aplicados, re-render, overflow re-conferido.
@@ -254,4 +296,5 @@ Linha editorial pedida pelo Leonardo (Slack, 14/jul): dois públicos a cobrir no
 | 29 | **Render fantasma v2: pipe que engole o erro** (24/ago — o `cd` de outro passo mudou o cwd, o python morreu e `grep -c` imprimiu "0 avisos") | Protocolo de render verificado (§5): `cd` no MESMO comando + linhas `ok slide_N` visíveis + mtime + Read do slide alterado. Nunca filtrar render com contagem |
 | 30 | **"Feito" sem olhar o pixel** (24/ago — dois avisos de "pronto" com PNG velho; a confiança veio do JSON, não da imagem) | Nenhum "feito" de mudança visual sem Read do PNG renderizado DEPOIS da mudança. O que o usuário vê é o arquivo, não a intenção |
 | 31 | **Prova sumiu em silêncio** (25/ago — a regra "print não volta" esgotou o pool e o modelo cortou o slide de prova SEM avisar; SEM33-35 saíram 3 semanas sem depoimento, até o Sávio perguntar "em que momento eu solicitei isso?") | Componente do padrão vencedor NUNCA se corta pra resolver escassez de recurso: escassez se DECLARA ("pool esgotado: reuso ou prints novos?"). Prova voltou a ser obrigatória em aplicação/isca; reuso liberado (ver item 4) |
+| 32 | **Bafo de IA em série passando por "bem escrito"** (27/ago — o AD016 saiu com CINCO contrastes "não é X, é Y", mais trocadilho no fecho e abertura de legenda no molde "a pergunta certa não é"; leu bonito na primeira passada) | Revisão anti-bafo é PASSO do lote (§6-B): CONTAR os tells por post, não ler por cima. Máx 2 contrastes e só nas âncoras; fecho aforístico corta e compromete; consertos com exemplo real antes→depois no §6-B |
 | 28 | **ELIPSE SEM VERBO NA CAPA** (29/jul, o pior da semana): "«Isso é só na avaliação.» «Agenda pelo link.» E A LEAD, NUNCA MAIS." — nunca mais O QUÊ? A frase não fecha, e está na superfície lida em 2s sem contexto. Passou por 59 agentes do portão | Leitura fria da capa LINHA POR LINHA (§3C) + dimensão SENTIDO no portão (C5), rodando ANTES de território/eco. Elipse ("nunca mais", "e pronto", "e já era") = reprova automática na capa |
