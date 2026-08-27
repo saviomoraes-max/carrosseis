@@ -30,7 +30,13 @@ audiência vive, não do método que a casa ensina.
   (chrome) + Inter (sub); Pearl/Gold sobre Obsidian; vermelho SÓ no ponto REC.
   No Raio-X o chrome é da série (CASO Nº, PROVA Nº); em post comum, generaliza
   (HUD = marcação da semana, kicker = editoria). Foto: card de anúncio com texto
-  embutido NUNCA vira fundo; zona inferior precisa aceitar o bloco de texto.
+  embutido NUNCA vira fundo (nem cartão — cropar o texto fora resolve; rótulo de
+  embalagem pequeno é aceitável); zona inferior precisa aceitar o bloco de texto.
+  **Slides internos levam CARTÃO RETANGULAR de foto** (campo `image` em text/list,
+  altura via `image_h`, default 420) quando o conteúdo pede: a foto CONVERSA com o
+  que o slide diz (pedido do Sávio 27/ago: "pouca imagem pra muito texto"). Lista
+  de 3 itens raramente comporta cartão (o guarda de overflow acusa). Chrome tem
+  véu próprio no topo pra foto clara.
 - **Fonte TT Modernoir: decisão do Sávio em 27/ago = publicar com a TRIAL por ora**
   e trocar quando licenciar. Revisitar na primeira renovação de mês.
 

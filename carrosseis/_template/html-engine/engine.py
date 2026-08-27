@@ -344,6 +344,13 @@ html,body{{width:{W}px;height:{H}px;}}
           font-family:'Grift';font-style:normal;font-weight:400;font-size:34px;
           line-height:1.35;color:{CHAMPAGNE};text-align:center;}}
 
+/* cartão retangular de foto em slide interno (text/list) — pedido do Sávio
+   27/ago no design D ("pouca imagem pra muito texto"): foto que CONVERSA com o
+   slide, sempre LIMPA — imagem com texto embutido é vetada (confunde o leitor,
+   caso pote Sallve). Disponível em qualquer design via campo "image". */
+.photo-card{{width:100%;overflow:hidden;flex-shrink:0;}}
+.photo-card img{{width:100%;height:100%;object-fit:cover;display:block;}}
+
 /* prova social — prints whatsapp num bloco próprio (nunca sobrepõe o punch) */
 .prints-block{{position:relative;width:100%;height:820px;}}
 .print{{position:absolute;z-index:6;border-radius:14px;overflow:hidden;max-height:360px;
@@ -469,11 +476,22 @@ def slide_photo(s, base_dir):
             f'{_bodies(s)}</div></div>')
 
 
+def _photo_card(s, base_dir):
+    """Cartão retangular de foto (opcional) nos slides internos. Altura via
+    "image_h" (default 420). Regra dura: NUNCA foto com texto embutido."""
+    img = _img_data(s.get("image"), base_dir)
+    if not img:
+        return ""
+    h = int(s.get("image_h", 420))
+    return f'<div class="photo-card" style="height:{h}px"><img src="{img}"></div>'
+
+
 def slide_text(s, base_dir):
     callout = (f'<div class="callout">{_inline(s["callout"])}</div>'
                if s.get("callout") else "")
     return (f'<div class="slide"><div class="grain"></div>{_mast()}'
-            f'<div class="center-wrap">{_punch(s)}{_bodies(s)}{callout}</div></div>')
+            f'<div class="center-wrap">{_photo_card(s, base_dir)}'
+            f'{_punch(s)}{_bodies(s)}{callout}</div></div>')
 
 
 def slide_list(s, base_dir):
@@ -488,7 +506,7 @@ def slide_list(s, base_dir):
     fecho = (f'<div class="fecho">{_inline(s["fecho"])}</div>'
              if s.get("fecho") else "")
     return (f'<div class="slide"><div class="grain"></div>{_mast()}'
-            f'<div class="center-wrap">{_punch(s)}'
+            f'<div class="center-wrap">{_photo_card(s, base_dir)}{_punch(s)}'
             f'<div class="list-container">{items}</div>{fecho}</div></div>')
 
 
@@ -552,7 +570,8 @@ def _d_chrome(dmeta):
     counter = (f'<div class="d-counter">{idx:02d} / {total:02d}</div>'
                if idx and total else "")
     bars = "".join(f'<i style="width:{w}px"></i>' for w in D_BARS)
-    return (f'<div class="d-rec"></div><div class="d-reclabel">REC</div>'
+    return (f'<div class="d-topscrim"></div>'
+            f'<div class="d-rec"></div><div class="d-reclabel">REC</div>'
             f'<div class="d-hud">{hud}</div>'
             f'<div class="d-toprow"><div class="d-barcode">{bars}</div>'
             f'<div class="d-slug">{slug}</div>{counter}</div>')
@@ -607,6 +626,11 @@ def _skin_css(skin):
             f".red{{color:{D_GOLD};}}"
             f".item .num{{color:{D_GOLD};}}"
             f".callout{{border-color:{D_GOLD};}}"
+            # véu no topo pra segurar o chrome sobre foto clara (caso slide 2
+            # Sallve 27/ago: HUD dourado sumia no fundo creme)
+            f".d-topscrim{{position:absolute;left:0;right:0;top:0;height:300px;"
+            f"background:linear-gradient(180deg,rgba(12,11,11,.68) 0%,"
+            f"rgba(12,11,11,.38) 55%,rgba(12,11,11,0) 100%);z-index:4;}}"
             f".d-rec{{position:absolute;left:64px;top:64px;width:11px;height:11px;"
             f"border-radius:50%;background:{D_SCARLET};z-index:5;}}"
             f".d-reclabel{{position:absolute;left:84px;top:58px;font-family:'SpaceMono';"
