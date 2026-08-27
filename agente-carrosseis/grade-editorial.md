@@ -36,7 +36,12 @@ audiência vive, não do método que a casa ensina.
   altura via `image_h`, default 420) quando o conteúdo pede: a foto CONVERSA com o
   que o slide diz (pedido do Sávio 27/ago: "pouca imagem pra muito texto"). Lista
   de 3 itens raramente comporta cartão (o guarda de overflow acusa). Chrome tem
-  véu próprio no topo pra foto clara.
+  véu próprio no topo pra foto clara. **IMAGENS ÚNICAS E SEM MEDO (Sávio, 27/ago):**
+  nenhuma foto repete dentro do post, e MESMA PESSOA em duas fotos conta como
+  repetição (caso demo: a mesma modelo na capa interna e no cartão); variar
+  família visual entre cartões (pessoa / produto / textura / cena) e variar
+  altura dos cartões (380–520) — o post de análise pede 5+ momentos visuais
+  em 10 slides, incluindo um cartão grande de statement.
 - **Fonte TT Modernoir: decisão do Sávio em 27/ago = publicar com a TRIAL por ora**
   e trocar quando licenciar. Revisitar na primeira renovação de mês.
 

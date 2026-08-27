@@ -617,6 +617,11 @@ def _skin_css(skin):
         # (vermelho é SÓ o ponto REC); sem grain, sem pill (o slug faz o papel).
         return (
             f".slide{{background:{D_OBSIDIAN} !important;}}"
+            # o chrome do D desce até ~y168 (toprow); a faixa de centralização
+            # dos internos precisa começar abaixo dele (caso slide 3, 27/ago:
+            # cartão de 520px encostou no barcode)
+            f".center-wrap{{padding-top:215px;padding-bottom:150px;"
+            f"box-sizing:border-box;}}"
             f".display{{font-family:'TTModernoir';letter-spacing:0;}}"
             f".grain{{display:none;}}"
             f".pill{{display:none;}}"
