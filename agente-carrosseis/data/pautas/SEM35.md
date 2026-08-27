@@ -101,3 +101,17 @@ Abril/25 ↔ ano um), AD014 ("240K feliz demais" ↔ versão da doutora; nome bo
 Engine: skin C com .punch a 68px (era 60 herdado, ilegível em SubdaysTight) — pedido
 dele; headline da capa C intocada (114px). Capa do AD014 requebrada (linha 2 estourava
 o box e órfã "paciente" aparecia — pego no Read do PNG).
+
+## ADENDO 27/ago — GRADE v2 ANTECIPADA PRA QUI/SEX (ordem do Sávio: "bora fazer os 3 de hoje e 3 de sexta nessa nova pegada")
+AD010–AD015 (lote storytelling de QUI/SEX) ENGAVETADOS sem postar — imutáveis nas pastas.
+QUI 27/ago: AD016 Raio-X ep.01 Sallve (10 slides, fecho em tese) + AD017 trend A Odisseia
+(fila de um ano, fecho opinião "COMENTA O SEU LADO") + AD018 comunidade A Primeira Sala
+(design C, "COMENTA O COMEÇO").
+SEX 28/ago: AD019 Raio-X ep.02 WePink (debate declarado §5, fontes Exame/Metrópoles) +
+AD020 trend Estrelas da Casa/Belo mentor ("COMENTA O NOME") + AD012 isca CASO (já pronta,
+nunca postada — vira o slot D; ManyChat CASO segue ativo).
+Fatos dos 5 posts verificados em fonte (URLs nos ORIGEMs). Candidato Augusto Cury
+descartado (contexto eleitoral; só havia imagem de campanha = endosso involuntário).
+Renders: 42/42 ok, zero avisos; prova em todos (prints do pool SEM27, reuso autorizado,
+zero repetição interna na semana); capa do AD018 reformulada em produção (eco de fórmula
+com AD005 publicado). Nome da série "RAIO-X" = default proposto; trocar é 1 palavra.
