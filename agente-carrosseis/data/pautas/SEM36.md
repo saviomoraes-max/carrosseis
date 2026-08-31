@@ -45,3 +45,15 @@ origem na paciente que não mantinha a prescrição por preço, R$ 1 bilhão em 
 Jade Picon embaixadora. Tese muito mais próxima do nosso público: a queixa repetida
 na cadeira é pesquisa de mercado de graça. Fatos verificados (Exame, Beauty Fair,
 site oficial). 5 momentos visuais, todos do perfil da Jade (sem texto sobreposto).
+
+## EXPORT FINAL (29/ago)
+7 posts exportados, 49 PNGs, auditoria de checksum 7/7 OK (export da raiz idêntico ao
+slides/). Todos com legenda.txt e ORIGEM.txt. Momentos visuais: 6 nos dois Raio-X
+(regra 5+ das franquias de análise), 3 nos posts de conversa/aplicação.
+
+Prontos pra postar: AD001 (Raio-X Creamy/Jade Picon), AD002, AD003 — segunda;
+AD004, AD005 (isca 715) — terça; AD006 (Raio-X Natura/Maisa), AD007 — quarta.
+
+BLOQUEADOS: AD008 a AD012 (qui/sex) — copy, prova e estrutura prontas, faltam só
+hero e slide2. Pool em `/Volumes/SSD kenipe/downloads/IMG/SEM36/` (LEIA-ME com o
+briefing por post). Assim que as imagens chegarem: render + varredura + export.
