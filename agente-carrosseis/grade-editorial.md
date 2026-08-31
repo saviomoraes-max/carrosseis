@@ -25,7 +25,7 @@ audiência vive, não do método que a casa ensina.
   27/ago) — `hero_b` continua no engine mas não entra em post novo.
 - **Design D (dossiê)**, derivado do design system do evento (pasta
   `inbox/Reconecta Design System`): layout INVERTIDO aprovado em 27/ago — chrome no
-  topo (ponto REC + HUD + barcode + slug + contador), bloco kicker + headline + sub
+  topo ENXUTO (SÓ ponto REC + barcode; HUD/slug/contador REMOVIDOS pelo Sávio no dia seguinte: "deu muito ruim... manter só o código de barras e o rec"), bloco kicker + headline + sub
   ancorado embaixo com ~140px de respiro; TT Modernoir (display) + Space Mono
   (chrome) + Inter (sub); Pearl/Gold sobre Obsidian; vermelho SÓ no ponto REC.
   No Raio-X o chrome é da série (CASO Nº, PROVA Nº); em post comum, generaliza

@@ -1,38 +1,38 @@
 # PAUTA SEM36 (31/ago–04/set) — primeira semana na GRADE v2
 
-Status: **DESENHO PARA VALIDAÇÃO DO SÁVIO — nada produzido.**
-Grade de referência: `agente-carrosseis/grade-editorial.md` (aprovada 27/ago).
+Rotação de design (ordem do Sávio, 29/ago): **A / D / B** — o C sai da semana,
+o B volta do arquivo. Design D com chrome ENXUTO (só ponto REC + barcode).
 
 ## A semana
 
-| Dia | Slot | Post | Notas |
-|---|---|---|---|
-| SEG 31/ago | A — Raio-X ep. 01 | **Sallve (Julia Petit): a marca que construiu comunidade antes de vender** | 10 slides. Ponte: o que uma clínica aprende sobre criar audiência que espera o produto. VERIFICAR fatos por pesquisa antes da escrita. |
-| TER 01/set | B — Trend | **Assunto do radar de segunda/terça (janela ≤72h)** | Slot em aberto por design; radar 07:20 decide. Molde vinci: pergunta polêmica na capa, fecho pedindo opinião. |
-| QUA 02/set | C — Comunidade | **Candidatos: "a foto do primeiro consultório" / "o primeiro equipamento" / cena minerada no vault** | Escolha final na mineração de segunda, checklist ST-01..20, prova casada por punch. |
-| QUI 03/set | A — Raio-X ep. 02 | **WePink (Virgínia): a marca que nasceu da audiência — e o preço das polêmicas** | Debate DECLARADO (doutrina §5): análise, sem prescrição. Alternativas se a verificação enfraquecer: Principia (transparência radical) ou Fenty (inclusão como estratégia). |
-| SEX 04/set | B — Trend | **Assunto do radar de quinta/sexta** | Idem terça. |
-| Flutuante | D — Conversão (1x) | **Isca com gatilho mais descansado (715/INDICA/CASO), no D+1 do primeiro post da semana com tração relativa clara** | Se nenhum post tracionar até quinta, a isca NÃO entra — melhor semana sem BOFU que BOFU em feed frio. |
+| Dia | Post | Franquia | Design | Estado |
+|---|---|---|---|---|
+| SEG | AD001 · Raio-X ep.03 · **Principia** ("Ela abriu a fórmula") | Raio-X | D | ✅ pronto (9 slides) |
+| SEG | AD002 · O nome que quase foi | Conversa | B | ✅ pronto (6) |
+| SEG | AD003 · O orçamento visualizado (follow-up) | Aplicação | A | ✅ pronto (7) |
+| TER | AD004 · A primeira vez do preço inteiro | Conversa | B | ✅ pronto (6) |
+| TER | AD005 · O sinal que abre a oferta | Isca 715 | A | ✅ pronto (7) |
+| QUA | AD006 · Raio-X ep.04 · **Natura** ("1,8 milhão vendendo sem loja") | Raio-X | D | ✅ pronto (8) |
+| QUA | AD007 · A paciente que virou amiga | Conversa | B | ✅ pronto (6) |
+| QUA | AD008 · A consulta perfeita que não vendeu | Aplicação | A | ⏳ falta foto |
+| QUI | AD009 · O dia que quase desistiu | Conversa | B | ⏳ falta foto |
+| QUI | AD010 · O pedido que ninguém faz | Isca INDICA | A | ⏳ falta foto |
+| SEX | AD011 · O primeiro equipamento | Conversa | B | ⏳ falta foto |
+| SEX | AD012 · Duas clínicas, mesma técnica (6 engrenagens) | Aplicação | A | ⏳ falta foto |
 
-## Decisões que precisam do Sávio antes da produção
+## Bloqueio declarado
+Pool de imagens ESGOTADO. As 10 fotos da SEM35 que ainda não tinham ido ao ar
+(auditadas por hash contra os posts publicados) foram alocadas nos 7 primeiros.
+Os 5 restantes têm copy, prova e render prontos, mas ficam sem hero/slide2 até o
+Sávio depositar ~12 imagens em `/Volumes/SSD kenipe/downloads/IMG/SEM36/`
+(briefing por post no LEIA-ME.txt da pasta).
 
-1. **Validar esta pauta** (dias, slots, casos propostos).
-2. **Nome da série do slot A** (vai na capa e na numeração dos episódios):
-   opção padrão **"RAIO-X"**; alternativas: "NA LUPA", "O CASO POR TRÁS".
-   ("Decodificado" foi descartado: é a assinatura da brandsdecoded.)
-3. **Fotos:** franquias A e B usam foto de imprensa/divulgação da pessoa/marca do
-   caso (como no post do Vini Jr), não o pool semanal. O pool `IMG/SEM36` segue
-   necessário só pros slots C e D.
-
-## Regras de produção desta semana
-
-- Visual continua 100% nosso (designs A/B/C, tokens, capas sem sombra) — o que
-  muda é estrutura: 10 slides em A/B, análise inteira no post, fecho em tese (A)
-  ou pergunta de opinião (B). Zero CTA de DM fora do slot D.
-- Todo caso nomeado: verificação em fonte (pesquisa web) ANTES da primeira linha;
-  fatos citados com origem no ORIGEM.txt. Zero achismo.
-- Prova em todo post (regra 25/ago) — no Raio-X, a prova nossa entra como
-  contraponto ("no nosso mundo, isso aparece assim") sem quebrar a tese.
-- Legendas: A = ensaio curto (molde brandsdecoded), B = pergunta de opinião,
-  C = convite de história, D = mecânica de gatilho atual.
-- Leitura da semana: segunda 07/set (análise semanal) + veredito D+14 em 14–18/set.
+## Verificações feitas
+- Casos nomeados com fatos conferidos em fonte web (Principia: Memed/Beauty Fair;
+  Natura: Diário do Comércio/Exame/InvestNews) — registrado nos ORIGEM.
+- Varredura visual 100% dos slides com imagem (armadilha 34).
+- Auditoria de export por checksum: 7/7 posts OK.
+- Prints: 12 distintos, zero repetição intra-semana, punches literais ao print.
+- Imagens de marca: só crops/composições SEM texto gráfico sobreposto ao nosso texto
+  (armadilha 33); AD001 refeito 3x até o padrão (capa com produto no topo + prancha
+  de evidências + textura de swatches).

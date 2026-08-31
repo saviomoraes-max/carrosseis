@@ -559,22 +559,14 @@ def slide_cta(s, base_dir):
 
 
 def _d_chrome(dmeta):
-    """Chrome do design D (dossiê): REC + HUD na primeira linha, rodapé INVERTIDO
-    pro topo logo abaixo (barcode + slug + contador) — ordem do Sávio, 27/ago.
-    Injetado pelo build_html em TODO slide quando design == "d"."""
-    dmeta = dmeta or {}
-    week = dmeta.get("week") or ""
-    hud = html.escape(dmeta.get("hud") or f"RECONECTA · SEM {week}".strip(" ·"))
-    slug = html.escape(dmeta.get("slug") or "RECONECTA")
-    idx, total = dmeta.get("idx"), dmeta.get("total")
-    counter = (f'<div class="d-counter">{idx:02d} / {total:02d}</div>'
-               if idx and total else "")
+    """Chrome do design D (dossiê) — ENXUTO por ordem do Sávio (28/ago, "deu muito
+    ruim... manter só o código de barras e o rec"): SÓ o ponto REC + label e o
+    barcode. Sem HUD, sem slug de série, sem contador NN/NN. Injetado pelo
+    build_html em TODO slide quando design == "d"."""
     bars = "".join(f'<i style="width:{w}px"></i>' for w in D_BARS)
     return (f'<div class="d-topscrim"></div>'
             f'<div class="d-rec"></div><div class="d-reclabel">REC</div>'
-            f'<div class="d-hud">{hud}</div>'
-            f'<div class="d-toprow"><div class="d-barcode">{bars}</div>'
-            f'<div class="d-slug">{slug}</div>{counter}</div>')
+            f'<div class="d-toprow"><div class="d-barcode">{bars}</div></div>')
 
 
 def slide_hero_d(s, base_dir):
