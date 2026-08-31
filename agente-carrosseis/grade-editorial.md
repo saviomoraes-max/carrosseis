@@ -14,7 +14,7 @@ audiência vive, não do método que a casa ensina.
 
 | Slot | Freq. | O quê | Molde |
 |---|---|---|---|
-| **A — Raio-X** (série nomeada, ep. numerado) | 2x/sem | Análise de caso REAL e NOMEADO do mundo da beleza/estética (marca, clínica, influencer, celebridade) | brandsdecoded: 10 slides cheios, capa com pessoa real + curiosity gap + número, análise INTEIRA no post, fecho em TESE sem pedido |
+| **A — Raio-X** (série nomeada, ep. numerado) | 2x/sem | Análise de caso REAL e NOMEADO do mundo da beleza/estética. **REGRA DE CASTING (Sávio, 29/ago): só entra caso com ROSTO PÚBLICO** — dono, embaixadora ou celebridade associada, com foto de campanha/perfil disponível. Marca sem rosto (ex.: Principia) não vira episódio: a capa fica genérica e ninguém entende de quem é o post. Rostos mapeados: Maisa e Isabelle Nogueira (Natura), Julia Petit (Sallve), Jade Picon (Creamy), Virgínia (WePink), Bruna Tavares (BT) | brandsdecoded: 10 slides cheios, capa com pessoa real + curiosity gap + número, análise INTEIRA no post, fecho em TESE sem pedido |
 | **B — Trend quente** | 2x/sem | Momento cultural de ≤72h (radar diário vira slot principal) com ponte declarada pro negócio da clínica | vinci: capa foto do momento + pergunta polêmica, humor no slide 2, gancho explícito entre slides, fecho em PERGUNTA DE OPINIÃO |
 | **C — Comunidade** | 1x/sem | Cena emocional que toda clínica vive, contada como história (linhagem ritual do abraço) | Storytelling ST-01..20, prova casada por punch |
 | **D — Conversão** | 1–2x/sem | Isca ou SUPERCASO, SEMPRE no dia seguinte a um post que provou alcance (audiência aquecida), nunca nascendo BOFU em feed frio | Padrão atual de isca/aplicação, com prova |
