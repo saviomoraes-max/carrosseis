@@ -40,8 +40,12 @@ audiência vive, não do método que a casa ensina.
   nenhuma foto repete dentro do post, e MESMA PESSOA em duas fotos conta como
   repetição (caso demo: a mesma modelo na capa interna e no cartão); variar
   família visual entre cartões (pessoa / produto / textura / cena) e variar
-  altura dos cartões (380–520) — o post de análise pede 5+ momentos visuais
-  em 10 slides, incluindo um cartão grande de statement.
+  altura dos cartões (380–520) — o post de análise pede **5+ momentos visuais**
+  em 10 slides, incluindo um cartão grande de statement. **Isso é CONTAGEM, não
+  impressão: antes de exportar, contar slides com imagem (capa + cartões + proof)
+  e comparar com 5.** Fonte quando o pool acaba: crops distintos da mesma sessão
+  (objeto / macro / textura / retrato) e fotos da pessoa pública do caso.
+  Logo de terceiro que aparecer no crop se APAGA com `limpar_texto.py` (LaMa).
 - **Fonte TT Modernoir: decisão do Sávio em 27/ago = publicar com a TRIAL por ora**
   e trocar quando licenciar. Revisitar na primeira renovação de mês.
 
