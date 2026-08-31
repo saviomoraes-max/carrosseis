@@ -7,7 +7,7 @@ o B volta do arquivo. Design D com chrome ENXUTO (só ponto REC + barcode).
 
 | Dia | Post | Franquia | Design | Estado |
 |---|---|---|---|---|
-| SEG | AD001 · Raio-X ep.03 · **Principia** ("Ela abriu a fórmula") | Raio-X | D | ✅ pronto (9 slides) |
+| SEG | AD001 · Raio-X ep.03 · **Creamy** ("R$ 1 bilhão nasceu de uma receita que ninguém conseguia comprar") | Raio-X | D | ✅ pronto (9 slides) |
 | SEG | AD002 · O nome que quase foi | Conversa | B | ✅ pronto (6) |
 | SEG | AD003 · O orçamento visualizado (follow-up) | Aplicação | A | ✅ pronto (7) |
 | TER | AD004 · A primeira vez do preço inteiro | Conversa | B | ✅ pronto (6) |
@@ -36,3 +36,12 @@ Sávio depositar ~12 imagens em `/Volumes/SSD kenipe/downloads/IMG/SEM36/`
 - Imagens de marca: só crops/composições SEM texto gráfico sobreposto ao nosso texto
   (armadilha 33); AD001 refeito 3x até o padrão (capa com produto no topo + prancha
   de evidências + textura de swatches).
+
+## Troca do episódio 03 (29/ago)
+Principia SAIU (arquivada em `_descartado-AD001-principia`, nunca publicada): não tem
+rosto público, e pela regra do Sávio o Raio-X só aceita caso identificável na capa.
+Entrou **Creamy**: dermatologista do SUS (Luiz Romancini) + irmãos Beleze (28 e 23),
+origem na paciente que não mantinha a prescrição por preço, R$ 1 bilhão em 7 anos,
+Jade Picon embaixadora. Tese muito mais próxima do nosso público: a queixa repetida
+na cadeira é pesquisa de mercado de graça. Fatos verificados (Exame, Beauty Fair,
+site oficial). 5 momentos visuais, todos do perfil da Jade (sem texto sobreposto).
