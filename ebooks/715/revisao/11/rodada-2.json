@@ -1,0 +1,85 @@
+{
+  "rodada": 2,
+  "data": "2026-09-09",
+  "lente": "corpus de fala da autora (80.938 palavras)",
+  "juri": "opus-5",
+  "brutos": 10,
+  "confirmados_n": 5,
+  "altas_confirmadas": 3,
+  "aplicados": 5,
+  "revertidos_por_colisao": {},
+  "resumo": "Bloco 11 é quase todo script literal do PDF (os blocos :::frase batem palavra por palavra com fontes/02-manual-objecoes.md, não mexi em nenhum). A prosa composta está no tecido conjuntivo: as linhas \"Por que não funciona\" e as transições entre famílias de objeção. O corpus de 80.938 palavras cobre com folga cinco desses pontos com fala dela sobre exatamente o mesmo assunto, e em dois casos a fala dela é melhor E resolve um problema de fidelidade: (a) o \"abatido do procedimento\" tem raciocínio inteiro dela nas linhas 1134-1156 do corpus (\"a gente acha que vai facilitar o processo de fechamento / só que é exatamente essa percepção que o paciente tem / é quase você falando: eu vou te dar um descontinho agora porque depois vai ser forçado a fechar um procedimento\"), e usá-lo derruba a única afirmação sem fonte que achei no bloco; (b) o \"por que a paciente acha caro\" tem \"se o valor não for percebido, nem se a consulta for de graça vai valer a pena\" (linha 4222), que é mais dela e mais concreto que \"ela está comparando com nada\". Achei também o \"bastão\" (linhas 608, 2008), que o próprio livro já usa nos capítulos 2, 3 e 9 e que sumiu deste capítulo, e a rajada dos maridos (2126-2132), que é a fala mais dela do corpus inteiro sobre essa objeção. Uma troca (linha 28) serve de brinde: hoje a explicação do \"quanto custa o procedimento\" repete quase palavra por palavra uma frase que já está no capítulo 10, e a pergunta dela (\"isso vai ajudar ela a resolver qual o problema?\") quebra a repetição. Não mexi nas transições curtas (\"Essa é quase a mesma frase de cima\", \"Essa é pra quem agenda\") porque já estão boas e curtas. Sem_fonte: só um achado, a consequência inventada de que a paciente que não fecha o procedimento também não volta pra consulta. Todo o resto do bloco que funciona como regra eu encontrei no PDF ou no corpus, inclusive o \"nas que mais aparecem\" (o PDF chama aquela seção de \"Objeções Mais Comuns\") e o \"É o passo dois de novo\" (Etapa 2 do framework é Situação).",
+  "confirmados": [
+    {
+      "tipo": "troca",
+      "gravidade": "alta",
+      "trecho": "Se quiser perder a paciente: “Sim, a avaliação é paga, mas o valor é abatido do procedimento que você for fazer no dia.” Por que não funciona: você acabou de dizer pra ela que a consulta sozinha não vale nada e que ela só vale se virar procedimento no mesmo dia. E é isso que ela escuta. Aí, quando ela não fechar o procedimento, ela também não volta pra consulta.",
+      "fala_dela": "A gente acha quando fala sobre isso que vai facilitar o processo de fechamento, quando fala isso, ah, não vou facilitar aqui porque eu vou vou falar que vai descontar, então a pessoa vai ficar de boa // Só que é exatamente essa percepção que o paciente tem, pô, então tá me forçando a fechar um procedimento, então não quero // Agora você falar que a consulta, o valor da consulta é abatido, se você fizer o procedimento no mesmo dia, aí é quase você falando assim: \"Eu vou te dar um descontinho agora porque depois vai ser forçado a fechar um procedimento",
+      "aplicado": "Se quiser perder a paciente: “Sim, a avaliação é paga, mas o valor é abatido do procedimento que você for fazer no dia.” Por que não funciona: a gente acha, quando fala sobre isso, que vai facilitar o processo de fechamento. Só que é exatamente essa percepção que o paciente tem: pô, então tá me forçando a fechar um procedimento, então não quero. Você falar que o valor da consulta é abatido se ela fizer o procedimento no mesmo dia, aí é quase você falando assim: eu vou te dar um descontinho agora porque depois vai ser forçado a fechar um procedimento.",
+      "cetico": "Grep confirma as tres partes literais no corpus (linhas 1134, 1136 e 1156) e o trecho do livro esta exato na linha 62. A fala trata do mesmo erro (dizer que o valor e abatido no mesmo dia) e a proposta ainda tem o merito de remover a consequencia inventada que o proprio sem_fonte 0 acusa; nao entra em bloco :::frase, nao contradiz o 'Outra que perde' que vem em seguida, e nao tem travessao nem italico."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "alta",
+      "trecho": "Essa objeção aparece quando ela ainda não sabe o que leva da consulta. Durante a conversa não ficou claro como a consulta resolve o problema dela, e aí qualquer preço parece caro, porque ela está comparando com nada.",
+      "fala_dela": "De fato, só existe uma forma da gente gerar valor na conversa, que é quando a pessoa entende que o problema que ela tem a gente consegue ajudar a resolver // E se o valor não for percebido, nem se a consulta for de graça, vai valer a pena",
+      "aplicado": "Essa objeção aparece quando durante a conversa não ficou claro como a consulta resolve o problema dela. De fato, só existe uma forma da gente gerar valor na conversa, que é quando a pessoa entende que o problema que ela tem a gente consegue ajudar a resolver. E se o valor não for percebido, nem se a consulta for de graça vai valer a pena.",
+      "cetico": "As duas falas sao literais (corpus 734 e 4222) e dizem exatamente o que o paragrafo da linha 60 tenta dizer, so que com a definicao dela de gerar valor no lugar da imagem de redator. Bate ate melhor com a fonte 02-manual-objecoes p.243 ('nao ficou claro como o problema dela sera resolvido com a consulta') e o 'nem de graca' antecipa sem contradizer a objecao do concorrente gratuito que aparece na linha 68."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "alta",
+      "trecho": "Gente, repara que toda resposta que continua a conversa devolve uma pergunta. Nenhuma entrega a informação e para por ali.",
+      "fala_dela": "você trouxe que ah, ela fez uma pergunta só, mas as perguntas somos nós que fazemos // Até porque penso o seguinte, se a gente responde as perguntas que a pessoa faz, quem tá no controle da conversa é ela",
+      "aplicado": "Gente, repara que toda resposta que continua a conversa devolve uma pergunta. Nenhuma entrega a informação e para por ali. As perguntas somos nós que fazemos. Até porque penso o seguinte: se a gente responde as perguntas que a pessoa faz, quem tá no controle da conversa é ela.",
+      "cetico": "As duas falas sao literais (corpus 2006 e 2008) e explicam a regra do paragrafo da linha 14, mas 'Ela fez uma pergunta so' e anafora orfa: no corpus ela responde a um caso trazido por um participante, e na linha 14 do livro nenhuma paciente especifica foi apresentada ainda, entao o 'Ela' aponta pro vazio. Confirmo com a clausula pendurada removida, o resto entra igual."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "media",
+      "trecho": "Se quiser perder a paciente: “Os procedimentos começam a partir de R$ X.” Por que não funciona: responder com um número tira o foco do valor real e coloca a paciente numa comparação de preços, e ela vai comparar com base em algo que ela não entende e provavelmente vai embora sem nem saber se esse procedimento seria indicado no caso dela.",
+      "fala_dela": "Então, se ela fala o preço do botox, a gente responde o preço do botox, isso vai ajudar ela a resolver qual o problema?",
+      "aplicado": "Se quiser perder a paciente: “Os procedimentos começam a partir de R$ X.” Por que não funciona: responder com um número coloca a paciente numa comparação de preços, e ela vai comparar com base em algo que ela não entende e provavelmente vai embora sem nem saber se esse procedimento seria indicado no caso dela. Então, se ela fala o preço do botox, a gente responde o preço do botox, isso vai ajudar ela a resolver qual o problema?",
+      "cetico": "A pergunta e literal no corpus (linha 2026) e no contexto exato desta objecao, preco de procedimento no WhatsApp, e o trecho do livro esta identico na linha 28. Fecha o mesmo raciocinio (responder o numero nao ajuda ela a resolver nada), nao entra em :::frase e nao tem travessao nem italico. Vale notar que a repeticao de 'comparacao de precos' com o capitulo 10 continua la, porque a proposta so remove 'tira o foco do valor real'."
+    },
+    {
+      "tipo": "sem_fonte",
+      "gravidade": "media",
+      "afirmacao": "Aí, quando ela não fechar o procedimento, ela também não volta pra consulta.",
+      "cetico": "Confirmado. A fonte 02-manual-objecoes.md p.247-251 so diz 'essa resposta so desvaloriza o trabalho e mostra desespero', e o 01-framework-715.md p.290 so lista 'mencionar que se voce se sentir segura pode fazer o procedimento no mesmo dia' entre os erros. Rodei tambem 'volta.{0,25}consulta', 'consulta.{0,25}volta', 'nao fech', 'nao comparec', 'some' no corpus e nas tres fontes: existe muita coisa sobre a paciente que some depois do preco e sobre quem vai a consulta e nao fecha, mas nada que ligue nao fechar o procedimento a nao voltar pra consulta."
+    }
+  ],
+  "refutados": [
+    {
+      "trecho": "Se quiser perder a paciente: “Claro, é tal coisa.” Por que não funciona: informação sem contexto não gera compromisso. Até a pergunta mais simples tem que levar pra algum lugar, senão ela pega a resposta e vai embora.",
+      "motivo": "A fala e literal (corpus 608), mas diz outra coisa: ali a paciente 'ta fazendo muita pergunta', tres seguidas (nota fiscal, se e medica, antes e depois), e o ponto e parar a metralhadora. O item do livro e o oposto, 'so queria uma informacao rapida mesmo', e a frase que a proposta apaga ('ate a pergunta mais simples tem que levar pra algum lugar') e justamente a que cobre o caso de UMA pergunta simples; trocar por 'parar com as perguntas que ela ta fazendo' importa um plural que esse item nao tem e joga fora a consequencia que fecha o paragrafo."
+    },
+    {
+      "trecho": "Se quiser perder a paciente: “Ok, sem problema! Fico no aguardo.” Por que não funciona: você transfere a responsabilidade da decisão pra alguém que nem participou da conversa e não entende o que a paciente está sentindo.",
+      "motivo": "Os fragmentos sao literais (corpus 2126, 2128, 2132 e 5646), mas 'o tanto de marido que essas mulheres criam' afirma que o marido e inventado, e isso briga com a frase imediatamente anterior do proprio livro ('alguem que nem participou da conversa', que pressupoe que ele existe) e com o script logo abaixo, que valida o marido ('faz total sentido querer conversar com quem a gente confia'). No corpus essa rajada vem no modo 'nao confia no lead, ele ta mentindo, ele ta fugindo' (linha 2124), cinismo que este capitulo deliberadamente nao carrega, e a frase do medo vem de outro momento (5646), como diagnostico de TODAS as objecoes, nao deste item."
+    },
+    {
+      "trecho": "Eu gosto dessa última porque ela recusa a foto sem recusar, e você agradece e devolve pra ela o trabalho de dizer o que ela vê. É o passo dois de novo.",
+      "motivo": "As tres falas sao literais (corpus 1682-1686), mas no corpus elas sustentam outra coisa: por que NAO adianta mostrar casos de antes e depois pra ela ('mostrar uma pessoa, seja ela feia ou bonita, nao vai ajudar'), e nao por que a foto que ela mandou nao resolve. Pior, a insercao repete quase palavra por palavra o que o :::frase duas linhas acima ja diz ('O jeito que a gente se ve e diferente do jeito que os outros nos veem'), e 'modelo' e termo carregado neste livro, que tem um anexo inteiro sobre paciente modelo."
+    },
+    {
+      "trecho": "Então, essa primeira serve pras duas, tá? A segunda é só pra quem disse “caro”.",
+      "motivo": "As duas falas existem (corpus 918 e 8368), mas a de 918 e a RESPOSTA que vem depois da pergunta 'ta caro?', que no livro so aparece no bloco :::frase logo abaixo da linha 50; do jeito proposto o livro entrega a resposta da paciente antes de mostrar a pergunta que a produz. Alem disso a proposta solda os dois fragmentos com um 'porque' que ela nunca disse: no corpus a ressalva 'as vezes nem e objecao financeira' explica 'entender que objecao financeira e essa', nao 'entender o que e caro para ela', e a costura cria uma causalidade inventada."
+    },
+    {
+      "trecho": "As frases de continuar são modelo, tá, do mesmo jeito que eu falei no capítulo 2. Copia a frase, troca pelas palavras que ela mesma usou, e o que você manda depois depende do que ela respondeu.",
+      "motivo": "A acusacao parte de uma premissa falsa: o capitulo 2 abre exatamente a mesma brecha, com o mesmo verbo ('voce copia a pergunta e troca pelas palavras que ela mesma usou', 02-vender-o-que-ela-ja-quer-comprar.md linha 64), e a linha 12 diz 'do mesmo jeito que eu falei no capitulo 2' de proposito, entao a proposta quebra o eco deliberado. Alem disso ela deixa 'troca pelas palavras que ela mesma usou' sem objeto ao apagar 'copia a frase', e no corpus as duas falas sao sobre outra coisa: 1920 e sobre reciclar um script antigo dela mesma, 5742 e sobre nao imitar o jeito do Leo falar em treinamento."
+    }
+  ],
+  "cego": {
+    "veredito": "pessoa",
+    "confianca": 72,
+    "votos": {
+      "pessoa": 3,
+      "ia": 0,
+      "indeciso": 0
+    },
+    "leitores": 3,
+    "data": "2026-09-09"
+  }
+}

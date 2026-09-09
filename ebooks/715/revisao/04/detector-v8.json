@@ -1,0 +1,108 @@
+{
+  "arquivo": "/Users/saviomoraes/reconecta/ebooks/715/revisao/04/capitulo-limpo.md",
+  "palavras": 678,
+  "paragrafos": 16,
+  "frases": 46,
+  "mascarado": {
+    "blocos_script": 10,
+    "marcadores_bloco": 22,
+    "citacoes": 2,
+    "titulos_curtos": 5
+  },
+  "avisos": [],
+  "amostra_pequena": false,
+  "score": 3,
+  "faixa": "limpo (soa gente)",
+  "pontos": 1,
+  "densidade": 1.5,
+  "formula": "densidade = pontos / max(palavras, piso_palavras) * 1000; score = 100 * (1 - exp(-densidade / k)), k = 50, piso_palavras = 300 (texto curto não explode com um achado só). Nota por categoria usa k_categoria sobre a densidade só daquela categoria.",
+  "categorias": {
+    "conteudo": {
+      "rotulo": "Conteúdo e inflação",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "linguagem": {
+      "rotulo": "Linguagem e vocabulário",
+      "achados": 1,
+      "pontos": 1,
+      "densidade": 1.5,
+      "nota": 9
+    },
+    "estrutura": {
+      "rotulo": "Estrutura e ritmo",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "comunicacao": {
+      "rotulo": "Sobras de chatbot",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "meta": {
+      "rotulo": "Uniformidade de ritmo (estatística)",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "calques": {
+      "rotulo": "Calques do inglês e burocratês",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    }
+  },
+  "metricas": {
+    "frases_media_palavras": 14.7,
+    "frases_desvio_padrao": 11.1,
+    "frases_cv": 0.76,
+    "paragrafos": 16,
+    "paragrafos_mediana_palavras": 44,
+    "paragrafos_proporcao_mesmo_tamanho": 0.67,
+    "ritmo_entre_paragrafos_desvio": 0.269,
+    "pontuacao_cv": 0.47,
+    "ttr": 0.386,
+    "frases_mesmo_inicio_proporcao": 0.04,
+    "travessoes": 0,
+    "travessoes_por_mil": 0.0,
+    "dois_pontos": 5,
+    "dois_pontos_por_mil": 7.37,
+    "itens_lista": 0,
+    "proporcao_linhas_em_lista": 0.0,
+    "negritos": 0,
+    "triades": 0,
+    "triades_por_mil": 0.0,
+    "contrastes": 0,
+    "paragrafos_terminando_em_pergunta": 1,
+    "fechos_grandiosos": 0,
+    "hedges": 0,
+    "hedges_por_mil": 0.0
+  },
+  "achados": [
+    {
+      "id": "tr_a_partir_disso",
+      "categoria": "linguagem",
+      "subtipo": "transicao",
+      "gravidade": "baixa",
+      "peso": 1,
+      "texto": "A partir daí",
+      "inicio": 5073,
+      "fim": 5085,
+      "explicacao": "Conector de sequência automática.",
+      "sugestao": "'aí', 'depois'",
+      "contribuicao": 1,
+      "linha": 85,
+      "trecho": "«A partir daí» ela não está mais conversando com uma atendente."
+    }
+  ],
+  "achados_ocultos": 0,
+  "min_gravidade": "baixa"
+}

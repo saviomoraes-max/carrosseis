@@ -1,0 +1,123 @@
+{
+  "arquivo": "/Users/saviomoraes/reconecta/ebooks/715/revisao/10/capitulo-limpo.md",
+  "palavras": 799,
+  "paragrafos": 16,
+  "frases": 63,
+  "mascarado": {
+    "blocos_script": 5,
+    "marcadores_bloco": 12,
+    "citacoes": 5,
+    "titulos_curtos": 4
+  },
+  "avisos": [],
+  "amostra_pequena": false,
+  "score": 14,
+  "faixa": "limpo (soa gente)",
+  "pontos": 6,
+  "densidade": 7.5,
+  "formula": "densidade = pontos / max(palavras, piso_palavras) * 1000; score = 100 * (1 - exp(-densidade / k)), k = 50, piso_palavras = 300 (texto curto não explode com um achado só). Nota por categoria usa k_categoria sobre a densidade só daquela categoria.",
+  "categorias": {
+    "conteudo": {
+      "rotulo": "Conteúdo e inflação",
+      "achados": 1,
+      "pontos": 1,
+      "densidade": 1.3,
+      "nota": 8
+    },
+    "linguagem": {
+      "rotulo": "Linguagem e vocabulário",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "estrutura": {
+      "rotulo": "Estrutura e ritmo",
+      "achados": 1,
+      "pontos": 5,
+      "densidade": 6.3,
+      "nota": 34
+    },
+    "comunicacao": {
+      "rotulo": "Sobras de chatbot",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "meta": {
+      "rotulo": "Uniformidade de ritmo (estatística)",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "calques": {
+      "rotulo": "Calques do inglês e burocratês",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    }
+  },
+  "metricas": {
+    "frases_media_palavras": 12.7,
+    "frases_desvio_padrao": 7.7,
+    "frases_cv": 0.6,
+    "paragrafos": 16,
+    "paragrafos_mediana_palavras": 64,
+    "paragrafos_proporcao_mesmo_tamanho": 0.38,
+    "ritmo_entre_paragrafos_desvio": 0.122,
+    "pontuacao_cv": 1.06,
+    "ttr": 0.354,
+    "frases_mesmo_inicio_proporcao": 0.05,
+    "travessoes": 0,
+    "travessoes_por_mil": 0.0,
+    "dois_pontos": 8,
+    "dois_pontos_por_mil": 10.01,
+    "itens_lista": 0,
+    "proporcao_linhas_em_lista": 0.0,
+    "negritos": 0,
+    "triades": 1,
+    "triades_por_mil": 1.25,
+    "contrastes": 0,
+    "paragrafos_terminando_em_pergunta": 1,
+    "fechos_grandiosos": 0,
+    "hedges": 1,
+    "hedges_por_mil": 1.25
+  },
+  "achados": [
+    {
+      "id": "m_dois_pontos",
+      "categoria": "estrutura",
+      "subtipo": "pontuacao",
+      "gravidade": "media",
+      "peso": 5,
+      "texto": "8 dois-pontos em 799 palavras",
+      "inicio": 168,
+      "fim": 170,
+      "explicacao": "Dois-pontos demais no meio de frase: cadência de slide.",
+      "sugestao": "Troque por ponto ou vírgula; deixe só os que apresentam algo.",
+      "contribuicao": 5,
+      "linha": 7,
+      "trecho": "Naqueles dez minutinhos da salinha, o que passou pela minha cabeça foi isso«: »e se for muito caro, será que é prioridade agora, será que eu não encontro outro jeito."
+    },
+    {
+      "id": "ct_talvez",
+      "categoria": "conteudo",
+      "subtipo": "hedge",
+      "gravidade": "baixa",
+      "peso": 1,
+      "texto": "provavelmente",
+      "inicio": 815,
+      "fim": 828,
+      "explicacao": "Hedge adverbial (um por texto passa; a densidade é o tell).",
+      "sugestao": "afirme ou corte",
+      "contribuicao": 1,
+      "linha": 7,
+      "trecho": "O controle passou pra ela, e ela «provavelmente» não volta."
+    }
+  ],
+  "achados_ocultos": 0,
+  "min_gravidade": "baixa"
+}

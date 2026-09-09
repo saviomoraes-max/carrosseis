@@ -1,0 +1,71 @@
+09-passo-7-fechamento.md · rodada 1 · brutos 29 · confirmados 14 · altas 4 · cego ia 72
+
+[1] tell/alta
+  TRECHO: E manda a chave PIX numa mensagem separada, pra ela copiar e colar sem ter que selecionar no meio do texto. Parece detalhe. É a diferença entre pagar agora e pagar quando chegar em casa.
+  DETALHE: 1.1 Contraste fácil + 3.2 Carimbo de importância ("E isso não é detalhe"). A fôrma "Parece X. É Y." aparece duas vezes em 650 palavras; a outra é "Parece neutra. É a paciente dizendo que a consulta virou um custo." A met
+  CORRECAO: Linha 44: "E manda a chave PIX numa mensagem separada, porque aí ela só copia e cola. Chave no meio do texto ela deixa pra pagar quando chegar em casa." // Linha 62: "A leitura negativa aqui é uma frase pequena, e passa batida: vou ter que me organizar pra ir na consulta. É a paciente dizendo que a consulta virou um custo. Isso acontece quando o preço da consulta parece maior do que o preço de não resolver o problema, e quando a gente não mostrou, ao longo da conversa, o que a consulta resolve."
+
+[2] tell/media
+  TRECHO: Um horário. Não "você prefere manhã ou tarde?", não "qual dia fica melhor?". Um.
+  DETALHE: 1.3 Fragmentos em rajada (rajada de negativas) + 1.1 em cluster. É o terceiro contraste em 250 palavras, e o "Um." de uma palavra é decisão encenada. Somam-se "Se ela hesita no horário, o problema não está no horário. Es
+  CORRECAO: Linha 30: "Primeiro, você oferece um horário." Linha 36 inteira: "Um horário só. Se não funcionar, ela mesma fala quando pode, e aí você olha a agenda pra aquele dia. E o bastão continua com você: você ofereceu, ela reagiu." Linha 58: "O segundo erro é o que explica quase todo \"vou pensar\" que chega no fechamento. Se ela hesita no horário, algum passo anterior ficou raso, e insistir no horário só piora. O que funciona é voltar, e eu falo disso no capítulo 10."
+
+[3] tell/media
+  TRECHO: Se não funcionar, ela naturalmente vai dizer quando pode, e aí você verifica a disponibilidade pra aquele momento específico.
+  DETALHE: 7.6 Advérbio em -mente entre sujeito e verbo ("she'll naturally say"; em português o advérbio vai depois do verbo ou some) + 3.10 Intensificador oco: "específico" duas vezes em três frases ("um único horário específico",
+  CORRECAO: Se não funcionar, ela mesma fala quando pode, e aí você olha a agenda pra aquele dia. // E antes: Primeiro, você oferece um horário só.
+
+[4] tell/media
+  TRECHO: Repara que o bastão continua com você: você ofereceu, ela reagiu.
+  DETALHE: 5.3 Certificado de importância na versão oral ("note that"). "Repara que" abre três frases em 650 palavras (linhas 20, 36 e 64); é tique do Escritor, não dela. No corpus da Ana o jeito de pedir atenção é "ponto important
+  CORRECAO: Manter só o primeiro ("Repara que o preço apareceu pela primeira vez..."). Aqui: E o bastão continua com você: você ofereceu, ela reagiu. // Na linha 64: E essa lista, ponto importante, é o script inteiro.
+
+[5] tell/baixa
+  TRECHO: E ela agradece pelo atendimento e demonstra entusiasmo pra consulta.
+  DETALHE: Registro de manual copiado cru da fonte ("demonstra entusiasmo" é frase de checklist, família 3.7: verbo de relatório no lugar do verbo simples). A Ana diz "fica animada", "tá na emoção". Fecha uma anáfora de 4 degraus (
+  CORRECAO: E ela agradece e fica animada pra consulta.
+
+[6] fidelidade/alta
+  TRECHO: VOCÊ: Perfeito. O investimento da consulta é de R$ 300. Posso te enviar nossa chave PIX agora para confirmarmos seu horário?
+  DETALHE: Número inventado. A fonte (framework, Etapa 7, Passo 2) traz o script com placeholder: "Perfeito. O investimento da consulta é de R$ [valor]. Posso te enviar nossa chave PIX agora para confirmarmos seu horário?". Nenhuma
+  CORRECAO: VOCÊ: Perfeito. O investimento da consulta é de R$ [valor]. Posso te enviar nossa chave PIX agora para confirmarmos seu horário?
+
+[7] fidelidade/media
+  TRECHO: O "agora" aparece nas três mensagens, e ele não está ali por pressa.
+  DETALHE: Falso contra os próprios scripts citados no capítulo. A primeira mensagem da fonte é "O próximo horário disponível na agenda da Dra. Mariana é quinta-feira às 15h. Como fica para você?" e não tem "agora". A palavra apare
+  CORRECAO: O "agora" aparece duas vezes, no PIX e no comprovante, e ele não está ali por pressa.
+
+[8] fidelidade/media
+  TRECHO: fontes: "fontes/01-framework-715.md (Etapa 7, p.8-9); fontes/03-manual-perguntas.md (7. Fechamento, p.3)"
+  DETALHE: O capítulo declara o Manual de Perguntas como fonte e o mapa lista "Perguntas p.3" como fonte do capítulo 9, com o esqueleto pedindo "As perguntas (cards 'frase pronta', texto literal do PDF)". Mas nada do manual entrou.
+  CORRECAO: Inserir depois do parágrafo da linha 36 ("Um horário. Não 'você prefere manhã ou tarde?'..."): ⏎  ⏎ E quando a quinta às 15h não serve, ela vai dizer quando pode. Antes de você sair procurando esse horário, tem uma pergunta: ⏎  ⏎ :::frase ⏎ Se eu conseguir um horário [período mencionado], a gente pode seguir com o seu agendamento? ⏎ ::: ⏎  ⏎ Primeiro ela diz que segue. Só depois você vai olhar a agenda.
+
+[9] leitora/alta
+  TRECHO: Se não funcionar, ela naturalmente vai dizer quando pode, e aí você verifica a disponibilidade pra aquele momento específico. Repara que o bastão continua com você: você ofereceu, ela reagiu.
+  DETALHE: Aqui eu perco o fio exatamente onde mais preciso. Na minha clínica a resposta mais comum não é "quinta não dá, mas sexta de manhã posso", é "quinta não dá" e ponto. O capítulo assume que ela "naturalmente" propõe outro m
+  CORRECAO: Acrescentar depois de "você ofereceu, ela reagiu.": "E se ela só disser que quinta não dá, sem propor nada? Você oferece o seguinte, do mesmo jeito: 'Então o próximo é sexta às 10h. Como fica para você?' O erro é perguntar antes de oferecer. Depois de oferecer, pode perguntar, porque aí ela já viu que a agenda anda."
+
+[10] leitora/alta
+  TRECHO: O "agora" aparece nas três mensagens, e ele não está ali por pressa. O horário dela só passa a existir quando o comprovante chega.
+  DETALHE: Entendi a regra, mas o capítulo para aqui e a minha conversa não para. O que acontece com muita frequência é: ela responde "pode", eu mando a chave, e ela some por duas horas, ou manda "faço o PIX à noite", ou pergunta s
+  CORRECAO: Depois de "O horário dela só passa a existir quando o comprovante chega.": "E se ela disser que faz o PIX à noite, ou que paga na hora da consulta? Você diz a mesma coisa, sem mudar o tom: que o horário fica reservado assim que o comprovante chegar, e que até lá ele continua aberto na agenda. Não é cobrança. É a regra, dita uma vez."
+
+[11] leitora/media
+  TRECHO: E partir pro fechamento sem ter criado compromisso suficiente.
+  DETALHE: "Suficiente" é a palavra que eu não sei medir. Estou no meio da conversa, ela respondeu tudo, e eu não sei se já posso oferecer o horário ou se ainda é cedo. O capítulo diz que o erro explica quase todo "vou pensar", diz
+  CORRECAO: Depois de "Está em algum passo anterior que ficou raso, e insistir no horário só piora.": "Suficiente tem medida, e ela veio do Passo 4: se ela ainda não disse, com as palavras dela, o que espera que mude com a consulta, é cedo pra horário. E é pra lá que se volta."
+
+[12] leitora/baixa
+  TRECHO: ELA: Pode. ⏎ VOCÊ: Consegue me enviar o comprovante agora para já confirmarmos seu horário na agenda?
+  DETALHE: Na cena, a atendente pede o comprovante sem ter mandado a chave. Eu li duas vezes pra ver se tinha pulado uma linha. O texto depois explica que a chave vai em mensagem separada, mas a cena, que é o que eu vou copiar, não
+  CORRECAO: Incluir na cena a mensagem com a chave PIX sozinha, entre o "Pode" e o pedido de comprovante, mesmo que seja só um placeholder de chave. Assim a cena vira o modelo completo das quatro mensagens.
+
+[13] voz/media
+  TRECHO: E acontece quando, durante a conversa, ficou claro qual era o problema, como ele afeta ela e por que precisa ser resolvido agora e não depois, e quando a gente conectou a solução com o problema.
+  DETALHE: 36 palavras em lista de manual, com "durante a conversa" e "conectou a solução com o problema" no registro do PDF, não no dela. A longa dela é narração com "e aí" ou lista de atributos que vira escada (item 2, 3 de 3). A
+  CORRECAO: E acontece quando, ao longo da conversa, ficou claro qual era o problema, como ele mexe com ela e por que é agora e não depois. E quando a consulta apareceu como a resposta pra isso. Essa lista é o script inteiro. O fechamento não gera essa leitura. Ele colhe.
+
+[14] voz/media
+  TRECHO: Repara que o preço apareceu pela primeira vez na segunda mensagem dessa cena.
+  DETALHE: "Repara que" aparece 3 vezes em 600 palavras (linhas 20, 36, 64) e não existe no corpus dela. É a muleta do escritor fazendo a Ana. As muletas dela com evidência são "olha" (abrindo fala ou pensamento), "sabe?" e "tá?" (
+  CORRECAO: Linha 20: 'Sabe onde o preço apareceu nessa cena? Na segunda mensagem. Depois do horário. Depois de seis passos. E ele apareceu como investimento da consulta, entre um horário que ela já aceitou e uma chave PIX. Ela não teve tempo de ir pra casa pensar, porque não sobrou nada pra pensar.' Linha 36: 'E o bastão continua com você: você ofereceu, ela reagiu.' Linha 64: 'Essa lista é o script inteiro.'

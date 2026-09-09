@@ -1,0 +1,267 @@
+{
+ "capitulo": "/Users/saviomoraes/reconecta/ebooks/715/manuscrito/07-passo-5-transicao.md",
+ "rodada": 1,
+ "brutos": 27,
+ "confirmados_n": 10,
+ "altas_confirmadas": 0,
+ "por_revisor": {
+  "tell": {
+   "brutos": 7,
+   "confirmados": 4
+  },
+  "fidelidade": {
+   "brutos": 3,
+   "confirmados": 1
+  },
+  "leitora": {
+   "brutos": 6,
+   "confirmados": 1
+  },
+  "voz": {
+   "brutos": 11,
+   "confirmados": 4
+  }
+ },
+ "confirmados": [
+  {
+   "revisor": "tell",
+   "tipo": "tell",
+   "gravidade": "media",
+   "trecho": "As reticências não são enfeite de texto. No WhatsApp elas fazem a paciente ler com a pausa, como se você estivesse pensando junto. Mantém.",
+   "detalhe": "Tell 1.1, contraste fácil (\"não X, Y\"), em cluster: são quatro na mesma página de 446 palavras. Além desta: \"A transição não fala da consulta ainda. Ela fala de por que...\" (l.22), \"Você não está propondo que ela resolva agora. Você está concordando...\" (l.30) e \"Concordar é diferente de convencer.\" (l.30). A whitelist protege a forma (item 1) mas dá a dose: 3 a 5 por capítulo de 2.000 palavras. Aqui são 4 em 446, quatro vezes a dose. E esta é a pior das quatro: \"enfeite de texto\" é boneco de palha, ninguém disse que as reticências eram enfeite. O catálogo chama exatamente isso de tique: \"terceira vez na mesma página ou quando a metade negativa é boneco de palha\".",
+   "correcao": "As reticências são do script e eu acho que fazem diferença. No WhatsApp a paciente lê com a pausa, como se você estivesse pensando junto com ela. Mantém.",
+   "motivos": [
+    "Existem três contrastes \"não X. Y.\" em 477 palavras (l.22, l.30, l.32), dois em parágrafos vizinhos, e o da l.30 ainda emenda espelhamento e carimbo sobre a mesma oposição; a whitelist protege a forma (item 1) mas dá 3 a 5 por 2.000 palavras, e o catálogo marca tique na terceira da mesma página. A parte \"boneco de palha\" não se sustenta (o próprio detector leu as reticências como dramáticas, então a leitora pode mesmo tratá-las como enfeite), mas o cluster basta. A correção é limpa (sem travessão, \"acho que\" é item 18), só perde o antecedente: \"ela lê\" sem \"a paciente\" no parágrafo."
+   ]
+  },
+  {
+   "revisor": "tell",
+   "tipo": "tell",
+   "gravidade": "media",
+   "trecho": "Repara que os três objetivos falam do problema dela.",
+   "detalhe": "Fôrma \"Repara que os N [itens] [têm em comum X]\" duas vezes no mesmo capítulo: aqui e em \"Repara que os quatro erros são a mesma tentação: encher a mensagem.\" (l.38). É a escritora apontando pra própria lista e dizendo à leitora o que notar nela, em vez de escrever de um jeito que ela note sozinha (catálogo 1.11, etiqueta de importância; encosta em 5.2, narração do próprio texto). \"Repara\" não aparece em nenhuma das três amostras da Ana e já está em 8 lugares dos capítulos 3 a 7: virou o tique do livro, não dela. A passagem de lista pra lição no fingerprint é \"nunca com a lição aqui é\": ela vai com \"Por quê? Porque\", com o dado, ou sem tradução nenhuma.",
+   "correcao": "Só tirar a moldura, sem reescrever o resto. L.22: \"Os três objetivos falam do problema dela. Nenhum fala da consulta ainda. A transição fala de por que a consulta é o caminho pra essa pessoa, com o que essa pessoa contou.\" L.38: \"Os quatro erros são a mesma tentação: encher a mensagem. A transição funciona porque é curta.\" A cota de \"Repara\" no livro fica como sugestão fora deste capítulo.",
+   "motivos": [
+    "Duas vezes a mesma fôrma \"Repara que os N [coisas] [falam/são] ...\" em 477 palavras (l.22 e l.38), 12 \"Repara\" no livro inteiro (nos caps 3 a 7 são 6, não 8) e zero nas três amostras da Ana; na mesma página a leitora vê o molde repetido. A ligação com o 1.11 do catálogo é forçada (\"Repara\" é imperativo de fala, não etiqueta de emoção), mas a repetição é fato. A correção da l.38 troca \"a mesma tentação\" por \"o mesmo erro\" e joga fora a única palavra com sabor do parágrafo."
+   ]
+  },
+  {
+   "revisor": "tell",
+   "tipo": "tell",
+   "gravidade": "media",
+   "trecho": "Você lembra da última vez que uma paciente disse por que agora, e a sua resposta foi \"que bom, deixa eu ver a agenda\"? Entre uma coisa e outra faltava essa frase.",
+   "detalhe": "Tell 1.2, fecho de uma linha que repete o parágrafo. \"Entre uma coisa e outra faltava essa frase\" é a tese da abertura reescrita (\"fica faltando uma coisa entre o que ela disse e o que você vai oferecer\"). A pergunta com \"você\" antes dela está certa (whitelist item 3), mas a frase depois é a moral, e o fingerprint é taxativo em 3 de 3: \"nunca recapitula, nunca explica a moral\". A2 termina NA pergunta; A3 termina em pergunta, frase curta com conteúdo novo e fecho baixo. Aqui a frase curta não tem conteúdo novo.",
+   "correcao": "Você lembra da última vez que uma paciente disse por que agora, e a sua resposta foi \"que bom, deixa eu ver a agenda\"? Ela marcou? (Ou simplesmente terminar na primeira pergunta, como A2.)",
+   "motivos": [
+    "\"Entre uma coisa e outra faltava essa frase\" é a tese da abertura (l.16) reposta como moral depois da pergunta; o fingerprint (item 24, fecho sem moral, 3 de 3) e o próprio livro confirmam: caps 3, 4, 5, 6, 8 e 9 terminam todos NA pergunta, o 7 é o único que emenda a lição. A correção termina em perguntas como ela faz, mas \"ela apareceu?\" puxa comparecimento, que nenhuma fonte liga ao passo 5."
+   ]
+  },
+  {
+   "revisor": "tell",
+   "tipo": "tell",
+   "gravidade": "media",
+   "trecho": "Conectar a solução que a gente tem com o problema que ela trouxe. Mostrar que a solução é a resposta que ela estava buscando.",
+   "detalhe": "\"solução\" duas vezes no mesmo parágrafo. É termo [marca] proibido (catálogo, regras da marca: \"Nunca ... solução\"; tabela nível 1: \"solução [marca]: sistema, método, o que resolve (nomear)\"), e o catálogo diz que termo de marca cai sempre, independente do nível. Ressalva honesta: a Ana diz \"solução\" na amostra A1 (\"a solução para as dores que eu estava trazendo\"), então não é palavra estranha a ela; mas a frase \"a solução é a resposta que ela estava buscando\" é abstração de PDF, com dois substantivos vagos (solução, resposta) onde ela poria coisa concreta. O parágrafo é cópia dos bullets do Framework p.6 com \"a gente\" enxertado.",
+   "correcao": "\"Ligar o que a gente faz com o problema que ela trouxe. Mostrar que é isso que ela estava procurando. E dizer por que, pro problema dela, a consulta é o próximo passo.\"",
+   "motivos": [
+    "\"solução\" duas vezes na l.20 e \"a solução é a resposta que ela estava buscando\" é o bullet do Framework p.6 quase literal, contra o esqueleto do mapa (objetivo nas palavras da Ana); a leitora sente a queda de registro pra manual, e o termo é vetado pelas regras da marca que o catálogo (l.27) põe acima do fingerprint. Ressalva: \"solução\" aparece em mais sete lugares do livro (caps 5, 6, 8, 9, 11, fora a citação da Ana no cap 1), então o veto não está sendo aplicado no livro; aqui o motivo que pesa é a abstração de PDF. A correção não tem travessão nem tell, é a mesma do achado 0, vale."
+   ]
+  },
+  {
+   "revisor": "fidelidade",
+   "tipo": "fidelidade",
+   "gravidade": "media",
+   "trecho": "VOCÊ: Ana, por conta da forma que você trouxe isso... e de já estar desde uns dois anos sentindo assim... concordo que não tem por que deixar mais para depois.",
+   "detalhe": "A paciente ganha nome (\"Ana\") pela primeira vez no livro, e só aqui. Nas cenas dos capítulos 03, 04, 05 e 06 ela nunca é nomeada (grep em manuscrito/: \"Ana\" como paciente só aparece neste capítulo). Nenhuma fonte traz esse nome: o framework usa \"[Fulana]\" e o manual de perguntas usa \"Fulana\". O mapa diz que placeholders viram \"a doutora\", \"ela\", ou o nome que o vídeo trouxer, e o vídeo ainda não chegou. Pior: \"Ana\" é o nome da narradora (Ana Luiza), então a leitora lê a atendente chamando a paciente pelo nome da autora. O \"uns dois anos\" está coerente com a cena do capítulo 05 (\"Tem uns dois anos que eu reparo\"), esse não é problema.",
+   "correcao": "VOCÊ: Por conta da forma que você trouxe isso... e de já estar desde uns dois anos sentindo assim... concordo que não tem por que deixar mais para depois.",
+   "motivos": [
+    "Confere no arquivo (linha 13): é a única vez em todo o manuscrito que a paciente ganha nome, e a mesma paciente (queixo, dois anos, casamento em novembro) passa sem nome pelas cenas dos capítulos 03 a 06. O mapa (linha 5 e item 3 do 'falta decidir') manda placeholders virarem 'a doutora'/'ela' ou o nome que o vídeo trouxer, e o capítulo 03 já aplicou isso na cena (\"Dra [Nome]\" virou \"a doutora\"); 'Ana' é invenção, e por cima é o nome da autora (livro.json: autor 'Ana Luiza'), então a leitora vê a narradora em primeira pessoa e uma paciente com o mesmo nome no mesmo capítulo. Nada na whitelist protege nome de personagem. A correção proposta, porém, deixa a mensagem sem vocativo e sem sujeito (\"Por conta da forma que trouxe...\"), que soa truncado numa fala de WhatsApp; melhor tirar só o nome e manter a forma natural da cena."
+   ]
+  },
+  {
+   "revisor": "leitora",
+   "tipo": "leitora",
+   "gravidade": "media",
+   "trecho": "VOCÊ: Ana, por conta da forma que você trouxe isso... e de já estar desde uns dois anos sentindo assim... concordo que não tem por que deixar mais para depois.",
+   "detalhe": "A paciente da cena se chama Ana e quem está me contando o livro é a Ana Luiza. Na primeira leitura eu parei e voltei pra entender quem falava com quem. Em capítulo que abre direto na cena, sem preparação, esse tropeço custa a atenção logo na primeira linha.",
+   "correcao": "Trocar só o nome na linha 13, mantendo o resto literal (a paciente já é a mesma do queixo e dos dois anos): \"VOCÊ: Carla, por conta da forma que você trouxe isso... e de já estar desde uns dois anos sentindo assim... concordo que não tem por que deixar mais para depois.\" Qualquer nome curto que não comece com Ana serve.",
+   "motivos": [
+    "Confirmado: a cena (linha 13) abre com \"VOCÊ: Ana, ...\" e o livro é assinado pela Ana Luiza; as cenas dos passos 2 a 4 nunca nomeiam a paciente e a fonte usa [Fulana], então \"Ana\" é escolha do manuscrito, não da fonte. A colisão está na primeira linha do capítulo, sem preparação, e nenhum item da whitelist protege nome de personagem. A correção proposta não introduz tell nenhum."
+   ]
+  },
+  {
+   "revisor": "voz",
+   "tipo": "voz",
+   "gravidade": "media",
+   "trecho": "pelo que eu vejo nas clínicas, o mais pulado.",
+   "detalhe": "Imagem genérica onde ela usa número redondo como prova de escala (whitelist item 12, 3 de 3): a frase dela é \"pelo que eu observo nas mais de 3 mil clínicas por aqui\" (T4). O capítulo tem zero número redondo fora da numeração dos passos; dose dela é 3 a 6 por capítulo. \"Nas clínicas\" é o que uma IA escreve quando não tem o dado; ela tem o dado e usa. O verbo dela também é \"observo\", não \"vejo\".",
+   "correcao": "pelo que eu observo nas mais de 3 mil clínicas por aqui, o mais pulado.",
+   "motivos": [
+    "\"O mais pulado\" é afirmação empírica sobre clínicas, e é justamente onde ela usa o número redondo como prova de escala (item 12, 3 de 3; T4 e caps 02 e 12 já trazem \"pelo que eu observo nas mais de 3 mil clínicas por aqui\"). \"Nas clínicas\" sem número enfraquece a afirmação e o capítulo está com zero número redondo fora da numeração dos passos. A correção é a frase literal dela, sem travessão, e a repetição verbatim não é problema porque ela repete sem variar (item 9)."
+   ]
+  },
+  {
+   "revisor": "voz",
+   "tipo": "voz",
+   "gravidade": "media",
+   "trecho": "A forma como ela trouxe e o tempo que ela está assim, que são coisas que ela te contou nos passos dois e três, devolvidas.",
+   "detalhe": "Construção de texto escrito que ela não faz na fala: 26 palavras com oração relativa no meio e particípio solto no fim (\"devolvidas\"). O ritmo dela é frase de construção seguida de pancada curta como complemento cortado (whitelist item 6, 3 de 3: \"talvez eu teria fechado. Lá dentro.\"). Ela cortaria em três.",
+   "correcao": "A forma como ela trouxe e o tempo que ela está assim. Isso ela já te contou, nos passos dois e três. Você só devolve.",
+   "motivos": [
+    "O particípio solto \"devolvidas\" no fim de um período de 26 palavras com relativa no meio é construção de texto escrito que faz a leitora voltar pra achar o referente; nenhuma amostra tem isso, e o padrão dela é construção longa mais pancada curta (item 6). A correção proposta corta em três, mantém a enumeração \"Três pedaços. O nome dela. A forma...\" e emenda bem em \"E o concordo\"; não usa travessão nem cria outro tell."
+   ]
+  },
+  {
+   "revisor": "voz",
+   "tipo": "voz",
+   "gravidade": "media",
+   "trecho": "Ele é o mais curto do script e, pelo que eu vejo nas clínicas, o mais pulado. A atendente sai do passo quatro, com a paciente declarada, e vai direto pro horário.",
+   "detalhe": "Zero pergunta de gancho no meio do capítulo (whitelist item 4, 3 de 3, 16% das frases). Ela introduz a próxima informação com pergunta (\"Sabe o que ele falou comigo?\", \"O que que tem de diferente nessas pessoas...?\"). Aqui a explicação vem em afirmação atrás de afirmação, ritmo de manual.",
+   "correcao": "Ele é o mais curto do script e, pelo que eu observo nas mais de 3 mil clínicas por aqui, o mais pulado. Sabe o que a atendente faz? Sai do passo quatro, com a paciente declarada, e vai direto pro horário.",
+   "motivos": [
+    "Por palavra, o cap 07 é o mais chapado do livro em perguntas: 2 por mil contra 11 a 15 por mil nos caps 03 a 06 e 09 e 5 no cap 08, e a pergunta gancho no meio é 3 de 3 no fingerprint (item 4). Uma pergunta antes da cena da atendente, no molde de \"Sabe o que ele falou comigo?\", resolve sem exagerar a dose de \"sabe\" (1 a 2 por capítulo). A correção proposta serve e já embute o conserto do achado 2; não usa travessão nem cria outro tell."
+   ]
+  },
+  {
+   "revisor": "voz",
+   "tipo": "voz",
+   "gravidade": "baixa",
+   "trecho": "Concordar é diferente de convencer. Quem concorda está do lado dela.",
+   "detalhe": "Dois aforismos simétricos seguidos, logo depois de um contraste que já disse a mesma coisa (\"Você não está propondo... Você está concordando...\"). Ela fecha raciocínio com UM carimbo curto (\"Diagnóstico feito.\", \"É muito melhor.\"), não com par de máximas. Empilhar sentença cunhada é textura de IA; o fingerprint não registra aforismo em série.",
+   "correcao": "Quem concorda está do lado dela.",
+   "motivos": [
+    "O parágrafo diz a mesma ideia três vezes seguidas: o contraste \"não está propondo / está concordando\" (que é dela, item 1), depois \"Concordar é diferente de convencer\", depois \"Quem concorda está do lado dela\". O item 6 protege uma pancada curta depois da construção longa, não duas máximas empilhadas; a leitora sente a explicação repetida. Cortar a primeira e ficar com \"Quem concorda está do lado dela.\" mantém o carimbo e a repetição de \"concord-\" sem sinônimo (item 9)."
+   ]
+  }
+ ],
+ "refutados": [
+  {
+   "revisor": "tell",
+   "trecho": "Uma mensagem. É isso o passo cinco. Ele é o mais curto do script e, pelo que eu vejo nas clínicas, o mais pulado.",
+   "detalhe": "O capítulo inteiro tem um único \"eu\" da autora (\"pelo que eu vejo\") em 446 palavras; o outro \"eu\" está dentro da fala citada da atendente. Fingerprint: \"eu\" é o pronome dominante dela em 3 de 3 amostras (46 por mil na fala; dose de livro 40 a 60 por 2.000 palavras, ou seja 20 a 30 por mil). Aqui dá 2 por mil. Zero caso, zero número de escala (ela sempre dá \"nas mais de 3 mil clínicas por aqui\"), um \"a gente\" só. Os objetivos da seção \"Pra que serve\" são os bullets do PDF parafraseados, e o esqueleto do mapa pede \"objetivo, nas palavras da Ana\". Regra de ouro do catálogo (Sinais de texto humano): se o parágrafo poderia ter sido escrito por qualquer mentoria sobre qualquer produto, ainda não tem voz. Este capítulo passa nesse teste ao contrário: é manual, não é a Ana.",
+   "motivo": "Confirmado no arquivo: em 477 palavras há 1 \"eu\" da autora (o outro está na fala da atendente, l.44), zero caso, zero número, e \"Pra que serve\" (l.20) é o bullet do Framework p.6 com \"temos\" virando \"a gente\" e \"o paciente\" virando \"ela\", contra o esqueleto do mapa (\"objetivo, nas palavras da Ana\"); é o capítulo com a menor dose de \"eu\" do livro (caps 3 a 9 rodam entre 3 e 8). A correção não tem travessão nem tell e \"eu observo nas clínicas por aqui\" é literalmente dela (A1, l.43), então não é regressão; mas ela deixa o capítulo com o mesmo 1 \"eu\" e nenhuma prova de escala, ou seja, não corrige a dose que acusa."
+  },
+  {
+   "revisor": "tell",
+   "trecho": "Três pedaços. O nome dela.",
+   "detalhe": "Três das quatro seções abrem com um fragmento-carimbo que responde ao subtítulo: \"Uma mensagem. É isso o passo cinco.\" (l.16), \"Três pedaços.\" (l.30), \"Imediatamente.\" (l.42). Mesmo gesto rítmico no topo de cada bloco é ritmo por regra (catálogo 2.4 metrônomo e 2.5 blocos intercambiáveis: \"cada seção com a mesma abertura\"). O fingerprint diz que a pancada curta dela vem DEPOIS de uma frase longa, como complemento cortado ou carimbo de fecho (3 de 3: \"Lá dentro.\", \"É muito melhor.\", \"A consulta durou 27 minutos.\"), não como manchete de abertura de seção.",
+   "motivo": "Os três fragmentos são de espécie diferente (contagem, abertura de enumeração, advérbio que responde ao subtítulo), e \"Três pedaços. O nome dela. A forma... E o concordo\" é enumeração em linha, exatamente como ela enumera (3 de 3 em prosa, fingerprint); o próprio revisor mantém \"Imediatamente.\" e já reescreve a abertura no achado 0, então sobra um único caso, que não é padrão. E a correção falha em (4): vira um período de 40 palavras com ponto e vírgula, mais pesado e mais chapado que o original."
+  },
+  {
+   "revisor": "tell",
+   "trecho": "No WhatsApp elas fazem a paciente ler com a pausa, como se você estivesse pensando junto.",
+   "detalhe": "Nenhuma das duas fontes explica as reticências. O Framework (p.7) só traz a frase com dois \"...\"; o Manual de perguntas (p.3) traz a mesma frase com UM só (\"por conta da forma que trouxe e por já estar há [TEMPO INFORMADO] sentindo assim... concordo\"). O capítulo escolhe a versão do Framework (correto, é a fonte principal citada no frontmatter) mas afirma como fato um mecanismo de leitura que o escritor inventou. O detector marcou as reticências como \"dramáticas\"; isso é falso positivo (são do script), mas a explicação delas não está em lugar nenhum.",
+   "motivo": "É verdade que nenhuma fonte explica as reticências (Framework p.7 tem dois \"...\", Manual p.3 tem um), mas dizer por que o script pausa é leitura da autora, não dado fabricado: a leitora não nota nem é prejudicada, e a instrução (\"Mantém\") não muda. Como achado separado não passa no critério 3, e a correção do achado 1 já converte a frase em opinião com dona; nada mais a fazer aqui além de conferir com o vídeo da Ana quando chegar."
+  },
+  {
+   "revisor": "fidelidade",
+   "trecho": "VOCÊ: Ana, por conta da forma que você trouxe isso... e de já estar desde uns dois anos sentindo assim...",
+   "detalhe": "O mapa manda montar a cena \"só com frases das fontes\". A frase da fonte (framework p.7) é \"por conta da forma que trouxe... e de já estar desde [tempo] sentindo assim...\". A cena acrescenta \"você\" e \"isso\" (\"da forma que você trouxe isso\"). O card :::frase logo abaixo está literal, então a cena e o card mostram duas versões da mesma frase, e a leitora que copiar da cena leva a versão alterada.",
+   "motivo": "A diferença existe (\"que você trouxe isso\" contra \"que trouxe\"), mas as cenas do livro nunca foram cópia seca: o capítulo 03 troca '[procedimento/consulta]' por 'preenchimento' e 'Dra [Nome]' por 'a doutora', e o 05 preenche '[problema]' com 'isso'. Aqui 'isso' é exatamente o preenchimento do que ela contou e 'você' só explicita o sujeito, que sem o vocativo ficaria faltando; os três pedaços que o texto dissecа (nome, forma/tempo, 'concordo') estão intactos. As próprias fontes divergem entre si (framework: 'e de já estar desde [tempo]'; manual: 'e por já estar há [TEMPO INFORMADO]'), então não há UMA versão literal a proteger, e a leitora que copiar da cena manda uma mensagem igualmente correta: nenhum prejuízo real."
+  },
+  {
+   "revisor": "fidelidade",
+   "trecho": "Ele é o mais curto do script e, pelo que eu vejo nas clínicas, o mais pulado.",
+   "detalhe": "\"O mais curto\" confere (é a única etapa cujo conteúdo é uma frase e cujo \"quando avançar\" é \"Imediatamente para a próxima etapa\"). \"O mais pulado\" é uma afirmação empírica colocada na boca da Ana que não está em nenhuma fonte (framework, manual de perguntas ou fala da Ana descrita no mapa). É observação de campo inventada em nome da narradora.",
+   "motivo": "A regra de fidelidade do mapa (linha 5) é sobre 'caso, número ou frase pronta'; 'o mais pulado' não é nenhum dos três, é opinião de quem assina o livro, e o framework já trata pular etapa como erro recorrente (p.2 'pular para o fechamento', p.6 'Pular para a apresentação direto'). O 'pelo que eu vejo/observo' é a marca registrada da Ana documentada no fingerprint (seção 4: 'recusa o certo ou errado e substitui por observação em escala') e o manuscrito usa o mesmo recurso nos capítulos 02, 03, 09 e 12 sem o revisor reclamar; cortar só aqui é inconsistente e a troca proposta ('é fácil de passar batido') apaga justamente a voz de observadora de campo. Nenhuma leitora é prejudicada por uma observação plausível que a própria autora vai validar na passada dela; se o time quiser zero opinião não sourced, é decisão pra Ana na revisão de autora, aplicada nos quatro capítulos, não conserto deste."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "Conectar a solução que a gente tem com o problema que ela trouxe. Mostrar que a solução é a resposta que ela estava buscando. E justificar que, pro problema que ela trouxe, a consulta é o próximo passo.\n\nRepara que os três objetivos falam do problema dela. A transição não fala da consulta ainda.",
+   "detalhe": "Os três objetivos são a mesma ideia dita três vezes; eu li como um só. Aí a autora pede pra eu reparar numa coisa que eu já tinha entendido. E o terceiro objetivo diz literalmente que é pra justificar que a consulta é o próximo passo, e a frase seguinte diz que a transição não fala da consulta ainda. Fiquei sem saber se fala ou não fala.",
+   "motivo": "Os três objetivos são os três da fonte (framework p.6, Etapa 5) traduzidos quase literalmente, e a tríade \"Conectar... Mostrar... E justificar\" é anáfora em escada (whitelist item 2); reduzir a um seria cortar fonte, não estilo. A contradição apontada não existe no texto: a frase pronta não contém a palavra consulta, então \"não fala da consulta ainda\" é literalmente verdade, e a frase seguinte diz exatamente o que ela faz no lugar. \"Repara que\" é hábito da casa presente em 8 capítulos (03, 04, 06, 08, 09), não é tell."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "Três pedaços. O nome dela. A forma como ela trouxe e o tempo que ela está assim, que são coisas que ela te contou nos passos dois e três, devolvidas.",
+   "detalhe": "Entendi a teoria, mas não sei o que escrever no lugar de \"a forma que trouxe\". Na frase pronta isso é texto fixo, não é colchete. Então eu mantenho literal ou troco pelo que ela disse? Se troco, por qual pedaço do que ela disse? Falta a frase montada com uma resposta real de paciente do passo 2 ou 3 (o que ela contou, com as palavras dela) ao lado da frase genérica, pra eu ver a substituição acontecendo. Sem isso a frase fica bonita na tela e vaga no meu WhatsApp.",
+   "motivo": "A parte \"falta a frase montada\" está refutada: a cena da linha 13 já é a frase preenchida com o que a paciente disse no passo 3 (\"Tem uns dois anos que eu reparo\", cap. 05). Mas a linha 30 diz que \"a forma como ela trouxe e o tempo\" são \"coisas que ela te contou... devolvidas\", e no template a \"forma que trouxe\" é texto fixo, não colchete; isso planta a dúvida real de trocar ou manter. A correção proposta (mostrar a frase duas vezes) duplica o que a cena já faz, por isso vai alternativa."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "Você não está propondo que ela resolva agora. Você está concordando com uma decisão que ela já tomou no passo três, quando disse por que agora.",
+   "detalhe": "A frase pronta é boa quando o passo três rendeu um por que agora de verdade (casamento em dezembro, evita foto há dois anos). Mas e quando não rendeu, quando ela respondeu \"ah, tô só pesquisando\" e eu segui assim mesmo? Aí \"concordo que não tem por que deixar mais para depois\" concorda com uma decisão que ela não tomou, e vai soar forçado. O capítulo diz que aqui não tem sinal pra observar, e é justamente onde eu precisava de um: a transição só cabe se o passo três fechou. Eu não saberia quando NÃO mandar.",
+   "motivo": "A condição de uso já está escrita na linha 30 (\"concordando com uma decisão que ela já tomou no passo três, quando disse por que agora\") e na linha 42 (\"o passo três já tinha fechado esse espaço\"). O caso do \"tô só pesquisando\" é tratado onde deve ser tratado, no cap. 05 (\"Se quem está convencida é você, o passo três não aconteceu\") e no cap. 06 (\"Volta uma pergunta\"). Repetir aqui viraria checklist de condição, coisa que o fecho sem recapitulação da autora (whitelist item 24) evita."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "As reticências não são enfeite de texto. No WhatsApp elas fazem a paciente ler com a pausa, como se você estivesse pensando junto. Mantém.",
+   "detalhe": "Esse é o único lugar do capítulo que me diz como a paciente sente a mensagem, e é o que eu mais queria saber. Nos passos 1 a 4 sempre teve a parte \"como a paciente lê você\", com a leitura negativa e a positiva. Aqui não tem, e é o passo em que meu medo é maior: \"concordo que não tem por que deixar pra depois\" pode ler como \"ela tá me empurrando pra fechar\". Fiquei sem saber se esse risco existe e o que evita ele.",
+   "motivo": "A fonte não tem \"Percepção do paciente\" para a Etapa 5 (o framework vai de \"O que evitar\" direto pra \"Quando avançar: Imediatamente\"), então escrever leitura negativa e positiva aqui seria fabricar doutrina, o que o fiscal de fidelidade reprova. O medo de \"empurrando pra fechar\" já é respondido no texto: \"Concordar é diferente de convencer. Quem concorda está do lado dela\" (linha 30). E como a paciente não responde entre transição e apresentação (linha 42), a leitura dela do par inteiro é a do cap. 08 (\"é exatamente isso que eu estou buscando\" versus \"não parece resolver o meu problema\"). Se quiser fechar a assimetria sem inventar, cabe uma linha apontando isso: \"Como ela lê essa frase, você vê no próximo capítulo, porque ela lê as duas mensagens juntas.\""
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "Você manda a transição e, na mesma mensagem ou na seguinte, apresenta. A paciente não precisa responder nada entre uma e outra.",
+   "detalhe": "\"Apresenta\" o quê? Eu ainda não li o passo 6. Sei que o próximo capítulo se chama Apresentação, mas aqui dentro a instrução fica no ar. E \"na mesma mensagem ou na seguinte\" me deixa com uma dúvida prática que é a que importa no WhatsApp: mando num balão só ou em dois? A autora tem opinião sobre reticências e não tem sobre isso.",
+   "motivo": "\"Apresenta\" não fica no ar: o livro já disse duas vezes que são sete passos (caps. 01 e 02), o cap. 06 já usou \"pular pra apresentação\", o kicker diz \"Passo 5 de 7\" e o próximo capítulo se chama Apresentação. Sobre balão único ou dois, a autora tem opinião e ela está escrita: \"na mesma mensagem ou na seguinte\" é tanto faz, e o motivo vem na frase seguinte (o que importa é não esperar resposta). A fonte não diz nada sobre balão, então prescrever um formato seria inventar regra."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Uma mensagem. É isso o passo cinco. Ele é o mais curto do script e, pelo que eu vejo nas clínicas, o mais pulado.",
+   "detalhe": "A autora sumiu do capítulo. Contagem: 2 \"eu\" em 478 palavras, e um deles está dentro da fala reproduzida (\"deixa eu ver a agenda\"). Isso dá 2 por mil contra 46 por mil no fingerprint (\"eu\" é o pronome dominante em 3 de 3 amostras; dose de 40 a 60 por capítulo). Whitelist item 7 apagado: caso pessoal em primeira pessoa abrindo, com aviso de que vai contar (\"E eu vou aproveitar para contar um caso meu\", \"Teve uma vez que eu procurei..., sabe?\"), 3 de 3 no aviso. O capítulo abre com cena de script e definição, como um manual. E a autora TEM caso pra esse passo: na salinha do financeiro (A1) foi exatamente essa frase que ninguém disse pra ela entre o diagnóstico e o preço (\"Se eu tivesse entendido o preço na sala, talvez eu teria fechado. Lá dentro.\"). Ponte salinha/WhatsApp é inferência a partir das posições dela, não caso contado; confirmar com o Sávio, mas é o gancho mais forte disponível.",
+   "motivo": "O capítulo segue exatamente o molde dos outros seis capítulos de passo (03 a 09): todos abrem com :::cena e explicação, nenhum abre com caso pessoal, e o \"eu\" deles fica em 3 a 8 por capítulo (cap 08: 4 em 739 palavras; cap 09: 3 em 731). O 2 em 478 do cap 07 está na média da série, então isso é decisão de arquitetura do livro (o caso pessoal mora no cap 01, e o cap 01 diz textualmente que a leitura de vendedora fica pro cap 12), não defeito deste capítulo. Além disso a correção fabrica conteúdo: em A1 o que faltou foi o preço na sala, não a frase de transição, e o próprio revisor admite que a ponte é inferência não confirmada; inventar cena da autora viola a regra de nunca inventar dado."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Você lembra da última vez que uma paciente disse por que agora, e a sua resposta foi \"que bom, deixa eu ver a agenda\"? Entre uma coisa e outra faltava essa frase.",
+   "detalhe": "Fecho fora do padrão dela em três pontos. (1) Whitelist item 3: pergunta direta em série no fecho, 2 a 4 com \"você\" (A2 quatro seguidas, A3 duas); aqui é uma só. (2) Whitelist item 24: fecho sem moral nem recapitulação, 3 de 3; \"Entre uma coisa e outra faltava essa frase\" é a moral explicada, o que ela nunca faz (A1 fecha em \"Diagnóstico feito.\", A3 em \"Enfim, eu achei isso legal\"). (3) Whitelist item 15: fala reproduzida curta vem sem aspas depois de \"falou,\"/\"foi,\" (\"ela falou, poxa, tô precisando de uma ajuda aqui\"). Além disso, o capítulo inteiro tem 1 pergunta em 51 frases (2%) contra 16% no fingerprint.",
+   "motivo": "O fecho com uma pergunta composta seguida de pancada curta de 7 palavras é o padrão do item 6 e do candidato 31 (A1 fecha em \"Diagnóstico feito.\", que também é carimbo depois da cena); o item 24 fala de parágrafo de síntese, e uma frase de 7 palavras não é isso. O item 3 é teto (\"até 4\"), o cap 08 também fecha com 1 pergunta, e as aspas em frase de script são convenção de todo o livro (\"exatamente isso\" no cap 04, \"e a agenda, como funciona?\" no cap 06), não caso do item 15, que trata de \"falou,\"/\"Falei,\". A correção proposta ainda fecha com moral (\"Faltou a ponte.\"), ou seja, contradiz a própria acusação, e tirar as aspas deixa \"que bom, deixa eu ver a agenda\" ambíguo dentro da pergunta."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Se você esperar a resposta, você abre espaço pra ela pensar, e o passo três já tinha fechado esse espaço.",
+   "detalhe": "\"Abre espaço pra ela pensar\" é a versão abstrata da imagem concreta dela: \"muita gente indo pra casa pensar\", \"Eu fui pra casa pensar\" (A1, e é o sintoma que ela carimba com \"Diagnóstico feito.\"). Ela repete a imagem sem trocar por sinônimo (whitelist item 9). \"Espaço\" duas vezes na mesma frase é repetição de palavra abstrata, não da imagem.",
+   "motivo": "\"Abre espaço... fechado esse espaço\" é espelhamento dos dois lados com a mesma palavra (itens 8 e 9), e \"espaço\" não está na lista de vocabulário de IA do fingerprint. A imagem \"ir pra casa pensar\" já está transposta pro WhatsApp nos caps 01 e 09, então o livro não a perdeu. A correção introduz \"trazer ela de volta\", metáfora que não fecha com o passo três (ela não tinha ido a lugar nenhum; o passo três é ela dizer por que agora) e confunde a leitora."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Repara que os três objetivos falam do problema dela.",
+   "detalhe": "\"Repara que\" aparece duas vezes no capítulo (\"Repara que os três objetivos\", \"Repara que os quatro erros\") e zero vezes nas 1.816 palavras do corpus. É tique do escritor, não dela. Quando ela quer dizer \"presta atenção nisso\" ela usa \"interessante\" (2 de 3: \"E aqui vem um plot twist interessante\") ou faz pergunta de gancho (\"Sabe o que ele falou comigo?\", whitelist item 4).",
+   "motivo": "\"Repara que\" é dispositivo de todo o manuscrito (caps 03, 04, 08, 09 três vezes, 11), então trocar só no cap 07 cria inconsistência; se for tell, a decisão é de livro, não deste capítulo. O corpus de 1.816 palavras é pequeno demais pra provar ausência de um imperativo oral tão comum quanto \"Lê a resposta dela\" e \"guarda\", que o livro já usa. A correção \"Interessante que...\" abrindo frase não existe nela (ela diz \"achei bem interessante\" e \"plot twist interessante\"), ou seja, troca um suposto tique por uma construção inventada."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Funciona às vezes. Mas fica faltando uma coisa entre o que ela disse e o que você vai oferecer, e essa coisa é a ponte.",
+   "detalhe": "Whitelist item 14 apagado: concessão de humildade colada na prescrição, 3 de 3 (\"E aqui eu não estou falando que existe um certo ou errado\", \"E eu não falo da posição de quem é ilibado\"). O capítulo prescreve seco (\"Mantém.\", \"Imediatamente.\") sem nenhum amortecedor; também não tem \"acho que\" na prescrição (item 18, 2 de 3). Dose dela: 1 a 2 por capítulo. \"Funciona às vezes\" é concessão de processo, não a humildade dela.",
+   "motivo": "A dose do item 14 é 1 a 2 por capítulo de 2.000 palavras; em 478 palavras isso dá menos de meia concessão, e \"Funciona às vezes\" já é concessão real ao processo da atendente. Colar de novo a frase literal de T4 (\"E aqui eu não estou falando que existe um certo ou errado\"), que os caps 02 e 12 já usam inteira, é o erro que o fingerprint chama de \"fazer a Ana\" por muleta, e contradiz o argumento do capítulo, que é justamente que este passo não se pula. A leitora não sente falta de amortecedor num capítulo de uma frase de script."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Imediatamente.",
+   "detalhe": "Advérbio de cinco sílabas sozinho no parágrafo é registro mais formal do que ela usa. O intensificador dela é \"muito\"; a fala dela é \"na hora\", \"tô\", \"pra\" (26 contrações em 3 de 3). Parágrafo de uma palavra é dela (pancada), a palavra não é.",
+   "motivo": "\"Imediatamente\" é a palavra literal do framework 715 (\"Quando avançar: Imediatamente para a próxima etapa\"), e ela usa advérbio longo em -mente na fala (\"completamente dizimada\", \"exatamente esse movimento\", item 34), então o registro não é estranho a ela. \"Na hora.\" sozinho é ambíguo em português (na hora de quê?) e no corpus dela \"na hora\" aparece como \"na hora de fazer o fechamento\", ou seja, \"no momento de\", não \"já\". A leitora não tropeça em \"Imediatamente\"."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Listar todas as qualificações da doutora sem conexão com o problema.",
+   "detalhe": "\"conexão\" está na lista do fingerprint de palavras que ela NÃO usa em 1.816 palavras e que um modelo usaria no lugar (\"jornada\", \"estratégia\", \"conexão\", \"abordagem\"...). Se o bloco :::evite é citação literal do manual de perguntas, manter e sinalizar como citação; se é prosa dela, trocar.",
+   "motivo": "O bloco :::evite é transcrição quase literal dos quatro bullets do framework 715 (\"Listar todas as qualificações da doutora sem conexão com o problema\" está assim na fonte), e o próprio revisor condiciona a troca a não ser citação. Além disso \"Conexão\" é o nome do passo 1 do script neste mesmo livro (cap 03), vocabulário da casa, e nenhuma leitora lê \"conexão\" como tell de IA. Não é caso de reescrita."
+  }
+ ],
+ "cego": {
+  "veredito": "ia",
+  "confianca": 68,
+  "pistas": [
+   {
+    "trecho": "Concordar é diferente de convencer. Quem concorda está do lado dela.",
+    "pista": "Par de frases curtas em forma de aforismo fechando o parágrafo, com paralelismo simétrico (concordar/convencer, concorda/lado dela). É o fecho de parágrafo em 'punchline' que aparece em quase todo bloco do texto, um padrão de escrita otimizada para soar humana, não de alguém escrevendo de cabeça."
+   },
+   {
+    "trecho": "Repara que os três objetivos falam do problema dela. [...] Repara que os quatro erros são a mesma tentação: encher a mensagem.",
+    "pista": "O mesmo dispositivo retórico ('Repara que os N ... são ...') repetido em duas seções distintas, sempre para reinterpretar uma lista que acabou de ser dada. Um autor humano tende a variar ou nem fazer essa síntese; a repetição do molde sugere geração com template de parágrafo."
+   },
+   {
+    "trecho": "As reticências não são enfeite de texto. No WhatsApp elas fazem a paciente ler com a pausa, como se você estivesse pensando junto. Mantém.",
+    "pista": "Frase-imperativo de uma palavra isolada no fim ('Mantém.') depois de uma explicação limpinha. Esse ritmo (explicação curta, justificativa, verbo solto) se repete no capítulo inteiro ('Imediatamente.', 'Uma mensagem.', 'Três pedaços.'). Cadência uniforme demais, sem nenhuma frase que sobra ou desanda, típica de prosa gerada e polida."
+   },
+   {
+    "trecho": "Você lembra da última vez que uma paciente disse por que agora, e a sua resposta foi \"que bom, deixa eu ver a agenda\"? Entre uma coisa e outra faltava essa frase.",
+    "pista": "Fechamento de capítulo com pergunta retórica dirigida à leitora seguida de uma frase-resumo que amarra tudo. É o encerramento 'perfeito' de manual, sem nenhuma digressão, exemplo concreto de clínica, nome, número ou detalhe sujo que um autor com experiência real deixaria escapar."
+   },
+   {
+    "trecho": "Uma mensagem. É isso o passo cinco. Ele é o mais curto do script e, pelo que eu vejo nas clínicas, o mais pulado.",
+    "pista": "'pelo que eu vejo nas clínicas' é a única marca de vivência pessoal do texto e é genérica: não diz qual clínica, quantas, quando, nem o que aconteceu. Ao mesmo tempo, o texto não tem um único erro de digitação, concordância solta ou frase mal terminada em 35 linhas, enquanto usa 'pra/pro/a gente' de forma perfeitamente consistente, o que parece coloquialidade aplicada por regra, não por hábito."
+   }
+  ]
+ }
+}

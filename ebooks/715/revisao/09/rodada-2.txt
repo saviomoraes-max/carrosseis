@@ -1,0 +1,31 @@
+09-passo-7-fechamento.md · rodada 2 · brutos 17 · confirmados 6 · altas 1 · cego None None
+
+[1] fidelidade/media
+  TRECHO: E se ela disser que faz o PIX à noite, ou que paga na hora da consulta? Você diz a mesma coisa, sem mudar o tom: que o horário fica reservado assim que o comprovante chegar, e que até lá ele continua aberto na agenda. Não é cobrança. É a regra, dita uma vez.
+  DETALHE: Política inventada. Nenhuma das duas fontes declaradas no cabeçalho do capítulo estabelece que o horário fica aberto na agenda até o comprovante chegar, nem dá resposta para a paciente que diz que paga depois. O framewor
+  CORRECAO: E se ela disser que faz o PIX à noite? A mesma frase, sem mudar o tom, e você não acrescenta nada. O que confirma o horário já está dito dentro dela. Pede uma vez e segue. Se ela empurrar o pagamento pra depois disso, aí já não é fechamento, é objeção, e objeção tem lugar próprio mais pra frente. (Motivo de eu não usar a correção proposta: ela recita a frase do script inteira em prosa três linhas abaixo do bloco :::frase que já traz a mesma frase, o que cria eco desnecessário na página.)
+
+[2] leitora/media
+  TRECHO: E se ela só disser que quinta não dá, sem propor nada?
+  DETALHE: Da linha do 'um horario so' ate a pergunta do pre-compromisso sao tres situaçoes diferentes emendadas em prosa corrida: ela aceita, ela recusa sem propor, ela recusa e propoe. Lendo no celular eu li a segunda achando que
+  CORRECAO: Tirar a antecipação do parágrafo de cima e deixar os galhos em ordem. Fica: "Um horário só. E o bastão continua com você: você ofereceu, ela reagiu." O parágrafo do "quinta não dá" segue igual. E o de baixo abre com a frase que hoje está lá em cima: "E quando ela mesma fala quando pode, antes de você sair procurando esse horário, tem uma pergunta:"
+
+[3] voz/alta
+  TRECHO: E é pra lá que se volta. Eu falo disso no capítulo 10.
+  DETALHE: "se volta" é sujeito indeterminado, registro de manual. Nas 1.816 palavras do corpus não existe uma única construção com "se" impessoal. Quando ela prescreve, o sujeito é "a gente" (12 ocorrências, 3 de 3, item 17 da whi
+  CORRECAO: "E é pra lá que a gente volta. Eu falo disso no capítulo 10."
+
+[4] voz/media
+  TRECHO: Suficiente tem medida, e ela veio do passo quatro: se ela ainda não disse, com as palavras dela, o que espera que mude com a consulta, é cedo pra horário.
+  DETALHE: Aforismo de ensaísta ("Suficiente tem medida") mais 30 palavras encadeadas com dois pontos e um inciso subordinado no meio. Ela cunha termo e define nas frases seguintes, em frases curtas e sem dois pontos (item 22 da wh
+  CORRECAO: "E suficiente tem medida. A medida veio do passo quatro. Se ela ainda não disse, com as palavras dela, o que espera que mude com a consulta, é cedo pra falar de horário."
+
+[5] voz/media
+  TRECHO: Agora, a sua última conversa que travou no horário: você ofereceu um horário ou perguntou qual ela preferia?
+  DETALHE: O "Agora," de virada está certo (item 23). O resto não. Item 3 da whitelist: perguntas diretas à leitora em série, com "você", no fecho, 2 de 3 amostras (A2 fecha com quatro seguidas, A3 com duas), e a dose por capítulo 
+  CORRECAO: "Agora, na sua última conversa que travou no horário, você ofereceu um horário ou perguntou qual ela preferia? E o comprovante, você chegou a pedir na hora?"
+
+[6] voz/media
+  TRECHO: O erro é perguntar antes de oferecer. Depois de oferecer, pode perguntar, porque aí ela já viu que a agenda anda.
+  DETALHE: Não há um único "mas" no capítulo inteiro, em 947 palavras. No corpus são 11 "mas" em 1.816 palavras, com 4 abrindo frase, e o item 5 da whitelist manda manter (dose por capítulo: 3 a 5 frases com "Mas"). Este trecho é e
+  CORRECAO: "O erro é perguntar antes de oferecer. Mas depois de oferecer, pode perguntar, porque aí ela já viu que a agenda anda."

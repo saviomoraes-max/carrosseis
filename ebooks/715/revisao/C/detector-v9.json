@@ -1,0 +1,137 @@
+{
+  "arquivo": "/Users/saviomoraes/reconecta/ebooks/715/revisao/C/capitulo-limpo.md",
+  "palavras": 479,
+  "paragrafos": 11,
+  "frases": 33,
+  "mascarado": {
+    "blocos_script": 7,
+    "marcadores_bloco": 14,
+    "citacoes": 3,
+    "titulos_curtos": 5
+  },
+  "avisos": [],
+  "amostra_pequena": false,
+  "score": 22,
+  "faixa": "leve sotaque (passa no portão)",
+  "pontos": 6.0,
+  "densidade": 12.5,
+  "formula": "densidade = pontos / max(palavras, piso_palavras) * 1000; score = 100 * (1 - exp(-densidade / k)), k = 50, piso_palavras = 300 (texto curto não explode com um achado só). Nota por categoria usa k_categoria sobre a densidade só daquela categoria.",
+  "categorias": {
+    "conteudo": {
+      "rotulo": "Conteúdo e inflação",
+      "achados": 2,
+      "pontos": 3.5,
+      "densidade": 7.3,
+      "nota": 39
+    },
+    "linguagem": {
+      "rotulo": "Linguagem e vocabulário",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "estrutura": {
+      "rotulo": "Estrutura e ritmo",
+      "achados": 1,
+      "pontos": 2.5,
+      "densidade": 5.2,
+      "nota": 29
+    },
+    "comunicacao": {
+      "rotulo": "Sobras de chatbot",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "meta": {
+      "rotulo": "Uniformidade de ritmo (estatística)",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "calques": {
+      "rotulo": "Calques do inglês e burocratês",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    }
+  },
+  "metricas": {
+    "frases_media_palavras": 15.4,
+    "frases_desvio_padrao": 8.5,
+    "frases_cv": 0.56,
+    "paragrafos": 11,
+    "paragrafos_mediana_palavras": 51,
+    "paragrafos_proporcao_mesmo_tamanho": 0.11,
+    "ritmo_entre_paragrafos_desvio": 0.057,
+    "pontuacao_cv": 0.32,
+    "frases_mesmo_inicio_proporcao": 0.06,
+    "travessoes": 0,
+    "travessoes_por_mil": 0.0,
+    "dois_pontos": 2,
+    "dois_pontos_por_mil": 4.18,
+    "itens_lista": 0,
+    "proporcao_linhas_em_lista": 0.0,
+    "negritos": 0,
+    "triades": 1,
+    "triades_por_mil": 2.09,
+    "contrastes": 1,
+    "paragrafos_terminando_em_pergunta": 1,
+    "fechos_grandiosos": 0,
+    "hedges": 1,
+    "hedges_por_mil": 2.09
+  },
+  "achados": [
+    {
+      "id": "ct_talvez",
+      "categoria": "conteudo",
+      "subtipo": "hedge",
+      "gravidade": "baixa",
+      "peso": 1,
+      "texto": "talvez",
+      "inicio": 659,
+      "fim": 665,
+      "explicacao": "Hedge adverbial (um por texto passa; a densidade é o tell).",
+      "sugestao": "afirme ou corte",
+      "contribuicao": 1,
+      "linha": 5,
+      "trecho": "Literalmente uma oportunidade, uma oportunidade escassa, que «talvez» não aconteça de novo."
+    },
+    {
+      "id": "cq_cada_vez_mais_imp",
+      "categoria": "conteudo",
+      "subtipo": "inflacao",
+      "gravidade": "media",
+      "peso": 2.5,
+      "texto": "mais do que nunca",
+      "inicio": 734,
+      "fim": 751,
+      "explicacao": "Urgência inflada sem data.",
+      "sugestao": "diga desde quando e quanto",
+      "contribuicao": 2.5,
+      "linha": 5,
+      "trecho": "Então a gente precisa tratar esse atendimento «mais do que nunca» como um processo seletivo, um processo de seleção mesmo."
+    },
+    {
+      "id": "es_contraste_nao_e_x_e_y",
+      "categoria": "estrutura",
+      "subtipo": "contraste",
+      "gravidade": "media",
+      "peso": 2.5,
+      "texto": "Não é consulta, é",
+      "inicio": 3507,
+      "fim": 3524,
+      "explicacao": "Contraste fácil 'não é X, é Y': virou tique.",
+      "sugestao": "afirme a coisa que importa",
+      "contribuicao": 2.5,
+      "linha": 43,
+      "trecho": "«Não é consulta, é» «reserva»."
+    }
+  ],
+  "achados_ocultos": 0,
+  "min_gravidade": "baixa"
+}

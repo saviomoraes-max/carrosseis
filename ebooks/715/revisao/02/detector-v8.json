@@ -1,0 +1,164 @@
+{
+  "arquivo": "/Users/saviomoraes/reconecta/ebooks/715/revisao/02/capitulo-limpo.md",
+  "palavras": 958,
+  "paragrafos": 20,
+  "frases": 73,
+  "mascarado": {
+    "titulos_curtos": 2
+  },
+  "avisos": [],
+  "score": 22,
+  "faixa": "leve sotaque (passa no portão)",
+  "pontos": 12.0,
+  "densidade": 12.5,
+  "formula": "densidade = pontos / max(palavras, piso_palavras) * 1000; score = 100 * (1 - exp(-densidade / k)), k = 50, piso_palavras = 300 (texto curto não explode com um achado só). Nota por categoria usa k_categoria sobre a densidade só daquela categoria.",
+  "categorias": {
+    "conteudo": {
+      "rotulo": "Conteúdo e inflação",
+      "achados": 1,
+      "pontos": 1,
+      "densidade": 1.0,
+      "nota": 7
+    },
+    "linguagem": {
+      "rotulo": "Linguagem e vocabulário",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "estrutura": {
+      "rotulo": "Estrutura e ritmo",
+      "achados": 4,
+      "pontos": 11.0,
+      "densidade": 11.5,
+      "nota": 53
+    },
+    "comunicacao": {
+      "rotulo": "Sobras de chatbot",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "meta": {
+      "rotulo": "Uniformidade de ritmo (estatística)",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "calques": {
+      "rotulo": "Calques do inglês e burocratês",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    }
+  },
+  "metricas": {
+    "frases_media_palavras": 13.1,
+    "frases_desvio_padrao": 7.7,
+    "frases_cv": 0.59,
+    "paragrafos": 20,
+    "paragrafos_mediana_palavras": 44,
+    "paragrafos_proporcao_mesmo_tamanho": 0.63,
+    "ritmo_entre_paragrafos_desvio": 0.244,
+    "pontuacao_cv": 1.11,
+    "ttr": 0.37,
+    "frases_mesmo_inicio_proporcao": 0.12,
+    "travessoes": 0,
+    "travessoes_por_mil": 0.0,
+    "dois_pontos": 3,
+    "dois_pontos_por_mil": 3.13,
+    "itens_lista": 0,
+    "proporcao_linhas_em_lista": 0.0,
+    "negritos": 0,
+    "triades": 0,
+    "triades_por_mil": 0.0,
+    "contrastes": 1,
+    "paragrafos_terminando_em_pergunta": 2,
+    "fechos_grandiosos": 0,
+    "hedges": 1,
+    "hedges_por_mil": 1.04
+  },
+  "achados": [
+    {
+      "id": "ct_de_certa_forma",
+      "categoria": "conteudo",
+      "subtipo": "hedge",
+      "gravidade": "baixa",
+      "peso": 1,
+      "texto": "de alguma forma",
+      "inicio": 653,
+      "fim": 668,
+      "explicacao": "Hedge: amortece a frase.",
+      "sugestao": "corte",
+      "contribuicao": 1,
+      "linha": 7,
+      "trecho": "Então, eu ouvi de uma delas, mas é porque a minha cidade é muito pequena, eu acho que «de alguma forma» pode ter saturado."
+    },
+    {
+      "id": "m_anafora",
+      "categoria": "estrutura",
+      "subtipo": "anafora",
+      "gravidade": "media",
+      "peso": 3,
+      "texto": "4 frases seguidas começando com «Nós temos»",
+      "inicio": 1273,
+      "fim": 1562,
+      "explicacao": "Três ou mais frases seguidas começando igual.",
+      "sugestao": "Deixe uma; reescreva as outras com outro começo.",
+      "contribuicao": 3,
+      "linha": 13,
+      "trecho": "«Nós temos pessoas que faturam 200 mil em cidades de 5 mil habitantes e em cidades de 1 milhão. Nós temos pessoas que faturam 200 mil com mais de 60 anos e com menos de 25. Nós temos pessoas do interior e de capital. Nós temos biomédicas, médicas, dentistas, farmacêuticas, fisioterapeutas.»"
+    },
+    {
+      "id": "m_anafora",
+      "categoria": "estrutura",
+      "subtipo": "anafora",
+      "gravidade": "media",
+      "peso": 3,
+      "texto": "3 frases seguidas começando com «Não depende»",
+      "inicio": 1880,
+      "fim": 1985,
+      "explicacao": "Três ou mais frases seguidas começando igual.",
+      "sugestao": "Deixe uma; reescreva as outras com outro começo.",
+      "contribuicao": 3,
+      "linha": 19,
+      "trecho": "«Não depende da cidade. Não depende da idade. Não depende de quanto profissional abriu clínica na sua rua.» Depende do que você digita depois do oi."
+    },
+    {
+      "id": "es_contraste_dividido",
+      "categoria": "estrutura",
+      "subtipo": "contraste",
+      "gravidade": "media",
+      "peso": 2.5,
+      "texto": ". Não é sete passos para agendar todo mundo. É",
+      "inicio": 2815,
+      "fim": 2861,
+      "explicacao": "Contraste dividido em duas frases: mesma muleta, disfarçada.",
+      "sugestao": "afirme a segunda parte",
+      "contribuicao": 2.5,
+      "linha": 27,
+      "trecho": "O nome é sete passos para um agendamento a cada cinco contatos«. Não é sete passos para agendar todo mundo. É» a paciente sair da conversa querendo marcar sem ninguém ter empurrado, se o problema que"
+    },
+    {
+      "id": "es_x_e_o_novo_y",
+      "categoria": "estrutura",
+      "subtipo": "aforismo",
+      "gravidade": "media",
+      "peso": 2.5,
+      "texto": "Empatia é a base do atendimento",
+      "inicio": 3507,
+      "fim": 3538,
+      "explicacao": "Fórmula de aforismo ('X é o novo Y', 'X é a moeda de Y').",
+      "sugestao": "diga a afirmação concreta por trás",
+      "contribuicao": 2.5,
+      "linha": 34,
+      "trecho": "» «Empatia é a base do atendimento»."
+    }
+  ],
+  "achados_ocultos": 0,
+  "min_gravidade": "baixa"
+}

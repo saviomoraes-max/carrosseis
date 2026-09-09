@@ -1,0 +1,662 @@
+{
+  "total": 72,
+  "em_card": 2,
+  "por_bloco": [
+    {
+      "bloco": "01",
+      "propostas": 8,
+      "aprovadas": 6
+    },
+    {
+      "bloco": "02",
+      "propostas": 9,
+      "aprovadas": 9
+    },
+    {
+      "bloco": "03",
+      "propostas": 8,
+      "aprovadas": 8
+    },
+    {
+      "bloco": "04",
+      "propostas": 6,
+      "aprovadas": 6
+    },
+    {
+      "bloco": "05",
+      "propostas": 9,
+      "aprovadas": 8
+    },
+    {
+      "bloco": "06",
+      "propostas": 3,
+      "aprovadas": 3
+    },
+    {
+      "bloco": "07",
+      "propostas": 6,
+      "aprovadas": 5
+    },
+    {
+      "bloco": "08",
+      "propostas": 2,
+      "aprovadas": 2
+    },
+    {
+      "bloco": "09",
+      "propostas": 5,
+      "aprovadas": 5
+    },
+    {
+      "bloco": "10",
+      "propostas": 2,
+      "aprovadas": 2
+    },
+    {
+      "bloco": "11",
+      "propostas": 3,
+      "aprovadas": 3
+    },
+    {
+      "bloco": "12",
+      "propostas": 2,
+      "aprovadas": 1
+    },
+    {
+      "bloco": "A",
+      "propostas": 1,
+      "aprovadas": 1
+    },
+    {
+      "bloco": "B",
+      "propostas": 11,
+      "aprovadas": 11
+    },
+    {
+      "bloco": "C",
+      "propostas": 3,
+      "aprovadas": 2
+    }
+  ],
+  "correcoes": [
+    {
+      "bloco": "01",
+      "itens": [
+        {
+          "trecho": "remete a vão arrancar o couro aqui de mim",
+          "novo": "remete a “vão arrancar o couro aqui de mim”",
+          "tipo": "aspas",
+          "regra": "Fala ou pensamento reproduzido como oração inteira dentro do período vai entre aspas, pra marcar onde começa e termina a voz citada.",
+          "em_card": false
+        },
+        {
+          "trecho": "do nossa, realmente eu encontrei a solução pro meu problema, aquilo acabou",
+          "novo": "do “nossa, realmente eu encontrei a solução pro meu problema”, aquilo acabou",
+          "tipo": "aspas",
+          "regra": "Pensamento citado depois de expressão introdutória (\"aquele ponto da emoção, do...\") precisa de aspas pra separar a fala interna da narração.",
+          "em_card": false
+        },
+        {
+          "trecho": "dizimada mesmo que a experiência",
+          "novo": "dizimada, mesmo que a experiência",
+          "tipo": "virgula",
+          "regra": "Oração subordinada concessiva posposta à principal se separa por vírgula.",
+          "em_card": false
+        },
+        {
+          "trecho": "e quando eu cheguei no financeiro aquilo pra mim já era",
+          "novo": "e quando eu cheguei no financeiro, aquilo pra mim já era",
+          "tipo": "virgula",
+          "regra": "Oração adverbial temporal anteposta à principal pede vírgula depois dela.",
+          "em_card": false
+        },
+        {
+          "trecho": "Você vai me dizer, mas eu não quero falar de dinheiro dentro da sala.",
+          "novo": "Você vai me dizer, “mas eu não quero falar de dinheiro dentro da sala.”",
+          "tipo": "aspas",
+          "regra": "Discurso direto depois de verbo de dizer (\"Você vai me dizer\") vai entre aspas.",
+          "em_card": false
+        },
+        {
+          "trecho": "E aí ela falou, poxa, tô precisando de uma ajuda aqui, porque a gente tá com muita gente indo pra casa pensar.",
+          "novo": "E aí ela falou, “poxa, tô precisando de uma ajuda aqui, porque a gente tá com muita gente indo pra casa pensar.”",
+          "tipo": "aspas",
+          "regra": "Discurso direto introduzido por \"ela falou\" exige aspas delimitando a fala da doutora.",
+          "em_card": false
+        }
+      ]
+    },
+    {
+      "bloco": "02",
+      "itens": [
+        {
+          "trecho": "eu ouvi de uma delas, mas é porque a minha cidade é muito pequena, eu acho que de alguma forma pode ter saturado.",
+          "novo": "eu ouvi de uma delas: “mas é porque a minha cidade é muito pequena, eu acho que de alguma forma pode ter saturado.”",
+          "tipo": "aspas",
+          "regra": "Fala reproduzida na íntegra depois de verbo de dizer pede dois-pontos e aspas, senão não se vê onde a fala da doutora começa e termina.",
+          "em_card": false
+        },
+        {
+          "trecho": "Aí uma outra falou, é porque eu acho que os pacientes estão procurando profissionais mais jovens do que eu.",
+          "novo": "Aí uma outra falou: “é porque eu acho que os pacientes estão procurando profissionais mais jovens do que eu.”",
+          "tipo": "aspas",
+          "regra": "Discurso direto depois de \"falou\" leva dois-pontos e aspas; a vírgula sozinha deixa a fala colada na narração.",
+          "em_card": false
+        },
+        {
+          "trecho": "Aí a outra, que é mais jovem, falou, é porque eu acho que os pacientes estão procurando profissionais mais experientes do que eu.",
+          "novo": "Aí a outra, que é mais jovem, falou: “é porque eu acho que os pacientes estão procurando profissionais mais experientes do que eu.”",
+          "tipo": "aspas",
+          "regra": "Discurso direto depois de \"falou\" leva dois-pontos e aspas; a vírgula sozinha deixa a fala colada na narração.",
+          "em_card": false
+        },
+        {
+          "trecho": "Ao passo que a outra falou que morava em uma cidade muito grande, eu acho que é porque aqui tem muita gente, tem muito profissional também.",
+          "novo": "Ao passo que a outra falou que morava em uma cidade muito grande, “eu acho que é porque aqui tem muita gente, tem muito profissional também.”",
+          "tipo": "aspas",
+          "regra": "A frase vira discurso direto no meio (o \"eu\" já é a doutora, não a narradora); a fala citada precisa de aspas para a leitora não ler tudo como narração.",
+          "em_card": false
+        },
+        {
+          "trecho": "e aí ela manda um obrigada, vou pensar, e você fica olhando pro visto azul",
+          "novo": "e aí ela manda um “obrigada, vou pensar”, e você fica olhando pro visto azul",
+          "tipo": "aspas",
+          "regra": "Mensagem reproduzida dentro da frase vai entre aspas; sem elas as vírgulas fazem \"vou pensar\" parecer oração da narradora.",
+          "em_card": false
+        },
+        {
+          "trecho": "a doutora que é simpática no oi e vira tabela de preço quando chega o quanto custa perdeu a paciente ali",
+          "novo": "a doutora que é simpática no “oi” e vira tabela de preço quando chega o “quanto custa” perdeu a paciente ali",
+          "tipo": "aspas",
+          "regra": "Palavra e pergunta citadas como coisa dita ficam entre aspas; sem isso \"quando chega o quanto custa perdeu\" trava a leitura.",
+          "em_card": false
+        },
+        {
+          "trecho": "depende do que você digita depois do oi",
+          "novo": "depende do que você digita depois do “oi”",
+          "tipo": "aspas",
+          "regra": "\"oi\" aqui é a palavra citada, não a interjeição em uso, então vai entre aspas (mesmo tratamento do «simpática no “oi”»).",
+          "em_card": false
+        },
+        {
+          "trecho": "e quando eu digo empatia é a paciente sentir que você está tentando entender o problema dela",
+          "novo": "e quando eu digo “empatia” é a paciente sentir que você está tentando entender o problema dela",
+          "tipo": "aspas",
+          "regra": "Uso metalinguístico: o texto fala SOBRE a palavra \"empatia\", e palavra citada como palavra vai entre aspas.",
+          "em_card": false
+        },
+        {
+          "trecho": "o nome é sete passos para um agendamento a cada cinco contatos, ó, um a cada cinco, e não sete passos para agendar todo mundo",
+          "novo": "o nome é “sete passos para um agendamento a cada cinco contatos”, ó, um a cada cinco, e não “sete passos para agendar todo mundo”",
+          "tipo": "aspas",
+          "regra": "Nome citado depois de \"o nome é\" vai entre aspas para separar o título do resto da frase e marcar o contraste com a versão negada.",
+          "em_card": false
+        }
+      ]
+    },
+    {
+      "bloco": "03",
+      "itens": [
+        {
+          "trecho": "Claro que posso te passar os horários! Mas antes, até pra entender se a doutora vai conseguir te ajudar no seu caso ou não, o que faz você buscar por botox hoje?",
+          "novo": "“Claro que posso te passar os horários! Mas antes, até pra entender se a doutora vai conseguir te ajudar no seu caso ou não, o que faz você buscar por botox hoje?”",
+          "tipo": "aspas",
+          "regra": "Fala reproduzida dentro do texto corrido (o script que a doutora manda) vai entre aspas, pra leitora ver onde a mensagem começa e termina.",
+          "em_card": false
+        },
+        {
+          "trecho": "a leitura negativa aqui é: ela só está querendo me vender.",
+          "novo": "a leitura negativa aqui é: “ela só está querendo me vender”.",
+          "tipo": "aspas",
+          "regra": "Pensamento/fala da paciente citado como oração inteira depois de dois-pontos pede aspas.",
+          "em_card": false
+        },
+        {
+          "trecho": "aquele a doutora é ótima, esses casos são perfeitos, olha esse caso que lindo,",
+          "novo": "aquele “a doutora é ótima, esses casos são perfeitos, olha esse caso que lindo”,",
+          "tipo": "aspas",
+          "regra": "Falas reproduzidas depois de \"aquele\" precisam de aspas; sem elas as vírgulas da fala se confundem com as vírgulas da frase que a envolve.",
+          "em_card": false
+        },
+        {
+          "trecho": "é: ela só quer me ajudar a resolver o meu problema.",
+          "novo": "é: “ela só quer me ajudar a resolver o meu problema”.",
+          "tipo": "aspas",
+          "regra": "Mesma regra da leitura negativa: fala/pensamento citado como oração inteira vai entre aspas.",
+          "em_card": false
+        },
+        {
+          "trecho": "emenda: me conta.",
+          "novo": "emenda: “me conta”.",
+          "tipo": "aspas",
+          "regra": "Depois de dois-pontos, a fala reproduzida (mesmo curta, mas com verbo) vai entre aspas.",
+          "em_card": false
+        },
+        {
+          "trecho": "só troca valores por horário",
+          "novo": "só troca “valores” por “horário”",
+          "tipo": "aspas",
+          "regra": "Palavra citada como palavra (a troca literal dentro do script) vai entre aspas.",
+          "em_card": false
+        },
+        {
+          "trecho": "e se conseguir aí a gente pensa em próximos passos, pode ser?",
+          "novo": "e se conseguir, aí a gente pensa em próximos passos, pode ser?",
+          "tipo": "virgula",
+          "regra": "Oração subordinada condicional anteposta à principal se separa por vírgula.",
+          "em_card": true
+        },
+        {
+          "trecho": "Responder direto a pergunta que ela fez",
+          "novo": "Responder direto à pergunta que ela fez",
+          "tipo": "acento",
+          "regra": "Responder pede preposição a diante da coisa respondida (responder a algo); com o artigo feminino \"a pergunta\", há crase.",
+          "em_card": true
+        }
+      ]
+    },
+    {
+      "bloco": "04",
+      "itens": [
+        {
+          "trecho": "ela disse rosto flácido, você sabe o que é flacidez",
+          "novo": "ela disse “rosto flácido”, você sabe o que é flacidez",
+          "tipo": "aspas",
+          "regra": "Palavra citada: quando o texto fala sobre a palavra que a paciente usou, ela vai entre aspas (uso metalinguístico).",
+          "em_card": false
+        },
+        {
+          "trecho": "Olhar cansado, rejuvenescer, natural, bigode chinês, rosto derretendo, pele sem viço, papada.",
+          "novo": "“Olhar cansado”, “rejuvenescer”, “natural”, “bigode chinês”, “rosto derretendo”, “pele sem viço”, “papada”.",
+          "tipo": "aspas",
+          "regra": "Lista de palavras citadas (a frase anterior anuncia “qualquer palavra que ela trouxer”): palavra mencionada como palavra vai entre aspas.",
+          "em_card": false
+        },
+        {
+          "trecho": "aparece a palavra sentir.",
+          "novo": "aparece a palavra “sentir”.",
+          "tipo": "aspas",
+          "regra": "Palavra citada depois de “a palavra”: uso metalinguístico exige aspas.",
+          "em_card": false
+        },
+        {
+          "trecho": "e isso pode gerar resistência, né.",
+          "novo": "e isso pode gerar resistência, né?",
+          "tipo": "interrogacao",
+          "regra": "“Né” é pergunta de confirmação e fecha com ponto de interrogação, como o “tá?” usado no resto do capítulo.",
+          "em_card": false
+        },
+        {
+          "trecho": "tem cara de interrogatório: ela está fazendo uma entrevista? Tô cansada de tantas perguntas, já falei o que eu quero, está sendo invasiva.",
+          "novo": "tem cara de interrogatório: “ela está fazendo uma entrevista? Tô cansada de tantas perguntas, já falei o que eu quero, está sendo invasiva.”",
+          "tipo": "aspas",
+          "regra": "Fala/pensamento reproduzido em orações inteiras vai entre aspas, pra marcar onde a voz da paciente começa e termina.",
+          "em_card": false
+        },
+        {
+          "trecho": "A leitura positiva é: ela está querendo me entender pra ver se consegue me ajudar.",
+          "novo": "A leitura positiva é: “ela está querendo me entender pra ver se consegue me ajudar.”",
+          "tipo": "aspas",
+          "regra": "Fala/pensamento reproduzido em oração inteira depois de dois-pontos vai entre aspas.",
+          "em_card": false
+        }
+      ]
+    },
+    {
+      "bloco": "05",
+      "itens": [
+        {
+          "trecho": "E se ela responde nada, sempre quis?",
+          "novo": "E se ela responde “nada, sempre quis”?",
+          "tipo": "aspas",
+          "regra": "Fala reproduzida da paciente inserida na frase vai entre aspas, pra a leitora saber onde a fala começa e termina.",
+          "em_card": false
+        },
+        {
+          "trecho": "começa pela palavra dela, novembro, então..., e só depois vem a pergunta",
+          "novo": "começa pela palavra dela, “novembro, então...”, e só depois vem a pergunta",
+          "tipo": "aspas",
+          "regra": "Palavra ou trecho citado (a palavra dela) fica entre aspas quando o texto fala sobre a palavra em si.",
+          "em_card": false
+        },
+        {
+          "trecho": "É pra isso que serve o por que fazer agora e não esperar mais um pouco: ela vai ter que dizer por que não espera.",
+          "novo": "É pra isso que serve o “por que fazer agora e não esperar mais um pouco”: ela vai ter que dizer por que não espera.",
+          "tipo": "aspas",
+          "regra": "Pergunta citada como nome de si mesma vai entre aspas, como já está feito no parágrafo anterior.",
+          "em_card": false
+        },
+        {
+          "trecho": "A leitura negativa aqui é: mais uma daquelas técnicas de venda batidas.",
+          "novo": "A leitura negativa aqui é: “mais uma daquelas técnicas de venda batidas”.",
+          "tipo": "aspas",
+          "regra": "Pensamento da paciente reproduzido como oração inteira depois de dois-pontos vai entre aspas.",
+          "em_card": false
+        },
+        {
+          "trecho": "A leitura positiva é: estamos entendendo juntas pra ver se vão conseguir me ajudar.",
+          "novo": "A leitura positiva é: “estamos entendendo juntas pra ver se vão conseguir me ajudar”.",
+          "tipo": "aspas",
+          "regra": "Pensamento da paciente reproduzido como oração inteira depois de dois-pontos vai entre aspas.",
+          "em_card": false
+        },
+        {
+          "trecho": "A flacidez tem dois anos, né.",
+          "novo": "A flacidez tem dois anos, né?",
+          "tipo": "interrogacao",
+          "regra": "\"né\" é pergunta de confirmação (\"não é?\") e fecha com ponto de interrogação, como o \"eu sei, tá?\" mais adiante.",
+          "em_card": false
+        },
+        {
+          "trecho": "porque quando você oferece a espera ela é obrigada",
+          "novo": "porque quando você oferece a espera, ela é obrigada",
+          "tipo": "virgula",
+          "regra": "Oração adverbial (\"quando você oferece a espera\") anteposta à principal pede vírgula pra fechar.",
+          "em_card": false
+        },
+        {
+          "trecho": "No WhatsApp emoção não vem com lágrima",
+          "novo": "No WhatsApp, emoção não vem com lágrima",
+          "tipo": "virgula",
+          "regra": "Adjunto adverbial deslocado pro começo da frase se separa por vírgula, evitando a leitura grudada \"WhatsApp emoção\".",
+          "em_card": false
+        }
+      ]
+    },
+    {
+      "bloco": "06",
+      "itens": [
+        {
+          "trecho": "Quando a doutora terminou o diagnóstico eu já tava completamente na emoção",
+          "novo": "Quando a doutora terminou o diagnóstico, eu já tava completamente na emoção",
+          "tipo": "virgula",
+          "regra": "Oração subordinada adverbial (temporal) anteposta à principal pede vírgula depois dela.",
+          "em_card": false
+        },
+        {
+          "trecho": "e pensa, será que isso é pra mim?",
+          "novo": "e pensa, “será que isso é pra mim?”",
+          "tipo": "aspas",
+          "regra": "Fala ou pensamento reproduzido como oração inteira vai entre aspas, pra marcar onde começa e termina a voz da paciente (mesmo tratamento que o livro já dá em «Agora, se ela declara antes, não tem esse “será”»).",
+          "em_card": false
+        },
+        {
+          "trecho": "A leitura positiva é: ela entendeu o meu problema e sei que vai me ajudar a resolver.",
+          "novo": "A leitura positiva é: “ela entendeu o meu problema e sei que vai me ajudar a resolver”.",
+          "tipo": "aspas",
+          "regra": "Frase reproduzida da paciente vai entre aspas, como o próprio parágrafo anterior já faz com as duas leituras negativas (“ainda não sei se o meu problema vai ser resolvido”).",
+          "em_card": false
+        }
+      ]
+    },
+    {
+      "bloco": "07",
+      "itens": [
+        {
+          "trecho": "você perguntou por que agora e o script",
+          "novo": "você perguntou “por que agora” e o script",
+          "tipo": "aspas",
+          "regra": "Pergunta reproduzida dentro da frase vai entre aspas, senão \"por que agora\" se confunde com conjunção causal e o leitor não vê onde a pergunta termina.",
+          "em_card": false
+        },
+        {
+          "trecho": "chama esse pedaço de tempo informado porque",
+          "novo": "chama esse pedaço de “tempo informado” porque",
+          "tipo": "aspas",
+          "regra": "Termo nomeado (o texto fala SOBRE a expressão que o script usa) vai entre aspas; sem elas lê-se \"pedaço de tempo\" + adjetivo.",
+          "em_card": false
+        },
+        {
+          "trecho": "quando disse por que agora, e o que você faz",
+          "novo": "quando disse “por que agora”, e o que você faz",
+          "tipo": "aspas",
+          "regra": "Fala reproduzida da doutora entre aspas, mantendo a mesma marcação usada nas outras citações do capítulo.",
+          "em_card": false
+        },
+        {
+          "trecho": "uma paciente disse por que agora, e a sua resposta",
+          "novo": "uma paciente disse “por que agora”, e a sua resposta",
+          "tipo": "aspas",
+          "regra": "Pergunta citada dentro do período pede aspas, como já acontece com “que bom, deixa eu ver a agenda” na mesma frase.",
+          "em_card": false
+        },
+        {
+          "trecho": "Se você esperar a resposta você abre espaço",
+          "novo": "Se você esperar a resposta, você abre espaço",
+          "tipo": "virgula",
+          "regra": "Oração subordinada condicional anteposta à principal exige vírgula depois dela.",
+          "em_card": false
+        }
+      ]
+    },
+    {
+      "bloco": "08",
+      "itens": [
+        {
+          "trecho": "pensar: é exatamente isso.",
+          "novo": "pensar: “é exatamente isso”.",
+          "tipo": "aspas",
+          "regra": "Pensamento/fala reproduzido como oração inteira vai entre aspas, como o próprio livro faz nas leituras negativas (“não parece resolver o meu problema”).",
+          "em_card": false
+        },
+        {
+          "trecho": "é uma frase só: é exatamente isso que eu estou buscando.",
+          "novo": "é uma frase só: “é exatamente isso que eu estou buscando”.",
+          "tipo": "aspas",
+          "regra": "Frase reproduzida da paciente pede aspas; o parágrafo anterior já cita as três leituras negativas entre aspas, e sem elas a leitora não vê onde a fala começa e termina.",
+          "em_card": false
+        }
+      ]
+    },
+    {
+      "bloco": "09",
+      "itens": [
+        {
+          "trecho": "apareceu como investimento da consulta,",
+          "novo": "apareceu como “investimento da consulta”,",
+          "tipo": "aspas",
+          "regra": "Palavra ou expressão citada como termo (o texto fala SOBRE o rótulo usado no script) vai entre aspas.",
+          "em_card": false
+        },
+        {
+          "trecho": "mas depois de oferecer, pode perguntar",
+          "novo": "mas, depois de oferecer, pode perguntar",
+          "tipo": "virgula",
+          "regra": "Oração adverbial intercalada entre a conjunção e a oração principal se isola com vírgula dos dois lados, não só de um.",
+          "em_card": false
+        },
+        {
+          "trecho": "E suficiente tem medida.",
+          "novo": "E “suficiente” tem medida.",
+          "tipo": "aspas",
+          "regra": "Quando se fala sobre a própria palavra (metalinguagem), ela vai entre aspas.",
+          "em_card": false
+        },
+        {
+          "trecho": "passa batida: vou ter que me organizar pra ir na consulta.",
+          "novo": "passa batida: “vou ter que me organizar pra ir na consulta”.",
+          "tipo": "aspas",
+          "regra": "Fala reproduzida que é oração inteira vai entre aspas, para marcar onde a voz da paciente começa e termina.",
+          "em_card": false
+        },
+        {
+          "trecho": "A leitura positiva é: estou tomando a melhor decisão.",
+          "novo": "A leitura positiva é: “estou tomando a melhor decisão”.",
+          "tipo": "aspas",
+          "regra": "Fala reproduzida que é oração inteira vai entre aspas, para marcar onde a voz da paciente começa e termina.",
+          "em_card": false
+        }
+      ]
+    },
+    {
+      "bloco": "10",
+      "itens": [
+        {
+          "trecho": "Quando você diz que ficou artificial, o que exatamente te preocupa?",
+          "novo": "“Quando você diz que ficou artificial, o que exatamente te preocupa?”",
+          "tipo": "aspas",
+          "regra": "Fala reproduzida em oração inteira vai entre aspas, pra a leitora ver onde a pergunta da atendente começa e termina no meio da narração.",
+          "em_card": false
+        },
+        {
+          "trecho": "será que eu não encontro outro jeito.",
+          "novo": "será que eu não encontro outro jeito?",
+          "tipo": "interrogacao",
+          "regra": "Série de interrogativas diretas fecha com ponto de interrogação, não com ponto final.",
+          "em_card": false
+        }
+      ]
+    },
+    {
+      "bloco": "11",
+      "itens": [
+        {
+          "trecho": "A segunda é só pra quem disse caro.",
+          "novo": "A segunda é só pra quem disse “caro”.",
+          "tipo": "aspas",
+          "regra": "Palavra citada (o texto fala SOBRE a palavra que a paciente usou, não a emprega) vai entre aspas.",
+          "em_card": false
+        },
+        {
+          "trecho": "a forma mais fácil de encerrar uma conversa é com uma resposta, né.",
+          "novo": "a forma mais fácil de encerrar uma conversa é com uma resposta, né?",
+          "tipo": "interrogacao",
+          "regra": "\"né\" no fim da frase é pergunta de confirmação e fecha com ponto de interrogação.",
+          "em_card": false
+        },
+        {
+          "trecho": "Então, essa primeira serve pras duas, tá.",
+          "novo": "Então, essa primeira serve pras duas, tá?",
+          "tipo": "interrogacao",
+          "regra": "\"tá\" no fim da frase pede confirmação da leitora e fecha com ponto de interrogação.",
+          "em_card": false
+        }
+      ]
+    },
+    {
+      "bloco": "12",
+      "itens": [
+        {
+          "trecho": "foi isso, a doutora entendeu o meu problema",
+          "novo": "foi isso: a doutora entendeu o meu problema",
+          "tipo": "outro",
+          "regra": "Quando \"isso\" anuncia o que vem em seguida, a explicação entra depois de dois-pontos, não de vírgula (mesmo padrão já usado no livro em \"é assim: o ticket médio...\").",
+          "em_card": false
+        }
+      ]
+    },
+    {
+      "bloco": "A",
+      "itens": [
+        {
+          "trecho": "as outras aberturas estão no Anexo B.",
+          "novo": "as outras aberturas estão no anexo B.",
+          "tipo": "maiuscula",
+          "regra": "Referência cruzada dentro do texto corrido vai em minúscula ('anexo B', 'capítulo 11'), como o próprio livro faz em todas as outras ocorrências; a maiúscula fica só no rótulo de design do frontmatter.",
+          "em_card": false
+        }
+      ]
+    },
+    {
+      "bloco": "B",
+      "itens": [
+        {
+          "trecho": "diz 'rosto flácido'",
+          "novo": "diz ‘rosto flácido’",
+          "tipo": "aspas",
+          "regra": "Citação dentro de citação usa aspas simples tipográficas (‘ ’); o apóstrofo reto (') não é sinal de aspas em texto composto e é o único caso do livro inteiro.",
+          "em_card": false
+        },
+        {
+          "trecho": "com 'olhar cansado'?",
+          "novo": "com ‘olhar cansado’?",
+          "tipo": "aspas",
+          "regra": "Citação dentro de citação usa aspas simples tipográficas (‘ ’), não apóstrofo reto.",
+          "em_card": false
+        },
+        {
+          "trecho": "mencionou 'harmonização',",
+          "novo": "mencionou ‘harmonização’,",
+          "tipo": "aspas",
+          "regra": "Citação dentro de citação usa aspas simples tipográficas (‘ ’), não apóstrofo reto.",
+          "em_card": false
+        },
+        {
+          "trecho": "em 'rejuvenescer',",
+          "novo": "em ‘rejuvenescer’,",
+          "tipo": "aspas",
+          "regra": "Citação dentro de citação usa aspas simples tipográficas (‘ ’), não apóstrofo reto.",
+          "em_card": false
+        },
+        {
+          "trecho": "resultado 'natural'?",
+          "novo": "resultado ‘natural’?",
+          "tipo": "aspas",
+          "regra": "Citação dentro de citação usa aspas simples tipográficas (‘ ’), não apóstrofo reto.",
+          "em_card": false
+        },
+        {
+          "trecho": "menciona 'bigode chinês',",
+          "novo": "menciona ‘bigode chinês’,",
+          "tipo": "aspas",
+          "regra": "Citação dentro de citação usa aspas simples tipográficas (‘ ’), não apóstrofo reto.",
+          "em_card": false
+        },
+        {
+          "trecho": "está 'derretendo'?",
+          "novo": "está ‘derretendo’?",
+          "tipo": "aspas",
+          "regra": "Citação dentro de citação usa aspas simples tipográficas (‘ ’), não apóstrofo reto.",
+          "em_card": false
+        },
+        {
+          "trecho": "por 'pele sem viço'?",
+          "novo": "por ‘pele sem viço’?",
+          "tipo": "aspas",
+          "regra": "Citação dentro de citação usa aspas simples tipográficas (‘ ’), não apóstrofo reto.",
+          "em_card": false
+        },
+        {
+          "trecho": "em 'papada',",
+          "novo": "em ‘papada’,",
+          "tipo": "aspas",
+          "regra": "Citação dentro de citação usa aspas simples tipográficas (‘ ’), não apóstrofo reto.",
+          "em_card": false
+        },
+        {
+          "trecho": "quer 'melhorar o contorno facial'?",
+          "novo": "quer ‘melhorar o contorno facial’?",
+          "tipo": "aspas",
+          "regra": "Citação dentro de citação usa aspas simples tipográficas (‘ ’), não apóstrofo reto.",
+          "em_card": false
+        },
+        {
+          "trecho": "e se conseguir aí a gente pensa em próximos passos",
+          "novo": "e se conseguir, aí a gente pensa em próximos passos",
+          "tipo": "virgula",
+          "regra": "Oração condicional anteposta à principal pede vírgula; sem ela, 'se conseguir aí' lê como lugar e o leitor tropeça.",
+          "em_card": false
+        }
+      ]
+    },
+    {
+      "bloco": "C",
+      "itens": [
+        {
+          "trecho": "gente: “os leads estão chegando",
+          "novo": "gente: “Os leads estão chegando",
+          "tipo": "maiuscula",
+          "regra": "Fala reproduzida entre aspas depois de dois-pontos começa com maiúscula.",
+          "em_card": false
+        },
+        {
+          "trecho": "mas depois que eu passo o preço a maioria questiona",
+          "novo": "mas, depois que eu passo o preço, a maioria questiona",
+          "tipo": "virgula",
+          "regra": "Oração adverbial temporal anteposta à principal fica entre vírgulas.",
+          "em_card": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+ "capitulo": "/Users/saviomoraes/reconecta/ebooks/715/manuscrito/04-passo-2-situacao.md",
+ "rodada": 2,
+ "brutos": 17,
+ "confirmados_n": 6,
+ "altas_confirmadas": 1,
+ "por_revisor": {
+  "tell": {
+   "brutos": 5,
+   "confirmados": 3
+  },
+  "fidelidade": {
+   "brutos": 3,
+   "confirmados": 1
+  },
+  "voz": {
+   "brutos": 9,
+   "confirmados": 2
+  }
+ },
+ "confirmados": [
+  {
+   "revisor": "tell",
+   "tipo": "tell",
+   "gravidade": "alta",
+   "trecho": "Esse \"exatamente isso\" é o sinal mais claro do script inteiro. E olha de onde ele vem. Não de um resumo seu do problema dela.",
+   "detalhe": "Cluster de quatro famílias em cinco frases, o parágrafo mais carregado do capítulo. (1) Etiqueta de importância (1.11): \"o sinal mais claro do script inteiro\" avisa o que a leitora deve achar em vez de mostrar. (2) Corrida de aproximação (1.5): \"E olha de onde ele vem.\" anuncia o ponto em vez de fazer; e o \"olha\", no fingerprint (whitelist 11), só abre fala reproduzida ou pensamento, nunca placa de sinalização. (3) Objeção fantasma (1.7): \"Não de um resumo seu do problema dela\" rejeita uma opção que ninguém propôs; \"resumo\" não aparece nem neste capítulo nem na Etapa 2 da fonte (01-framework-715.md, p.3-4). A negativa existe só pra positiva parecer maior. (4) O mesmo parágrafo fecha com o nono contraste do capítulo (\"não está mais conversando com uma atendente. Está conversando com alguém que entendeu\"), cauda que reafirma o que o \"é isso, exatamente\" já tinha mostrado, mais o \"A partir daí\" que o detector marcou (ela emenda com \"aí\"/\"e aí\", 9 ocorrências em 3 de 3 amostras).",
+   "correcao": "Esse \"exatamente isso\" sai da pergunta que repetiu a palavra dela: você perguntou em que momento ela percebe mais isso que tá caindo perto do queixo, e ela respondeu \"é isso, exatamente\". A partir daí ela não está mais conversando com uma atendente. Está conversando com alguém que entendeu.",
+   "motivos": [
+    "Confirmado em duas das quatro frentes, e isso basta: \"E olha de onde ele vem\" usa o \"olha\" como placa de sinalização, e a whitelist (item 11, dose na seção 6) só cobre \"olha\" abrindo fala reproduzida ou pensamento; \"o sinal mais claro do script inteiro\" é superlativo que a fonte (p.143 lista o sinal, sem ranquear) não sustenta. O \"resumo\" negado não está em lugar nenhum do capítulo nem da fonte, mas a negativa de opção não proposta também aparece nas amostras dela (\"Não foi nada externo\"), então esse ponto sozinho eu refutaria. A correção do revisor falha na regra 4: \"vem de um lugar só:\" é outro rufar de tambor com dois-pontos, \"Ela ouviu a própria palavra na sua pergunta\" repete a linha 83 (\"Ela ouve a própria palavra e sente que você leu\") e \"deixou de ser atendente\" apaga o contraste \"atendente / alguém que entendeu\", que é o touchstone T3 dela quase literal.",
+    "O trecho está em manuscrito/04-passo-2-situacao.md linha 96 e os quatro pontos batem: \"o sinal mais claro do script inteiro\" etiqueta em vez de mostrar; \"E olha de onde ele vem\" é placa autônoma, e a whitelist (item 11, seção 6) só cobre \"olha\" abrindo fala reproduzida ou pensamento; \"resumo\" não aparece antes no capítulo nem na Etapa 2 da fonte (o erro que o capítulo montou na linha 18 é explicar, não resumir). O contraste final tem forma protegida (whitelist 1), mas o capítulo tem 1.003 palavras e cerca de oito contrastes \"não X, Y\" contra dose de 3 a 5 por capítulo de 2.000, e ele só reafirma o que o \"é isso, exatamente\" já mostrou. A correção proposta falha em (4): \"vem de um lugar só:\" abre outra corrida com dois-pontos, \"Ela ouviu a própria palavra na sua pergunta\" repete a linha 83 (\"Ela ouve a própria palavra e sente que você leu\"), e o fecho perde a metade positiva (\"alguém que entendeu\"), que é o que a leitora leva."
+   ]
+  },
+  {
+   "revisor": "tell",
+   "tipo": "tell",
+   "gravidade": "media",
+   "trecho": "Perguntar como ela se sente presume que ela está incomodada, e às vezes ela não está, ela só quer entender. Presumiu o incômodo, ela recua.",
+   "detalhe": "Metrônomo de parágrafo (2.4/2.5) somado a contraste em densidade (1.1). Nove dos treze parágrafos de prosa fecham com pancada curta: \"É a conversa morrendo de novo, só que mais tarde.\" / \"Você sabe o nome que ela deu.\" / \"O passo dois é o passo em que você mais fica quieta.\" / \"...está aplicando questionário.\" / \"Presumiu o incômodo, ela recua.\" / \"Você não perguntou. Ela contou.\" / \"E ninguém agenda com quem não acreditou.\" / \"Ela ouve a própria palavra e sente que você leu.\" / \"Está conversando com alguém que entendeu.\" A pancada depois de frase longa é traço confirmado dela (whitelist 6), mas a dose do fingerprint (seção 6) é uma a cada 3 ou 4 parágrafos; aqui virou regra de fábrica, e o detector já mede 58% de parágrafos do mesmo tamanho. No mesmo molde, 8 contrastes \"não X, Y\" em 886 palavras contra dose de 3 a 5 por 2.000 (whitelist 1 protege o padrão, não a densidade; catálogo 1.1: vira tique na terceira da mesma página). O trecho citado é representativo, não o pior: a frase anterior já disse que ela só quer entender, e a pancada só dá nota.",
+   "correcao": "Na linha 62, terminar o parágrafo em \"...e às vezes ela não está, ela só quer entender.\" e apagar \"Presumiu o incômodo, ela recua.\" Nada mais a mexer neste achado; as outras reduções vêm de [0] e [1].",
+   "motivos": [
+    "Contei no arquivo: 16 parágrafos de prosa, 739 palavras, 9 fechando em pancada (quatro seguidos nas linhas 60, 62, 64 e 70) e 7 contrastes \"não X, Y\" completos. A dose do fingerprint é 3 a 5 contrastes por 2.000 palavras e um parágrafo-pancada a cada 3 ou 4; mesmo na \"dose integral\" da fala (3,3 contrastes por mil) o capítulo daria 2 ou 3, não 7. A whitelist 1 e 6 protegem o padrão, e a seção 6 dá a dose explicitamente, então a densidade não está protegida. O corte proposto na linha 62 é seguro: \"ela só quer entender\" fecha em fato, e a consequência (\"ela recua\") já reaparece na leitura negativa da linha 79; com os cortes de [0] e [1] o capítulo fica com 5 contrastes e 6 pancadas."
+   ]
+  },
+  {
+   "revisor": "tell",
+   "tipo": "tell",
+   "gravidade": "baixa",
+   "trecho": "Uma coisa, ponto importante: em nenhuma dessas perguntas aparece a palavra sentir.",
+   "detalhe": "Certificado de importância dobrado (5.3): \"Uma coisa\" mais \"ponto importante\" mais dois-pontos, três avisos antes de uma afirmação de dez palavras. \"ponto importante\" é dela (touchstone T2), mas lá é aparte no meio da frase (\"porque até então, ponto importante, eu não sabia\"), não placa abrindo parágrafo. Baixa porque a expressão é da autora; conta só porque está empilhada.",
+   "correcao": "E em nenhuma dessas perguntas, ponto importante, aparece a palavra sentir.",
+   "motivos": [
+    "\"Uma coisa,\" mais \"ponto importante\" mais dois-pontos são três avisos antes de dez palavras, e o touchstone T2 mostra a expressão dela como aparte no meio da frase (\"porque até então, ponto importante, eu não sabia\"), não como placa abrindo parágrafo; a whitelist protege a expressão, não a pilha. A correção proposta devolve o aparte pra dentro da frase, abre com \"E\" (whitelist 5) e não introduz nada novo; fica como está proposta."
+   ]
+  },
+  {
+   "revisor": "fidelidade",
+   "tipo": "fidelidade",
+   "gravidade": "baixa",
+   "trecho": "- Você entendeu como isso está afetando ela hoje",
+   "detalhe": "O card de 'Quando avançar' da fonte diz: 'Entende o impacto emocional e prático na vida dele'. O capítulo trocou pela frase do Objetivo ('Entender COMO isso que está acontecendo está afetando ela hoje') e perdeu as duas palavras que qualificam o sinal: emocional e prático. A prosa logo acima até fala do impacto emocional ('chega sem você pedir'), mas o card, que é o que a leitora vai consultar, ficou mais vago que a fonte. Mesma troca se repete na frase corrida: 'quando você entendeu como isso está afetando ela hoje'.",
+   "correcao": "No card: '- Você entendeu como isso está afetando a vida dela, no emocional e no prático'. Na frase corrida: 'quando você entendeu como isso está afetando a vida dela, no emocional e no prático'.",
+   "motivos": [
+    "O card da fonte diz 'impacto emocional e prático'; o capítulo pôs no card a frase do Objetivo e perdeu os dois qualificadores. O emocional ainda aparece na prosa (linha 64, 'chega sem você pedir'), mas o prático some do capítulo inteiro, e é o card que a leitora vai consultar pra saber se pode avançar. A correção do revisor não tem tell nem travessão, mas troca 'afetando ela hoje', que ecoa o Objetivo (repetição sem sinônimo é traço dela, whitelist 9); dá pra manter o eco e só acrescentar os dois lados."
+   ]
+  },
+  {
+   "revisor": "voz",
+   "tipo": "voz",
+   "gravidade": "baixa",
+   "trecho": "Uma coisa, ponto importante: em nenhuma dessas perguntas aparece a palavra sentir.",
+   "detalhe": "\"ponto importante\" é dela (T2), mas como aparte dentro da frase, no meio do raciocínio: \"porque até então, ponto importante, eu não sabia quanto ia custar\". Aqui virou etiqueta de abertura, dobrada com \"Uma coisa\", que é dois anúncios antes do conteúdo. Ela avisa uma vez.",
+   "correcao": "\"E em nenhuma dessas perguntas, ponto importante, aparece a palavra sentir.\"",
+   "motivos": [
+    "Existe: 'Uma coisa, ponto importante:' são dois anúncios empilhados antes do conteúdo, e o catálogo de tells (5.3, certificado de 'vale dizer', família de 'É importante destacar que') marca justamente a oração cujo único conteúdo é avisar que uma afirmação vem aí; na Ana 'ponto importante' é aparte no meio do raciocínio, uma vez só. A leitora sente o pigarro duplo. A correção proposta serve: 'E' inicial e aparte entre vírgulas são dela, sem travessão, sem tell novo."
+   ]
+  },
+  {
+   "revisor": "voz",
+   "tipo": "voz",
+   "gravidade": "baixa",
+   "trecho": "O \"mas você é linda\" merece uma linha. Eu sei que sai como carinho.",
+   "detalhe": "\"merece uma linha\" é voz de escritor falando do próprio texto. Nas três amostras ela nunca comenta a peça de fora (o único meta dela é aviso de que vai contar ou spoiler). Ela entraria direto no aparte, com \"E\" inicial ou \"Agora,\".",
+   "correcao": "\"Eu sei que o 'mas você é linda' sai como carinho. Mas a paciente escreveu que o rosto dela está caindo, e você respondeu que ela é linda. Ela leu que você não acreditou nela. E ninguém agenda com quem não acreditou.\"",
+   "motivos": [
+    "'Merece uma linha' é o certificado de 'vale mencionar' do catálogo 5.3 (gravidade alta lá), escritor decidindo em voz alta que vai falar do assunto; diferente do 'Sobre a última:' do cap. 3, que só marca tópico e por isso foi refutado. Nas três amostras ela nunca comenta a peça de fora. A correção proposta falha em (4): 'E o \"mas você é linda\".' é fragmento sem verbo solto no parágrafo, que lê como efeito de redator."
+   ]
+  }
+ ],
+ "refutados": [
+  {
+   "revisor": "tell",
+   "trecho": "O que ela sente está dentro da cena, nas palavras dela. Você não perguntou. Ela contou.",
+   "detalhe": "Esteira (2.6) fechada por fecho de uma linha que repete o parágrafo (1.2). A ideia \"a emoção chega sem você pedir\" aparece três vezes no mesmo parágrafo: \"chega sem você pedir\", \"está dentro da cena, nas palavras dela\", \"Você não perguntou. Ela contou.\" A terceira é contraste no auxiliar (2.8) posando de revelação. Cortar a última frase não perde informação nenhuma, que é o teste do catálogo pra gravidade alta.",
+   "motivo": "A ideia \"a emoção vem sem você pedir\" está de fato três vezes em 48 palavras, e o parágrafo anterior (linha 62) e o posterior (linha 70) também fecham em pancada, o que faz o eco pesar mais do que pesaria isolado. A whitelist 6 protege a pancada curta como complemento cortado, não a terceira reformulação da mesma frase; e o fecho de duas palavras (\"Ela contou.\") é candidato 31, só em A1, não confirmado. A correção do revisor termina em \"veio dentro da cena\", que é frouxo e perde \"nas palavras dela\", justamente o fio do capítulo (a palavra dela); basta cortar as duas frases finais e deixar o parágrafo terminar onde já estava terminando."
+  },
+  {
+   "revisor": "tell",
+   "trecho": "Você sabe que o passo dois acabou quando ela descreve o problema com detalhe, quando você entendeu como isso está afetando ela hoje, quando ela fala mais do que você nessa etapa, e quando ela usa frases como \"exatamente isso!\" ou \"você entendeu!\".",
+   "detalhe": "Esteira (2.6) e frase-eco (4.6). O quadro \"Quando avançar\" acabou de listar os mesmos quatro sinais, palavra por palavra, e a frase devolve a lista sem acrescentar nada. O parágrafo das leituras faz igual: linhas 79 e 81 repetem NEG e POS do quadro literalmente. O esqueleto quadro + prosa é do mapa (o cap. 03 usa o mesmo), então não é pra tirar o parágrafo: é pra ele fazer trabalho. No cap. 03 a prosa ao menos entra em primeira pessoa (\"Eu sei que o passo um cumpriu o papel dele\") e emenda um fato novo (\"Não precisa das três.\"). Aqui é eco puro.",
+   "motivo": "O capítulo 03 faz exatamente a mesma coisa na linha 88 (\"Eu sei que o passo um cumpriu o papel dele quando ela começa a responder com mensagens mais longas e detalhadas, quando ela compartilha coisa pessoal..., e quando ela responde rápido e demonstra interesse\"), eco palavra por palavra do quadro; o \"fato novo\" que o revisor cita (\"Não precisa das três\") está no parágrafo seguinte, e no cap. 04 o parágrafo seguinte (linha 96, o \"exatamente isso\") cumpre o mesmo papel. Ou seja, é o esqueleto quadro + prosa do mapa (item 6, \"Quando avançar\") aplicado igual nos dois capítulos, decisão de estrutura pra série inteira, não tell deste capítulo. A correção ainda inventa um ranking (\"o que menos engana\") que não está na fonte e acrescenta mais um contraste a um capítulo que já está acima da dose. Se o Sávio quiser mudar, é no mapa, pros 7 passos de uma vez."
+  },
+  {
+   "revisor": "fidelidade",
+   "trecho": "Dá pra fazer isso com qualquer palavra que ela trouxer. Olhar cansado, rejuvenescer, natural, bigode chinês, rosto derretendo, pele sem viço, papada. Cada uma dessas tem um significado diferente na cabeça de cada paciente, e o trabalho da gente é descobrir o dela.",
+   "detalhe": "O frontmatter cita 'fontes/03-manual-perguntas.md (2. Situação, p.1-2)' e o esqueleto do mapa manda entregar 'As perguntas (cards frase pronta, texto literal do PDF)'. O manual tem dez perguntas de clarear, uma pra cada palavra dessa lista. O capítulo usa só a do 'rosto flácido' (na cena) e reduz as outras nove a uma lista de palavras soltas, sem a frase. A leitora recebe 'olhar cansado, natural, papada' e tem que inventar a pergunta. A fonte diz, por exemplo: 'O que você quis dizer com olhar cansado? Como você percebe isso?'; 'O que significa para você um resultado natural?'; 'Quando você fala em papada, como exatamente ela se apresenta no seu caso?'; 'O que você quer dizer quando fala que o rosto está derretendo?'; 'Me explica melhor o que você entende por pele sem viço?'.",
+   "motivo": "O capítulo entrega os 6 cards literais do Framework (fonte primária, p.3-4) e ensina a regra geradora ('a gente pega a palavra dela e devolve como pergunta'), que cobre papada, olhar cansado e qualquer outra; as 10 do manual são variações do mesmo molde. Todas as 13 já estão literais no Anexo B (manuscrito/B-banco-de-perguntas.md, itens 1-13), que o mapa define justamente como 'todas as perguntas por etapa, sem prosa'. Nove cards num capítulo pesaria, e a emenda proposta ainda inventa dado ('essas palavras aparecem toda semana'); no máximo caberia uma linha apontando pro banco no fim do livro, sem cards novos."
+  },
+  {
+   "revisor": "fidelidade",
+   "trecho": "A diferença entre as duas leituras é uma coisa só: referenciar. A mesma pergunta, feita solta, é entrevista. Feita depois de repetir a palavra dela, é conversa.",
+   "detalhe": "A fonte lista três causas da leitura negativa, não uma: 'Só fazemos perguntas sem referenciar o que o paciente disse', 'Perguntamos como o paciente se sente, presumimos que está incomodado com algo' e 'Copiamos o script sem prestar atenção na conversa'. O próprio capítulo acabou de listar as três no parágrafo anterior e aí diz que é 'uma coisa só'. Contradiz a fonte e o parágrafo de cima. Referenciar é o mais forte dos três, mas não é o único.",
+   "motivo": "O 'uma coisa só' não nega as três causas: a frase seguinte delimita o escopo ('a mesma pergunta, feita solta, é entrevista; feita depois de repetir a palavra dela, é conversa'), ou seja, trata da diferença entre as duas leituras da MESMA pergunta, e as outras duas causas (sentir, copiar script) já ganharam dois parágrafos próprios logo acima. A própria fonte, no lado positivo, reduz a 'referenciamos o que foi dito', então a síntese tem lastro. A forma é assinatura dela (pancada curta depois de frase longa, whitelist 6; cunha o termo e define na sequência, whitelist 22) e 'das três, a que mais pesa' amortece e achata a voz."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "A paciente passou do passo um. Ela respondeu contando. E aí vem a parte que eu mais vejo dar errado: ela disse rosto flácido, você sabe o que é flacidez, você já tem três protocolos na cabeça, e a próxima mensagem sai explicando bioestimulador.",
+   "detalhe": "Whitelist 7 apagada: caso pessoal em primeira pessoa como abertura, com aviso de que vai contar (3 de 3 no aviso, 2 de 3 no caso próprio). As três amostras abrem com experiência vivida nas duas primeiras frases: \"E eu vou aproveitar para contar um caso meu\" (A1), \"Eu tive a oportunidade de conversar com algumas doutoras essa semana\" (A2), \"Teve uma vez que eu procurei um coach de gestão de tempo, sabe?\" (A3). Aqui a abertura é a cena de WhatsApp e depois prescrição direta em \"você\". A Ana entra só como \"que eu mais vejo\" e some. O fingerprint ainda registra: \"Ela fala de 'eu' enquanto conta e vira pra 'você' quando fecha\"; este capítulo é \"você\" do começo ao fim.",
+   "motivo": "O sintoma existe (nenhum caso em primeira pessoa, 6 'eu' em 1.049 palavras, a leitora que comprou o livro da Ana recebe um instrutor sem rosto, mesmo diagnóstico já confirmado nos caps. 3 e 6), mas a acusação erra o lugar e a correção falha em (4): o esqueleto aprovado dos caps. 3 a 9 abre com cena de WhatsApp, não com caso; e o material proposto inventa fato (A1 não tem 'espelho' nem 'meia hora', a doutora não perguntou o que ela via; conferi por grep) e reaproveita literalmente o abridor do cap. 1. O caso real, dela, nunca usado no livro (grep 'coach' no manuscrito dá zero) e que mapeia exatamente no passo dois é o do coach de A3: ela chegou com a demanda pronta ('18 horas em 6'), ele não deu técnica, devolveu uma pergunta e o problema era outro. Entra DEPOIS da cena e do parágrafo 'Porque flacidez', antes de '## Pra que serve'; a ponte coach/passo dois é escolha editorial do livro (o fingerprint avisa que não é caso que ela contou nesse contexto), então cabe à Ana vetar."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Isso acontece quando você só faz perguntas sem referenciar o que ela disse, quando pergunta como ela se sente e presume que ela está incomodada, e quando copia o script sem prestar atenção na conversa.",
+   "detalhe": "Primeira pessoa que some e prova em escala apagada (whitelist 12). No capítulo inteiro, \"eu\" na voz dela aparece 3 vezes (\"eu mais vejo\", \"eu não tô dizendo\", \"Eu sei\") em 1.000 palavras: 3 por mil contra 46 por mil nas amostras e dose recomendada de 40 a 60 por capítulo. E ela nunca dá a posição como regra: \"Ela dá a posição como observação ('pelo que eu observo', 'que eu conheço', 'eu sinto que')\". A frase acima é regra de manual, sem observadora e sem escala. Na A1 a mesma função é \"Mas pelo que eu observo nas mais de 3 mil clínicas por aqui\"; na A2, \"100% das pessoas que deram muito certo, 100% das pessoas que deram muito errado, que eu conheço\".",
+   "motivo": "Confere em parte: a linha 79 dá a causa como regra impessoal ('Isso acontece quando você só faz perguntas...'), que é a 'Percepção do paciente' do PDF reescrita sem a dona, enquanto o cap. 3 no mesmo slot tem 'E pelo que eu vejo'; e ela dá posição como observação em 3 de 3. Mas a acusação exagera: o parágrafo do bioestimulador JÁ tem 'a parte que eu mais vejo dar errado' e o do 'mas você é linda' JÁ tem 'Eu sei que sai como carinho', então não há o que semear ali. A correção proposta falha em (4): 'nas mais de 3 mil clínicas por aqui' já foi gasto nos caps. 2, 7 e 12, e repetir em série é o erro do 'escritor que faz a Ana' que o fingerprint alerta."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Você sabe que o passo dois acabou quando ela descreve o problema com detalhe, quando você entendeu como isso está afetando ela hoje, quando ela fala mais do que você nessa etapa, e quando ela usa frases como \"exatamente isso!\" ou \"você entendeu!\".",
+   "detalhe": "Whitelist 24 apagada: \"Fecho sem moral nem recapitulação: 3 de 3. Detector de 'conclusão' vai querer um parágrafo de síntese. Não escrever.\" Esta frase de 45 palavras é o gráfico de sinais logo acima repetido palavra por palavra em prosa. Ela repete PALAVRA de propósito (\"salinha... salinha\"), não repete BLOCO. E a frase longa dela é sempre narração com \"e aí\" ou lista de atributos que sobe; aqui é lista de itens já lidos.",
+   "motivo": "Whitelist 24 fala do FECHO da peça, e o fecho deste capítulo é o bloco :::pergunta, sem moral nem síntese. A frase acusada é o item 6 do esqueleto fixo dos caps. 3 a 9 (card de sinais + prosa na voz dela), presente igual nos caps. 3 e 5, e o cético do cap. 5 já refutou a mesma acusação; ela ainda ancora o 'Esse exatamente isso' do parágrafo seguinte. Cortar só aqui quebra o padrão da série e a proposta ('Dos quatro, o exatamente isso...') não faz nada que o parágrafo seguinte já não faça."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "A leitura positiva é: ela está querendo me entender pra ver se consegue me ajudar. E acontece quando a paciente entende a intenção por trás das perguntas, e quando você referencia o que ela disse e se interessa pela resposta.",
+   "detalhe": "Segunda recapitulação do mesmo gráfico (a NEG é recapitulada no parágrafo anterior, a POS aqui), em registro de manual: \"entende a intenção por trás das perguntas\", \"referencia o que ela disse\", \"se interessa pela resposta\" é o texto-fonte falando, nível de formalidade 6 de 10 onde ela fica em 3 a 4. O parágrafo que vem depois (\"A diferença entre as duas leituras é uma coisa só: referenciar.\") já faz o trabalho, e faz na voz dela (contraste + frase reproduzida + pancada \"sente que você leu\"). Além disso, \"referenciar\" aparece 3 vezes antes de ser traduzido em \"repetir a palavra dela\"; a regra dela é cunhar e definir nas frases seguintes, colado (whitelist 22), não três parágrafos depois.",
+   "motivo": "O esqueleto aprovado manda a seção 'Como ela lê você' trazer negativa e positiva com 'acontece quando' (item 5), os caps. 3, 5 e 6 fazem o mesmo, e o revisor leitora do cap. 6 citou justamente este cap. 4 ('A diferença entre as duas leituras é uma coisa só: referenciar') como o padrão que o cap. 6 não alcançou. Nas linhas 79 e 81 'referenciar' é verbo comum da fonte, transparente pra qualquer doutora; só na linha 83 ele vira termo cunhado, e ali é definido colado ('Feita depois de repetir a palavra dela'), exatamente a whitelist 22. Cortar os dois parágrafos apaga conteúdo da fonte e o próprio lugar onde o achado 1 corrige a voz."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Perguntar como ela se sente presume que ela está incomodada, e às vezes ela não está, ela só quer entender. Presumiu o incômodo, ela recua.",
+   "detalhe": "\"porque\" é o conector número 1 dela (15 em 1.816 palavras, 3 de 3, 8,3 por mil; dose de 12 a 18 por capítulo). No capítulo inteiro aparece 1 vez (\"Porque flacidez, pra ela\"). O capítulo explica causa por justaposição e por \"Isso acontece quando\" (2 vezes), que não é dela. Este trecho é um lugar típico de \"porque\" dela: prescrição seguida de motivo, e o motivo seguido de pancada curta (\"Ao invés de questionar se pode acontecer com você, começa a questionar quando vai acontecer. É muito melhor.\").",
+   "motivo": "É dado estatístico, não defeito que uma leitora perceba ou que a prejudique: o trecho lê liso ('Presumiu o incômodo, ela recua.' é a pancada curta da whitelist 6), o capítulo já abre um parágrafo com 'Porque' (linha 20) e a queda é sistêmica (cap. 5 também tem 1 'porque'), mesma razão pela qual o cético do cap. 6 refutou o zero de 'muito'. A correção ainda piora em (4): quebra a corrida oral 'e às vezes ela não está, ela só quer entender' em duas frases curtas, achatando o ritmo dela. Se o caso do coach do achado 0 entrar, ele traz 'Porque na época eu trabalhava' de graça."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Esse \"exatamente isso\" é o sinal mais claro do script inteiro. E olha de onde ele vem. Não de um resumo seu do problema dela.",
+   "detalhe": "\"olha\" nela tem uma função só: \"Sempre abrindo fala reproduzida ou pensamento ('Olha, por conta de tudo que a doutora trouxe', 'Eu fico, olha, estava resolvendo um problema')\". Aqui é imperativo de apontar, uso de apresentador. O gancho dela pra esse lugar é a pergunta no meio da peça (whitelist 4, 3 de 3): \"Por quê?\", \"Sabe o que ele falou comigo?\".",
+   "motivo": "'E olha de onde ele vem' é português falado normal, o livro já usa 'olha' de apontar duas vezes no cap. 10 ('Olha o que vem depois', 'Olha as duas respostas'), e nenhuma leitora tropeça. A restrição 'só abrindo fala reproduzida' é inferência de 3 ocorrências em 1.816 palavras (2 de 3 amostras), evidência fina demais pra reprovar 1 uso dentro da dose de 1 a 2 por capítulo."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "E o impacto emocional que você precisa entender chega sem você pedir.",
+   "detalhe": "\"impacto emocional\" é termo do material de apoio, abstrato, sem amortecedor. Regra dela: \"Quando a palavra grande é inevitável, ela amortece: 'do seu próprio propósito, digamos assim'\" e \"palavra abstrata vem com amortecedor ou vem traduzida na frase seguinte\". A tradução até existe duas frases depois (\"O que ela sente está dentro da cena\"), mas a frase de entrada carrega o jargão puro mais um \"que você precisa entender\" de apostila.",
+   "motivo": "'Impacto emocional' é termo literal da fonte (framework, sinais da Etapa 2: 'Entende o impacto emocional e prático na vida dele'), e a regra do fingerprint é amortecedor OU tradução na frase seguinte: a tradução está ali, colada ('ela conta uma cena... O que ela sente está dentro da cena'). 'O tal impacto emocional' faria a autora ironizar o termo do próprio método, e 'que você precisa entender' ecoa o card de sinais ('Você entendeu como isso está afetando ela hoje'), não apostila."
+  }
+ ],
+ "cego": {
+  "veredito": "ia",
+  "confianca": 70,
+  "pistas": [
+   {
+    "trecho": "Você não perguntou. Ela contou.",
+    "pista": "Fechamento em duas batidas curtas com inversão de sujeito, o punchline aforístico que encerra quase todo parágrafo do capítulo. O mesmo molde aparece em 'Parece atendimento bom. É a conversa morrendo de novo, só que mais tarde.' e 'Presumiu o incômodo, ela recua.' Pessoa escrevendo solta não fecha todo parágrafo com frase de efeito; modelo (ou copywriter treinado nele) fecha."
+   },
+   {
+    "trecho": "Quem manda as três de uma vez não está perguntando, está aplicando questionário.",
+    "pista": "Padrão 'não está X, está Y' de reenquadramento. Repete em 'A partir daí ela não está mais conversando com uma atendente. Está conversando com alguém que entendeu.' e em 'Você não sabe o problema dela. Você sabe o nome que ela deu.' São cinco ou mais ocorrências do mesmo contraste binário em 80 linhas, densidade alta demais pra ser tique natural."
+   },
+   {
+    "trecho": "E olha de onde ele vem. Não de um resumo seu do problema dela. Vem da pergunta que repetiu a palavra dela",
+    "pista": "Fragmento de suspense ('E olha de onde ele vem.') seguido de negação isolada e revelação. É a coreografia de três frases curtas escalonadas que LLM usa pra simular ênfase oral; a versão falada de verdade não quebraria em três períodos gramaticalmente limpos."
+   },
+   {
+    "trecho": "A diferença entre as duas leituras é uma coisa só: referenciar.",
+    "pista": "Dois-pontos com payoff de uma única palavra, a 'revelação em uma palavra'. Some com 'Repara que é tudo verbo de entender. Nenhum de explicar.', uma meta-observação linguística arrumada demais: o autor olhou a própria lista de verbos e extraiu uma regra simétrica perfeita."
+   },
+   {
+    "trecho": "Uma coisa, ponto importante: em nenhuma dessas perguntas aparece a palavra sentir.",
+    "pista": "Marcador oral duplicado ('Uma coisa' + 'ponto importante') que parece colado por cima, junto de 'tá?', 'sabe?' e 'Acho que vale a pena'. As marcas de fala existem, mas ficam na superfície: por baixo, toda frase tem lógica fechada, zero digressão, zero erro, zero ideia que não paga. Tique de oralidade sobre estrutura engenheirada é a assinatura de texto de IA passado por humanização, não de gente escrevendo."
+   }
+  ]
+ }
+}

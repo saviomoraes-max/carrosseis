@@ -1,0 +1,111 @@
+{
+  "rodada": 3,
+  "data": "2026-09-09",
+  "lente": "corpus de fala da autora (80.938 palavras)",
+  "juri": "opus-5",
+  "brutos": 15,
+  "confirmados_n": 7,
+  "altas_confirmadas": 4,
+  "aplicados": 7,
+  "revertidos_por_colisao": {},
+  "resumo": "Garimpo do bloco 04 (Passo 2, Situação) contra 80.938 palavras de fala da Ana. O corpus cobre este passo melhor do que qualquer outro bloco do livro: a aula inteira das linhas 1340-1760 é análise de conversa exatamente sobre clarear e aprofundar, e as linhas 4000-4060 são a doutrina de \"por que perguntar\". Achei 9 lugares onde o livro compõe prosa sobre um assunto que ela já explicou em fala melhor, mais concreta e com o pronome certo (\"a gente\", não \"você\"). Os quatro achados mais fortes: (1) o mecanismo do erro tem nome na boca dela, \"maldição do conhecimento\", com o exemplo do bioestimulador; (2) \"você é um balde vazio\" substitui a máxima composta \"Você sabe o nome que ela deu\"; (3) o parágrafo abstrato sobre a palavra \"sentir\" tem, no corpus, o caso do \"me sinto feia\" inteiro, com a virada \"mas feio, como assim?\"; (4) o \"mas você é linda\" ela conta em primeira pessoa como erro dela (\"vou lá massagear o ego dela\", \"que ranço de quando eu fazia isso\"), que é o traço de se incluir no erro antes de corrigir que o fingerprint mede e o livro perdeu. A troca 7 mata de quebra um espelhamento proibido (\"A mesma pergunta, feita solta, é entrevista. Feita depois de repetir a palavra dela, é conversa\") e põe no lugar o autoteste real dela: control C, control V. Duas reparações de transcrição que declaro: \"contrl C, conttrol V\" virou \"control C, control V\" (erro do transcritor) e cortei \"que eu tente de\" de \"que ranço que eu tente de quando eu fazia isso\" (anacoluto). Nenhuma proposta tem travessão nem itálico. No sem_fonte, seis afirmações: a mais grave é \"Às vezes duas bastam. E quem manda as três de uma vez tá aplicando questionário\", que o corpus não só não confirma como CONTRADIZ (\"às vezes a gente nem precisa de três perguntas ou às vezes a gente precisa de cinco perguntas\"), e a sensação de questionário ela atribui a chover no molhado, não a volume. As trocas 4, 6, 8 e 9 já removem, de passagem, quatro dos itens do sem_fonte; a lista está aí porque a auditoria de fato vale para o texto como ele está hoje.",
+  "confirmados": [
+    {
+      "tipo": "troca",
+      "gravidade": "alta",
+      "trecho": "E aí vem a parte que eu mais vejo dar errado, gente: ela disse “rosto flácido”, você sabe o que é flacidez, você já tem três protocolos na cabeça e a próxima mensagem já sai explicando bioestimulador, e por fora parece atendimento bom, mas é a conversa morrendo de novo, só que mais tarde.",
+      "fala_dela": "E uma um, isso que eu falar, um dos maiores erros que a gente comete é porque quando a pessoa começa a falar sobre o problema, ela dá uma palavra e a gente entende o contexto inteiro\n\nEla fala bioestimulador, eu já sei qual que é o diagnóstico completo\n\nSe ela fala rugas, linhas de expressão, já sei tudo e não precisa falar mais nada, porque é maldição do conhecimento\n\nA gente sabe do que ela tá falando, sabe?",
+      "aplicado": "A paciente passou do passo um. Ela respondeu contando. E aí vem a parte que eu mais vejo dar errado, gente. Um dos maiores erros que a gente comete: quando a pessoa começa a falar sobre o problema, ela dá uma palavra e a gente entende o contexto inteiro. Ela fala bioestimulador, eu já sei qual que é o diagnóstico completo. Se ela fala rugas, linhas de expressão, já sei tudo e não precisa falar mais nada, porque é maldição do conhecimento. A gente sabe do que ela tá falando, sabe? E aí a próxima mensagem já sai explicando o tratamento, e por fora parece atendimento bom, mas é a conversa morrendo de novo, só que mais tarde.",
+      "cetico": "Grep achou tudo literal nas linhas 1564, 1566, 1568 e 1570 do corpus, e o trecho do livro está exato na linha 18. A fala é justamente a origem do que o livro parafraseou (maldição do conhecimento, bioestimulador, rugas), então diz a mesma coisa e ainda devolve o nome do erro e o \"a gente\" que o livro tinha trocado por segunda pessoa. Sem travessão, sem itálico, marcador oral em dose baixa."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "alta",
+      "trecho": "E até você saber que lugar e que momento, você não sabe o problema dela. Você sabe o nome que ela deu.",
+      "fala_dela": "Eu entendo como que resolve flacidez\n\nMas o que flacidez é para ela?\n\n[...]\n\nPensa que todo atendimento você é uma um balde vazio\n\nVocê não sabe como ela sente, você não sabe quem é ela\n\nVocê não sabe nem o que que ela tá precisando, nem o que que é flacidez, o que que é ruga, nada",
+      "aplicado": "Porque flacidez, pra ela, é uma coisa que ela vê no espelho, num lugar específico, num momento específico. Eu entendo como que resolve flacidez. Mas o que flacidez é para ela? Pensa que todo atendimento você é um balde vazio. Você não sabe como ela sente, você não sabe quem é ela, você não sabe nem o que que ela tá precisando, nem o que que é flacidez, o que que é ruga, nada.",
+      "cetico": "Literal em 1572, 1574, 1654, 1656 e 1658, com o corte declarado por [...] honesto, e o trecho existe exato na linha 20. O balde vazio faz o mesmo trabalho da máxima (você não sabe o problema, só o nome) e não bate de frente com a linha 62, porque ela diz que você não sabe como ela sente, não que você deva perguntar. Único reparo não declarado: \"uma um balde\" virou \"um balde\", que é gagueira de transcrição, aceitável, mas devia ter sido declarado como nas trocas 3 e 4."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "alta",
+      "trecho": "Eu sei que o “mas você é linda” sai como carinho, tá? Só que a paciente escreveu que o rosto dela está caindo, e você respondeu que ela é linda. Ela leu que você não acreditou nela. E ninguém agenda com quem não acreditou.",
+      "fala_dela": "Nossa senhora, vou ter que falar que essa pessoa, primeira coisa, primeira coisa que acontece, gente, a proibido, terminantemente proibido, que a gente, a pessoa manda uma foto para nós\n\nNossa, o tanto de coisa que eu perdi fazer nisso\n\nE aí eu eu respondia assim e falava: \"Nossa, mas você já é linda\"\n\nA pessoa está procurando uma harmonização facial\n\nVou lá massagear o ego dela\n\n[...]\n\nEu já fiz isso bastante, mandava assim, é, entendi\n\nSabe por a pessoa, eu ficava tipo no agora, nossa, querida, você é linda, vai ficar ainda mais linda depois que passar pelas mãos da doutora\n\nNossa senhora, que ranço que eu tente de quando eu fazia isso, gente\n\n[...]\n\nEu não tô ali para deixar ela confortável também, porque esse conforto diminui a velocidade da decisão, minimiza a velocidade da decisão",
+      "aplicado": "Eu já fiz isso bastante com o “mas você é linda”, tá? Eu respondia assim e falava: nossa, querida, você é linda, vai ficar ainda mais linda depois que passar pelas mãos da doutora. A pessoa está procurando uma harmonização facial e eu vou lá massagear o ego dela. Nossa senhora, que ranço de quando eu fazia isso, gente. Eu não tô ali para deixar ela confortável, porque esse conforto diminui a velocidade da decisão.",
+      "cetico": "Tudo literal (6738, 6742, 6744, 6746, 6754, 6756, 6758 e 2788), trecho exato na linha 70, e o motivo real dela (o conforto diminui a velocidade da decisão) substitui bem a lei fabricada, que eu confirmei como sem fonte no sem_fonte 2. Dois defeitos que a alternativa corrige: \"Eu já fiz isso bastante\" fica com antecedente errado logo depois do :::evite, cujo último item é \"E perguntar como ela se sente\", e a foto de WhatsApp vem de outra doutrina (6784, avaliação por foto) e não existe na cena do bloco, que é conversa escrita sobre flacidez."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "alta",
+      "trecho": "A diferença entre as duas leituras é uma coisa só: referenciar. A mesma pergunta, feita solta, é entrevista. Feita depois de repetir a palavra dela, é conversa.",
+      "fala_dela": "Eu sempre gosto de pensar o seguinte, quando tô atendendo o a pergunta que eu fiz, ela poderia ser feita para qualquer pessoa?\n\nSe eu desse um contrl C, conttrol V nessa pergunta, em qualquer conversa, ela caberia?\n\nEntão, possivelmente, eu acho que eu tô sendo genérica demais\n\nComo é que eu posso personalizar mais?\n\nO que que eu tô deixando passar?",
+      "aplicado": "A diferença entre as duas leituras é referenciar. Eu sempre gosto de pensar o seguinte quando tô atendendo: a pergunta que eu fiz, ela poderia ser feita para qualquer pessoa? Se eu desse um control C, control V nessa pergunta, em qualquer conversa, ela caberia? Então, possivelmente, eu acho que eu tô sendo genérica demais. Como é que eu posso personalizar mais? O que que eu tô deixando passar? “Quando você diz que tá caindo perto do queixo, em que momento você percebe mais isso?” Ela ouve a própria palavra e sente que você leu.",
+      "cetico": "Literal em 1494 a 1502, trecho exato na linha 83, e o contexto do corpus é exatamente esse (1478 a 1492 fala de pergunta genérica contra pegar a palavra dela), então o autoteste diz a mesma coisa que o par solta/referenciada. A proposta ainda ameniza a redução \"uma coisa só\" que eu confirmei como problema no sem_fonte 3, e preserva o exemplo final que amarra no gráfico das leituras. Reparo de control C declarado, sem travessão e sem itálico."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "media",
+      "trecho": "Cada uma dessas tem um significado diferente na cabeça de cada paciente e o trabalho da gente é descobrir o dela.",
+      "fala_dela": "E mesmo que a pessoa traga termos técnicos, é interessante porque qualquer termo que ela falar é um termo pra gente clarear também\n\nSe ela falar flacidez, a gente clareia flacidez\n\nO que que é isso para ela?\n\nSe a gente, se ela traz qualquer outra coisa, a gente aprofunda exatamente no que ela, no que ela trouxer\n\n[...]\n\nCada um aqui vai responder de um jeito",
+      "aplicado": "Dá pra fazer isso com qualquer palavra que ela trouxer. “Olhar cansado”, “rejuvenescer”, “natural”, “bigode chinês”, “rosto derretendo”, “pele sem viço”, “papada”. Qualquer termo que ela falar é um termo pra gente clarear também. Se ela falar flacidez, a gente clareia flacidez: o que que é isso para ela? Se ela traz qualquer outra coisa, a gente aprofunda exatamente no que ela trouxer. Cada um vai responder de um jeito.",
+      "cetico": "Literal em 1516, 1518, 1520, 1522 e 1546, trecho exato na linha 44, e o entorno do corpus (1538 a 1542, \"flacidez para mim é uma coisa, flacidez pro Léo é outra\") diz exatamente o que a síntese do livro dizia. A lista de palavras do livro, que vem do manual de perguntas, fica preservada. Único cuidado: cair \"aqui\" de \"cada um aqui vai responder\" muda o referente da plateia do treinamento para a paciente, o que é defensável porque ela generaliza na sequência, mas devia ter sido declarado."
+    },
+    {
+      "tipo": "sem_fonte",
+      "gravidade": "media",
+      "afirmacao": "Ela leu que você não acreditou nela. E ninguém agenda com quem não acreditou.",
+      "cetico": "Confirmo: procurei acredit, confia, credibilidade e minimizar nas três fontes e no corpus e não achei nada ligando o \"você já é linda\" a quebra de crença. A linha 2682 (\"a pessoa não se sente ouvida\") é sobre pergunta genérica e scriptada, outro caso, e o dano que ela de fato nomeia é 2788, o conforto que diminui a velocidade da decisão. \"Ninguém agenda com quem não acreditou\" é lei fabricada."
+    },
+    {
+      "tipo": "sem_fonte",
+      "gravidade": "media",
+      "afirmacao": "A diferença entre as duas leituras é uma coisa só: referenciar.",
+      "cetico": "Confirmo: o framework lista três causas para a leitura negativa (linhas 122 a 127) e duas para a positiva, e o parágrafo imediatamente anterior do livro repete as três, então reduzir a \"uma coisa só\" contradiz o próprio bloco duas linhas acima. O corpus reforça isso em 1622 a 1624, onde ela diz que saber o que aprofundar importa mais do que colocar uma referência qualquer."
+    }
+  ],
+  "refutados": [
+    {
+      "trecho": "E em nenhuma dessas perguntas, ponto importante, aparece a palavra “sentir”. Acho que vale a pena a gente perguntar como ela entende, como ela percebe, o que ela vê, porque perguntar como ela se sente já presume que ela está incomodada com algo, e isso pode gerar resistência, né?",
+      "motivo": "As falas existem (1638 a 1652), mas a linha 1646 que a proposta importa diz \"o negócio não é como isso tá te afetando\", e isso contradiz três pontos do próprio bloco: a linha 24 (\"entender como isso está afetando ela hoje\"), a :::frase da linha 49 (\"E isso vem sendo um problema... como?\") e o sinal da linha 89. No corpus ela está falando de não repetir o afeto depois que a pessoa já disse \"me sinto feia\", não de abandonar o \"como está te afetando\", que ela defende em 1590 a 1598. Além disso a enumeração acusada de anáfora não é invenção: \"como ela entende\" e \"como você percebe isso\" vêm do framework (linha 128) e do manual de perguntas (linha 43)."
+    },
+    {
+      "trecho": "Uma por mensagem. Ela responde, você lê, e a próxima é a que encaixa no que ela acabou de escrever. Às vezes duas bastam. E quem manda as três de uma vez tá aplicando questionário.",
+      "motivo": "A premissa é falsa: \"às vezes a gente nem precisa de três perguntas\" (4046) concorda com \"às vezes duas bastam\", não contradiz, e no contexto ela está falando de não anunciar um número de perguntas na conexão (\"vou te fazer umas duas ou três perguntinhas\"), não de quantas mandar por mensagem. A proposta ainda apaga \"quem manda as três de uma vez tá aplicando questionário\", que tem fonte no framework (\"fazer muitas perguntas em sequência sem dar tempo para resposta\", linha 113) e ecoa a percepção negativa da linha 120."
+    },
+    {
+      "trecho": "Quando ela responde em que momento percebe mais, ela conta uma cena. No espelho de manhã, antes de uma foto.",
+      "motivo": "As linhas 1526 a 1530 existem, mas respondem \"Como isso vem sendo um problema?\", que é outra pergunta do bloco, não a de momento que o trecho da linha 64 está explicando, e a resposta dela não é uma cena (não tem lugar nem momento). A proposta mantém o fecho \"O que ela sente tá ali dentro da cena\" sem cena nenhuma antes, e ainda joga pergunta e resposta em prosa corrida sem a marcação ELA/VOCÊ, o que faz o leitor achar que o narrador pergunta e responde sozinho."
+    },
+    {
+      "trecho": "O passo dois é o passo em que você mais fica quieta.",
+      "motivo": "A premissa não se sustenta: o framework tem \"O paciente fala mais do que você nesta etapa\" (linha 142) e esse sinal não aparece em nenhuma outra etapa, então ficar quieta no passo dois tem lastro, como digo no sem_fonte 1. E a proposta termina a seção com \"a gente não precisa fazer perguntas\" imediatamente acima do cabeçalho \"## As perguntas\", que abre uma seção inteira de perguntas: no corpus a frase vem seguida de \"eu preciso de informações\" (4034), continuação que a proposta corta e sem a qual a frase lida como contradição do bloco."
+    },
+    {
+      "trecho": "Às vezes duas bastam. E quem manda as três de uma vez tá aplicando questionário.",
+      "motivo": "Achei fonte: o framework, em \"O que evitar\" da Etapa 2, traz \"fazer muitas perguntas em sequência sem dar tempo para resposta\" (linha 113) e a percepção negativa é literalmente \"Ela está fazendo uma entrevista? Tô cansada de tantas perguntas\" (linha 120), o que sustenta as três de uma vez virarem questionário. E o corpus não contradiz \"duas bastam\": \"às vezes a gente nem precisa de três perguntas\" (4046) diz a mesma coisa, e o \"cinco\" dela é sobre o total da conversa e sobre anunciar número, outra unidade de medida."
+    },
+    {
+      "trecho": "O passo dois é o passo em que você mais fica quieta.",
+      "motivo": "Achei fonte: framework linha 142, \"O paciente fala mais do que você nesta etapa\", e o grep mostra que esse sinal aparece uma vez só no documento inteiro, ou seja, é o único passo dos sete em que a fonte diz isso. \"O passo em que você mais fica quieta\" é leitura razoável desse dado, não superlativo solto."
+    },
+    {
+      "trecho": "Esse “exatamente isso” sai da pergunta que repetiu a palavra dela",
+      "motivo": "Achei fonte: no framework, a percepção positiva \"É exatamente isso que eu estou buscando\" (linha 308) está explicitamente ligada a \"Usamos as palavras do paciente para referenciar o problema\" (linha 311), que é exatamente o mecanismo que o livro afirma. Somado à Etapa 2, cuja leitura positiva acontece quando \"referenciamos o que foi dito\" (linha 135), a atribuição causal é inferência apoiada em fonte, não invenção."
+    },
+    {
+      "trecho": "No espelho de manhã, antes de uma foto.",
+      "motivo": "O espelho já está dentro do próprio bloco: a :::cena da linha 15 tem \"Eu olho no espelho e parece que tá caindo\", então a frase é retomada da ilustração que o livro já declarou, não dado apresentado como pesquisa. E o \"antes de uma foto\" tem análogo real no corpus, na paciente que responde \"sou promotora de eventos, então trabalho com a minha imagem\" (1530)."
+    }
+  ],
+  "cego": {
+    "veredito": "pessoa",
+    "confianca": 74,
+    "votos": {
+      "pessoa": 3,
+      "ia": 0,
+      "indeciso": 0
+    },
+    "leitores": 3,
+    "data": "2026-09-09"
+  }
+}

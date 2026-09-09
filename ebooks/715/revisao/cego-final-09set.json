@@ -1,0 +1,194 @@
+[
+  {
+    "bloco": "09",
+    "votos": {
+      "pessoa": 3,
+      "ia": 0,
+      "indeciso": 0
+    },
+    "maioria": "pessoa",
+    "confianca_media": 73,
+    "leitores": [
+      {
+        "bloco": "09",
+        "leitor": 1,
+        "veredito": "pessoa",
+        "confianca": 72,
+        "pistas": [
+          {
+            "trecho": "Quanto mais a gente fala, mais a gente se explica, mas parece que a gente tá querendo justificar alguma coisa.",
+            "pista": "Erro real de língua que sobreviveu à edição: o terceiro termo deveria ser \"mais\" e virou \"mas\", quebrando a correlação \"quanto mais / mais / mais\". Máquina não deixa esse tipo de escorregão; ele é típico de fala transcrita ou de quem escreve rápido e não relê."
+          },
+          {
+            "trecho": "ela sabe quanto custa agora e ela sabe como que funciona para poder agendar e ela volta na hora que ela quer. Ela acha que ela pode voltar na hora que ela quer.",
+            "pista": "Auto-correção no meio do raciocínio: afirma \"ela volta\" e imediatamente conserta pra \"ela acha que ela pode voltar\". Somado ao \"como que funciona\" (construção oral não-padrão) e à repetição do sujeito \"ela\" quatro vezes na mesma frase, é ruído de pensamento em tempo real, não de geração."
+          },
+          {
+            "trecho": "Não existe uma venda, na verdade, não existe um agendamento feito se o comprovante não for enviado. Comprovante não foi enviado, a venda não foi feita, o agendamento não foi feito.",
+            "pista": "Redundância desengonçada: a mesma ideia é dita três vezes em sequência, com um \"na verdade\" de reparo no meio. Texto de IA condensa isso numa frase só; quem fala repete pra martelar e a repetição fica feia no papel."
+          },
+          {
+            "trecho": "Passar o preço pra pessoa e tagarelar depois, gente, misericórdia, que problemão que é.",
+            "pista": "Interjeição idiossincrática (\"misericórdia\") junto de \"tagarelar\", \"problemão\" e uma inversão sintática torta (\"que problemão que é\"). É vocabulário e ordem de palavras de uma pessoa específica, não do registro médio-neutro que modelo produz."
+          },
+          {
+            "trecho": "E o bastão continua com você, ó: você ofereceu, ela reagiu.",
+            "pista": "O \"ó\" dêitico é gesto de fala apontando pra coisa na frente do ouvinte, sem função no texto escrito. Aparece junto de outros marcadores de oralidade espalhados sem padrão (\"né, gente?\", \"tá\", \"Repara no\"), com distribuição irregular — IA que imita oralidade tende a distribuir esses tiques de forma uniforme."
+          }
+        ]
+      },
+      {
+        "bloco": "09",
+        "leitor": 2,
+        "veredito": "pessoa",
+        "confianca": 72,
+        "pistas": [
+          {
+            "trecho": "ela sabe como que funciona para poder agendar e ela volta na hora que ela quer. Ela acha que ela pode voltar na hora que ela quer.",
+            "pista": "Auto-correção no meio do raciocínio: afirma \"ela volta\", percebe que exagerou e reescreve pra \"ela acha que pode voltar\", repetindo a oração inteira. É conserto de pensamento em tempo real, sem ganho retórico nenhum. IA não erra e depois volta atrás dentro da mesma frase; ela já escreve a versão corrigida."
+          },
+          {
+            "trecho": "Quanto mais a gente fala, mais a gente se explica, mas parece que a gente tá querendo justificar alguma coisa.",
+            "pista": "Erro de construção real: o terceiro elo pede \"mais\" (paralelismo \"quanto mais... mais... mais\") e sai \"mas\", quebrando a lógica da frase. É a marca de fala transcrita, não de texto gerado — modelo de linguagem acerta esse paralelismo por default, é o tipo de simetria que ele gosta."
+          },
+          {
+            "trecho": "Não existe uma venda, na verdade, não existe um agendamento feito se o comprovante não for enviado. Comprovante não foi enviado, a venda não foi feita, o agendamento não foi feito. A gente só comemora a venda, só comemora o agendamento depois do comprovante.",
+            "pista": "Redundância bruta de oralidade: três voltas na mesma ideia, com emenda (\"na verdade\") e repetição não estilizada de \"venda/agendamento\". Repetição de IA costuma ser limpa e escalonada (anáfora); esta é redundância desperdiçada, do tipo que um editor cortaria e que só sobrevive porque é fala."
+          },
+          {
+            "trecho": "Passar o preço pra pessoa e tagarelar depois, gente, misericórdia, que problemão que é.",
+            "pista": "Sintaxe torta com carga emocional pessoal: sujeito longo, vocativo no meio, interjeição idiossincrática (\"misericórdia\") e fecho invertido (\"que problemão que é\"). É idioleto — um vício de fala de alguém específico. IA imitando oralidade usa marcadores genéricos (\"olha\", \"veja bem\"), não solta \"misericórdia\" num manual de vendas."
+          },
+          {
+            "trecho": "E o bastão continua com você, ó: você ofereceu, ela reagiu.",
+            "pista": "Marcadores de sala de aula distribuídos de forma irregular — o \"ó\" aqui, o \"tá\" solto em \"O erro é perguntar antes de oferecer, tá\", \"né, gente?\" em outro ponto — sem padrão nem simetria entre as seções. Quando IA humaniza, ela dosa esses marcadores de forma uniforme, quase um por parágrafo; aqui eles se amontoam em trechos e somem em outros, que é como fala transcrita se comporta."
+          }
+        ]
+      },
+      {
+        "bloco": "09",
+        "leitor": 3,
+        "veredito": "pessoa",
+        "confianca": 76,
+        "pistas": [
+          {
+            "trecho": "Passar o preço pra pessoa e tagarelar depois, gente, misericórdia, que problemão que é.",
+            "pista": "Vocabulário e sintaxe de irritação real: 'misericórdia', 'tagarelar', 'problemão', e a frase invertida terminando em 'que problemão que é'. É fala espontânea de alguém perdendo a paciência, não frase montada."
+          },
+          {
+            "trecho": "Quanto mais a gente fala, mais a gente se explica, mas parece que a gente tá querendo justificar alguma coisa.",
+            "pista": "A frase está quebrada: era 'e mais parece que', virou 'mas parece que'. Erro que passa despercebido porque quem falou entendia o que queria dizer. Máquina costuma entregar frase logicamente fechada mesmo quando imita fala."
+          },
+          {
+            "trecho": "ela sabe quanto custa agora e ela sabe como que funciona para poder agendar e ela volta na hora que ela quer. Ela acha que ela pode voltar na hora que ela quer.",
+            "pista": "Autocorreção no meio do raciocínio: afirma uma coisa e imediatamente conserta ('ela volta' → 'ela acha que ela pode voltar'). Mais 'como que funciona' e cinco 'ela' empilhados em uma linha. É pensamento acontecendo, não texto revisado."
+          },
+          {
+            "trecho": "Não existe uma venda, na verdade, não existe um agendamento feito se o comprovante não for enviado. Comprovante não foi enviado, a venda não foi feita, o agendamento não foi feito.",
+            "pista": "Redundância martelada: diz a mesma coisa três vezes seguidas com o 'na verdade' de correção no meio. Isso é gente insistindo no ponto ao vivo; texto gerado corta essa repetição."
+          },
+          {
+            "trecho": "Um horário só. E o bastão continua com você, ó: você ofereceu, ela reagiu.",
+            "pista": "O 'ó' apontando no meio da frase e a metáfora do bastão jogada solta, que ele já tinha usado antes ('o bastão tá na mão dela'). Vício pessoal de quem explica gesticulando, com 'né', 'tá' e 'gente' espalhados no mesmo tom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "bloco": "A",
+    "votos": {
+      "pessoa": 3,
+      "ia": 0,
+      "indeciso": 0
+    },
+    "maioria": "pessoa",
+    "confianca_media": 73,
+    "leitores": [
+      {
+        "bloco": "A",
+        "leitor": 1,
+        "veredito": "pessoa",
+        "confianca": 70,
+        "pistas": [
+          {
+            "trecho": "Fazer ela dizer por que que tá insuportável continuar.",
+            "pista": "Tres desvios orais na mesma linha: o \"que\" dobrado (\"por que que\"), o \"tá\" no lugar de \"está\" e \"fazer ela\" em vez de \"faze-la\". Isso e transcricao de fala. Modelo em PT-BR corrige os tres por default; se escreve informal, escolhe o desvio mais seguro, nao empilha tres."
+          },
+          {
+            "trecho": "A real é que a iniciativa ela já tomou.",
+            "pista": "Giria (\"a real e que\") somada a objeto topicalizado (\"a iniciativa ela ja tomou\"), sintaxe de fala brasileira. A versao de maquina seria \"Na verdade, ela ja tomou a iniciativa.\" A inversao aqui nao tem funcao retorica, e so como a pessoa pensou a frase."
+          },
+          {
+            "trecho": "Nunca se responde com informação. Se responde com pergunta.",
+            "pista": "\"Se responde\" com o pronome antes do verbo em inicio de oracao. E a forma que o brasileiro fala e que a norma culta proibe (seria \"responde-se\"). Nenhum revisor deixa passar e nenhum modelo escreve espontaneamente."
+          },
+          {
+            "trecho": "Resposta vaga é cortina: algum passo anterior ficou raso.",
+            "pista": "Metafora idiossincratica de jargao interno, jogada sem explicar. IA ou usa metafora de catalogo (\"e um sinal de alerta\") ou explica a que criou. Aqui \"cortina\" aparece nua, presumindo que o leitor ja e de casa."
+          },
+          {
+            "trecho": "Se ela falar flacidez, a gente clareia flacidez, e aprofunda exatamente no que ela trouxer.",
+            "pista": "Repete \"flacidez\" duas vezes em vez de trocar por sinonimo ou pronome, e usa \"clarear\" como verbo transitivo de treinamento de vendas. As duas coisas contrariam o reflexo de variacao lexical e de vocabulario neutro que a maquina tem."
+          }
+        ]
+      },
+      {
+        "bloco": "A",
+        "leitor": 2,
+        "veredito": "pessoa",
+        "confianca": 78,
+        "pistas": [
+          {
+            "trecho": "Fazer ela dizer por que que tá insuportável continuar.",
+            "pista": "Tríplice desvio da norma culta numa frase só: \"fazer ela\" (em vez de \"fazê-la\"), o \"que\" duplicado em \"por que que\", e a apócope \"tá\". Modelo de linguagem em PT-BR normaliza isso quase sempre — sai \"fazê-la dizer por que é insuportável continuar\". Isso aqui é fala transcrita, não prosa gerada."
+          },
+          {
+            "trecho": "A real é que a iniciativa ela já tomou. Agora é só concretizar a decisão.",
+            "pista": "\"A real é que\" é gíria oral, e \"a iniciativa ela já tomou\" é objeto topicalizado à esquerda — ordem de fala brasileira, não de escrita. IA constrói \"ela já tomou a iniciativa\". Duas marcas de oralidade empilhadas na mesma linha."
+          },
+          {
+            "trecho": "Nunca se responde com informação. Se responde com pergunta.",
+            "pista": "Próclise abrindo período (\"Se responde\"), que é agramatical no padrão escrito — o correto seria \"Responde-se\". LLM é treinado contra exatamente isso; não erra desse jeito espontaneamente. E o paralelismo quebrado (a segunda frase perde o \"nunca\" e vira afirmativa seca) tem cadência de quem fala, não de quem monta simetria."
+          },
+          {
+            "trecho": "Se ela falar flacidez, a gente clareia flacidez, e aprofunda exatamente no que ela trouxer.",
+            "pista": "Repete \"flacidez\" a dois substantivos de distância em vez de variar (\"a queixa\", \"o problema apresentado\"). Elegant variation é vício quase compulsório de texto gerado. Além disso \"clareia\" usado como verbo transitivo de método é jargão interno de casa, não vocabulário genérico de manual."
+          },
+          {
+            "trecho": "Resposta específica, você conversa sobre ela. Resposta vaga é cortina: algum passo anterior ficou raso.",
+            "pista": "Condicional elíptica sem \"se\", assíndeto, e a metáfora \"cortina\" jogada sem nenhuma explicação — depois dos dois-pontos vem a consequência operacional, não a glosa da imagem. Texto de IA quase sempre desdobra a metáfora (\"é como uma cortina que esconde...\"). Aqui ela é usada como quem já usou antes na frente da equipe."
+          }
+        ]
+      },
+      {
+        "bloco": "A",
+        "leitor": 3,
+        "veredito": "pessoa",
+        "confianca": 72,
+        "pistas": [
+          {
+            "trecho": "Fazer ela dizer por que que tá insuportável continuar.",
+            "pista": "Sintaxe de fala, não de escrita: \"por que que\" com o \"que\" dobrado, \"tá\" contraído e \"fazer ela\" no lugar de \"fazê-la\". Num texto que em outros pontos está bem cuidado, esse tipo de deslize solto é típico de quem escreveu do jeito que fala e não voltou pra arrumar."
+          },
+          {
+            "trecho": "A real é que a iniciativa ela já tomou. Agora é só concretizar a decisão.",
+            "pista": "\"A real é que\" é gíria, e a frase está com a ordem trocada (o objeto \"a iniciativa\" jogado pra frente). É o jeito que alguém fala em pé explicando pra outra pessoa. Máquina tende a escrever \"ela já tomou a iniciativa\"."
+          },
+          {
+            "trecho": "Se ela falar flacidez, a gente clareia flacidez, e aprofunda exatamente no que ela trouxer.",
+            "pista": "Repete a mesma palavra \"flacidez\" duas vezes na mesma frase em vez de trocar por sinônimo ou por \"o assunto\". Texto de IA quase sempre varia a palavra pra não repetir; gente repete porque a repetição é justamente o que ela quer ensinar."
+          },
+          {
+            "trecho": "Resposta específica, você conversa sobre ela. Resposta vaga é cortina: algum passo anterior ficou raso.",
+            "pista": "Frases cortadas, sem \"se\" e sem verbo de ligação, e uma metáfora (\"é cortina\") jogada sem nenhuma explicação depois. IA costuma completar a frase e explicar a própria imagem; aqui a pessoa presume que quem lê já entendeu."
+          },
+          {
+            "trecho": "A chave PIX vai numa mensagem separada, pra ela copiar e colar.",
+            "pista": "Detalhe operacional pequeno demais pra ser inventado, e que quebra o padrão da lista (aparece só nesse passo, sem equivalente nos outros). Cheira a alguém que já apanhou na prática com cliente não conseguindo copiar a chave. O mesmo desalinho aparece nos fechamentos, que ora são \"Avança quando…\", ora \"Avança imediatamente.\", ora \"Sucesso quando…\" — irregular do jeito que texto gerado raramente é."
+          }
+        ]
+      }
+    ]
+  }
+]

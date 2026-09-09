@@ -1,0 +1,42 @@
+{
+  "rodada": 3,
+  "data": "2026-09-09",
+  "lente": "corpus de fala da autora (80.938 palavras), 2a leva",
+  "juri": "opus-5",
+  "brutos": 3,
+  "confirmados_n": 1,
+  "altas_confirmadas": 0,
+  "aparado_por_colisao": "",
+  "resumo": "Bloco curto (cap. 12, ~700 palavras) e, na maior parte, já feito de fala real: a abertura (linhas 14 a 20) e o \"é mil maravilhas\", o \"3 mil clínicas\", o \"ticket médio que você passa lá na sala\", o \"Lá dentro\" e a pergunta final vêm quase literais de fontes/voz/amostra-fala-analuiza.txt, que o front matter cita. A prosa composta se concentra na seção \"O que o WhatsApp tem a ver com a sala\": três parágrafos seguidos armados com recurso de escrita (identidade espelhada \"X é a mesma que Y\", par \"No WhatsApp... Na salinha...\", antítese \"não porque X, mas porque Y\", anáfora de três \"já\" fechada por pancada curta \"Ela entra pronta.\"). São exatamente os traços que o fingerprint v3 manda cortar, e o corpus tem fala dela dizendo as três coisas de forma mais concreta: a ponte WhatsApp/clínica (\"levantar da cadeira e sair correndo\", linha 5528), a máxima do preço respondido cedo (\"a melhor forma de encerrar uma conversa é com uma resposta\", 6576 a 6584) e a consequência de fazer todas as etapas antes da consulta (\"essa questão da objeção de preço nem vai existir\", 4490). Propus só essas três trocas. Deixei quieto o resto: \"Se a conversa travar, tem um passo que ficou raso\" usa \"raso\" como termo já estabelecido nos capítulos 6, 9, 10 e no anexo A, então trocar quebraria o vocabulário do livro; e cheguei a montar uma troca no \"faz os sete passos, na ordem\" com o treinamento inteiro dela sobre não seguir o framework a risca (9348, 9400, 9404), mas o capítulo 2 já carrega essa ressalva (\"Script é referência, não roteiro\"), então seria repetir, não consertar. Buscas no corpus: salinha, financeiro, vendedora, vender, sala, recepção, secretária, área de espera, ticket médio, taxa de conversão, fechamento, capacitar, quanto custa, passar o preço/valor, vou pensar, sumiu/some/sumindo, sozinha, decisão, clarear, aprofundar, procedimento, sete passos, a risca, copiando e colando, bastão, mapa de etapas, entra pronta/chega pronta/preparada, próximos passos, conseguir te ajudar, declaração de intenção, crença, antiético, mentorados, 3 mil / três mil / mil clínicas. sem_fonte saiu vazia: cada afirmação que funciona como fato ou regra no bloco tem lastro. \"3 mil clínicas\", \"o ticket médio sobe, a taxa de fechamento sobe\", \"dez minutinhos numa área de espera\" e \"Lá dentro\" estão na amostra de fala; \"ela vai pensar sozinha, não porque o número é alto\" está no manual de objeções (\"O preço não é a objeção real, lembre-se disso\", p. 276, e p. 318); \"paciente que chega lá na frente ainda falando em procedimento é passo dois raso\" está na percepção negativa da Etapa 4 do framework (\"Eu só quero fazer o procedimento XYZ\", acontece quando \"não aprofundamos no problema real\") combinada com o objetivo da Etapa 2; \"tem um passo que ficou raso\" está na linha 9368 do corpus (\"eu já sabia onde eu tava errando, qual era a etapa que tava faltando ou qual etapa eu acabei pulando\"); e o script do CTA final é a declaração de intenção da Etapa 1, p. 2 do framework. Arquivos lidos: /Users/saviomoraes/reconecta/ebooks/715/manuscrito/12-doutora-e-vendedora-tambem.md, /Users/saviomoraes/reconecta/ebooks/715/fontes/voz/fingerprint-ana.md, /Users/saviomoraes/reconecta/ebooks/715/fontes/01-framework-715.md, /Users/saviomoraes/reconecta/ebooks/715/fontes/voz/amostra-fala-analuiza.txt.",
+  "confirmados": [
+    {
+      "tipo": "troca",
+      "gravidade": "media",
+      "trecho": "porque a paciente que chega pela porta já contou o problema, já disse por que agora, já descreveu com as palavras dela o que a consulta vai resolver. Ela entra pronta.",
+      "fala_dela": "E vocês podem ter certeza, na hora que chegar lá, a venda sendo passando ali por todas as etapas, essa questão da objeção de preço nem vai existir",
+      "aplicado": "E quando você faz os sete no WhatsApp, uma coisa muda também dentro da sala, porque a paciente que chega pela porta já contou o problema e já disse, com as palavras dela, por que agora e o que a consulta vai resolver. Na hora que chegar lá, a venda passando ali por todas as etapas, essa questão da objeção de preço nem vai existir. Aí o preço só precisa vir de quem entendeu o problema dela. Lá dentro.",
+      "cetico": "Confirmado: a fala está literal na linha 4490 e o contexto imediato (4483-4490) é exatamente o do livro — passar o bastão pra doutora, que é \"o lugar de quebrar a objeção de preço\", e a objeção não aparecer quando a venda passou por todas as etapas anteriores. O trecho do livro existe igual na linha 30, a proposta preserva o fecho do capítulo (\"Aí o preço só precisa vir de quem entendeu o problema dela. Lá dentro.\"), não entra no bloco :::pergunta, não contradiz os capítulos 10 e 11 (que tratam da objeção quando um passo ficou raso, ou seja, o lado negativo da mesma doutrina) e não tem travessão, itálico nem empilhamento uniforme de marcador oral. Ressalva menor que não justifica reprovar: \"na hora que chegar lá\" fica um pouco redundante depois de \"chega pela porta\", mas o \"lá\" é palavra dela e o referente (a sala) já está posto na frase anterior."
+    }
+  ],
+  "refutados": [
+    {
+      "trecho": "A doutora que responde o preço na primeira mensagem do WhatsApp é a mesma que manda a paciente pra salinha do financeiro.",
+      "motivo": "O grep acha a fala (linhas 5528 e 5530 do corpus), mas ela fala de OUTRO sujeito: o livro diz que a DOUTORA que responde preço é a mesma que manda a paciente pro financeiro, e a fala diz que a PACIENTE que some do WhatsApp equivale à que levantaria da cadeira e sairia correndo. Trocar inverte o lado da história e contradiz a montagem do próprio bloco, que abre em \"No capítulo 1 eu te contei a salinha do financeiro pelo lado da paciente\" (linha 12) e cujo subtítulo promete \"agora do lado de quem vende\"; pior, o capítulo 1 (linha 60) já entrega essa mesma equivalência pelo lado da paciente, então a proposta CRIA a repetição que diz estar removendo. E a premissa cai sozinha: a fala que ele mesmo garimpou é um espelhamento (\"X é o equivalente a Y\"), e o item 4 do ESTADO.md registra o \"zero espelhamento\" como desmentido do fingerprint v2 errado, não como proibição de escrita — sem contar que o contexto do corpus ali (5505-5545) é sobre Pix sem comprovante e falta de confiança, não sobre preço passado cedo demais."
+    },
+    {
+      "trecho": "No WhatsApp o número vai pra paciente cedo demais. Na salinha, vai por uma pessoa que não ouviu nada, né, e nos dois casos a paciente sai com o número na mão e vai pensar sozinha, não porque o número é alto, mas porque ela ainda não sabe se aquilo resolve o problema dela.",
+      "motivo": "As cinco falas existem literais (6576, 6578, 6580, 6582, 6584), mas a máxima JÁ ESTÁ no livro três vezes e sempre com outra redação: \"A forma mais fácil de encerrar uma conversa é com uma resposta\" no capítulo 2 (linha 66), no 10 (linha 61, que ainda marca \"Eu já te disse isso lá no capítulo 2, e acho que aqui é onde ela pesa mais\") e no 11 (linha 24) — uma quarta aparição no capítulo de fechamento, trocada para \"A melhor forma\", quebra a redação fixa do livro e rouba o pico que o capítulo 10 declarou pra si. Além disso \"lead\" não existe como palavra no manuscrito (zero ocorrências com fronteira de palavra; só \"leads\" 2x em fala reportada de mentorada nos blocos C e 02, nunca no capítulo 2 como ele alegou) contra 99 \"paciente\", então não é \"manter a palavra dela\", é estrear um termo no último capítulo. Por fim a ponte inventada \"Nos dois casos a conversa acabou ali\" não está no corpus e contradiz o próprio bloco, que diz que ela sai com o número e vai pra casa pensar (linhas 14 e 18), e \"O lead sumiu\" só cobre a metade WhatsApp, não a metade salinha que a frase alega cobrir."
+    }
+  ],
+  "cego": {
+    "veredito": "pessoa",
+    "confianca": 68,
+    "votos": {
+      "pessoa": 2,
+      "ia": 1,
+      "indeciso": 0
+    },
+    "leitores": 3,
+    "data": "2026-09-09"
+  }
+}

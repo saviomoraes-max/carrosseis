@@ -1,0 +1,84 @@
+{
+  "rodada": 7,
+  "data": "2026-09-09",
+  "lente": "corpus de fala da autora (80.938 palavras), 2a leva",
+  "juri": "opus-5",
+  "brutos": 9,
+  "confirmados_n": 6,
+  "altas_confirmadas": 4,
+  "aparado_por_colisao": "autoteste control C/control V saiu: colide com o bloco 04, que é o capítulo de referenciar",
+  "resumo": "Bloco 02 checado contra as tres fontes e contra as 80.938 palavras do corpus, com cerca de 40 buscas por termo do dominio (comportamental, cidade, bastao, empatia, conexao, script, copiar e colar, quanto custa, some, resistencia, agenda, preenchimento, informacao, abertura, monossilabica, 100%, 3 mil, faturam, quer comprar, framework 715, entre outros).\n\nFidelidade: o bloco esta muito melhor do que parecia. O que eu ia acusar primeiro (a historia das quatro doutoras, o \"100% das pessoas que deram muito certo\", o bloco \"Nos temos pessoas que faturam 200 mil...\", \"mais de 3 mil\") esta todo em fonte: os tres primeiros sao literais de fontes/voz/amostra-fala-analuiza-02.txt e o \"mais de 3 mil clinicas\" e fala dela em fontes/voz/amostra-fala-analuiza.txt:43. Sobrou uma so invencao, pequena: o verbo \"ouvir\" em \"parar de ouvir que ta com o olhar cansado\", que joga a queixa para terceiros comentando o rosto da paciente. Em toda fonte e em todo o corpus, \"olhar cansado\" e \"cansado\" sao percepcao da propria paciente sobre si.\n\nVoz: aqui o corpus muda o jogo, porque este e o assunto exato dele. Oito trocas, tres eixos.\n1) O argumento que sustenta o capitulo (o problema e interno) esta no corpus com uma frase que o livro nao usa: \"se o problema sou eu, e a melhor coisa do mundo, porque ta no meu controle, entao ta facil\", precedida do \"misericordia, eu teria que mudar de cidade, teria que mudar de regiao, teria que mudar meu trafego, teria que mudar tudo\". O livro trocou isso por uma anafora fabricada de tres degraus (\"nao depende / nao depende / nao depende\") num periodo de 60 palavras que fecha redondo.\n2) Tres itens da grade viraram parafrase do PDF quando o corpus tem a versao falada, com julgamento e com teste pratico: \"pecado mortal\" e o teste control C control V no item 5, o \"curso em Harvard, 800 m2, produtos de primeira\" no item 7, e \"o lead sumiu, eu nao agendei, todo mundo saiu sem o problema resolvido\" no item 6, que e a tese do livro dita por ela.\n3) Dois pares espelhados e um quantificador de escritorio (\"quase sempre\", \"quase nunca\", \"entendida/vendida\") cedem lugar a fala dela, que traz caso concreto: a paciente que escreve \"gostaria de saber como funciona a questao do botox, preenchimento labial, valores?\" e so depois conta que o que incomoda e \"fazer a famosa cara de brava\"; o \"famoso lead que some depois do preco da consulta\"; a \"resposta monossilabica\".\n\nCuidados que tomei nas propostas: nenhuma travessao e nenhum italico; nenhuma palavra dela trocada por sinonimo meu, so pontuacao ajustada e gagueira de transcricao cortada (\"dessa do do atendimento\" vira \"do atendimento\", \"contrl C, conttrol V\" vira \"control C, control V\", \"bem dito\" vira \"bendito\", \"a Lid\" vira \"a lead\", \"sai seu agendamento\" nao foi usado). Na troca 7 cortei duas repeticoes de \"eu vou falar que\" so para nao empilhar uma terceira anafora de tres degraus no mesmo capitulo, ja que o bloco \"Nos temos\" (literal da fonte, intocavel) ja gasta uma e a troca 1 devolve a dela; todas as palavras de conteudo dela ficaram. Deixei quieto o que ja esta bom: a frase punch, o grafico do bastao (literal do PDF p.6), o item 1, o item 4 e a pergunta de fechamento.",
+  "confirmados": [
+    {
+      "tipo": "troca",
+      "gravidade": "alta",
+      "trecho": "Mas eu acho que a resposta do WhatsApp é a coisa mais interna que existe, interna, né, porque ela não depende da cidade e não depende da idade e não depende de quanto profissional abriu clínica na sua rua, depende do que você digita depois do “oi”, e quando chega menos gente, cada conversa que morre pesa mais e é a única parte que dá pra mudar já na próxima mensagem.",
+      "fala_dela": "vim o ponto, pô, mas se o problema sou eu, se o problema sou eu, é a melhor coisa do mundo\n\nÉ a melhor coisa do mundo, porque tá no meu controle, então tá fácil\n\nSe o problema seu, tá fácil\n\nE por que que eu trago isso?\n\nMisericórdia, eu teria que mudar de cidade\n\nteria que mudar de cidade, teria que mudar de região, teria que mudar meu tráfego, teria que mudar tudo\n\nAgora, se a gente sabe que o problema tá com a gente, ou seja, eu preciso agir de uma forma diferente, eu preciso pensar de uma forma diferente, tudo começa de verdade, gente",
+      "aplicado": "Só que se o problema fosse a cidade, misericórdia, eu teria que mudar de cidade, teria que mudar de região, teria que mudar meu tráfego, teria que mudar tudo. Agora, se a gente sabe que o problema tá com a gente, é a melhor coisa do mundo, porque tá no meu controle, então tá fácil. E a resposta do WhatsApp é a coisa mais interna que existe, né, porque depende do que você digita depois do “oi”, e quando chega menos gente cada conversa que morre pesa mais.",
+      "cetico": "Grep confirma tudo literal: linhas 5058, 5060, 5066 e 5068 do corpus, e o trecho do livro bate exato. O contexto dela (5044-5070) é atribuição interna contra externa, que é a tese do próprio capítulo em \"Não foi nada externo, é sempre algo interno\", e a proposta ainda instala \"Só que\" e \"Agora, se\", que a fingerprint v3 mede como a virada padrão dela. Ressalva pro editor: com essa troca o capítulo passa a carregar duas anáforas de 4 degraus (\"Nós temos\" e \"teria que mudar\"), as duas literais, então não pode entrar uma terceira em lugar nenhum."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "alta",
+      "trecho": "Ninguém manda mensagem pra clínica sem querer alguma coisa e o que a gente faz nos sete passos é descobrir o que ela quer de verdade, né, porque o que ela pergunta e o que ela quer quase nunca são a mesma coisa, e a paciente pergunta o preço do preenchimento, mas o que ela quer é parar de ouvir que tá com o olhar cansado.",
+      "fala_dela": "Eh, pensa o seguinte, toda pergunta que a Lid faz para você é porque existe um motivo por trás da pergunta\n\n1326 já respondeu: \"Gostaria de saber como funciona a questão do botox, preenchimento labial, valores?\"\n\nMe incomoda algumas linhas de expressão que tenho no rosto, principalmente fazer a famosa cara de brava",
+      "aplicado": "Ninguém manda mensagem pra clínica sem querer alguma coisa e o que a gente faz nos sete passos é descobrir o que ela quer de verdade. Pensa o seguinte, toda pergunta que a lead faz para você é porque existe um motivo por trás da pergunta. Ela escreve “gostaria de saber como funciona a questão do botox, preenchimento labial, valores?”, e o que ela quer mesmo só aparece depois que alguém pergunta: “me incomoda algumas linhas de expressão que tenho no rosto, principalmente fazer a famosa cara de brava”.",
+      "cetico": "As três falas existem literais: linha 2502 (\"toda pergunta que a Lid faz para você é porque existe um motivo por trás da pergunta\"), 2640 (a mensagem da paciente) e 2708 (a resposta dela), e a 2640 é a mesma cena de preenchimento do exemplo do livro. Diz exatamente o que o trecho do livro afirma, que pergunta e desejo não coincidem, e ainda substitui o exemplo inventado por um caso real com a pergunta do atendente no meio. Só normalizei mentalmente \"Lid\" para \"lead\", que é erro de transcrição da mesma palavra."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "alta",
+      "trecho": "porque copiar o script sem prestar atenção na conversa é justamente o que faz a paciente sentir que está numa entrevista. Com o tempo você para de olhar o script, tá, porque passa a ler o sinal dela.",
+      "fala_dela": "Aí fica uma conversa robótica como se eu tivesse entrevistando a pessoa, né?\n\nCopiar e colar o script sem contexto é outro pecado mortal dessa do do atendimento\n\nEu sempre gosto de pensar o seguinte, quando tô atendendo o a pergunta que eu fiz, ela poderia ser feita para qualquer pessoa?\n\nSe eu desse um contrl C, conttrol V nessa pergunta, em qualquer conversa, ela caberia?\n\nEntão, possivelmente, eu acho que eu tô sendo genérica demais",
+      "aplicado": "«5.» Scripts são referências. As perguntas dos próximos capítulos são modelo, sabe, você copia a pergunta e troca pelas palavras que ela mesma usou e o que você manda depois depende do que ela respondeu. Copiar e colar o script sem contexto é outro pecado mortal do atendimento. Aí fica uma conversa robótica como se eu tivesse entrevistando a pessoa, né. Eu sempre gosto de pensar o seguinte, quando tô atendendo: a pergunta que eu fiz, ela poderia ser feita para qualquer pessoa? Se eu desse um control C, control V nessa pergunta, em qualquer conversa, ela caberia? Então, possivelmente, eu acho que eu tô sendo genérica demais. Com o tempo você para de olhar o script, tá, porque passa a ler o sinal dela.",
+      "cetico": "Todas as cinco falas conferem: 6550 (\"conversa robótica como se eu tivesse entrevistando a pessoa\"), 6554 (\"pecado mortal\"), 1494, 1496 e 1498 (o teste do control C e o veredito \"genérica demais\"), e o corpus ainda tem a linha 4504 fechando o mesmo raciocínio. O trecho do livro está exato e o teste não contradiz nada do bloco, além de não tocar em nenhum bloco protegido, já que não existe :::frase neste capítulo. Único custo real: o item «5.» dobra de tamanho e fica desproporcional aos outros sete da lista, o que é decisão de diagramação, não de fidelidade."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "alta",
+      "trecho": "e aí ela manda um “obrigada, vou pensar”, e você fica olhando pro visto azul sem saber o que escrever depois, né.",
+      "fala_dela": "A melhor forma de encerrar uma conversa é com uma resposta\n\nO lead sumiu, eu não agendei, todo mundo saiu sem o problema resolvido",
+      "aplicado": "«6.» Quem faz as perguntas conduz a conversa, e fica com o bastão na mão. Porque no momento em que ela pergunta quanto custa e você responde o valor e não manda mais nada, o bastão passou pra ela, e aí ela manda um “obrigada, vou pensar”, e você fica olhando pro visto azul. O lead sumiu, eu não agendei, todo mundo saiu sem o problema resolvido. E qual é a forma mais fácil de encerrar uma conversa? Com uma resposta. E eu não tô te pedindo pra esconder o preço, tá? Tô pedindo pra perguntar antes de responder. Qual pergunta? Isso é o passo um.",
+      "cetico": "\"O lead sumiu, eu não agendei, todo mundo saiu sem o problema resolvido\" é literal na linha 6578, colada na linha 6576 que o livro já usa em \"a forma mais fácil de encerrar uma conversa\", ou seja, é a mesma cena e o mesmo beat, não outra coisa parecida. O trecho do livro confere exato, a troca não invade o :::grafico bastao logo abaixo e ainda derruba um \"né\" num capítulo que já tem cinco em cerca de 750 palavras. O \"eu não agendei\" abre uma troca de pessoa no meio do parágrafo, mas o próprio livro já alterna ali em \"eu não tô te pedindo pra esconder o preço\"."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "media",
+      "trecho": "«2.» Agendamento é consequência. Quando a conversa é bem feita, você oferece o horário e ela já estava esperando por ele, né, e às vezes ela pergunta da agenda antes de você.",
+      "fala_dela": "Geralmente ela pergunta disponibilidade na agenda na hora\n\nNa hora que você faz essa pausa, ela pergunta: \"E você tem horário para quando?\", entendeu?",
+      "aplicado": "«2.» Agendamento é consequência. Quando a conversa é bem feita, geralmente ela pergunta disponibilidade na agenda na hora: “E você tem horário para quando?”, entendeu? E quando é você que oferece o horário, ela já estava esperando por ele.",
+      "cetico": "Literal nas linhas 3180 e 3182, e conferi o contexto: 3130 e 3168-3172 deixam claro que a pausa vale \"tanto na consulta quanto no atendimento ali no WhatsApp\", então a fala não é de outro canal. O problema é que no corpus o \"geralmente\" é condicionado à pausa, e tirar a pausa transforma em regra geral algo que ela só afirma sob condição, criando choque com \"você oferece o horário\" logo antes: mando a versão que mantém as palavras dela sem esse conflito."
+    },
+    {
+      "tipo": "sem_fonte",
+      "gravidade": "baixa",
+      "afirmacao": "mas o que ela quer é parar de ouvir que tá com o olhar cansado",
+      "cetico": "Confirmei a acusação: \"olhar cansado\" só aparece em 03-manual-perguntas.md linha 43, e ali é pergunta sobre o que a PACIENTE quis dizer do próprio rosto, e no corpus a única ocorrência é a linha 1478 (\"E ela falou cansado, parecendo que a pele tá derretendo\"), também autopercepção. Varri 01-framework-715.md e 02-manual-objecoes.md e busquei por paráfrase (comentam, me falam, ouvir que, cansada de ouvir) sem nenhum caso de paciente incomodada com o que os outros dizem. A formulação real mais próxima é a linha 2826, \"parar de se sentir como está se sentindo\", que é sentir, não ouvir."
+    }
+  ],
+  "refutados": [
+    {
+      "trecho": "Preço, duração da consulta, currículo da doutora, lista de procedimentos, enfim, ela pediu uma informação e você mandou quatro motivos pra ela ir pra casa pensar.",
+      "motivo": "A fala existe literal (6594 e 6596), mas ela diz outra coisa: no contexto 6588-6598 o argumento dela é que credencial é INDIFERENTE pro lead (\"não tem a menor diferença\"), enquanto o item «7.» afirma que informação adiantada VIRA OBJEÇÃO, e colar as duas deixa a mesma frase dizendo que a informação não muda nada e que ela vira motivo pra ir pra casa pensar. Além disso a proposta amputa a anáfora literal dela (\"eu vou falar que\" três vezes vira uma), o que derruba a própria justificativa de estar devolvendo a voz dela. Essa fala serve ao \"o que realmente faz diferença no atendimento\" (6598), não ao princípio de menos informação."
+    },
+    {
+      "trecho": "A paciente que chama no WhatsApp é a mesma em qualquer clínica dessas que eu falei. Ela chega com uma dúvida e, quase sempre, com uma pergunta de preço.",
+      "motivo": "As três linhas são literais (5488, 5490, 5492), mas o assunto é outro: ali ela responde a um formulário sobre a MAIOR DIFICULDADE DAS DOUTORAS e a universalidade é do problema do lead que some, enquanto a frase do livro afirma que a PACIENTE é a mesma em qualquer clínica e que ela chega com dúvida e pergunta de preço. Trocar \"ela chega com uma pergunta de preço\" por \"ela some depois do preço\" arranca o gancho do :::punch imediatamente seguinte (\"vender aquilo que a pessoa já quer comprar\") e de \"Ela já quer\", que dependem da chegada, não do sumiço. E antecipa o \"obrigada, vou pensar\" do item «6.», duplicando a mesma cena duas vezes num capítulo curto."
+    },
+    {
+      "trecho": "«8.» E conexão é o que derruba a resistência, né, porque a paciente que se sente entendida responde mensagem longa e a que se sente vendida responde com uma palavra, e você já deve ter visto as duas.",
+      "motivo": "As falas são literais (98, 102, 104) e o diagnóstico do espelhamento procede, a fingerprint v3 mede \"espelhamento dos dois lados: 0\", mas a proposta quebra o capítulo: importa uma conduta de canal (\"eu não continuo por texto\") sem dizer o que ela faz no lugar, que no corpus é ir pro áudio (106-114), e deixa a leitora mandada a parar de escrever sem alternativa, num capítulo que adia técnica de propósito (\"Isso é o passo um\"). É o mesmo pecado que o garimpeiro alegou ter evitado na troca 6 ao remover a pausa. E a metade que sobrou (\"a paciente que se sente entendida responde mensagem longa e detalhada\") continua sendo invenção sem fonte, agora sem o par que ao menos justificava o \"as duas\"."
+    }
+  ],
+  "cego": {
+    "veredito": "pessoa",
+    "confianca": 67,
+    "votos": {
+      "pessoa": 2,
+      "ia": 1,
+      "indeciso": 0
+    },
+    "leitores": 3,
+    "data": "2026-09-09"
+  }
+}

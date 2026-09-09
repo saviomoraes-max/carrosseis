@@ -1,0 +1,317 @@
+{
+  "pessoa": 6,
+  "total": 15,
+  "por_bloco": [
+    {
+      "bloco": "01",
+      "veredito": "ia",
+      "confianca": 68
+    },
+    {
+      "bloco": "02",
+      "veredito": "pessoa",
+      "confianca": 70
+    },
+    {
+      "bloco": "03",
+      "veredito": "ia",
+      "confianca": 80
+    },
+    {
+      "bloco": "04",
+      "veredito": "ia",
+      "confianca": 70
+    },
+    {
+      "bloco": "05",
+      "veredito": "ia",
+      "confianca": 68
+    },
+    {
+      "bloco": "06",
+      "veredito": "ia",
+      "confianca": 74
+    },
+    {
+      "bloco": "07",
+      "veredito": "pessoa",
+      "confianca": 65
+    },
+    {
+      "bloco": "08",
+      "veredito": "pessoa",
+      "confianca": 62
+    },
+    {
+      "bloco": "09",
+      "veredito": "ia",
+      "confianca": 72
+    },
+    {
+      "bloco": "10",
+      "veredito": "ia",
+      "confianca": 70
+    },
+    {
+      "bloco": "11",
+      "veredito": "pessoa",
+      "confianca": 65
+    },
+    {
+      "bloco": "12",
+      "veredito": "ia",
+      "confianca": 68
+    },
+    {
+      "bloco": "A",
+      "veredito": "pessoa",
+      "confianca": 72
+    },
+    {
+      "bloco": "B",
+      "veredito": "pessoa",
+      "confianca": 86
+    },
+    {
+      "bloco": "C",
+      "veredito": "ia",
+      "confianca": 72
+    }
+  ],
+  "pistas_de_ia": [
+    {
+      "bloco": "01",
+      "confianca": 68,
+      "pistas": [
+        {
+          "trecho": "Lá na clínica, o preço veio tarde demais, de uma pessoa que não tinha ouvido nada do meu problema. No WhatsApp, ele vem cedo demais, de uma pessoa que não perguntou nada, antes mesmo de ela pisar na clínica. Parece o contrário. É a mesma coisa.",
+          "pista": "Quiasmo perfeito (tarde demais / cedo demais, com as duas subordinadas espelhadas palavra a palavra) seguido do par negação-e-inversão em duas frases curtas. Ninguém fala assim e quase ninguém escreve assim de primeira; é a assinatura mais previsível de LLM em prosa persuasiva. Fala real produz simetria torta, não simetria de régua."
+        },
+        {
+          "trecho": "Não tem porta, não tem cadeira, não tem área de espera. Só tem o número chegando na tela.",
+          "pista": "Tricolon de negação com anáfora exata (\"não tem\" x3) e pivô no \"Só tem\". Padrão de ritmo que a IA aplica sozinha para dar cadência. Note que o texto vinha oral e sujo até aqui: essa frase é limpa demais para o entorno, o registro muda de dono no meio do capítulo."
+        },
+        {
+          "trecho": "E aí ela vai ruminar sozinha, do jeito que eu ruminei naqueles dez minutinhos.",
+          "pista": "Callback costurado com pinça: recupera o verbo \"ruminar\" da linha 35 e o \"dez minutinhos\" que virou título de seção, fechando o arco na penúltima frase útil. Motivo recorrente plantado e colhido no lugar exato é decisão de montagem editorial, não de quem está contando uma história."
+        },
+        {
+          "trecho": "Acho que o trabalho é a gente entender o que ela quer antes de passar qualquer número.",
+          "pista": "Hedge de humanização plantado. É a única frase da seção final que hesita, e ela hesita justo na tese central do produto, cercada por frases 100% assertivas. Quando o narrador tem certeza de tudo menos da própria tese, o \"acho que\" foi adicionado para amaciar, não sentido."
+        },
+        {
+          "trecho": "O script 715 parte de uma frase só: «para vender qualquer coisa, é só vender aquilo que a pessoa já quer comprar». A pessoa que manda mensagem já quer.",
+          "pista": "Sequência de embalagem: nome do método + máxima entre aspas + eco imediato da máxima aplicada ao caso + contagem fechada (\"São sete passos, do primeiro oi ao comprovante do PIX da consulta. E o preço só entra no último.\"). A primeira metade do arquivo tem entulho de fala real (\"parará, parará, parará\", \"um caso meu, que aconteceu duas ou três vezes\", \"tal qual um animal se dirige para o abatedouro\"); a partir de \"A salinha do WhatsApp\" esse entulho some por completo e entra prosa calibrada. A leitura mais provável é transcrição humana reaproveitada com a ponte, a virada e o fecho escritos por IA."
+        }
+      ]
+    },
+    {
+      "bloco": "03",
+      "confianca": 80,
+      "pistas": [
+        {
+          "trecho": "Autoridade no WhatsApp não é currículo. É a pessoa que faz a pergunta certa.",
+          "pista": "Aforismo em \"não é X, é Y\" isolado como parágrafo de uma linha só, no fim exato da seção. Esse formato de punchline colocado no lugar milimetricamente certo é a assinatura mais forte de composição por máquina. E não é caso isolado: o mesmo molde aparece em \"quem pega qualquer uma não está escolhendo, está vendendo\" e em \"Você não escondeu nada. Você só não largou o bastão.\" Gente escrevendo direto raramente acerta esse fecho três, quatro vezes no mesmo capítulo curto."
+        },
+        {
+          "trecho": "Acho que ninguém relaxa com quem já decidiu vender. A gente relaxa com quem ainda está decidindo se dá pra ajudar.",
+          "pista": "O hedge (\"Acho que\") está grudado num par antitético perfeitamente simétrico — mesma estrutura sintática nas duas frases, só o predicado invertido. Humano hesita sobre fato, número, memória; aqui a hesitação enfeita um aforismo balanceado. É a marca de passada de humanização: injetar \"acho que\", \"pelo que eu vejo\", \"eu entendo\" por cima de sentenças que nasceram assertivas."
+        },
+        {
+          "trecho": "Acontece quando a gente se qualifica, aquele a doutora é ótima, esses casos são perfeitos, olha esse caso que lindo. Acontece quando a gente não fala pra que está ali. Acontece quando a paciente sente que pode agendar a hora que quiser",
+          "pista": "Anáfora quádrupla (\"Acontece quando...\") anunciada por uma contagem exata logo antes (\"isso acontece em quatro situações\"), com os quatro itens cabendo num parágrafo só e nenhum deles fugindo do paralelismo. Fala real desmonta a lista no meio: repete um item, esquece outro, volta atrás. Aqui a lista fecha certinha em quatro."
+        },
+        {
+          "trecho": "Três coisas, e as três acontecem na mesma mensagem. Abrir espaço pra conversa. Tirar a resistência inicial, aquela desconfiança de quem chama numa clínica e já espera ser empurrada. E mostrar que você está ali pra entender se consegue ajudar ou não.",
+          "pista": "Declara o número antes de entregar e entrega exatamente três, em fragmentos infinitivos paralelos com o \"E\" no último. É o ritmo de tríade mais previsível que existe em texto gerado. Somado a \"Esse \\\"ou não\\\" é o coração do passo\", que rotula o próprio insight, dá um texto que explica a si mesmo — coisa que quem fala de dentro do ofício não faz, porque pra ele aquilo é óbvio."
+        },
+        {
+          "trecho": "Sobre a última: a paciente que chega direta, já pedindo horário, engana. Parece pronta. Aí você manda o horário, ela some, e você fica sem entender.",
+          "pista": "Ponto exato onde apareceria uma história real — um nome, uma data, um valor, uma conversa que deu errado — e não aparece nada. O capítulo inteiro não tem uma única anedota, número, exceção ou digressão que não sirva ao argumento. Zero desperdício: todo parágrafo entra, desenvolve e fecha num remate. Texto de pessoa tem pelo menos um trecho que não vai a lugar nenhum; este não tem nenhum. Os marcadores de oralidade (\"tá?\", \"Repara que\") aparecem uma vez cada, dosados demais pra serem fala."
+        }
+      ]
+    },
+    {
+      "bloco": "04",
+      "confianca": 70,
+      "pistas": [
+        {
+          "trecho": "Parece atendimento bom. É a conversa morrendo de novo, só que mais tarde.",
+          "pista": "Fórmula de antítese em dois tempos (afirma / vira do avesso em frase curta) usada como fecho de quase todo parágrafo-chave. Não é um recurso ocasional aqui, é a estrutura da prosa inteira — repetição mecânica de um único movimento retórico é o tique mais forte de texto gerado."
+        },
+        {
+          "trecho": "Quem manda as três de uma vez não está perguntando, está aplicando questionário.",
+          "pista": "Mesmo molde 'não é X, é Y' reaparece em cadência idêntica: também em 'você não sabe o problema dela. Você sabe o nome que ela deu' e em 'não está mais conversando com uma atendente. Está conversando com alguém que entendeu'. Quatro ocorrências do mesmo esqueleto sintático em 90 linhas."
+        },
+        {
+          "trecho": "Você não perguntou. Ela contou.",
+          "pista": "Punchline de três palavras fechando seção, com simetria perfeita de pessoa e tempo verbal. Escrita humana oral erra o compasso às vezes; aqui todo fecho de bloco cai no mesmo ritmo curto-curto, sem uma sobra, sem uma frase que se arrasta ou se perde."
+        },
+        {
+          "trecho": "ELA: É que eu tô com o rosto muito flácido, queria ver o que dá pra fazer.",
+          "pista": "Diálogo de WhatsApp limpo demais: sem erro de digitação, sem mensagem quebrada em três balões, sem áudio, sem emoji, sem 'oi bom dia'. É uma cena-composto construída pra ilustrar o argumento, não uma conversa lembrada ou colada de um print. E o capítulo inteiro não tem UM nome, data, número ou caso concreto."
+        },
+        {
+          "trecho": "\"Quando você diz que tá caindo perto do queixo, em que momento você percebe mais isso?\"",
+          "pista": "Callback cirúrgico: o 'queixo' plantado na cena de abertura volta aqui e de novo no 'exatamente isso' do fim, sempre com a palavra exata. Coerência de detalhe recuperada e reaproveitada como demonstração é comportamento de quem tem o texto todo à vista de uma vez, não de quem escreve pensando."
+        }
+      ]
+    },
+    {
+      "bloco": "05",
+      "confianca": 68,
+      "pistas": [
+        {
+          "trecho": "Quem fez a pergunta foi você. Quem se convenceu foi ela.",
+          "pista": "Quiasmo epigramático perfeito, com paralelismo sintático exato e ritmo fechado. É a assinatura de frase-de-efeito otimizada: aparece exatamente no fim do parágrafo conceitual, no lugar onde um gerador coloca o remate. Fala espontânea quase nunca produz simetria tão limpa sem tropeço."
+        },
+        {
+          "trecho": "Todas elas perguntam a mesma coisa de seis jeitos: por que agora.",
+          "pista": "Contagem exata dos itens (\"seis jeitos\") mais dois-pontos com síntese de três palavras. Isso é comportamento de quem enumerou a lista antes de escrever a frase, não de quem está ensinando de cabeça — quem ensina diz \"todas perguntam a mesma coisa\" e não confere quantas são."
+        },
+        {
+          "trecho": "O que muda é que ela vem depois do casamento, não no lugar dele.",
+          "pista": "O texto inteiro roda no mesmo motor \"não é A, é B\" / \"se X, então não-Y; se Y, então X\" (repetido em pelo menos seis lugares: tolerância vs. problema, oferecer a espera vs. argumentar contra, convencida você vs. convencida ela). Uma única figura retórica sustentando o capítulo todo é padrão de geração, não de fala."
+        },
+        {
+          "trecho": "Se ela te contou do casamento sem você pedir, o passo três aconteceu.",
+          "pista": "Economia de callback boa demais: cada detalhe plantado na cena de abertura (novembro, irmã, casamento, foto, dois anos de flacidez) é reaproveitado depois com função pedagógica e nenhum sobra. Texto de origem oral deixa detalhe morto e repete o que já disse; aqui não há nenhuma sobra nem redundância."
+        },
+        {
+          "trecho": "parece perigoso, eu sei, tá?",
+          "pista": "As marcas de oralidade (\"tá?\", \"a gente é educada\", \"chamo ele de\", \"Repara:\") estão distribuídas em doses únicas e bem espaçadas, uma por seção, como tempero. Fala real agrupa cacoetes e contamina a sintaxe ao redor; aqui a frase volta imediatamente ao padrão editado, o que sugere humanização aplicada por cima de um texto já limpo."
+        }
+      ]
+    },
+    {
+      "bloco": "06",
+      "confianca": 74,
+      "pistas": [
+        {
+          "trecho": "Ela pediu a consulta. Você só perguntou.",
+          "pista": "Fecho em espelho invertido, e não é uma vez só: \"quem dá esse sinal é você, não a paciente\", \"Ela ouve que o próximo passo existe e que você ainda não deu\", \"a sua mensagem começa pela palavra dela, e no fim do passo ela escreveu mais do que você\", \"Primeiro ela declara, depois você oferece\". Quase todo parágrafo termina com uma antítese simétrica de duas partes, perfeitamente balanceada. Gente escrevendo do próprio repertório acerta esse golpe uma ou duas vezes por capítulo; aqui ele é a régua fixa de encerramento, o que denuncia geração por padrão retórico, não por pensamento."
+        },
+        {
+          "trecho": "O \"com tudo o que falamos\" no começo da primeira não é enfeite.",
+          "pista": "Fórmula \"não é X, é Y\" (negar o trivial pra anunciar profundidade) somada a uma cadeia de revelações por dois-pontos no mesmo capítulo: \"que faz uma coisa sutil:\", \"As duas aparecem pelo mesmo motivo:\", \"No WhatsApp isso é uma coisa só:\". É o par de tiques mais estável de LLM em PT-BR, e aqui aparece em densidade alta num texto curto."
+        },
+        {
+          "trecho": "E eu não tô dizendo que argumentar é errado, tá?",
+          "pista": "Os marcadores de oralidade (\"tava\", \"tô\", \"tá?\", \"Parou.\", \"Repara na ordem\") vêm dosados com regularidade quase métrica: um por parágrafo, sempre num período que no resto está impecável. Fala transcrita de verdade é suja em bloco (falso começo, repetição, frase que morre no meio, digressão que não volta). Aqui não há um único trecho malfeito, nenhuma vírgula fora do lugar, nenhuma digressão que não retorne exatamente ao ponto com piada pronta. Isso é coloquialismo aplicado por cima de prosa limpa, não prosa nascida da fala."
+        },
+        {
+          "trecho": "Eu já estive do lado de lá dessa conversa, lembra da salinha?",
+          "pista": "A memória pessoal não carrega nenhum detalhe inútil, que é o que memória real sempre carrega: não tem nome, cidade, o que a doutora falou, quanto custava, o que a pessoa estava vestindo. Tudo que está lá serve ao argumento e nada sobra, e o único gesto de intimidade é apontar pra um detalhe que estaria em outro lugar (\"lembra da salinha?\"). Encerra ainda num contrafactual que funciona como tese, não como lembrança: \"Se eu tivesse entendido o preço ali na sala, talvez eu teria fechado lá dentro.\""
+        },
+        {
+          "trecho": "A leitura negativa do passo quatro tem duas frases",
+          "pista": "O corpo anuncia duas frases e cita as duas, mas o bloco :::grafico leituras só traz uma (\"NEG: Ainda não sei se o meu problema vai ser resolvido.\") — a segunda, \"eu só quero fazer o procedimento tal\", não existe no gráfico. É a assinatura de texto montado em cima de um material-fonte que o autor do parágrafo tinha à vista e o autor do bloco não reconciliou. Quem viveu e domina o próprio conteúdo não anuncia dois itens e entrega um no quadro logo acima."
+        }
+      ]
+    },
+    {
+      "bloco": "09",
+      "confianca": 72,
+      "pistas": [
+        {
+          "trecho": "o fechamento não convence ninguém, ele só organiza",
+          "pista": "Molde de antítese \"não X, ele Y\" repetido em série ao longo do texto (também em \"O fechamento não gera essa leitura. Ele colhe.\", \"ele não está ali por pressa\", \"Ela não está mais decidindo. Ela está se organizando\"). Uma vez é estilo; quatro vezes com a mesma engenharia sintática é a assinatura mais confiável de geração automática em PT-BR."
+        },
+        {
+          "trecho": "Na segunda mensagem. Depois do horário. Depois de seis passos.",
+          "pista": "Empilhamento de fragmentos anafóricos como recurso de ênfase, colocado logo na abertura do argumento. É o tique staccato clássico de LLM tentando soar oral; escrita humana costuma quebrar esse padrão em pelo menos um dos membros (tamanho, ritmo ou conector), aqui os três saem calibrados iguais."
+        },
+        {
+          "trecho": "A paciente que pergunta onde fica já está indo. Ela não está mais decidindo. Ela está se organizando pra chegar.",
+          "pista": "Disciplina metronômica de fecho: cada seção termina em frase-soco curta (\"Ou não voltar.\", \"Ele colhe.\", \"Pede uma vez e segue.\", esta aqui). Nenhuma seção termina de forma frouxa, morna ou arrastada. Texto humano longo quase sempre tem pelo menos um fim de parágrafo sem brilho; aqui não há nenhum."
+        },
+        {
+          "trecho": "E um dos dois erros que o framework manda evitar aqui é perguntar quando a paciente pode, em vez de oferecer um horário. E quem pergunta quando a paciente pode passa o controle da conversa pra ela",
+          "pista": "Reformulação imediata da mesma oração (\"perguntar quando a paciente pode\" repetido literalmente na frase seguinte), com duas sentenças consecutivas abrindo em \"E\". É a redundância de expansão típica de modelo preenchendo cota de parágrafo, não a repetição intencional de quem revisa o próprio texto."
+        },
+        {
+          "trecho": "Essa lista, ponto importante, é o script inteiro.",
+          "pista": "Aposto meta-editorial encaixado no meio da frase, marcando relevância pro leitor de fora do argumento. Some-se a isso a limpeza anormal do texto como um todo: zero erro de digitação, zero digressão, zero frase longa demais, parágrafos todos na mesma faixa de comprimento, e vocabulário sem nenhuma escolha realmente idiossincrática fora do repertório do próprio nicho."
+        }
+      ]
+    },
+    {
+      "bloco": "10",
+      "confianca": 70,
+      "pistas": [
+        {
+          "trecho": "Objeção não é rejeição. É pedido de mais informação, ou sinal de que ainda não ficou claro pra ela o que a consulta resolve.",
+          "pista": "Densidade anormal da estrutura \"não é X, é Y\". O texto tem 65 linhas e repete esse molde pelo menos cinco vezes: no título (\"Objeção não é um não\"), aqui, em \"Voltar não é inventar resposta nova pra objeção. É refazer a pergunta\", em \"Você não escondeu o preço. Você disse que vai passar\" e no tricolon do parágrafo 42. Copywriter humano usa antítese; usa duas ou três vezes num capítulo, não como motor de quase todo parágrafo. Quando a mesma figura sustenta a argumentação inteira, é geração automática, não escolha retórica."
+        },
+        {
+          "trecho": "Não é o preço, não é o marido, não é a agenda. É que em algum passo anterior ficou raso, e a paciente chegou no fechamento sem estar convencida por ela mesma.",
+          "pista": "Tricolon de negação seguido de pivô revelador — o tique mais estável de LLM em PT-BR. Três itens (nunca dois, nunca quatro), ritmo idêntico entre eles, e a virada em \"É que...\" entregando a \"verdade profunda\". A cadência é perfeita demais para ter saído de alguém pensando enquanto escreve."
+        },
+        {
+          "trecho": "e se for muito caro, será que é prioridade agora, será que eu não encontro outro jeito",
+          "pista": "Anedota calibrada. A suposta lembrança pessoal na salinha produz exatamente três objeções internas que são justamente as três categorias que o capítulo vai tratar (preço, prioridade, alternativa). Memória real não sai alinhada com a taxonomia do próprio texto — ela vem torta, com um detalhe inútil, com uma coisa fora de ordem. Aqui a \"experiência vivida\" é retro-encaixada no framework, que é como um modelo fabrica prova."
+        },
+        {
+          "trecho": "Curiosidade é o que você sente quando ela diz \"vou pensar\": pensar no quê? Direção é o que você faz com isso: pergunta, em vez de esperar.",
+          "pista": "Paralelismo definicional simétrico: duas frases com a mesma arquitetura (substantivo + \"é o que você\" + verbo + dois-pontos + glosa curta), uma para sentir e outra para fazer. É o padrão de \"explicar um par de conceitos\" que modelo produz por default. Gente que escreve de verdade quase sempre desequilibra o par — explica um mais que o outro, ou mistura os dois num exemplo só."
+        },
+        {
+          "trecho": "Uma das duas basta, a segunda é a primeira já com o \"vou pensar\" dentro.",
+          "pista": "Compressão sem referente. \"As duas\" só aparecem depois, nos dois blocos :::frase, então a frase aponta para algo que o leitor ainda não viu; e a explicação (\"a segunda é a primeira já com o vou pensar dentro\") não descreve corretamente as duas perguntas que vêm em seguida. É a assinatura típica de texto gerado: som de frase apertada e definitiva, com a lógica interna vazando. Um autor relendo o próprio capítulo tropeça nisso; um gerador otimizando ritmo, não."
+        }
+      ]
+    },
+    {
+      "bloco": "12",
+      "confianca": 68,
+      "pistas": [
+        {
+          "trecho": "É o mesmo gesto: entregar o número pra alguém que ainda não entendeu o que o número resolve.",
+          "pista": "Nomeação de um padrão abstrato com substantivo elevado (\"o mesmo gesto\") seguida de dois-pontos que glosam a definição. Ninguém fala assim: em fala espontânea sai \"é a mesma coisa\". Essa manobra de fabricar um conceito e explicá-lo na mesma frase é assinatura de LLM produzindo insight."
+        },
+        {
+          "trecho": "Não porque o número é alto. Porque ela ainda não sabe se aquilo resolve o problema dela.",
+          "pista": "Padrão negação + pivô partido em dois fragmentos sem verbo principal na segunda parte. É o ritmo mais reconhecível de copy humanizada por IA (\"Não porque X. Porque Y.\"), colocado exatamente no fim do parágrafo, onde rende mais."
+        },
+        {
+          "trecho": "No WhatsApp o número vai pra paciente cedo demais. Na salinha, vai por uma pessoa que não ouviu nada. E nos dois casos a paciente sai com o número na mão e vai pensar sozinha.",
+          "pista": "Simetria perfeita demais: dois casos contrastados em frases de mesmo comprimento e mesma estrutura, fechados por um \"E nos dois casos\" que amarra a comparação. Texto vindo de fala real quase nunca fecha um paralelismo tão limpo sem sobra, repetição acidental ou digressão."
+        },
+        {
+          "trecho": "já contou o problema, já disse por que agora, já descreveu com as palavras dela o que a consulta vai resolver. Ela entra pronta.",
+          "pista": "Tricolon crescente com anáfora (\"já... já... já...\") desaguando num fragmento-soco de três palavras. Construção retórica calibrada, não falada; a escalada é regular demais e o soco chega na posição milimetricamente certa."
+        },
+        {
+          "trecho": "Diagnóstico feito.",
+          "pista": "Fecho em fragmento nominal de duas palavras, terceiro fragmento-soco isolado do capítulo (junto com \"Ela entra pronta.\" e \"Lá dentro.\"), todos concentrados no terço final. Somado à arquitetura sem nenhuma gordura (recapitula, ressalva o \"não existe certo ou errado\", trata o caso que funciona, trata o que não funciona, faz a ponte, dá a tarefa, CTA, callback), o capítulo não tem uma única frase perdida ou atrito de escrita humana."
+        }
+      ]
+    },
+    {
+      "bloco": "C",
+      "confianca": 72,
+      "pistas": [
+        {
+          "trecho": "Acontece. E acontece porque essa pessoa não está procurando uma consulta. Está procurando uma vaga. E vaga é coisa que fecha.",
+          "pista": "Taxa de fecho aforístico perto de 100%: quase todo parágrafo termina numa máxima curta e redonda (\"E vaga é coisa que fecha\", \"A seleção começa na foto\", \"quanto menos resistência, melhor\"). Gente que escreve rápido deixa parágrafo terminando no meio do assunto; modelo de linguagem fecha cada bloco com takeaway. Aqui não escapa nenhum."
+        },
+        {
+          "trecho": "Não é consulta, é «reserva».",
+          "pista": "Antítese \"não é X, é Y\" — a construção mais denunciativa de LLM em copy PT-BR. Aparece em versão espelhada logo antes (\"não está procurando uma consulta. Está procurando uma vaga\") e de novo na negação dupla simétrica \"Nem só a mensagem 'topa ou não topa', nem os sete passos completos\". Três vezes no mesmo capítulo curto é padrão de máquina, não tique de autor."
+        },
+        {
+          "trecho": "Quem veio pelo quiz, que é o formulário de perguntas que ela responde antes de cair no seu WhatsApp, chega um pouco mais consciente",
+          "pista": "Glosa didática embutida de um termo que esse leitor obviamente já domina (\"quiz\"), encaixada como aposto no meio da frase. É o reflexo de assistente querendo ser completo. Autor que vive nesse mercado escreveria \"quem veio pelo quiz chega mais consciente\" e seguiria."
+        },
+        {
+          "trecho": "A data disponível. O valor normal e o valor como modelo. A autorização de uso de imagem, pra antes e depois e pra anúncio. E a reserva pra travar a vaga.",
+          "pista": "Lista em fragmentos nominais perfeitamente paralelos, todos do mesmo tamanho, sem um item mais longo ou mais bagunçado que os outros, e fechando com \"E ...\". Ritmo montado, não ritmo de quem está lembrando das coisas enquanto escreve."
+        },
+        {
+          "trecho": "Tem clínica na mentoria que faz mais direto ainda: uma conexão breve e já manda a apresentação inteira, pode ou não pode. Tem dado certo também. O que a gente pede é que você teste os dois jeitos e traga pra gente, nos treinamentos, o que está funcionando na sua mão.",
+          "pista": "Encerramento de manual gerado: reconhece a alternativa, valida (\"Tem dado certo também\"), hedge e devolve tarefa ao leitor. Somado a isso, o texto inteiro não tem sujeira nenhuma — nenhuma digressão, nenhuma repetição, nenhuma frase que começa e vira outra, registro informal 100% uniforme (só \"pra\"/\"pro\", nenhum \"para\" escapando). Os toques bons e humanos que existem (\"Não vale a do perfil\", \"igualzinho\", \"dez, vinte, quarenta\") são exatamente o tipo de detalhe que um modelo bem calibrado por amostras de voz reproduz; o que ele não consegue é deixar bagunça, e aqui não há nenhuma."
+        }
+      ]
+    }
+  ]
+}

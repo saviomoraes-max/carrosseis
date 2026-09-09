@@ -1,0 +1,344 @@
+{
+  "total_confirmado": 28,
+  "altas": 2,
+  "por_bloco": [
+    {
+      "bloco": "01",
+      "acusados": 5,
+      "confirmados": 0
+    },
+    {
+      "bloco": "02",
+      "acusados": 8,
+      "confirmados": 3
+    },
+    {
+      "bloco": "03",
+      "acusados": 16,
+      "confirmados": 2
+    },
+    {
+      "bloco": "04",
+      "acusados": 8,
+      "confirmados": 1
+    },
+    {
+      "bloco": "05",
+      "acusados": 4,
+      "confirmados": 1
+    },
+    {
+      "bloco": "06",
+      "acusados": 7,
+      "confirmados": 4
+    },
+    {
+      "bloco": "07",
+      "acusados": 6,
+      "confirmados": 3
+    },
+    {
+      "bloco": "08",
+      "acusados": 4,
+      "confirmados": 1
+    },
+    {
+      "bloco": "09",
+      "acusados": 8,
+      "confirmados": 3
+    },
+    {
+      "bloco": "10",
+      "acusados": 9,
+      "confirmados": 4
+    },
+    {
+      "bloco": "11",
+      "acusados": 7,
+      "confirmados": 1
+    },
+    {
+      "bloco": "12",
+      "acusados": 7,
+      "confirmados": 1
+    },
+    {
+      "bloco": "A",
+      "acusados": 3,
+      "confirmados": 1
+    },
+    {
+      "bloco": "B",
+      "acusados": 1,
+      "confirmados": 0
+    },
+    {
+      "bloco": "C",
+      "acusados": 5,
+      "confirmados": 3
+    }
+  ],
+  "confirmados": [
+    {
+      "bloco": "02",
+      "itens": [
+        {
+          "trecho": "As frases prontas dos próximos capítulos você pode usar do jeito que estão.",
+          "tipo": "politica",
+          "gravidade": "baixa",
+          "onde": "Procurei 'do jeito que', 'como estão', 'ao pé da letra', 'copiar e colar', 'pronta/prontas' nas nove fontes. As duas únicas ocorrências de 'copiar e colar' são de material de Canva/ManyChat (bonus-captacao-1.txt:4 e bonus-captacao-2.txt:13), não de frase de atendimento. Nada libera usar as frases do WhatsApp como estão — e as próprias frases não podem ser usadas como estão: elas vêm com lacuna obrigatória ([PROCEDIMENTO], [Nome], [problema], [DOR TRAZIDA]) que só se preenche com a palavra da paciente (01-framework-715.md:311-312). A fonte diz o contrário em dois lugares: 03-manual-perguntas.md:10 'Scripts são referências, não roteiros' e 01-framework-715.md:127, que põe 'Copiamos o script sem prestar atenção na conversa' como causa de 'Ela está fazendo uma entrevista?'. A permissão em bloco é do escritor, e cai justamente no princípio que ela deveria explicar.",
+          "correcao": "Trocar a liberação aberta pelo que a fonte autoriza — o manual chama de 'Perguntas-Modelo', então o modelo é a pergunta, não a conversa: «5.» Scripts são referências, não roteiros. As perguntas dos próximos capítulos são modelo: você copia a pergunta e troca pelas palavras que ela mesma usou. O que você manda depois depende do que ela respondeu. Copiar o script sem prestar atenção na conversa é justamente o que faz a paciente sentir que está numa entrevista. Com prática e atenção aos sinais que ela dá, você para de olhar o script. (o fecho é 01-framework-715.md:19-21, literal)"
+        },
+        {
+          "trecho": "porque quem entra pra agendar começa a empurrar já na segunda mensagem",
+          "tipo": "causa",
+          "gravidade": "baixa",
+          "onde": "Meia-verdade: o mecanismo tem fonte, o número não. Tem fonte: 01-framework-715.md:57-58, em 'O que evitar' da Etapa 1 — 'Achar que a paciente que é direta e parece já saber o que quer é um agendamento garantido e pular para o fechamento'; e :356 'Partir para o fechamento sem ter criado compromisso suficiente'. 'A paciente sente o empurrão' também tem fonte: :62 percepção negativa 'Ela só está querendo me vender…'. Não tem fonte: grep 'empurr' nas nove fontes = zero; grep 'segunda mensagem' = zero. O marco numérico é invenção, e é o tipo de especificidade que o leitor lê como dado observado.",
+          "correcao": "Cortar só o número, manter o mecanismo com o verbo da fonte: 'porque quem entra pra agendar pula pro fechamento. E aí a paciente sente que você só está querendo vender.'"
+        },
+        {
+          "trecho": "A doutora que é simpática no oi e vira tabela de preço na terceira mensagem perdeu a paciente na terceira.",
+          "tipo": "causa",
+          "gravidade": "baixa",
+          "onde": "Mesmo caso do anterior: princípio e imagem têm fonte, o ordinal não. Tem fonte: 03-manual-perguntas.md:11 'Conexão acontece durante todo o atendimento, não só no início'; e 'virar tabela de preço' é metáfora legítima do que a fonte descreve como o jeito de perder o lead — 02-manual-objecoes.md:226-231 'Se quiser perder o lead: A consulta custa R$200 / a forma mais fácil de encerrar uma conversa é com uma resposta' e :288-291 'Responder com um número tira totalmente o foco do valor real e coloca o paciente numa comparação de preços'. Não tem fonte: grep 'terceira mensagem' = zero nas nove fontes ('tabela' só aparece em voz/fingerprint-ana.md:351, que é material derivado, não fonte). 'Perdeu a paciente na terceira' apresenta como fato o momento exato da perda.",
+          "correcao": "Tirar o ordinal e ancorar no gatilho que a fonte usa (a pergunta de preço), não numa contagem de mensagens: 'A doutora que é simpática no oi e vira tabela de preço quando chega o quanto custa perdeu a paciente ali. A forma mais fácil de encerrar uma conversa é com uma resposta.'"
+        }
+      ]
+    },
+    {
+      "bloco": "03",
+      "itens": [
+        {
+          "trecho": "Se ela responde sim ou não e para ali, o bastão voltou pra você e você tem que inventar a próxima pergunta. Se ela responde contando, o bastão continua com ela e a conversa anda sozinha.",
+          "tipo": "doutrina",
+          "gravidade": "alta",
+          "onde": "Procurei em tudo. `grep -rni \"bast\"` nas 9 fontes: a ÚNICA ocorrência doutrinária é 03-manual-perguntas.md linha 12, \"Quem faz as perguntas conduz a conversa (mantenha o bastão)\". Lá o bastão é de quem PERGUNTA e a ordem é MANTER com você. O capítulo inverte: bastão com você = ruim, bastão com ela = bom. E o próprio capítulo já usou o termo no sentido certo na linha 17 (\"Você só não largou o bastão\"), então o livro sai com dois sentidos opostos pro mesmo termo da casa. A defesa possível seria \"é metáfora construída em cima da fonte\", mas ela não constrói em cima: ela troca o sinal de um termo definido. O que TEM fonte é a IDEIA por baixo, e ela tem fonte de sobra: 01-framework linha 52 (\"Perguntas fechadas, que podem ser respondidas com sim/não\" em O que evitar), linha 142 (\"O paciente fala mais do que você nesta etapa\"), linha 238 (\"Ouvimos mais do que falamos\"). Ou seja: dá pra salvar o conteúdo inteiro sem usar a palavra bastão errada.",
+          "correcao": "Tirar o bastão desta frase e deixar ele só no sentido da linha 17. Reescrever com o que a fonte diz: \"Se ela responde sim ou não e para ali, você fica tendo que inventar a próxima pergunta sozinha. Se ela responde contando, ela fala mais do que você, e é isso que você quer.\" (fonte: framework linhas 52, 142 e 238)."
+        },
+        {
+          "trecho": "responde a sua pergunta com duas linhas contando o que está incomodando",
+          "tipo": "numero",
+          "gravidade": "baixa",
+          "onde": "Metade tem fonte, metade não. \"Contando o que está incomodando\" é 01-framework linha 86 em outras palavras (\"Compartilha informações pessoais sobre seu problema\") — isso está salvo. \"Duas linhas\" não existe: grepei número, comprimento e limiar nas 9 fontes e a régua da casa é sempre RELATIVA, nunca contada — linhas 82-83, \"mensagens mais longas e detalhadas\"; linha 142, \"O paciente fala mais do que você\". A fonte deixa relativo de propósito, coerente com \"não é uma fórmula rígida\" (linha 7) e com \"atenção aos sinais... instinto\" (19-21). Não marco isso como ilustração inocente porque, nesta frase, o número é o gatilho do \"se... então\": ele vira o critério de que a abertura acabou. Número inventado virando critério de avanço de etapa é o tipo de coisa que volta em print de aluno cobrando \"mas é duas linhas mesmo?\".",
+          "correcao": "Tirar o número e usar a régua da fonte: \"responde a sua pergunta com uma mensagem mais longa, contando o que está incomodando\". O contraste com o \"quanto custa?\" da abertura, que já está na frase, entrega o mesmo efeito sem inventar medida."
+        }
+      ]
+    },
+    {
+      "bloco": "04",
+      "itens": [
+        {
+          "trecho": "e às vezes ela não está, ela só quer entender",
+          "tipo": "doutrina",
+          "gravidade": "media",
+          "onde": "Procurei nas 3 fontes escritas, nas 3 amostras de voz e nas 3 transcrições (greps por incomod, sente, resistênc, só quer, não sabe, entender). A PRIMEIRA metade da frase tem fonte literal: 01-framework-715.md:125-126 'Perguntamos como o paciente se sente, presumimos que está incomodado com algo'. A segunda metade não tem, e a fonte diz o contrário em três lugares: 03-manual-perguntas.md:36 '2. SITUAÇÃO — Clarear e aprofundar o presente que ela já sabe que não está bom'; 03-manual-perguntas.md:52 'Quando menciona bigode chinês, quais características específicas te incomodam?'; 01-framework-715.md:106 'Em que momentos você percebe mais esse incômodo?' — pergunta que o próprio capítulo usa na linha 53, e que já pressupõe o incômodo. 01-framework-715.md:16-17 também fala do 'problema trazido pelo paciente'. E o 'entende' de 01-framework-715.md:115-116 é sobre a FORMA da pergunta ('prefira perguntar como ele entende'), não sobre a intenção da paciente — o capítulo desliza de um pro outro. A consequência que a fonte dá pra presunção é outra: 'isso pode gerar resistência' (115).",
+          "correcao": "Trocar a segunda metade pela consequência que a fonte dá, que já é o argumento mais forte: 'Perguntar como ela se sente presume que ela está incomodada com algo, e isso pode gerar resistência. Prefira perguntar como ela entende.' Fica coerente com a linha 79 do próprio capítulo, que já cita essa presunção como causa da leitura negativa."
+        }
+      ]
+    },
+    {
+      "bloco": "05",
+      "itens": [
+        {
+          "trecho": "A primeira é a que abre mais espaço, porque o \"posso estar enganada\" dá a ela o direito de te corrigir. E ela quase nunca corrige. Ela confirma e conta.",
+          "tipo": "doutrina",
+          "gravidade": "baixa",
+          "onde": "PARCIAL — o mecanismo tem fonte, a frequência não. TEM FONTE: (a) a fonte traz a MESMA pergunta nas duas versões, com e sem a abertura — 01-framework-715.md l.156-158 (\"Posso estar enganada, mas parece que [problema] não começou agora...\") e l.159-160 (\"Antes isso não parecia ser uma prioridade, agora parece ser. Aconteceu alguma coisa?\"), o que mostra que o hedge é elemento deliberado, não enfeite; (b) pedir licença antes da pergunta difícil é padrão declarado da casa, repetido em 02-manual-objecoes.md l.78, 96, 112, 323 (\"Posso te perguntar uma coisa?\", \"Posso dar uma sugestão?\") e l.54 (\"Só pra ver se entendi\"); (c) que isso abre espaço/tira resistência é objetivo escrito: 01-framework l.27-29 (\"Abrir espaço para a conversa acontecer\", \"Eliminar a resistência inicial\") + 03-manual-perguntas.md l.14 (\"Conexão é essencial para reduzir resistência\"), l.18 (\"Aqui ganhamos a permissão/confiança para seguir e aprofundar\") e l.11 (\"Conexão acontece durante todo o atendimento, não só no início\") — ou seja, o movimento de ganhar permissão vale dentro da Etapa 3 também; (d) \"Ela confirma e conta\" é sinal listado: 01-framework l.143 (\"Ele usa frases como 'exatamente isso!' ou 'você entendeu!'\") e l.194 (\"Compartilha histórias específicas sobre como o problema o afeta\"). NÃO TEM FONTE, e aqui o auditor está certo: (i) o superlativo \"a que abre mais espaço\" — nenhuma fonte ranqueia as sete perguntas entre si (01-framework l.156-167 e 03-manual-perguntas l.68-78 listam em pé de igualdade); (ii) \"E ela quase nunca corrige\" — grep por corrig/engan/errad nas 9 fontes só devolve o enunciado da própria pergunta; nenhuma fonte descreve com que frequência a paciente corrige ou deixa de corrigir. É afirmação de frequência sem lastro.",
+          "correcao": "Manter o mecanismo (é fonte) e cortar só a estatística implícita. Sugestão: \"A primeira é a única que começa pedindo licença, e não é por acaso: a fonte traz a mesma pergunta nas duas versões, com e sem o «posso estar enganada». É o mesmo movimento de «posso te perguntar uma coisa?» que a casa usa antes de toda pergunta difícil, e serve pra mesma coisa: abrir espaço e tirar resistência, que é o trabalho da conexão do começo ao fim do atendimento. Quando funciona, você reconhece pelo sinal: ela responde «é isso, exatamente» e emenda a história.\" Cortar \"E ela quase nunca corrige\" e o superlativo \"a que abre mais espaço\" (troque por \"a única que começa pedindo licença\", que é observação verificável na própria fonte)."
+        }
+      ]
+    },
+    {
+      "bloco": "06",
+      "itens": [
+        {
+          "trecho": "Quando a doutora terminou o diagnóstico eu já tava completamente na emoção, já tinha entendido que aquilo resolvia o meu problema, e ninguém precisou me apresentar nada.",
+          "tipo": "caso",
+          "gravidade": "media",
+          "onde": "Absolvo duas das tres partes e condeno uma. (a) \"ja tava completamente na emocao / ja tinha entendido que aquilo resolvia o meu problema\" e literal: fontes/voz/amostra-fala-analuiza.txt:63-65. (b) \"quando a doutora terminou o diagnostico\" NAO e invencao: a fonte diz que na sala ela falava com \"uma especialista que tinha entendido meu problema e que tinha trazido para mim a solucao para as dores que eu estava trazendo para ela\" (:39) e que a consulta acabou antes de ela ser conduzida pra recepcao (:15). Chamar isso de diagnostico e metafora construida em cima da fonte, e o proprio livro ja a estabeleceu em manuscrito/01-a-salinha-do-financeiro.md:62 (\"a paciente recebe um numero de quem nao fez o diagnostico\") — o auditor confundiu esse uso com o fecho ironico \"Diagnostico feito\" (:91). (c) o que cai e \"ninguem precisou me apresentar nada\": a fonte diz o contrario em dois pontos — \"Era um plano de tratamento de seis meses que tinha sido proposto\" (:11) e \"tinha trazido para mim a solucao\" (:39); e \"foi todo um processo de convencimento\" (:55). Em um capitulo onde \"apresentacao\" e termo tecnico (01-framework-715.md:274, Etapa 6), a frase le como \"nao houve apresentacao\", e houve. O argumento do capitulo (ela ja estava vendida antes de qualquer convencimento) sobrevive inteiro sem essa clausula, porque a fonte o sustenta em :59-65.",
+          "correcao": "Trocar so a ultima clausula pelo que a fonte diz: \"Quando a doutora terminou o diagnostico eu ja tava completamente na emocao, ja tinha entendido que aquilo ali resolvia o meu problema. Nao precisava ter tido processo de convencimento nenhum depois: se eu tivesse entendido o preco ali na sala, talvez eu teria fechado la dentro.\" (fonte: amostra-fala-analuiza.txt:55 e :59-65). Mantem o beat, mantem a prova, e nao contradiz o plano de tratamento que foi proposto."
+        },
+        {
+          "trecho": "Pelo que eu vejo, a maioria das clínicas faz ao contrário: oferece primeiro e espera a paciente se encaixar na oferta.",
+          "tipo": "atribuicao",
+          "gravidade": "media",
+          "onde": "Procurei em todas as nove fontes por \"maioria\", \"maior parte\", \"mais comum\", \"quase sempre\", \"muita gente\" e \"a gente ve muito\". A unica medida de escala na boca da Ana e sobre outro assunto: \"pelo que eu observo nas mais de 3 mil clinicas por aqui, quando a doutora se capacita para poder fazer o fechamento...\" (amostra-fala-analuiza.txt:43) — e ali ela fala de ticket medio e taxa de fechamento, nao de ordem oferta/declaracao. A unica outra ocorrencia de \"a maioria\" e de uma doutora sobre leads de paciente modelo (transcricao/script-paciente-modelo.txt:1). A INVERSAO DA ORDEM tem fonte forte e nao esta em causa: 01-framework-715.md:203-204 (\"Fazer o paciente declarar o que precisa para oferecermos o que ele esta buscando posteriormente\") e :219 (\"Pular para a apresentacao direto sem entender a solucao que o paciente esta buscando\"), alem de :56, :99 e 02-manual-objecoes.md:216 (\"a forma mais facil de encerrar uma conversa e com uma resposta\"). O que nao existe e a MEDIDA. Cai so a quantidade.",
+          "correcao": "Tirar a quantidade e ancorar no erro que o framework nomeia: \"Repara na ordem. Primeiro ela declara, depois voce oferece. O caminho contrario e oferecer primeiro e esperar a paciente se encaixar na oferta — e e exatamente o que o framework manda evitar nesse passo: pular pra apresentacao direto, sem entender a solucao que ela esta buscando.\" Se quiser manter a voz dela, cabe a concessao real: \"E aqui eu nao to falando que existe um certo ou errado\" (amostra-fala-analuiza.txt:41)."
+        },
+        {
+          "trecho": "O segundo é o erro que eu mais vejo nesse passo, e quem comete não faz por mal.",
+          "tipo": "atribuicao",
+          "gravidade": "baixa",
+          "onde": "Metade tem fonte e metade nao. \"Quem comete nao faz por mal\" TEM fonte literal: o framework atribui boa intencao ao erro — \"Se qualificar de qualquer forma, na intencao de aumentar o valor percebido\" (01-framework-715.md:221-222), repetido em :294 (\"Qualificar demais a consulta na intencao de agregar valor\"). O dialogo que vem logo depois no capitulo tambem e literal da fonte: \"a doutora e otima / esses casos sao perfeitos / olha esse caso que lindo\" esta em 01-framework-715.md:64-65. O que nao achei foi o RANKING: grepei \"erro\", \"mais comum\", \"se qualific\" nas nove fontes e nao existe hierarquia entre os dois itens de \"o que evitar\" da Etapa 4, nem a Ana dizendo em amostra nenhuma qual erro ela mais ve. O que existe, e e verificavel, e a RECORRENCIA no material: auto-qualificacao aparece como erro na Etapa 1 (:56 e :64), na Etapa 4 (:221) e na Etapa 5 (:265), mais duas vezes no manual de objecoes (02-manual-objecoes.md:255-259).",
+          "correcao": "Trocar a observacao pessoal pela recorrencia no material: \"O segundo e o erro que mais volta no material — 'se qualificar demais' aparece la na conexao, aqui na qualificacao e de novo na transicao, como 'listar todas as qualificacoes da doutora sem conexao com o problema'. E quem comete nao faz por mal: a intencao e aumentar o valor percebido.\" Todo o resto do paragrafo pode ficar como esta."
+        },
+        {
+          "trecho": "Isso é o passo quatro, e eu acho que é o mais bonito dos sete",
+          "tipo": "atribuicao",
+          "gravidade": "baixa",
+          "onde": "Procurei hierarquia ou preferencia entre as etapas nas tres fontes de metodologia (01, 02, 03) e nas tres amostras de fala: nao existe. O framework trata as sete como mapa, com peso variavel por paciente (01-framework-715.md:7-9). Achei so o registro de reacao estetica dela em geral (\"eu achei bem interessante o comportamento de cada uma delas\", amostra-02:1; \"eu achei isso legal, resolvi compartilhar\", amostra-03 final) e o \"acho que\" como amortecedor de prescricao — o que sustenta o TOM, mas nao o ranking das sete etapas. O restante da frase (\"a venda acontece sem voce vender\") tem fonte de sobra: :5, :203-204, :246, :279.",
+          "correcao": "Cortar o ranking e ancorar na tese que o proprio framework abre com, que e mais forte que a opiniao: \"Isso e o passo quatro, e e onde a frase da primeira pagina do framework acontece: vender so aquilo que a pessoa ja quer comprar. A venda acontece sem voce vender.\" (01-framework-715.md:5 e :279)."
+        }
+      ]
+    },
+    {
+      "bloco": "07",
+      "itens": [
+        {
+          "trecho": "pelo que eu observo nas mais de 3 mil clínicas por aqui, o mais pulado",
+          "tipo": "atribuicao",
+          "gravidade": "alta",
+          "onde": "Procurei em tudo. Grep de \"3 mil\", \"mil clínicas\", \"observo\", \"acompanho\" nas 9 fontes: uma única ocorrência, amostra-fala-analuiza.txt:43, e ali a observação em escala sustenta outra coisa (\"quando a doutora se capacita para poder fazer o fechamento... o ticket médio sobe, a taxa de fechamento sobe\", linhas 43-45). Grep de \"pula/pular/pulado\" nas fontes de metodologia: só 3 itens de \"o que evitar\" — 01-framework-715.md:58 (pular para o fechamento, Etapa 1), :111 (pular direto para explicar tratamentos, Etapa 2), :219 (pular para a apresentação direto, Etapa 4). Nenhum fala de frequência e nenhum menciona a Etapa 5. Li também as amostras 02 e 03 inteiras e as três transcrições: nada sobre qual passo é mais pulado. A credencial é real, o dado pendurado nela não existe. Acusação procede.",
+          "correcao": "Cortar a atribuição e trocar pelo que a fonte de fato diz: \"Uma mensagem. É isso o passo cinco. Ele é o mais curto do script, e é onde a tentação de pular etapa tem endereço. O framework avisa três vezes sobre essa tentação: pular para o fechamento quando a paciente parece já saber o que quer, pular direto para explicar tratamento, pular para a apresentação sem entender o que ela busca.\" As \"3 mil clínicas\" só podem aparecer sustentando o que ela realmente observou ali (capacitação para o fechamento → ticket médio e taxa de fechamento sobem); guardar essa frase para esse ponto do livro."
+        },
+        {
+          "trecho": "O \"pela forma que trouxe\" fica do jeito que está, é fala fixa.",
+          "tipo": "doutrina",
+          "gravidade": "media",
+          "onde": "Dois problemas, e os dois se confirmam. (1) O recorte está trocado: o script 715 diz \"por conta da forma que trouxe\" (01-framework-715.md:259 e 03-manual-perguntas.md:103), inclusive no bloco :::frase: do próprio capítulo, duas linhas acima. \"pela forma como você trouxe isso\" existe mesmo, mas em script-paciente-modelo.txt:15, que é o framework de paciente modelo, não o 715. (2) \"É fala fixa\" não só não tem fonte como a fonte prova o contrário: as duas versões autorizadas da MESMA frase são diferentes entre si — \"por conta da forma que trouxe... e de já estar desde [tempo] sentindo assim...\" (framework:259) contra \"por conta da forma que trouxe e por já estar há [TEMPO INFORMADO] sentindo assim...\" (manual:103-104). Se a casa escreve a linha de dois jeitos, ela não é imutável. Some a isso 01-framework-715.md:7 (\"não é uma fórmula rígida, mas um mapa\") e 03-manual-perguntas.md:10 (\"Scripts são referências, não roteiros\").",
+          "correcao": "\"O 'por conta da forma que trouxe' é o corpo do script, o que muda são os colchetes. A palavra dela mesma entra no passo seis.\" Corrigir o recorte para \"por conta da forma que trouxe\" e trocar a regra de imutabilidade pela notação que a fonte usa de verdade (o que está entre colchetes é o que você preenche)."
+        },
+        {
+          "trecho": "O que você preenche são dois, o nome e o tempo, e os dois ela já te contou nos passos dois e três.",
+          "tipo": "politica",
+          "gravidade": "baixa",
+          "onde": "Metade cai, metade se salva. O TEMPO tem base razoável: 03-manual-perguntas.md:103 chama o campo de \"[TEMPO INFORMADO]\" (informado por ela, não inventado) e a Etapa 3 parte do pressuposto de duração em 01-framework-715.md:156 (\"parece que [problema] não começou agora\") e :166-167 (\"isso que já estava acontecendo\"); a Etapa 2 tangencia em :105 (\"E isso vem sendo um problema... como?\"). O NOME não: grep de \"nome\" no framework e no manual de perguntas só devolve \"a Dra [Nome]\" (framework:42), que é o nome da DOUTORA, e o \"[Fulana]\" do próprio modelo da transição. Nenhuma das perguntas da Etapa 2 (:99-107) ou da Etapa 3 (:156-167) pede o nome da paciente. Onde as fontes mostram o nome sendo capturado é bem antes: bonus-captacao-1.txt:9 e :14 (a automação pergunta e confere o primeiro nome ainda no direct) e script-paciente-modelo.txt:9 (\"oi fulana, aqui é a fulana de tal\", na conexão). Ou seja, a fonte contradiz o \"nos passos dois e três\" para o nome.",
+          "correcao": "\"O que você preenche são dois, o nome e o tempo. O nome você já tem desde o começo da conversa. O tempo ela te contou quando você perguntou por que agora — o script chama esse pedaço de [tempo informado], porque é o tempo que ela mesma te deu.\""
+        }
+      ]
+    },
+    {
+      "bloco": "08",
+      "itens": [
+        {
+          "trecho": "A pergunta dela é a porta do passo sete. Aí, e só aí, vem o passo sete.",
+          "tipo": "doutrina",
+          "gravidade": "baixa",
+          "onde": "Metade tem fonte, metade não. TEM: \"a pergunta dela é a porta do passo sete\" está em 01-framework-715.md l.317-318 (\"Faz perguntas sobre a consulta em si, não apenas sobre procedimentos\", em Quando avançar da Etapa 6) e na própria resposta do meio do atendimento, que termina em \"antes de vermos a disponibilidade na agenda da doutora\" (02-manual-objecoes.md l.142-144). NÃO TEM o \"e só aí\". Procurei condição obrigatória de avanço em todas as nove fontes e a fonte diz o contrário em quatro lugares: l.314-319 dá TRÊS sinais alternativos (entender o valor além do preço / perguntar da consulta em si / querer saber de disponibilidade), sem eleger nenhum; l.7-9 abre com \"não é uma fórmula rígida, mas um mapa\"; l.240-245 (Etapa 4) já lista \"Ele próprio começa a perguntar sobre disponibilidade\" como um entre quatro sinais; e a Etapa 7 (l.329-332) começa pela atendente oferecendo horário, sem depender de pergunta nenhuma. A preocupação legítima por trás do \"só aí\" — não correr pro fechamento — tem fonte própria e melhor: l.356 \"Partir para o fechamento sem ter criado compromisso suficiente\" e l.57-58 \"Achar que a paciente que é direta e parece já saber o que quer é um agendamento garantido e pular para o fechamento\".",
+          "correcao": "Conserto de uma palavra: trocar \"Aí, e só aí, vem o passo sete.\" por \"Aí vem o passo sete.\" Se quiser manter o freio, usar a fonte que existe pra isso: \"Aí vem o passo sete. Antes disso, não: partir pro fechamento sem ter criado compromisso suficiente é erro listado na etapa sete.\" (O quadro Quando avançar logo acima já entrega os três sinais alternativos, então o capítulo não perde nada.)"
+        }
+      ]
+    },
+    {
+      "bloco": "09",
+      "itens": [
+        {
+          "trecho": "Pelo que eu observo, é o passo em que mais atendente erra por educação: pergunta quando a paciente pode, em vez de oferecer um horário.",
+          "tipo": "atribuicao",
+          "gravidade": "media",
+          "onde": "Procurei nas 9 fontes + fingerprint. O QUE É ERRO tem fonte literal: 01-framework-715.md:354-355 (\"Perguntar a disponibilidade do paciente antes de oferecer um primeiro horário disponível\"). A FÓRMULA DE VOZ também é dela e é traço confirmado: voz/amostra-fala-analuiza.txt:43 e voz/fingerprint-ana.md:191 (\"Ela dá a posição como observação ('pelo que eu observo', 'que eu conheço'), não como regra\") — usar esse marcador não é o problema. O que não existe é o CONTEÚDO da observação: grep \"educa\" nas 9 fontes = 0 resultados; grep \"atendente\" = 0 resultados; nenhuma fonte compara frequência de erro entre os 7 passos nem dá causa nenhuma para esse erro. O framework lista dois itens em \"O que evitar\" sem hierarquia. Superlativo + motivo colados num marcador de observação em escala é exatamente o padrão que a casa proíbe (nunca inventar dado/observação de campo).",
+          "correcao": "Cortar o superlativo e o motivo, manter a regra da fonte e o marcador só onde ele não carrega dado: \"Esse é o passo sete. E um dos dois erros que o framework manda evitar aqui é perguntar quando a paciente pode, em vez de oferecer um horário.\" (O \"segundo erro\" já é retomado na linha 77, então a contagem fecha.)"
+        },
+        {
+          "trecho": "O \"onde fica, o que levar\" é o meu sinal preferido.",
+          "tipo": "atribuicao",
+          "gravidade": "baixa",
+          "onde": "Procurei em tudo. 01-framework-715.md:372-377 lista os quatro sinais em pé de igualdade, sem ordem e sem primeira pessoa. Grep \"preferid|favorit|prefiro\" nas 9 fontes: só aparece em contextos sem relação (02-manual-objecoes.md:119 \"preferir o próximo mês\"; \"de preferência\" nas transcrições de captação). Nenhuma das 3 amostras de voz elege sinal predileto — nem nas posições consolidadas do fingerprint (voz/fingerprint-ana.md:160-190). O que vem DEPOIS da frase tem fonte e é boa leitura do sinal listado; só a preferência pessoal é atribuição sem lastro.",
+          "correcao": "Cortar só a preferência e manter a leitura: \"Repare no 'onde fica, o que levar'. A paciente que pergunta onde fica já está indo. Ela não está mais decidindo. Ela está se organizando pra chegar.\""
+        },
+        {
+          "trecho": "E quem pergunta quando a paciente pode entrega o bastão de volta pra ela olhar a agenda, olhar a semana, e voltar depois.",
+          "tipo": "doutrina",
+          "gravidade": "baixa",
+          "onde": "A IDEIA tem fonte forte e literal, incluindo o \"não voltar\": 02-manual-objecoes.md:301-303 — \"Essa frase encerra a conversa e transfere o controle para o lead — que provavelmente nunca mais vai voltar. Você perde a chance de entender o que ainda está impedindo a decisão.\" O problema é só o token: a única definição de \"bastão\" nas fontes é 03-manual-perguntas.md:12, \"Quem faz as perguntas conduz a conversa (mantenha o bastão)\", e a frase do capítulo diz que uma pergunta ENTREGA o bastão — sobre esse ponto específico a fonte diz o contrário. Como \"Como fica para você?\" também é pergunta, o critério literal da casa não separa as duas condutas. Conclusão prática (não perguntar disponibilidade antes de oferecer) segue com fonte: 01-framework-715.md:354-355.",
+          "correcao": "Não é corte, é troca lexical de 4 palavras, usando a linguagem literal de 02-manual-objecoes.md:301-303: \"E quem pergunta quando a paciente pode passa o controle da conversa pra ela: olhar a agenda, olhar a semana, e voltar depois. Ou não voltar.\" Assim o \"bastão\" fica reservado pra definição da casa e a frase ganha fonte literal."
+        }
+      ]
+    },
+    {
+      "bloco": "10",
+      "itens": [
+        {
+          "trecho": "ela vai comparar o seu 200 com o 150 da clínica ao lado",
+          "tipo": "numero",
+          "gravidade": "media",
+          "onde": "Procurei \"150\" com grep em TODAS as fontes (incluindo .srt e fingerprint): zero ocorrência. Procurei também \"concorrente\", \"comparar\", \"comparação\", \"clínica ao lado\": o que existe é 02-manual-objecoes.md L288-291 (\"Responder com um número (...) coloca o paciente numa comparação de preços. A pessoa vai comparar com base em algo que ela não entende\") e L269-270 (\"vou fazer no concorrente que é de graça\"). Ou seja: a MECÂNICA da comparação tem fonte inteira, e o 200 tem fonte (L226). O único concorrente com preço que a fonte cita não custa 150 — custa zero, é a avaliação gratuita. O 150 é invenção minha e o auditor está certo.",
+          "correcao": "Trocar o número inventado pelo caso real da fonte, que inclusive é mais forte: \"ela vai comparar o seu 200 com o de graça da clínica ao lado, sem saber o que nenhuma das duas consultas resolve\" (L269-270 + L288-291). Se preferir não citar concorrente: \"ela vai comparar o seu 200 com o preço da clínica ao lado, sem saber o que nenhuma das duas consultas resolve\"."
+        },
+        {
+          "trecho": "Pensa na pergunta mais comum de todas, \"quanto custa a consulta?\"",
+          "tipo": "numero",
+          "gravidade": "baixa",
+          "onde": "Procurei em todas as fontes por \"mais comum\", \"maioria\", \"sempre pergunta\", \"primeira pergunta\", \"quanto custa\". O que existe sustenta POSIÇÃO, não frequência: 02-manual-objecoes.md abre no bloco PREÇO com \"Quanto custa a consulta?\" como primeiríssima entrada (L5-7), o título de seção é \"Objeções Mais Comuns e Como Superá-las\" (L220) e o primeiro item dela é \"Perguntou por Preço (No início da conversa)\" (L222); 01-framework-715.md embute a resposta de preço dentro da Etapa 1, Conexão (L41-44), ou seja, a fonte trata a pergunta de preço como coisa que chega ANTES da conversa começar. Nada disso é medição de frequência, e nenhuma fonte elege essa pergunta como a nº 1. O auditor está certo: ordem de apresentação não é dado de frequência.",
+          "correcao": "Trocar o superlativo pela posição, que é o que a fonte de fato afirma: \"Pensa na pergunta que chega logo no início da conversa, 'quanto custa a consulta?'\" (L222 \"Perguntou por Preço (No início da conversa)\" + framework Etapa 1, L41-44). Fica igual de forte e passa a ser afirmação sustentada."
+        },
+        {
+          "trecho": "E a maioria responde \"claro, fico à disposição\".",
+          "tipo": "numero",
+          "gravidade": "baixa",
+          "onde": "Grep por \"disposição\", \"aguardo\", \"maioria\" em tudo. A fonte tem a frase, mas classificada por QUALIDADE, não por frequência: 02-manual-objecoes.md L300 (\"Se quiser perder o lead: 'Tudo bem, fico à disposição!'\") e L328 (\"Ok, sem problema! Fico no aguardo\"). A única \"maioria\" do corpus está em transcricao/script-paciente-modelo.txt e fala de outra coisa (leads de paciente modelo que questionam depois do preço). Dá pra argumentar que um manual só escreve \"se quiser perder o lead: X\" porque X é o que as pessoas fazem — mas isso é implicatura, não medida, e o texto afirma quantidade sobre o comportamento de atendentes que ninguém mediu.",
+          "correcao": "Tirar o quantificador e usar a classificação que a fonte dá: \"E a resposta fácil é 'claro, fico à disposição'\" ou, mais fiel ainda ao manual, \"E a resposta que perde a paciente é justamente a mais educada: 'claro, fico à disposição'\" (L300). A frase seguinte (\"E mesmo assim a gente responde isso, porque parece o certo\") já carrega o mesmo sentido em primeira pessoa do plural, que é registro dela e não é afirmação de dado."
+        },
+        {
+          "trecho": "Ela não volta. Você sabe que ela não volta.",
+          "tipo": "causa",
+          "gravidade": "baixa",
+          "onde": "02-manual-objecoes.md L302-304 diz \"provavelmente nunca mais vai voltar\". Procurei alternativa mais dura em todas as fontes (\"não volta\", \"nunca mais\", \"some\", \"sumiu\", \"vai embora\"): a única outra ocorrência é L290 \"provavelmente vai embora sem nem saber se esse procedimento seria indicado\" — hedgeada também. Do lado da voz há defesa parcial (o fingerprint documenta absoluto retórico dela, \"100% das pessoas que deram muito certo, 100% das pessoas que deram muito errado\", amostra-02 L37-39), e a doutora do caso relata o problema real (\"muita gente indo pra casa pensar\", amostra-01). Mas registro não é conteúdo: a fonte hedgeia duas vezes e o capítulo declara certeza duas vezes. O auditor está certo.",
+          "correcao": "Devolver o hedge sem perder o soco, usando a frase da fonte: \"Educado, tranquilo, e a conversa acabou ali. O controle passou pra ela, e ela provavelmente não volta. No fundo você sabe disso.\" (L302-304: \"Essa frase encerra a conversa e transfere o controle para o lead — que provavelmente nunca mais vai voltar\")."
+        }
+      ]
+    },
+    {
+      "bloco": "11",
+      "itens": [
+        {
+          "trecho": "Ela manda uma foto dela mesma, sem texto ou com \"o que dá pra fazer?\".",
+          "tipo": "definicao",
+          "gravidade": "baixa",
+          "onde": "Procurei em todas as 9 fontes por 'dá pra fazer', 'da pra fazer', 'o que dá', 'consigo fazer', 'tem jeito' e 'sem texto': zero ocorrência em qualquer arquivo. A única descrição da situação é fontes/02-manual-objecoes.md:171-173 ('LEAD ENVIOU FOTO / Situação: Lead enviou uma foto de si mesmo.'), e mais nada. A única outra menção a paciente mandando foto nas fontes é transcricao/script-paciente-modelo.txt:14, e lá é a atendente que PEDE a foto ('Me manda uma foto, se você puder'), não a paciente que manda sozinha com uma frase. O 'sem texto' até é inferível da própria resposta da fonte ('Me ajuda a enxergar o que você está vendo? O que exatamente gostaria que eu notasse olhando sua foto?' — 02:175-179 pressupõe que ela não disse o que quer que você note), mas a mensagem entre aspas 'o que dá pra fazer?' é fala de paciente inventada e apresentada como se fosse o que chega no WhatsApp. Essa parte não tem como ser salva.",
+          "correcao": "Cortar a mensagem inventada e ficar no que a fonte diz, preservando a nuance que a própria resposta pressupõe: 'Ela manda uma foto dela mesma, sem dizer o que quer que você note.' (situação: 02-manual-objecoes.md:173; pressuposto: 02-manual-objecoes.md:175-179)."
+        }
+      ]
+    },
+    {
+      "bloco": "12",
+      "itens": [
+        {
+          "trecho": "A cola do anexo A cabe numa tela do celular.",
+          "tipo": "numero",
+          "gravidade": "baixa",
+          "onde": "Procurei \"cola\", \"tela\", \"celular\", \"uma página\" nas 9 fontes: zero ocorrência — e não teria como haver, porque é claim sobre um artefato do próprio livro. Fui então ao artefato e ele desmente: manuscrito/A-cola-de-uma-pagina.md tem 483 palavras de corpo e 10 cards \"frase pronta\", os 7 passos mais o bloco de objeção. Tela de celular comporta algo entre 60 e 120 palavras. O próprio anexo promete outra coisa no subtítulo (linha 7): \"Pra deixar do lado do celular\" — ao lado, não dentro — e mapa-de-capitulos.md:24 repete essa mesma promessa. Não é questão de modalidade nem de paráfrase: é uma medida que não fecha.",
+          "correcao": "Usar só o que o próprio anexo promete (título \"Cola de uma página\" + subtítulo): \"A cola do anexo A é uma página só, pra você deixar do lado do celular.\""
+        }
+      ]
+    },
+    {
+      "bloco": "A",
+      "itens": [
+        {
+          "trecho": "Essa é pra quando ela abre pedindo preço, que é a maioria.",
+          "tipo": "numero",
+          "gravidade": "baixa",
+          "onde": "Procurei quantificação de frequência de abertura em todas as 9 fontes: grep por maioria|maior parte|mais comum|comuns|quase sempre|geralmente|na maior|sempre que. O que existe: 02-manual-objecoes.md:220 é o cabeçalho 'Objeções Mais Comuns e Como Superá-las' e 02:222 abre a lista com 'Perguntou por Preço (No início da conversa)'. Isso é ORDEM dentro de um conjunto chamado 'mais comuns', não medida de maioria. A estrutura das fontes de fato trata preço como o caso padrão de abertura -- PREÇO é a seção 1 do manual de objeções com 5 variantes (02:5-35), a fala-modelo da Etapa 1 Conexão no framework é literalmente a deflexão de preço (01-framework-715.md:41-44) e o mesmo aparece no manual de perguntas em CONEXÃO item 9 (03-manual-perguntas.md:30-32). Mas nenhuma fonte mede que passa de metade. A única ocorrência de 'a maioria' está em transcricao/script-paciente-modelo.txt:1 e é sobre outro assunto (paciente modelo questionando DEPOIS do preço passado). SALVA-SE a frase inteira menos o quantificador.",
+          "correcao": "Cortar só o quantificador: «Essa é pra quando ela abre pedindo preço.» Se quiser manter algum peso, o máximo que a fonte banca é «uma das objeções mais comuns» (02:220 + preço sendo a primeira e maior seção do manual). Não escrever 'a maioria' nem 'a mais comum' -- nenhuma fonte ranqueia nem mede."
+        }
+      ]
+    },
+    {
+      "bloco": "C",
+      "itens": [
+        {
+          "trecho": "Quem faz o 715 inteiro com ela se frustra",
+          "tipo": "doutrina",
+          "gravidade": "media",
+          "onde": "Procurei em script-paciente-modelo.txt linhas 3 a 6 e nas outras 8 fontes por qualquer formulacao universal da frustracao. A fonte hedgeia duas vezes: linha 4-5 \"ALGUMAS pessoas que acabam usando o framework completo se frustram muito\", e linha 3 diz que entre as clinicas que estao indo bem (\"tem dado bastante certo\") ALGUMAS usam o 715 completo. A fonte descreve dois resultados possiveis com o framework inteiro. O que a fonte SIM universaliza e outra coisa, na linha 6: \"fica INVIAVEL a gente fazer o framework completo COM TODO MUNDO\" — e o motivo dessa universal e o volume (10, 20, 40 mensagens por dia), nao a frustracao. O capitulo pega a universal do volume e cola no verbo hedgeado da frustracao. Substancia toda sustentada; o quantificador, nao.",
+          "correcao": "\"Tem gente que faz o 715 inteiro com ela e se frustra muito, porque no final ela questiona o preco mais do que uma paciente normal. E o volume nao deixa fazer o framework completo com todo mundo: tem clinica que recebe dez, vinte, quarenta mensagens de paciente modelo por dia.\""
+        },
+        {
+          "trecho": "e a gente ensina isso separado na plataforma",
+          "tipo": "politica",
+          "gravidade": "baixa",
+          "onde": "Grep isolado por \"plataforma\", \"modulo\" e \"modulos\" nas 9 fontes retorna UMA unica ocorrencia: script-paciente-modelo.txt linha 4, \"o framework 715 que esta ali na plataforma, que esta no modulo de atendimento\". A plataforma e citada como o endereco do 715, nunca do paciente modelo. Procurei tambem por \"aula\", \"treinamento\", \"comunidade\" e \"ensina\" em 01-framework-715.md, 02-manual-objecoes.md e 03-manual-perguntas.md: zero ocorrencia. O que a fonte da e menos do que o capitulo promete: a Ana ensina o meio-termo ali mesmo, na propria aula (\"vou passar aqui na tela para voces, o framework que a gente desenvolveu\", linha 7), e pede retorno \"nos treinamentos diarios\" (linha 22). A palavra \"separado\" ate se defende pelo fato de esta aula ser dedicada so a isso (o frontmatter cita aula 5.1), mas \"na plataforma\" e promessa de entrega de produto que nenhuma fonte autoriza.",
+          "correcao": "Cortar a promessa de endereco e ficar com o que a fonte sustenta: \"A paciente que chega por anuncio de paciente modelo e outra conversa, e tem framework proprio. Eu deixo aqui o resumo, porque a duvida chega direto pra gente: (...)\""
+        },
+        {
+          "trecho": "O mesmo script, mais curto.",
+          "tipo": "doutrina",
+          "gravidade": "baixa",
+          "onde": "Procurei sustentacao estrutural e ela existe em parte: as etapas do capitulo (Conexao, Situacao, Apresentacao, Fechamento) tem os mesmos nomes das etapas 1, 2, 6 e 7 do 01-framework-715.md (linhas 23, 89, 274, 321); a transcricao linha 20 diz que o fechamento \"segue na forma como e o fechamento do framework 715\"; e a linha 7 diz que o meio-termo nao e \"tao demorado, tao extenso como o nosso framework 715\". So que a fonte enuncia a relacao entre os dois de forma explicita e no sentido contrario, na linha 2: \"eles nao devem seguir o MESMO framework como o lead que vem ali do interesse proprio do link da bio\" — e nomeia o que a casa usa como terceira coisa, \"um framework MEIO TERMO\" (linha 7). O subtitulo diz exatamente a frase que a fonte nega, e o proprio corpo do capitulo ja acerta (\"e outra conversa\", \"O que a gente usa e um meio-termo\"). Vira instrucao errada: o leitor entende \"roda o 715 mais rapido\", quando o ponto da aula e nao rodar o 715.",
+          "correcao": "Usar o enquadramento da propria fonte (nem a mensagem seca, nem os sete passos), preservando a segunda metade do subtitulo, que tem fonte solida nas linhas 3 e 10: \"Nem a mensagem seca, nem os sete passos. Porque aqui e ela que esta disputando a vaga.\""
+        }
+      ]
+    }
+  ]
+}

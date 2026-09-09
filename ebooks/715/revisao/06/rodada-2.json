@@ -1,0 +1,133 @@
+{
+ "capitulo": "/Users/saviomoraes/reconecta/ebooks/715/manuscrito/06-passo-4-qualificacao.md",
+ "rodada": 2,
+ "brutos": 17,
+ "confirmados_n": 1,
+ "altas_confirmadas": 0,
+ "por_revisor": {
+  "tell": {
+   "brutos": 7,
+   "confirmados": 0
+  },
+  "fidelidade": {
+   "brutos": 3,
+   "confirmados": 0
+  },
+  "voz": {
+   "brutos": 7,
+   "confirmados": 1
+  }
+ },
+ "confirmados": [
+  {
+   "revisor": "voz",
+   "tipo": "voz",
+   "gravidade": "media",
+   "trecho": "Quando a doutora terminou o diagnóstico eu já tava completamente na emoção, já tinha entendido que aquilo resolvia o meu problema, e ninguém precisou me apresentar nada. Ela pediu a consulta. Você só perguntou.",
+   "detalhe": "Mudança de plano (do caso dela na salinha de volta pra paciente do queixo) sem marcador. Fingerprint, seção 2, \"Como muda de plano\": A1 \"E da forma como foi conduzido comigo\", A2 \"Aí vai mais uma indicação\", A3 \"E, bom, de lá pra cá\"; sempre um marcador de fala curto no começo da frase, e no texto vira quebra com o marcador mantido. Sem ele, o \"Ela\" de \"Ela pediu a consulta\" cola em \"a doutora\" da frase anterior e a leitora lê que a doutora pediu a consulta. A pancada curta está certa; falta a junta.",
+   "correcao": "Quando a doutora terminou o diagnóstico eu já tava completamente na emoção, já tinha entendido que aquilo resolvia o meu problema, e ninguém precisou me apresentar nada. E a paciente do queixo chegou no mesmo lugar sem passar por salinha nenhuma. Ela pediu a consulta. Você só perguntou.",
+   "motivos": [
+    "Confirmado. No arquivo (linha 19) a frase anterior tem \"a doutora\" como único sujeito feminino, então \"Ela pediu a consulta\" é lido como a doutora pedindo, e \"Você só perguntou\" não cabe na salinha (a leitora não estava lá); é troca de plano sem o marcador que o fingerprint documenta (seção 2, \"Como muda de plano\"). A whitelist protege a pancada curta (item 6), não o pronome ambíguo. A correção proposta funciona, mas funde as duas pancadas numa só; a alternativa abaixo mantém o par curto original e usa o \"E\" inicial dela."
+   ]
+  }
+ ],
+ "refutados": [
+  {
+   "revisor": "tell",
+   "trecho": "Ela responde a pergunta inteira, e responde com emoção. Ela fica animada falando do que pode mudar. Ela mesma começa a perguntar da agenda. E você sente que não precisa convencer de nada.",
+   "detalhe": "2.6 Esteira + 4.6 frase-eco. O parágrafo repete, palavra por palavra e na mesma ordem, os quatro itens do bloco :::grafico sinais que está imediatamente acima. Zero informação nova em quatro frases. A anáfora Ela/Ela/Ela/E você por si só seria dela (whitelist 2), o problema é que ela está copiando a caixa, não subindo escada. E o terceiro sinal (ela pergunta da agenda) ainda volta uma terceira vez em 'o passo quatro acabou com nota dez'. Mesmo mecanismo box-depois-eco aparece em 'A leitura positiva é:' (ver achado próprio).",
+   "motivo": "sem veredito do cetico (falha)"
+  },
+  {
+   "revisor": "tell",
+   "trecho": "A paciente estava se convencendo sozinha e você entrou no meio pra convencer. Ela sente a mudança de tom na hora.",
+   "detalhe": "1.2 Fecho de uma linha que repete o parágrafo, por regra. A pancada curta é o principal traço rítmico da Ana (whitelist 6), mas o fingerprint dá a dose: parágrafo de uma frase a cada 3 ou 4 parágrafos. Aqui 9 de 11 parágrafos de prosa fecham em pancada: 'E a paciente já vendeu a consulta pra ela mesma.', 'Ela pediu a consulta. Você só perguntou.', 'A consulta que você vai apresentar é a que ela acabou de descrever.', 'Ela ouve que o próximo passo existe e que você ainda não deu.', 'Ela sente a mudança de tom na hora.', 'Volta.', 'ela escreveu mais do que você.', 'E você sente que não precisa convencer de nada.', 'o passo quatro acabou com nota dez.' Quando é todo parágrafo, é regra, não escolha (catálogo 1.2). 'Ela sente a mudança de tom na hora.' é a mais fraca: afirma sem mostrar e só reafirma a frase anterior.",
+   "motivo": "sem veredito do cetico (falha)"
+  },
+  {
+   "revisor": "tell",
+   "trecho": "O \"com tudo o que falamos\" no começo da primeira não é enfeite. Ele amarra a resposta dela a tudo que ela contou nos passos dois e três. Ela não responde do zero, ela responde a partir do queixo, do celular, do casamento.",
+   "detalhe": "1.1 Contraste fácil em densidade, com metade negativa de boneco de palha: ninguém disse que era enfeite, ninguém disse que ela responde do zero. Contando o capítulo: 'Você não apresentou nada ainda. E a paciente já vendeu', 'a venda acontece sem você vender', 'Primeiro ela declara, depois você oferece', 'não é enfeite. Ele amarra', 'não responde do zero, ela responde', 'se convencendo sozinha e você entrou no meio', 'é você, não a paciente'. Sete contrastes e cinco espelhos ela/você em 783 palavras. O fingerprint dá 3 a 5 contrastes e 1 a 2 espelhamentos por capítulo de 2.000 palavras; aqui está no dobro da dose dela em menos da metade do tamanho. O contraste é assinatura dela, mas quando todo parágrafo vira ela-X-você-Y, o molde aparece.",
+   "motivo": "sem veredito do cetico (falha)"
+  },
+  {
+   "revisor": "tell",
+   "trecho": "Lê a resposta dela de novo.",
+   "detalhe": "1.2 (o catálogo lista 'Leia isso de novo.' literalmente) e vocabulário nível 2 ('note que / observe que / perceba que: cortar'). Sozinho passaria; o padrão é que o capítulo manda a leitora prestar atenção três vezes em 783 palavras: 'Lê a resposta dela de novo.', 'Repara na ordem.', 'Essa última é a que eu peço pra você prestar atenção'. Nas 1.816 palavras das amostras a Ana faz isso uma vez ('ponto importante', T2). Três vezes é o texto avisando que vai ser importante em vez de ser.",
+   "motivo": "sem veredito do cetico (falha)"
+  },
+  {
+   "revisor": "tell",
+   "trecho": "E as duas últimas começam com \"antes de seguirmos\", que faz uma coisa sutil: avisa que o próximo passo existe, sem oferecer ele. A terceira chega a nomear a agenda. Ela ouve que o próximo passo existe e que você ainda não deu.",
+   "detalhe": "2.6 Esteira: a primeira e a terceira frase dizem a mesma coisa ('avisa que o próximo passo existe, sem oferecer' = 'ouve que o próximo passo existe e que você ainda não deu'). Por cima, 1.9/1.11: 'faz uma coisa sutil:' anuncia a sutileza e revela por dois-pontos em vez de só mostrar. O molde 'uma coisa X:' repete logo abaixo em 'No WhatsApp isso é uma coisa só:'. O fingerprint não tem evidência de dois-pontos na escrita dela (lacuna 4); o detector contou 9 em 783 palavras.",
+   "motivo": "sem veredito do cetico (falha)"
+  },
+  {
+   "revisor": "tell",
+   "trecho": "Quando a doutora terminou o diagnóstico eu já tava completamente na emoção, já tinha entendido que aquilo resolvia o meu problema, e ninguém precisou me apresentar nada. Ela pediu a consulta. Você só perguntou.",
+   "detalhe": "'Ela' fica sem referente. A frase anterior é a Ana na salinha, com 'a doutora' como única mulher em cena; a leitora lê 'Ela pediu a consulta' como a doutora da salinha, e 'Você só perguntou' não bate com nada da salinha (a Ana não perguntou, ela era a paciente). O texto pula de volta pro WhatsApp do :::cena sem marcador de mudança de plano, e o fingerprint diz que ela muda de plano sempre com um marcador curto no começo da frase ('E aí', 'Agora,', 'E, bom').",
+   "motivo": "sem veredito do cetico (falha)"
+  },
+  {
+   "revisor": "tell",
+   "trecho": "A leitura positiva é: ela entendeu o meu problema e sei que vai me ajudar a resolver. E acontece quando a gente mostra que quer entender o que ela está dizendo, e quando a gente ouve mais do que fala.",
+   "detalhe": "4.6 frase-eco: a primeira frase copia o POS do bloco :::grafico leituras que está quatro linhas acima. É o mesmo mecanismo box-depois-eco do parágrafo dos sinais, em versão menor. A NEG não tem esse problema porque acrescenta a segunda frase ('eu só quero fazer o procedimento tal') que não está na caixa.",
+   "motivo": "sem veredito do cetico (falha)"
+  },
+  {
+   "revisor": "fidelidade",
+   "trecho": "O segundo é o erro que eu mais vejo nesse passo, e quem comete não faz por mal. A paciente acabou de dizer que quer a consulta, e a atendente, toda animada, emenda: \"e a doutora é ótima, os casos dela são perfeitos, olha esse caso que lindo\".",
+   "detalhe": "A citação vem da Etapa 1 do framework (p.2), não da Etapa 4, e está alterada: a fonte diz \"a doutora é ótima\"/\"esses casos são perfeitos\"/\"olha esse caso que lindo\". O capítulo trocou \"esses casos são perfeitos\" por \"os casos dela são perfeitos\". Como está entre aspas, tem que ser literal.",
+   "motivo": "A fonte (framework, Etapa 1, p.2) traz três fragmentos separados por barra como exemplo de erro, não uma frase pronta pra leitora usar; o capítulo os encena como o desabafo de uma atendente animada, que é exatamente o modo como a Ana reproduz fala alheia (whitelist item 15, discurso direto solto). A leitora não é prejudicada por 'os casos dela' no lugar de 'esses casos', porque o trecho é anti-exemplo, não script. A correção proposta quebra o jorro em três citações picadas e achata a cena; se quiser literalidade barata, basta trocar 'os casos dela são perfeitos' por 'esses casos são perfeitos' e manter o resto como está."
+  },
+  {
+   "revisor": "fidelidade",
+   "trecho": "Repara na ordem. Primeiro ela declara, depois você oferece. Pelo que eu vejo, a maioria das clínicas faz ao contrário: oferece primeiro e espera a paciente se encaixar na oferta.",
+   "detalhe": "\"A maioria das clínicas\" é afirmação de proporção sem fonte. Nenhum dos três PDFs nem a fala da Ana diz que a maioria faz ao contrário. A regra do mapa é nenhum número ou dado que não esteja nas fontes; \"maioria\" é um dado estatístico disfarçado.",
+   "motivo": "A regra do mapa veta caso, número ou frase pronta fora das fontes; 'a maioria' precedido de 'Pelo que eu vejo' é impressão declarada como observação, que é o registro dela (fingerprint linha 191: dá a posição como observação, não como regra; e na transcrição do paciente modelo ela mesma diz 'a maioria, depois que eu passo o preço, ainda questiona'). O framework abre o 'O que evitar' da Etapa 4 justamente com 'pular para a apresentação direto', então a afirmação está coberta em substância. A correção 'O que eu mais vejo é o contrário' ainda duplicaria o 'o erro que eu mais vejo' que já existe na linha 51 do mesmo capítulo."
+  },
+  {
+   "revisor": "fidelidade",
+   "trecho": ":::frase\nAntes de seguirmos, como você visualiza que a doutora pode te ajudar com isso que está vivendo?\n:::",
+   "detalhe": "O manual de perguntas (4. Qualificação, p.2-3) traz 5 perguntas e o capítulo entrega 4. Ficou de fora a nº 3: \"Como você entende que a consulta com a doutora pode te ajudar a resolver [problema]?\". O esqueleto do mapa promete os cards com o texto literal do PDF, e o capítulo 5, quando fundiu duas perguntas, avisou (\"a 2ª do PDF vive dentro da 1ª\"). Aqui a omissão é silenciosa.",
+   "motivo": "Os fatos batem (manual traz 5, capítulo traz 4, falta a nº 3), mas a leitora não é prejudicada: a pergunta ausente é variante quase idêntica da 1ª (mesma abertura, só troca 'nesse momento' por 'a resolver [problema]') e está inteira no apêndice B (linha 64). O próprio framework na Etapa 4 (p.5) lista só 3 perguntas, então o capítulo já é uma seleção entre duas fontes que divergem, e o parágrafo seguinte foi escrito em cima das 4 (primeira, terceira, as duas últimas). O precedente citado do capítulo 5 ('a 2ª do PDF vive dentro da 1ª') não existe no arquivo."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Pelo que eu vejo, a maioria das clínicas faz ao contrário: oferece primeiro e espera a paciente se encaixar na oferta.",
+   "detalhe": "A fórmula literal dela é observação COM escala: \"Mas pelo que eu observo nas mais de 3 mil clínicas por aqui\" (T4). Fingerprint, seção 1: \"Nunca 'muita gente' quando tem número\" e número redondo como prova em 3 de 3 (whitelist 12). O capítulo inteiro tem zero número redondo de prova e zero \"aqui\" dêitico (13 na fala, 7,2 por mil; recomendado 6 a 8 por 2.000 palavras, ou seja, uns 3 aqui). \"A maioria das clínicas\" é a versão genérica do que ela diz com número.",
+   "motivo": "Refutado. \"Nas mais de 3 mil clínicas por aqui\" já aparece literalmente nos capítulos 02, 07 e 12, e o 07 (capítulo seguinte) usa a fórmula idêntica \"pelo que eu observo nas mais de 3 mil clínicas por aqui\"; no corpus ela aparece uma vez em 1.816 palavras, então repetir em capítulos adjacentes vira carimbo, o que é pior tell do que a ausência. \"Pelo que eu vejo\" já é o frame de observação dela (seção 4, transversal), e \"a maioria\" é uma proporção que o número 3 mil não prova (\"nunca muita gente quando tem número\" vale quando o número é a prova da afirmação, e aqui não é). Dose de \"aqui\" e de número redondo é métrica de capítulo, não algo que a leitora note neste trecho."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "As duas aparecem pelo mesmo motivo: a gente não foi fundo no problema, e ela nunca chegou a contar por que foi procurar a consulta.",
+   "detalhe": "Primeira pessoa some. \"eu\" é o pronome dominante dela em 3 de 3 (46 por mil; livro 40 a 60 por 2.000 palavras). Aqui são 10 em 900 palavras (11 por mil), e entre \"## As perguntas\" e o fim de \"## Como ela lê você\" (cerca de 350 palavras) não tem nenhum. Ela dá posição como observação própria (\"pelo que eu observo\", \"que eu conheço\", \"eu sinto que\", seção 4 transversal), não como regra impessoal. Esse parágrafo é a prescrição central da seção e vem sem ela.",
+   "motivo": "Refutado. O parágrafo está na voz prescritiva dela via \"a gente\" (fingerprint, seção 1: \"a gente\" aparece quando ela prescreve ou generaliza; whitelist 17), que é exatamente o pronome que ela usa nesse lugar, não o \"eu\". A dose baixa de \"eu\" no capítulo é observação estatística válida, mas nenhuma leitora nota ausência de \"eu\" num parágrafo de leitura da paciente. A correção proposta é redundante (\"pelo mesmo motivo, e eu sinto que ele é sempre o mesmo\" diz duas vezes a mesma coisa) e soa a enchimento, que é tell novo."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "E quando ela pergunta \"e a agenda, como funciona?\" antes de você oferecer, o passo quatro acabou com nota dez.",
+   "detalhe": "Whitelist 23 (confirmado, 2 de 3): \"Agora,\" abrindo a última virada antes do fecho (\"Agora, e o que você fala pra você mesma?\", A2; \"Agora, se está funcionando...\", A1). Esta é exatamente a última virada antes da pergunta de fecho e o hábito foi apagado. O capítulo também não tem nenhum \"Mas\" inicial (3 a 5 por 2.000 palavras, 3 de 3), e o \"E\" inicial está em 13% das frases contra 15 a 20%.",
+   "motivo": "Refutado. \"Agora,\" abrindo o fecho já está em 5 dos 12 capítulos (01, 04, 09, 10, 12); no corpus são 3 ocorrências em 1.816 palavras, então colocar em mais um vira carimbo de capítulo. A frase da linha 77 não é virada, é a culminação da lista de sinais, e o \"E\" inicial que ela tem é hábito confirmado (whitelist 5); trocar por \"Agora,\" derruba ainda mais a taxa de \"E\" inicial que o próprio revisor diz estar abaixo da meta. A virada para a leitora já acontece no bloco :::pergunta."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Quando ela declara antes, não tem esse \"será\". A consulta que você vai apresentar é a que ela acabou de descrever.",
+   "detalhe": "\"muito\" é o único intensificador dela (21 em 1.816 palavras, 3 de 3, whitelist 19; dose recomendada 15 a 20 por 2.000 palavras, ou seja, 7 a 9 num capítulo deste tamanho). O capítulo tem zero. Não é caso de espalhar \"muito\" na marra, mas a pancada curta de comparação é lugar onde ela põe (\"É muito melhor.\", A2, T7), e este parágrafo fecha uma comparação (declara antes contra oferece antes) sem a pancada.",
+   "motivo": "Refutado, com ressalva. Zero \"muito\" em 967 palavras é dado real (e os capítulos 05, 07, 08 e 09 também têm zero), mas isso é nota de dose pro escritor, não defeito que a leitora percebe neste parágrafo; o próprio revisor admite que não é caso de espalhar na marra, e um \"muito\" único não corrige a métrica. O parágrafo já fecha com pancada própria (\"é a que ela acabou de descrever\"); empilhar \"É muito mais fácil.\" atrás dela é um segundo carimbo colado no primeiro, e \"mais fácil\" fica sem referente (pra quem?)."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "A terceira chega a nomear a agenda.",
+   "detalhe": "\"chega a nomear\" é registro de redator, não dela. No corpus ela diz \"fala\", \"falou\", \"cita\" (\"falam pra nós\", \"eu ouvi de uma delas\"). Formalidade dela na fala é 3 de 10; inferência pro livro, 4 de 10.",
+   "motivo": "Refutado. \"chega a nomear\" é construção corrente de português, não jargão de redator, e a whitelist 20 diz explicitamente que ela mistura palavra culta com coloquial e que o editor não uniformiza; a inferência do fingerprint pro livro é forma plena na prosa de explicação, que é este trecho. Nenhuma leitora tropeça aqui; a troca por \"já fala em agenda\" é preferência de gosto, ganho nulo."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "E aumentar o comprometimento dela em agendar.",
+   "detalhe": "É tradução quase literal do framework (Etapa 4, \"Aumentar o comprometimento do paciente em agendar\"), então a fidelidade manda manter. Mas o fingerprint (seção 3, registro) diz que, quando a palavra grande é inevitável, ela amortece ou traduz na frase seguinte (\"do seu próprio propósito, digamos assim\"; whitelist 22, cunha o termo e define colado). O capítulo explica em seguida o primeiro objetivo (\"Repara na ordem\") e deixa \"comprometimento\" sem tradução.",
+   "motivo": "Refutado. A regra do fingerprint (seção 3, linha 150) é \"explica o termo vago ou o termo que ela cunhou; não explica o termo técnico\", e \"comprometimento em agendar\" não é vago nem cunhado, é palavra comum que qualquer atendente entende; o amortecedor de A3 foi pra \"propósito\", palavra abstrata, não pra essa. O segundo objetivo já é traduzido adiante no capítulo (\"Ela mesma começa a perguntar da agenda\", linha 69/73, e o fecho da linha 77). A correção proposta inventa um mecanismo (\"tem muito mais dificuldade de sumir depois\") que não está na Etapa 4 do framework, o que é risco de fidelidade, e o padrão \"X aqui é simples:\" não aparece no corpus."
+  }
+ ],
+ "cego": null
+}

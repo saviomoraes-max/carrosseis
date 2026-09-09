@@ -1,0 +1,78 @@
+---
+numero: "05"
+kicker: "Passo 03"
+prova: "Prova nº 05 · Passo 3 de 7"
+hud: "Script 715 · Passo 03 / 07"
+titulo: "Presente inaceitável"
+subtitulo: "Onde a paciente para de achar que dá pra deixar pra depois."
+fontes: "fontes/01-framework-715.md (Etapa 3, p.4-5); fontes/03-manual-perguntas.md (3. Presente inaceitável, p.2)"
+---
+# Presente inaceitável
+
+:::cena
+ELA: É isso, exatamente. Perto do queixo, quando eu abaixo a cabeça pra olhar o celular. Tem uns dois anos que eu reparo.
+VOCÊ: Posso estar enganada, mas parece que isso não começou agora. E antes não parecia ser uma prioridade, mas agora parece ser. Aconteceu alguma coisa?
+ELA: Aconteceu que eu tenho o casamento da minha irmã em novembro e eu não quero aparecer assim nas fotos.
+:::
+
+Ela acabou de te contar a data. Você não pediu a data, não falou de urgência, não ofereceu desconto pra fechar hoje. Você perguntou o que mudou, e ela te entregou o motivo pelo qual ela vai marcar. Isso é o passo três.
+
+Eu chamo ele de presente inaceitável porque é o momento em que a paciente olha pro problema que ela já tinha e decide que continuar assim não é mais uma opção. Repara: o problema dela não começou hoje. A flacidez tem dois anos. O que mudou foi a tolerância, e alguma coisa mudou a tolerância. O seu trabalho é fazer ela dizer o que foi.
+
+## Pra que serve
+
+Deixar claro que o problema que causa a dor de hoje precisa mudar agora. Fazer com que não resolver deixe de ser uma opção. Gerar inconformidade.
+
+Essa última palavra assusta um pouco, então deixa eu explicar como eu entendo. Ninguém cria inconformidade do nada. A paciente percebe, respondendo a sua pergunta, que ela já está inconformada faz tempo, e que só não tinha dito em voz alta. Quem fez a pergunta foi você. Quem se convenceu foi ela.
+
+## As perguntas
+
+Todas elas perguntam a mesma coisa de sete jeitos: por que agora.
+
+:::frase
+Posso estar enganada, mas parece que [problema] não começou agora. E antes não parecia ser uma prioridade, mas agora parece ser. Aconteceu alguma coisa?
+:::
+
+:::frase
+O que te fez decidir que agora é o momento certo para resolver isso?
+:::
+
+:::frase
+Por que fazer agora e não esperar mais um pouco?
+:::
+
+:::frase
+O que te levou a dar esse passo de nos procurar hoje?
+:::
+
+:::frase
+Parece que esse incômodo chegou a um ponto decisivo para você. O que aconteceu?
+:::
+
+:::frase
+O que fez com que isso que já estava acontecendo deixasse de ser tolerável agora?
+:::
+
+A primeira é a que eu mais uso, por causa do "posso estar enganada". Você abre dando a ela o direito de te corrigir. E ela quase nunca corrige. Ela confirma e conta.
+
+O "por que fazer agora e não esperar mais um pouco?" parece perigoso, eu sei. Parece que você está dando a ideia de esperar. É o contrário. Quando você oferece a espera, ela é obrigada a argumentar contra a espera, e quem argumenta contra esperar está se convencendo de agir.
+
+:::evite
+Interromper a paciente quando ela está se abrindo. Tentar animar a paciente minimizando o problema. Oferecer solução imediata sem explorar a dor por completo.
+:::
+
+Esse passo tem uma coisa diferente dos outros: aqui a paciente às vezes se emociona. Ela conta do casamento, da separação, do comentário que ouviu, da foto que viu. E a nossa reação de gente educada é aliviar: "imagina, nem é tão assim". Não alivia. Quem alivia tira dela o motivo que ela acabou de encontrar. Deixa ela falar até o fim.
+
+## Como ela lê você
+
+A leitura negativa aqui é uma que dói: mais uma daquelas técnicas de venda batidas. Ela acontece quando a conversa não parece conversa, e sim interrogatório, e quando as suas perguntas não têm nada a ver com o que ela acabou de responder. Se ela contou do casamento e você mandou a próxima pergunta do script sem citar o casamento, acabou. Ela viu o script.
+
+A leitura positiva é: estamos entendendo juntas pra ver se vão conseguir me ajudar. Repara no "juntas". Acontece quando ela entende que as respostas dela importam pra ter o problema resolvido, e quando a conversa flui.
+
+## Quando avançar
+
+Você avança quando ela demonstra emoção ao falar do problema, quando compartilha histórias específicas de como o problema afeta ela, quando expressa urgência ou necessidade de mudança, e quando você percebe que ela própria está convencida da necessidade da mudança.
+
+Eu grifo o "ela própria". Se quem está convencido é você, o passo três não aconteceu. Você vai levar essa convicção pros próximos passos e vai empurrar. Se quem está convencida é ela, os próximos passos são só confirmação.
+
+Na sua última conversa que morreu, você sabe o que tinha mudado na vida da paciente? Ou você só sabe o que ela queria fazer?

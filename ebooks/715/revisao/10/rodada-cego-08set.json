@@ -1,0 +1,28 @@
+{
+  "cego": {
+    "veredito": "ia",
+    "confianca": 70
+  },
+  "pistas": [
+    {
+      "trecho": "Objeção não é rejeição. É pedido de mais informação, ou sinal de que ainda não ficou claro pra ela o que a consulta resolve.",
+      "pista": "Densidade anormal da estrutura \"não é X, é Y\". O texto tem 65 linhas e repete esse molde pelo menos cinco vezes: no título (\"Objeção não é um não\"), aqui, em \"Voltar não é inventar resposta nova pra objeção. É refazer a pergunta\", em \"Você não escondeu o preço. Você disse que vai passar\" e no tricolon do parágrafo 42. Copywriter humano usa antítese; usa duas ou três vezes num capítulo, não como motor de quase todo parágrafo. Quando a mesma figura sustenta a argumentação inteira, é geração automática, não escolha retórica."
+    },
+    {
+      "trecho": "Não é o preço, não é o marido, não é a agenda. É que em algum passo anterior ficou raso, e a paciente chegou no fechamento sem estar convencida por ela mesma.",
+      "pista": "Tricolon de negação seguido de pivô revelador — o tique mais estável de LLM em PT-BR. Três itens (nunca dois, nunca quatro), ritmo idêntico entre eles, e a virada em \"É que...\" entregando a \"verdade profunda\". A cadência é perfeita demais para ter saído de alguém pensando enquanto escreve."
+    },
+    {
+      "trecho": "e se for muito caro, será que é prioridade agora, será que eu não encontro outro jeito",
+      "pista": "Anedota calibrada. A suposta lembrança pessoal na salinha produz exatamente três objeções internas que são justamente as três categorias que o capítulo vai tratar (preço, prioridade, alternativa). Memória real não sai alinhada com a taxonomia do próprio texto — ela vem torta, com um detalhe inútil, com uma coisa fora de ordem. Aqui a \"experiência vivida\" é retro-encaixada no framework, que é como um modelo fabrica prova."
+    },
+    {
+      "trecho": "Curiosidade é o que você sente quando ela diz \"vou pensar\": pensar no quê? Direção é o que você faz com isso: pergunta, em vez de esperar.",
+      "pista": "Paralelismo definicional simétrico: duas frases com a mesma arquitetura (substantivo + \"é o que você\" + verbo + dois-pontos + glosa curta), uma para sentir e outra para fazer. É o padrão de \"explicar um par de conceitos\" que modelo produz por default. Gente que escreve de verdade quase sempre desequilibra o par — explica um mais que o outro, ou mistura os dois num exemplo só."
+    },
+    {
+      "trecho": "Uma das duas basta, a segunda é a primeira já com o \"vou pensar\" dentro.",
+      "pista": "Compressão sem referente. \"As duas\" só aparecem depois, nos dois blocos :::frase, então a frase aponta para algo que o leitor ainda não viu; e a explicação (\"a segunda é a primeira já com o vou pensar dentro\") não descreve corretamente as duas perguntas que vêm em seguida. É a assinatura típica de texto gerado: som de frase apertada e definitiva, com a lógica interna vazando. Um autor relendo o próprio capítulo tropeça nisso; um gerador otimizando ritmo, não."
+    }
+  ]
+}

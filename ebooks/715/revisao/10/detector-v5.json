@@ -1,0 +1,122 @@
+{
+  "arquivo": "/Users/saviomoraes/reconecta/ebooks/715/revisao/10/capitulo-limpo.md",
+  "palavras": 764,
+  "paragrafos": 16,
+  "frases": 67,
+  "mascarado": {
+    "blocos_script": 5,
+    "marcadores_bloco": 12,
+    "citacoes": 5,
+    "titulos_curtos": 4
+  },
+  "avisos": [],
+  "score": 18,
+  "faixa": "leve sotaque (passa no portão)",
+  "pontos": 7.5,
+  "densidade": 9.8,
+  "formula": "densidade = pontos / max(palavras, piso_palavras) * 1000; score = 100 * (1 - exp(-densidade / k)), k = 50, piso_palavras = 300 (texto curto não explode com um achado só). Nota por categoria usa k_categoria sobre a densidade só daquela categoria.",
+  "categorias": {
+    "conteudo": {
+      "rotulo": "Conteúdo e inflação",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "linguagem": {
+      "rotulo": "Linguagem e vocabulário",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "estrutura": {
+      "rotulo": "Estrutura e ritmo",
+      "achados": 2,
+      "pontos": 7.5,
+      "densidade": 9.8,
+      "nota": 48
+    },
+    "comunicacao": {
+      "rotulo": "Sobras de chatbot",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "meta": {
+      "rotulo": "Uniformidade de ritmo (estatística)",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "calques": {
+      "rotulo": "Calques do inglês e burocratês",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    }
+  },
+  "metricas": {
+    "frases_media_palavras": 11.4,
+    "frases_desvio_padrao": 6.9,
+    "frases_cv": 0.6,
+    "paragrafos": 16,
+    "paragrafos_mediana_palavras": 62,
+    "paragrafos_proporcao_mesmo_tamanho": 0.38,
+    "ritmo_entre_paragrafos_desvio": 0.143,
+    "pontuacao_cv": 1.21,
+    "ttr": 0.357,
+    "frases_mesmo_inicio_proporcao": 0.06,
+    "travessoes": 0,
+    "travessoes_por_mil": 0.0,
+    "dois_pontos": 7,
+    "dois_pontos_por_mil": 9.16,
+    "itens_lista": 0,
+    "proporcao_linhas_em_lista": 0.0,
+    "negritos": 0,
+    "triades": 0,
+    "triades_por_mil": 0.0,
+    "contrastes": 1,
+    "paragrafos_terminando_em_pergunta": 1,
+    "fechos_grandiosos": 0,
+    "hedges": 0,
+    "hedges_por_mil": 0.0
+  },
+  "achados": [
+    {
+      "id": "m_dois_pontos",
+      "categoria": "estrutura",
+      "subtipo": "pontuacao",
+      "gravidade": "media",
+      "peso": 5,
+      "texto": "7 dois-pontos em 764 palavras",
+      "inicio": 168,
+      "fim": 170,
+      "explicacao": "Dois-pontos demais no meio de frase: cadência de slide.",
+      "sugestao": "Troque por ponto ou vírgula; deixe só os que apresentam algo.",
+      "contribuicao": 5,
+      "linha": 7,
+      "trecho": "Naqueles dez minutinhos da salinha, o que passou pela minha cabeça foi isso«: »e se for muito caro, será que é prioridade agora, será que eu não encontro outro jeito."
+    },
+    {
+      "id": "es_contraste_dividido",
+      "categoria": "estrutura",
+      "subtipo": "contraste",
+      "gravidade": "media",
+      "peso": 2.5,
+      "texto": ". Não é o preço, não é o marido, não é a agenda. É",
+      "inicio": 3415,
+      "fim": 3465,
+      "explicacao": "Contraste dividido em duas frases: mesma muleta, disfarçada.",
+      "sugestao": "afirme a segunda parte",
+      "contribuicao": 2.5,
+      "linha": 42,
+      "trecho": "conde quase sempre a mesma coisa: ela ainda não sabe se a consulta resolve o problema dela«. Não é o preço, não é o marido, não é a agenda. É» que em algum passo anterior ficou raso, e a paciente chegou no fechamento sem estar conve"
+    }
+  ],
+  "achados_ocultos": 0,
+  "min_gravidade": "baixa"
+}

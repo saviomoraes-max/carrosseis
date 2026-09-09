@@ -1,0 +1,101 @@
+{
+  "arquivo": "/Users/saviomoraes/reconecta/ebooks/715/revisao/B/capitulo-limpo.md",
+  "palavras": 62,
+  "paragrafos": 7,
+  "frases": 7,
+  "mascarado": {
+    "citacoes": 43,
+    "titulos_curtos": 7
+  },
+  "avisos": [
+    "62 palavras de prosa (piso 300): score informativo, não use como portão."
+  ],
+  "amostra_pequena": true,
+  "score": 33,
+  "faixa": "sotaque perceptível (revisar antes de gastar agente)",
+  "pontos": 6,
+  "densidade": 20.0,
+  "formula": "densidade = pontos / max(palavras, piso_palavras) * 1000; score = 100 * (1 - exp(-densidade / k)), k = 50, piso_palavras = 300 (texto curto não explode com um achado só). Nota por categoria usa k_categoria sobre a densidade só daquela categoria.",
+  "categorias": {
+    "conteudo": {
+      "rotulo": "Conteúdo e inflação",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "linguagem": {
+      "rotulo": "Linguagem e vocabulário",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "estrutura": {
+      "rotulo": "Estrutura e ritmo",
+      "achados": 1,
+      "pontos": 6,
+      "densidade": 20.0,
+      "nota": 74
+    },
+    "comunicacao": {
+      "rotulo": "Sobras de chatbot",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "meta": {
+      "rotulo": "Uniformidade de ritmo (estatística)",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "calques": {
+      "rotulo": "Calques do inglês e burocratês",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    }
+  },
+  "metricas": {
+    "paragrafos": 7,
+    "pontuacao_cv": 0.0,
+    "frases_mesmo_inicio_proporcao": 0.0,
+    "travessoes": 0,
+    "travessoes_por_mil": 0.0,
+    "dois_pontos": 2,
+    "dois_pontos_por_mil": 32.26,
+    "itens_lista": 41,
+    "proporcao_linhas_em_lista": 0.85,
+    "negritos": 0,
+    "triades": 0,
+    "triades_por_mil": 0.0,
+    "contrastes": 0,
+    "paragrafos_terminando_em_pergunta": 0,
+    "fechos_grandiosos": 0,
+    "hedges": 0,
+    "hedges_por_mil": 0.0
+  },
+  "achados": [
+    {
+      "id": "m_listas",
+      "categoria": "estrutura",
+      "subtipo": "lista",
+      "gravidade": "media",
+      "peso": 6,
+      "texto": "41 itens de lista em 48 linhas",
+      "inicio": 108,
+      "fim": 143,
+      "explicacao": "Texto de livro andando em lista; e lista de sintagmas sem verbo.",
+      "sugestao": "Texto de gente anda em parágrafo. Lista só quando a estrutura pede.",
+      "contribuicao": 6,
+      "linha": 7,
+      "trecho": "«1. \"O que te trouxe até aqui hoje?\"»"
+    }
+  ],
+  "achados_ocultos": 0,
+  "min_gravidade": "baixa"
+}

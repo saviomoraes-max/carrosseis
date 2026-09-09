@@ -1,0 +1,200 @@
+{
+ "capitulo": "/Users/saviomoraes/reconecta/ebooks/715/manuscrito/01-a-salinha-do-financeiro.md",
+ "rodada": 2,
+ "brutos": 18,
+ "confirmados_n": 7,
+ "altas_confirmadas": 2,
+ "por_revisor": {
+  "tell": {
+   "brutos": 5,
+   "confirmados": 4
+  },
+  "fidelidade": {
+   "brutos": 2,
+   "confirmados": 1
+  },
+  "leitora": {
+   "brutos": 8,
+   "confirmados": 1
+  },
+  "voz": {
+   "brutos": 3,
+   "confirmados": 1
+  }
+ },
+ "confirmados": [
+  {
+   "revisor": "tell",
+   "tipo": "tell",
+   "gravidade": "alta",
+   "trecho": "Esse caso aconteceu dentro da sala de consulta. O que eu quero te mostrar neste livro acontece antes, no WhatsApp.",
+   "detalhe": "5.2 Narração do próprio texto, em cluster de três na mesma seção de 130 palavras: o H2 \"## O que este livro conserta\" (que também é 4.6, cabeçalho seguido de frase-eco: o título diz o que o livro conserta, a primeira frase diz o que o livro mostra), \"O que eu quero te mostrar neste livro\" (o detector marcou alta) e, na linha 54, \"O script que você vai ler nos próximos capítulos\". A rodada 1 acusou esse mesmo cluster (\"Guarda essa pergunta\", \"nos próximos capítulos\", \"Antes de virar a página\"); dois foram cortados e dois novos entraram no lugar. A guarda do 5.2 é ponte curta com número de capítulo; \"neste livro\" e \"nos próximos capítulos\" não são ponte, são o livro apontando pra si. O fingerprint diz como ela passa da história pra lição: nunca com anúncio, sempre com marcador curto ou direto no dado (seção 2, \"Como passa de história pra lição\"; whitelist 24). Ela anuncia que vai contar um caso (\"eu quero pontuar aqui minha perspectiva\"), não que o livro vai fazer alguma coisa.",
+   "correcao": "Título: \"## A salinha do WhatsApp\" (cunha o termo como ela faz, whitelist 22, e repete \"salinha\" sem sinônimo, whitelist 9). Primeira frase: \"Esse caso aconteceu dentro da sala de consulta. O que eu quero te mostrar acontece antes, no WhatsApp.\" (só cai o \"neste livro\"; o \"eu quero te mostrar\" é o \"eu quero pontuar aqui\" dela). Linha 54: \"O script 715 nasceu de uma frase que a gente repete nas clínicas por aqui: «para vender qualquer coisa, é só vender aquilo que a pessoa já quer comprar». A pessoa que manda mensagem já quer. O trabalho é entender o que ela quer antes de passar qualquer número. Sete passos, do primeiro oi ao comprovante do PIX. E o preço só entra no último.\"",
+   "motivos": [
+    "Confirmado no arquivo: em 130 palavras o H2 \"O que este livro conserta\" é ecoado pela primeira frase (\"O que eu quero te mostrar neste livro\"), a linha 54 traz \"O script que você vai ler nos próximos capítulos\" e até o subtítulo do frontmatter repete \"o que este livro quer consertar\"; a whitelist 7 protege o aviso de que ela vai CONTAR (\"vou aproveitar pra contar um caso\", \"vou indicar pra você aqui\"), não o livro apontando pra si, e uma leitora sente a mesma ideia lida duas vezes seguidas. A correção proposta falha em (4): título \"A mesma salinha, só que no WhatsApp\" mais \"a mesma coisa, só que antes\" empilha dois \"só que\" e três \"mesma\" em duas linhas, e colide com \"É o mesmo movimento, só que mais cedo\" da linha 52 se o achado 1 não for aplicado.",
+    "Existe: o H2 \"O que este livro conserta\" e \"neste livro\" (único achado alta do detector-v2, num capítulo limpo) falam do livro em vez de fazer, e \"nos próximos capítulos\" fica fora da guarda do 5.2 por não ter número; os três caem em 130 palavras exatamente na virada história→lição, que o fingerprint diz ser feita sem anúncio (seção 2, linha 127), e a whitelist 7 protege só o aviso de contar o caso. Reparo à acusação: o H2 e a frase do livro já estavam na v1 (linha 64 e 66, \"Este livro é sobre o que acontece antes dela\"), não entraram no lugar dos cortados; e \"O que eu quero te mostrar\" é sintaxe dela (\"O que eu quis te trazer\", A1), o corpo estranho é só \"neste livro\". A correção proposta falha em (4): título \"A mesma salinha, só que no WhatsApp\" seguido de \"No WhatsApp acontece a mesma coisa, só que antes\" é frase-eco (4.6) com o mesmo \"mesma... só que\" duas vezes; a parte da linha 54 (\"O script 715 nasceu...\") é aceitável."
+   ]
+  },
+  {
+   "revisor": "tell",
+   "tipo": "tell",
+   "gravidade": "media",
+   "trecho": "É o mesmo movimento, só que mais cedo. Ela chegou com um problema, alguém respondeu com um número, e ela foi ruminar sozinha, do jeito que eu ruminei naqueles dez minutinhos.",
+   "detalhe": "2.6 Esteira. O parágrafo diz a mesma ideia quatro vezes: (1) \"a paciente que vai pra casa pensar na salinha é a mesma que pergunta o preço no WhatsApp e some\"; (2) o par espelhado \"No consultório... No WhatsApp...\", que é a ponte de verdade e é dela (whitelist 8); (3) \"É o mesmo movimento, só que mais cedo\", fecho de uma linha que só reafirma o par (1.2); (4) \"Ela chegou com um problema, alguém respondeu com um número, e ela foi ruminar sozinha\", tríade de orações paralelas (2.1) que reconta o par em voz neutra (\"alguém respondeu com um número\" é frase que qualquer mentoria escreveria). Cortar (3) e o começo de (4) não perde informação. O que vale salvar de (4) é o \"ruminar\" e os \"dez minutinhos\", que são dela e amarram com a seção anterior.",
+   "correcao": "Porque a paciente que vai pra casa pensar na salinha do financeiro é a mesma que pergunta o preço no WhatsApp e some. No consultório, o preço veio de uma pessoa que não tinha ouvido nada do meu problema. No WhatsApp, o preço vem de uma pessoa que não perguntou nada, antes mesmo de ela pisar na clínica. E aí ela vai ruminar sozinha, do jeito que eu ruminei naqueles dez minutinhos.",
+   "motivos": [
+    "Confirmado: a linha 50 já diz \"acontece antes\", o par espelhado diz \"antes mesmo de ela pisar na clínica\", e ainda vem \"só que mais cedo\" e a tríade \"chegou com um problema, alguém respondeu com um número, e ela foi ruminar\", que reconta o par em voz de mentoria genérica; a whitelist 8 cobre o espelho e a 6 cobre pancada que COMPLEMENTA, não frase que resume o que a leitora acabou de ler pela terceira vez. A correção proposta mantém o espelho, o \"E aí\" e o \"ruminar\" com os dez minutinhos, não usa travessão e ainda desfaz a colisão de \"só que\" com o achado 0."
+   ]
+  },
+  {
+   "revisor": "tell",
+   "tipo": "tell",
+   "gravidade": "media",
+   "trecho": "Foi assim que eu me senti. E eu pude analisar aquela situação em duas perspectivas, tanto de paciente quanto de vendedora. O que eu quis te trazer foi principalmente a de paciente.",
+   "detalhe": "5.2 Narração do próprio texto na forma retroativa (\"O que eu quis te trazer foi\") mais sobra de rascunho (1.7, \"argument residue\"): com a seção \"Doutora é vendedora também\" cortada pro capítulo 12, a perspectiva de vendedora é anunciada e nunca aparece neste capítulo. Na fala ela disse isso ANTES do caso e no presente (\"E eu quero pontuar aqui minha perspectiva principalmente enquanto paciente, tá?\"); depois do caso e no passado, a frase vira o livro explicando o que acabou de fazer. Há ainda um efeito colateral da correção da rodada 1: \"Foi quase uma cerimônia pra passar o preço.\" seguido de \"Foi assim que eu me senti.\" são dois fechos de uma linha consecutivos, os dois abrindo com \"Foi\", e o parágrafo já tinha \"encenação\" e \"processo de convencimento\" pra mesma coisa. A guarda do 5.2 (ponte curta com número de capítulo) resolve o órfão.",
+   "correcao": "...Olha, por conta de tudo que a doutora trouxe, parará, parará, parará. Quase uma cerimônia pra passar o preço.\n\nFoi assim que eu me senti, de paciente. De vendedora eu vi outra coisa, e essa parte fica pro capítulo 12.\n\nE aqui vem um plot twist interessante.",
+   "motivos": [
+    "Confirmado no essencial: na fonte a frase é presente e vem ANTES do caso (\"eu quero pontuar aqui minha perspectiva principalmente enquanto paciente, tá?\"); no arquivo virou \"O que eu quis te trazer foi\", passado e depois do caso, e a perspectiva de vendedora anunciada nunca aparece no capítulo, porque a seção foi movida pro capítulo 12 (mapa, linha 23, confirmado), então a leitora fica com uma promessa sem pagamento. Já a parte \"Foi... Foi\" a rodada 1 tratou como anáfora de dois degraus (whitelist 2), e \"encenação\", \"processo de convencimento\" e \"cerimônia\" estão os três na fonte. A correção proposta apaga o \"quase\" de \"quase (que) uma cerimônia\", que é dela e segura a ironia."
+   ]
+  },
+  {
+   "revisor": "tell",
+   "tipo": "voz",
+   "gravidade": "baixa",
+   "trecho": "Na sua clínica, você tem a salinha do fechamento ou a salinha do pagamento? Quantas pessoas foram pra casa pensar esse mês? E quantas perguntaram o preço no seu WhatsApp e nunca mais responderam?",
+   "detalhe": "As três perguntas com \"você\" no fecho são dela (whitelist 3). O que não é dela é a primeira ser cópia palavra por palavra da primeira frase do capítulo: moldura de redação (abre e fecha com a mesma linha), variante do 4.11 (o fecho devolve o começo em vez de acrescentar). Nas três amostras ela nunca fecha voltando à abertura; a A1 fecha em carimbo (\"Diagnóstico feito.\"), a A2 e a A3 fecham com pergunta nova, e a última virada dela abre com \"Agora,\" (whitelist 23; a rodada 1 vetou \"Agora,\" aqui porque a seção da vendedora usava duas vezes, e essa seção saiu, então está livre). As duas perguntas novas já carregam o fecho sozinhas.",
+   "correcao": "Agora, quantas pessoas foram pra casa pensar na sua clínica esse mês? E quantas perguntaram o preço no seu WhatsApp e nunca mais responderam?",
+   "motivos": [
+    "Confirmado: a linha 56 repete palavra por palavra a linha 12; a whitelist 3 protege perguntas em série com \"você\" no fecho, não a moldura que devolve a abertura, e o fingerprint registra 3 de 3 fechos sem recapitulação (carimbo, pergunta nova, fecho baixo). O arquivo tem zero \"Agora,\" hoje, então a virada da whitelist 23 está livre. A correção proposta serve; só perde o \"você\" da primeira pergunta, que a whitelist 3 pede."
+   ]
+  },
+  {
+   "revisor": "fidelidade",
+   "tipo": "fidelidade",
+   "gravidade": "media",
+   "trecho": "O script que você vai ler nos próximos capítulos nasceu de uma frase que a gente repete nas clínicas por aqui: «para vender qualquer coisa, é só vender aquilo que a pessoa já quer comprar».",
+   "detalhe": "A frase entre aspas está literal na fonte (01-framework-715.md, p.1: \"Para vender qualquer coisa, é só vender aquilo que a pessoa já quer comprar.\"). O que não existe em nenhuma fonte é a história de origem: nem que o script \"nasceu\" dessa frase, nem que \"a gente repete nas clínicas por aqui\". No PDF ela aparece só como epígrafe abaixo do título do framework. \"Por aqui\" ainda pega emprestado o eco de \"mais de 3 mil clínicas por aqui\" da fala da Ana, que não está ligado a essa frase. É uma genealogia inventada pra dar peso ao princípio.",
+   "correcao": "O script que você vai ler nos próximos capítulos parte de uma frase só: «para vender qualquer coisa, é só vender aquilo que a pessoa já quer comprar».",
+   "motivos": [
+    "Confirmado. A frase entre «» está literal na p.1 do 01-framework-715.md como epígrafe, mas nenhuma fonte (nem as 3 amostras de fala, nem os PDFs) sustenta que o script 'nasceu' dela nem que 'a gente repete nas clínicas por aqui'; o único 'por aqui' da Ana é 'mais de 3 mil clínicas por aqui' (amostra-fala-analuiza.txt, linha 43), num contexto que não tem nada a ver com essa frase. A whitelist protege 'a gente' inclusivo e o 'aqui' dêitico como ESTILO, não uma prática atribuída à casa na primeira pessoa da autora, e a regra inviolável do pipeline é 'sem citação inventada'. A correção proposta ('parte de uma frase só: «...»') não tem travessão, não introduz tell e preserva o ritmo do parágrafo, que segue com a pancada curta 'A pessoa que manda mensagem já quer.'; aceita como está."
+   ]
+  },
+  {
+   "revisor": "leitora",
+   "tipo": "leitora",
+   "gravidade": "alta",
+   "trecho": "Na sua clínica, você tem a salinha do fechamento ou a salinha do pagamento?",
+   "detalhe": "Perco o fio na primeira linha e continuo perdida na última, porque a pergunta abre e fecha o capítulo e em nenhum lugar a autora diz o que é uma e o que é a outra. Eu tenho uma sala onde a recepção passa o cartão. Isso é fechamento ou pagamento? Se a paciente já saiu decidida da minha sala e só vai lá pagar, é a boa? Ou a boa é não ter salinha nenhuma? Dá pra ler das duas formas e eu termino o capítulo sem saber se estou do lado certo. Como é a moldura do capítulo inteiro, esse buraco é o que mais pesa.",
+   "correcao": "Inserir como parágrafo próprio logo ANTES do parágrafo final (l.56), reaproveitando a frase dela da amostra: 'E beleza, pode ser que o pagamento mesmo fique do lado de fora da sala, até pela experiência da paciente. Salinha do pagamento é isso: ela sai da consulta sabendo quanto custa e já decidida, e vai lá só passar o cartão. Salinha do fechamento é quando ela sai sem saber o preço e vai decidir com uma pessoa que não ouviu nada do problema dela. A que eu conheci foi a segunda.'",
+   "motivos": [
+    "Confirmado: a pergunta abre (l.12) e fecha (l.56) e em nenhum ponto do capítulo as duas salinhas são distinguidas; a definição que existia na fala dela ('pode ser que a transação mesmo, o fechamento, fique do lado de fora da sala, até mesmo pela experiência do paciente') foi cortada junto com o trecho que foi pro capítulo 12, e a whitelist (item 22) diz que o hábito dela é cunhar o termo E definir nas frases seguintes, então a lacuna não é voz, é corte. A correção proposta falha no ponto 4: colada depois de 'Diagnóstico feito.' mata o carimbo, e 'decidiu comigo, na sala' / 'a minha foi a segunda' põem a Ana na cadeira da doutora, sendo que neste capítulo ela é a paciente.",
+    "Confirmado: o capítulo abre e fecha com a dicotomia e nunca diz qual é qual; a leitora com sala de caixa não consegue se localizar, e a whitelist não protege ausência de definição (o item 22 diz o contrário: Ana cunha o termo e define nas frases seguintes). Pior, a própria Ana definia isso na fala original ('pode ser que a transação mesmo, o fechamento fique do lado de fora da sala, até mesmo pela experiência do paciente, mas passar o preço nesse formato de cerimônia...') e o manuscrito cortou justamente essa frase. A correção proposta falha no (4): 'já decidiu comigo, na sala' põe a Ana no lugar da doutora quando ela narra como paciente, e colar a definição depois de 'Diagnóstico feito.' mata o carimbo e empilha dois carimbos seguidos ('A minha foi a segunda.')."
+   ]
+  },
+  {
+   "revisor": "voz",
+   "tipo": "voz",
+   "gravidade": "media",
+   "trecho": "Esse caso aconteceu dentro da sala de consulta. O que eu quero te mostrar neste livro acontece antes, no WhatsApp.",
+   "detalhe": "Três coisas no mesmo par de frases. (1) Imagem imprecisa onde ela é precisa com lugar: o caso NÃO aconteceu dentro da sala de consulta; o drama inteiro é ter saído dela (recepção, uns dez minutinhos, salinha do financeiro). Ela nomeia cada cômodo (\"salinha do fechamento\", \"salinha do pagamento\", \"recepção\", \"área de espera\", \"lá na sala\"), e a frase dela é \"Se eu tivesse entendido o preço na sala\". Dizer que aconteceu \"dentro da sala de consulta\" contradiz o próprio caso. (2) Mudança de plano sem marcador. Fingerprint seção 2: \"Como muda de plano: ... Sempre um marcador de fala curto no começo da frase. No texto vira quebra de parágrafo com o marcador mantido.\" E whitelist item 23: \"'Agora,' abrindo a última virada antes do fecho: 3, 2 de 3\" (A1 \"Agora, se está funcionando...\", A2 \"Agora, e o que você fala pra você mesma?\"). O único \"Agora,\" do capítulo estava na seção 'Doutora é vendedora também', que foi pro capítulo 12; com o corte o hábito sumiu do capítulo inteiro, justo na virada clínica -> WhatsApp, que é a maior virada do livro. (3) O capítulo ainda avisa \"eu pude analisar aquela situação em duas perspectivas, tanto de paciente quanto de vendedora. O que eu quis te trazer foi principalmente a de paciente\" e depois nunca marca quando entra a de vendedora (transversal 3 de 3: \"Ela fala de dois lugares e avisa qual está usando\"). Com a seção cortada, a perspectiva de vendedora só existe nesta ponte, e ela entra sem aviso. De quebra, \"neste livro\" é o meta-texto que o detector-v2 marcou como alta.",
+   "correcao": "Agora, esse caso aconteceu comigo dentro da clínica, com a consulta já feita. O que eu quero te mostrar acontece antes, no WhatsApp.",
+   "motivos": [
+    "Confirmado só na parte que se sustenta: \"dentro da sala de consulta\" contradiz o caso que a leitora acabou de ler (a frase-chave é \"Se eu tivesse entendido o preço na sala... Lá dentro\", e o drama inteiro é a recepção e a salinha, fora da sala), e a v1 dizia \"numa sala de consulta\", ou seja, a reescrita piorou a precisão; de quebra \"neste livro\" é o único achado alto do detector-v2 (peso 5) e some com a correção. As partes (2) e (3) da acusação não valem sozinhas: ausência de um hábito (\"Agora,\", aviso de perspectiva) não é defeito, pelo mesmo critério que refutou o \"né\" na rodada 1, e o H2 já faz a quebra de plano. A correção proposta falha em (4): \"Agora, a perspectiva de vendedora.\" é rótulo de slide, não frase dela, e promete a leitura de vendedora (o que a doutora devia fazer na sala) que a fonte não tem e que o cap. 12 vai receber; a leitora ficaria esperando o que não vem."
+   ]
+  }
+ ],
+ "refutados": [
+  {
+   "revisor": "tell",
+   "trecho": "Eu já dou spoiler, tá? Quando eu entrei naquela salinha, a minha cabeça já tinha ido embora.",
+   "detalhe": "A fórmula é dela (whitelist candidato 33) e o conteúdo ficou fiel à fonte, como a rodada 1 pediu. O problema agora é a posição: o spoiler vem DEPOIS de o parágrafo anterior já ter contado o caso inteiro até \"sala de fechamento, com o financeiro. Uma outra pessoa.\" Spoiler depois do caso não espia nada; vira revelação teatral de uma informação que a seção seguinte explica de qualquer jeito (catálogo 1.9, \"a informação comum vira reveal\"). O fingerprint é explícito: \"Spoiler antes do caso (A3) vira frase curta sozinha no parágrafo, antes de contar\" (seção 6), e na A3 o spoiler é um número (\"A consulta durou 27 minutos\"), não um estado de espírito. \"Ela entrega o final antes e conta mesmo assim; a graça está no caminho\" (seção 2, padrão 2). Aqui não tem caminho: o final já chegou.",
+   "motivo": "Refutado: o spoiler não vem depois do caso inteiro, vem depois da cronologia externa (consulta, recepção, financeiro) e antes da seção que conta o caminho de verdade, o interior (abatedouro, facada, ruminar, encenação), exatamente como em A3 (\"E aí, eu fui nesse coach. Eu já dou spoiler, tá? A consulta durou 27 minutos.\" e só então a consulta). O próprio fingerprint, no par 1 da calibração, usa estado e não número como spoiler (\"Eu já dou spoiler, tá? Eu fui pra casa pensar.\"). A correção proposta piora: \"foram uns dez minutinhos numa sala de espera\" não espia nada (não tem a graça do 27) e duplica o número que o parágrafo seguinte já traz."
+  },
+  {
+   "revisor": "fidelidade",
+   "trecho": "fontes: \"fontes/voz/amostra-fala-analuiza.txt; fontes/01-framework-715.md (p.1)\"",
+   "detalhe": "O capítulo usa \"Eu já dou spoiler, tá?\", que vem de amostra-fala-analuiza-03.txt (linha 25, história do coach de gestão de tempo), não da fala da salinha. O uso como tique de voz é legítimo, mas o rastro de fontes no frontmatter não registra de onde a frase saiu.",
+   "motivo": "Refutado pelo critério (3): o campo 'fontes' do front matter não é renderizado (render_pdf.py usa só numero, kicker, prova, hud, titulo, subtitulo), então a leitora nunca vê esse rastro e não é prejudicada. Além disso 'Eu já dou spoiler, tá?' é tique de voz protegido pela whitelist (item 10 e candidato 33, 'forte candidato pra abrir caso'), não um dado, caso ou citação que exija rastro de fidelidade. Acrescentar o arquivo -03 ao rastro é inofensivo e pode ser feito por higiene do pipeline, mas não é um defeito de fidelidade do capítulo."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "Foi assim que eu me senti. E eu pude analisar aquela situação em duas perspectivas, tanto de paciente quanto de vendedora. O que eu quis te trazer foi principalmente a de paciente.",
+   "detalhe": "Ela anuncia que tem uma segunda perspectiva, a de vendedora, e eu viro a página esperando. Não vem. Com a seção 'Doutora é vendedora também' cortada e mandada pro capítulo 12, essa frase ficou apontando pro nada. Eu fico com a sensação de que a parte mais útil pra mim (o lado de quem vende) foi guardada e ninguém me avisou quando volta.",
+   "motivo": "A frase diz 'principalmente a de paciente', o que já rebaixa o lado de vendedora a secundário em vez de prometer que ele vem, e o parágrafo seguinte ('E aqui vem um plot twist') é justamente o lado de vendedora: a doutora descobre que ela trabalha com vendas em clínicas e pede ajuda. A seção 'O que este livro conserta' também é a leitura de quem vende. É fala literal da Ana (A1, l.19-21) e cortar seria achatar a voz sem ganho."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "Olha, por conta de tudo que a doutora trouxe, parará, parará, parará. Foi quase uma cerimônia pra passar o preço.",
+   "detalhe": "O 'parará' eu entendo, é fala de gente. O problema é outro: essa frase que ela ridiculariza ('por conta de tudo que a doutora trouxe...') é, pelo mapa, exatamente a frase de transição que o capítulo 7 vai me mandar usar ('por conta da forma que trouxe... concordo que não tem por que deixar pra depois'). Quando eu chegar lá vou pensar: mas não era isso que ela tirou sarro no capítulo 1? A linha 52 até diz que o problema é a pessoa não ter ouvido nada, mas o sarro cai em cima da frase, não em cima da pessoa. Eu não sei QUANDO essa frase é cerimônia e quando é a frase certa.",
+   "motivo": "Dentro do capítulo 1 não existe confusão: a l.52 já coloca a culpa em quem falou ('o preço veio de uma pessoa que não tinha ouvido nada do meu problema'), e o 'parará' é o único do livro, dentro de fala reproduzida, exatamente como a seção 6 do fingerprint permite. O choque que a leitora descreve só acontece no capítulo 7, que ainda não existe; é lá que cabe o callback ('a mesma frase que virou cerimônia na salinha, aqui fecha, porque quem diz ouviu tudo'). A correção proposta antecipa a lição, esvazia a ironia do momento e explica o que o texto já mostra."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "Sete passos, do primeiro oi ao comprovante do PIX. E o preço só entra no último.",
+   "detalhe": "Aqui eu, que atendo o WhatsApp entre um paciente e outro, penso na hora: legal, mas oitenta por cento das minhas mensagens começam com 'quanto é o preenchimento labial?'. O preço não entra no último, ele entra no primeiro oi, pela boca dela. O capítulo promete que o preço fica pro fim e não me dá nem meia linha de esperança sobre o que fazer com quem já perguntou. Sei que o capítulo 11 resolve, mas eu não sei disso nesta página, e é o momento em que eu decidiria se continuo lendo ou vou dormir.",
+   "motivo": "O parágrafo anterior (l.52) já nomeia o caso da leitora sem rodeio: 'a mesma que pergunta o preço no WhatsApp e some' e 'ela chegou com um problema, alguém respondeu com um número'. 'O preço só entra no último' vem logo depois de 'antes de passar qualquer número', ou seja, fala de quando VOCÊ passa o preço, não de quando ela pergunta. A sinalização proposta ('tem um capítulo inteiro só pra isso mais pra frente... segura a curiosidade') é aviso de professor, tell de estrutura, e fere o fecho sem moral (item 24)."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "Porque eu já tava completamente na emoção. Eu já tinha entendido que aquilo resolvia o meu problema. Mas aí eu saí e esperei. E não foi só ter saído e esperado. Foi ter saído, ter esperado, ter pensado.",
+   "detalhe": "Ela já tinha me explicado por que a aura morreu (não estava mais falando com a especialista, e sim com quem faz transação). Agora explica de novo com outro 'porque', e a escadinha 'saído, esperado, pensado' é efeito de palco que em texto vira três frases pra dizer o que a próxima linha ('cara, e se esse negócio for muito caro?') diz sozinha e melhor. É o trecho onde meu dedo já quer descer a tela.",
+   "motivo": "Protegido explicitamente pela whitelist: item 2 (anáfora em escada) cita este exato trecho como o degrau de autocorreção que NÃO se corta, e a seção 6 usa 'Não foi só ter saído e esperado. Foi ter saído, ter esperado, ter pensado.' como modelo de como converter a repetição oral em escrita. O 'Porque' abrindo parágrafo depois de pancada curta ('Lá dentro.') é o ritmo dela (item 6). A versão encurtada é exatamente o que o fingerprint diz que um editor de tells faria de errado."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "É óbvio que eu tô sendo muito irônica e exagerada aqui. Mas eu não pude deixar de pontuar esse sentimento.",
+   "detalhe": "Fora dos trechos focados, mas é onde eu pularia. A autora acabou de me dar uma imagem forte (animal indo pro abatedouro) e na frase seguinte pede desculpa por ela. Em fala, ao vivo, isso amortece a plateia. Em texto, esvazia a imagem e eu fico com a sensação de que ela não confia no que acabou de escrever.",
+   "motivo": "É fala literal (A1, l.29) e está dentro da dose sancionada pelo fingerprint: candidato 25 permite 'É óbvio que' no máximo 1 vez por capítulo e só em capítulo irônico, e este é o capítulo irônico com essa única ocorrência; candidato 29 registra a ironia com aviso como hábito dela em A1. A concessão colada na frase forte é traço confirmado (item 14). Cortar é gosto do revisor contra assinatura documentada; na dúvida, fica."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "E eu vou aproveitar pra contar um caso meu, que aconteceu duas ou três vezes, de eu ir numa clínica, em alguma especialidade, e acontecer exatamente esse movimento.",
+   "detalhe": "É a segunda frase do livro inteiro e começa com 'E eu vou aproveitar', que pressupõe uma conversa anterior que não existe na página. Resíduo de transcrição de aula. Não é grave, mas é a primeira impressão do texto e ela chega com o cadarço desamarrado.",
+   "motivo": "A conversa anterior existe na página: é a pergunta da linha 12, e o 'vou aproveitar' se apoia nela, igual na fala original (A1, l.1-3, mesma sequência). Frase começando com 'E' (item 5, 22% das frases) e aviso de que vai contar caso próprio (item 7, 3 de 3) são confirmados. A reescrita proposta ainda troca 'em alguma especialidade' por 'clínica de especialidade diferente', que muda o sentido."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "O script que você vai ler nos próximos capítulos nasceu de uma frase que a gente repete nas clínicas por aqui: «para vender qualquer coisa, é só vender aquilo que a pessoa já quer comprar».",
+   "detalhe": "'A gente repete nas clínicas por aqui' é o único momento da seção nova em que eu sinto alguém do outro lado da mesa. Quem é 'a gente'? 'Por aqui' é onde? Soa como um time de uma empresa falando de dentro do livro, e eu ainda não fui apresentada a esse time. Não chega a ser venda, mas é a única frase que me lembra que existe uma empresa por trás.",
+   "motivo": "'por aqui' é tique dela (A1: 'nas mais de 3 mil clínicas por aqui') e a seção 6 manda manter exatamente 'por aqui'; 'a gente' inclusivo na prescrição é confirmado 3 de 3 (item 17). A correção proposta remove os dois e inventa 'há anos pra toda doutora que me pergunta como vende mais', dado que não está em fonte nenhuma. Se quiser ancorar o 'a gente' sem inventar, dá pra devolver a âncora real da fala: 'uma frase que a gente repete nas mais de 3 mil clínicas que eu acompanho', número redondo que é dela (item 12)."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "A pessoa que manda mensagem já quer. O trabalho é entender o que ela quer antes de passar qualquer número.",
+   "detalhe": "Prescrição seca, sem amortecedor. Hábito da whitelist apagado pelo corte da seção 'Doutora é vendedora também': item 14 (\"Concessão de humildade colada na prescrição: 3 de 3\", dose 1 a 2 por capítulo, \"sempre colada na prescrição\"), item 18 (\"'acho que' amortecendo a prescrição: 2 de 3\") e item 17 (\"'a gente' inclusivo na prescrição\"). Na A1 a mesma prescrição saía assim: \"Acho que vale a pena a gente se capacitar para poder vender na sala, na consulta\", precedida de \"E aqui eu não estou falando que existe um certo ou errado\". Tudo isso foi embora com a seção, e o capítulo 1 ficou com uma única prescrição (\"O trabalho é entender...\" + \"E o preço só entra no último.\") no tom de regra absoluta, que o fingerprint diz que ela não usa: \"Ela dá a posição como observação (...), não como regra. E amortece com 'acho que' quando prescreve.\" Contagem no capítulo atual: \"acho que\" na voz dela = 0; concessão de humildade = 0; \"a gente\" na prescrição = 1 (\"a gente repete nas clínicas por aqui\", que é observação, não prescrição).",
+   "motivo": "Refutado. \"O trabalho é entender o que ela quer antes de passar qualquer número\" não é prescrição à doutora, é a descrição do mecanismo do script, colada na epígrafe do framework («vender aquilo que a pessoa já quer comprar») e no \"a gente repete nas clínicas por aqui\": ela apresenta como prática da casa, e nas amostras ela afirma mecanismo sem amortecedor (\"Não foi nada externo, é sempre algo interno\", \"Eu estava fazendo o que não precisava ser feito\"); o \"acho que\" dela aparece quando manda a doutora fazer algo consigo mesma (\"se capacitar\"), que é justamente o bloco que a rodada 1 decidiu levar pro cap. 12. A dose \"1 a 2 por capítulo\" é pra 2.000 palavras e este capítulo tem 765; falta de hábito não é tell, e nenhuma leitora sente falta de um \"acho que\" aqui. A correção ainda enfraquece a tese do livro no momento em que ela nasce e copia quase literal a construção de A1 (\"Acho que vale a pena a gente se capacitar\") que o cap. 12 vai usar, criando fórmula repetida."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "O script que você vai ler nos próximos capítulos nasceu de uma frase que a gente repete nas clínicas por aqui: «para vender qualquer coisa, é só vender aquilo que a pessoa já quer comprar».",
+   "detalhe": "\"O script que você vai ler nos próximos capítulos\" é voz de editor, não dela. O aviso dela é sobre o que vai contar (\"E eu vou aproveitar para contar um caso meu\", \"eu queria compartilhar com vocês\"), nunca sobre a estrutura do que vem depois. E o capítulo inteiro nunca diz o nome do script: \"715\" só aparece no frontmatter (hud). Pra leitora, \"O script\" chega sem referente. Ela cunha o termo e usa (item 22: \"Cunha o termo e define nas frases seguintes\"); aqui o termo nem é dito.",
+   "motivo": "Refutado. \"O script\" tem referente pra leitora real: \"Script 715\" está na capa, no selo, no rodapé e no HUD de toda página (\"Script 715 · Capítulo 01\"), e o subtítulo da capa já diz \"O script de atendimento que a gente usa nas clínicas da mentoria, do primeiro oi ao comprovante do PIX\"; o bloco 0 (\"como usar este livro\") vem antes. Anunciar o que vem é hábito dela (A2 \"Ontem eu indiquei um livro e hoje eu vou indicar outro\", \"Aí vai mais uma indicação\"; A3 \"um livro que eu vou indicar pra você aqui também\"), o detector-v2 não marcou a frase, e a rodada 1 já julgou esse cluster de narração do próprio texto e decidiu cortar \"Guarda essa pergunta\" e \"Antes de virar a página\" mantendo exatamente esta linha. Dizer o nome no corpo é opcional, não correção; gravidade baixa e sem prejuízo à leitora."
+  }
+ ],
+ "cego": {
+  "veredito": "ia",
+  "confianca": 60,
+  "pistas": [
+   {
+    "trecho": "No consultório, o preço veio de uma pessoa que não tinha ouvido nada do meu problema. No WhatsApp, o preço vem de uma pessoa que não perguntou nada, antes mesmo de ela pisar na clínica. É o mesmo movimento, só que mais cedo.",
+    "pista": "Quebra de registro. As duas primeiras seções são fala transcrita quase crua (\"tá?\", \"parará, parará, parará\", \"É óbvio que eu tô sendo muito irônica e exagerada aqui\"), com marcas orais que uma pessoa produz falando e que ninguém inventa escrevendo. A seção final vira antítese simétrica, frase curta de fecho, zero oralidade. Duas mãos diferentes: a matéria-prima é humana, a montagem do capítulo não é. O veredito é sobre quem montou o capítulo, e isso é o que segura a confiança em 60 e não mais."
+   },
+   {
+    "trecho": "Na sua clínica, você tem a salinha do fechamento ou a salinha do pagamento? Quantas pessoas foram pra casa pensar esse mês? E quantas perguntaram o preço no seu WhatsApp e nunca mais responderam?",
+    "pista": "Composição em anel: a pergunta de abertura volta palavra por palavra no fecho, seguida de duas perguntas em escalada (clínica → mês → WhatsApp). Fecho triplo com paralelismo é receita de editor/gerador, não jeito de quem fala. Quem contou o caso não fecharia repetindo a própria primeira frase."
+   },
+   {
+    "trecho": "fontes: \"fontes/voz/amostra-fala-analuiza.txt; fontes/01-framework-715.md (p.1)\"",
+    "pista": "O próprio arquivo declara que foi produzido a partir de uma amostra de fala e de um documento de framework. Isso é rastro de pipeline de geração, não de alguém sentando pra escrever. Explica exatamente o que se vê no corpo: transcrição reaproveitada nas duas primeiras seções e ponte redigida na terceira."
+   },
+   {
+    "trecho": "Se eu tivesse entendido o preço na sala, talvez eu teria fechado. Lá dentro.",
+    "pista": "Fragmento isolado como parágrafo pra dar punch (\"Lá dentro.\", \"Diagnóstico feito.\", \"Por quê?\"). Na fala transcrita isso não existe; é corte de edição imitando ritmo de copy. Aparece de forma regular demais ao longo do texto, o que sugere regra aplicada, não instinto."
+   },
+   {
+    "trecho": "Ela chegou com um problema, alguém respondeu com um número, e ela foi ruminar sozinha, do jeito que eu ruminei naqueles dez minutinhos.",
+    "pista": "Costura por callback: a seção final reaproveita \"ruminar\" e \"dez minutinhos\" da transcrição pra soldar o caso ao produto (\"Sete passos, do primeiro oi ao comprovante do PIX. E o preço só entra no último.\"). É técnica de quem recebeu o material pronto e precisava ligar as pontas, e o ritmo dessa frase de produto é de anúncio, não do resto do capítulo."
+   }
+  ]
+ }
+}

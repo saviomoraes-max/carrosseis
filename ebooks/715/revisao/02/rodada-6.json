@@ -1,0 +1,36 @@
+{
+ "capitulo": "/Users/saviomoraes/reconecta/ebooks/715/manuscrito/02-vender-o-que-ela-ja-quer-comprar.md",
+ "rodada": 6,
+ "brutos": 0,
+ "confirmados_n": 0,
+ "altas_confirmadas": 0,
+ "por_revisor": {},
+ "confirmados": [],
+ "refutados": [],
+ "cego": {
+  "veredito": "ia",
+  "confianca": 65,
+  "pistas": [
+   {
+    "trecho": "Mas eu acho que o que decide é o que acontece depois que a paciente manda a mensagem, porque quando chega menos gente cada conversa que morre pesa mais, e essa é a única parte que dá pra mudar já na próxima mensagem. [...] O que muda de uma clínica pra outra é o que acontece depois. E isso é comportamento, é interno.",
+    "pista": "Costura visível entre dois registros. Os parágrafos anteriores são fala transcrita (repetição de 'diferentes', 'aí uma outra falou', 'o que que'). Aqui o texto vira prosa escrita e repete a mesma ideia ('o que acontece depois') duas vezes no mesmo parágrafo, com um 'eu acho que' colado na frente pra soar oral. É o padrão de ponte gerada pra ligar transcrição a seção nova."
+   },
+   {
+    "trecho": "A paciente pergunta o preço do preenchimento, mas o que ela quer é parar de ouvir que tá com o olhar cansado.",
+    "pista": "Antítese fechadinha (pergunta X / quer Y) com exemplo concreto sob medida e um 'tá' polvilhado pra disfarçar. Quem fala improvisando não entrega a frase tão simétrica; quem escreve com modelo entrega exatamente assim."
+   },
+   {
+    "trecho": "a paciente que se sente entendida responde mensagem longa, e a que se sente vendida responde com uma palavra. Você já deve ter visto as duas.",
+    "pista": "Aforismo espelhado (entendida/longa vs vendida/uma palavra) seguido de fecho curto que convida ao reconhecimento. Estrutura de copy trabalhada, não de aula falada; e aparece várias vezes no capítulo (item 1, item 7), sempre com o mesmo ritmo."
+   },
+   {
+    "trecho": "Não é sete passos para agendar todo mundo. É a paciente sair da conversa querendo marcar sem ninguém ter empurrado",
+    "pista": "Negação + pivô ('não é X, é Y') e a metáfora do 'empurrar' mantida com disciplina ao longo do capítulo ('começa a empurrar já na segunda mensagem', 'a paciente sente o empurrão'). Consistência temática assim é controle de escrita, não fluxo de fala."
+   },
+   {
+    "trecho": "Você consegue perceber, no meio da conversa, quando você tá respondendo em vez de perguntar? Aliás, você tem relido as conversas depois que a paciente some?",
+    "pista": "Fecho em pergunta dupla, calibrado pra deixar gancho pro próximo capítulo, com 'aliás' pra soar espontâneo. É molde editorial de encerramento. O que segura a confiança em 65 e não mais alto: a base (abertura, 'mais de 3 mil clínicas por aqui', 'olhando pro visto azul', o 'tenha vindo ou não' com concordância torta) é claramente pessoa falando; a camada escrita por cima é que tem a assinatura de modelo."
+   }
+  ]
+ }
+}

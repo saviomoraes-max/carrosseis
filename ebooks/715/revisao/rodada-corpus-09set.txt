@@ -1,0 +1,187 @@
+
+==========================================================================================
+BLOCO 03  (03-passo-1-conexao.md)
+==========================================================================================
+
+--- troca 0 [alta] ---
+NO LIVRO: E é exatamente isso que faz ela relaxar. Acho que ninguém relaxa com quem já decidiu vender. A gente relaxa com quem ainda está decidindo se dá pra ajudar.
+MOTIVO:   As duas últimas frases são um par espelhado perfeito, com o mesmo verbo nos dois lados e a estrutura invertida. O fingerprint mediu zero espelhamento dos dois lados no corpus inteiro, e é justamente esse tipo de fecho redondo que os leitores cegos descrevem como ritmo calibrado. Fora isso, "relaxar" fica abstrato aqui: no corpus ela explica a mecânica (tirar a pressão de decidir agora) e ainda dá 
+CÉTICO:   As três falas são literais (8384, 3048, 3050) e a de 8384 é justamente a justificativa do "ou não" ("até para eu entender se eu consigo te ajudar no seu caso ou não / porque às vezes eu nem vou conseguir"), então o par espelhado inventado sai e entra mecânica dela. O defeito é o enxerto: colar "porque às vezes eu nem vou conseguir" logo depois de "faz ela relaxar" inverte a causa (no corpus esse "
+PROPOSTA: Gente, esse “ou não” é o coração do passo. Quando você diz pra paciente que primeiro precisa entender se a doutora consegue ajudar no caso dela, você está dizendo que existe a possibilidade de não conseguir, tá? Porque às vezes eu nem vou conseguir. E aí é como se eu tivesse tirado de cima dela toda a pressão de que ela tem que fazer alguma coisa naquele momento. Então ela começa a relaxar, porque antes ela tá assim, ó, dura igual uma pedra, uma porta que ela não tá abrindo brecha para mim.
+
+--- troca 1 [alta] ---
+NO LIVRO: E se qualificar é o oposto do que parece. Quanto mais você elogia a doutora, mais ela sente que está sendo vendida.
+MOTIVO:   "É o oposto do que parece" é formulação de ensaio, e a segunda frase é uma escada de comparativo (quanto mais X, mais Y) que fecha redondo. Ela fala de se qualificar duas vezes no corpus e das duas vezes é melhor: primeiro ela se inclui no erro em vez de acusar, que é o jeito dela de prescrever, e depois ela dá a frase inteira que a paciente ouve e a conclusão que a paciente tira. "Você é só mais 
+CÉTICO:   As três falas são literais (802, 8180, 8182) e o corpus repete a mecânica em outro treinamento (9418 a 9424: elogio genérico à doutora, "você é só mais uma", "uma dentre todas as outras"), então a escada de comparativo inventada sai com lucro. O problema é de pronome: "ela adora atender pacientes como você" faz "você" virar a paciente no meio de um parágrafo onde "você" é a atendente, e sem marcar
+PROPOSTA: E se qualificar, na verdade, chega a ser automático mesmo, ainda mais quando a gente gosta do trabalho da doutora ou de onde a gente trabalha, né? Só que pensa no que chega do outro lado. Você escreve “a doutora adora atender pacientes como você”, ou seja, ela adora atender todo mundo. Você é só mais uma, entendeu?
+
+--- troca 2 [media] ---
+NO LIVRO: Tirar a resistência inicial, aquela desconfiança de quem chama numa clínica e já espera ser empurrada.
+MOTIVO:   O aposto é uma interpretação minha do que a paciente estaria sentindo, e ainda por cima é abstrata: desconfiança e ser empurrada são palavras que não aparecem nesse sentido no corpus. Ela nomeia a mesma coisa pelo comportamento que a leitora vê na tela, com a mensagem literal que chega de volta, e o nome que ela dá para o motivo é medo de se comprometer, que é vocabulário dela (o fingerprint regis
+CÉTICO:   As duas falas são literais (6098 e 6100) e o aposto acusado é mesmo invenção: grep de "empurr" no corpus só devolve "empurrãozinho" (3354) e a passagem sobre pressionar (9700), nada de paciente que "já espera ser empurrada". O defeito é o lugar: colando depois da lista, o parágrafo deixa de terminar em "ajudar ou não" e o parágrafo seguinte abre com "esse 'ou não'" sem antecedente colado. Basta vi
+PROPOSTA: Mantém a lista como está: "Três coisas, ó, e as três acontecem na mesma mensagem. Abrir espaço pra conversa. Tirar a resistência inicial. E mostrar que você está ali pra entender se consegue ajudar ou não." Depois do parágrafo do “ou não”, entra parágrafo novo: "E a resistência é isso, ó: ela esquiva de todas as respostas que ela deveria dar, eu faço uma pergunta, ela me responde “o que que é o preço?”. É entender que aquela pessoa, ela tá com medo de se comprometer."
+
+--- troca 3 [media] ---
+NO LIVRO: Parece pronta, né? Aí você manda o horário e ela some e você fica sem entender.
+MOTIVO:   "E ela some e você fica sem entender" é narração de redator, com o "e" emendando para dar ritmo. Ela tem o nome do fenômeno e o repete no lugar de explicar, que é o hábito que o fingerprint descreve (onde um editor poria "ou seja", ela repete o miolo da frase sozinho). "Mais que decidida" é dela e é mais forte que "parece pronta".
+CÉTICO:   As duas falas são literais (7056 e 7058) e o contexto é exatamente o caso do livro: 7048 traz a paciente que chega com "quero agendar uma consulta, quanto custa?" e vai direto pros finalmentes, e 6920 nomeia o erro ("Achar que o lead que falou quero agendar uma consulta tá pronto para agendar"), que é o mesmo último item do "O que evitar" do framework. Não quebra nada: "ela some" da frase seguinte
+PROPOSTA: Parece pronta, né? Só que o que mais acontece é aquela pessoa mais que decidida, ela morre no meio da conversa. Ela desaparece no meio da conversa.
+
+==========================================================================================
+BLOCO 04  (04-passo-2-situacao.md)
+==========================================================================================
+
+--- troca 0 [alta] ---
+NO LIVRO: E aí vem a parte que eu mais vejo dar errado, gente: ela disse “rosto flácido”, você sabe o que é flacidez, você já tem três protocolos na cabeça e a próxima mensagem já sai explicando bioestimulador, e por fora parece atendimento bom, mas é a conversa morrendo de novo, só que mais tarde.
+MOTIVO:   O livro descreve o mecanismo em segunda pessoa, com um número inventado (“três protocolos”), e nomeia o erro por rodeio. Ela tem nome para isso e o exemplo é dela: maldição do conhecimento, com o bioestimulador e as rugas. Além disso ela prescreve em “a gente”, se incluindo no erro, que é o pronome de doutrina medido no fingerprint (a gente 17,62/mil, “a gente precisa” 33 contra “você tem que” 1).
+CÉTICO:   Grep achou tudo literal nas linhas 1564, 1566, 1568 e 1570 do corpus, e o trecho do livro está exato na linha 18. A fala é justamente a origem do que o livro parafraseou (maldição do conhecimento, bioestimulador, rugas), então diz a mesma coisa e ainda devolve o nome do erro e o "a gente" que o livro tinha trocado por segunda pessoa. Sem travessão, sem itálico, marcador oral em dose baixa.
+PROPOSTA: A paciente passou do passo um. Ela respondeu contando. E aí vem a parte que eu mais vejo dar errado, gente. Um dos maiores erros que a gente comete: quando a pessoa começa a falar sobre o problema, ela dá uma palavra e a gente entende o contexto inteiro. Ela fala bioestimulador, eu já sei qual que é o diagnóstico completo. Se ela fala rugas, linhas de expressão, já sei tudo e não precisa falar mais nada, porque é maldição do conhecimento. A gente sabe do que ela tá falando, sabe? E aí a próxima mensagem já sai explicando o tratamento, e por fora parece atendimento bom, mas é a conversa morrendo de novo, só que mais tarde.
+
+--- troca 1 [alta] ---
+NO LIVRO: E até você saber que lugar e que momento, você não sabe o problema dela. Você sabe o nome que ela deu.
+MOTIVO:   “Você sabe o nome que ela deu” é máxima copular fechando redondo, o traço que o fingerprint manda cortar (parar de resolver todo parágrafo) e que os leitores cegos leem como ritmo de copy calibrado. A imagem dela é melhor porque é física e não fecha: o balde vazio, seguido de uma enumeração que se atropela e termina em “nada”. É também a única passagem do corpus que usa a palavra flacidez do jeito
+CÉTICO:   Literal em 1572, 1574, 1654, 1656 e 1658, com o corte declarado por [...] honesto, e o trecho existe exato na linha 20. O balde vazio faz o mesmo trabalho da máxima (você não sabe o problema, só o nome) e não bate de frente com a linha 62, porque ela diz que você não sabe como ela sente, não que você deva perguntar. Único reparo não declarado: "uma um balde" virou "um balde", que é gagueira de tra
+PROPOSTA: Porque flacidez, pra ela, é uma coisa que ela vê no espelho, num lugar específico, num momento específico. Eu entendo como que resolve flacidez. Mas o que flacidez é para ela? Pensa que todo atendimento você é um balde vazio. Você não sabe como ela sente, você não sabe quem é ela, você não sabe nem o que que ela tá precisando, nem o que que é flacidez, o que que é ruga, nada.
+
+--- troca 2 [alta] ---
+NO LIVRO: Eu sei que o “mas você é linda” sai como carinho, tá? Só que a paciente escreveu que o rosto dela está caindo, e você respondeu que ela é linda. Ela leu que você não acreditou nela. E ninguém agenda com quem não acreditou.
+MOTIVO:   O livro julga a leitora em segunda pessoa e fecha com uma máxima que não existe em fonte nenhuma. Ela conta o mesmo erro como erro dela, com a frase completa que mandava e com o veredito (“vou lá massagear o ego dela”, “que ranço de quando eu fazia isso, gente”) mais o motivo real, que é comercial e não sentimental: conforto atrasa a decisão. Isso restaura o traço de se incluir no erro antes de co
+CÉTICO:   Tudo literal (6738, 6742, 6744, 6746, 6754, 6756, 6758 e 2788), trecho exato na linha 70, e o motivo real dela (o conforto diminui a velocidade da decisão) substitui bem a lei fabricada, que eu confirmei como sem fonte no sem_fonte 2. Dois defeitos que a alternativa corrige: "Eu já fiz isso bastante" fica com antecedente errado logo depois do :::evite, cujo último item é "E perguntar como ela se s
+PROPOSTA: Eu já fiz isso bastante com o “mas você é linda”, tá? Eu respondia assim e falava: nossa, querida, você é linda, vai ficar ainda mais linda depois que passar pelas mãos da doutora. A pessoa está procurando uma harmonização facial e eu vou lá massagear o ego dela. Nossa senhora, que ranço de quando eu fazia isso, gente. Eu não tô ali para deixar ela confortável, porque esse conforto diminui a velocidade da decisão.
+
+--- troca 3 [alta] ---
+NO LIVRO: A diferença entre as duas leituras é uma coisa só: referenciar. A mesma pergunta, feita solta, é entrevista. Feita depois de repetir a palavra dela, é conversa.
+MOTIVO:   “A mesma pergunta, feita solta, é entrevista. Feita depois de repetir a palavra dela, é conversa” é espelhamento sintático dos dois lados, medido em zero ocorrências no corpus e proibido pelas leis do projeto. No lugar entra o autoteste que ela usa de verdade no meio do atendimento, que é operacional e a leitora consegue aplicar na conversa seguinte. As quatro perguntas em rajada no fim também ele
+CÉTICO:   Literal em 1494 a 1502, trecho exato na linha 83, e o contexto do corpus é exatamente esse (1478 a 1492 fala de pergunta genérica contra pegar a palavra dela), então o autoteste diz a mesma coisa que o par solta/referenciada. A proposta ainda ameniza a redução "uma coisa só" que eu confirmei como problema no sem_fonte 3, e preserva o exemplo final que amarra no gráfico das leituras. Reparo de cont
+PROPOSTA: A diferença entre as duas leituras é referenciar. Eu sempre gosto de pensar o seguinte quando tô atendendo: a pergunta que eu fiz, ela poderia ser feita para qualquer pessoa? Se eu desse um control C, control V nessa pergunta, em qualquer conversa, ela caberia? Então, possivelmente, eu acho que eu tô sendo genérica demais. Como é que eu posso personalizar mais? O que que eu tô deixando passar? “Quando você diz que tá caindo perto do queixo, em que momento você percebe mais isso?” Ela ouve a própria palavra e sente que você leu.
+
+--- troca 4 [media] ---
+NO LIVRO: Cada uma dessas tem um significado diferente na cabeça de cada paciente e o trabalho da gente é descobrir o dela.
+MOTIVO:   A frase do livro é síntese lisa, do tipo que fecha o parágrafo redondo. A fala dela faz a mesma coisa em quatro unidades curtas, com uma pergunta de conteúdo no meio (“o que que é isso para ela?”), que é o modo dela de argumentar: a pergunta colável no lugar da moral. Também recupera o “a gente” duas vezes onde o livro tem “o trabalho da gente”, que já é bom mas está sozinho.
+CÉTICO:   Literal em 1516, 1518, 1520, 1522 e 1546, trecho exato na linha 44, e o entorno do corpus (1538 a 1542, "flacidez para mim é uma coisa, flacidez pro Léo é outra") diz exatamente o que a síntese do livro dizia. A lista de palavras do livro, que vem do manual de perguntas, fica preservada. Único cuidado: cair "aqui" de "cada um aqui vai responder" muda o referente da plateia do treinamento para a pa
+PROPOSTA: Dá pra fazer isso com qualquer palavra que ela trouxer. “Olhar cansado”, “rejuvenescer”, “natural”, “bigode chinês”, “rosto derretendo”, “pele sem viço”, “papada”. Qualquer termo que ela falar é um termo pra gente clarear também. Se ela falar flacidez, a gente clareia flacidez: o que que é isso para ela? Se ela traz qualquer outra coisa, a gente aprofunda exatamente no que ela trouxer. Cada um vai responder de um jeito.
+
+--- sem fonte 0 [media] ---
+AFIRMA:   Ela leu que você não acreditou nela. E ninguém agenda com quem não acreditou.
+BUSCOU:   Corpus: "acredit", "confia", "não acreditou", "se sente ouvida", "ouvida", "é linda", "massagear o ego". Fontes: 01, 02 e 03. O corpus explica o dano do "você já é linda" por dois caminhos diferentes do livro: a pessoa não se sente ouvida (linha 2682
+CÉTICO:   Confirmo: procurei acredit, confia, credibilidade e minimizar nas três fontes e no corpus e não achei nada ligando o "você já é linda" a quebra de crença. A linha 2682 ("a pessoa não se sente ouvida") é sobre pergunta genérica e scriptada, outro caso, e o dano que ela de fato nomeia é 2788, o conforto que diminui a velocidade da decisão. "Ninguém agenda com quem não acreditou" é lei fabricada.
+
+--- sem fonte 1 [media] ---
+AFIRMA:   A diferença entre as duas leituras é uma coisa só: referenciar.
+BUSCOU:   Fontes: 01-framework-715.md, Etapa 2, percepção do paciente, que lista TRÊS causas para a leitura negativa (só fazer perguntas sem referenciar, perguntar como o paciente se sente, copiar o script sem prestar atenção) e duas para a positiva. Corpus: "
+CÉTICO:   Confirmo: o framework lista três causas para a leitura negativa (linhas 122 a 127) e duas para a positiva, e o parágrafo imediatamente anterior do livro repete as três, então reduzir a "uma coisa só" contradiz o próprio bloco duas linhas acima. O corpus reforça isso em 1622 a 1624, onde ela diz que saber o que aprofundar importa mais do que colocar uma referência qualquer.
+
+==========================================================================================
+BLOCO 05  (05-passo-3-presente-inaceitavel.md)
+==========================================================================================
+
+--- troca 0 [alta] ---
+NO LIVRO: A paciente percebe, respondendo a sua pergunta, que ela já está inconformada faz tempo, e que só não tinha dito em voz alta. Quem fez a pergunta foi você. Quem se convenceu foi ela.
+MOTIVO:   O par final "Quem fez a pergunta foi você. Quem se convenceu foi ela." é espelhamento perfeito de dois membros fechando o parágrafo, exatamente o recurso que o fingerprint marca como assinatura de máquina (simetria perfeita, antítese, quiasmo). O corpus tem a mesma tese dita por ela de um jeito mais forte, sem simetria, e ainda fechando com tag de checagem, que é o modo padrão dela de encerrar rac
+CÉTICO:   Grep confirma as duas falas literais no corpus (linha 2328 e linha 2330), palavra por palavra. A tese bate: o trecho do livro diz "quem se convenceu foi ela" e a fala dela diz "a única pessoa capaz de convencer alguém a fazer alguma coisa é ela mesma", com o complemento de que nada do que a atendente fala vale se a paciente não falar junto. Não quebra o parágrafo (a frase anterior já carrega o "qu
+PROPOSTA: Essa última palavra assusta um pouco, então deixa eu explicar como eu entendo. Gente, ninguém cria inconformidade do nada. A paciente percebe, respondendo a sua pergunta, que ela já está inconformada faz tempo, e que só não tinha dito em voz alta. A única pessoa capaz de convencer alguém a fazer alguma coisa é ela mesma. Qualquer coisa que eu falar não vai fazer sentido para ela se ela não falar junto comigo, entendeu?
+
+--- troca 1 [alta] ---
+NO LIVRO: Ela acontece quando a conversa vira interrogatório e a sua pergunta seguinte não tem nada a ver com o que ela acabou de responder. Ela contou do casamento, você mandou a próxima pergunta do script sem citar o casamento, e pronto, ela viu o script.
+MOTIVO:   É a explicação certa, mas dita de fora, em prosa de manual. O corpus tem ela explicando esse mesmo erro em primeira pessoa, com o gesto concreto do atendimento (termino a resposta dela, eu passo pra próxima pergunta) e com a consequência do ponto de vista da paciente (não se sente ouvida), que é justamente a leitura negativa que a seção discute. Também entra a tag "né?" no meio, que o bloco quase 
+CÉTICO:   As três falas existem literais: linha 6550 ("conversa robótica como se eu tivesse entrevistando a pessoa, né?"), linha 6552 ("Termino a resposta dela, eu passo pra próxima pergunta") e linha 2682 ("A pessoa, ela não se sente ouvida"), e o contexto do corpus é exatamente o mesmo erro: pergunta que não tem nada a ver com o que a pessoa respondeu. O restante do parágrafo do livro ("Aí a próxima mensa
+PROPOSTA: A leitura negativa aqui é: “mais uma daquelas técnicas de venda batidas”. Ela acontece quando a conversa vira interrogatório e a sua pergunta seguinte não tem nada a ver com o que ela acabou de responder. Termino a resposta dela, eu passo pra próxima pergunta, e aí fica uma conversa robótica como se eu tivesse entrevistando a pessoa, né? Ela contou do casamento, você mandou a próxima pergunta do script sem citar o casamento, e pronto, ela viu o script. A pessoa, ela não se sente ouvida.
+
+--- troca 2 [alta] ---
+NO LIVRO: E a gente é educada, então a reação é aliviar: “imagina, nem é tão assim”. Eu entendo, é o que a gente faz com amiga. Com paciente, não alivia, porque quem alivia tira dela o motivo que ela acabou de encontrar.
+MOTIVO:   A fala entre aspas (imagina, nem é tão assim) é inventada, e o fecho "quem alivia tira dela o motivo" é máxima composta. No corpus ela conta esse erro como erro dela, com a frase real que ela mandava e com a razão real de não aliviar. É mais concreto, é confissão em vez de prescrição, e a frase que ela cita ainda bate com o que o framework manda evitar (Minimizar o problema: mas você é linda, nem 
+CÉTICO:   As três falas são literais no corpus (2782, 2784, 2788) e o contexto é o mesmo erro: a paciente manda a foto mostrando o problema e ela responde "não, você é linda". Isso é exatamente o que o :::evite da linha 63 proíbe ("Tentar animar a paciente minimizando o problema"), então a troca substitui uma aspa ilustrativa inventada por uma confissão real dela, sem contradizer nada do bloco e mantendo o 
+PROPOSTA: E a gente é educada, então a reação é aliviar. Uma coisa que eu fazia bastante: a pessoa mandava uma foto para mim, e aí a primeira coisa que eu fazia era “não, você é linda, você vai ficar ainda mais linda”. Eu entendo, é o que a gente faz com amiga. Só que eu não tô ali para deixar ela confortável também, porque esse conforto diminui a velocidade da decisão. Deixa ela falar até o fim.
+
+--- troca 3 [media] ---
+NO LIVRO: Agora, se nem assim vem nada, ou se ela topa esperar, o passo três não aconteceu, e quem está convencida é você. Volta pro passo dois e aprofunda até achar o que faz disso um problema agora.
+MOTIVO:   A instrução "volta pro passo dois" chega seca, sem o critério que faz a pessoa reconhecer a situação na conversa dela. O corpus tem ela diagnosticando exatamente esse caso ao vivo, dizendo o que faltou na tela para poder perguntar sobre tolerância. Além de ser dela, o trecho traz um período longo e emendado, que é o tipo de unidade de 20+ palavras que o fingerprint diz faltar no livro (8,4% nela c
+CÉTICO:   Grep confirma as três falas literais nas linhas 386, 392 e 394, e o contexto é ela diagnosticando ao vivo por que a pergunta de presente inaceitável não colou: sem dor e sem problema estabelecidos, a pergunta de tolerância não tem onde se apoiar. É a mesma regra do livro vista pelo outro lado, e a cadeia fecha certinho no "Volta pro passo dois e aprofunda até achar o que faz disso um problema agor
+PROPOSTA: Agora, se nem assim vem nada, ou se ela topa esperar, o passo três não aconteceu, e quem está convencida é você. Não tem nenhum indício de intolerância, entendeu? Ela não falou dor em nenhum momento, nem problema. Então, como não tem nem dor, nem problema, não tem por que a gente perguntar sobre tolerância ou sobre incômodo, sobre prioridade. Volta pro passo dois e aprofunda até achar o que faz disso um problema agora.
+
+--- sem fonte 0 [media] ---
+AFIRMA:   No WhatsApp, emoção não vem com lágrima, vem com história.
+BUSCOU:   Corpus: emoci / emoçã / chorar / chorou / lágrima (só aparecem episódios de choro dela mesma em treinamento, nada sobre como emoção se manifesta em texto); "conta uma história", "contar história", "história específica", "história dela" (zero); "pelo 
+CÉTICO:   Confirmo: varri o corpus por emoção, emocional, chorar, choro, lágrima, história, escrever, por escrito e digitar, e nada afirma que no WhatsApp a emoção se manifesta como história em vez de lágrima. O que existe é o contrário do espírito da frase, a linha 4268 dizendo que nessas perguntas de presente inaceitável áudio curto com tom preocupado é a melhor opção, e o framework (01, linhas 193-194) l
+
+--- sem fonte 1 [baixa] ---
+AFIRMA:   Ela conta do casamento, da separação, do comentário que ouviu, da foto que viu.
+BUSCOU:   Corpus: "casamento", "vou me casar", "noiva" (fartamente presente, inclusive o caso literal "Vou me casar final do ano" seguido de "Ela já trouxe o presente inaceitável", linha 2752, e o "novembro" da linha 3090); "separação", "separou", "divórcio", 
+CÉTICO:   Confirmo parcialmente, e corrijo o garimpeiro: separação, divórcio, ex-marido e afins dão ZERO ocorrência no corpus e nas três fontes, e não achei nenhum caso de comentário de terceiro ouvido pela paciente, então esses dois são invenção. Mas "a foto que viu" TEM lastro: o 02-manual-objecoes.md tem a seção LEAD ENVIOU FOTO com "o que exatamente gostaria que eu notasse olhando sua foto?", e o corpus
+
+==========================================================================================
+BLOCO 11  (11-o-manual-de-respostas.md)
+==========================================================================================
+
+--- troca 0 [alta] ---
+NO LIVRO: Se quiser perder a paciente: “Sim, a avaliação é paga, mas o valor é abatido do procedimento que você for fazer no dia.” Por que não funciona: você acabou de dizer pra ela que a consulta sozinha não vale nada e que ela só vale se virar procedimento no mesmo dia. E é isso que ela escuta. Aí, quando ela não fechar o procedimento, ela também não volta pra consulta.
+MOTIVO:   É o trecho mais composto do bloco: três frases curtas de comprimento quase igual, cada uma fechando redonda, e a terceira inventa uma consequência que não existe em fonte nenhuma pra dar arremate ao parágrafo. O corpus tem o raciocínio inteiro dela sobre exatamente esse erro, e ele é melhor por dois motivos: ela nomeia a intenção de quem erra (a gente acha que vai facilitar o fechamento) antes de 
+CÉTICO:   Grep confirma as tres partes literais no corpus (linhas 1134, 1136 e 1156) e o trecho do livro esta exato na linha 62. A fala trata do mesmo erro (dizer que o valor e abatido no mesmo dia) e a proposta ainda tem o merito de remover a consequencia inventada que o proprio sem_fonte 0 acusa; nao entra em bloco :::frase, nao contradiz o 'Outra que perde' que vem em seguida, e nao tem travessao nem ita
+PROPOSTA: Se quiser perder a paciente: “Sim, a avaliação é paga, mas o valor é abatido do procedimento que você for fazer no dia.” Por que não funciona: a gente acha, quando fala sobre isso, que vai facilitar o processo de fechamento. Só que é exatamente essa percepção que o paciente tem: pô, então tá me forçando a fechar um procedimento, então não quero. Você falar que o valor da consulta é abatido se ela fizer o procedimento no mesmo dia, aí é quase você falando assim: eu vou te dar um descontinho agora porque depois vai ser forçado a fechar um procedimento.
+
+--- troca 1 [alta] ---
+NO LIVRO: Essa objeção aparece quando ela ainda não sabe o que leva da consulta. Durante a conversa não ficou claro como a consulta resolve o problema dela, e aí qualquer preço parece caro, porque ela está comparando com nada.
+MOTIVO:   “Ela está comparando com nada” é imagem de redator, não fala dela, e o parágrafo inteiro tem o ritmo regular que os leitores cegos marcam. O corpus tem a definição dela de gerar valor (que é a doutrina) e uma frase que resolve a mesma coisa com muito mais força: se o valor não for percebido, nem de graça vale a pena. Isso é mais radical e mais dela do que “qualquer preço parece caro”, e derruba a 
+CÉTICO:   As duas falas sao literais (corpus 734 e 4222) e dizem exatamente o que o paragrafo da linha 60 tenta dizer, so que com a definicao dela de gerar valor no lugar da imagem de redator. Bate ate melhor com a fonte 02-manual-objecoes p.243 ('nao ficou claro como o problema dela sera resolvido com a consulta') e o 'nem de graca' antecipa sem contradizer a objecao do concorrente gratuito que aparece na 
+PROPOSTA: Essa objeção aparece quando durante a conversa não ficou claro como a consulta resolve o problema dela. De fato, só existe uma forma da gente gerar valor na conversa, que é quando a pessoa entende que o problema que ela tem a gente consegue ajudar a resolver. E se o valor não for percebido, nem se a consulta for de graça vai valer a pena.
+
+--- troca 2 [alta] ---
+NO LIVRO: Gente, repara que toda resposta que continua a conversa devolve uma pergunta. Nenhuma entrega a informação e para por ali.
+MOTIVO:   As duas frases têm quase o mesmo tamanho e a segunda só nega o que a primeira afirmou, que é o par simétrico que denuncia prosa composta. E o parágrafo entrega a regra sem entregar o porquê. O corpus tem as duas frases dela que sustentam esse capítulo inteiro, e a segunda explica a primeira: quem responde perde o controle. É também onde ela abre com “Até porque penso o seguinte”, que é ritmo de fa
+CÉTICO:   As duas falas sao literais (corpus 2006 e 2008) e explicam a regra do paragrafo da linha 14, mas 'Ela fez uma pergunta so' e anafora orfa: no corpus ela responde a um caso trazido por um participante, e na linha 14 do livro nenhuma paciente especifica foi apresentada ainda, entao o 'Ela' aponta pro vazio. Confirmo com a clausula pendurada removida, o resto entra igual.
+PROPOSTA: Gente, repara que toda resposta que continua a conversa devolve uma pergunta. Nenhuma entrega a informação e para por ali. As perguntas somos nós que fazemos. Até porque penso o seguinte: se a gente responde as perguntas que a pessoa faz, quem tá no controle da conversa é ela.
+
+--- troca 3 [media] ---
+NO LIVRO: Se quiser perder a paciente: “Os procedimentos começam a partir de R$ X.” Por que não funciona: responder com um número tira o foco do valor real e coloca a paciente numa comparação de preços, e ela vai comparar com base em algo que ela não entende e provavelmente vai embora sem nem saber se esse procedimento seria indicado no caso dela.
+MOTIVO:   É um período único de trinta e poucas palavras emendado com “e”, sem nenhuma quebra de checagem, e “tira o foco do valor real” é vocabulário de apostila. Pior: a lógica já foi dita quase igual no capítulo 10 (“ela vai comparar o seu 200 com o preço da clínica ao lado sem saber o que nenhuma das duas consultas resolve”). A pergunta dela fecha o ponto com um exemplo nomeado e devolve o ritmo de fala
+CÉTICO:   A pergunta e literal no corpus (linha 2026) e no contexto exato desta objecao, preco de procedimento no WhatsApp, e o trecho do livro esta identico na linha 28. Fecha o mesmo raciocinio (responder o numero nao ajuda ela a resolver nada), nao entra em :::frase e nao tem travessao nem italico. Vale notar que a repeticao de 'comparacao de precos' com o capitulo 10 continua la, porque a proposta so re
+PROPOSTA: Se quiser perder a paciente: “Os procedimentos começam a partir de R$ X.” Por que não funciona: responder com um número coloca a paciente numa comparação de preços, e ela vai comparar com base em algo que ela não entende e provavelmente vai embora sem nem saber se esse procedimento seria indicado no caso dela. Então, se ela fala o preço do botox, a gente responde o preço do botox, isso vai ajudar ela a resolver qual o problema?
+
+--- sem fonte 0 [media] ---
+AFIRMA:   Aí, quando ela não fechar o procedimento, ela também não volta pra consulta.
+BUSCOU:   No PDF 02-manual-objecoes.md a explicação desse erro é só "Essa resposta só desvaloriza o trabalho e mostra desespero", não há nada sobre a paciente não voltar. Busquei no 01-framework-715.md e no 03-manual-perguntas.md também. No corpus: "abatido", 
+CÉTICO:   Confirmado. A fonte 02-manual-objecoes.md p.247-251 so diz 'essa resposta so desvaloriza o trabalho e mostra desespero', e o 01-framework-715.md p.290 so lista 'mencionar que se voce se sentir segura pode fazer o procedimento no mesmo dia' entre os erros. Rodei tambem 'volta.{0,25}consulta', 'consulta.{0,25}volta', 'nao fech', 'nao comparec', 'some' no corpus e nas tres fontes: existe muita coisa 
+
+==========================================================================================
+BLOCO A  (A-cola-de-uma-pagina.md)
+==========================================================================================
+
+--- troca 0 [alta] ---
+NO LIVRO: «Objeção.» Nunca se responde com informação. Se responde com pergunta.
+MOTIVO:   Duas coisas denunciam prosa composta aqui. Primeiro o reflexivo impessoal "se responde", que não existe uma vez no corpus: quando ela prescreve, o sujeito é "a gente" (33 "a gente precisa" contra 7 "você precisa" e 1 "você tem que"). Segundo, o par de frases invertidas em espelho, "nunca com X, se responde com Y", que é a antítese "não X, é Y" que o fingerprint mede em 1,04 por mil no livro contra
+CÉTICO:   O grep acha as duas falas literais e contíguas no corpus (linha 2006 "as perguntas somos nós que fazemos" e 2008 "se a gente responde as perguntas que a pessoa faz, quem tá no controle da conversa é ela"), o trecho do livro está exato na linha 83, e o contexto da fala é o lead perguntando preço, que o próprio 02-manual-objecoes.md cataloga como objeção na seção 7, então não é "outra coisa parecida
+PROPOSTA: «Objeção.» Se a gente responde as perguntas que a pessoa faz, quem tá no controle da conversa é ela. As perguntas somos nós que fazemos.
+
+--- troca 1 [media] ---
+NO LIVRO: «5. Transição.» Concordar com a decisão que ela já tomou.
+MOTIVO:   É um resumo de editor: infinitivo solto, sujeito escondido, e a informação mais forte da frase (que a decisão já é dela) fica pendurada numa oração relativa. Ela tem a frase inteira pronta no corpus, com sujeito, com a palavra "iniciativa" e com o "a real é que" que é o jeito dela de virar contra o que a pessoa acabou de supor. Isso é justamente o tipo de coisa que a auditoria anterior não podia t
+CÉTICO:   As duas falas são literais (corpus 2796 e 2798) e o trecho do livro está exato na linha 49; o sentido bate, porque "a iniciativa ela já tomou, agora é só concretizar" é a mesma premissa do passo 5, e o sinal do passo anterior ("começa a perguntar da agenda") dá o antecedente que o "A real é que" precisa. Refuto só a segunda frase da proposta: "Aqui a gente só concorda" é prosa nova do garimpeiro, 
+PROPOSTA: «5. Transição.» A real é que a iniciativa ela já tomou. Agora é só concretizar a decisão.
+
+--- troca 2 [media] ---
+NO LIVRO: «2. Situação.» Clarear a palavra dela e aprofundar. Perguntar como ela entende, nunca como ela se sente.
+MOTIVO:   "Clarear a palavra dela e aprofundar" é o verbete do framework copiado, não a fala dela. Numa cola, o exemplo concreto vale mais que o infinitivo, e ela dá o exemplo pronto e com "a gente" duas vezes. O ganho é o mesmo do item 1 do fingerprint: quebrar a regularidade de todas as sete linhas de passo terem exatamente a mesma forma de infinitivo abstrato. Note que a segunda frase eu deixei intacta, 
+CÉTICO:   Grep literal confirma corpus 1518 e 1522, o trecho está exato na linha 25, e o exemplo "flacidez" é o mesmo que o cap. 04 do manuscrito já usa no passo 2, então reforça em vez de contradizer. O reparo que faço é de paralelismo: com a primeira frase virando indicativo com sujeito, deixar "Perguntar" no infinitivo na mesma linha empilha três verbos em duas gramáticas diferentes; o conteúdo da regra 
+PROPOSTA: «2. Situação.» Se ela falar flacidez, a gente clareia flacidez, e aprofunda exatamente no que ela trouxer. E pergunta como ela entende, nunca como ela se sente.
+
+==========================================================================================
+BLOCO B  (B-banco-de-perguntas.md)
+==========================================================================================
+
+--- troca 0 [media] ---
+NO LIVRO: As primeiras servem pra clarear a palavra que ela usou.
+MOTIVO:   É legenda composta e abstrata: nomeia a operação ("clarear a palavra que ela usou") sem nunca fazer a operação. Pior, é cópia literal da mesma frase do capítulo 4, então o leitor cego lê duas vezes a mesma prosa costurada. Ela nunca explica clarear em tese, ela clareia uma palavra na frente de você, e num anexo de lista o exemplo cabe melhor que a definição.
+CÉTICO:   Fala confere literal no corpus (linha 1518: "Se ela falar flacidez, a gente clareia flacidez") e o trecho do livro está exato na linha 34; a acusação de duplicata também se confirma, a mesma frase abre 04-passo-2-situacao.md:30. O contexto da fala é exatamente a operação de clarear termo trazido pela paciente, então a troca faz a operação em vez de nomeá-la. Único incômodo é o eco com a pergunta 1
+PROPOSTA: As primeiras servem pra clarear. Se ela falar flacidez, a gente clareia flacidez.
+
+--- troca 1 [media] ---
+NO LIVRO: Fica claro o que leva resolver esse problema a ser a prioridade agora.
+MOTIVO:   É a frase mais escrita do bloco inteiro. "O que leva resolver esse problema a ser a prioridade" é nominalização de bullet de PDF, ninguém fala assim em voz alta, e ela nunca fala. Ela resume esse passo com uma pergunta seca, e o próprio livro já adotou esse atalho em outros lugares ("por que agora" no capítulo 5 e no anexo A), então a troca só devolve a linha à voz que o resto do livro já usa. Bôn
+CÉTICO:   Fala literal no corpus na linha 2754, e o contexto imediato é o próprio passo três ("Ela já trouxe o presente inaceitável / Por que que ela quer resolver agora?"), então diz a mesma coisa que a legenda. Confirmei as duas contagens do garimpeiro: "por que que" tem 40 ocorrências no corpus e 0 no manuscrito, e "por que agora" já é o atalho do próprio livro em 05:30, 07:30, 12:30 e A-cola:33. Não há 
+PROPOSTA: Aqui fica claro por que que ela quer resolver agora.
+
+--- troca 2 [baixa] ---
+NO LIVRO: Confirmar o entendimento e assegurar o compromisso antes de fechar.
+MOTIVO:   "Assegurar" aparece 0 vez nas 80.938 palavras de fala dela, é o único verbo de circular do anexo e veio inteiro do PDF. O verbo dela para exatamente essa coisa é gerar. A troca é de uma palavra e não mexe em nada do que a fonte afirma.
+CÉTICO:   Fala literal na linha 6834, dentro da lista de erros de atendimento, e ela explica logo abaixo que é ir pro agendamento sem a paciente ter dito que quer, que é exatamente o que a legenda do passo sete previne. Confirmei que "assegur" tem 0 ocorrência no corpus e que a frase atual é cópia verbatim de 03-manual-perguntas.md:113, enquanto o próprio livro já escreve "criado compromisso" (09:74) e "não
+PROPOSTA: Confirmar o entendimento e gerar compromisso antes de fechar.

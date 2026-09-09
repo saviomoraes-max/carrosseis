@@ -1,0 +1,121 @@
+{
+  "arquivo": "/Users/saviomoraes/reconecta/ebooks/715/revisao/12/capitulo-limpo.md",
+  "palavras": 610,
+  "paragrafos": 14,
+  "frases": 42,
+  "mascarado": {
+    "marcadores_bloco": 2,
+    "titulos_curtos": 2
+  },
+  "avisos": [],
+  "amostra_pequena": false,
+  "score": 30,
+  "faixa": "sotaque perceptível (revisar antes de gastar agente)",
+  "pontos": 11,
+  "densidade": 18.0,
+  "formula": "densidade = pontos / max(palavras, piso_palavras) * 1000; score = 100 * (1 - exp(-densidade / k)), k = 50, piso_palavras = 300 (texto curto não explode com um achado só). Nota por categoria usa k_categoria sobre a densidade só daquela categoria.",
+  "categorias": {
+    "conteudo": {
+      "rotulo": "Conteúdo e inflação",
+      "achados": 1,
+      "pontos": 1,
+      "densidade": 1.6,
+      "nota": 10
+    },
+    "linguagem": {
+      "rotulo": "Linguagem e vocabulário",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "estrutura": {
+      "rotulo": "Estrutura e ritmo",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "comunicacao": {
+      "rotulo": "Sobras de chatbot",
+      "achados": 1,
+      "pontos": 10,
+      "densidade": 16.4,
+      "nota": 66
+    },
+    "meta": {
+      "rotulo": "Uniformidade de ritmo (estatística)",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "calques": {
+      "rotulo": "Calques do inglês e burocratês",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    }
+  },
+  "metricas": {
+    "frases_media_palavras": 14.5,
+    "frases_desvio_padrao": 10.2,
+    "frases_cv": 0.7,
+    "paragrafos": 14,
+    "paragrafos_mediana_palavras": 58,
+    "paragrafos_proporcao_mesmo_tamanho": 0.55,
+    "ritmo_entre_paragrafos_desvio": 0.346,
+    "pontuacao_cv": 0.72,
+    "ttr": 0.377,
+    "frases_mesmo_inicio_proporcao": 0.05,
+    "travessoes": 0,
+    "travessoes_por_mil": 0.0,
+    "dois_pontos": 2,
+    "dois_pontos_por_mil": 3.28,
+    "itens_lista": 0,
+    "proporcao_linhas_em_lista": 0.0,
+    "negritos": 0,
+    "triades": 0,
+    "triades_por_mil": 0.0,
+    "contrastes": 0,
+    "paragrafos_terminando_em_pergunta": 2,
+    "fechos_grandiosos": 0,
+    "hedges": 1,
+    "hedges_por_mil": 1.64
+  },
+  "achados": [
+    {
+      "id": "ct_pode_ser_que",
+      "categoria": "conteudo",
+      "subtipo": "hedge",
+      "gravidade": "baixa",
+      "peso": 1,
+      "texto": "pode ser que",
+      "inicio": 1054,
+      "fim": 1066,
+      "explicacao": "Hedge: quem escreve não se comprometeu.",
+      "sugestao": "tome posição, ou diga a ressalva com nome",
+      "contribuicao": 1,
+      "linha": 11,
+      "trecho": "E beleza, «pode ser que» a transação mesmo, o fechamento, fique do lado de fora da sala, até pela experiência da p"
+    },
+    {
+      "id": "cb_placeholder",
+      "categoria": "comunicacao",
+      "subtipo": "placeholder",
+      "gravidade": "critica",
+      "peso": 10,
+      "texto": "[LINK DE AGENDAMENTO COM O TIME]",
+      "inicio": 2979,
+      "fim": 3011,
+      "explicacao": "Lacuna de template não preenchida.",
+      "sugestao": "preencha ou corte",
+      "contribuicao": 10,
+      "linha": 29,
+      "trecho": "«[LINK DE AGENDAMENTO COM O TIME]»"
+    }
+  ],
+  "achados_ocultos": 0,
+  "min_gravidade": "baixa"
+}

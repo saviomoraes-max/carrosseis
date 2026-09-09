@@ -1,0 +1,46 @@
+{
+  "rodada": 2,
+  "data": "2026-09-09",
+  "lente": "corpus de fala da autora (80.938 palavras)",
+  "juri": "opus-5",
+  "brutos": 4,
+  "confirmados_n": 3,
+  "altas_confirmadas": 1,
+  "aplicados": 2,
+  "revertidos_por_colisao": {
+    "A/troca0": "colide com 11/troca2: mesma frase do corpus nos dois blocos"
+  },
+  "resumo": "A cola é um anexo telegráfico, e boa parte dela não é prosa composta, é notação: \"Avança quando...\", \"Um horário, depois o investimento e o PIX\", \"A chave PIX vai numa mensagem separada\". Isso confere linha a linha com o framework e com o manual de objeções, e mexer ali só pioraria. Achei três lugares onde a cola resolveu em prosa de editor o que a Ana já resolveu falando melhor no corpus, e o mais grave é a linha da objeção. \"Nunca se responde com informação. Se responde com pergunta\" é reflexivo impessoal, que ela não usa em lugar nenhum (ela prescreve em \"a gente\", 33 contra 7), e é um par espelhado de duas frases invertidas, exatamente a antítese que o fingerprint manda cortar em dez vezes. No corpus ela diz isso quatro vezes e com causa: se a gente responde, o controle da conversa passa pra ela. As outras duas trocas são o passo 5 (ela tem a frase \"a real é que a iniciativa ela já tomou\", que é literalmente a doutrina do \"concordo\" e que a auditoria anterior não podia ter achado porque não está no PDF) e o passo 2 (ela troca o infinitivo abstrato por um exemplo concreto: \"se ela falar flacidez, a gente clareia flacidez\"). Sobre invenção: o bloco está limpo. Conferi as duas remissões internas (anexo B tem mesmo as outras aberturas, capítulo 11 é mesmo o manual de respostas por objeção), conferi os sinais de avanço de todos os sete passos contra as listas \"Quando avançar\" do framework, e todos batem. Até a regra que eu mais desconfiei, \"só oferece horário de novo quando o sinal daquele passo aparecer\", tem lastro: o framework proíbe \"partir para o fechamento sem ter criado compromisso suficiente\" e no corpus ela conta o próprio erro, \"perdi agendamentos de ter passado Pix pra pessoa sem ter tido um compromisso da parte dela\". Não flagrei. Sobrou uma coisa só, e é pequena: o \"Nunca\" da linha da objeção é mais absoluto do que qualquer fonte, inclusive do que o próprio capítulo 2 do livro, que diz \"não tô te pedindo pra esconder o preço, tô pedindo pra perguntar antes de responder\". A troca T1 já resolve isso de quebra.",
+  "confirmados": [
+    {
+      "tipo": "troca",
+      "gravidade": "alta",
+      "trecho": "«Objeção.» Nunca se responde com informação. Se responde com pergunta.",
+      "fala_dela": "Uma uma coisa, já que essas perguntas que o Léo comentou, eh, você trouxe que ah, ela fez uma pergunta só, mas as perguntas somos nós que fazemos | Até porque penso o seguinte, se a gente responde as perguntas que a pessoa faz, quem tá no controle da conversa é ela",
+      "aplicado": "«Objeção.» Se a gente responde as perguntas que a pessoa faz, quem tá no controle da conversa é ela. As perguntas somos nós que fazemos.",
+      "cetico": "O grep acha as duas falas literais e contíguas no corpus (linha 2006 \"as perguntas somos nós que fazemos\" e 2008 \"se a gente responde as perguntas que a pessoa faz, quem tá no controle da conversa é ela\"), o trecho do livro está exato na linha 83, e o contexto da fala é o lead perguntando preço, que o próprio 02-manual-objecoes.md cataloga como objeção na seção 7, então não é \"outra coisa parecida\". A proposta fica fora de qualquer :::frase, não contradiz a linha 89 (\"Resposta específica, você conversa sobre ela\") e na verdade a destrava, porque remove o absoluto que o cap. 02 do próprio livro já nega (\"eu não tô te pedindo pra esconder o preço\"). Sem travessão, sem itálico, um único \"a gente\"."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "media",
+      "trecho": "«5. Transição.» Concordar com a decisão que ela já tomou.",
+      "fala_dela": "A real é que a iniciativa ela já tomou | Agora é só eh concretizar a decisão",
+      "aplicado": "«5. Transição.» A real é que a iniciativa ela já tomou. Agora é só concretizar a decisão.",
+      "cetico": "As duas falas são literais (corpus 2796 e 2798) e o trecho do livro está exato na linha 49; o sentido bate, porque \"a iniciativa ela já tomou, agora é só concretizar\" é a mesma premissa do passo 5, e o sinal do passo anterior (\"começa a perguntar da agenda\") dá o antecedente que o \"A real é que\" precisa. Refuto só a segunda frase da proposta: \"Aqui a gente só concorda\" é prosa nova do garimpeiro, não fala dela, e seria o terceiro \"a gente\" enfiado num bloco que hoje tem zero e usa \"você\" oito vezes. Uso a segunda metade literal da fala no lugar, que ainda casa com o \"concordo\" da :::frase logo abaixo."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "media",
+      "trecho": "«2. Situação.» Clarear a palavra dela e aprofundar. Perguntar como ela entende, nunca como ela se sente.",
+      "fala_dela": "Se ela falar flacidez, a gente clareia flacidez | Se a gente, se ela traz qualquer outra coisa, a gente aprofunda exatamente no que ela, no que ela trouxer",
+      "aplicado": "«2. Situação.» Se ela falar flacidez, a gente clareia flacidez, e aprofunda exatamente no que ela trouxer. E pergunta como ela entende, nunca como ela se sente.",
+      "cetico": "Grep literal confirma corpus 1518 e 1522, o trecho está exato na linha 25, e o exemplo \"flacidez\" é o mesmo que o cap. 04 do manuscrito já usa no passo 2, então reforça em vez de contradizer. O reparo que faço é de paralelismo: com a primeira frase virando indicativo com sujeito, deixar \"Perguntar\" no infinitivo na mesma linha empilha três verbos em duas gramáticas diferentes; o conteúdo da regra (01-framework-715.md:116, \"Prefira perguntar como ele entende\") fica intacto na forma verbal ajustada."
+    }
+  ],
+  "refutados": [
+    {
+      "trecho": "Nunca se responde com informação.",
+      "motivo": "sem veredito do cetico (falha)"
+    }
+  ]
+}

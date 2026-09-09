@@ -1,0 +1,86 @@
+10-objecao-nao-e-um-nao.md · rodada 1 · brutos 33 · confirmados 17 · altas 3 · cego ia 68
+
+[1] tell/alta
+  TRECHO: Uma objeção não é um "não". É um pedido por mais clareza, mais segurança ou mais tempo. Se você reage com ansiedade, pressa ou justificativa, você perde a paciente.
+  DETALHE: Esteira (2.6) com tríade forçada (2.1) em cima. Esta é a terceira vez em três parágrafos seguidos que o capítulo diz "objeção não é não, é pedido": linha 18 ("Uma objeção não é uma rejeição. É um pedido de mais informaçã
+  CORRECAO: Cortar as linhas 20 a 24 (título "O que a objeção é" e os dois parágrafos). Linha 18 vira: "Eu quero te propor outra leitura dessa mensagem. Objeção não é rejeição. É pedido de mais informação, ou sinal de que ainda não ficou claro pra ela o que a consulta resolve. Se você responde com pressa ou com justificativa, ela some. Se você responde com curiosidade e direção, ela conta o que precisa pensar. Curiosidade é o pensar no quê. Direção é perguntar, em vez de esperar. E aí a conversa voltou."
+
+[2] tell/alta
+  TRECHO: Se você atende WhatsApp de clínica, você já leu essa mensagem mais vezes do que gostaria. E a maioria responde "claro, fico à disposição".
+  DETALHE: O capítulo não tem a Ana dentro. "Eu" aparece 4 vezes em 644 palavras (6 por mil; no fingerprint ela roda a 46 por mil, "o livro é dela e o caso é dela"). Nenhum caso próprio, nenhum aviso de que vai contar, nenhum "vou 
+  CORRECAO: Abrir assim, só com o que o capítulo 1 já contou: "Lá no capítulo 1 eu contei o que passou pela minha cabeça naqueles dez minutinhos de espera: e se for muito caro, será que é prioridade agora, será que eu não encontro outro jeito. Eu, que trabalho com isso todo santo dia. E a doutora, na mesma consulta, tinha me falado que estava com muita gente indo pra casa pensar. Então quando eu leio um vou pensar e qualquer coisa te aviso no WhatsApp de uma clínica, eu sei o que tem atrás, porque já passou pela minha cabeça também. E a maioria responde \"claro, fico à disposição\". Educado, tranquilo, e a conversa acabou ali." Se a frase original ficar em algum lugar, tirar o segundo você: "Se você ate
+
+[3] tell/media
+  TRECHO: Quando a gente encara a objeção como oportunidade, e não como problema, a resistência vira confiança. Eu sei que isso soa como frase de treinamento.
+  DETALHE: Candor encenado (1.6). A frase "a resistência vira confiança" é o manual (p.6: "transformar a resistência em confiança"), abstrata, sem gente. Em vez de cortar, o texto pede desculpa por ela: "Eu sei que isso soa como fr
+  CORRECAO: Cortar as duas frases. O parágrafo já tem o que importa logo em seguida: "Mas repara no que vem depois de vou pensar quando você faz uma pergunta em vez de liberar a paciente. Ela conta o que precisa pensar." (Se a linha 18 for reescrita pelo achado 1, isso já está resolvido.)
+
+[4] tell/media
+  TRECHO: Mas o princípio é um só, e é esse. Objeção se responde com pergunta.
+  DETALHE: Fecho de uma linha que repete o parágrafo (1.2) e recapitulação (4.11). As duas frases são a moral do capítulo dita em voz alta, depois de o capítulo inteiro já ter mostrado. Whitelist item 24, 3 de 3 amostras: ela nunca
+  CORRECAO: Cortar as duas frases. O parágrafo termina em "...e o que responder se quiser continuar a conversa." e emenda direto nas perguntas: "Quantas vezes essa semana você respondeu fico à disposição? E o que aconteceu depois?"
+
+[5] tell/media
+  TRECHO: Você deu a informação, ela pegou a informação, e a informação sem contexto não gera compromisso nenhum.
+  DETALHE: Aforismo de fôrma (1.4), cunhado na hora: "X sem Y não gera Z". Não está no manual (o manual diz "coloca o paciente numa comparação de preços" e "vai comparar com base em algo que ela não entende"). A repetição de "infor
+  CORRECAO: "Você deu o número, ela pegou o número, e com o número na mão ela vai comparar o seu 200 com o 150 da clínica ao lado, sem saber o que nenhuma das duas consultas resolve."
+
+[6] fidelidade/media
+  TRECHO: Se a resposta for vaga, é cortina de fumaça, e a cortina esconde o verdadeiro motivo, que quase sempre é o mesmo: ela ainda não viu valor suficiente na consulta. Não é o preço, não é o marido, não é a agenda. É que em algum passo anterior ficou raso, e a pacie
+  DETALHE: O capítulo 9 (linha 58) promete: "Se ela hesita no horário, o problema não está no horário. Está em algum passo anterior que ficou raso, e insistir no horário só piora. O que funciona é voltar, e eu falo disso no capítul
+  CORRECAO: Manter o parágrafo da linha 44 inteiro (inclusive "quase sempre" e "não é a agenda") e acrescentar logo depois: ⏎  ⏎ É por isso que eu te falei no capítulo 9 que o que funciona é voltar. Voltar é isso: refazer a pergunta do passo que ficou raso. Repara nas duas respostas que o manual dá pro "vou pensar", que você vai ver inteiras no capítulo 11. "O que te fez pensar em resolver isso agora e nos trouxe até aqui?" é a pergunta do passo três. "Como entendeu que a consulta com a doutora vai te ajudar a resolver [problema]?" é a pergunta do passo quatro. Você não inventa uma resposta nova pra objeção. Você volta um passo e pergunta de novo.
+
+[7] leitora/alta
+  TRECHO: Se a resposta for vaga, é cortina de fumaça, e a cortina esconde o verdadeiro motivo, que quase sempre é o mesmo: ela ainda não viu valor suficiente na consulta. Não é o preço, não é o marido, não é a agenda. É que em algum passo anterior ficou raso, e a pacie
+  DETALHE: Aqui eu entendi o diagnóstico e fiquei sem o próximo passo. Ela respondeu vago, eu já sei que é cortina, e agora? Volto pra qual passo? Mando qual mensagem sem parecer que estou insistindo? O capítulo termina a explicaçã
+  CORRECAO: Inserir DEPOIS do parágrafo "Se a resposta for vaga..." (sem mexer nele): ⏎  ⏎ E é aqui que entra o voltar que eu prometi no capítulo 9. Voltar não é inventar resposta nova pra objeção. É refazer a pergunta do passo que ficou raso, e pelo que eu observo esse passo é quase sempre o dois ou o três. Ela disse que vai pensar? Você volta pro problema que ela mesma te contou. ⏎  ⏎ :::frase ⏎ Sem problemas! Pra gente entender se faz sentido seguir também, o que te fez pensar em resolver isso agora e nos trouxe até aqui? ⏎ ::: ⏎  ⏎ Ela vai contar. E a conversa está de novo no passo três, que é onde ela devia ter se convencido e não se convenceu.
+
+[8] leitora/media
+  TRECHO: Isso é real. Ela te contou o medo, o medo tem nome, e você pode conversar sobre ele.
+  DETALHE: "Pode conversar sobre ele" como? A paciente com medo de ficar artificial é o caso que mais me aparece e o capítulo dá o exemplo, me deixa animada, e não mostra nem uma linha do que eu respondo. Fico com a sensação de que
+  CORRECAO: Trocar "Isso é real. Ela te contou o medo, o medo tem nome, e você pode conversar sobre ele." por: ⏎  ⏎ Isso é real. Ela te contou o medo, o medo tem nome, e é o nome que você pergunta. Quando você diz que ficou artificial, o que exatamente te preocupa? Ela vai te contar como ficou e o que ela não quer de novo. É o passo dois de novo, só que sobre o medo, e não sobre a flacidez.
+
+[9] leitora/media
+  TRECHO: Uma objeção não é um "não". É um pedido por mais clareza, mais segurança ou mais tempo.
+  DETALHE: Dois parágrafos antes eu já li "Uma objeção não é uma rejeição. É um pedido de mais informação, ou um sinal de que ainda não ficou claro pra ela". Quando chega o subtítulo "O que a objeção é" e repete a mesma ideia com o
+  CORRECAO: Manter a linha 18 como está. Na seção, cortar "Uma objeção não é um \"não\". É um pedido por mais clareza, mais segurança ou mais tempo." e começar direto em "Se você reage com ansiedade, pressa ou justificativa, você perde a paciente." Renomear o subtítulo "## O que a objeção é" para "## Curiosidade e direção", que é o que a seção entrega.
+
+[10] leitora/media
+  TRECHO: Pra saber qual das duas você tem na frente, pergunta.
+  DETALHE: Vêm dois cards de frase pronta e eu não sei qual uso quando. O primeiro tem [objeção] entre colchetes, o segundo é fixo em "pensar". Pra "vou ver com meu marido" eu uso o primeiro? E pra "vou pensar" o segundo? Além diss
+  CORRECAO: Trocar "Pra saber qual das duas você tem na frente, pergunta." por: ⏎  ⏎ Pra saber qual das duas você tem na frente, pergunta. Uma das duas basta, a segunda é a primeira já com o "vou pensar" dentro. E pergunta com curiosidade, não com cobrança. Ela sente a diferença. ⏎  ⏎ E abrir o parágrafo seguinte com: "Se a resposta for vaga, outro 'te aviso depois' ou um 'ah, não sei', é cortina de fumaça, e a cortina esconde..."
+
+[11] leitora/media
+  TRECHO: Pensa na pergunta mais comum de todas, "quanto custa a consulta?".
+  DETALHE: Até aqui o capítulo era sobre "vou pensar", e de repente o exemplo vira uma pergunta de preço, que pelo que eu entendi não é objeção, é uma pergunta normal. Eu perdi o fio por um instante: estou lendo sobre objeção ou so
+  CORRECAO: Se o achado 0 for aplicado, a cena de abertura já fecha com o card do passo três; basta então trocar "Pensa na pergunta mais comum de todas" por: "Vale pra objeção e vale pra pergunta, porque a regra é a mesma. Pensa na pergunta mais comum de todas, 'quanto custa a consulta?'." ⏎  ⏎ Se o achado 0 NÃO for aplicado, inserir antes desse parágrafo: ⏎  ⏎ :::cena ⏎ ELA: Vou pensar e qualquer coisa te aviso. ⏎ VOCÊ: O que especificamente você precisa pensar? ⏎ ELA: É que eu achei que a avaliação era gratuita. ⏎ ::: ⏎  ⏎ Pronto. O "vou pensar" agora tem nome, e nome tem resposta no capítulo 11. Vale pra objeção e vale pra pergunta, porque a regra é a mesma. Pensa na pergunta mais comum de todas, "quanto custa a consult
+
+[12] leitora/baixa
+  TRECHO: "claro que eu posso te passar mais informações sobre a consulta, antes, pra entender se a doutora vai conseguir te ajudar no seu caso ou não, como você entende que a consulta vai te ajudar?"
+  DETALHE: Essa é a frase que eu mais quero copiar do capítulo e ela está escondida no meio do parágrafo, entre aspas, e não num card como as outras duas. À noite no celular eu ia ter que selecionar texto corrido. E num fôlego só e
+  CORRECAO: Trocar o parágrafo "Agora, se você responde \"claro que...\"" por: ⏎  ⏎ Agora, se você responde assim, a conversa continua. ⏎  ⏎ :::frase ⏎ Claro que eu posso te passar mais informações sobre a consulta. ⏎ Antes, pra entender se a doutora vai conseguir te ajudar no seu caso ou não, como você entende que a consulta vai te ajudar? ⏎ ::: ⏎  ⏎ Você não escondeu o preço. Você disse que vai passar. Só não passou antes de perguntar. ⏎  ⏎ (Se o renderizador não aceitar quebra de linha dentro do card, usar dois cards seguidos: são duas mensagens.)
+
+[13] leitora/baixa
+  TRECHO: Tem uma frase do nosso manual que eu acho que resume esse capítulo
+  DETALHE: Que manual? Eu paguei o livro e aqui a autora cita um material interno que eu não tenho. É a única passagem que me deu sensação de que existe um produto maior atrás desse, e eu não sei se estou lendo o resumo de alguma c
+  CORRECAO: Tem uma frase que eu já te disse lá no capítulo 2 e que eu acho que resume esse capítulo: a forma mais fácil de encerrar uma conversa é com uma resposta.
+
+[14] voz/media
+  TRECHO: Uma objeção não é um "não". É um pedido por mais clareza, mais segurança ou mais tempo. Se você reage com ansiedade, pressa ou justificativa, você perde a paciente. Se responde com curiosidade e direção, você reconquista a conversa, e o agendamento junto.
+  DETALHE: Parágrafo de manual colado na voz dela sem marcação. Três tríades de substantivo abstrato em quatro frases ("clareza, segurança ou tempo", "ansiedade, pressa ou justificativa", "curiosidade e direção") e o verbo "reconqu
+  CORRECAO: Assumir que é citação, do jeito que o próprio capítulo faz mais adiante com "Tem uma frase do nosso manual": "O nosso manual resume assim: objeção não é um não. É um pedido por mais clareza, mais segurança ou mais tempo. Se você reage com ansiedade, pressa ou justificativa, perde a paciente. Se responde com curiosidade e direção, a conversa volta." Aí o "Curiosidade e direção. Eu gosto dessas duas palavras" vira o que é: ela pegando UMA frase de uma fonte e seguindo, como faz com os livros ("performance é igual a potencial menos interferência").
+
+[15] voz/media
+  TRECHO: É isso que o capítulo 11 faz, objeção por objeção: o que responder se quiser perder a paciente, por que não funciona, e o que responder se quiser continuar a conversa. Mas o princípio é um só, e é esse. Objeção se responde com pergunta.
+  DETALHE: Navegação de livro e moral explicada antes do fecho. Fingerprint, fecho em 3 de 3: "nunca recapitula, nunca explica a moral"; whitelist item 24: "Fecho sem moral nem recapitulação". "Mas o princípio é um só, e é esse" é 
+  CORRECAO: No capítulo 11 eu pego uma objeção por vez. Objeção se responde com pergunta.
+
+[16] voz/media
+  TRECHO: Se a resposta for vaga, é cortina de fumaça, e a cortina esconde o verdadeiro motivo, que quase sempre é o mesmo: ela ainda não viu valor suficiente na consulta.
+  DETALHE: "não viu valor suficiente" é vocabulário de venda que ela não usa ("gerar valor" está na lista do que ela NÃO fala). A versão dela desse pensamento é concreta e está nas posições de A1: "Eu já tinha entendido que aquilo 
+  CORRECAO: "Se a resposta for vaga, é cortina de fumaça. E a cortina esconde quase sempre a mesma coisa: ela ainda não sabe se a consulta resolve o problema dela."
+
+[17] voz/media
+  TRECHO: Agora, se você responde "claro que eu posso te passar mais informações sobre a consulta, antes, pra entender se a doutora vai conseguir te ajudar no seu caso ou não, como você entende que a consulta vai te ajudar?", a conversa continua.
+  DETALHE: Frase de 45 palavras com o script inteiro engolido no meio, e a pancada ("a conversa continua") perdida no fim de uma subordinada. O capítulo já tem dois blocos :::frase e este script, que é o mais importante, ficou fora
+  CORRECAO: "Agora, se você responde assim:" seguido do script num bloco :::frase, e depois, em parágrafo próprio: "A conversa continua. Você não escondeu o preço. Você disse que vai passar. Só não passou antes de perguntar."

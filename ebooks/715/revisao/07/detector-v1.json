@@ -1,0 +1,135 @@
+{
+  "arquivo": "/Users/saviomoraes/reconecta/ebooks/715/manuscrito/07-passo-5-transicao.md",
+  "palavras": 446,
+  "paragrafos": 11,
+  "frases": 43,
+  "mascarado": {
+    "frontmatter": 1,
+    "citacoes": 4,
+    "titulos_curtos": 4
+  },
+  "avisos": [],
+  "score": 40,
+  "faixa": "sotaque perceptível (revisar antes de gastar agente)",
+  "pontos": 11.4,
+  "densidade": 25.6,
+  "formula": "densidade = pontos / max(palavras, piso_palavras) * 1000; score = 100 * (1 - exp(-densidade / k)), k = 50, piso_palavras = 300 (texto curto não explode com um achado só). Nota por categoria usa k_categoria sobre a densidade só daquela categoria.",
+  "categorias": {
+    "conteudo": {
+      "rotulo": "Conteúdo e inflação",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "linguagem": {
+      "rotulo": "Linguagem e vocabulário",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "estrutura": {
+      "rotulo": "Estrutura e ritmo",
+      "achados": 2,
+      "pontos": 1.4,
+      "densidade": 3.1,
+      "nota": 19
+    },
+    "comunicacao": {
+      "rotulo": "Sobras de chatbot",
+      "achados": 1,
+      "pontos": 10,
+      "densidade": 22.4,
+      "nota": 78
+    },
+    "meta": {
+      "rotulo": "Uniformidade de ritmo (estatística)",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "calques": {
+      "rotulo": "Calques do inglês e burocratês",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    }
+  },
+  "metricas": {
+    "frases_media_palavras": 10.8,
+    "frases_desvio_padrao": 5.5,
+    "frases_cv": 0.51,
+    "paragrafos": 11,
+    "paragrafos_mediana_palavras": 35,
+    "paragrafos_proporcao_mesmo_tamanho": 0.45,
+    "ritmo_entre_paragrafos_desvio": 0.246,
+    "pontuacao_cv": 0.82,
+    "frases_mesmo_inicio_proporcao": 0.02,
+    "travessoes": 0,
+    "travessoes_por_mil": 0.0,
+    "dois_pontos": 2,
+    "dois_pontos_por_mil": 4.48,
+    "itens_lista": 0,
+    "proporcao_linhas_em_lista": 0.0,
+    "negritos": 0,
+    "triades": 0,
+    "triades_por_mil": 0.0,
+    "contrastes": 0,
+    "paragrafos_terminando_em_pergunta": 0,
+    "fechos_grandiosos": 0,
+    "hedges": 0,
+    "hedges_por_mil": 0.0
+  },
+  "achados": [
+    {
+      "id": "es_reticencias_dramaticas",
+      "categoria": "estrutura",
+      "subtipo": "formatacao",
+      "gravidade": "baixa",
+      "peso": 1,
+      "texto": "... e",
+      "inicio": 354,
+      "fim": 359,
+      "explicacao": "Reticência dramática antes da revelação.",
+      "sugestao": "vírgula ou ponto",
+      "contribuicao": 1,
+      "linha": 13,
+      "trecho": "VOCÊ: Ana, por conta da forma que você trouxe isso«... e» de já estar desde uns dois anos sentindo assim."
+    },
+    {
+      "id": "cb_placeholder",
+      "categoria": "comunicacao",
+      "subtipo": "placeholder",
+      "gravidade": "critica",
+      "peso": 10,
+      "texto": "[Nome]",
+      "inicio": 1216,
+      "fim": 1222,
+      "explicacao": "Lacuna de template não preenchida.",
+      "sugestao": "preencha ou corte",
+      "contribuicao": 10,
+      "linha": 27,
+      "trecho": ":::frase «[Nome]», por conta da forma que trouxe."
+    },
+    {
+      "id": "es_reticencias_dramaticas",
+      "categoria": "estrutura",
+      "subtipo": "formatacao",
+      "gravidade": "baixa",
+      "peso": 1,
+      "texto": "... e",
+      "inicio": 1253,
+      "fim": 1258,
+      "explicacao": "Reticência dramática antes da revelação.",
+      "sugestao": "vírgula ou ponto",
+      "contribuicao": 0.4,
+      "linha": 27,
+      "trecho": "[Nome], por conta da forma que trouxe«... e» de já estar desde [tempo] sentindo assim."
+    }
+  ],
+  "achados_ocultos": 0,
+  "min_gravidade": "baixa"
+}

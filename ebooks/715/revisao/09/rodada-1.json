@@ -1,0 +1,303 @@
+{
+ "capitulo": "/Users/saviomoraes/reconecta/ebooks/715/manuscrito/09-passo-7-fechamento.md",
+ "rodada": 1,
+ "brutos": 29,
+ "confirmados_n": 14,
+ "altas_confirmadas": 4,
+ "por_revisor": {
+  "tell": {
+   "brutos": 9,
+   "confirmados": 5
+  },
+  "fidelidade": {
+   "brutos": 4,
+   "confirmados": 3
+  },
+  "leitora": {
+   "brutos": 6,
+   "confirmados": 4
+  },
+  "voz": {
+   "brutos": 10,
+   "confirmados": 2
+  }
+ },
+ "confirmados": [
+  {
+   "revisor": "tell",
+   "tipo": "tell",
+   "gravidade": "alta",
+   "trecho": "E manda a chave PIX numa mensagem separada, pra ela copiar e colar sem ter que selecionar no meio do texto. Parece detalhe. É a diferença entre pagar agora e pagar quando chegar em casa.",
+   "detalhe": "1.1 Contraste fácil + 3.2 Carimbo de importância (\"E isso não é detalhe\"). A fôrma \"Parece X. É Y.\" aparece duas vezes em 650 palavras; a outra é \"Parece neutra. É a paciente dizendo que a consulta virou um custo.\" A metade \"parece\" é boneco de palha (ninguém disse que era detalhe nem que era neutra) e a frase seguinte só dá nota à anterior. O contraste da Ana vem com negativa primeiro e os dois lados carregando fato (\"Não foi nada externo, é sempre algo interno\"); não com \"parece\".",
+   "correcao": "Linha 44: \"E manda a chave PIX numa mensagem separada, porque aí ela só copia e cola. Chave no meio do texto ela deixa pra pagar quando chegar em casa.\" // Linha 62: \"A leitura negativa aqui é uma frase pequena, e passa batida: vou ter que me organizar pra ir na consulta. É a paciente dizendo que a consulta virou um custo. Isso acontece quando o preço da consulta parece maior do que o preço de não resolver o problema, e quando a gente não mostrou, ao longo da conversa, o que a consulta resolve.\"",
+   "motivos": [
+    "Confirmado. A fôrma \"Parece X. É Y.\" não está na whitelist (o item 1 protege \"não X, Y\" com negativa explícita) e aparece duas vezes em 730 palavras aqui, além de ch.03, ch.04 e ch.05: é cacoete do Escritor, não dela. A fonte (framework p.9) só diz \"envie a chave PIX em mensagem separada para facilitar o copiar e colar\"; a correção proposta inventa comportamento a mais (\"seleciona errado, desiste\") e a segunda metade trunca a frase original (some o \"e quando a gente não mostrou, ao longo da conversa, o que a consulta resolve\").",
+    "Confirmado no arquivo: a fôrma \"Parece X. É Y.\" aparece na linha 44 (\"Parece detalhe. É a diferença...\") e na linha 62 (\"Parece neutra. É a paciente dizendo...\"), 18 linhas de distância num capítulo curto, e a leitora sente o eco. A whitelist protege contraste com negativa primeiro (\"não X, Y\") e pancada curta como complemento cortado; \"Parece detalhe.\" não é negativa nem complemento, é frase-juízo nova, então não está coberta. A parte do 'boneco de palha' é fraca (mandar PIX separado parece detalhe mesmo), mas a repetição da fôrma basta. A correção proposta pra linha 44 serve; a da linha 62 corta a oração \"e quando a gente não mostrou, ao longo da conversa, o que a consulta resolve\", que é conteúdo da fonte, por isso vai alternativa que a preserva."
+   ]
+  },
+  {
+   "revisor": "tell",
+   "tipo": "tell",
+   "gravidade": "media",
+   "trecho": "Um horário. Não \"você prefere manhã ou tarde?\", não \"qual dia fica melhor?\". Um.",
+   "detalhe": "1.3 Fragmentos em rajada (rajada de negativas) + 1.1 em cluster. É o terceiro contraste em 250 palavras, e o \"Um.\" de uma palavra é decisão encenada. Somam-se \"Se ela hesita no horário, o problema não está no horário. Está em algum passo anterior que ficou raso\" (a forma partida \"não está X. Está Y.\" que o catálogo cita literalmente) e \"ele não está ali por pressa. O horário dela só passa a existir...\". Total do capítulo: 8 contrastes em 650 palavras. O fingerprint dá 3 a 5 por 2.000. A whitelist protege a forma, não a densidade.",
+   "correcao": "Linha 30: \"Primeiro, você oferece um horário.\" Linha 36 inteira: \"Um horário só. Se não funcionar, ela mesma fala quando pode, e aí você olha a agenda pra aquele dia. E o bastão continua com você: você ofereceu, ela reagiu.\" Linha 58: \"O segundo erro é o que explica quase todo \\\"vou pensar\\\" que chega no fechamento. Se ela hesita no horário, algum passo anterior ficou raso, e insistir no horário só piora. O que funciona é voltar, e eu falo disso no capítulo 10.\"",
+   "motivos": [
+    "Confirmado na densidade, não na forma: contei 8 contrastes em 730 palavras (dose do fingerprint: 3 a 5 por 2.000) e a rajada \"Um. Não... não... Um.\" é a terceira vez que o capítulo diz a mesma coisa (linha 22 e o :::evite já cobrem \"perguntar em vez de oferecer\"). A correção proposta reintroduz esteira: \"o bastão já foi pra mão dela, e ela vai olhar a semana\" repete a linha 22 quase literal, e \"porque ela ainda não entendeu o que a consulta resolve\" desloca a causa da fonte (\"sem ter criado compromisso suficiente\")."
+   ]
+  },
+  {
+   "revisor": "tell",
+   "tipo": "tell",
+   "gravidade": "media",
+   "trecho": "Se não funcionar, ela naturalmente vai dizer quando pode, e aí você verifica a disponibilidade pra aquele momento específico.",
+   "detalhe": "7.6 Advérbio em -mente entre sujeito e verbo (\"she'll naturally say\"; em português o advérbio vai depois do verbo ou some) + 3.10 Intensificador oco: \"específico\" duas vezes em três frases (\"um único horário específico\", \"aquele momento específico\") prometendo detalhe que a frase já deu. O único intensificador da Ana é \"muito\"; \"naturalmente\" não aparece em 1.816 palavras dela. \"Verifica a disponibilidade\" é registro de manual no meio de prosa falada.",
+   "correcao": "Se não funcionar, ela mesma fala quando pode, e aí você olha a agenda pra aquele dia. // E antes: Primeiro, você oferece um horário só.",
+   "motivos": [
+    "Confirmado. A frase é cópia quase literal do framework p.8 (\"o lead naturalmente vai dizer quando pode, e você pode verificar a disponibilidade para aquele momento específico\"), inclusive o \"único horário específico\" redundante; \"naturalmente\" tem zero ocorrências nas 1.816 palavras dela e \"verifica a disponibilidade\" é registro de manual no meio de prosa falada. A correção proposta não introduz tell e já casa com a alternativa do índice 2 (linhas 30 e 36)."
+   ]
+  },
+  {
+   "revisor": "tell",
+   "tipo": "tell",
+   "gravidade": "media",
+   "trecho": "Repara que o bastão continua com você: você ofereceu, ela reagiu.",
+   "detalhe": "5.3 Certificado de importância na versão oral (\"note that\"). \"Repara que\" abre três frases em 650 palavras (linhas 20, 36 e 64); é tique do Escritor, não dela. No corpus da Ana o jeito de pedir atenção é \"ponto importante\" (T2), \"interessante\" e \"olha\" abrindo fala. Três \"repara que\" num capítulo curto viram metrônomo de instrução.",
+   "correcao": "Manter só o primeiro (\"Repara que o preço apareceu pela primeira vez...\"). Aqui: E o bastão continua com você: você ofereceu, ela reagiu. // Na linha 64: E essa lista, ponto importante, é o script inteiro.",
+   "motivos": [
+    "Confirmado. \"Repara\" tem zero ocorrências nas três amostras da Ana e abre três parágrafos em 730 palavras aqui (linhas 20, 36, 64); em capítulo curto vira metrônomo, e o jeito dela de pedir atenção no corpus é \"ponto importante\" e \"interessante\". A correção proposta é boa e coincide com as alternativas dos índices 1 e 2 (linha 36 vira \"E o bastão continua com você\", linha 64 leva o único \"ponto importante\" do capítulo). Fora de escopo, mas vale registrar: o livro inteiro tem 13 \"Repara\"."
+   ]
+  },
+  {
+   "revisor": "tell",
+   "tipo": "voz",
+   "gravidade": "baixa",
+   "trecho": "E ela agradece pelo atendimento e demonstra entusiasmo pra consulta.",
+   "detalhe": "Registro de manual copiado cru da fonte (\"demonstra entusiasmo\" é frase de checklist, família 3.7: verbo de relatório no lugar do verbo simples). A Ana diz \"fica animada\", \"tá na emoção\". Fecha uma anáfora de 4 degraus (\"Ela... Ela... Ela... E ela...\") que é dela, mas o último degrau destoa das outras três frases faladas.",
+   "correcao": "E ela agradece e fica animada pra consulta.",
+   "motivos": [
+    "Confirmado. É cópia crua do framework p.11 (\"Agradece pelo atendimento e demonstra entusiasmo para a consulta\"), verbo de relatório destoando dos três degraus anteriores em fala simples; a correção \"E ela agradece e fica animada pra consulta\" mantém a escada de 4 degraus e não introduz tell. Registro fora de escopo: o capítulo 06, linha 61, tem o mesmo \"demonstra entusiasmo\" copiado da fonte."
+   ]
+  },
+  {
+   "revisor": "fidelidade",
+   "tipo": "fidelidade",
+   "gravidade": "alta",
+   "trecho": "VOCÊ: Perfeito. O investimento da consulta é de R$ 300. Posso te enviar nossa chave PIX agora para confirmarmos seu horário?",
+   "detalhe": "Número inventado. A fonte (framework, Etapa 7, Passo 2) traz o script com placeholder: \"Perfeito. O investimento da consulta é de R$ [valor]. Posso te enviar nossa chave PIX agora para confirmarmos seu horário?\". Nenhuma das três fontes dá valor de consulta. O mapa é explícito: \"nenhum caso, número ou frase pronta que não esteja nas fontes. O único número disponível hoje é 'mais de 3 mil clínicas'\". Numa cena assinada pela Ana, \"R$ 300\" vira, na leitura da doutora, o preço que a RECONECTA sugere pra consulta, e a casa nunca disse isso. O card de frase logo abaixo (linha 41) já está certo com [valor]; a cena contradiz o card.",
+   "correcao": "VOCÊ: Perfeito. O investimento da consulta é de R$ [valor]. Posso te enviar nossa chave PIX agora para confirmarmos seu horário?",
+   "motivos": [
+    "Confirmado: a fonte (framework p.8, Passo 2) traz \"R$ [valor]\" e o mapa proíbe número que não esteja nas fontes; \"R$ 300\" não vem de nenhuma das três fontes nem da fala da Ana, então o item 12 da whitelist (número redondo com fonte nela) não protege. A cena da linha 15 contradiz o card da linha 41 e uma doutora lê o 300 como preço que a casa recomenda. A correção com placeholder funciona: o parágrafo da linha 20 fala da posição do preço na conversa, não do número, e segue de pé.",
+    "Confirmado: 'R$ 300' não existe em nenhuma fonte (grep em 01-framework, 02-objecoes, 03-manual e amostras de fala); o framework p.340 traz literalmente 'R$ [valor]', e o único preço de consulta que aparece nas fontes é 'R$200' no manual de objeções, como exemplo do que NÃO fazer. A whitelist item 12 protege número redondo dito pela Ana ('a fonte é ela'), não número inventado pelo editor, e o mapa-de-capitulos linha 5 veda explicitamente número fora das fontes. Diferente dos detalhes dramatizados das outras cenas (queixo, casamento em novembro), um preço numa cena assinada pela Ana tem peso prescritivo: a doutora lê como valor sugerido pela casa, e a cena ainda contradiz o card [valor] da linha 41, a cola (A, linha 69) e o banco de perguntas (B, linha 81). A correção proposta é a linha literal da fonte, sem travessão e sem tell, e o parágrafo seguinte ('o preço apareceu pela primeira vez na segunda mensagem') continua válido porque fala da posição do preço, não do número."
+   ]
+  },
+  {
+   "revisor": "fidelidade",
+   "tipo": "fidelidade",
+   "gravidade": "media",
+   "trecho": "O \"agora\" aparece nas três mensagens, e ele não está ali por pressa.",
+   "detalhe": "Falso contra os próprios scripts citados no capítulo. A primeira mensagem da fonte é \"O próximo horário disponível na agenda da Dra. Mariana é quinta-feira às 15h. Como fica para você?\" e não tem \"agora\". A palavra aparece só no Passo 2 (\"chave PIX agora\") e no Passo 3 (\"comprovante agora\"). A leitora acabou de ler os três cards e vai conferir.",
+   "correcao": "O \"agora\" aparece duas vezes, no PIX e no comprovante, e ele não está ali por pressa.",
+   "motivos": [
+    "Confirmado: o card da linha 33 (primeira mensagem) não tem \"agora\"; a palavra só aparece nas linhas 41 e 49. A leitora acabou de ler os três cards em sequência e confere na hora. A correção proposta não introduz tell e mantém a pancada curta que fecha o parágrafo."
+   ]
+  },
+  {
+   "revisor": "fidelidade",
+   "tipo": "fidelidade",
+   "gravidade": "media",
+   "trecho": "fontes: \"fontes/01-framework-715.md (Etapa 7, p.8-9); fontes/03-manual-perguntas.md (7. Fechamento, p.3)\"",
+   "detalhe": "O capítulo declara o Manual de Perguntas como fonte e o mapa lista \"Perguntas p.3\" como fonte do capítulo 9, com o esqueleto pedindo \"As perguntas (cards 'frase pronta', texto literal do PDF)\". Mas nada do manual entrou. O manual traz, em 7. FECHAMENTO: o objetivo \"Confirmar o entendimento e assegurar o compromisso antes de fechar\" e quatro perguntas-modelo, das quais duas não existem no framework: \"Se eu conseguir um horário [período mencionado], a gente pode seguir com o seu agendamento?\" e \"Podemos confirmar esse horário para você?\". A primeira é justamente a frase pronta pro caso que o capítulo descreve sem script (\"Se não funcionar, ela naturalmente vai dizer quando pode, e aí você verifica a disponibilidade pra aquele momento específico\"). A doutora fica sem a frase pra hora em que o horário oferecido não serve.",
+   "correcao": "Inserir depois do parágrafo da linha 36 (\"Um horário. Não 'você prefere manhã ou tarde?'...\"):\n\nE quando a quinta às 15h não serve, ela vai dizer quando pode. Antes de você sair procurando esse horário, tem uma pergunta:\n\n:::frase\nSe eu conseguir um horário [período mencionado], a gente pode seguir com o seu agendamento?\n:::\n\nPrimeiro ela diz que segue. Só depois você vai olhar a agenda.",
+   "motivos": [
+    "Confirmado: o frontmatter declara o Manual p.3 como fonte e o esqueleto dos capítulos 3 a 9 manda cards com texto literal do PDF (o capítulo 6 seguiu isso com 4 cards, incluindo os só do manual), mas aqui nada do manual entrou. A linha 36 descreve exatamente o caso do horário que não serve e deixa a doutora sem a frase, que só aparece no Anexo B. A correção proposta abre com um quarto \"Repara que\" num capítulo que já tem três; segue alternativa sem ele, e sem o segundo card, que é redundante com o fluxo."
+   ]
+  },
+  {
+   "revisor": "leitora",
+   "tipo": "leitora",
+   "gravidade": "alta",
+   "trecho": "Se não funcionar, ela naturalmente vai dizer quando pode, e aí você verifica a disponibilidade pra aquele momento específico. Repara que o bastão continua com você: você ofereceu, ela reagiu.",
+   "detalhe": "Aqui eu perco o fio exatamente onde mais preciso. Na minha clínica a resposta mais comum não é \"quinta não dá, mas sexta de manhã posso\", é \"quinta não dá\" e ponto. O capítulo assume que ela \"naturalmente\" propõe outro momento e não me dá a segunda frase. Se eu pergunto \"e qual dia fica melhor?\", caí no erro que o próprio capítulo proíbe dois parágrafos antes. Falta a frase pronta da segunda oferta.",
+   "correcao": "Acrescentar depois de \"você ofereceu, ela reagiu.\": \"E se ela só disser que quinta não dá, sem propor nada? Você oferece o seguinte, do mesmo jeito: 'Então o próximo é sexta às 10h. Como fica para você?' O erro é perguntar antes de oferecer. Depois de oferecer, pode perguntar, porque aí ela já viu que a agenda anda.\"",
+   "motivos": [
+    "A lacuna existe: a linha 36 assume que ela propõe outro momento e a fonte (framework, p.8) faz a mesma suposição, então o caso do \"quinta não dá\" seco fica sem frase. Mas a leitora leu errado o proibido: o :::evite da linha 55 veta perguntar disponibilidade ANTES de oferecer um primeiro horário, não depois de uma recusa. A correção proposta inventa uma regra de \"duas recusas\" que não está em nenhuma fonte; a saída fiel é repetir o passo 1 e esclarecer o alcance do veto.",
+    "O trecho (linha 36) proíbe \"qual dia fica melhor?\" e no mesmo parágrafo assume que ela \"naturalmente vai dizer quando pode\", copiando a fonte (framework p.8) sem cobrir o \"quinta não dá\" seco, que é a resposta mais comum; a atendente fica sem segunda frase e a única saída óbvia é o erro proibido. Não é questão de whitelist (estilo), é lacuna de instrução. A correção proposta inventa regra que a metodologia não ensina (\"só depois de duas recusas pergunta o que funciona\"); a alternativa abaixo fica dentro das fontes: repete a lógica do horário único e reaproveita a pergunta 2 do manual de perguntas, que já está no Apêndice B."
+   ]
+  },
+  {
+   "revisor": "leitora",
+   "tipo": "leitora",
+   "gravidade": "alta",
+   "trecho": "O \"agora\" aparece nas três mensagens, e ele não está ali por pressa. O horário dela só passa a existir quando o comprovante chega.",
+   "detalhe": "Entendi a regra, mas o capítulo para aqui e a minha conversa não para. O que acontece com muita frequência é: ela responde \"pode\", eu mando a chave, e ela some por duas horas, ou manda \"faço o PIX à noite\", ou pergunta se pode pagar na hora da consulta. É o passo do fechamento e o capítulo não diz uma palavra sobre o que eu falo nesse intervalo. O texto só encaminha pro capítulo 10 o caso do \"vou pensar\"; o caso do \"pago depois\" fica sem dono.",
+   "correcao": "Depois de \"O horário dela só passa a existir quando o comprovante chega.\": \"E se ela disser que faz o PIX à noite, ou que paga na hora da consulta? Você diz a mesma coisa, sem mudar o tom: que o horário fica reservado assim que o comprovante chegar, e que até lá ele continua aberto na agenda. Não é cobrança. É a regra, dita uma vez.\"",
+   "motivos": [
+    "O caso \"concordou e não pagou\" não tem dono em lugar nenhum: o capítulo 10 trata o \"vou pensar\" vago e a família \"Consulta paga\" do capítulo 11 (linhas 52 a 75) é sobre a paciente que não sabia que a avaliação era paga, outra objeção. A leitora vai bater nisso no próprio passo do fechamento. Só que a correção proposta pede tempo de espera e frase de retorno, e nenhuma fonte tem isso; inventar cadência viola a fidelidade. Dá pra fechar a lacuna só com a regra que a linha 52 já enuncia, dita pra paciente.",
+    "O capítulo enuncia a regra (linha 52: horário só existe com o comprovante) e encerra; o único encaminhamento é o \"vou pensar\" pro capítulo 10 (linha 58), e o capítulo 11 não tem entrada pra \"faço o PIX à noite\" nem \"pago na hora da consulta\" (a seção Consulta paga trata de \"achei que era gratuita\"). No passo do fechamento, a leitora que já ouviu \"pode\" fica sem a frase do intervalo, e isso ela sente na primeira conversa. A correção proposta pede prazo de espera e frase nova, e nenhuma fonte ensina prazo (inventar número viola a fidelidade); a alternativa abaixo só reusa o que já está no livro: a própria regra do capítulo, a pergunta de retorno do capítulo 11 (\"te falo depois\") e o encaminhamento ao capítulo 10 pra sumiço."
+   ]
+  },
+  {
+   "revisor": "leitora",
+   "tipo": "leitora",
+   "gravidade": "media",
+   "trecho": "E partir pro fechamento sem ter criado compromisso suficiente.",
+   "detalhe": "\"Suficiente\" é a palavra que eu não sei medir. Estou no meio da conversa, ela respondeu tudo, e eu não sei se já posso oferecer o horário ou se ainda é cedo. O capítulo diz que o erro explica quase todo \"vou pensar\", diz que a solução é \"voltar\", mas não diz voltar pra onde nem como eu percebo antes de errar. O sinal de avanço do Passo 4 (ela pergunta da disponibilidade sozinha) resolveria isso e não é lembrado aqui.",
+   "correcao": "Depois de \"Está em algum passo anterior que ficou raso, e insistir no horário só piora.\": \"Suficiente tem medida, e ela veio do Passo 4: se ela ainda não disse, com as palavras dela, o que espera que mude com a consulta, é cedo pra horário. E é pra lá que se volta.\"",
+   "motivos": [
+    "\"Suficiente\" não tem régua no capítulo, e a fonte é igualmente vaga; mas o livro já tem a medida: a pergunta de qualificação do Passo 4 (cap. 06, linha 38) e o sinal \"ela própria começa a perguntar sobre disponibilidade\" (cap. 06, linha 61). Uma linha que amarra os dois não inventa nada. A correção proposta escorrega ao pedir \"pra qual passo se volta\": o cap. 10 (linha 44) diz de propósito \"algum passo anterior\", e apontar um único passo seria inventar."
+   ]
+  },
+  {
+   "revisor": "leitora",
+   "tipo": "leitora",
+   "gravidade": "baixa",
+   "trecho": "ELA: Pode.\nVOCÊ: Consegue me enviar o comprovante agora para já confirmarmos seu horário na agenda?",
+   "detalhe": "Na cena, a atendente pede o comprovante sem ter mandado a chave. Eu li duas vezes pra ver se tinha pulado uma linha. O texto depois explica que a chave vai em mensagem separada, mas a cena, que é o que eu vou copiar, não mostra isso, e é justamente a mensagem separada que a autora diz que faz diferença.",
+   "correcao": "Incluir na cena a mensagem com a chave PIX sozinha, entre o \"Pode\" e o pedido de comprovante, mesmo que seja só um placeholder de chave. Assim a cena vira o modelo completo das quatro mensagens.",
+   "motivos": [
+    "A cena (linhas 13 a 17) pula da permissão pro pedido de comprovante, e o próprio capítulo diz na linha 44 que a mensagem separada com a chave \"é a diferença\"; a cena é o que a leitora copia, então mostrar a linha faz sentido. Acrescentar \"VOCÊ: [chave PIX]\" entre \"Pode.\" e o pedido não quebra nada do texto (o preço continua na segunda mensagem, o \"agora\" continua nas três mensagens de fala). Manter placeholder, nunca chave fictícia."
+   ]
+  },
+  {
+   "revisor": "voz",
+   "tipo": "voz",
+   "gravidade": "media",
+   "trecho": "E acontece quando, durante a conversa, ficou claro qual era o problema, como ele afeta ela e por que precisa ser resolvido agora e não depois, e quando a gente conectou a solução com o problema.",
+   "detalhe": "36 palavras em lista de manual, com \"durante a conversa\" e \"conectou a solução com o problema\" no registro do PDF, não no dela. A longa dela é narração com \"e aí\" ou lista de atributos que vira escada (item 2, 3 de 3). Aqui a lista tem quatro degraus prontos e o texto os amarrou com vírgula em vez de subir a escada.",
+   "correcao": "E acontece quando, ao longo da conversa, ficou claro qual era o problema, como ele mexe com ela e por que é agora e não depois. E quando a consulta apareceu como a resposta pra isso. Essa lista é o script inteiro. O fechamento não gera essa leitura. Ele colhe.",
+   "motivos": [
+    "A frase é quase literal do PDF do framework ('Durante a conversa ficou claro qual era o problema, como ele afeta a paciente e porque precisa ser resolvido agora e não deixar para depois. Conectamos a solução com o problema.'), e a leitora sente a troca de registro no meio do parágrafo. A correção proposta, porém, empilha uma terceira anáfora de 4 degraus num capítulo de 731 palavras que já tem duas (linha 20 e linha 68), acima da dose de 2 a 3 por 2.000. Quebrar no ritmo dela, sem escada, resolve e ainda tira um 'Repara que'."
+   ]
+  },
+  {
+   "revisor": "voz",
+   "tipo": "voz",
+   "gravidade": "media",
+   "trecho": "Repara que o preço apareceu pela primeira vez na segunda mensagem dessa cena.",
+   "detalhe": "\"Repara que\" aparece 3 vezes em 600 palavras (linhas 20, 36, 64) e não existe no corpus dela. É a muleta do escritor fazendo a Ana. As muletas dela com evidência são \"olha\" (abrindo fala ou pensamento), \"sabe?\" e \"tá?\" (depois de aparte ou spoiler), e o gancho de pergunta no meio (\"Sabe o que ele falou comigo?\", \"Por quê?\"; 16% das frases dela são pergunta). Na prosa do capítulo, fora do script, a única pergunta é a do fecho. Junto disso, o \"porque\", conector número 1 dela (8,3 por mil, dose 12 a 18 por capítulo), aparece uma vez.",
+   "correcao": "Linha 20: 'Sabe onde o preço apareceu nessa cena? Na segunda mensagem. Depois do horário. Depois de seis passos. E ele apareceu como investimento da consulta, entre um horário que ela já aceitou e uma chave PIX. Ela não teve tempo de ir pra casa pensar, porque não sobrou nada pra pensar.' Linha 36: 'E o bastão continua com você: você ofereceu, ela reagiu.' Linha 64: 'Essa lista é o script inteiro.'",
+   "motivos": [
+    "'Repara que' 3 vezes em 731 palavras (linhas 20, 36, 64) é muleta do escritor (17 vezes no livro, zero no corpus) e a repetição num capítulo curto é perceptível pra leitora. A correção proposta erra a mão: joga fora 'Ela não teve tempo de ir pra casa pensar, porque não sobrou nada pra pensar' (a melhor linha e o único 'porque' do capítulo) e usa 'Eu já dou spoiler', assinatura já gasta no capítulo 1 e sem sentido depois da cena, porque spoiler vem antes de contar. Basta trocar as três ocorrências; a primeira vira pergunta de gancho (item 4)."
+   ]
+  }
+ ],
+ "refutados": [
+  {
+   "revisor": "tell",
+   "trecho": "Repara que essa lista é o script inteiro. O fechamento não gera essa leitura. Ele colhe.",
+   "detalhe": "1.2 Fecho de uma linha que repete o parágrafo + 1.4 Aforismo de fôrma. Segundo fecho do capítulo com a mesma estrutura \"o fechamento não X, ele Y\" (o primeiro: \"o fechamento não convence ninguém, ele só organiza\"). \"Ele colhe.\" é verbo solto posando de revelação e só reafirma o que o parágrafo acabou de dizer. A pancada curta da Ana é complemento cortado da frase anterior (\"Lá dentro.\", \"É muito melhor.\"), não veredito cunhado sobre substantivo abstrato.",
+   "motivo": "Confirmado. \"Ele colhe.\" é veredito cunhado sobre substantivo abstrato, com sujeito e verbo próprios, e não o complemento cortado da frase anterior que a whitelist (item 6) protege; o carimbo de duas palavras (item 31) é só candidato. Além disso repete a ideia já dada na seção Pra que serve. A correção proposta erra a conta: a lista da linha 64 cobre problema (passo 2), como afeta (3), por que agora (3/4) e conectar solução (5), então \"passo dois, três, quatro\" deixa o cinco de fora; e o primeiro contraste da linha 26 pode ficar como o frame único do capítulo."
+  },
+  {
+   "revisor": "tell",
+   "trecho": "Esse é o passo sete. Pelo que eu observo, é o passo em que mais atendente erra por educação: pergunta quando a paciente pode, em vez de oferecer um horário.",
+   "detalhe": "Capítulo com 3 \"eu\" em 650 palavras (4,6 por mil; fingerprint: 46 por mil), nenhum caso em primeira pessoa abrindo, nenhuma concessão de humildade nem \"acho que\" (fingerprint pede 1 caso e 1 a 2 concessões por capítulo). \"Pelo que eu observo\" veio sem a escala que ela sempre cola (\"nas mais de 3 mil clínicas por aqui\"). E este é o único capítulo que fala do momento exato da amostra A1 dela (salinha do financeiro, \"ir pra casa pensar\"); a frase \"Ela não teve tempo de ir pra casa pensar\" usa a expressão dela sem a dona.",
+   "motivo": "Refutado. Os seis capítulos de passo (03 a 08) têm entre 2 e 7 \"eu\" cada, então o 09 segue o desenho procedural do mapa, não é desvio; a dose de 40 a 60 \"eu\" do fingerprint é pra capítulo narrativo de 2.000 palavras e com confiança média-baixa. \"Ir pra casa pensar\" já foi estabelecido no capítulo 1 (na boca dela e da doutora) e usado genericamente no 2, então não precisa de dona aqui; \"pelo que eu observo nas mais de 3 mil clínicas por aqui\" já aparece literal nos capítulos 2 e 12, e o 12 é justamente \"de volta à salinha\", que a correção proposta antecipa e esvazia."
+  },
+  {
+   "revisor": "tell",
+   "trecho": "e quando a gente conectou a solução com o problema.",
+   "detalhe": "\"solução\" é termo vetado pela marca (catálogo, regras que valem por cima; vocabulário nível 1 [marca]). Ressalva honesta: a própria Ana usa \"a solução para as dores\" em T3, no sentido de \"o que resolve o problema da paciente\", não como jargão de venda. Decisão do Sávio; se a regra da marca vale no ebook, cai.",
+   "motivo": "Refutado. \"Solução\" já está no manuscrito nos capítulos 01 (duas vezes, na fala da própria Ana), 05, 06, 07, 11 e no apêndice B, e aqui \"conectou a solução com o problema\" é callback literal do objetivo do passo 5 (cap. 07, linha 20: \"Conectar a solução que a gente tem com o problema que ela trouxe\"). Trocar só esta ocorrência quebra o eco e deixa o resto do livro fora da regra; se a marca valer no ebook, é varredura global e decisão do Sávio, não achado deste capítulo."
+  },
+  {
+   "revisor": "tell",
+   "trecho": "Perfeito. O investimento da consulta é de R$ [valor]. Posso te enviar nossa chave PIX agora para confirmarmos seu horário?",
+   "detalhe": "5.11 Placeholder, mas não é resíduo de chat: é lacuna de template pro leitor. O problema é a convenção inconsistente. A cena diz \"R$ 300\"; os blocos :::frase 1 e 3 repetem a cena literal (\"quinta-feira às 15h\"), só o bloco 2 vira template. A leitora não sabe se deve copiar o bloco 1 com \"quinta às 15h\" ou adaptar.",
+   "motivo": "Refutado. O \"R$ [valor]\" vem da fonte (framework p.8 traz exatamente \"R$ [valor]\") e segue a convenção de colchetes dos blocos :::frase do livro inteiro ([problema], [Nome], [tempo] nos capítulos 05, 07, 08); \"quinta-feira às 15h\" nos blocos 1 e 3 também é literal da fonte. Colocar \"R$ 300\" nos três blocos, como propõe a correção, injeta um valor inventado pelo Escritor dentro do script colável, que é pior do que a mistura atual: a leitora já aprendeu desde o capítulo 5 que colchete é lacuna dela."
+  },
+  {
+   "revisor": "fidelidade",
+   "trecho": "O segundo erro é o que explica quase todo \"vou pensar\" que chega no fechamento.",
+   "detalhe": "\"Quase todo\" é uma quantificação que nenhuma fonte sustenta. O framework diz apenas, em O que evitar: \"Partir para o fechamento sem ter criado compromisso suficiente\", sem dizer com que frequência isso gera o \"vou pensar\". O manual de objeções (fonte do capítulo 10) não foi lido aqui; se ele quantificar, a frase se sustenta, senão é achismo travestido de dado.",
+   "motivo": "Refutado: \"quase todo\" não é dado, é generalização de fala, e o manual de objeções sustenta a ideia: classifica \"vou pensar\" como cortina de fumaça que surge de repente no fim da conversa (p.210) e responde a ela voltando às perguntas dos passos 3 e 4 (p.66-69), ou seja, trata a causa como compromisso insuficiente. O capítulo 10 (linha 32) diz o mesmo. A correção \"costuma estar por trás\" é hedge que achata a voz da Ana, que afirma sem amortecer."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "E acontece quando, durante a conversa, ficou claro qual era o problema, como ele afeta ela e por que precisa ser resolvido agora e não depois, e quando a gente conectou a solução com o problema. Repara que essa lista é o script inteiro. O fechamento não gera essa leitura. Ele colhe.",
+   "detalhe": "É a terceira vez no mesmo capítulo que a autora me explica que o fechamento só organiza o que os seis passos anteriores construíram. Já tinha entendido em \"Se os seis passos anteriores aconteceram, o fechamento não convence ninguém, ele só organiza\" e de novo em \"Está em algum passo anterior que ficou raso\". Lendo no celular à noite, na terceira repetição eu passo o dedo e pulo a seção inteira, e aí perco a única coisa nova que ela tem, que é a leitura negativa \"vou ter que me organizar pra ir na consulta\".",
+   "motivo": "As três passagens fazem trabalhos diferentes: a linha 26 é o objetivo, a linha 58 é o diagnóstico da hesitação (o que fazer, não o que o fechamento é), e a lista da linha 64 é a percepção positiva da fonte (\"acontece quando\"), mesma estrutura dos outros capítulos de passo. Cortar a lista tira conteúdo da fonte, e \"Ele colhe.\" é a pancada curta que o item 6 da whitelist manda manter. Em 700 palavras, três toques curtos na ideia central não fazem leitora pular seção."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "Um horário. Não \"você prefere manhã ou tarde?\", não \"qual dia fica melhor?\". Um.",
+   "detalhe": "Entendi que é um só, mas não sei qual. Minha agenda tem dez buracos na semana. \"Próximo horário disponível\" pode ser amanhã às 9h, e eu fico com medo de soar que a clínica está vazia; ou pode ser daqui a dez dias, e aí esfria. A frase é boa, o critério de escolha não aparece.",
+   "motivo": "O critério está na própria frase: \"o próximo horário disponível\" é o mais próximo que existir, e é assim na fonte (framework p.8 e manual de perguntas, pergunta 1). Regra de \"dentro da mesma semana\" ou opinião sobre agenda aberta não existe em nenhuma fonte e seria invenção da autora por tabela."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Ela não teve tempo de ir pra casa pensar, porque não sobrou nada pra pensar.",
+   "detalhe": "A imagem é dela (\"muita gente indo pra casa pensar\", A1), mas o capítulo inteiro tem 3 ocorrências de eu/meu em cerca de 600 palavras (5 por mil; a fala dela é 46 por mil, dose recomendada 40 a 60 por capítulo). Whitelist item 7 apagado: caso pessoal em primeira pessoa abrindo, com aviso, 3 de 3 nas amostras. E o caso que existe no corpus é exatamente este assunto: o preço chegando longe de quem fez o diagnóstico (T5: \"Se eu tivesse entendido o preço na sala, talvez eu teria fechado. Lá dentro.\"). O capítulo de fechamento é o lugar da salinha do financeiro e ela não aparece. Sem o caso, o narrador vira um manual com ritmo dela.",
+   "motivo": "O caso da salinha já foi contado inteiro no capítulo 1 (883 palavras, 37 'eu', com aviso e spoiler) e o capítulo 12 abre com 'No capítulo 1 eu te contei a salinha do financeiro pelo lado da paciente' pra fechar o arco; recontar no 9 triplica o caso e esvazia o retorno do 12. A frase 'ir pra casa pensar' na linha 20 já é o callback intencional, e a densidade de 'eu' do capítulo (3 em 731 palavras) é a mesma dos irmãos 7 e 8 (2 e 4), porque todo capítulo de passo abre com a cena por arquitetura, não com caso. Item 7 protege o caso quando ele existe, não obriga um por capítulo."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Agora, a sua última conversa que travou no horário: você ofereceu um horário ou perguntou qual ela preferia?",
+   "detalhe": "O \"Agora,\" na virada e a pergunta com \"você\" estão certos (itens 23 e 3). Mas é UMA pergunta. Whitelist item 3: perguntas diretas em série no fecho, 2 a 4 (A2 quatro seguidas, A3 duas). Dose por capítulo: 2 a 4 em série no fecho. O capítulo cortou a série e ficou com pergunta de copywriter, uma só, bem acabada.",
+   "motivo": "Item 3 é proteção contra corte ('não cortar até 4 seguidas'), não cota; a dose 2 a 4 é pra capítulo de 2.000 palavras e os capítulos 7 e 8 também fecham com uma pergunta só. A pergunta única aqui é exatamente a tese do capítulo (ofereceu ou perguntou), no mesmo molde do fecho do capítulo 6 ('Você ou ela?'); acrescentar PIX e comprovante dilui a pancada e nenhuma leitora sente falta de duas perguntas a mais."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Esse é o passo sete. Pelo que eu observo, é o passo em que mais atendente erra por educação: pergunta quando a paciente pode, em vez de oferecer um horário.",
+   "detalhe": "\"Pelo que eu observo\" é dela, mas nas amostras vem colado na escala: \"pelo que eu observo nas mais de 3 mil clínicas por aqui\" (T4). Sem o número, sobra o hedge sem a prova; whitelist 12 (número redondo como prova) e 14 (concessão colada na prescrição) meio apagados. Além disso, o capítulo tem zero \"acho que\" (dose 1 a 2, item 18) e a prescrição de \"manda a chave PIX numa mensagem separada\" vai seca, sem amortecedor.",
+   "motivo": "A fórmula 'pelo que eu observo nas mais de 3 mil clínicas por aqui' já está literal nos capítulos 2 e 12; uma terceira vez vira tique, e o capítulo 7 usa a mesma variante sem número ('pelo que eu vejo nas clínicas'). A prescrição do PIX separado não vai seca: vem com o motivo ('pra ela copiar e colar sem ter que selecionar'). A correção ainda troca 'em vez de' (7 usos no livro) por 'ao invés de' (item 35, sabor de 1 uso no livro inteiro), sem ganho."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "E quem pergunta quando a paciente pode entrega o bastão de volta pra ela olhar a agenda, olhar a semana, e voltar depois. Ou não voltar.",
+   "detalhe": "\"Entregar o bastão\" (e depois \"o bastão continua com você\") é imagem genérica de treinamento de vendas. Não existe no corpus dela; as imagens dela são de corpo e de lugar: salinha, arrancar o couro, abatedouro, levar facada, tela azul, ir pra casa pensar. A escada \"olhar a agenda, olhar a semana\" está boa e é dela (anáfora, item 2); o bastão em volta dela é que não é.",
+   "motivo": "'Bastão' é fio do livro, não invenção deste capítulo: capítulo 3 ('Você só não largou o bastão') e capítulo 6 ('o bastão volta pra você sem você pedir'); aqui na linha 22 e 36 ele fecha o arco (passo 4 devolve, passo 7 não pode devolver de novo). Trocar só no 9 quebra a costura com 3 e 6, e 'passar o bastão' é expressão corrente em português, nenhuma leitora lê como tell. Ausência num corpus de 1.816 palavras não prova que ela não usa."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Um horário. Não \"você prefere manhã ou tarde?\", não \"qual dia fica melhor?\". Um.",
+   "detalhe": "O contraste com negativa primeiro e a pancada \"Um.\" são dela (itens 1 e 6). As aspas não: item 15, fala reproduzida curta fica sem aspas, ganha aspas só quando passa de uma linha (\"ela falou, poxa, tô precisando de uma ajuda\").",
+   "motivo": "Item 15 cobre fala reproduzida em narração, depois de 'falou,' ou 'Falei,'; aqui são duas frases de script citadas como opção descartada, e o livro inteiro usa aspas nesse caso ('vou pensar', 'exatamente isso', 'quanto custa?', 'e a agenda, como funciona?'). Sem as aspas e sem os pontos de interrogação, 'Não você prefere manhã ou tarde, não qual dia fica melhor' fica ilegível na primeira leitura; a correção prejudica a leitora pra atender uma regra que não se aplica."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Parece detalhe. É a diferença entre pagar agora e pagar quando chegar em casa.",
+   "detalhe": "Registro lavado: o capítulo tem zero \"muito\" (único intensificador dela, 11,6 por mil), zero palavra com sabor (culta ou de rua), zero ironia. Nas amostras ela alterna sério (A2) e irônico (A1, A3); um capítulo sem caso E sem ironia fica com o pior dos dois. Este ponto pede a ironia dela de dar nome bonito pra coisa feia (\"salinha do fechamento ou salinha do pagamento\").",
+   "motivo": "Não há defeito no trecho: 'Parece detalhe. É a diferença entre...' é frase longa mais pancada curta, o traço rítmico dela (item 6). A ironia do capítulo já está na linha 20 ('ir pra casa pensar'), e a frase proposta repetiria o mesmo callback 24 linhas depois, a terceira vez se a correção do achado 3 entrar. Zero 'muito' é a norma dos capítulos de passo (0 a 1 nos capítulos 5 a 8); o livro alterna registro sério e irônico, e um capítulo de procedimento pode ser sério."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "E ela agradece pelo atendimento e demonstra entusiasmo pra consulta.",
+   "detalhe": "\"Demonstra entusiasmo pra consulta\" é a frase do manual de perguntas com um \"pra\" colado pra parecer casual. Ela não diz \"demonstra entusiasmo\"; ela diz \"animada\", \"que beleza\", \"tudo certinho\". Os três sinais anteriores da anáfora \"Ela confirma / Ela paga / Ela faz\" estão bem; o quarto degrau quebra.",
+   "motivo": "Os quatro sinais são transcrição fiel do PDF ('Agradece pelo atendimento e demonstra entusiasmo para a consulta'), e o capítulo 6 usa a mesma fórmula ('Ela demonstra entusiasmo ao falar da possível solução'); a seção Sinais de sucesso é convenção de fidelidade do livro inteiro, e mexer só aqui cria inconsistência. A correção inventa um comportamento que não está na fonte (pedir pra chegar antes), duplica o sinal anterior de perguntas práticas e reaproveita '10 minutinhos', que no capítulo 1 é a espera que matou a venda, em sentido oposto."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "O fechamento não gera essa leitura. Ele colhe.",
+   "detalhe": "São 5 contrastes \"não X, Y\" em 600 palavras (dose dela: 3 a 5 por capítulo de 2.000), três deles no mesmo molde aforístico (\"não convence ninguém, ele só organiza\"; \"não gera essa leitura. Ele colhe.\"; \"não está mais decidindo. Ela está se organizando\"). A forma é dela; a densidade e o polimento de frase de efeito são de copywriter. E \"colher\" não é imagem do repertório dela. Os contrastes dela nascem do caso (\"Não foi nada externo, é sempre algo interno\"), não de sentença pronta.",
+   "motivo": "Contraste 'não X, Y' é item 1 da whitelist, 3 de 3, com ordem expressa de não cortar; a dose de 3 a 5 é por 2.000 palavras e a contagem de 5 inclui 'agora e não depois' e 'não está ali por pressa', que não são o molde aforístico. A correção não reduz a densidade (continua um contraste) e só troca 'colhe' por 'só recebe', que repete o 'ele só organiza' da linha 26. Nenhuma leitora é prejudicada por 'Ele colhe.'; na dúvida, fica."
+  }
+ ],
+ "cego": {
+  "veredito": "ia",
+  "confianca": 72,
+  "pistas": [
+   {
+    "trecho": "Um horário. Não \"você prefere manhã ou tarde?\", não \"qual dia fica melhor?\". Um.",
+    "pista": "Fragmento staccato com eco fechando o parágrafo (palavra isolada, negação dupla, palavra isolada de novo). É a cadência de punchline que LLM usa pra simular oralidade; gente escrevendo manual raramente fecha o argumento com esse efeito de palco."
+   },
+   {
+    "trecho": "Parece detalhe. É a diferença entre pagar agora e pagar quando chegar em casa.",
+    "pista": "Estrutura \"Parece X. É Y.\" com contraste espelhado (agora / quando chegar em casa). Somada a \"não convence ninguém, ele só organiza\", \"não está ali por pressa\", \"não gera essa leitura. Ele colhe\" e \"não está mais decidindo. Ela está se organizando\", dá cinco pivôs negação+reframe em 60 linhas. Densidade alta demais pra ser tique natural."
+   },
+   {
+    "trecho": "Repara que essa lista é o script inteiro. O fechamento não gera essa leitura. Ele colhe.",
+    "pista": "Quase todo parágrafo termina em aforismo de duas batidas, sem sobra, sem parágrafo morno. Prosa humana de apostila tem parágrafos que só explicam e acabam; aqui nenhum acaba sem microfone caindo. Uniformidade de acabamento é assinatura de máquina."
+   },
+   {
+    "trecho": "Esse é o passo sete. Pelo que eu observo, é o passo em que mais atendente erra por educação",
+    "pista": "Marcador de experiência pessoal vago (\"pelo que eu observo\", depois \"é o meu sinal preferido\") sem nenhum caso concreto: nenhuma clínica, nenhuma atendente, nenhum número, nenhuma situação com detalhe irrelevante. É o jeito de uma IA fingir vivência: afirma que viu, mas não tem nada pra contar."
+   },
+   {
+    "trecho": "Agora, a sua última conversa que travou no horário: você ofereceu um horário ou perguntou qual ela preferia?",
+    "pista": "Fechamento em pergunta reflexiva ao leitor, que espelha exatamente a tese de abertura (oferecer vs perguntar), somado às seções em template simétrico (Pra que serve / Os três passos / Como ela lê você / Sinais de sucesso) e ao \"Repara que\" repetido três vezes como se fosse fingerprint de voz plantado. O capítulo é redondo demais: zero digressão, zero frase torta, zero informação que não sirva ao argumento."
+   }
+  ]
+ }
+}

@@ -1,0 +1,28 @@
+{
+  "cego": {
+    "veredito": "ia",
+    "confianca": 72
+  },
+  "pistas": [
+    {
+      "trecho": "Acontece. E acontece porque essa pessoa não está procurando uma consulta. Está procurando uma vaga. E vaga é coisa que fecha.",
+      "pista": "Taxa de fecho aforístico perto de 100%: quase todo parágrafo termina numa máxima curta e redonda (\"E vaga é coisa que fecha\", \"A seleção começa na foto\", \"quanto menos resistência, melhor\"). Gente que escreve rápido deixa parágrafo terminando no meio do assunto; modelo de linguagem fecha cada bloco com takeaway. Aqui não escapa nenhum."
+    },
+    {
+      "trecho": "Não é consulta, é «reserva».",
+      "pista": "Antítese \"não é X, é Y\" — a construção mais denunciativa de LLM em copy PT-BR. Aparece em versão espelhada logo antes (\"não está procurando uma consulta. Está procurando uma vaga\") e de novo na negação dupla simétrica \"Nem só a mensagem 'topa ou não topa', nem os sete passos completos\". Três vezes no mesmo capítulo curto é padrão de máquina, não tique de autor."
+    },
+    {
+      "trecho": "Quem veio pelo quiz, que é o formulário de perguntas que ela responde antes de cair no seu WhatsApp, chega um pouco mais consciente",
+      "pista": "Glosa didática embutida de um termo que esse leitor obviamente já domina (\"quiz\"), encaixada como aposto no meio da frase. É o reflexo de assistente querendo ser completo. Autor que vive nesse mercado escreveria \"quem veio pelo quiz chega mais consciente\" e seguiria."
+    },
+    {
+      "trecho": "A data disponível. O valor normal e o valor como modelo. A autorização de uso de imagem, pra antes e depois e pra anúncio. E a reserva pra travar a vaga.",
+      "pista": "Lista em fragmentos nominais perfeitamente paralelos, todos do mesmo tamanho, sem um item mais longo ou mais bagunçado que os outros, e fechando com \"E ...\". Ritmo montado, não ritmo de quem está lembrando das coisas enquanto escreve."
+    },
+    {
+      "trecho": "Tem clínica na mentoria que faz mais direto ainda: uma conexão breve e já manda a apresentação inteira, pode ou não pode. Tem dado certo também. O que a gente pede é que você teste os dois jeitos e traga pra gente, nos treinamentos, o que está funcionando na sua mão.",
+      "pista": "Encerramento de manual gerado: reconhece a alternativa, valida (\"Tem dado certo também\"), hedge e devolve tarefa ao leitor. Somado a isso, o texto inteiro não tem sujeira nenhuma — nenhuma digressão, nenhuma repetição, nenhuma frase que começa e vira outra, registro informal 100% uniforme (só \"pra\"/\"pro\", nenhum \"para\" escapando). Os toques bons e humanos que existem (\"Não vale a do perfil\", \"igualzinho\", \"dez, vinte, quarenta\") são exatamente o tipo de detalhe que um modelo bem calibrado por amostras de voz reproduz; o que ele não consegue é deixar bagunça, e aqui não há nenhuma."
+    }
+  ]
+}

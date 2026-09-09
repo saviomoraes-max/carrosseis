@@ -1,0 +1,107 @@
+{
+  "arquivo": "/Users/saviomoraes/reconecta/ebooks/715/revisao/12/capitulo-limpo.md",
+  "palavras": 604,
+  "paragrafos": 13,
+  "frases": 41,
+  "mascarado": {
+    "urls": 1,
+    "marcadores_bloco": 2,
+    "titulos_curtos": 2
+  },
+  "avisos": [],
+  "amostra_pequena": false,
+  "score": 3,
+  "faixa": "limpo (soa gente)",
+  "pontos": 1,
+  "densidade": 1.7,
+  "formula": "densidade = pontos / max(palavras, piso_palavras) * 1000; score = 100 * (1 - exp(-densidade / k)), k = 50, piso_palavras = 300 (texto curto não explode com um achado só). Nota por categoria usa k_categoria sobre a densidade só daquela categoria.",
+  "categorias": {
+    "conteudo": {
+      "rotulo": "Conteúdo e inflação",
+      "achados": 1,
+      "pontos": 1,
+      "densidade": 1.7,
+      "nota": 10
+    },
+    "linguagem": {
+      "rotulo": "Linguagem e vocabulário",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "estrutura": {
+      "rotulo": "Estrutura e ritmo",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "comunicacao": {
+      "rotulo": "Sobras de chatbot",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "meta": {
+      "rotulo": "Uniformidade de ritmo (estatística)",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "calques": {
+      "rotulo": "Calques do inglês e burocratês",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    }
+  },
+  "metricas": {
+    "frases_media_palavras": 14.7,
+    "frases_desvio_padrao": 10.2,
+    "frases_cv": 0.69,
+    "paragrafos": 13,
+    "paragrafos_mediana_palavras": 58,
+    "paragrafos_proporcao_mesmo_tamanho": 0.55,
+    "ritmo_entre_paragrafos_desvio": 0.346,
+    "pontuacao_cv": 0.64,
+    "ttr": 0.377,
+    "frases_mesmo_inicio_proporcao": 0.05,
+    "travessoes": 0,
+    "travessoes_por_mil": 0.0,
+    "dois_pontos": 2,
+    "dois_pontos_por_mil": 3.31,
+    "itens_lista": 0,
+    "proporcao_linhas_em_lista": 0.0,
+    "negritos": 0,
+    "triades": 0,
+    "triades_por_mil": 0.0,
+    "contrastes": 0,
+    "paragrafos_terminando_em_pergunta": 2,
+    "fechos_grandiosos": 0,
+    "hedges": 1,
+    "hedges_por_mil": 1.66
+  },
+  "achados": [
+    {
+      "id": "ct_pode_ser_que",
+      "categoria": "conteudo",
+      "subtipo": "hedge",
+      "gravidade": "baixa",
+      "peso": 1,
+      "texto": "pode ser que",
+      "inicio": 1054,
+      "fim": 1066,
+      "explicacao": "Hedge: quem escreve não se comprometeu.",
+      "sugestao": "tome posição, ou diga a ressalva com nome",
+      "contribuicao": 1,
+      "linha": 11,
+      "trecho": "E beleza, «pode ser que» a transação mesmo, o fechamento, fique do lado de fora da sala, até pela experiência da p"
+    }
+  ],
+  "achados_ocultos": 0,
+  "min_gravidade": "baixa"
+}

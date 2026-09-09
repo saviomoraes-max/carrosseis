@@ -1,0 +1,137 @@
+{
+  "arquivo": "/Users/saviomoraes/reconecta/ebooks/715/revisao/06/capitulo-limpo.md",
+  "palavras": 602,
+  "paragrafos": 11,
+  "frases": 45,
+  "mascarado": {
+    "blocos_script": 8,
+    "marcadores_bloco": 18,
+    "citacoes": 5,
+    "titulos_curtos": 5
+  },
+  "avisos": [],
+  "score": 29,
+  "faixa": "sotaque perceptível (revisar antes de gastar agente)",
+  "pontos": 10.5,
+  "densidade": 17.4,
+  "formula": "densidade = pontos / max(palavras, piso_palavras) * 1000; score = 100 * (1 - exp(-densidade / k)), k = 50, piso_palavras = 300 (texto curto não explode com um achado só). Nota por categoria usa k_categoria sobre a densidade só daquela categoria.",
+  "categorias": {
+    "conteudo": {
+      "rotulo": "Conteúdo e inflação",
+      "achados": 1,
+      "pontos": 2.5,
+      "densidade": 4.2,
+      "nota": 24
+    },
+    "linguagem": {
+      "rotulo": "Linguagem e vocabulário",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "estrutura": {
+      "rotulo": "Estrutura e ritmo",
+      "achados": 1,
+      "pontos": 5,
+      "densidade": 8.3,
+      "nota": 43
+    },
+    "comunicacao": {
+      "rotulo": "Sobras de chatbot",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "meta": {
+      "rotulo": "Uniformidade de ritmo (estatística)",
+      "achados": 1,
+      "pontos": 3,
+      "densidade": 5.0,
+      "nota": 28
+    },
+    "calques": {
+      "rotulo": "Calques do inglês e burocratês",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    }
+  },
+  "metricas": {
+    "frases_media_palavras": 14.0,
+    "frases_desvio_padrao": 7.0,
+    "frases_cv": 0.51,
+    "paragrafos": 11,
+    "paragrafos_mediana_palavras": 57,
+    "paragrafos_proporcao_mesmo_tamanho": 0.45,
+    "ritmo_entre_paragrafos_desvio": 0.15,
+    "pontuacao_cv": 0.21,
+    "ttr": 0.397,
+    "frases_mesmo_inicio_proporcao": 0.0,
+    "travessoes": 0,
+    "travessoes_por_mil": 0.0,
+    "dois_pontos": 7,
+    "dois_pontos_por_mil": 11.63,
+    "itens_lista": 0,
+    "proporcao_linhas_em_lista": 0.0,
+    "negritos": 0,
+    "triades": 0,
+    "triades_por_mil": 0.0,
+    "contrastes": 0,
+    "paragrafos_terminando_em_pergunta": 1,
+    "fechos_grandiosos": 1,
+    "hedges": 0,
+    "hedges_por_mil": 0.0
+  },
+  "achados": [
+    {
+      "id": "m_pontuacao_uniforme",
+      "categoria": "meta",
+      "subtipo": "ritmo",
+      "gravidade": "baixa",
+      "peso": 3,
+      "texto": "pontuação uniforme entre parágrafos (CV 0.21)",
+      "inicio": 323,
+      "fim": 603,
+      "explicacao": "Densidade de pontuação igual em todos os parágrafos.",
+      "sugestao": "Parágrafo denso de vírgula ao lado de parágrafo seco.",
+      "contribuicao": 3,
+      "linha": 8,
+      "trecho": "«Lê a resposta dela de novo. Ela acabou de escrever, com as palavras dela, o que a consulta é. A doutora vai olhar, vai dizer o que dá pra fazer, antes de novembro, pra ela não se esconder nas fotos. Você não apresentou nada ainda. E a paciente já vendeu a consulta pra ela mesma. »"
+    },
+    {
+      "id": "m_dois_pontos",
+      "categoria": "estrutura",
+      "subtipo": "pontuacao",
+      "gravidade": "media",
+      "peso": 5,
+      "texto": "7 dois-pontos em 602 palavras",
+      "inicio": 1350,
+      "fim": 1352,
+      "explicacao": "Dois-pontos demais no meio de frase: cadência de slide.",
+      "sugestao": "Troque por ponto ou vírgula; deixe só os que apresentam algo.",
+      "contribuicao": 5,
+      "linha": 16,
+      "trecho": "Pelo que eu vejo, a maioria das clínicas faz ao contrário«: »oferece primeiro e espera a paciente se encaixar na oferta."
+    },
+    {
+      "id": "m_fecho_grandioso",
+      "categoria": "conteudo",
+      "subtipo": "fecho_grandioso",
+      "gravidade": "media",
+      "peso": 2.5,
+      "texto": "Ela sente a mudança de tom na hora.",
+      "inicio": 3055,
+      "fim": 3090,
+      "explicacao": "Última frase do parágrafo curta, com palavra abstrata, sem número: fecho grandioso.",
+      "sugestao": "Termine direto. Às vezes o melhor fim é parar uma frase antes.",
+      "contribuicao": 2.5,
+      "linha": 42,
+      "trecho": "«Ela sente a mudança de tom na hora.»"
+    }
+  ],
+  "achados_ocultos": 0,
+  "min_gravidade": "baixa"
+}

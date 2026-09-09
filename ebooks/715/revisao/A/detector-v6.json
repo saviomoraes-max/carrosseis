@@ -1,0 +1,122 @@
+{
+  "arquivo": "/Users/saviomoraes/reconecta/ebooks/715/revisao/A/capitulo-limpo.md",
+  "palavras": 247,
+  "paragrafos": 18,
+  "frases": 33,
+  "mascarado": {
+    "blocos_script": 11,
+    "marcadores_bloco": 22,
+    "titulos_curtos": 1
+  },
+  "avisos": [
+    "247 palavras de prosa (piso 300): score informativo, não use como portão."
+  ],
+  "amostra_pequena": true,
+  "score": 49,
+  "faixa": "sotaque forte (reescrever os trechos marcados)",
+  "pontos": 10,
+  "densidade": 33.3,
+  "formula": "densidade = pontos / max(palavras, piso_palavras) * 1000; score = 100 * (1 - exp(-densidade / k)), k = 50, piso_palavras = 300 (texto curto não explode com um achado só). Nota por categoria usa k_categoria sobre a densidade só daquela categoria.",
+  "categorias": {
+    "conteudo": {
+      "rotulo": "Conteúdo e inflação",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "linguagem": {
+      "rotulo": "Linguagem e vocabulário",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "estrutura": {
+      "rotulo": "Estrutura e ritmo",
+      "achados": 1,
+      "pontos": 5,
+      "densidade": 16.7,
+      "nota": 67
+    },
+    "comunicacao": {
+      "rotulo": "Sobras de chatbot",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "meta": {
+      "rotulo": "Uniformidade de ritmo (estatística)",
+      "achados": 1,
+      "pontos": 5,
+      "densidade": 16.7,
+      "nota": 67
+    },
+    "calques": {
+      "rotulo": "Calques do inglês e burocratês",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    }
+  },
+  "metricas": {
+    "frases_media_palavras": 9.2,
+    "frases_desvio_padrao": 4.2,
+    "frases_cv": 0.46,
+    "paragrafos": 18,
+    "paragrafos_mediana_palavras": 18,
+    "paragrafos_proporcao_mesmo_tamanho": 0.8,
+    "pontuacao_cv": 0.95,
+    "frases_mesmo_inicio_proporcao": 0.03,
+    "travessoes": 0,
+    "travessoes_por_mil": 0.0,
+    "dois_pontos": 1,
+    "dois_pontos_por_mil": 4.05,
+    "itens_lista": 0,
+    "proporcao_linhas_em_lista": 0.0,
+    "negritos": 0,
+    "triades": 3,
+    "triades_por_mil": 12.15,
+    "contrastes": 0,
+    "paragrafos_terminando_em_pergunta": 0,
+    "fechos_grandiosos": 0,
+    "hedges": 0,
+    "hedges_por_mil": 0.0
+  },
+  "achados": [
+    {
+      "id": "m_paragrafos_uniformes",
+      "categoria": "meta",
+      "subtipo": "ritmo",
+      "gravidade": "media",
+      "peso": 5,
+      "texto": "4 de 5 parágrafos com ~18 palavras",
+      "inicio": 45,
+      "fim": 153,
+      "explicacao": "A maior parte dos parágrafos tem o mesmo tamanho.",
+      "sugestao": "Varie: um parágrafo de uma linha, outro que se estende.",
+      "contribuicao": 5,
+      "linha": 6,
+      "trecho": "««1. Conexão.» Abrir espaço pra conversa e mostrar que você está ali pra entender se consegue ajudar ou não. »"
+    },
+    {
+      "id": "m_triades",
+      "categoria": "estrutura",
+      "subtipo": "triade",
+      "gravidade": "media",
+      "peso": 5,
+      "texto": "3 tríades (Um horário, depois o investimento e o PIX; numa mensagem separada, pra ela copiar e colar; confirma sem hesitar, paga na hora e pergunta onde fica)",
+      "inicio": 1936,
+      "fim": 1977,
+      "explicacao": "Regra de três compulsiva ('X, Y e Z') em série.",
+      "sugestao": "Use dois itens, quatro, ou uma frase inteira.",
+      "contribuicao": 5,
+      "linha": 56,
+      "trecho": "» «Um horário, depois o investimento e o PIX», depois o comprovante."
+    }
+  ],
+  "achados_ocultos": 0,
+  "min_gravidade": "baixa"
+}

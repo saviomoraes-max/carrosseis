@@ -1,0 +1,91 @@
+06-passo-4-qualificacao.md · rodada 1 · brutos 30 · confirmados 18 · altas 2 · cego ia 70
+
+[1] tell/alta
+  TRECHO: O segundo é o erro que eu mais vejo nesse passo, e ele vem de um lugar bom.
+  DETALHE: Calque do inglês (Família 6, confirmado pelo teste de retradução 7.9): "it comes from a good place" sai perfeito em inglês e ninguém fala "vem de um lugar bom" em português. Brasileiro diz "a intenção é boa" ou "não faz 
+  CORRECAO: O segundo é o erro que eu mais vejo nesse passo, e quem comete não faz por mal. A paciente acabou de dizer que quer a consulta, e a atendente, animada, emenda: "e a doutora é especialista nisso, tem mais de dez anos, os casos dela são lindos".
+
+[2] tell/alta
+  TRECHO: Essa última é a que eu peço pra você prestar atenção, porque ela é sobre você, não sobre ela.
+  DETALHE: 6.1 "Ser sobre" (não é sobre X, é sobre Y). Nível 1 do vocabulário: "sobre" em português introduz assunto, não constitui a coisa. O contraste em si é assinatura da Ana (whitelist 1); o que cai é a forma com "sobre". O de
+  CORRECAO: Essa última é a que eu peço pra você prestar atenção, porque quem dá esse sinal é você, não a paciente.
+
+[3] tell/media
+  TRECHO: Parou. A paciente estava se convencendo sozinha e você entrou no meio pra convencer. Ela sente a mudança de tom na hora.
+  DETALHE: 1.2 Fecho de uma linha em regra + 2.4 metrônomo. Oito dos onze parágrafos de prosa fecham numa pancada de até 13 palavras ("E a paciente já vendeu a consulta pra ela mesma.", "Você só perguntou.", "Ela sente a mudança de
+  CORRECAO: Linha 51: manter como está. Linha 63: "Essa última é a que eu peço pra você prestar atenção, porque quem dá esse sinal é você, não a paciente. Se em algum momento do passo quatro você sentir vontade de argumentar, segura. A vontade de argumentar é o sinal de que a paciente ainda não declarou, e aí o que resolve é mais uma pergunta, igual você fez no passo dois."
+
+[4] tell/media
+  TRECHO: Ela dá uma resposta completa e emocional à pergunta de qualificação. Ela demonstra entusiasmo ao falar da possível solução. Ela própria começa a perguntar sobre disponibilidade ou próximos passos.
+  DETALHE: 7.9 Frase em português, alma em inglês (registro de manual colado da fonte). "She shows enthusiasm when talking about the possible solution" sai natural em inglês; em português falado ninguém "demonstra entusiasmo", a pe
+  CORRECAO: Linha 61: "Ela responde a pergunta de qualificação inteira, com emoção. Ela se anima falando do que pode mudar. Ela mesma começa a perguntar de agenda e de próximo passo. E você sente que não precisa convencer de nada."  Linha 57: "A leitura positiva é: ela entendeu o meu problema e sei que vai me ajudar a resolver. E acontece quando a gente mostra que quer entender o que ela está dizendo, e ouve mais do que fala."
+
+[5] tell/media
+  TRECHO: Isso é o passo quatro, e eu acho que é o mais bonito dos sete, porque é o momento em que o bastão volta pra você sem você pedir. Ela pediu a consulta. Você só perguntou.
+  DETALHE: O capítulo é um instrutor neutro com dois tiques da Ana pendurados ("eu acho que", "o erro que eu mais vejo"). Contagem: "eu" aparece 4 vezes em 679 palavras (6 por mil) contra 46 por mil nas amostras dela e dose de 13 a
+  CORRECAO: Isso é o passo quatro, e eu acho que é o mais bonito dos sete. Eu já estive do lado de lá dessa conversa, lembra da salinha? Quando a doutora terminou o diagnóstico eu já tava completamente na emoção, já tinha entendido que aquilo resolvia o meu problema, e ninguém precisou me apresentar nada. O bastão volta pra você sem você pedir. Ela pediu a consulta. Você só perguntou.
+
+[6] fidelidade/media
+  TRECHO: A paciente acabou de dizer que quer a consulta, e a atendente, animada, emenda: "e a doutora é especialista nisso, tem mais de dez anos, os casos dela são lindos".
+  DETALHE: "Mais de dez anos" é um número que não existe em nenhuma fonte. A regra do mapa é: nenhum número que não esteja nas fontes, e o único número disponível é "mais de 3 mil clínicas". As fontes já trazem exemplos literais de
+  CORRECAO: A paciente acabou de dizer que quer a consulta, e a atendente, animada, emenda: "e a doutora é ótima, os casos dela são perfeitos, olha esse caso que lindo".
+
+[7] fidelidade/media
+  TRECHO: E as duas últimas têm o "antes de seguirmos para a agenda", que faz uma coisa sutil: avisa que a agenda vem, sem oferecer a agenda.
+  DETALHE: Descreve errado as próprias frases prontas. A terceira diz "Antes de seguirmos para a disponibilidade na agenda" e a quarta diz só "Antes de seguirmos, como você visualiza que a doutora pode te ajudar com isso que está v
+  CORRECAO: E as duas últimas começam com "antes de seguirmos". A terceira ainda diz pra onde: pra disponibilidade na agenda. Isso faz uma coisa sutil: avisa que a agenda vem, sem oferecer a agenda.
+
+[8] fidelidade/baixa
+  TRECHO: porque é o momento em que o bastão volta pra você sem você pedir. Ela pediu a consulta. Você só perguntou.
+  DETALHE: O manual (p.1) diz: "Quem faz as perguntas conduz a conversa (mantenha o bastão)". Na fonte o bastão nunca sai da mão de quem pergunta; a instrução é não soltar. Dizer que ele "volta" sugere que em algum momento ele foi 
+  CORRECAO: porque é o momento em que a gente entende pra que serviu segurar o bastão a conversa inteira. Ela pediu a consulta. Você só perguntou.
+
+[9] fidelidade/baixa
+  TRECHO: Se ela chega no passo quatro e ainda fala em procedimento, é porque o passo dois ficou raso. Volta.
+  DETALHE: O framework (p.6) dá duas causas pra leitura negativa: "Não aprofundamos no problema real" (isso é passo 2) e "O paciente não verbalizou o motivo que o fez procurar pela consulta ou pelo procedimento" (isso é o passo 3, 
+  CORRECAO: Se ela chega no passo quatro e ainda fala em procedimento, é porque o passo dois ficou raso, ou o três. Volta.
+
+[10] leitora/baixa
+  TRECHO: E se qualificar de qualquer forma, na intenção de aumentar o valor percebido.
+  DETALHE: Li "de qualquer forma" como "mesmo assim" e travei: se qualificar mesmo assim, como? E "valor percebido" é vocabulário de consultor, não de doutora. Só entendi quando cheguei no exemplo da atendente elogiando a doutora, 
+  CORRECAO: Trocar a segunda frase do card por: "E se qualificar, de qualquer jeito que seja, elogiar a doutora ou a clínica pra consulta parecer valer mais."
+
+[11] leitora/baixa
+  TRECHO: E acontece quando a gente demonstra interesse em entender o que ela diz, e quando a gente ouve mais do que fala.
+  DETALHE: Pularia. Todo livro de atendimento diz "ouça mais do que fala". No WhatsApp não tem ouvir; tem ler e responder. Eu não sei o que "demonstrar interesse" é numa mensagem de texto: é repetir a palavra que ela usou? É não ma
+  CORRECAO: Manter a frase e emendar: "No WhatsApp isso é uma coisa só: a sua mensagem começa pela palavra dela, e no fim do passo ela escreveu mais do que você."
+
+[12] leitora/baixa
+  TRECHO: E as duas últimas têm o "antes de seguirmos para a agenda", que faz uma coisa sutil: avisa que a agenda vem, sem oferecer a agenda.
+  DETALHE: Subi a tela pra conferir e a quarta frase é só "Antes de seguirmos, como você visualiza...", sem agenda nenhuma. Só a terceira avisa da agenda. Pequeno, mas foi o momento em que desconfiei da atenção da autora ao próprio
+  CORRECAO: "E as duas últimas começam com 'antes de seguirmos', que faz uma coisa sutil: avisa que o próximo passo existe, sem oferecer ele. A terceira chega a nomear a agenda. Ela ouve que o próximo passo existe e que você ainda não deu."
+
+[13] leitora/baixa
+  TRECHO: porque é o momento em que o bastão volta pra você sem você pedir. Ela pediu a consulta. Você só perguntou.
+  DETALHE: Tropecei na imagem. Se o bastão voltou pra mim, eu tenho que correr agora; mas o ponto do capítulo é que ela fez o trabalho. E "ela pediu a consulta" logo depois de "volta pra você" me deixou sem saber com quem está o ba
+  CORRECAO: "Isso é o passo quatro, e eu acho que é o mais bonito dos sete, porque a venda acontece sem você vender. Ela pediu a consulta. Você só perguntou."
+
+[14] voz/media
+  TRECHO: A maioria das clínicas faz ao contrário: oferece primeiro e espera que a paciente se encaixe na oferta.
+  DETALHE: Posição dada como regra. O fingerprint, transversal 3 de 3: "Ela dá a posição como observação ('pelo que eu observo', 'que eu conheço', 'eu sinto que'), não como regra." E whitelist item 12 (número redondo como prova de 
+  CORRECAO: "Repara na ordem. Primeiro ela declara, depois você oferece. Pelo que eu vejo, a maioria das clínicas faz ao contrário: oferece primeiro e espera a paciente se encaixar na oferta."
+
+[15] voz/media
+  TRECHO: O segundo é o erro que eu mais vejo nesse passo, e ele vem de um lugar bom. A paciente acabou de dizer que quer a consulta, e a atendente, animada, emenda: "e a doutora é especialista nisso, tem mais de dez anos, os casos dela são lindos". Parou.
+  DETALHE: "Vem de um lugar bom" é "comes from a good place" traduzido, vocabulário de terapia em inglês; não existe nada parecido nas amostras e ela não amortece assim. É justamente o tipo de cena (atendente empolgada estragando o
+  CORRECAO: "O segundo é o erro que eu mais vejo nesse passo, e ele nasce de empolgação. A paciente acabou de dizer que quer a consulta, e a atendente, toda animada, emenda: \"e a doutora é especialista nisso, tem mais de dez anos, os casos dela são lindos\". Parou. A paciente estava se convencendo sozinha e você entrou no meio pra convencer. Ela sente a mudança de tom na hora."
+
+[16] voz/media
+  TRECHO: A leitura negativa do passo quatro tem duas frases típicas: "ainda não sei se o meu problema vai ser resolvido" e "eu só quero fazer o procedimento tal". As duas acontecem quando a gente não aprofundou no problema real, e quando a paciente não verbalizou o mot
+  DETALHE: Registro de manual, colado da fonte ("leitura negativa", "frases típicas", "verbalizou", "aprofundou no problema real"). Formalidade aqui está em 6 de 10; o fingerprint pede 4 de 10 na prosa. "Verbalizar" está na família
+  CORRECAO: "A leitura negativa do passo quatro tem duas frases: \"ainda não sei se o meu problema vai ser resolvido\" e \"eu só quero fazer o procedimento tal\". As duas aparecem pelo mesmo motivo: a gente não foi fundo no problema, e ela nunca chegou a contar por que foi procurar a consulta. Se ela chega no passo quatro e ainda fala em procedimento, é porque o passo dois ficou raso. Volta." E no parágrafo seguinte: "E acontece quando a gente mostra que quer entender o que ela está dizendo, e quando a gente ouve mais do que fala."
+
+[17] voz/media
+  TRECHO: Ela dá uma resposta completa e emocional à pergunta de qualificação. Ela demonstra entusiasmo ao falar da possível solução. Ela própria começa a perguntar sobre disponibilidade ou próximos passos.
+  DETALHE: Checklist do manual transcrito em prosa: "resposta completa e emocional", "demonstra entusiasmo", "possível solução", "disponibilidade ou próximos passos". Nenhuma dessas construções aparece na fala dela; ela diria "anim
+  CORRECAO: "Ela responde a pergunta inteira, e responde com emoção. Ela fica animada falando do que pode mudar. Ela mesma começa a perguntar da agenda. E você sente que não precisa convencer de nada."
+
+[18] voz/media
+  TRECHO: Se em algum momento do passo quatro você sentir vontade de argumentar, pare. A vontade de argumentar é o sinal de que a paciente ainda não declarou. Volta uma pergunta.
+  DETALHE: Duas coisas. Primeiro, whitelist item 14 apagado: "Concessão de humildade colada na prescrição: 3 de 3", dose "1 a 2, sempre colada na prescrição". Esta é a prescrição mais dura do capítulo ("pare") e vem seca, sem o "E 
+  CORRECAO: "Se em algum momento do passo quatro você sentir vontade de argumentar, para. E eu não tô dizendo que argumentar é errado, tá? Tô dizendo que ainda não é a hora. A vontade de argumentar é o sinal de que a paciente ainda não declarou. Volta uma pergunta."

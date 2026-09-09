@@ -1,0 +1,7 @@
+# Provas e HTML intermediário são derivados: 45 MB que o render refaz em dois minutos
+# com `python3 render_pdf.py <slug> --provas`. O que se versiona é a FONTE (manuscrito,
+# fontes, rastro de revisão) e o entregável (PDF e a cola em PNG).
+*/render/provas/
+*/render/*.html
+*/render/indice-paginas.json
+*/manuscrito_teste/

@@ -1,0 +1,121 @@
+{
+  "arquivo": "/Users/saviomoraes/reconecta/ebooks/715/manuscrito/01-a-salinha-do-financeiro.md",
+  "palavras": 765,
+  "paragrafos": 21,
+  "frases": 66,
+  "mascarado": {
+    "frontmatter": 1,
+    "citacoes": 4,
+    "titulos_curtos": 3
+  },
+  "avisos": [],
+  "score": 15,
+  "faixa": "limpo (soa gente)",
+  "pontos": 6,
+  "densidade": 7.8,
+  "formula": "densidade = pontos / max(palavras, piso_palavras) * 1000; score = 100 * (1 - exp(-densidade / k)), k = 50, piso_palavras = 300 (texto curto não explode com um achado só). Nota por categoria usa k_categoria sobre a densidade só daquela categoria.",
+  "categorias": {
+    "conteudo": {
+      "rotulo": "Conteúdo e inflação",
+      "achados": 1,
+      "pontos": 1,
+      "densidade": 1.3,
+      "nota": 8
+    },
+    "linguagem": {
+      "rotulo": "Linguagem e vocabulário",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "estrutura": {
+      "rotulo": "Estrutura e ritmo",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "comunicacao": {
+      "rotulo": "Sobras de chatbot",
+      "achados": 1,
+      "pontos": 5,
+      "densidade": 6.5,
+      "nota": 35
+    },
+    "meta": {
+      "rotulo": "Uniformidade de ritmo (estatística)",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "calques": {
+      "rotulo": "Calques do inglês e burocratês",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    }
+  },
+  "metricas": {
+    "frases_media_palavras": 11.6,
+    "frases_desvio_padrao": 6.1,
+    "frases_cv": 0.52,
+    "paragrafos": 21,
+    "paragrafos_mediana_palavras": 45.5,
+    "paragrafos_proporcao_mesmo_tamanho": 0.44,
+    "ritmo_entre_paragrafos_desvio": 0.091,
+    "pontuacao_cv": 0.54,
+    "ttr": 0.424,
+    "frases_mesmo_inicio_proporcao": 0.05,
+    "travessoes": 0,
+    "travessoes_por_mil": 0.0,
+    "dois_pontos": 1,
+    "dois_pontos_por_mil": 1.31,
+    "itens_lista": 0,
+    "proporcao_linhas_em_lista": 0.0,
+    "negritos": 0,
+    "triades": 0,
+    "triades_por_mil": 0.0,
+    "contrastes": 0,
+    "paragrafos_terminando_em_pergunta": 4,
+    "fechos_grandiosos": 0,
+    "hedges": 1,
+    "hedges_por_mil": 1.31
+  },
+  "achados": [
+    {
+      "id": "ct_talvez",
+      "categoria": "conteudo",
+      "subtipo": "hedge",
+      "gravidade": "baixa",
+      "peso": 1,
+      "texto": "talvez",
+      "inicio": 2238,
+      "fim": 2244,
+      "explicacao": "Hedge adverbial (um por texto passa; a densidade é o tell).",
+      "sugestao": "afirme ou corte",
+      "contribuicao": 1,
+      "linha": 32,
+      "trecho": "Se eu tivesse entendido o preço na sala, «talvez» eu teria fechado."
+    },
+    {
+      "id": "cq_neste_capitulo",
+      "categoria": "comunicacao",
+      "subtipo": "meta_texto",
+      "gravidade": "alta",
+      "peso": 5,
+      "texto": "neste livro",
+      "inicio": 3667,
+      "fim": 3678,
+      "explicacao": "Anúncio do que vai fazer; faça.",
+      "sugestao": "corte",
+      "contribuicao": 5,
+      "linha": 50,
+      "trecho": "O que eu quero te mostrar «neste livro» acontece antes, no WhatsApp."
+    }
+  ],
+  "achados_ocultos": 0,
+  "min_gravidade": "baixa"
+}

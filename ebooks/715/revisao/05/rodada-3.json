@@ -1,0 +1,77 @@
+{
+  "rodada": 3,
+  "data": "2026-09-09",
+  "lente": "corpus de fala da autora (80.938 palavras)",
+  "juri": "opus-5",
+  "brutos": 7,
+  "confirmados_n": 6,
+  "altas_confirmadas": 3,
+  "aplicados": 5,
+  "revertidos_por_colisao": {
+    "05/troca2": "colide com 04/troca2: mesma anedota da Ana em dois capítulos seguidos"
+  },
+  "resumo": "Bloco bem ancorado no framework: as seis perguntas, o objetivo (\"gerar inconformidade\"), o bloco :::evite, as duas leituras e os quatro sinais de avanço estão todos literais em fontes/01-framework-715.md (Etapa 3) e fontes/03-manual-perguntas.md. O problema aqui não é fidelidade, é textura. Achei cinco pontos onde a prosa composta pode ser trocada por fala real dela, e quatro deles são justamente onde o texto fecha redondo demais: o par espelhado \"Quem fez a pergunta foi você. Quem se convenceu foi ela.\", a explicação teórica de por que oferecer a espera funciona, a fala inventada \"imagina, nem é tão assim\" com a máxima que a segue, e a leitura negativa contada de fora. O corpus cobre os quatro com fala dela sobre o MESMO assunto: \"a única pessoa capaz de convencer alguém a fazer alguma coisa é ela mesma\"; \"primeiro você concorda com ele e depois você questiona\" mais \"não tenho medo de questionar o lead\"; \"não, você é linda, você vai ficar ainda mais linda\" mais \"esse conforto diminui a velocidade da decisão\"; e \"termino a resposta dela, eu passo pra próxima pergunta\" mais \"a pessoa, ela não se sente ouvida\". A quinta troca é ganho de ritmo: o diagnóstico dela sobre quando não há indício de intolerância traz um período longo e emendado, do tipo que o fingerprint aponta como faltando no livro. Dois achados de fonte, os dois no mesmo parágrafo da emoção: a regra \"No WhatsApp, emoção não vem com lágrima, vem com história\" não existe em fonte nenhuma (e ainda é antítese, que o fingerprint manda cortar de 1,04 para 0,10 por mil), e na lista de gatilhos só o casamento tem lastro real. Registro também o que o corpus AGORA sustenta e que uma auditoria só de PDF poderia ter cortado, então deve ficar: \"novembro\" como data do casamento (linha 3090), o casamento contado espontaneamente valendo como passo três cumprido (linha 2752), e o \"posso te perguntar uma coisa?\" como movimento da casa antes de pergunta difícil (cinco ocorrências em 02-manual-objecoes.md). Arquivos: /Users/saviomoraes/reconecta/ebooks/715/manuscrito/05-passo-3-presente-inaceitavel.md e /Users/saviomoraes/reconecta/ebooks/715/fontes/voz/corpus/ana-luiza-falas-treinamentos.txt.",
+  "confirmados": [
+    {
+      "tipo": "troca",
+      "gravidade": "alta",
+      "trecho": "A paciente percebe, respondendo a sua pergunta, que ela já está inconformada faz tempo, e que só não tinha dito em voz alta. Quem fez a pergunta foi você. Quem se convenceu foi ela.",
+      "fala_dela": "As pessoas elas só vão confiar naquilo que elas entendem e a única pessoa capaz de convencer alguém a fazer alguma coisa é ela mesma\n\nQualquer coisa que eu falar não vai ser, não vai fazer sentido para ela se ela não falar junto comigo, entendeu?",
+      "aplicado": "Essa última palavra assusta um pouco, então deixa eu explicar como eu entendo. Gente, ninguém cria inconformidade do nada. A paciente percebe, respondendo a sua pergunta, que ela já está inconformada faz tempo, e que só não tinha dito em voz alta. A única pessoa capaz de convencer alguém a fazer alguma coisa é ela mesma. Qualquer coisa que eu falar não vai fazer sentido para ela se ela não falar junto comigo, entendeu?",
+      "cetico": "Grep confirma as duas falas literais no corpus (linha 2328 e linha 2330), palavra por palavra. A tese bate: o trecho do livro diz \"quem se convenceu foi ela\" e a fala dela diz \"a única pessoa capaz de convencer alguém a fazer alguma coisa é ela mesma\", com o complemento de que nada do que a atendente fala vale se a paciente não falar junto. Não quebra o parágrafo (a frase anterior já carrega o \"quem perguntou foi você\" em \"respondendo a sua pergunta\") e não contradiz a linha 90, que continua apoiada no eixo convencida-ela/convencida-você."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "alta",
+      "trecho": "Ela acontece quando a conversa vira interrogatório e a sua pergunta seguinte não tem nada a ver com o que ela acabou de responder. Ela contou do casamento, você mandou a próxima pergunta do script sem citar o casamento, e pronto, ela viu o script.",
+      "fala_dela": "Aí fica uma conversa robótica como se eu tivesse entrevistando a pessoa, né?\n\nTermino a resposta dela, eu passo pra próxima pergunta\n\nA pessoa, ela não se sente ouvida",
+      "aplicado": "A leitura negativa aqui é: “mais uma daquelas técnicas de venda batidas”. Ela acontece quando a conversa vira interrogatório e a sua pergunta seguinte não tem nada a ver com o que ela acabou de responder. Termino a resposta dela, eu passo pra próxima pergunta, e aí fica uma conversa robótica como se eu tivesse entrevistando a pessoa, né? Ela contou do casamento, você mandou a próxima pergunta do script sem citar o casamento, e pronto, ela viu o script. A pessoa, ela não se sente ouvida.",
+      "cetico": "As três falas existem literais: linha 6550 (\"conversa robótica como se eu tivesse entrevistando a pessoa, né?\"), linha 6552 (\"Termino a resposta dela, eu passo pra próxima pergunta\") e linha 2682 (\"A pessoa, ela não se sente ouvida\"), e o contexto do corpus é exatamente o mesmo erro: pergunta que não tem nada a ver com o que a pessoa respondeu. O restante do parágrafo do livro (\"Aí a próxima mensagem começa pela palavra dela...\") continua encaixando depois de \"não se sente ouvida\", agora como a correção do erro que ela mesma acabou de nomear. Nada entra em :::frase e não há travessão nem itálico."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "alta",
+      "trecho": "E a gente é educada, então a reação é aliviar: “imagina, nem é tão assim”. Eu entendo, é o que a gente faz com amiga. Com paciente, não alivia, porque quem alivia tira dela o motivo que ela acabou de encontrar.",
+      "fala_dela": "Mas uma coisa que eu fazia bastante é a pessoa falava assim: \"Ai, tá vendo? Mandava uma foto para mim que falava:\n\nAí a primeira coisa que eu fazia era: \"Não, você é linda, você vai ficar ainda mais linda, cara. Pessoa que tá linda\n\nEu não tô ali para deixar ela confortável também, porque esse conforto diminui a velocidade da decisão, minimiza a velocidade da decisão",
+      "aplicado": "E a gente é educada, então a reação é aliviar. Uma coisa que eu fazia bastante: a pessoa mandava uma foto para mim, e aí a primeira coisa que eu fazia era “não, você é linda, você vai ficar ainda mais linda”. Eu entendo, é o que a gente faz com amiga. Só que eu não tô ali para deixar ela confortável também, porque esse conforto diminui a velocidade da decisão. Deixa ela falar até o fim.",
+      "cetico": "As três falas são literais no corpus (2782, 2784, 2788) e o contexto é o mesmo erro: a paciente manda a foto mostrando o problema e ela responde \"não, você é linda\". Isso é exatamente o que o :::evite da linha 63 proíbe (\"Tentar animar a paciente minimizando o problema\"), então a troca substitui uma aspa ilustrativa inventada por uma confissão real dela, sem contradizer nada do bloco e mantendo o fecho \"Deixa ela falar até o fim\". A limpeza do ruído de transcrição preserva as palavras dela e não introduz travessão nem itálico."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "media",
+      "trecho": "Agora, se nem assim vem nada, ou se ela topa esperar, o passo três não aconteceu, e quem está convencida é você. Volta pro passo dois e aprofunda até achar o que faz disso um problema agora.",
+      "fala_dela": "Agora é uma pergunta que não está bem colocada nesse momento porque não tem nenhum indício de intolerância, até porque o que ela falou na maior parte das vezes foi melhorar, melhorar, quero melhorar, entendeu?\n\nEh, ela não falou dor em nenhum momento, nem problema\n\nEntão, como não tem nem dor, nem problema, não tem porque ela a gente perguntar sobre tolerância ou sobre incômodo, sobre prioridade",
+      "aplicado": "Agora, se nem assim vem nada, ou se ela topa esperar, o passo três não aconteceu, e quem está convencida é você. Não tem nenhum indício de intolerância, entendeu? Ela não falou dor em nenhum momento, nem problema. Então, como não tem nem dor, nem problema, não tem por que a gente perguntar sobre tolerância ou sobre incômodo, sobre prioridade. Volta pro passo dois e aprofunda até achar o que faz disso um problema agora.",
+      "cetico": "Grep confirma as três falas literais nas linhas 386, 392 e 394, e o contexto é ela diagnosticando ao vivo por que a pergunta de presente inaceitável não colou: sem dor e sem problema estabelecidos, a pergunta de tolerância não tem onde se apoiar. É a mesma regra do livro vista pelo outro lado, e a cadeia fecha certinho no \"Volta pro passo dois e aprofunda até achar o que faz disso um problema agora\", que a proposta preserva intacto. A ressalva é que o \"não tem por que a gente perguntar sobre tolerância\" só se sustenta como condicional (quando não há dor nem problema); do jeito que está, logo depois de \"se nem assim vem nada\", ela se lê como condicional e passa."
+    },
+    {
+      "tipo": "sem_fonte",
+      "gravidade": "media",
+      "afirmacao": "No WhatsApp, emoção não vem com lágrima, vem com história.",
+      "cetico": "Confirmo: varri o corpus por emoção, emocional, chorar, choro, lágrima, história, escrever, por escrito e digitar, e nada afirma que no WhatsApp a emoção se manifesta como história em vez de lágrima. O que existe é o contrário do espírito da frase, a linha 4268 dizendo que nessas perguntas de presente inaceitável áudio curto com tom preocupado é a melhor opção, e o framework (01, linhas 193-194) lista \"demonstra emoção ao falar do problema\" e \"compartilha histórias específicas\" como dois sinais separados, nunca um substituindo o outro por causa do canal."
+    },
+    {
+      "tipo": "sem_fonte",
+      "gravidade": "baixa",
+      "afirmacao": "Ela conta do casamento, da separação, do comentário que ouviu, da foto que viu.",
+      "cetico": "Confirmo parcialmente, e corrijo o garimpeiro: separação, divórcio, ex-marido e afins dão ZERO ocorrência no corpus e nas três fontes, e não achei nenhum caso de comentário de terceiro ouvido pela paciente, então esses dois são invenção. Mas \"a foto que viu\" TEM lastro: o 02-manual-objecoes.md tem a seção LEAD ENVIOU FOTO com \"o que exatamente gostaria que eu notasse olhando sua foto?\", e o corpus na linha 2782 tem a paciente mandando a foto com \"ai, tá vendo?\". Ou seja, dois dos quatro itens da série estão sem fonte, não três."
+    }
+  ],
+  "refutados": [
+    {
+      "trecho": "Só que é o contrário, porque quando você oferece a espera, ela é obrigada a argumentar contra a espera e quem argumenta contra esperar está se convencendo de agir.",
+      "motivo": "As falas existem no corpus (3260, 3262, 3266, 3278, 9024), mas dizem OUTRA coisa: nas linhas 3240-3290 e 9010-9030 ela está tratando a objeção de quem JÁ disse que vai deixar pra depois do carnaval (concordar e depois questionar), não a pergunta proativa \"por que fazer agora e não esperar mais um pouco?\". Pior, a proposta troca o mecanismo de autoconvencimento (\"ela é obrigada a argumentar contra a espera\") por um mecanismo de pressão (\"muitas pessoas precisam desse aperto\"), o que contradiz o eixo do bloco (linha 26 \"quem se convenceu foi ela\" e linha 90 \"se quem está convencida é você, o passo três não aconteceu\") e deixa a frase seguinte, \"É pra isso que serve o 'por que fazer agora e não esperar mais um pouco': ela vai ter que dizer por que não espera\", apontando pra um raciocínio que foi apagado."
+    }
+  ],
+  "cego": {
+    "veredito": "pessoa",
+    "confianca": 69,
+    "votos": {
+      "pessoa": 3,
+      "ia": 0,
+      "indeciso": 0
+    },
+    "leitores": 3,
+    "data": "2026-09-09"
+  }
+}

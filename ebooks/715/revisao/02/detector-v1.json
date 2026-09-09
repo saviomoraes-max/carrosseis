@@ -1,0 +1,151 @@
+{
+  "arquivo": "/Users/saviomoraes/reconecta/ebooks/715/manuscrito/02-vender-o-que-ela-ja-quer-comprar.md",
+  "palavras": 846,
+  "paragrafos": 22,
+  "frases": 71,
+  "mascarado": {
+    "frontmatter": 1,
+    "citacoes": 4,
+    "titulos_curtos": 4
+  },
+  "avisos": [],
+  "score": 16,
+  "faixa": "leve sotaque (passa no portão)",
+  "pontos": 7.5,
+  "densidade": 8.9,
+  "formula": "densidade = pontos / max(palavras, piso_palavras) * 1000; score = 100 * (1 - exp(-densidade / k)), k = 50, piso_palavras = 300 (texto curto não explode com um achado só). Nota por categoria usa k_categoria sobre a densidade só daquela categoria.",
+  "categorias": {
+    "conteudo": {
+      "rotulo": "Conteúdo e inflação",
+      "achados": 2,
+      "pontos": 2,
+      "densidade": 2.4,
+      "nota": 15
+    },
+    "linguagem": {
+      "rotulo": "Linguagem e vocabulário",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "estrutura": {
+      "rotulo": "Estrutura e ritmo",
+      "achados": 2,
+      "pontos": 5.5,
+      "densidade": 6.5,
+      "nota": 35
+    },
+    "comunicacao": {
+      "rotulo": "Sobras de chatbot",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "meta": {
+      "rotulo": "Uniformidade de ritmo (estatística)",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "calques": {
+      "rotulo": "Calques do inglês e burocratês",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    }
+  },
+  "metricas": {
+    "frases_media_palavras": 11.9,
+    "frases_desvio_padrao": 7.1,
+    "frases_cv": 0.6,
+    "paragrafos": 22,
+    "paragrafos_mediana_palavras": 39,
+    "paragrafos_proporcao_mesmo_tamanho": 0.58,
+    "ritmo_entre_paragrafos_desvio": 0.185,
+    "pontuacao_cv": 1.4,
+    "ttr": 0.379,
+    "frases_mesmo_inicio_proporcao": 0.09,
+    "travessoes": 0,
+    "travessoes_por_mil": 0.0,
+    "dois_pontos": 2,
+    "dois_pontos_por_mil": 2.36,
+    "itens_lista": 0,
+    "proporcao_linhas_em_lista": 0.0,
+    "negritos": 0,
+    "triades": 0,
+    "triades_por_mil": 0.0,
+    "contrastes": 0,
+    "paragrafos_terminando_em_pergunta": 2,
+    "fechos_grandiosos": 0,
+    "hedges": 2,
+    "hedges_por_mil": 2.36
+  },
+  "achados": [
+    {
+      "id": "ct_de_certa_forma",
+      "categoria": "conteudo",
+      "subtipo": "hedge",
+      "gravidade": "baixa",
+      "peso": 1,
+      "texto": "de alguma forma",
+      "inicio": 1001,
+      "fim": 1016,
+      "explicacao": "Hedge: amortece a frase.",
+      "sugestao": "corte",
+      "contribuicao": 1,
+      "linha": 16,
+      "trecho": "Então, eu ouvi de uma delas, mas é porque a minha cidade é muito pequena, eu acho que «de alguma forma» pode ter saturado."
+    },
+    {
+      "id": "m_anafora",
+      "categoria": "estrutura",
+      "subtipo": "anafora",
+      "gravidade": "media",
+      "peso": 3,
+      "texto": "4 frases seguidas começando com «Nós temos»",
+      "inicio": 1621,
+      "fim": 1910,
+      "explicacao": "Três ou mais frases seguidas começando igual.",
+      "sugestao": "Deixe uma; reescreva as outras com outro começo.",
+      "contribuicao": 3,
+      "linha": 22,
+      "trecho": "«Nós temos pessoas que faturam 200 mil em cidades de 5 mil habitantes e em cidades de 1 milhão. Nós temos pessoas que faturam 200 mil com mais de 60 anos e com menos de 25. Nós temos pessoas do interior e de capital. Nós temos biomédicas, médicas, dentistas, farmacêuticas, fisioterapeutas.»"
+    },
+    {
+      "id": "ct_tende_a",
+      "categoria": "conteudo",
+      "subtipo": "hedge",
+      "gravidade": "baixa",
+      "peso": 1,
+      "texto": "pode ajudar",
+      "inicio": 3520,
+      "fim": 3531,
+      "explicacao": "Sugestão amortecida.",
+      "sugestao": "'faça X'",
+      "contribuicao": 1,
+      "linha": 40,
+      "trecho": "O objetivo do atendimento é identificar se existe uma necessidade que você «pode ajudar»."
+    },
+    {
+      "id": "es_x_e_o_novo_y",
+      "categoria": "estrutura",
+      "subtipo": "aforismo",
+      "gravidade": "media",
+      "peso": 2.5,
+      "texto": "Empatia é a base do atendimento",
+      "inicio": 3791,
+      "fim": 3822,
+      "explicacao": "Fórmula de aforismo ('X é o novo Y', 'X é a moeda de Y').",
+      "sugestao": "diga a afirmação concreta por trás",
+      "contribuicao": 2.5,
+      "linha": 44,
+      "trecho": "«Empatia é a base do atendimento»."
+    }
+  ],
+  "achados_ocultos": 0,
+  "min_gravidade": "baixa"
+}

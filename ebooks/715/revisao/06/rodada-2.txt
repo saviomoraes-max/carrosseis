@@ -1,0 +1,6 @@
+06-passo-4-qualificacao.md · rodada 2 · brutos 17 · confirmados 1 · altas 0 · cego None None
+
+[1] voz/media
+  TRECHO: Quando a doutora terminou o diagnóstico eu já tava completamente na emoção, já tinha entendido que aquilo resolvia o meu problema, e ninguém precisou me apresentar nada. Ela pediu a consulta. Você só perguntou.
+  DETALHE: Mudança de plano (do caso dela na salinha de volta pra paciente do queixo) sem marcador. Fingerprint, seção 2, "Como muda de plano": A1 "E da forma como foi conduzido comigo", A2 "Aí vai mais uma indicação", A3 "E, bom, 
+  CORRECAO: Quando a doutora terminou o diagnóstico eu já tava completamente na emoção, já tinha entendido que aquilo resolvia o meu problema, e ninguém precisou me apresentar nada. E a paciente do queixo chegou no mesmo lugar sem passar por salinha nenhuma. Ela pediu a consulta. Você só perguntou.

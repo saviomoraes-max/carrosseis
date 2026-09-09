@@ -1,0 +1,134 @@
+{
+  "arquivo": "/Users/saviomoraes/reconecta/ebooks/715/manuscrito/A-cola-de-uma-pagina.md",
+  "palavras": 336,
+  "paragrafos": 23,
+  "frases": 41,
+  "mascarado": {
+    "frontmatter": 1,
+    "citacoes": 2,
+    "titulos_curtos": 1
+  },
+  "avisos": [],
+  "score": 61,
+  "faixa": "sotaque forte (reescrever os trechos marcados)",
+  "pontos": 16,
+  "densidade": 47.6,
+  "formula": "densidade = pontos / max(palavras, piso_palavras) * 1000; score = 100 * (1 - exp(-densidade / k)), k = 50, piso_palavras = 300 (texto curto não explode com um achado só). Nota por categoria usa k_categoria sobre a densidade só daquela categoria.",
+  "categorias": {
+    "conteudo": {
+      "rotulo": "Conteúdo e inflação",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "linguagem": {
+      "rotulo": "Linguagem e vocabulário",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "estrutura": {
+      "rotulo": "Estrutura e ritmo",
+      "achados": 1,
+      "pontos": 1,
+      "densidade": 3.0,
+      "nota": 18
+    },
+    "comunicacao": {
+      "rotulo": "Sobras de chatbot",
+      "achados": 1,
+      "pontos": 10,
+      "densidade": 29.8,
+      "nota": 86
+    },
+    "meta": {
+      "rotulo": "Uniformidade de ritmo (estatística)",
+      "achados": 1,
+      "pontos": 5,
+      "densidade": 14.9,
+      "nota": 63
+    },
+    "calques": {
+      "rotulo": "Calques do inglês e burocratês",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    }
+  },
+  "metricas": {
+    "frases_media_palavras": 9.7,
+    "frases_desvio_padrao": 5.2,
+    "frases_cv": 0.54,
+    "paragrafos": 23,
+    "paragrafos_mediana_palavras": 20,
+    "paragrafos_proporcao_mesmo_tamanho": 0.78,
+    "pontuacao_cv": 1.17,
+    "frases_mesmo_inicio_proporcao": 0.0,
+    "travessoes": 0,
+    "travessoes_por_mil": 0.0,
+    "dois_pontos": 0,
+    "dois_pontos_por_mil": 0.0,
+    "itens_lista": 0,
+    "proporcao_linhas_em_lista": 0.0,
+    "negritos": 0,
+    "triades": 2,
+    "triades_por_mil": 5.95,
+    "contrastes": 0,
+    "paragrafos_terminando_em_pergunta": 0,
+    "fechos_grandiosos": 0,
+    "hedges": 0,
+    "hedges_por_mil": 0.0
+  },
+  "achados": [
+    {
+      "id": "m_paragrafos_uniformes",
+      "categoria": "meta",
+      "subtipo": "ritmo",
+      "gravidade": "media",
+      "peso": 5,
+      "texto": "7 de 9 parágrafos com ~20 palavras",
+      "inicio": 318,
+      "fim": 426,
+      "explicacao": "A maior parte dos parágrafos tem o mesmo tamanho.",
+      "sugestao": "Varie: um parágrafo de uma linha, outro que se estende.",
+      "contribuicao": 5,
+      "linha": 12,
+      "trecho": "««1. Conexão.» Abrir espaço pra conversa e mostrar que você está ali pra entender se consegue ajudar ou não. »"
+    },
+    {
+      "id": "cb_placeholder",
+      "categoria": "comunicacao",
+      "subtipo": "placeholder",
+      "gravidade": "critica",
+      "peso": 10,
+      "texto": "[Nome]",
+      "inicio": 1573,
+      "fim": 1579,
+      "explicacao": "Lacuna de template não preenchida.",
+      "sugestao": "preencha ou corte",
+      "contribuicao": 10,
+      "linha": 47,
+      "trecho": ":::frase «[Nome]», por conta da forma que trouxe."
+    },
+    {
+      "id": "es_reticencias_dramaticas",
+      "categoria": "estrutura",
+      "subtipo": "formatacao",
+      "gravidade": "baixa",
+      "peso": 1,
+      "texto": "... e",
+      "inicio": 1610,
+      "fim": 1615,
+      "explicacao": "Reticência dramática antes da revelação.",
+      "sugestao": "vírgula ou ponto",
+      "contribuicao": 1,
+      "linha": 47,
+      "trecho": "[Nome], por conta da forma que trouxe«... e» de já estar desde [tempo] sentindo assim."
+    }
+  ],
+  "achados_ocultos": 0,
+  "min_gravidade": "baixa"
+}

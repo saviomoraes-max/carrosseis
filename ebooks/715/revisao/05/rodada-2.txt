@@ -1,0 +1,41 @@
+05-passo-3-presente-inaceitavel.md · rodada 2 · brutos 20 · confirmados 8 · altas 1 · cego ia 68
+
+[1] tell/alta
+  TRECHO: Você avança quando ela se emociona falando do problema, quando conta uma história com data, como o casamento da irmã em novembro, quando diz que não dá mais pra esperar, e quando você percebe que ela própria já está convencida.
+  DETALHE: Esteira (catálogo 2.6) somada a recapitulação (4.11): o parágrafo repete palavra por palavra os quatro itens do bloco :::grafico sinais que está logo acima. Corte de metade não perde nada. E o parágrafo seguinte faz a me
+  CORRECAO: Apagar apenas o parágrafo da linha 88 ('Você avança quando ela se emociona...'), deixando o gráfico emendar direto em 'Não precisa dos quatro.' (linha 90, mantida como está). Na linha 92, trocar só a etiqueta inicial: 'O quarto é o que engana. Se quem está convencida é você, o passo três não aconteceu. Você vai levar essa convicção pros próximos passos e vai empurrar. Se quem está convencida é ela, os próximos passos são só confirmação.'
+
+[2] tell/media
+  TRECHO: Citar é pouca coisa. É começar a próxima mensagem pela palavra dela, novembro, então..., e só depois vem a pergunta seguinte.
+  DETALHE: Contraste fácil (1.1) em cluster. Este parágrafo sozinho tem três: 'não parece conversa, e sim interrogatório', 'Citar é pouca coisa. É começar...', 'vem depois do casamento, não no lugar dele'. No capítulo inteiro conte
+  CORRECAO: A leitura negativa aqui é: mais uma daquelas técnicas de venda batidas. Ela acontece quando a conversa vira interrogatório, quando a sua pergunta seguinte não tem nada a ver com o que ela acabou de responder. Ela contou do casamento, você mandou a próxima pergunta do script sem citar o casamento, e pronto, ela viu o script. Aí a próxima mensagem começa pela palavra dela, novembro, então..., e só depois vem a pergunta. Pode ser a mesma pergunta do script. O que muda é que ela vem depois do casamento, não no lugar dele.
+
+[3] tell/media
+  TRECHO: E a nossa reação de gente educada é aliviar: "imagina, nem é tão assim". Não alivia.
+  DETALHE: O capítulo passa no detector mas não carrega as marcas dela. Contagem na prosa (675 palavras): 'eu' 4, 'a gente' 0, 'muito' 0, 'porque' 1, 'aqui' 2, zero 'sabe?', 'tá?', 'acho que', 'na verdade', zero observação em escal
+  CORRECAO: Linha 66: 'E a gente é educada, então a reação é aliviar: imagina, nem é tão assim. Não alivia. Quem alivia tira dela o motivo que ela acabou de encontrar. Deixa ela falar até o fim.' Linha 56: 'A primeira é a que abre mais espaço, porque o "posso estar enganada" dá a ela o direito de te corrigir. E ela quase nunca corrige. Ela confirma e conta.' Linha 90: 'Ela escreve muito mais do que você perguntou, cita a data, cita a foto, cita a irmã.' O terceiro 'porque' já entra pela correção de [0] ('porque a convencida pode ser você').
+
+[4] fidelidade/media
+  TRECHO: - Conta uma história com data, como o casamento em novembro
+  DETALHE: O gráfico de sinais é apresentado como a lista da fonte, mas este item mistura o exemplo inventado da cena (casamento da irmã em novembro) com o critério do PDF e ainda o estreita. Framework p.5 diz: "Compartilha históri
+  CORRECAO: No card: "- Conta uma história específica, como o casamento em novembro". Na prosa: "Você avança quando ela se emociona falando do problema, quando conta uma história específica, como o casamento da irmã em novembro, quando diz que não dá mais pra esperar, e quando você percebe que ela própria já está convencida." (Mantém a escada de "quando", o exemplo da cena entrega o específico que a palavra promete, e a l.90 já cobre foto e irmã.)
+
+[5] voz/media
+  TRECHO: Esse passo tem uma coisa diferente dos outros: aqui a paciente às vezes se emociona. Ela conta do casamento, da separação, do comentário que ouviu, da foto que viu. E a nossa reação de gente educada é aliviar: "imagina, nem é tão assim". Não alivia. Quem alivi
+  DETALHE: Prescricao seca sem a concessao de humildade que ela cola em 3 de 3 amostras (whitelist 14: "nao estou falando que existe um certo ou errado", "E eu nao falo da posicao de quem e ilibado", "Faco isso todo santo dia"). Do
+  CORRECAO: Ela conta do casamento, da separação, do comentário que ouviu, da foto que viu. E a gente, de gente educada, alivia: "imagina, nem é tão assim". Eu entendo, é o que a gente faz com amiga. Com paciente, não alivia. Quem alivia tira dela o motivo que ela acabou de encontrar. Deixa ela falar até o fim.
+
+[6] voz/media
+  TRECHO: Não alivia. Quem alivia tira dela o motivo que ela acabou de encontrar.
+  DETALHE: Um unico "porque" em 980 palavras ("porque e o momento em que"). E o conector numero 1 dela: 15 ocorrencias, 8,3 por mil, 3 de 3; dose 12 a 18 por capitulo, ou seja, 5 a 8 neste tamanho. O capitulo explica por justaposic
+  CORRECAO: Não alivia. Porque quem alivia tira dela o motivo que ela acabou de encontrar. // Parece que você está dando a ideia de esperar. É o contrário. Porque quando você oferece a espera, ela é obrigada a argumentar contra a espera, e quem argumenta contra esperar está se convencendo de agir. // Manter 'acabou. Ela viu o script.' como está.
+
+[7] voz/baixa
+  TRECHO: Eu chamo ele de presente inaceitável porque é o momento em que a paciente olha pro problema que ela já tinha e decide que continuar assim não é mais uma opção. Repara: o problema dela não começou hoje.
+  DETALHE: Dois pontos. (1) "não é mais uma opção" e formula de gestao/coach; ela diz "não dá mais", e o proprio capitulo usa "continuar assim não dá mais" na secao seguinte. Whitelist 9: repete a palavra, nao varia por sinonimo. (
+  CORRECAO: Eu chamo ele de presente inaceitável porque é o momento em que a paciente olha pro problema que ela já tinha e decide que continuar assim não dá mais. Repara: o problema dela não começou hoje.
+
+[8] voz/baixa
+  TRECHO: O "por que fazer agora e não esperar mais um pouco?" parece perigoso, eu sei. Parece que você está dando a ideia de esperar. É o contrário.
+  DETALHE: Frases comecando com "E": 5 de cerca de 60 frases de prosa (8%), contra 22% nas amostras (3 de 3) e dose de 15 a 20%. Frases com "Mas" inicial: zero (dose 3 a 5). Muletas orais: zero "tá?", zero "né", zero "sabe?" de mul
+  CORRECAO: O "por que fazer agora e não esperar mais um pouco?" parece perigoso, eu sei, tá? Parece que você está dando a ideia de esperar. Mas é o contrário. // E na seção Pra que serve: A paciente percebe, respondendo a sua pergunta, que ela já está inconformada faz tempo, na verdade desde antes de te procurar, e que só não tinha dito em voz alta.

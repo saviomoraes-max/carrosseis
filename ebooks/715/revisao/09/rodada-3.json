@@ -1,0 +1,70 @@
+{
+  "rodada": 3,
+  "data": "2026-09-09",
+  "lente": "corpus de fala da autora (80.938 palavras), 2a leva",
+  "juri": "opus-5",
+  "brutos": 8,
+  "confirmados_n": 4,
+  "altas_confirmadas": 2,
+  "aparado_por_colisao": "",
+  "resumo": "Bloco 09 (Passo 7 / Fechamento) é o bloco mais bem ancorado nas fontes que eu vi: quase tudo tem correspondência direta na Etapa 7 do framework e na seção 7 do manual de perguntas. O problema aqui não é fidelidade, é costura: cinco passagens resolvem em prosa de editor exatamente o que ela já resolve melhor na fala, e o corpus de 80.938 palavras tem material forte sobre os quatro assuntos centrais do bloco (bastão, comprovante, gerar valor, não se justificar). Busquei no corpus por: comprovante, pix, chave pix, horário disponível, como fica para você, disponibilidade, agenda, encaixar, escassez, fechamento, compromisso, bastão, convencer, gerar valor, construir valor, vou pensar, qualificação, apressada/afobada, insistir, justificar, copiar e colar, mensagem separada, em casa, onde fica, o que levar, melhor decisão, me organizar, some depois do preço, próximo passo, consequência, hesitar. As trocas mais fortes são a do comprovante (linha 69: ela tem a versão dura e repetida, \"comprovante não foi enviado, a venda não foi feita, o agendamento não foi feito\") e a do bastão (linha 23, onde o livro escreve \"passa o controle da conversa pra ela\" e ainda emenda uma lista composta de quatro degraus, quando ela tem a metáfora própria que o próprio livro usa duas linhas depois sem ter apresentado). Três das cinco trocas também corrigem o ritmo na direção que o fingerprint v3 pede: período longo que se atropela e emenda com \"e\", e repetição do miolo sem conector no lugar de um \"ou seja\". Em sem_fonte achei pouca coisa e nenhuma grave: duas causas inventadas para justificar prescrições (\"a agenda anda\", \"ela deixa pra pagar quando chegar em casa\") e um quantificador inflado (\"quase todo vou pensar\" onde a fonte diz \"geralmente\"). O restante das afirmações do bloco, inclusive \"a medida veio do passo quatro\", tem fonte literal (Etapa 4, Qualificação: \"Antes de seguirmos para a disponibilidade na agenda, o que você entendeu que poderia mudar com a consulta?\"). Não flaguei \"pede uma vez e segue\" nem \"a paciente que pergunta onde fica já está indo\": a primeira tem apoio no corpus (\"o ponto é não ficar insistindo no sentido de a mesma abordagem o tempo todo\" e \"é o momento de dar uma soltada, pra gente não insistir muito\"), a segunda é leitura direta de um item que o PDF já lista como Sinal de Sucesso.",
+  "confirmados": [
+    {
+      "tipo": "troca",
+      "gravidade": "alta",
+      "trecho": "O “agora” aparece duas vezes, no PIX e no comprovante, e ele não está ali por pressa. O horário dela só passa a existir quando o comprovante chega.",
+      "fala_dela": "Agora, não existe uma uma venda, na verdade, não existe um agendamento feito se o comprovante não for enviado  [linha 7062]  //  comprovante não foi enviada, a venda não foi feita, o adendamento não foi feito  [linha 7064]",
+      "aplicado": "O “agora” aparece duas vezes, no PIX e no comprovante, e ele não está ali por pressa. Não existe uma venda, na verdade, não existe um agendamento feito se o comprovante não for enviado. Comprovante não foi enviado, a venda não foi feita, o agendamento não foi feito.",
+      "cetico": "Grep confirma as duas falas literais nas linhas 7062 e 7064, o trecho do livro está na linha 69 exatamente como citado, e as falas dizem a mesma coisa (o agendamento não existe sem o comprovante). Ganho extra que o garimpeiro nem notou: a linha 34 do gráfico já diz \"O horário só existe quando ele chega\", então a troca ainda apaga uma repetição interna do bloco. As correções de ASR são só de flexão da mesma palavra e estão declaradas; sem travessão, sem itálico."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "alta",
+      "trecho": "A mesma frase, sem mudar o tom, e você não acrescenta nada, tá. O que confirma o horário já está dito dentro dela.",
+      "fala_dela": "Toda vez que a gente, quanto mais a gente fala, mais a gente se explica, mas parece que a gente tá querendo justificar alguma coisa  [linha 4308]  //  Não faz o menor sentido a gente justificar por que a gente não tá dando uma informação ou por que aconteceu do atendimento da forma como aconteceu  [linha 1950]  //  É o que é e ponto  [linha 1952]",
+      "aplicado": "E se ela disser que faz o PIX à noite? A mesma frase, sem mudar o tom, e você não acrescenta nada, tá. Quanto mais a gente fala, mais a gente se explica, e parece que a gente tá querendo justificar alguma coisa. É o que é e ponto. Pede uma vez e segue. Só que, se ela empurrar o pagamento pra depois disso, aí já virou objeção, e objeção tem lugar próprio mais pra frente.",
+      "cetico": "As três falas existem literais (4308, 1950, 1952), o trecho está na linha 71 como citado, nenhuma delas aparece em outro capítulo do manuscrito, e a doutrina do não justificar é a razão real do não acrescenta nada. Só que a proposta apaga a instrução operacional (\"e você não acrescenta nada\") e deixa ela só implícita; devolvo com a instrução de volta, o que também corrige o \"mas\" trocado por \"e\" sem declaração. Sem travessão, sem itálico, marcador oral \"tá\" só uma vez."
+    },
+    {
+      "tipo": "sem_fonte",
+      "gravidade": "media",
+      "afirmacao": "O erro é perguntar antes de oferecer, mas, depois de oferecer, pode perguntar, porque aí ela já viu que a agenda anda.",
+      "cetico": "Refiz a busca e confirmo: o framework autoriza a prática (\"Se não funcionar, o lead naturalmente vai dizer quando pode, e você pode verificar a disponibilidade para aquele momento específico\") mas não dá essa causa, e no corpus não existe \"agenda anda\" nem nada equivalente a movimento de agenda como prova pra paciente. O que existe é o oposto do que a frase sugere: linha 2958 mostra ela evitando sinalizar escassez absurda e evitando sinalizar disponibilidade infinita, e as ocorrências de agenda (924, 5696, 5700) falam de agenda fechada ou de horários escassos, nunca de agenda que anda. A prática fica, a justificativa cai."
+    },
+    {
+      "tipo": "sem_fonte",
+      "gravidade": "media",
+      "afirmacao": "Chave no meio do texto ela deixa pra pagar quando chegar em casa.",
+      "cetico": "Confirmo. O framework (p.9) justifica a instrução por um motivo só, \"Envie a chave PIX em uma mensagem separada para facilitar o copiar e colar\", e no corpus não há uma única ocorrência de pagar em casa, chegar em casa, pagar depois ou deixar pra mais tarde ligada a PIX; as três transcrições de aula também não têm. A frase anterior (\"porque aí ela só copia e cola\") tem fonte literal, esta aqui inventa um comportamento de paciente e apresenta como padrão observado."
+    }
+  ],
+  "refutados": [
+    {
+      "trecho": "E quem pergunta quando a paciente pode passa o controle da conversa pra ela: olhar a agenda, olhar a semana, voltar depois, ou não voltar.",
+      "motivo": "As duas falas existem literais (504 e 608), mas o motivo é falso nos dois pilares: \"bastão\" JÁ foi apresentado em 02-vender-o-que-ela-ja-quer-comprar.md linha 66 (\"Quem faz as perguntas conduz a conversa, e fica com o bastão na mão\") e reusado em 03-passo-1-conexao.md, e \"passa o controle\" é vocabulário da própria fonte (02-manual-objecoes: \"transfere o controle para o lead que provavelmente nunca mais vai voltar\", de onde sai o \"ou não voltar\"). Pior: truncar a fala de \"se ela prefere presencial online\" para \"se eu pergunto para ela\" transforma pergunta de preferência em pergunta em geral, e aí a proposta contradiz a doutrina do livro e a linha 43 deste mesmo bloco, onde você pergunta \"como fica para você?\" e o bastão continua com você. Critério (4) reprova."
+    },
+    {
+      "trecho": "Isso acontece quando o preço da consulta parece maior do que o preço de não resolver o problema, e quando a gente não mostrou, ao longo da conversa, o que a consulta resolve.",
+      "motivo": "A fala existe literal na linha 734, mas ela JÁ está usada palavra por palavra no manuscrito, em 11-o-manual-de-respostas.md linha 64 (\"De fato, só existe uma forma da gente gerar valor na conversa, que é quando a pessoa entende que o problema que ela tem a gente consegue ajudar a resolver\"), e é justamente o capítulo pra onde este bloco manda o leitor na linha 77. Repetir a mesma máxima de 30 palavras em dois capítulos é tell de copiar e colar, defeito maior do que o que se queria corrigir. Além disso o texto atual não é paráfrase solta: é a soma fiel de dois bullets da Etapa 7 do framework (\"Não geramos valor ao longo da conversa\" e \"Conectamos a solução com o problema\"). O termo da casa dá pra recuperar sem gastar a máxima duas vezes."
+    },
+    {
+      "trecho": "Se os seis passos anteriores aconteceram, o fechamento não convence ninguém, ele só organiza.",
+      "motivo": "A fala existe literal na linha 2328, mas ela JÁ foi gasta no manuscrito, em 05-passo-3-presente-inaceitavel.md linha 26, e lá vem com a frase seguinte dela junto (\"Qualquer coisa que eu falar não vai fazer sentido para ela se ela não falar junto comigo, entendeu?\"). Repetir a mesma máxima no capítulo 09 entrega o livro. Se a antítese incomoda, basta cortar a metade retórica sem importar máxima repetida."
+    },
+    {
+      "trecho": "O segundo erro é o que explica quase todo “vou pensar” que chega no fechamento.",
+      "motivo": "Achei a fonte que o garimpeiro não achou: 02-manual-objecoes traz \"Vou pensar e qualquer coisa te aviso\" como a pergunta canônica sob o título de seção FALTA DE COMPROMISSO (linhas 64 a 66), que é exatamente o segundo erro do bloco (\"partir pro fechamento sem ter criado compromisso suficiente\"). O mesmo manual ainda liga \"vou pensar\" a cortina de fumaça que esconde \"geralmente falta de valor percebido\" e diz que a frase \"transfere o controle para o lead que provavelmente nunca mais vai voltar\". A causa está na fonte, e \"quase todo\" fica dentro do próprio \"geralmente\" dela, não é número inventado."
+    }
+  ],
+  "cego": {
+    "veredito": "ia",
+    "confianca": 63,
+    "votos": {
+      "pessoa": 1,
+      "ia": 2,
+      "indeciso": 0
+    },
+    "leitores": 3,
+    "data": "2026-09-09"
+  }
+}

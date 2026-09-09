@@ -1,0 +1,50 @@
+{
+  "rodada": 3,
+  "data": "2026-09-09",
+  "lente": "corpus de fala + foco nas pistas do leitor cego",
+  "juri": "opus-5",
+  "brutos": 6,
+  "confirmados_n": 2,
+  "altas_confirmadas": 0,
+  "nota": "A/troca0, A/troca1 e A/troca2 rejeitadas: a cola é peça curta e as falas colidiam com 11 e 05",
+  "resumo": "Bloco curto e de consulta rápida, então trabalhei com o critério do briefing: só troco se a fala dela for mais curta ou mais concreta. Fiz cerca de 40 buscas no corpus (objeção com as 60 ocorrências lidas uma a uma, clarear/clareia/flacidez, se sente/sentindo/sentimento, comprovante/PIX/chave PIX, horário disponível, bastão, informação, intenção, voltar/volta lá/etapa anterior/raso, aprofundou, compromisso, gerar valor, como assim, eu perguntaria, sinal, preocupa, cortina, desculpa, saída, monossilábico) e cruzei tudo com os três PDFs.\n\nAchado que muda a auditoria anterior: \"cortina\" NÃO é metáfora composta. Está literal em 02-manual-objecoes.md (\"Cortinas de fumaça... Se a resposta for vaga, você está lidando com uma cortina de fumaça\"), e a frase \":::frase Quando você diz [objeção], o que exatamente te preocupa?\" também é literal do mesmo PDF (p.6). Nenhuma das duas é sem_fonte.\n\nSobre as três tríades: duas são literais da fonte e por isso ficam de pé. \"Um horário, depois o investimento e o PIX, depois o comprovante\" é o Passo 1 / Passo 2 / Passo 3 da Etapa 7 do framework, e \"confirma sem hesitar, paga na hora e pergunta onde fica\" são três dos quatro bullets de \"Sinais de Sucesso\" (inclusive \"onde fica\" está literal no PDF). A terceira, \"Volta pra ele, refaz a pergunta, e só oferece horário de novo quando o sinal daquele passo aparecer\", não está em fonte nenhuma nem no corpus: é composição, e cedeu na troca 3.\n\nQuatro trocas propostas, todas com fala literal do corpus. A mais forte é a da abertura da seção Objeção: o par antitético com sujeito indeterminado (\"Nunca se responde com informação. Se responde com pergunta.\") sai e entra a regra de decisão que ela dá ao vivo, que é mais curta de entender e mais executável sob pressão. As outras três matam uma pancada curta fabricada (\"Nessa ordem.\"), a tríade composta, e a etiqueta abstrata do passo 3.\n\nO que deixei quieto de propósito, pra não inchar a cola: passo 1, passo 2 (metade dele já é fala literal dela, \"Se ela falar flacidez, a gente clareia flacidez\"), passo 4, passo 5 (inteiro já é literal, \"A real é que a iniciativa ela já tomou. Agora é só concretizar a decisão\"), passo 6, e todas as linhas de \"Avança quando\", que são recorte fiel do \"Quando avançar\" do framework. Achei falas boas dela pra vários desses pontos (\"objeção, na verdade, é interesse\", \"Ela colocou uma saída ali para não se comprometer\", \"eu só repetiria a palavra que ela trouxe\"), mas em todos os casos a fala era MAIS LONGA que a linha atual, então não propus.\n\nLista de sem_fonte curta e honesta: dois itens, ambos de gravidade baixa, nenhum deles inventando fato. O resto do bloco fecha com as fontes.",
+  "confirmados": [
+    {
+      "tipo": "troca",
+      "gravidade": "media",
+      "trecho": "«3. Presente inaceitável.» Fazer ela dizer por que agora.",
+      "fala_dela": "Por que que tá insuportável continuar?",
+      "aplicado": "«3. Presente inaceitável.» Fazer ela dizer por que que tá insuportável continuar.",
+      "cetico": "Grep confirma a fala literal (linha 2298) e o contexto é exatamente o objetivo do passo 3: \"minimamente entender o que que tá motivando essa pessoa a querer tomar essa decisão agora / Por que que tá insuportável continuar?\". Bate com a fonte (\"O que fez com que isso que já estava acontecendo deixasse de ser tolerável agora?\", 03-manual p.2) e com o capítulo 5 (\"decide que continuar assim não dá mais\"), não invade :::frase e não contradiz o \"Avança quando\" logo abaixo. O \"por que que\" já tem precedente no próprio livro (B-banco-de-perguntas: \"fica claro por que que ela quer resolver agora\") e \"tá\" como verbo aparece em oito capítulos, então não é marcador empilhado nem estrangeiro ao registro."
+    }
+  ],
+  "refutados": [
+    {
+      "trecho": "«Objeção.» Nunca se responde com informação. Se responde com pergunta.",
+      "motivo": "O grep acha a fala literal (linha 6832), mas o contexto dela é outro assunto: ela está numa lista de erros de perguntas fechadas, elogiando o \"como assim\" como clarificação de palavra vaga (etapa 2, logo depois de \"O que você quer dizer com flacidez?\"), e não falando de objeção. A proposta apaga uma doutrina que TEM fonte (\"a forma mais fácil de encerrar uma conversa é com uma resposta\", 02-manual-objecoes p.6; \"Menos informação, menos objeção\", 03-manual) e que o capítulo 10 desenvolve numa seção inteira chamada \"Por que responder mata\". Pior: a proposta manda perguntar \"como assim\" e a :::frase intocável logo abaixo pergunta \"o que exatamente te preocupa?\", então a costura que o garimpeiro alega (\"já ligada na frase pronta que vem logo abaixo\") simplesmente não existe."
+    },
+    {
+      "trecho": "«7. Fechamento.» Um horário, depois o investimento e o PIX, depois o comprovante. Nessa ordem.",
+      "motivo": "A fala existe literal (linha 6966) e o contexto é mesmo o fechamento, mas a premissa da acusação é falsa: \"Nessa ordem.\" não é pancada curta fabricada aqui, é o subtítulo verbatim do capítulo 9 (\"Horário, PIX, comprovante. Nessa ordem.\"), ou seja, motivo já estabelecido do livro que a cola espelha de propósito. E a troca perde a carga normativa: \"Nessa ordem\" afirma que a ordem é obrigatória, o que o 01-framework impõe (Passo 2 é \"após confirmação do horário\", e \"perguntar a disponibilidade do paciente antes de oferecer um primeiro horário\" está no \"O que evitar\" da Etapa 7), enquanto \"Esse é o passo a passo\" só rotula. Some-se que na fala ela recita horário, investimento e PIX sem o comprovante, então a tag dela nem cobre a mesma tríade da linha do livro."
+    },
+    {
+      "trecho": "Resposta específica, você conversa sobre ela. Resposta vaga é cortina: algum passo anterior ficou raso. Volta pra ele, refaz a pergunta, e só oferece horário de novo quando o sinal daquele passo aparecer.",
+      "motivo": "A fala existe literal (linha 4250), mas diagnostica outra coisa: o contexto é \"passou por todas as etapas, fez a transição, apresentação e ela ainda assim não comprou\", e o erro que ela nomeia é problema errado (falha do passo 2), enquanto o trecho do livro trata de resposta vaga à pergunta de objeção, cujo retorno o capítulo 10 aponta explicitamente para os passos 3 e 4. A acusação de \"composição sem fonte\" também cai: \"volta pra ele, refaz a pergunta\" é a compressão do capítulo 10 (\"Voltar é refazer a pergunta do passo que ficou raso, em vez de inventar resposta nova pra objeção... você volta um passo e pergunta de novo\"), que por sua vez sai do 02-manual, onde as respostas de \"continuar a conversa\" para o \"vou pensar\" são as perguntas do passo 3 e do passo 4. Cortar \"refaz a pergunta\" tira a definição operacional de voltar e ainda aponta a leitora para o passo errado."
+    },
+    {
+      "trecho": "e só oferece horário de novo quando o sinal daquele passo aparecer",
+      "motivo": "Achei a fonte que ele diz não existir. O capítulo 10 do próprio livro define \"Voltar é refazer a pergunta do passo que ficou raso\" e nomeia os passos 3 e 4, e isso vem do 02-manual-objecoes, cujas respostas de \"se quiser continuar a conversa\" para o \"vou pensar\" são literalmente as perguntas do passo 3 (\"o que te fez pensar em resolver isso agora e nos trouxe até aqui?\") e do passo 4 (\"como entendeu que a consulta com a Dra vai te ajudar a resolver [problema]?\"). O \"sinal pra avançar\" é o bloco \"Quando avançar\" que existe nas sete etapas do 01-framework, e o \"só oferece horário de novo\" é o \"O que evitar\" da Etapa 7: \"partir para o fechamento sem ter criado compromisso suficiente\". A frase é síntese de fonte, não invenção."
+    }
+  ],
+  "cego": {
+    "veredito": "pessoa",
+    "confianca": 73,
+    "votos": {
+      "pessoa": 3,
+      "ia": 0,
+      "indeciso": 0
+    },
+    "leitores": 3,
+    "data": "2026-09-09"
+  }
+}

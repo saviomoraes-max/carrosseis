@@ -1,0 +1,70 @@
+{
+  "rodada": 4,
+  "data": "2026-09-09",
+  "lente": "corpus de fala + foco nas pistas do leitor cego",
+  "juri": "opus-5",
+  "brutos": 9,
+  "confirmados_n": 6,
+  "altas_confirmadas": 2,
+  "nota": "09/troca4 rejeitada: a citação dá zero no corpus e a anedota já está no capítulo 6",
+  "resumo": "Bloco 09 (Passo 7 - Fechamento), 966 palavras: 12 frases abrindo com \"E\" em intervalo quase regular, 0 \"né\", 3 pares negacao-afirmacao espelhados, 1 quiasmo e 1 pergunta retorica com escada de anafora. O corpus tem fala dela sobre EXATAMENTE esses assuntos (fechamento, horario, PIX, comprovante, compromisso) e ela resolve os mesmos pontos sem nenhum desses recursos. 7 trocas propostas, todas atacando os defeitos apontados pelos leitores cegos: as 3 antiteses caem (linhas 27, 69, 99), o quiasmo cai (linha 21), a escada de anafora cai (linha 21), 3 dos 12 \"E\" iniciais caem (linhas 21, 23, 71), e entram 2 \"né\" que vieram colados na fala dela (\"Aí não tem urgência, né, gente?\" e \"o bastão tá na mão dela\"), em rajada nos dois primeiros paragrafos, nao salpicados. Entram tambem 3 unidades de uma palavra de checagem que vieram junto (\"sabe\", \"tá\", \"gente\"), que e o item nº 1 da lista de retorno do fingerprint (7,4% contra 21,2% dela). Achado mais forte: a antitese \"o fechamento não convence ninguém, ele só organiza\" tem substituta direta e melhor no corpus, que e uma maxima dela (\"a única pessoa capaz de convencer alguém a fazer alguma coisa é ela mesma\"), e o framework confirma o conteudo na Etapa 4 (\"Você sente que não precisa 'convencer' de nada\"). Achado mais util pro quiasmo: em vez de afirmar que ela nao teve tempo de pensar, o corpus da o contrario acontecendo quando o preco chega cedo (\"ela volta na hora que ela quer... Aí não tem urgência, né, gente?\"), que e mais concreto e ja vem com as muletas no lugar. Em sem_fonte, so 2 achados, os dois de gravidade media e os dois cobertos pelas trocas 5 e 6: o quantificador \"quase todo 'vou pensar'\" e a prescricao \"a mesma frase, sem mudar o tom\" pro cenario do PIX a noite, cuja resposta no corpus e outra (cara de pau, figurinha \"cadê o Pix?\"). Nenhuma proposta contem travessao nem italico, e nenhum bloco :::frase foi tocado.",
+  "confirmados": [
+    {
+      "tipo": "troca",
+      "gravidade": "alta",
+      "trecho": "Sabe onde o preço apareceu nessa cena? Na segunda mensagem. Depois do horário. Depois de seis passos. E ele apareceu como “investimento da consulta”, entre um horário que ela já aceitou e uma chave PIX. Ela não teve tempo de ir pra casa pensar, porque não sobrou nada pra pensar.",
+      "fala_dela": "E no fim eu acabo perdendo porque ela sabe quanto custa agora e ela sabe como que funciona para poder agendar e ela volta na hora que ela quer\n\nEla acha que ela pode voltar na hora que ela quer\n\nAí não tem urgência, né, gente?",
+      "aplicado": "Olha só onde o preço apareceu nessa cena. Na segunda mensagem, depois do horário que ela já aceitou, e como “investimento da consulta”, com a chave PIX logo abaixo. Agora, se ele aparece antes disso, acontece o contrário: ela sabe quanto custa agora e ela sabe como que funciona para poder agendar e ela volta na hora que ela quer. Ela acha que ela pode voltar na hora que ela quer. Aí não tem urgência, né, gente?",
+      "cetico": "Grep confirma as tres falas literais e seguidas no corpus (linhas 5566, 5568 e 5570), e o contexto 5545-5570 e exatamente sobre passar preco/Pix sem compromisso, entao a fala diz mesmo o que o trecho diz. O trecho do livro esta identico na linha 21, fora de bloco :::frase, e a proposta nao tem travessao nem italico e usa \"né, gente?\" uma vez so. Checagem extra: \"Olha só\" aparece 8 vezes no corpus e \"Agora, se\" 21 vezes, entao os dois conectores da proposta sao dela."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "alta",
+      "trecho": "O “agora” aparece duas vezes, no PIX e no comprovante, e ele não está ali por pressa.",
+      "fala_dela": "Só a gente só só comemora a venda, só comemora o agendamento depois do comprovante, como um agendamento Так",
+      "aplicado": "O “agora” aparece duas vezes, no PIX e no comprovante. Não existe uma venda, na verdade, não existe um agendamento feito se o comprovante não for enviado. Comprovante não foi enviado, a venda não foi feita, o agendamento não foi feito. A gente só comemora a venda, só comemora o agendamento depois do comprovante.",
+      "cetico": "Grep acha a fala literal na linha 2004, e o contexto 1996-2004 e o mesmo dialogo com a Leticia que ja gerou as duas frases que o livro tem no paragrafo, ou seja, a troca completa o mesmo momento do corpus em vez de importar coisa de outro lugar. O trecho citado existe identico na linha 69 e nao esta em bloco :::frase. A proposta nao tem travessao nem italico, limpa a gagueira \"Só a gente só só\" e o lixo de transcricao \"Так\", e o \"agora\" continua explicado pelas frases do comprovante que ficaram."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "media",
+      "trecho": "E se ela disser que faz o PIX à noite? A mesma frase, sem mudar o tom, e você não acrescenta nada, tá. Quanto mais a gente fala, mais a gente se explica, e parece que a gente tá querendo justificar alguma coisa.",
+      "fala_dela": "Ana Luiza Moraes: Não justifica, não precisa.\n\n[e, adiante:]\n\nToda vez que a gente, quanto mais a gente fala, mais a gente se explica, mas parece que a gente tá querendo justificar alguma coisa\n\n[e:]\n\nAna Luiza Moraes: Gente, tem passar o preço pra pessoa e tagarelar depois. Ana Luiza Moraes: Misericórdia, que problemão que é",
+      "aplicado": "Agora, e se ela disser que faz o PIX à noite? Não justifica, não precisa. Quanto mais a gente fala, mais a gente se explica, mas parece que a gente tá querendo justificar alguma coisa. É o que é e ponto. Passar o preço pra pessoa e tagarelar depois, gente, misericórdia, que problemão que é. Só que, se ela empurrar o pagamento pra depois disso, aí já virou objeção, e objeção tem lugar próprio mais pra frente.",
+      "cetico": "As tres falas existem literais (9726, 4308 e 9728) e todas tratam do mesmo ponto do paragrafo, que e nao se justificar depois de passar preco/Pix; o trecho citado existe identico na linha 71, fora de :::frase, e a proposta ainda corrige a fidelidade trocando \"e parece\" por \"mas parece\", que e o que ela fala. Nao tem travessao, nao tem italico e so tem um \"gente\". A unica correcao que faco e cortar \"Pede uma vez e segue\", porque o proprio garimpeiro acusa essa frase de nao ter fonte no sem_fonte 1 e mante-la na proposta seria incoerente, ainda mais que o corpus responde essa exata pergunta (linha 3392) com \"cara de pau\" e \"figurinha de cadê o Pix\", que aponta pro lado contrario."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "media",
+      "trecho": "E quem pergunta quando a paciente pode passa o controle da conversa pra ela: olhar a agenda, olhar a semana, voltar depois, ou não voltar.",
+      "fala_dela": "E se eu pergunto para ela se ela prefere presencial online, o bastão tá na mão dela\n\n[e, adiante:]\n\nEla tá com muita, ela tá fazendo muita pergunta e a gente precisa parar com as perguntas que ela tá fazendo, porque senão o bastão continua na mão dela e a gente fica só reagindo à perguntas que ela faz",
+      "aplicado": "Então, esse é o passo sete. Um dos dois erros que o framework manda evitar aqui é perguntar quando a paciente pode, em vez de oferecer um horário. Porque se eu pergunto para ela quando ela pode, o bastão tá na mão dela, né, e a gente fica só reagindo. Ela vai olhar a agenda, olhar a semana, voltar depois, ou não voltar.",
+      "cetico": "As duas falas existem literais (504 e 608) e dizem o mesmo mecanismo do trecho: pergunta feita por voce coloca o bastao na mao dela e a gente passa a so reagir; o trecho citado existe identico na linha 23 e a metafora ja e do livro (cap. 2 linha 66, cap. 3 linha 17, e a linha 43 deste bloco), entao nao cria termo novo nem contradiz nada. Corrijo so um defeito da redacao proposta: os dois pontos ficaram pendurados em \"a gente fica só reagindo\", e a lista que vem depois (olhar a agenda, voltar depois) e do que ELA faz, nao do que a gente faz."
+    }
+  ],
+  "refutados": [
+    {
+      "trecho": "Ser o próximo passo óbvio pra resolver o problema. Se os seis passos anteriores aconteceram, o fechamento não convence ninguém, ele só organiza.",
+      "motivo": "A fala existe literal (linhas 2328 e 2330), mas ela JA ESTA PUBLICADA no proprio livro, quase palavra por palavra, em manuscrito/05-passo-3-presente-inaceitavel.md linha 26 (\"A única pessoa capaz de convencer alguém a fazer alguma coisa é ela mesma. Qualquer coisa que eu falar não vai fazer sentido para ela se ela não falar junto comigo, entendeu?\"), inclusive com o mesmo corte de \"não vai ser,\". Aplicar a troca copia um paragrafo inteiro do capitulo 5 pro capitulo 9, o que e pior que a antitese acusada; alem disso o contexto do corpus (2318-2330) e sobre a fase de escuta e pergunta, nao sobre o fechamento. A antitese \"não convence ninguém, ele só organiza\" e defeito real e vale cortar, mas sem reciclar a fala."
+    },
+    {
+      "trecho": "Repara no “onde fica, o que levar”. A paciente que pergunta onde fica já está indo. Ela não está mais decidindo. Ela está se organizando pra chegar.",
+      "motivo": "A fala existe literal (2796 e 2798), mas ela JA ESTA NO LIVRO em manuscrito/A-cola-de-uma-pagina.md linha 49, e la esta ancorada em \"«5. Transição»\", nao no fechamento, entao a troca duplica a frase e ainda a reatribui a outro passo. Pior: no corpus \"a iniciativa ela já tomou\" se refere a paciente ter procurado a clinica, e aqui o paragrafo comenta os sinais de sucesso, onde a lista vizinha ja diz \"Paga na hora e manda o comprovante\", logo dizer \"agora é só concretizar a decisão\" contradiz o estado da cena (a decisao ja foi concretizada). O espelho \"Ela não está mais decidindo. Ela está se organizando\" e defeito real, mas se corrige cortando um dos lados."
+    },
+    {
+      "trecho": "O segundo erro é o que explica quase todo “vou pensar” que chega no fechamento. Se ela hesita no horário, algum passo anterior ficou raso, e insistir no horário só piora.",
+      "motivo": "As falas existem literais (5552, 5554 e 9038-9042), mas o bloco 9036-9046 e sobre lead resistente na fase de objecao e termina, no corpus, em \"A gente cancela esse e vai pro próximo\" e \"é o momento de soltar real mesmo\", o oposto do que as frases seguintes do paragrafo mandam fazer (\"A medida veio do passo quatro... E é pra lá que a gente volta\"). Alem disso a proposta apaga \"Se ela hesita no horário, algum passo anterior ficou raso\", que e justamente a ponte que faz \"suficiente tem medida\" e o passo quatro caírem em pé, e antecipa o capitulo 10 que a linha 71 ja reservou pra objecao. A parte boa da acusacao (matar o quantificador e trocar prosa impessoal pela confissao em primeira pessoa) se salva sem o enxerto do \"dar uma soltada\"."
+    }
+  ],
+  "cego": {
+    "veredito": "pessoa",
+    "confianca": 73,
+    "votos": {
+      "pessoa": 3,
+      "ia": 0,
+      "indeciso": 0
+    },
+    "leitores": 3,
+    "data": "2026-09-09"
+  }
+}

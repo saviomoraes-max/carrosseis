@@ -1,0 +1,36 @@
+07-passo-5-transicao.md · rodada 2 · brutos 23 · confirmados 7 · altas 1 · cego None None
+
+[1] fidelidade/media
+  TRECHO: VOCÊ: Por conta da forma que você trouxe isso... e de já estar desde uns dois anos sentindo assim... concordo que não tem por que deixar mais para depois.
+  DETALHE: A cena é a única demonstração da frase e ela desobedece o próprio capítulo e a fonte. A fonte (framework, Etapa 5, p.7) abre com o nome: "[Fulana], por conta da forma que trouxe... e de já estar desde [tempo] sentindo as
+  CORRECAO: VOCÊ: [Nome], por conta da forma que trouxe... e de já estar desde uns dois anos sentindo assim... concordo que não tem por que deixar mais para depois.  (idêntica ao card, com "uns dois anos" herdado do capítulo 05 e o nome como slot — mesma convenção da cena do capítulo 09, que já carrega "R$ [valor]" e "[chave PIX]" dentro da cena)
+
+[2] fidelidade/baixa
+  TRECHO: Os quatro erros são a mesma tentação: encher a mensagem.
+  DETALHE: Achata um dos quatro. A fonte lista "Falar sobre preços antes de mostrar como a consulta resolve o problema" (framework, Etapa 5, p.7), que não é excesso de texto, é ordem errada: preço antes de valor. Os outros três (ex
+  CORRECAO: Três desses quatro são a mesma tentação: encher a mensagem. A transição funciona porque é curta. Se depois do "não tem por que deixar mais para depois" você emenda um parágrafo sobre bioestimulador, a ponte caiu. O quarto é outro erro. Preço aqui não é informação demais, é ordem trocada: ela ainda não viu como a consulta resolve o problema dela, e aí qualquer número que você mandar vai parecer caro.
+
+[3] leitora/alta
+  TRECHO: Três pedaços. O nome dela. A forma como ela trouxe e o tempo que ela está assim. Isso ela já te contou, nos passos dois e três. Você só devolve.
+  DETALHE: Parei aqui. "A forma como ela trouxe" é o único pedaço da frase que não tem colchete e é justamente o que eu não sei preencher. Nome eu sei, tempo eu sei. Forma que ela trouxe é o quê? O jeito de escrever dela? O procedi
+  CORRECAO: Trocar o "Você só devolve" por: "Colchete aqui são dois: o nome e o tempo. A forma que ela trouxe fica literal, do jeito que está. Você não repete a frase dela nesse passo, você só reconhece que quem trouxe foi ela. A palavra dela entra no passo seis, na apresentação, e é lá que ela lê 'é exatamente isso'."
+
+[4] leitora/media
+  TRECHO: Os três objetivos falam do problema dela. A transição não fala da consulta ainda. Ela fala de por que a consulta é o caminho pra essa pessoa, com o que essa pessoa contou.
+  DETALHE: Voltei duas vezes pra reler. Quatro linhas antes está escrito que um dos objetivos é "dizer por que, pro problema dela, a consulta é o próximo passo". Agora está escrito que não fala da consulta ainda, e na mesma frase q
+  CORRECAO: Manter os três objetivos como estão e trocar o parágrafo seguinte por: "Os três objetivos falam do problema dela. E a transição não apresenta a consulta ainda, isso é o passo seis. Ela só justifica o próximo passo, com o que essa pessoa contou."
+
+[5] leitora/media
+  TRECHO: [Nome], por conta da forma que trouxe... e de já estar desde [tempo] sentindo assim... concordo que não tem por que deixar mais para depois.
+  DETALHE: Metade das minhas conversas não tem [tempo]. A paciente diz que quer preencher o bigode chinês e pergunta o valor, e mesmo depois do passo três ela nunca me deu quanto tempo está assim. Aí eu travo no meio da frase e aca
+  CORRECAO: Um parágrafo curto logo abaixo do card: "Se ela não te deu tempo, não invente. Tira esse pedaço e fica só com a forma que ela trouxe, a frase aguenta. E se o tempo for curto, use o incômodo que ela descreveu no lugar da duração."
+
+[6] leitora/baixa
+  TRECHO: e de já estar desde uns dois anos sentindo assim...
+  DETALHE: Tropecei ao imaginar digitando. "Desde uns dois anos" não é como eu falo nem como eu escrevo no WhatsApp, eu escreveria "há uns dois anos". Como o resto do capítulo insiste que a frase é curta e certinha, fico com medo d
+  CORRECAO: Adotar a forma que já está na fonte 03 e no Anexo B, sem parágrafo novo: cena vira "Por conta da forma que você trouxe isso... e de já estar há uns dois anos sentindo assim... concordo que não tem por que deixar mais para depois", card vira "...e de já estar há [tempo] sentindo assim...", e a mesma troca na cola do Anexo A pra não ficarem duas versões da frase no mesmo livro.
+
+[7] voz/media
+  TRECHO: Os três objetivos falam do problema dela. A transição não fala da consulta ainda. Ela fala de por que a consulta é o caminho pra essa pessoa, com o que essa pessoa contou.
+  DETALHE: Três frases seguidas do mesmo tamanho, emendadas por justaposição, sem um conector dela no meio. No capítulo inteiro só duas frases de prosa começam com "E" (cerca de 6,5% das 31 frases) contra os 22% medidos nas amostra
+  CORRECAO: "Os três objetivos falam do problema dela. E a transição não fala da consulta ainda, porque não é hora. Ela fala de por que a consulta é o caminho pra ela, com o que ela mesma te contou." (Mantém "objetivos" como antecedente e ecoa o "Isso ela já te contou" que aparece adiante no mesmo capítulo.)

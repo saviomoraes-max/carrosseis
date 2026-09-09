@@ -1,0 +1,123 @@
+{
+  "arquivo": "/Users/saviomoraes/reconecta/ebooks/715/revisao/02/capitulo-limpo.md",
+  "palavras": 966,
+  "paragrafos": 21,
+  "frases": 49,
+  "mascarado": {
+    "blocos_script": 3,
+    "marcadores_bloco": 10,
+    "citacoes": 6,
+    "titulos_curtos": 3
+  },
+  "avisos": [],
+  "amostra_pequena": false,
+  "score": 11,
+  "faixa": "limpo (soa gente)",
+  "pontos": 5.5,
+  "densidade": 5.7,
+  "formula": "densidade = pontos / max(palavras, piso_palavras) * 1000; score = 100 * (1 - exp(-densidade / k)), k = 50, piso_palavras = 300 (texto curto não explode com um achado só). Nota por categoria usa k_categoria sobre a densidade só daquela categoria.",
+  "categorias": {
+    "conteudo": {
+      "rotulo": "Conteúdo e inflação",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "linguagem": {
+      "rotulo": "Linguagem e vocabulário",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "estrutura": {
+      "rotulo": "Estrutura e ritmo",
+      "achados": 2,
+      "pontos": 5.5,
+      "densidade": 5.7,
+      "nota": 32
+    },
+    "comunicacao": {
+      "rotulo": "Sobras de chatbot",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "meta": {
+      "rotulo": "Uniformidade de ritmo (estatística)",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "calques": {
+      "rotulo": "Calques do inglês e burocratês",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    }
+  },
+  "metricas": {
+    "frases_media_palavras": 19.7,
+    "frases_desvio_padrao": 15.6,
+    "frases_cv": 0.79,
+    "paragrafos": 21,
+    "paragrafos_mediana_palavras": 44.5,
+    "paragrafos_proporcao_mesmo_tamanho": 0.61,
+    "ritmo_entre_paragrafos_desvio": 0.287,
+    "pontuacao_cv": 0.69,
+    "ttr": 0.363,
+    "frases_mesmo_inicio_proporcao": 0.06,
+    "travessoes": 0,
+    "travessoes_por_mil": 0.0,
+    "dois_pontos": 6,
+    "dois_pontos_por_mil": 6.21,
+    "itens_lista": 0,
+    "proporcao_linhas_em_lista": 0.0,
+    "negritos": 0,
+    "triades": 0,
+    "triades_por_mil": 0.0,
+    "contrastes": 0,
+    "paragrafos_terminando_em_pergunta": 2,
+    "fechos_grandiosos": 0,
+    "hedges": 0,
+    "hedges_por_mil": 0.0
+  },
+  "achados": [
+    {
+      "id": "m_anafora",
+      "categoria": "estrutura",
+      "subtipo": "anafora",
+      "gravidade": "media",
+      "peso": 3,
+      "texto": "4 frases seguidas começando com «Nós temos»",
+      "inicio": 1270,
+      "fim": 1559,
+      "explicacao": "Três ou mais frases seguidas começando igual.",
+      "sugestao": "Deixe uma; reescreva as outras com outro começo.",
+      "contribuicao": 3,
+      "linha": 13,
+      "trecho": "«Nós temos pessoas que faturam 200 mil em cidades de 5 mil habitantes e em cidades de 1 milhão. Nós temos pessoas que faturam 200 mil com mais de 60 anos e com menos de 25. Nós temos pessoas do interior e de capital. Nós temos biomédicas, médicas, dentistas, farmacêuticas, fisioterapeutas.»"
+    },
+    {
+      "id": "es_x_e_o_novo_y",
+      "categoria": "estrutura",
+      "subtipo": "aforismo",
+      "gravidade": "media",
+      "peso": 2.5,
+      "texto": "Empatia é a base do atendimento",
+      "inicio": 4184,
+      "fim": 4215,
+      "explicacao": "Fórmula de aforismo ('X é o novo Y', 'X é a moeda de Y').",
+      "sugestao": "diga a afirmação concreta por trás",
+      "contribuicao": 2.5,
+      "linha": 51,
+      "trecho": "» «Empatia é a base do atendimento», sabe, e quando eu digo “empatia” é a paciente sentir que você está tentando entender o p"
+    }
+  ],
+  "achados_ocultos": 0,
+  "min_gravidade": "baixa"
+}

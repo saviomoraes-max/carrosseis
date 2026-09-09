@@ -1,0 +1,81 @@
+{
+ "capitulo": "/Users/saviomoraes/reconecta/ebooks/715/manuscrito/08-passo-6-apresentacao.md",
+ "rodada": 2,
+ "brutos": 10,
+ "confirmados_n": 0,
+ "altas_confirmadas": 0,
+ "por_revisor": {
+  "fidelidade": {
+   "brutos": 3,
+   "confirmados": 0
+  },
+  "voz": {
+   "brutos": 7,
+   "confirmados": 0
+  }
+ },
+ "confirmados": [],
+ "refutados": [
+  {
+   "revisor": "fidelidade",
+   "trecho": "VOCÊ: Por isso, já sei que a doutora vai te ajudar com essa região do queixo que tá te incomodando e parar de se sentir com vontade de se esconder nas fotos.",
+   "detalhe": "A cena não faz o que o próprio capítulo manda dezoito linhas depois: \"Se ela falou 'caindo perto do queixo', vai 'caindo perto do queixo'\". A paciente-modelo disse no capítulo 4 \"Perto do queixo. Eu olho no espelho e parece que tá caindo\" e no capítulo 6 \"nessa região do queixo antes de novembro\". \"Que tá te incomodando\" não é palavra dela, é diagnóstico da atendente, exatamente o que o texto proíbe (\"não com o que você diagnosticou\"). A leitora vai comparar a cena com a regra e ver que a cena erra.",
+   "motivo": "sem veredito do cetico (falha)"
+  },
+  {
+   "revisor": "fidelidade",
+   "trecho": "Quando a paciente pergunta \"e como funciona a consulta?\", \"é com a doutora mesma?\", ela comprou a consulta.",
+   "detalhe": "\"Como funciona a consulta?\" existe na fonte (02-manual-objecoes.md, p.4, bloco INFORMAÇÃO TÉCNICA). \"É com a doutora mesma?\" não existe em nenhuma das três fontes nem no manual de objeções. É pergunta de paciente inventada pra ilustrar o sinal \"faz perguntas sobre a consulta em si\".",
+   "motivo": "sem veredito do cetico (falha)"
+  },
+  {
+   "revisor": "fidelidade",
+   "trecho": "fontes: \"fontes/01-framework-715.md (Etapa 6, p.7-8); fontes/03-manual-perguntas.md (5. Transição e apresentação, p.3)\"",
+   "detalhe": "O capítulo transcreve, palavra a palavra, o script \"Vou te explicar como funciona. Antes, que outra dúvida ainda ficou em como podemos ajudar a resolver [problema mencionado], antes de vermos a disponibilidade na agenda da doutora?\", que está em fontes/02-manual-objecoes.md (p.4, pergunta \"Como funciona a consulta?\", resposta no meio do atendimento). A fonte 02 não aparece na linha de fontes do frontmatter, então a rastreabilidade desse script fica quebrada.",
+   "motivo": "sem veredito do cetico (falha)"
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Isso é a apresentação inteira. Uma frase, colada na transição, e ela tem exatamente duas coisas dentro: o problema, com a palavra dela, e o sentimento, com a palavra dela.",
+   "detalhe": "Primeira pessoa que some e whitelist 7 apagada. O capítulo tem 2 \"eu\" em ~700 palavras (\"Eu sei que dá vontade de encher\", \"eu quero comentar dois\"), cerca de 3 por mil. O fingerprint mede 46 por mil em 3 de 3 amostras e a dose pro livro é 40 a 60 por capítulo (\"O livro é dela e o caso é dela\"). Item 7 da whitelist: \"Caso pessoal em primeira pessoa como abertura, com aviso de que vai contar: 3 de 3 no aviso\". Aqui a abertura é caixa de cena mais explicação em terceira pessoa; a Ana que observa (\"pelo que eu observo nas mais de 3 mil clínicas por aqui\", \"eu sinto que\") não aparece em lugar nenhum. O capítulo está escrito como manual, não como ela contando o que vê.",
+   "motivo": "sem veredito do cetico (falha)"
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Nas suas últimas apresentações, quantas palavras eram dela e quantas eram suas?",
+   "detalhe": "Fecho com uma pergunta só. Whitelist 3: \"Perguntas diretas à leitora em série, com 'você', no fecho: 2 de 3 (A2 quatro seguidas, A3 duas)\". Dose recomendada: \"12 a 18 por capítulo, sendo 2 a 4 em série no fecho, todas com 'você'\". Escalado pra 700 palavras dá 4 a 6 perguntas no capítulo; o texto tem 2 (esta e \"E o que você responde?\"). 16% das frases dela são pergunta; aqui é 4%. A pergunta que existe é boa e é dela; falta a série.",
+   "motivo": "sem veredito do cetico (falha)"
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Ela quer resolver o queixo antes do casamento. É isso que você vende. Se você aproveitar pra falar do bioestimulador, do protocolo de pele, do pacote de manutenção, você está vendendo o que ela ainda não quer, e cada item a mais é um motivo a mais pra ela pensar.",
+   "detalhe": "Prescrição sem concessão de humildade e sem amortecedor. Whitelist 14: \"Concessão de humildade colada na prescrição: 3 de 3\" (\"E aqui eu não estou falando que existe um certo ou errado\", \"E eu não falo da posição de quem é ilibado\"), dose 1 a 2 por capítulo. Whitelist 18: \"'acho que' amortecendo a prescrição: 2 de 3\", dose 1 a 2. O capítulo tem zero das duas. Toda prescrição aqui é seca (\"É isso que você vende\", \"Você só devolve\"). Ela dá a posição como observação, não como regra (seção 4, transversal).",
+   "motivo": "sem veredito do cetico (falha)"
+  },
+  {
+   "revisor": "voz",
+   "trecho": "E acontece quando você apresenta a solução certa pro problema que ela trouxe, e quando você usa as palavras dela pra referenciar o problema durante a apresentação.",
+   "detalhe": "\"referenciar\" é palavra de manual, não dela. Seção 3 do fingerprint: ela usa \"processo\", \"movimento\", \"ponto\", \"forma\", \"coisa\", \"negócio\"; verbo abstrato de gestão (\"abordagem\", \"engajar\", \"potencializar\") não aparece nas 1.816 palavras. A frase inteira veio colada do manual de perguntas (\"usar as palavras dela pra referenciar o problema\") e ficou com o registro da fonte, 28 palavras chapadas, sem a pancada curta que ela dá depois da construção longa.",
+   "motivo": "sem veredito do cetico (falha)"
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Eu sei que dá vontade de encher. É o momento em que a atendente sente que finalmente pode falar, depois de quatro passos perguntando e um só concordando.",
+   "detalhe": "Zero \"muito\" no capítulo inteiro. Whitelist 19: \"'muito' como único intensificador (21, 3 de 3)\", 11,6 por mil, dose 15 a 20 por capítulo de 2.000 palavras (uns 6 em 700). O texto substituiu por \"demais\" (\"qualificar demais\", \"qualificou demais\", vindos da fonte) e por frase sem intensificador. Este parágrafo é o lugar natural do \"muita vontade\". Também é o único aparte do capítulo e não tem nenhuma muleta da lista dela (\"tá?\" vem \"sempre depois de aparte, aviso ou spoiler\"); zero muleta em 700 palavras está dentro da tolerância, mas junto com o zero \"muito\" o capítulo fica mais seco do que ela.",
+   "motivo": "sem veredito do cetico (falha)"
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Quando a paciente pergunta \"e como funciona a consulta?\", \"é com a doutora mesma?\", ela comprou a consulta.",
+   "detalhe": "Whitelist 15: \"Fala alheia e pensamento próprio em discurso direto sem aspas, depois de 'falou,', 'Falei,', 'Eu fico,': 3 de 3, 9 ocorrências. Editor vai querer pôr aspas. Não pôr, ou pôr só quando a frase reproduzida for longa.\" As duas falas são curtas. (As aspas em \"caindo perto do queixo\" no parágrafo da frase são funcionais, marcam o encaixe do colchete; essas ficam.)",
+   "motivo": "sem veredito do cetico (falha)"
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Você sabe que o passo seis acabou quando ela entendeu que a consulta vale mais do que custa, quando ela pergunta da consulta em si, e não só do procedimento, e quando ela quer saber se tem horário.",
+   "detalhe": "Recapitulação literal da caixa de sinais que está três linhas acima. Ela \"nunca recapitula, nunca explica a moral\" (3 de 3, seção 1, como fecha). Quando ela muda de plano usa marcador curto e segue (\"E aí\", \"Agora,\", \"E, bom,\"), não repete o que acabou de dizer. Item 23 da whitelist (\"Agora,\" abrindo a última virada antes do fecho, 2 de 3) está ausente do capítulo e caberia exatamente aqui.",
+   "motivo": "sem veredito do cetico (falha)"
+  }
+ ],
+ "cego": null
+}

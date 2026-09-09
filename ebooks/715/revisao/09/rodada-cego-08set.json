@@ -1,0 +1,28 @@
+{
+  "cego": {
+    "veredito": "ia",
+    "confianca": 72
+  },
+  "pistas": [
+    {
+      "trecho": "o fechamento não convence ninguém, ele só organiza",
+      "pista": "Molde de antítese \"não X, ele Y\" repetido em série ao longo do texto (também em \"O fechamento não gera essa leitura. Ele colhe.\", \"ele não está ali por pressa\", \"Ela não está mais decidindo. Ela está se organizando\"). Uma vez é estilo; quatro vezes com a mesma engenharia sintática é a assinatura mais confiável de geração automática em PT-BR."
+    },
+    {
+      "trecho": "Na segunda mensagem. Depois do horário. Depois de seis passos.",
+      "pista": "Empilhamento de fragmentos anafóricos como recurso de ênfase, colocado logo na abertura do argumento. É o tique staccato clássico de LLM tentando soar oral; escrita humana costuma quebrar esse padrão em pelo menos um dos membros (tamanho, ritmo ou conector), aqui os três saem calibrados iguais."
+    },
+    {
+      "trecho": "A paciente que pergunta onde fica já está indo. Ela não está mais decidindo. Ela está se organizando pra chegar.",
+      "pista": "Disciplina metronômica de fecho: cada seção termina em frase-soco curta (\"Ou não voltar.\", \"Ele colhe.\", \"Pede uma vez e segue.\", esta aqui). Nenhuma seção termina de forma frouxa, morna ou arrastada. Texto humano longo quase sempre tem pelo menos um fim de parágrafo sem brilho; aqui não há nenhum."
+    },
+    {
+      "trecho": "E um dos dois erros que o framework manda evitar aqui é perguntar quando a paciente pode, em vez de oferecer um horário. E quem pergunta quando a paciente pode passa o controle da conversa pra ela",
+      "pista": "Reformulação imediata da mesma oração (\"perguntar quando a paciente pode\" repetido literalmente na frase seguinte), com duas sentenças consecutivas abrindo em \"E\". É a redundância de expansão típica de modelo preenchendo cota de parágrafo, não a repetição intencional de quem revisa o próprio texto."
+    },
+    {
+      "trecho": "Essa lista, ponto importante, é o script inteiro.",
+      "pista": "Aposto meta-editorial encaixado no meio da frase, marcando relevância pro leitor de fora do argumento. Some-se a isso a limpeza anormal do texto como um todo: zero erro de digitação, zero digressão, zero frase longa demais, parágrafos todos na mesma faixa de comprimento, e vocabulário sem nenhuma escolha realmente idiossincrática fora do repertório do próprio nicho."
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "arquivo": "/Users/saviomoraes/reconecta/ebooks/715/revisao/07/capitulo-limpo.md",
+  "palavras": 531,
+  "paragrafos": 13,
+  "frases": 51,
+  "mascarado": {
+    "citacoes": 2,
+    "titulos_curtos": 4
+  },
+  "avisos": [],
+  "score": 49,
+  "faixa": "sotaque forte (reescrever os trechos marcados)",
+  "pontos": 17.9,
+  "densidade": 33.7,
+  "formula": "densidade = pontos / max(palavras, piso_palavras) * 1000; score = 100 * (1 - exp(-densidade / k)), k = 50, piso_palavras = 300 (texto curto não explode com um achado só). Nota por categoria usa k_categoria sobre a densidade só daquela categoria.",
+  "categorias": {
+    "conteudo": {
+      "rotulo": "Conteúdo e inflação",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "linguagem": {
+      "rotulo": "Linguagem e vocabulário",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "estrutura": {
+      "rotulo": "Estrutura e ritmo",
+      "achados": 3,
+      "pontos": 3.9,
+      "densidade": 7.3,
+      "nota": 39
+    },
+    "comunicacao": {
+      "rotulo": "Sobras de chatbot",
+      "achados": 2,
+      "pontos": 14.0,
+      "densidade": 26.4,
+      "nota": 83
+    },
+    "meta": {
+      "rotulo": "Uniformidade de ritmo (estatística)",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "calques": {
+      "rotulo": "Calques do inglês e burocratês",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    }
+  },
+  "metricas": {
+    "frases_media_palavras": 10.8,
+    "frases_desvio_padrao": 5.4,
+    "frases_cv": 0.5,
+    "paragrafos": 13,
+    "paragrafos_mediana_palavras": 33,
+    "paragrafos_proporcao_mesmo_tamanho": 0.69,
+    "ritmo_entre_paragrafos_desvio": 0.22,
+    "pontuacao_cv": 0.79,
+    "ttr": 0.394,
+    "frases_mesmo_inicio_proporcao": 0.04,
+    "travessoes": 0,
+    "travessoes_por_mil": 0.0,
+    "dois_pontos": 1,
+    "dois_pontos_por_mil": 1.88,
+    "itens_lista": 0,
+    "proporcao_linhas_em_lista": 0.0,
+    "negritos": 0,
+    "triades": 1,
+    "triades_por_mil": 1.88,
+    "contrastes": 1,
+    "paragrafos_terminando_em_pergunta": 1,
+    "fechos_grandiosos": 0,
+    "hedges": 0,
+    "hedges_por_mil": 0.0
+  },
+  "achados": [
+    {
+      "id": "cb_placeholder",
+      "categoria": "comunicacao",
+      "subtipo": "placeholder",
+      "gravidade": "critica",
+      "peso": 10,
+      "texto": "[Nome]",
+      "inicio": 27,
+      "fim": 33,
+      "explicacao": "Lacuna de template não preenchida.",
+      "sugestao": "preencha ou corte",
+      "contribuicao": 10,
+      "linha": 4,
+      "trecho": "VOCÊ: «[Nome]», por conta da forma que trouxe."
+    },
+    {
+      "id": "es_reticencias_dramaticas",
+      "categoria": "estrutura",
+      "subtipo": "formatacao",
+      "gravidade": "baixa",
+      "peso": 1,
+      "texto": "... e",
+      "inicio": 64,
+      "fim": 69,
+      "explicacao": "Reticência dramática antes da revelação.",
+      "sugestao": "vírgula ou ponto",
+      "contribuicao": 1,
+      "linha": 4,
+      "trecho": "VOCÊ: [Nome], por conta da forma que trouxe«... e» de já estar desde uns dois anos sentindo assim."
+    },
+    {
+      "id": "cb_placeholder",
+      "categoria": "comunicacao",
+      "subtipo": "placeholder",
+      "gravidade": "critica",
+      "peso": 10,
+      "texto": "[Nome]",
+      "inicio": 923,
+      "fim": 929,
+      "explicacao": "Lacuna de template não preenchida.",
+      "sugestao": "preencha ou corte",
+      "contribuicao": 4.0,
+      "linha": 18,
+      "trecho": ":::frase «[Nome]», por conta da forma que trouxe."
+    },
+    {
+      "id": "es_reticencias_dramaticas",
+      "categoria": "estrutura",
+      "subtipo": "formatacao",
+      "gravidade": "baixa",
+      "peso": 1,
+      "texto": "... e",
+      "inicio": 960,
+      "fim": 965,
+      "explicacao": "Reticência dramática antes da revelação.",
+      "sugestao": "vírgula ou ponto",
+      "contribuicao": 0.4,
+      "linha": 18,
+      "trecho": "[Nome], por conta da forma que trouxe«... e» de já estar desde [tempo] sentindo assim."
+    },
+    {
+      "id": "es_contraste_nao_e_x_e_y",
+      "categoria": "estrutura",
+      "subtipo": "contraste",
+      "gravidade": "media",
+      "peso": 2.5,
+      "texto": "não é informação demais, é",
+      "inicio": 2345,
+      "fim": 2371,
+      "explicacao": "Contraste fácil 'não é X, é Y': virou tique.",
+      "sugestao": "afirme a coisa que importa",
+      "contribuicao": 2.5,
+      "linha": 33,
+      "trecho": "Preço aqui «não é informação demais, é» ordem trocada."
+    }
+  ],
+  "achados_ocultos": 0,
+  "min_gravidade": "baixa"
+}

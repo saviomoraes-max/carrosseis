@@ -1,0 +1,51 @@
+02-vender-o-que-ela-ja-quer-comprar.md · rodada 7 · brutos 21 · confirmados 10 · altas 2 · cego ia 65
+
+[1] tell/media
+  TRECHO: Ela chega com uma dúvida e, quase sempre, com uma pergunta de preço. O que muda de uma clínica pra outra é o que acontecer depois. E isso é comportamento, é interno.
+  DETALHE: Esteira (catálogo 2.6) e fecho de uma linha que repete o parágrafo (1.2). Na terceira frase do parágrafo ela já disse 'o que decide é o que acontece depois que a paciente manda a mensagem'. A penúltima frase repete ('O q
+  CORRECAO: Ela chega com uma dúvida e, quase sempre, com uma pergunta de preço.
+
+[2] tell/media
+  TRECHO: «4.» Conexão acontece durante o atendimento inteiro, não só no começo. Isso eu vou repetir em todo passo, então não vou gastar aqui.
+  DETALHE: Narração do próprio texto (catálogo 5.2): o item anuncia que não vai ser desenvolvido. É o único dos oito princípios sem uma linha de WhatsApp embaixo; os outros sete trazem coisa concreta (a segunda mensagem, o visto az
+  CORRECAO: «4.» Conexão acontece durante o atendimento inteiro, não só no começo. A doutora que é simpática no oi e vira tabela de preço na terceira mensagem perdeu a paciente na terceira. Isso vai voltar em cada passo.
+
+[3] tell/baixa
+  TRECHO: Eu não sei explicar isso melhor do que dizendo que a paciente que se sente entendida responde mensagem longa, e a que se sente vendida responde com uma palavra.
+  DETALHE: Preâmbulo que certifica a frase seguinte (catálogo 1.6, candor encenado, e 1.5, corrida de aproximação). 'Eu não sei explicar melhor do que dizendo' não é a concessão de humildade dela (essa vem colada na prescrição e ad
+  CORRECAO: «8.» E conexão é o que derruba a resistência. A paciente que se sente entendida responde mensagem longa. A que se sente vendida responde com uma palavra. Você já deve ter visto as duas.
+
+[4] fidelidade/alta
+  TRECHO: VOCÊ: Claro que posso te passar! Mas antes, até pra entender se a doutora vai conseguir te ajudar... o que faz você buscar por isso hoje?
+  DETALHE: Frase pronta de script não está literal. A fonte (framework p.2) diz: "Claro que posso te passar valores e mais informações sobre o [procedimento/consulta]! Mas antes, até pra entender se a Dra [Nome] vai conseguir te aj
+  CORRECAO: VOCÊ: Claro que eu posso te passar mais informações sobre a consulta. Antes, para entender se a doutora vai conseguir te ajudar no seu caso ou não... como entende que a consulta vai te ajudar?
+
+[5] fidelidade/baixa
+  TRECHO: E eu não estou falando que existe um certo ou errado. Mas pelo que eu observo nas mais de 3 mil clínicas por aqui, é isso que dá certo.
+  DETALHE: O número existe na fonte (amostra-fala-analuiza.txt, linhas 41 a 43), mas com outro objeto: "E aqui eu não estou falando que existe um certo ou errado. Mas pelo que eu observo nas mais de 3 mil clínicas por aqui, quando 
+  CORRECAO: São oito coisas. Não é certo ou errado. É o que eu vejo dar certo nas clínicas que passam por aqui, e são mais de 3 mil.
+
+[6] voz/alta
+  TRECHO: Mas eu acho que o que decide é o que acontece depois que a paciente manda a mensagem, porque quando chega menos gente cada conversa que morre pesa mais, e essa é a única parte que dá pra mudar já na próxima mensagem.
+  DETALHE: 43 palavras de argumentação encadeada com três "que", um "porque" e um "e" costurando. As longas dela são de dois tipos só (fingerprint seção 1: "narração encadeada com e aí" ou "lista de atributos em linha"); argumento 
+  CORRECAO: Mas eu acho que a resposta do WhatsApp é a coisa mais interna que existe. Não depende da cidade. Não depende da idade. Não depende de quanto profissional abriu clínica na sua rua. Depende do que você digita depois do oi. E quando chega menos gente, cada conversa que morre pesa mais. É a única parte que dá pra mudar já na próxima mensagem.
+
+[7] voz/media
+  TRECHO: No WhatsApp isso é coisa concreta: repetir a palavra que ela usou e perguntar antes de responder.
+  DETALHE: Frase começando com "E" é 22% das frases dela (whitelist 5, 3 de 3; dose recomendada 15 a 20%). No capítulo são 8 em 86 (9%), e quase todas estão no trecho copiado da A2. Nos oito princípios, escritos do zero, são 3 "E" 
+  CORRECAO: E no WhatsApp isso é coisa concreta: repetir a palavra que ela usou e perguntar antes de responder. (Mesmo remédio em "E o que muda de uma clínica pra outra é o que vem depois." e "E às vezes ela pergunta da agenda antes de você." Meta: mais 4 ou 5 "E" iniciais na segunda metade, até chegar perto de 15%.)
+
+[8] voz/media
+  TRECHO: Eu não sei explicar isso melhor do que dizendo que a paciente que se sente entendida responde mensagem longa, e a que se sente vendida responde com uma palavra.
+  DETALHE: "Eu não sei explicar isso melhor do que dizendo que" é modéstia retórica de escritor. A humildade dela é factual e vem colada na prescrição ("eu esqueci o nome do autor", "Faço isso todo santo dia", whitelist 14), nunca 
+  CORRECAO: A paciente que se sente entendida responde mensagem longa. A que se sente vendida responde uma palavra. Você já deve ter visto as duas.
+
+[9] voz/baixa
+  TRECHO: Parece a mesma coisa que entrar pra agendar, mas na conversa não é, porque quem entra pra agendar começa a empurrar já na segunda mensagem, e a paciente sente o empurrão.
+  DETALHE: O ritmo dela é frase longa de construção e depois pancada curta como complemento cortado (whitelist 6, "o principal traço rítmico": "talvez eu teria fechado. Lá dentro."). Aqui a pancada ("a paciente sente o empurrão") e
+  CORRECAO: Parece a mesma coisa que entrar pra agendar, mas na conversa não é, porque quem entra pra agendar começa a empurrar já na segunda mensagem. E a paciente sente o empurrão.
+
+[10] voz/baixa
+  TRECHO: Ela pediu uma informação e você mandou quatro motivos pra ela ir pensar.
+  DETALHE: A imagem dela é "ir pra casa pensar" (A1: "a gente tá com muita gente indo pra casa pensar", "não tem ninguém indo embora para casa para pensar"; seção 4: "Vai pra casa pensar é sintoma"). "ir pensar" é a imagem dela sem
+  CORRECAO: Ela pediu uma informação e você mandou quatro motivos pra ela ir pra casa pensar.

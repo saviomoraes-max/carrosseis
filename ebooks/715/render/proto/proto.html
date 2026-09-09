@@ -1,0 +1,81 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Proto 715</title>
+<style>
+@page { size: A4; margin: 0; }
+:root{
+  --base:#2d0000; --escuro:#0f0e0e; --hero:#6b0f0f;
+  --display:#faf0dd; --enfase:#f2ddb6; --corpo:#ececec; --rotulo:#f5f5f5; --critico:#ff2222;
+  --creme:#faf0dd; --tinta:#1a0a0a;
+}
+*{box-sizing:border-box} body{margin:0;font-family:"Grift","Figtree",sans-serif;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.page{width:210mm;height:297mm;position:relative;overflow:hidden;padding:22mm 24mm 20mm 24mm;page-break-after:always;color:var(--corpo);background:var(--base)}
+.page.escuro{background:var(--escuro)}
+.page.claro{background:var(--creme);color:var(--tinta)}
+.rotulo{font-family:"Inter",sans-serif;font-weight:700;font-size:8.5pt;letter-spacing:.16em;text-transform:uppercase;color:var(--rotulo)}
+.claro .rotulo{color:var(--hero)}
+.display{font-family:"Dx Monstral","Archivo Black",sans-serif;text-transform:uppercase;letter-spacing:-.005em;line-height:1.0;color:var(--display)}
+.claro .display{color:var(--base)}
+h1.display{font-size:44pt;margin:0}
+h2.display{font-size:22pt;margin:0 0 8mm 0;line-height:1.05}
+p{font-size:12.5pt;line-height:1.6;margin:0 0 5mm 0}
+.claro p{color:#2a1a1a}
+.enf{color:var(--enfase)} .claro .enf{color:var(--hero);font-weight:900}
+.num{font-family:"Dx Monstral",sans-serif;font-size:150pt;line-height:.9;color:var(--critico);margin:0}
+.sub{font-size:14pt;line-height:1.45;color:var(--corpo);max-width:130mm}
+.rodape{position:absolute;left:24mm;right:24mm;bottom:12mm;display:flex;justify-content:space-between;align-items:center}
+.rodape .rotulo{font-size:7.5pt;opacity:.85}
+.script{border:1.5px solid var(--enfase);border-radius:14px;padding:7mm 8mm;margin:6mm 0 7mm 0}
+.script .rotulo{color:var(--enfase);margin-bottom:3mm;display:block}
+.script p{margin:0;font-size:12.5pt}
+.claro .script{border-color:var(--hero);background:#fff8ea}
+.claro .script .rotulo{color:var(--hero)}
+.pull{font-family:"Dx Monstral",sans-serif;font-size:19pt;line-height:1.12;text-transform:uppercase;color:var(--display);margin:8mm 0 8mm 0;padding-left:6mm;border-left:4px solid var(--critico)}
+.claro .pull{color:var(--base)}
+.capa{display:flex;flex-direction:column;justify-content:flex-end;background:linear-gradient(180deg,var(--hero) 0%,var(--base) 55%,var(--escuro) 100%)}
+.capa .selo{font-family:"Dx Monstral",sans-serif;font-size:210pt;line-height:.85;color:var(--display);margin:0 0 4mm -3mm}
+.capa h1.display{font-size:30pt}
+.capa .autor{margin-top:10mm;font-size:12pt;color:var(--enfase)}
+.abertura{display:flex;flex-direction:column;justify-content:center}
+.hr{height:1px;background:rgba(242,221,182,.25);margin:6mm 0}
+</style></head><body>
+
+<section class="page capa">
+  <div class="rotulo" style="position:absolute;top:22mm;left:24mm">Mentoria Reconecta</div>
+  <div class="selo">715</div>
+  <h1 class="display">Sete passos para uma<br>consulta a cada<br>cinco contatos</h1>
+  <p class="sub" style="margin-top:6mm">O script de atendimento no WhatsApp que a gente usa nas clínicas da mentoria, do primeiro oi ao comprovante do PIX.</p>
+  <div class="autor">Ana Luiza</div>
+  <div class="rodape"><span class="rotulo">Reconecta</span><span class="rotulo">2026</span></div>
+</section>
+
+<section class="page escuro abertura">
+  <div class="rotulo">Passo 3 de 7</div>
+  <p class="num">03</p>
+  <h1 class="display">Presente<br>inaceitável</h1>
+  <p class="sub" style="margin-top:8mm">Onde a paciente para de achar que dá pra deixar pra depois.</p>
+  <div class="rodape"><span class="rotulo">Script 715</span><span class="rotulo">Reconecta</span></div>
+</section>
+
+<section class="page">
+  <div class="rotulo" style="margin-bottom:6mm">Passo 3 · Presente inaceitável</div>
+  <h2 class="display">A pergunta que ninguém faz</h2>
+  <p>Eu vou te contar uma coisa que eu vi acontecer nas mais de três mil clínicas que passaram por aqui. A paciente chega no WhatsApp, descreve a papada, a flacidez, o bigode chinês, e a gente responde explicando o procedimento. Parece atendimento. Não é.</p>
+  <p>O problema dela <span class="enf">não começou hoje</span>. Aquela papada tá lá há dois, três anos. Então a pergunta que importa não é "o que você quer resolver". É: <span class="enf">por que agora?</span></p>
+  <div class="script"><span class="rotulo">Frase pronta</span><p>"Posso estar enganada, mas parece que isso não começou agora. Antes não parecia ser prioridade, e agora parece ser. Aconteceu alguma coisa?"</p></div>
+  <p>Repara que eu não afirmei nada. Eu deixei ela me contar. E quando ela conta, ela se convence sozinha de que não dá mais pra esperar. Isso é o passo inteiro.</p>
+  <div class="pull">Quem faz a pergunta conduz a conversa.</div>
+  <p>Se ela responde "ah, é que vem um casamento em novembro", pronto. Você não precisa mais vender urgência. Ela acabou de te dar a data.</p>
+  <div class="rodape"><span class="rotulo">Script 715</span><span class="rotulo">22</span></div>
+</section>
+
+<section class="page claro">
+  <div class="rotulo" style="margin-bottom:6mm">Passo 3 · Presente inaceitável</div>
+  <h2 class="display">A pergunta que ninguém faz</h2>
+  <p>Eu vou te contar uma coisa que eu vi acontecer nas mais de três mil clínicas que passaram por aqui. A paciente chega no WhatsApp, descreve a papada, a flacidez, o bigode chinês, e a gente responde explicando o procedimento. Parece atendimento. Não é.</p>
+  <p>O problema dela <span class="enf">não começou hoje</span>. Aquela papada tá lá há dois, três anos. Então a pergunta que importa não é "o que você quer resolver". É: <span class="enf">por que agora?</span></p>
+  <div class="script"><span class="rotulo">Frase pronta</span><p>"Posso estar enganada, mas parece que isso não começou agora. Antes não parecia ser prioridade, e agora parece ser. Aconteceu alguma coisa?"</p></div>
+  <p>Repara que eu não afirmei nada. Eu deixei ela me contar. E quando ela conta, ela se convence sozinha de que não dá mais pra esperar. Isso é o passo inteiro.</p>
+  <div class="pull">Quem faz a pergunta conduz a conversa.</div>
+  <p>Se ela responde "ah, é que vem um casamento em novembro", pronto. Você não precisa mais vender urgência. Ela acabou de te dar a data.</p>
+  <div class="rodape"><span class="rotulo">Script 715</span><span class="rotulo">22</span></div>
+</section>
+</body></html>

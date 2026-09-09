@@ -1,0 +1,31 @@
+04-passo-2-situacao.md · rodada 2 · brutos 17 · confirmados 6 · altas 1 · cego ia 70
+
+[1] tell/alta
+  TRECHO: Esse "exatamente isso" é o sinal mais claro do script inteiro. E olha de onde ele vem. Não de um resumo seu do problema dela.
+  DETALHE: Cluster de quatro famílias em cinco frases, o parágrafo mais carregado do capítulo. (1) Etiqueta de importância (1.11): "o sinal mais claro do script inteiro" avisa o que a leitora deve achar em vez de mostrar. (2) Corri
+  CORRECAO: Esse "exatamente isso" sai da pergunta que repetiu a palavra dela: você perguntou em que momento ela percebe mais isso que tá caindo perto do queixo, e ela respondeu "é isso, exatamente". A partir daí ela não está mais conversando com uma atendente. Está conversando com alguém que entendeu.
+
+[2] tell/media
+  TRECHO: Perguntar como ela se sente presume que ela está incomodada, e às vezes ela não está, ela só quer entender. Presumiu o incômodo, ela recua.
+  DETALHE: Metrônomo de parágrafo (2.4/2.5) somado a contraste em densidade (1.1). Nove dos treze parágrafos de prosa fecham com pancada curta: "É a conversa morrendo de novo, só que mais tarde." / "Você sabe o nome que ela deu." /
+  CORRECAO: Na linha 62, terminar o parágrafo em "...e às vezes ela não está, ela só quer entender." e apagar "Presumiu o incômodo, ela recua." Nada mais a mexer neste achado; as outras reduções vêm de [0] e [1].
+
+[3] tell/baixa
+  TRECHO: Uma coisa, ponto importante: em nenhuma dessas perguntas aparece a palavra sentir.
+  DETALHE: Certificado de importância dobrado (5.3): "Uma coisa" mais "ponto importante" mais dois-pontos, três avisos antes de uma afirmação de dez palavras. "ponto importante" é dela (touchstone T2), mas lá é aparte no meio da fr
+  CORRECAO: E em nenhuma dessas perguntas, ponto importante, aparece a palavra sentir.
+
+[4] fidelidade/baixa
+  TRECHO: - Você entendeu como isso está afetando ela hoje
+  DETALHE: O card de 'Quando avançar' da fonte diz: 'Entende o impacto emocional e prático na vida dele'. O capítulo trocou pela frase do Objetivo ('Entender COMO isso que está acontecendo está afetando ela hoje') e perdeu as duas 
+  CORRECAO: No card: '- Você entendeu como isso está afetando a vida dela, no emocional e no prático'. Na frase corrida: 'quando você entendeu como isso está afetando a vida dela, no emocional e no prático'.
+
+[5] voz/baixa
+  TRECHO: Uma coisa, ponto importante: em nenhuma dessas perguntas aparece a palavra sentir.
+  DETALHE: "ponto importante" é dela (T2), mas como aparte dentro da frase, no meio do raciocínio: "porque até então, ponto importante, eu não sabia quanto ia custar". Aqui virou etiqueta de abertura, dobrada com "Uma coisa", que é
+  CORRECAO: "E em nenhuma dessas perguntas, ponto importante, aparece a palavra sentir."
+
+[6] voz/baixa
+  TRECHO: O "mas você é linda" merece uma linha. Eu sei que sai como carinho.
+  DETALHE: "merece uma linha" é voz de escritor falando do próprio texto. Nas três amostras ela nunca comenta a peça de fora (o único meta dela é aviso de que vai contar ou spoiler). Ela entraria direto no aparte, com "E" inicial o
+  CORRECAO: "Eu sei que o 'mas você é linda' sai como carinho. Mas a paciente escreveu que o rosto dela está caindo, e você respondeu que ela é linda. Ela leu que você não acreditou nela. E ninguém agenda com quem não acreditou."
