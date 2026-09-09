@@ -1,0 +1,215 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>{{titulo}}</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap">
+<style>
+@page { size: 1080px 1920px; margin: 0; }
+@font-face { font-family: "TT Modernoir"; src: url("{{ds}}/fonts/TT_Modernoir_Trial_Bold.ttf") format("truetype"); font-weight: 700; }
+:root{ --ink:#161616; --ink-deep:#0c0b0b; --cream:#eed9bd; --cream-90:rgba(238,217,189,.9); --cream-80:rgba(238,217,189,.8); --cream-62:rgba(238,217,189,.62); --gold:#eece66; --gold-65:rgba(238,206,102,.65); --red:#d3111a;
+  --disp:"TT Modernoir",Impact,sans-serif; --mono:"Space Mono",ui-monospace,Menlo,monospace; --body:Inter,-apple-system,"Helvetica Neue",Arial,sans-serif; }
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--ink);color:var(--cream-90);font-family:var(--body);-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.pg{width:1080px;height:1920px;position:relative;overflow:hidden;background:var(--ink);page-break-after:always}
+.scrim-dossier{position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,11,11,.94) 0%,rgba(12,11,11,.82) 30%,rgba(12,11,11,.42) 49%,rgba(12,11,11,0) 63%,rgba(12,11,11,0) 72%,rgba(12,11,11,.85) 100%)}
+.scrim-baseline{position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,11,11,.42) 0%,rgba(12,11,11,0) 26%,rgba(12,11,11,0) 52%,rgb(22,22,22) 97%)}
+.rec-dot{position:absolute;left:64px;top:70px;width:11px;height:11px;border-radius:50%;background:var(--red)}
+.rec{position:absolute;left:84px;top:62px;font-family:var(--mono);font-size:20px;line-height:100%;letter-spacing:.16em;color:var(--cream-80);text-transform:uppercase;white-space:nowrap}
+.hud{position:absolute;right:64px;top:63px;font-family:var(--mono);font-size:18px;line-height:100%;letter-spacing:.18em;color:var(--gold-65);text-transform:uppercase;white-space:nowrap}
+.kicker{font-family:var(--mono);font-weight:400;font-size:22px;line-height:100%;letter-spacing:.22em;color:var(--gold);text-transform:uppercase;white-space:pre-line;display:block}
+.kicker.sm{font-size:18px;color:var(--gold-65)} .kicker.xs{font-size:18px} .kicker.mute{color:var(--cream-62)} .kicker.lbl{font-size:16px;color:var(--gold-65);margin-bottom:4px}
+.disp{font-family:var(--disp);font-weight:700;line-height:.98;color:var(--cream);text-transform:uppercase;white-space:pre-line}
+.sub{font-family:var(--body);font-weight:500;font-size:33px;line-height:1.32;color:var(--cream-90);max-width:820px;white-space:pre-line}
+.conteudo{position:absolute;left:64px;top:150px;width:952px;height:1560px;overflow:hidden}
+.conteudo>*{width:952px}
+.conteudo>.kicker.topo{margin-bottom:52px}
+h2.disp{font-size:66px;margin:36px 0 36px 0;page-break-after:avoid}
+.conteudo>h2.disp:nth-child(2){margin-top:12px}
+h3{font-family:var(--body);font-weight:600;font-size:36px;color:var(--cream);margin:20px 0 12px 0}
+p{margin:0 0 40px 0;font-family:var(--body);font-weight:400;font-size:38px;line-height:1.5;color:var(--cream-90);orphans:3;widows:3}
+.enf{color:var(--gold)}
+.frase{margin:24px 0 56px 0;display:flex;flex-direction:column;gap:18px;border-left:3px solid var(--gold);padding-left:30px}
+.frase p{margin:0;font-weight:500;font-size:42px;line-height:1.36;color:var(--cream)}
+.punch{font-family:var(--disp);font-weight:700;font-size:96px;line-height:.98;color:var(--cream);text-transform:uppercase}
+.pergunta{font-family:var(--body);font-weight:500;font-size:52px;line-height:1.3;color:var(--cream)}
+.inteira-pg .centro{position:absolute;left:64px;top:0;width:952px;height:1920px;display:flex;flex-direction:column;justify-content:center;gap:30px}
+.inteira-pg .centro .kicker{color:var(--gold)}
+.chat{margin:24px 0 56px 0;display:flex;flex-direction:column;gap:20px}
+.chat .msg{max-width:84%;padding:22px 30px 26px 30px;border:1.5px solid rgba(238,217,189,.28);display:flex;flex-direction:column;gap:8px}
+.chat .msg p{margin:0;font-size:34px;line-height:1.4}
+.chat .msg.ela{align-self:flex-start}
+.chat .msg.voce{align-self:flex-end;border-color:rgba(238,206,102,.6);background:rgba(238,206,102,.06)}
+.chat .msg.voce .kicker.lbl{color:var(--gold)}
+.caso{margin:24px 0 56px 0;border:1.5px solid rgba(238,217,189,.22);padding:0}
+.caso .lin{padding:26px 30px;border-bottom:1px solid rgba(238,217,189,.16)}
+.caso .lin:last-child{border-bottom:none}
+.caso .lin p{margin:0 0 14px 0;font-size:33px;line-height:1.4;color:var(--cream)}
+.caso .lin p:last-child{margin-bottom:0}
+.caso .ela p{color:var(--cream-90)}
+.caso .perde{border-left:3px solid var(--red)}
+.caso .perde .kicker.lbl{color:var(--red)}
+.caso .perde p{color:rgba(238,217,189,.72);font-size:31px}
+.caso .responde{border-left:3px solid var(--gold)}
+.caso .responde .kicker.lbl{color:var(--gold)}
+.caso .responde p{font-weight:500}
+.evite{margin:24px 0 56px 0;display:flex;flex-direction:column;gap:16px;border-left:3px solid var(--red);padding-left:30px} .evite p{margin:0;font-size:34px;line-height:1.42}
+.rail-abertura{position:absolute;left:64px;top:150px;width:952px}
+{{css_graficos}}
+ul{margin:0 0 28px 0;padding-left:44px;font-size:38px;line-height:1.45;color:var(--cream-90)}
+ol{margin:0 0 28px 0;padding-left:76px;font-size:38px;line-height:1.45;color:var(--cream-90)}
+li{margin-bottom:12px} ol li::marker{color:var(--gold-65)}
+.rodape{position:absolute;left:64px;right:64px;bottom:64px;display:flex;align-items:flex-end;justify-content:space-between}
+.rodape .col{display:flex;flex-direction:column;gap:16px}
+.slug,.pn{font-family:var(--mono);font-size:18px;line-height:100%;letter-spacing:.14em;color:var(--cream-62);text-transform:uppercase;white-space:nowrap}
+.barcode{position:relative;width:128px;height:34px} .barcode i{position:absolute;top:0;height:34px;background:var(--cream-80)}
+.capa .stack{position:absolute;left:64px;top:220px;width:952px;display:flex;flex-direction:column;align-items:flex-start}
+.capa .selo{font-size:220px} .capa .tit{font-size:78px} .capa .autor{position:absolute;left:64px;bottom:210px;display:flex;flex-direction:column;gap:14px}
+.capa .logo{position:absolute;right:64px;bottom:200px;width:140px}
+.abertura .stack{position:absolute;left:64px;bottom:260px;width:952px;display:flex;flex-direction:column;align-items:flex-start}
+.abertura h1.disp{font-size:120px;margin:0}
+.sp22{height:22px} .sp30{height:30px} .sp36{height:36px}
+.sumario .lin{display:flex;gap:24px;align-items:baseline;margin-bottom:26px;width:952px}
+.sumario .n{font-family:var(--mono);font-size:18px;letter-spacing:.18em;color:var(--gold-65);width:70px}
+.sumario .t{flex:1;font-family:var(--body);font-weight:500;font-size:36px;color:var(--cream)}
+.sumario .pg-num{font-family:var(--mono);font-size:18px;letter-spacing:.14em;color:var(--cream-62)}
+.parte .stack{position:absolute;left:64px;top:470px;width:820px;display:flex;flex-direction:column;align-items:flex-start}
+.parte h1.disp{font-size:112px;margin:0}
+.parte .marca{position:absolute;right:56px;top:250px;font-family:var(--disp);font-weight:700;font-size:560px;line-height:.82;color:rgba(238,217,189,.10)}
+.parte .lista{position:absolute;left:64px;bottom:240px;width:952px;display:flex;flex-direction:column}
+.parte .lista .it{display:flex;gap:26px;align-items:baseline;padding:24px 0;border-top:1px solid rgba(238,217,189,.18)}
+.parte .lista .it:last-child{border-bottom:1px solid rgba(238,217,189,.18)}
+.parte .lista .n{font-family:var(--mono);font-size:18px;letter-spacing:.18em;color:var(--gold-65);width:58px}
+.parte .lista .t{flex:1;font-family:var(--body);font-weight:500;font-size:34px;color:var(--cream-90)}
+.progresso{position:absolute;left:64px;right:64px;bottom:150px;height:2px;background:rgba(238,217,189,.13)}
+.progresso i{position:absolute;left:0;top:0;height:2px;background:var(--gold-65)}
+.contracapa .stack{position:absolute;left:64px;top:420px;width:952px;display:flex;flex-direction:column;align-items:flex-start}
+.contracapa h1.disp{font-size:104px;margin:0}
+.contracapa .link{position:absolute;left:64px;bottom:430px;width:952px;padding-top:34px;border-top:1px solid var(--gold-65);font-family:var(--mono);font-size:23px;letter-spacing:.04em;line-height:1.6;color:var(--gold);word-break:break-all}
+.contracapa .logo{position:absolute;right:64px;bottom:200px;width:140px}
+.fonte{display:none}
+a.ref{color:var(--gold);text-decoration:none;border-bottom:1.5px solid var(--gold-65)}
+.sumario a.lin{text-decoration:none;color:inherit}
+</style></head><body>
+{{corpo}}
+<script>
+document.fonts.ready.then(function(){
+  const SLUG = {{rodape_json}}; const HUD = {{hud_json}};
+  const BARS = [[0,2],[7,3],[15,1],[21,2],[28,3],[36,2],[43,1],[49,3],[57,2],[64,1],[70,2],[77,3],[85,1],[91,2]];
+  const barcode = () => '<div class="barcode">' + BARS.map(b => '<i style="left:'+b[0]+'px;width:'+b[1]+'px"></i>').join('') + '</div>';
+  const chrome = (hud) => '<div class="rec-dot"></div><span class="rec">REC</span><span class="hud">' + hud + '</span>';
+  const rodape = (num, bc) => '<div class="rodape"><div class="col">' + (bc ? barcode() : '') + '<span class="slug">' + SLUG + '</span></div><span class="pn">' + (num||'') + '</span></div>';
+  // paginador: cada .fonte vira N páginas de miolo
+  for (const f of Array.from(document.querySelectorAll('.fonte'))) {
+    const blocos = Array.from(f.children);
+    const nova = () => { const pg = document.createElement('section'); pg.className = 'pg miolo';
+      pg.innerHTML = chrome(f.dataset.hud || HUD) + '<div class="conteudo"><span class="kicker sm topo">' + f.dataset.kicker + ' · ' + f.dataset.titulo + '</span></div>' + rodape('', true);
+      f.parentNode.insertBefore(pg, f); ultimaMiolo = pg; return pg; };
+    let pg = null, c = null, ultimaMiolo = null;
+    const garante = () => { if (!pg) { pg = nova(); c = pg.querySelector('.conteudo'); } };
+    const inteira = (b) => { const sec = document.createElement('section'); sec.className = 'pg inteira-pg';
+      sec.innerHTML = chrome(f.dataset.hud || HUD) + '<div class="centro"><span class="kicker">' + (b.dataset.kicker || '') + '</span></div>' + rodape('', true);
+      sec.querySelector('.centro').appendChild(b); f.parentNode.insertBefore(sec, f); pg = null; c = null; };
+    const cabe = () => c.scrollHeight <= c.clientHeight + 1;
+    // quebra um <p> por frase: o que couber fica, o resto vai pra próxima página (mínimo 2 frases de cada lado)
+    const dividirP = (b) => {
+      const html = b.innerHTML; const partes = html.split(/(?<=[.!?…»"])\s+(?=[A-ZÀ-Ú«"(])/);
+      if (partes.length < 4) return null;
+      for (let n = partes.length - 2; n >= 2; n--) {
+        const a = b.cloneNode(false); a.innerHTML = partes.slice(0, n).join(' ');
+        c.appendChild(a);
+        if (cabe()) { const r = b.cloneNode(false); r.innerHTML = partes.slice(n).join(' '); return r; }
+        c.removeChild(a);
+      }
+      return null;
+    };
+    // quebra uma lista por itens: o que couber fica, o resto vira lista nova na próxima
+    // página, com start= pra numeração continuar. Sem isso, lista longa é indivisível e
+    // empurra tudo pra frente, deixando a página anterior quase vazia.
+    const dividirLista = (b) => {
+      const itens = Array.from(b.children).filter(x => x.tagName === 'LI');
+      if (itens.length < 4) return null;
+      const clone = b.cloneNode(false);
+      c.appendChild(clone);
+      let posto = 0;
+      for (const li of itens) {
+        clone.appendChild(li.cloneNode(true));
+        if (!cabe()) { clone.removeChild(clone.lastElementChild); break; }
+        posto++;
+      }
+      if (posto < 2 || posto === itens.length) { c.removeChild(clone); return null; }
+      const resto = b.cloneNode(false);
+      if (b.tagName === 'OL') {
+        const ini = parseInt(b.getAttribute('start') || '1', 10);
+        resto.setAttribute('start', String(ini + posto));
+      }
+      itens.slice(posto).forEach(li => resto.appendChild(li));
+      return resto;
+    };
+
+    let fila = blocos.slice();
+    while (fila.length) {
+      const b = fila.shift();
+      if (b.classList.contains('inteira')) { inteira(b); continue; }
+      garante(); c.appendChild(b);
+      if (!cabe()) {
+        c.removeChild(b);
+        let resto = null;
+        if (b.tagName === 'P') resto = dividirP(b);
+        else if (b.tagName === 'OL' || b.tagName === 'UL') resto = dividirLista(b);
+        if (resto) { fila.unshift(resto); pg = nova(); c = pg.querySelector('.conteudo'); continue; }
+        const ult = c.lastElementChild;
+        if (ult && /^H[23]$/.test(ult.tagName) && !ult.classList.contains('topo')) { c.removeChild(ult); pg = nova(); c = pg.querySelector('.conteudo'); c.appendChild(ult); }
+        else { pg = nova(); c = pg.querySelector('.conteudo'); }
+        c.appendChild(b);
+      }
+    }
+    // Balanceia o fim do capítulo. ATENÇÃO: .conteudo tem altura fixa e overflow
+    // hidden, então scrollHeight NUNCA fica menor que a caixa; pra saber o quanto
+    // de fato está ocupado é preciso medir o último filho.
+    const ocupacao = (el) => {
+      const u = el.lastElementChild;
+      return u ? (u.offsetTop - el.offsetTop + u.offsetHeight) : 0;
+    };
+    if (ultimaMiolo) {
+      const cf = ultimaMiolo.querySelector('.conteudo');
+      const util = cf.clientHeight;
+      let guarda = 0;
+      while (guarda++ < 8 && ocupacao(cf) < util * 0.32) {
+        const ant = ultimaMiolo.previousElementSibling;
+        if (!ant || !ant.classList.contains('miolo')) break;
+        const ca = ant.querySelector('.conteudo');
+        if (!ca) break;
+        const irmaos = Array.from(ca.children).filter(x => !x.classList.contains('topo'));
+        if (irmaos.length < 2) break;                  // não esvaziar a página anterior
+        const mover = irmaos[irmaos.length - 1];
+        cf.insertBefore(mover, cf.children[1] || null);
+        if (cf.scrollHeight > util + 1) { ca.appendChild(mover); break; }  // estourou: desfaz
+      }
+    }
+    f.remove();
+  }
+  // Título no pé da página, com o texto dele na página seguinte, é sempre erro: a leitora
+  // vira a página achando que acabou a seção. Aqui o título desce pra junto do que ele abre.
+  // Roda no livro inteiro e não só no fim de capítulo, porque o balanceador acima só olha
+  // a última página de cada um.
+  for (const pg of Array.from(document.querySelectorAll('.pg.miolo'))) {
+    const c = pg.querySelector('.conteudo'); if (!c) continue;
+    const u = c.lastElementChild;
+    if (!u || !/^H[23]$/.test(u.tagName)) continue;
+    const prox = pg.nextElementSibling;
+    if (!prox || !prox.classList.contains('miolo')) continue;
+    const cp = prox.querySelector('.conteudo'); if (!cp) continue;
+    cp.insertBefore(u, cp.children[1] || null);
+    if (cp.scrollHeight > cp.clientHeight + 1) c.appendChild(u);   // não coube: desfaz
+  }
+  const pgs = Array.from(document.querySelectorAll('.pg'));
+  pgs.forEach((p, i) => { const pn = p.querySelector('.pn'); if (pn && !p.classList.contains('capa')) pn.textContent = i + 1; });
+  // Barra de progresso: hairline no rodapé com a posição da leitora no livro.
+  pgs.forEach((p, i) => {
+    if (p.classList.contains('capa') || p.classList.contains('contracapa')) return;
+    const b = document.createElement('div'); b.className = 'progresso';
+    const f = document.createElement('i'); f.style.width = ((i + 1) / pgs.length * 100).toFixed(2) + '%';
+    b.appendChild(f); p.appendChild(b);
+  });
+  document.querySelectorAll('.sumario .lin[data-cap]').forEach(l => { const ab = document.querySelector('.abertura[data-cap="' + l.dataset.cap + '"]'); if (ab) l.querySelector('.pg-num').textContent = pgs.indexOf(ab) + 1; });
+  document.body.dataset.paginado = '1';
+});
+</script>
+</body></html>

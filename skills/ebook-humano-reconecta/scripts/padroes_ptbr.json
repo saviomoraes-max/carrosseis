@@ -1,0 +1,2221 @@
+{
+  "versao": "1.0.0",
+  "descricao": "Catálogo de padrões de escrita com sotaque de IA em português do Brasil. Portado e adaptado de conorbronsdon/avoid-ai-writing (detector/patterns.js + references/patterns.md) e dos 10 tells da skill escrita-humana-reconecta. Regex em sintaxe Python (re), case-insensitive por padrão. Campo 'flags' aceita 'm' (multiline).",
+  "categorias": {
+    "conteudo": {
+      "rotulo": "Conteúdo e inflação",
+      "descricao": "Afirmação sem lastro, importância inflada, fecho grandioso, hedging em cima do muro, concessão falsa, novidade inflada."
+    },
+    "linguagem": {
+      "rotulo": "Linguagem e vocabulário",
+      "descricao": "Vocabulário de IA em 3 níveis (sempre / em cluster / por densidade), transições automáticas, intensificadores ocos."
+    },
+    "estrutura": {
+      "rotulo": "Estrutura e ritmo",
+      "descricao": "Contraste fácil, anáfora, tríade, lista onde cabia parágrafo, negrito, travessão, dois-pontos, pergunta retórica no fecho."
+    },
+    "comunicacao": {
+      "rotulo": "Sobras de chatbot",
+      "descricao": "Frases que só existem porque um modelo estava conversando: 'neste capítulo vamos', 'espero que ajude', 'certifique-se de', placeholders, disclaimers."
+    },
+    "meta": {
+      "rotulo": "Uniformidade de ritmo (estatística)",
+      "descricao": "Métricas sobre o texto inteiro: desvio-padrão do tamanho das frases, parágrafos do mesmo tamanho, pontuação uniforme, diversidade lexical."
+    },
+    "calques": {
+      "rotulo": "Calques do inglês e burocratês",
+      "descricao": "Tradução literal de inglês corporativo ('no final do dia', 'jornada', 'insights'), gerundismo de call center, e o registro burocrático que a IA usa por padrão em PT-BR (utilizar, possuir, efetuar, bem como, uma vez que)."
+    }
+  },
+  "pesos_gravidade": {
+    "baixa": 1,
+    "media": 2.5,
+    "alta": 5,
+    "critica": 10
+  },
+  "repeticao": {
+    "fator_extra": 0.4,
+    "teto_por_padrao": 20,
+    "nota": "Mesmo padrão + mesmo texto: a primeira ocorrência vale o peso cheio; cada repetição vale peso x fator_extra; soma por padrão nunca passa do teto."
+  },
+  "score": {
+    "k": 50,
+    "k_categoria": 15,
+    "min_palavras": 40,
+    "formula": "densidade = pontos / max(palavras, piso_palavras) * 1000; score = 100 * (1 - exp(-densidade / k)), k = 50, piso_palavras = 300 (texto curto não explode com um achado só). Nota por categoria usa k_categoria sobre a densidade só daquela categoria.",
+    "faixas": [
+      {
+        "ate": 15,
+        "rotulo": "limpo (soa gente)"
+      },
+      {
+        "ate": 25,
+        "rotulo": "leve sotaque (passa no portão)"
+      },
+      {
+        "ate": 45,
+        "rotulo": "sotaque perceptível (revisar antes de gastar agente)"
+      },
+      {
+        "ate": 65,
+        "rotulo": "sotaque forte (reescrever os trechos marcados)"
+      },
+      {
+        "ate": 100,
+        "rotulo": "carregado (reescrever do zero)"
+      }
+    ],
+    "piso_palavras": 300
+  },
+  "regras_vocabulario": {
+    "nivel1": "sempre marca; gravidade alta",
+    "nivel2": "marca só quando 2+ termos distintos aparecem no mesmo parágrafo; gravidade média",
+    "nivel3": "marca só por densidade: pelo menos nivel3_min_ocorrencias E nivel3_min_por_mil; gravidade baixa",
+    "nivel2_min_distintos_paragrafo": 2,
+    "nivel3_min_ocorrencias": 4,
+    "nivel3_min_por_mil": 5
+  },
+  "vocabulario": {
+    "nivel1": [
+      {
+        "id": "v1_mergulhar",
+        "termo": "mergulhar em",
+        "regex": "\\bmergulh(?:ar|amos|aremos|ando|e|emos|ou)\\s+(?:n[oa]s?|em|fundo|a\\s+fundo)\\b",
+        "substituto": "olhar, examinar, entrar em"
+      },
+      {
+        "id": "v1_desbloquear",
+        "termo": "desbloquear",
+        "regex": "\\bdesbloque(?:ar|ia|iam|ando|ie|ado|ada|ados|adas|amos|ou)\\b",
+        "substituto": "liberar, abrir, conseguir"
+      },
+      {
+        "id": "v1_potencializar",
+        "termo": "potencializar",
+        "regex": "\\bpotencializ\\w*",
+        "substituto": "aumentar, reforçar, melhorar"
+      },
+      {
+        "id": "v1_alavancar",
+        "termo": "alavancar",
+        "regex": "\\balavanc(?:ar|a|am|ou|ando|ado|ada|ados|adas|agem|amos|aremos)\\b",
+        "substituto": "usar, aproveitar, puxar"
+      },
+      {
+        "id": "v1_jornada",
+        "termo": "jornada",
+        "regex": "\\bjornadas?\\b(?!\\s+de\\s+trabalho)",
+        "substituto": "caminho, processo, o que a pessoa passa"
+      },
+      {
+        "id": "v1_robusto",
+        "termo": "robusto",
+        "regex": "\\brobust[oa]s?\\b",
+        "substituto": "sólido, firme, que aguenta"
+      },
+      {
+        "id": "v1_abrangente",
+        "termo": "abrangente",
+        "regex": "\\babrangentes?\\b",
+        "substituto": "completo, amplo"
+      },
+      {
+        "id": "v1_impactar",
+        "termo": "impactar",
+        "regex": "\\bimpact(?:ar|a|am|ou|ando|ado|ada|ados|adas|amos)\\b",
+        "substituto": "afetar, mudar, mexer com"
+      },
+      {
+        "id": "v1_insights",
+        "termo": "insight",
+        "regex": "\\binsights?\\b",
+        "substituto": "sacada, percepção, leitura"
+      },
+      {
+        "id": "v1_empoderar",
+        "termo": "empoderar",
+        "regex": "\\bempoder\\w*",
+        "substituto": "dar autonomia, deixar a pessoa decidir"
+      },
+      {
+        "id": "v1_transformador",
+        "termo": "transformador",
+        "regex": "\\btransformador(?:a|es|as)?\\b",
+        "substituto": "descreva o que mudou"
+      },
+      {
+        "id": "v1_crucial",
+        "termo": "crucial",
+        "regex": "\\bcruci(?:al|ais)\\b",
+        "substituto": "importante, decisivo"
+      },
+      {
+        "id": "v1_desvendar",
+        "termo": "desvendar",
+        "regex": "\\bdesvend\\w*",
+        "substituto": "explicar, mostrar"
+      },
+      {
+        "id": "v1_tapecaria",
+        "termo": "tapeçaria",
+        "regex": "\\btape[çc]arias?\\b",
+        "substituto": "descreva a complexidade real"
+      },
+      {
+        "id": "v1_paradigma",
+        "termo": "paradigma",
+        "regex": "\\bparadigmas?\\b",
+        "substituto": "modelo, jeito de pensar"
+      },
+      {
+        "id": "v1_sinergia",
+        "termo": "sinergia",
+        "regex": "\\bsinergias?\\b",
+        "substituto": "descreva o efeito conjunto"
+      },
+      {
+        "id": "v1_holistico",
+        "termo": "holístico",
+        "regex": "\\bhol[íi]stic\\w*",
+        "substituto": "completo, inteiro"
+      },
+      {
+        "id": "v1_acionavel",
+        "termo": "acionável",
+        "regex": "\\bacion[áa]ve(?:l|is)\\b",
+        "substituto": "prático, que dá pra aplicar"
+      },
+      {
+        "id": "v1_constante_evolucao",
+        "termo": "em constante evolução",
+        "regex": "\\bem\\s+constante\\s+(?:evolução|mudança|transformação|crescimento)\\b",
+        "substituto": "descreva a mudança"
+      },
+      {
+        "id": "v1_divisor_aguas",
+        "termo": "divisor de águas",
+        "regex": "\\bdivisor\\s+de\\s+águas\\b",
+        "substituto": "virada, o que mudou"
+      },
+      {
+        "id": "v1_testemunho_de",
+        "termo": "testemunho de / testamento de",
+        "regex": "\\b(?:testamento|testemunho)\\s+d[oae]s?\\b",
+        "substituto": "mostra, prova"
+      },
+      {
+        "id": "v1_abracar",
+        "termo": "abraçar (metáfora)",
+        "regex": "\\babra(?:çar|ce|çam|çou|çando|çamos)\\s+(?:a|o|as|os|essa|esse|essas|esses|nov[oa]s?|mudanças?|ideias?|desafios?|oportunidades?|processos?|tecnologias?|imperfeiç)",
+        "substituto": "adotar, aceitar, topar"
+      },
+      {
+        "id": "v1_vibrante",
+        "termo": "vibrante",
+        "regex": "\\bvibrantes?\\b",
+        "substituto": "descreva o que está vivo ali"
+      },
+      {
+        "id": "v1_meticuloso",
+        "termo": "meticuloso",
+        "regex": "\\bmeticulos\\w*",
+        "substituto": "cuidadoso, detalhado"
+      },
+      {
+        "id": "v1_sem_atritos",
+        "termo": "sem atritos",
+        "regex": "\\bsem\\s+atritos?\\b",
+        "substituto": "fácil, sem travar"
+      },
+      {
+        "id": "v1_navegar",
+        "termo": "navegar por (metáfora)",
+        "regex": "\\bnaveg(?:ar|a|amos|ando|ou)\\s+(?:por|pel[oa]s?|n[oa]s?|em)\\s+(?!internet|site|app|aplicativo|página|menu|redes?|instagram)",
+        "substituto": "lidar com, passar por"
+      },
+      {
+        "id": "v1_elevar",
+        "termo": "elevar (o nível / a clínica)",
+        "regex": "\\belev(?:ar|a|e|ando|amos|ou)\\s+(?:sua|seu|o|a|seus|suas|ainda)\\s+",
+        "substituto": "melhorar, subir"
+      },
+      {
+        "id": "v1_pleno_potencial",
+        "termo": "pleno potencial",
+        "regex": "\\b(?:pleno|máximo|todo\\s+o\\s+seu)\\s+potencial\\b|\\bpotencial\\s+máximo\\b",
+        "substituto": "diga o que a pessoa passa a conseguir"
+      },
+      {
+        "id": "v1_virada_chave",
+        "termo": "virada de chave / game changer",
+        "regex": "\\bvirada\\s+de\\s+chave\\b|\\bgame[\\s-]?changer\\b",
+        "substituto": "descreva o que mudou"
+      },
+      {
+        "id": "v1_impulsionar",
+        "termo": "impulsionar",
+        "regex": "\\bimpulsion\\w*",
+        "substituto": "aumentar, puxar, fazer crescer"
+      },
+      {
+        "id": "v1_ressignificar",
+        "termo": "ressignificar",
+        "regex": "\\bressignific\\w*",
+        "substituto": "repensar, dar outro sentido"
+      },
+      {
+        "id": "v1_assertivo",
+        "termo": "assertivo (calque de assertive)",
+        "regex": "\\bassertiv(?:o|a|os|as|idade|amente)\\b",
+        "substituto": "certeiro, direto, preciso"
+      },
+      {
+        "id": "v1_de_ponta",
+        "termo": "de ponta (cutting-edge)",
+        "regex": "\\b(?:tecnologia|solução|abordagem|método)\\s+de\\s+ponta\\b",
+        "substituto": "diga qual tecnologia"
+      },
+      {
+        "id": "v1_agregar_valor",
+        "termo": "agregar/entregar/gerar valor",
+        "regex": "\\b(?:agreg|entreg|ger)(?:ar|a|am|ando|ou|amos)\\s+(?:mais\\s+)?valor\\b",
+        "substituto": "diga o que a pessoa ganha"
+      },
+      {
+        "id": "v1_senso_de",
+        "termo": "senso de (urgência/pertencimento)",
+        "regex": "\\bsenso\\s+de\\s+(?:urgência|pertencimento|comunidade|propósito|responsabilidade)\\b",
+        "substituto": "descreva o sentimento com palavra sua"
+      },
+      {
+        "id": "v1_zona_conforto",
+        "termo": "zona de conforto",
+        "regex": "\\bzona\\s+de\\s+conforto\\b",
+        "substituto": "diga do que a pessoa tem medo"
+      },
+      {
+        "id": "v1_fazer_diferenca",
+        "termo": "fazer a diferença",
+        "regex": "\\bfaz(?:er|em|endo)?\\s+(?:toda\\s+)?a\\s+diferença\\b",
+        "substituto": "diga o que muda"
+      },
+      {
+        "id": "v1_marco",
+        "termo": "um marco",
+        "regex": "\\bum\\s+marco\\s+(?:na|no|para|pra)\\b",
+        "substituto": "diga o que aconteceu"
+      },
+      {
+        "id": "v1_nova_era",
+        "termo": "nova era",
+        "regex": "\\b(?:uma\\s+)?nova\\s+era\\b",
+        "substituto": "diga o que mudou e quando"
+      },
+      {
+        "id": "v1_sem_precedentes",
+        "termo": "sem precedentes",
+        "regex": "\\bsem\\s+precedentes\\b",
+        "substituto": "nomeie o precedente que quebrou, ou corte"
+      },
+      {
+        "id": "v1_revolucionar",
+        "termo": "revolucionar",
+        "regex": "\\brevolucion\\w*",
+        "substituto": "mudar, trocar (e diga o quê)"
+      },
+      {
+        "id": "v1_reinventar",
+        "termo": "reinventar",
+        "regex": "\\breinvent\\w*",
+        "substituto": "refazer, mudar"
+      },
+      {
+        "id": "v1_cultivar",
+        "termo": "cultivar (metáfora)",
+        "regex": "\\bcultiv(?:ar|a|am|ando|e|amos)\\s+(?:a|o|um|uma|relaç|conex|hábit|confian)",
+        "substituto": "construir, criar, manter"
+      },
+      {
+        "id": "v1_fomentar",
+        "termo": "fomentar",
+        "regex": "\\bfoment\\w*",
+        "substituto": "incentivar, criar"
+      },
+      {
+        "id": "v1_nutrir",
+        "termo": "nutrir (relacionamento)",
+        "regex": "\\bnutr(?:ir|e|em|indo|imos)\\s+(?:o|a|um|uma|esse|essa|relacion|conex|lead)",
+        "substituto": "manter contato, cuidar de"
+      },
+      {
+        "id": "v1_escalavel",
+        "termo": "escalável",
+        "regex": "\\bescal[áa]ve(?:l|is)\\b",
+        "substituto": "que cresce sem você (diga como)"
+      },
+      {
+        "id": "v1_mindset",
+        "termo": "mindset",
+        "regex": "\\bmindsets?\\b",
+        "substituto": "cabeça, jeito de pensar"
+      },
+      {
+        "id": "v1_sustentavel_metafora",
+        "termo": "de forma sustentável",
+        "regex": "\\bde\\s+(?:forma|maneira)\\s+sustentável\\b",
+        "substituto": "que dá pra manter (diga por quanto tempo)"
+      }
+    ],
+    "nivel2": [
+      {
+        "id": "v2_fundamental",
+        "termo": "fundamental",
+        "regex": "\\bfundamenta(?:l|is)\\b",
+        "substituto": "importante, decisivo (ou corte)"
+      },
+      {
+        "id": "v2_essencial",
+        "termo": "essencial",
+        "regex": "\\bessencia(?:l|is)\\b",
+        "substituto": "necessário (ou corte)"
+      },
+      {
+        "id": "v2_estrategico",
+        "termo": "estratégico",
+        "regex": "\\bestratégic[oa]s?\\b",
+        "substituto": "diga qual é a estratégia"
+      },
+      {
+        "id": "v2_eficaz",
+        "termo": "eficaz",
+        "regex": "\\beficaz(?:es)?\\b|\\beficazmente\\b",
+        "substituto": "que funciona (diga como)"
+      },
+      {
+        "id": "v2_eficiente",
+        "termo": "eficiente",
+        "regex": "\\beficiente(?:s|mente)?\\b|\\beficiência\\b",
+        "substituto": "rápido, barato (diga qual)"
+      },
+      {
+        "id": "v2_relevante",
+        "termo": "relevante",
+        "regex": "\\brelev(?:ante|antes|ância)\\b",
+        "substituto": "que importa pra quem (diga)"
+      },
+      {
+        "id": "v2_significativo",
+        "termo": "significativo",
+        "regex": "\\bsignificativ[oa]s?\\b|\\bsignificativamente\\b",
+        "substituto": "um número, uma comparação"
+      },
+      {
+        "id": "v2_consistente",
+        "termo": "consistente",
+        "regex": "\\bconsist(?:ente|entes|ência|entemente)\\b",
+        "substituto": "toda semana, sem falhar (diga a frequência)"
+      },
+      {
+        "id": "v2_solido",
+        "termo": "sólido",
+        "regex": "\\bsólid[oa]s?\\b",
+        "substituto": "firme, que aguenta"
+      },
+      {
+        "id": "v2_genuino",
+        "termo": "genuíno",
+        "regex": "\\bgenu[íi]n[oa]s?\\b|\\bgenuinamente\\b",
+        "substituto": "corte; só afirme"
+      },
+      {
+        "id": "v2_autentico",
+        "termo": "autêntico",
+        "regex": "\\bautêntic[oa]s?\\b|\\bautenticidade\\b",
+        "substituto": "corte; mostre em vez de rotular"
+      },
+      {
+        "id": "v2_conexao",
+        "termo": "conexão (metáfora)",
+        "regex": "\\bconex(?:ão|ões)\\b(?!\\s+(?:de\\s+)?(?:internet|wifi|wi-fi|com\\s+a\\s+rede))",
+        "substituto": "confiança, vínculo, conversa"
+      },
+      {
+        "id": "v2_proposito",
+        "termo": "propósito",
+        "regex": "\\bpropósitos?\\b",
+        "substituto": "motivo, por que ela faz isso"
+      },
+      {
+        "id": "v2_potencial",
+        "termo": "potencial",
+        "regex": "\\bpotencia(?:l|is)\\b",
+        "substituto": "o que dá pra fazer"
+      },
+      {
+        "id": "v2_abordagem",
+        "termo": "abordagem",
+        "regex": "\\babordagens?\\b",
+        "substituto": "jeito, método, forma"
+      },
+      {
+        "id": "v2_diferencial",
+        "termo": "diferencial",
+        "regex": "\\bdiferencia(?:l|is)\\b",
+        "substituto": "o que só ela faz (diga)"
+      },
+      {
+        "id": "v2_excelencia",
+        "termo": "excelência",
+        "regex": "\\bexcelência\\b",
+        "substituto": "diga o que é bem feito"
+      },
+      {
+        "id": "v2_otimizar",
+        "termo": "otimizar",
+        "regex": "\\botimiz\\w*",
+        "substituto": "melhorar, ajustar, encurtar"
+      },
+      {
+        "id": "v2_maximizar",
+        "termo": "maximizar",
+        "regex": "\\bmaximiz\\w*",
+        "substituto": "aumentar, tirar o máximo"
+      },
+      {
+        "id": "v2_cenario",
+        "termo": "cenário (landscape)",
+        "regex": "\\bcenários?\\b",
+        "substituto": "situação, mercado, momento"
+      },
+      {
+        "id": "v2_ecossistema",
+        "termo": "ecossistema",
+        "regex": "\\becossistemas?\\b",
+        "substituto": "sistema, rede, mercado"
+      },
+      {
+        "id": "v2_pilar",
+        "termo": "pilar",
+        "regex": "\\bpilar(?:es)?\\b",
+        "substituto": "base, parte"
+      },
+      {
+        "id": "v2_chave",
+        "termo": "fator-chave / peça-chave",
+        "regex": "\\b(?:fator|ponto|peça|elemento|papel|momento|pergunta|palavra)[\\s-]chave\\b",
+        "substituto": "o que decide, o principal"
+      },
+      {
+        "id": "v2_transformacao",
+        "termo": "transformação",
+        "regex": "\\btransformaç(?:ão|ões)\\b",
+        "substituto": "descreva o que mudou"
+      },
+      {
+        "id": "v2_impacto",
+        "termo": "impacto",
+        "regex": "\\bimpactos?\\b",
+        "substituto": "efeito, resultado (com número)"
+      },
+      {
+        "id": "v2_engajamento",
+        "termo": "engajamento",
+        "regex": "\\bengaj\\w*",
+        "substituto": "resposta, comentário, gente que volta"
+      },
+      {
+        "id": "v2_aprimorar",
+        "termo": "aprimorar",
+        "regex": "\\baprimor\\w*",
+        "substituto": "melhorar"
+      },
+      {
+        "id": "v2_proporcionar",
+        "termo": "proporcionar",
+        "regex": "\\bproporcion(?:ar|a|am|ou|ando|ado|ada|amos)\\b",
+        "substituto": "dar, oferecer"
+      },
+      {
+        "id": "v2_propiciar",
+        "termo": "propiciar",
+        "regex": "\\bpropici\\w*",
+        "substituto": "permitir, dar"
+      },
+      {
+        "id": "v2_viabilizar",
+        "termo": "viabilizar",
+        "regex": "\\bviabiliz\\w*",
+        "substituto": "tornar possível, permitir"
+      },
+      {
+        "id": "v2_protagonismo",
+        "termo": "protagonismo",
+        "regex": "\\bprotagon\\w*",
+        "substituto": "diga quem decide o quê"
+      },
+      {
+        "id": "v2_resiliencia",
+        "termo": "resiliência",
+        "regex": "\\bresilien\\w*",
+        "substituto": "aguentar, seguir depois do tombo"
+      },
+      {
+        "id": "v2_desafiador",
+        "termo": "desafiador",
+        "regex": "\\bdesafiador(?:a|es|as)?\\b",
+        "substituto": "difícil, duro"
+      },
+      {
+        "id": "v2_fluido",
+        "termo": "fluido (seamless)",
+        "regex": "\\bflu[íi]d[oa]s?\\b|\\bfluidez\\b",
+        "substituto": "fácil, natural, sem travar"
+      },
+      {
+        "id": "v2_panorama",
+        "termo": "panorama",
+        "regex": "\\bpanoramas?\\b",
+        "substituto": "situação, visão geral"
+      },
+      {
+        "id": "v2_poderoso",
+        "termo": "poderoso",
+        "regex": "\\bpoderos[oa]s?\\b",
+        "substituto": "diga o que ele faz"
+      },
+      {
+        "id": "v2_valioso",
+        "termo": "valioso",
+        "regex": "\\bvalios[oa]s?\\b",
+        "substituto": "diga por que vale"
+      },
+      {
+        "id": "v2_enriquecedor",
+        "termo": "enriquecedor",
+        "regex": "\\benriquecedor(?:a|es|as)?\\b",
+        "substituto": "diga o que a pessoa aprende"
+      },
+      {
+        "id": "v2_inspirador",
+        "termo": "inspirador",
+        "regex": "\\binspirador(?:a|es|as)?\\b",
+        "substituto": "diga o que inspira"
+      },
+      {
+        "id": "v2_humanizado",
+        "termo": "humanizado",
+        "regex": "\\bhumaniza\\w*",
+        "substituto": "descreva o gesto concreto"
+      },
+      {
+        "id": "v2_acolhedor",
+        "termo": "acolhedor / acolhimento",
+        "regex": "\\bacolh(?:edor|edora|edores|edoras|imento)\\b",
+        "substituto": "descreva o que a pessoa faz de diferente"
+      },
+      {
+        "id": "v2_encantar",
+        "termo": "encantar (o cliente)",
+        "regex": "\\bencant(?:ar|a|am|ando|amento|ou)\\b",
+        "substituto": "surpreender (diga com o quê)"
+      },
+      {
+        "id": "v2_imprescindivel",
+        "termo": "imprescindível",
+        "regex": "\\bimprescind[íi]ve(?:l|is)\\b",
+        "substituto": "necessário"
+      },
+      {
+        "id": "v2_personalizado",
+        "termo": "personalizado",
+        "regex": "\\bpersonaliza\\w*",
+        "substituto": "feito pra ela (diga o que muda)"
+      },
+      {
+        "id": "v2_inovador",
+        "termo": "inovador / inovação",
+        "regex": "\\binova(?:dor|dora|dores|doras|ção|ções|r)\\b",
+        "substituto": "descreva o que é novo"
+      },
+      {
+        "id": "v2_alinhado",
+        "termo": "alinhado (com)",
+        "regex": "\\balinhad[oa]s?\\s+(?:com|a|ao|à)\\b",
+        "substituto": "de acordo com, combinando com"
+      },
+      {
+        "id": "v2_agregar",
+        "termo": "agregar",
+        "regex": "\\bagreg(?:ar|a|am|ando|ou)\\b",
+        "substituto": "somar, juntar"
+      },
+      {
+        "id": "v2_relacionamento",
+        "termo": "relacionamento (com paciente)",
+        "regex": "\\brelacionamentos?\\s+(?:com|de)\\s+(?:o\\s+|a\\s+|os\\s+|as\\s+)?(?:pacientes?|clientes?|leads?)\\b",
+        "substituto": "contato, conversa, confiança"
+      }
+    ],
+    "nivel3": [
+      {
+        "id": "v3_importante",
+        "termo": "importante",
+        "regex": "\\bimportantes?\\b",
+        "substituto": "troque parte por especificidade"
+      },
+      {
+        "id": "v3_realmente",
+        "termo": "realmente",
+        "regex": "\\brealmente\\b",
+        "substituto": "corte a maioria"
+      },
+      {
+        "id": "v3_processo",
+        "termo": "processo",
+        "regex": "\\bprocessos?\\b",
+        "substituto": "nomeie o processo"
+      },
+      {
+        "id": "v3_resultado",
+        "termo": "resultado",
+        "regex": "\\bresultados?\\b",
+        "substituto": "diga qual resultado, com número"
+      },
+      {
+        "id": "v3_estrategia",
+        "termo": "estratégia",
+        "regex": "\\bestratégias?\\b",
+        "substituto": "nomeie a estratégia"
+      },
+      {
+        "id": "v3_qualidade",
+        "termo": "qualidade",
+        "regex": "\\bqualidade\\b",
+        "substituto": "diga o que é bom"
+      },
+      {
+        "id": "v3_sucesso",
+        "termo": "sucesso",
+        "regex": "\\bsucessos?\\b",
+        "substituto": "diga o que deu certo"
+      },
+      {
+        "id": "v3_certamente",
+        "termo": "certamente",
+        "regex": "\\bcertamente\\b",
+        "substituto": "corte"
+      },
+      {
+        "id": "v3_claramente",
+        "termo": "claramente",
+        "regex": "\\bclaramente\\b",
+        "substituto": "corte"
+      },
+      {
+        "id": "v3_definitivamente",
+        "termo": "definitivamente",
+        "regex": "\\bdefinitivamente\\b",
+        "substituto": "corte"
+      },
+      {
+        "id": "v3_extremamente",
+        "termo": "extremamente",
+        "regex": "\\bextremamente\\b",
+        "substituto": "muito, ou corte"
+      },
+      {
+        "id": "v3_incrivel",
+        "termo": "incrível",
+        "regex": "\\bincr[íi]ve(?:l|is)\\b|\\bincrivelmente\\b",
+        "substituto": "diga o que impressiona"
+      },
+      {
+        "id": "v3_simples",
+        "termo": "simples",
+        "regex": "\\bsimples\\b",
+        "substituto": "mostre que é simples"
+      },
+      {
+        "id": "v3_cada_vez_mais",
+        "termo": "cada vez mais",
+        "regex": "\\bcada\\s+vez\\s+mais\\b",
+        "substituto": "diga quanto, desde quando"
+      },
+      {
+        "id": "v3_essencialmente",
+        "termo": "essencialmente / basicamente",
+        "regex": "\\b(?:essencialmente|basicamente)\\b",
+        "substituto": "corte"
+      },
+      {
+        "id": "v3_verdadeiro",
+        "termo": "verdadeiro",
+        "regex": "\\bverdadeir[oa]s?\\b",
+        "substituto": "corte; só afirme"
+      },
+      {
+        "id": "v3_efetivo",
+        "termo": "efetivo / efetivamente",
+        "regex": "\\befetiv[oa]s?\\b|\\befetivamente\\b",
+        "substituto": "que funciona; ou corte"
+      },
+      {
+        "id": "v3_diferenciado",
+        "termo": "diferenciado",
+        "regex": "\\bdiferenciad[oa]s?\\b",
+        "substituto": "diga a diferença"
+      },
+      {
+        "id": "v3_garantir",
+        "termo": "garantir",
+        "regex": "\\bgarant(?:ir|e|em|indo|imos|iu|a|am)\\b",
+        "substituto": "fazer com que; ou afirme direto"
+      },
+      {
+        "id": "v3_obviamente",
+        "termo": "obviamente / óbvio",
+        "regex": "\\bobviamente\\b|\\bóbvi[oa]\\b",
+        "substituto": "corte ou mostre por que é óbvio"
+      },
+      {
+        "id": "v3_positivo",
+        "termo": "positivo",
+        "regex": "\\bpositiv[oa]s?\\b",
+        "substituto": "diga o que é bom"
+      },
+      {
+        "id": "v3_unico",
+        "termo": "único",
+        "regex": "\\búnic[oa]s?\\b",
+        "substituto": "diga o que só ela tem"
+      },
+      {
+        "id": "v3_valor",
+        "termo": "valor (abstrato)",
+        "regex": "\\bvalor\\b(?!\\s*(?:de\\s+)?R\\$)",
+        "substituto": "diga o que vale, com preço ou efeito"
+      },
+      {
+        "id": "v3_experiencia",
+        "termo": "experiência",
+        "regex": "\\bexperiências?\\b",
+        "substituto": "descreva o que a pessoa vive"
+      },
+      {
+        "id": "v3_de_fato",
+        "termo": "de fato",
+        "regex": "\\bde\\s+fato\\b",
+        "substituto": "corte"
+      }
+    ]
+  },
+  "padroes": [
+    {
+      "id": "tr_alem_disso",
+      "categoria": "linguagem",
+      "subtipo": "transicao",
+      "gravidade": "media",
+      "regex": "\\balém\\s+disso\\b",
+      "explicacao": "Transição automática de IA; a ligação deveria estar na frase.",
+      "substituto": "'e', 'também', ou emende a frase"
+    },
+    {
+      "id": "tr_ademais",
+      "categoria": "linguagem",
+      "subtipo": "transicao",
+      "gravidade": "alta",
+      "regex": "\\b(?:ademais|outrossim|destarte)\\b",
+      "explicacao": "Conector de redação de vestibular; ninguém fala assim.",
+      "substituto": "'e', 'também', 'assim'"
+    },
+    {
+      "id": "tr_todavia",
+      "categoria": "linguagem",
+      "subtipo": "transicao",
+      "gravidade": "media",
+      "regex": "\\b(?:todavia|não\\s+obstante|conquanto)\\b",
+      "explicacao": "Adversativa formal; registro que a IA escolhe por padrão.",
+      "substituto": "'mas', 'só que'"
+    },
+    {
+      "id": "tr_contudo",
+      "categoria": "linguagem",
+      "subtipo": "transicao",
+      "gravidade": "baixa",
+      "regex": "\\b(?:contudo|entretanto)\\b",
+      "explicacao": "Adversativa de texto formal; em excesso vira sotaque.",
+      "substituto": "'mas', 'só que'"
+    },
+    {
+      "id": "tr_nesse_sentido",
+      "categoria": "linguagem",
+      "subtipo": "transicao",
+      "gravidade": "alta",
+      "regex": "\\bnes[st]e\\s+sentido\\b",
+      "explicacao": "Preenchedor de transição sem conteúdo.",
+      "substituto": "corte; comece pela ideia"
+    },
+    {
+      "id": "tr_dessa_forma",
+      "categoria": "linguagem",
+      "subtipo": "transicao",
+      "gravidade": "media",
+      "regex": "(?:^|[.!?:]\\s+)des[st]a\\s+(?:forma|maneira)\\s*,|\\b(?:sendo\\s+assim|assim\\s+sendo)\\b",
+      "explicacao": "Conector de conclusão automática.",
+      "substituto": "'então', 'aí', ou corte",
+      "flags": "m"
+    },
+    {
+      "id": "tr_em_suma",
+      "categoria": "linguagem",
+      "subtipo": "transicao",
+      "gravidade": "alta",
+      "regex": "\\bem\\s+(?:suma|síntese|resumo|conclusão)\\b|\\bpara\\s+(?:concluir|finalizar|resumir)\\b|\\bconcluindo\\b|\\bresumindo\\b",
+      "explicacao": "Anúncio de conclusão; a conclusão deveria ser evidente.",
+      "substituto": "corte e diga a conclusão"
+    },
+    {
+      "id": "tr_por_fim",
+      "categoria": "linguagem",
+      "subtipo": "transicao",
+      "gravidade": "media",
+      "regex": "\\bpor\\s+fim\\b|\\bpor\\s+último,?\\s+mas\\s+não\\s+menos\\s+importante\\b",
+      "explicacao": "Ordenador de lista disfarçado de prosa.",
+      "substituto": "corte"
+    },
+    {
+      "id": "tr_dito_isso",
+      "categoria": "linguagem",
+      "subtipo": "transicao",
+      "gravidade": "alta",
+      "regex": "\\bdito\\s+(?:isso|isto)\\b|\\bposto\\s+(?:isso|isto)\\b|\\bisso\\s+posto\\b",
+      "explicacao": "Calque de 'that said'.",
+      "substituto": "'mas', ou corte"
+    },
+    {
+      "id": "tr_com_isso_em_mente",
+      "categoria": "calques",
+      "subtipo": "calque",
+      "gravidade": "alta",
+      "regex": "\\bcom\\s+(?:isso|isto)\\s+em\\s+mente\\b|\\btendo\\s+isso\\s+em\\s+mente\\b",
+      "explicacao": "Calque de 'with that in mind'.",
+      "substituto": "corte"
+    },
+    {
+      "id": "tr_vale_ressaltar",
+      "categoria": "linguagem",
+      "subtipo": "transicao",
+      "gravidade": "alta",
+      "regex": "\\bvale\\s+(?:a\\s+pena\\s+)?(?:ressaltar|destacar|lembrar|frisar|salientar|mencionar|notar|observar|pontuar)\\b",
+      "explicacao": "Pede licença pra dizer; é só dizer.",
+      "substituto": "corte a moldura"
+    },
+    {
+      "id": "tr_importante_notar",
+      "categoria": "linguagem",
+      "subtipo": "transicao",
+      "gravidade": "alta",
+      "regex": "\\b(?:é|será)\\s+importante\\s+(?:notar|destacar|ressaltar|lembrar|frisar|mencionar|salientar|observar|entender|compreender|pontuar)\\b",
+      "explicacao": "'It is important to note' traduzido.",
+      "substituto": "corte a moldura"
+    },
+    {
+      "id": "tr_cabe_ressaltar",
+      "categoria": "linguagem",
+      "subtipo": "transicao",
+      "gravidade": "alta",
+      "regex": "\\b(?:cabe|convém|é\\s+válido|é\\s+necessário|é\\s+preciso)\\s+(?:ressaltar|destacar|mencionar|lembrar|frisar|salientar|observar|pontuar)\\b",
+      "explicacao": "Moldura burocrática antes da frase.",
+      "substituto": "corte a moldura"
+    },
+    {
+      "id": "tr_e_fundamental_que",
+      "categoria": "linguagem",
+      "subtipo": "transicao",
+      "gravidade": "media",
+      "regex": "\\bé\\s+(?:fundamental|essencial|crucial|imprescindível|vital)\\s+(?:que|entender|compreender|lembrar|ter|saber)\\b",
+      "explicacao": "Importância afirmada em vez de mostrada.",
+      "substituto": "diga o que fazer, direto"
+    },
+    {
+      "id": "tr_em_outras_palavras",
+      "categoria": "linguagem",
+      "subtipo": "transicao",
+      "gravidade": "baixa",
+      "regex": "\\bem\\s+outras\\s+palavras\\b",
+      "explicacao": "Reexplicação; escolha uma versão.",
+      "substituto": "fique com a versão melhor"
+    },
+    {
+      "id": "tr_nesse_contexto",
+      "categoria": "linguagem",
+      "subtipo": "transicao",
+      "gravidade": "media",
+      "regex": "\\bnes[st]e\\s+(?:contexto|cenário|panorama)\\b|\\bdiante\\s+(?:disso|desse\\s+cenário|deste\\s+cenário)\\b",
+      "explicacao": "Transição vazia.",
+      "substituto": "corte"
+    },
+    {
+      "id": "tr_primeiramente",
+      "categoria": "linguagem",
+      "subtipo": "transicao",
+      "gravidade": "media",
+      "regex": "\\bprimeiramente\\b|\\bem\\s+(?:primeiro|segundo|terceiro)\\s+lugar\\b",
+      "explicacao": "Ordenador de redação escolar.",
+      "substituto": "'primeiro', ou corte"
+    },
+    {
+      "id": "tr_nos_dias_de_hoje",
+      "categoria": "linguagem",
+      "subtipo": "transicao",
+      "gravidade": "media",
+      "regex": "\\bnos\\s+dias\\s+de\\s+hoje\\b|\\bno\\s+mundo\\s+(?:atual|de\\s+hoje|moderno)\\b|\\bna\\s+era\\s+(?:digital|da\\s+informação|atual|das\\s+redes)\\b|\\bem\\s+tempos\\s+de\\b|\\bno\\s+cenário\\s+atual\\b",
+      "explicacao": "Abertura de contexto genérico.",
+      "substituto": "corte; comece pelo fato"
+    },
+    {
+      "id": "tr_em_um_mundo_onde",
+      "categoria": "calques",
+      "subtipo": "calque",
+      "gravidade": "alta",
+      "regex": "\\bem\\s+um\\s+mundo\\s+(?:onde|em\\s+que|cada\\s+vez\\s+mais)\\b|\\bnum\\s+mundo\\s+(?:onde|em\\s+que|cada\\s+vez\\s+mais)\\b",
+      "explicacao": "Calque de 'in a world where'.",
+      "substituto": "corte; diga o fato específico"
+    },
+    {
+      "id": "tr_quando_se_trata",
+      "categoria": "calques",
+      "subtipo": "calque",
+      "gravidade": "media",
+      "regex": "\\bquando\\s+(?:se\\s+trata|o\\s+assunto\\s+é|falamos)\\s+(?:de|em)?\\b",
+      "explicacao": "Calque de 'when it comes to'.",
+      "substituto": "fale do assunto direto"
+    },
+    {
+      "id": "tr_no_que_diz_respeito",
+      "categoria": "calques",
+      "subtipo": "burocrates",
+      "gravidade": "media",
+      "regex": "\\bno\\s+que\\s+(?:diz\\s+respeito|se\\s+refere|concerne)\\s+a\\b",
+      "explicacao": "Burocratês.",
+      "substituto": "'sobre', 'em'"
+    },
+    {
+      "id": "tr_no_que_tange",
+      "categoria": "calques",
+      "subtipo": "burocrates",
+      "gravidade": "alta",
+      "regex": "\\bno\\s+que\\s+tange\\b|\\bno\\s+tocante\\s+a\\b",
+      "explicacao": "Burocratês de ofício.",
+      "substituto": "'sobre', 'em'"
+    },
+    {
+      "id": "tr_a_nivel_de",
+      "categoria": "calques",
+      "subtipo": "burocrates",
+      "gravidade": "alta",
+      "regex": "\\b(?:a|em)\\s+n[íi]vel\\s+de\\b",
+      "explicacao": "Vício de escritório.",
+      "substituto": "'em', 'no', 'quanto a'"
+    },
+    {
+      "id": "tr_com_efeito",
+      "categoria": "linguagem",
+      "subtipo": "transicao",
+      "gravidade": "media",
+      "regex": "\\bcom\\s+efeito\\b",
+      "explicacao": "Registro acadêmico.",
+      "substituto": "corte"
+    },
+    {
+      "id": "tr_a_partir_disso",
+      "categoria": "linguagem",
+      "subtipo": "transicao",
+      "gravidade": "baixa",
+      "regex": "\\ba\\s+partir\\s+(?:disso|daí|desse\\s+ponto)\\b",
+      "explicacao": "Conector de sequência automática.",
+      "substituto": "'aí', 'depois'"
+    },
+    {
+      "id": "cq_no_final_do_dia",
+      "categoria": "calques",
+      "subtipo": "calque",
+      "gravidade": "alta",
+      "regex": "\\bno\\s+(?:fim|final)\\s+do\\s+dia\\b",
+      "explicacao": "Calque de 'at the end of the day'.",
+      "substituto": "'no fim das contas' ou corte"
+    },
+    {
+      "id": "cq_vamos_explorar",
+      "categoria": "comunicacao",
+      "subtipo": "chatbot",
+      "gravidade": "alta",
+      "regex": "\\bvamos\\s+(?:explorar|mergulhar|desvendar|analisar|aprofundar|detalhar|descobrir|conferir|entender\\s+melhor|dar\\s+uma\\s+olhada)\\b",
+      "explicacao": "Abertura de assistente.",
+      "substituto": "corte; comece pelo conteúdo"
+    },
+    {
+      "id": "cq_nao_apenas_mas_tambem",
+      "categoria": "calques",
+      "subtipo": "calque",
+      "gravidade": "media",
+      "regex": "\\bnão\\s+(?:apenas|só|somente)\\s+[^.,;\\n]{2,60},?\\s+(?:mas|como)\\s+também\\b",
+      "explicacao": "Calque de 'not only X but also Y'; falsa amplitude.",
+      "substituto": "afirme as duas coisas em frases suas"
+    },
+    {
+      "id": "cq_de_forma_eficaz",
+      "categoria": "calques",
+      "subtipo": "calque",
+      "gravidade": "media",
+      "regex": "\\bde\\s+(?:forma|maneira)\\s+(?:eficaz|eficiente|significativa|estratégica|consistente|assertiva|efetiva|objetiva|sustentável|genuína|autêntica|leve|natural|humana|humanizada|clara|adequada|apropriada|positiva|proativa|inteligente|orgânica|intencional)\\b",
+      "explicacao": "Advérbio composto vazio.",
+      "substituto": "diga como, com verbo concreto"
+    },
+    {
+      "id": "cq_garantir_que",
+      "categoria": "calques",
+      "subtipo": "calque",
+      "gravidade": "baixa",
+      "regex": "\\bgarant(?:ir|a|e|indo)\\s+que\\b",
+      "explicacao": "'Ensure that' traduzido; muitas vezes só afirmar basta.",
+      "substituto": "'fazer com que', ou afirme direto"
+    },
+    {
+      "id": "cq_certifique_se",
+      "categoria": "comunicacao",
+      "subtipo": "chatbot",
+      "gravidade": "alta",
+      "regex": "\\bcertifique-se\\s+de\\b|\\bcertifiquem-se\\b|\\bassegure-se\\s+de\\b",
+      "explicacao": "'Make sure to' de manual traduzido.",
+      "substituto": "'veja se', 'confira', ou o imperativo direto"
+    },
+    {
+      "id": "cq_e_essencial",
+      "categoria": "calques",
+      "subtipo": "calque",
+      "gravidade": "media",
+      "regex": "\\bé\\s+(?:essencial|fundamental|crucial|vital|imprescindível)\\s+(?:que\\s+)?(?:você|a\\s+gente|ter|manter|criar|estabelecer|entender|garantir|construir)\\b",
+      "explicacao": "Importância decretada.",
+      "substituto": "diga o que fazer"
+    },
+    {
+      "id": "cq_ao_longo_deste",
+      "categoria": "comunicacao",
+      "subtipo": "meta_texto",
+      "gravidade": "alta",
+      "regex": "\\bao\\s+longo\\s+(?:deste|desse|do|deste\\s+nosso)\\s+(?:capítulo|livro|ebook|e-book|material|guia|texto|conteúdo|artigo)\\b",
+      "explicacao": "O texto falando do próprio texto.",
+      "substituto": "corte"
+    },
+    {
+      "id": "cq_neste_capitulo",
+      "categoria": "comunicacao",
+      "subtipo": "meta_texto",
+      "gravidade": "alta",
+      "regex": "\\bnes[st]e\\s+(?:capítulo|artigo|texto|guia|ebook|e-book|material|livro|conteúdo)\\b|\\bao\\s+final\\s+(?:deste|desse|do)\\s+(?:capítulo|livro|ebook|e-book|material)\\b|\\bnas\\s+próximas\\s+(?:páginas|seções|linhas)\\b",
+      "explicacao": "Anúncio do que vai fazer; faça.",
+      "substituto": "corte"
+    },
+    {
+      "id": "cq_como_vimos",
+      "categoria": "comunicacao",
+      "subtipo": "meta_texto",
+      "gravidade": "media",
+      "regex": "\\b(?:como|conforme)\\s+(?:vimos|mencionado|dito|citado|falamos|comentado|abordado)\\s+(?:anteriormente|acima|antes|no\\s+capítulo)\\b",
+      "explicacao": "Referência interna de apostila.",
+      "substituto": "corte ou retome o fato direto"
+    },
+    {
+      "id": "cq_sem_duvida",
+      "categoria": "conteudo",
+      "subtipo": "confianca_vazia",
+      "gravidade": "baixa",
+      "regex": "\\bsem\\s+(?:sombra\\s+de\\s+)?dúvidas?\\b|\\bé\\s+inegável\\b|\\binegavelmente\\b|\\bindiscutivelmente\\b|\\bé\\s+indiscutível\\b|\\bevidentemente\\b|\\binquestionavelmente\\b",
+      "explicacao": "Certeza afirmada em vez de demonstrada.",
+      "substituto": "corte; traga o dado"
+    },
+    {
+      "id": "cq_gerundismo",
+      "categoria": "calques",
+      "subtipo": "gerundismo",
+      "gravidade": "alta",
+      "regex": "\\b(?:estar(?:ei|emos|á|ão|ia|íamos)|vou\\s+estar|vai\\s+estar|vamos\\s+estar|irei\\s+estar|iremos\\s+estar|irá\\s+estar)\\s+\\w+ndo\\b",
+      "explicacao": "Gerundismo de call center ('estaremos enviando').",
+      "substituto": "'vamos enviar', 'enviamos'"
+    },
+    {
+      "id": "cq_visando",
+      "categoria": "calques",
+      "subtipo": "gerundismo",
+      "gravidade": "media",
+      "regex": "\\bvisando\\b",
+      "explicacao": "Gerúndio de ofício.",
+      "substituto": "'pra', 'com o objetivo de' (ou corte)"
+    },
+    {
+      "id": "cq_objetivando",
+      "categoria": "calques",
+      "subtipo": "gerundismo",
+      "gravidade": "alta",
+      "regex": "\\bobjetivando\\b|\\bbuscando\\s+sempre\\b|\\balmejando\\b",
+      "explicacao": "Gerúndio de ofício.",
+      "substituto": "'pra'"
+    },
+    {
+      "id": "cq_o_mesmo_pronome",
+      "categoria": "calques",
+      "subtipo": "burocrates",
+      "gravidade": "media",
+      "regex": "(?<!\\bé )(?<!\\bsão )(?<!\\bfoi )(?<!\\bera )(?<!\\bfica )(?<!\\bser )(?<!\\bestá )(?<!continua )(?<!permanece )(?<!\\bsendo )\\b[oa]s?\\s+mesm[oa]s?\\b(?=\\s*(?:[.;:)]|\\s+(?:é|são|foi|foram|deve|devem|pode|podem|tem|têm|está|estão|será|serão|possui|possuem|apresenta|apresentam|não|precisa|precisam|fica|ficam|vai|vão|já|também|ainda)\\b))",
+      "explicacao": "'O mesmo' como pronome (ele/ela).",
+      "substituto": "'ele', 'ela', ou repita o substantivo"
+    },
+    {
+      "id": "cq_atraves_de",
+      "categoria": "calques",
+      "subtipo": "burocrates",
+      "gravidade": "baixa",
+      "regex": "\\batravés\\s+d[oae]s?\\b",
+      "explicacao": "'Através de' como 'por meio de' em excesso.",
+      "substituto": "'com', 'por', 'pelo'"
+    },
+    {
+      "id": "cq_por_meio_de",
+      "categoria": "calques",
+      "subtipo": "burocrates",
+      "gravidade": "baixa",
+      "regex": "\\bpor\\s+meio\\s+d[oae]s?\\b|\\bpor\\s+intermédio\\s+d[oae]s?\\b|\\bmediante\\b",
+      "explicacao": "Preposição de ofício.",
+      "substituto": "'com', 'por', 'pelo'"
+    },
+    {
+      "id": "cq_realizar_generico",
+      "categoria": "calques",
+      "subtipo": "burocrates",
+      "gravidade": "baixa",
+      "regex": "\\brealiz(?:ar|a|am|ou|ando|ado|ada|ados|adas|amos)\\s+(?:um|uma|o|a|os|as|esse|essa|este|esta)?\\s*(?:procedimento|consulta|atendimento|avaliação|análise|acompanhamento|abordagem|contato|reunião|venda|fechamento|pagamento|compra|tarefa|trabalho|ação|ações|atividade|atividades|tratamento|agendamento|cadastro|envio)",
+      "explicacao": "'Realizar' como verbo genérico.",
+      "substituto": "'fazer', ou o verbo específico (atender, ligar, cobrar)"
+    },
+    {
+      "id": "cq_possuir",
+      "categoria": "calques",
+      "subtipo": "burocrates",
+      "gravidade": "media",
+      "regex": "\\bpossu(?:i|em|ir|ía|íam|indo|ímos|a|am)\\b",
+      "explicacao": "'Possuir' no lugar de 'ter'.",
+      "substituto": "'ter'"
+    },
+    {
+      "id": "cq_utilizar",
+      "categoria": "calques",
+      "subtipo": "burocrates",
+      "gravidade": "media",
+      "regex": "\\butiliz(?:ar|a|am|ou|ando|ado|ada|ados|adas|amos|e|em|ação)\\b",
+      "explicacao": "'Utilizar' no lugar de 'usar'.",
+      "substituto": "'usar'"
+    },
+    {
+      "id": "cq_efetuar",
+      "categoria": "calques",
+      "subtipo": "burocrates",
+      "gravidade": "media",
+      "regex": "\\befetu(?:ar|a|am|ou|ando|ado|ada|ados|adas|amos|e)\\b",
+      "explicacao": "'Efetuar' no lugar de 'fazer'.",
+      "substituto": "'fazer', 'pagar', 'enviar'"
+    },
+    {
+      "id": "cq_diversos",
+      "categoria": "calques",
+      "subtipo": "burocrates",
+      "gravidade": "baixa",
+      "regex": "\\bdivers[oa]s\\b",
+      "explicacao": "'Diversos' no lugar de 'vários'.",
+      "substituto": "'vários', 'alguns', ou o número"
+    },
+    {
+      "id": "cq_inumeros",
+      "categoria": "calques",
+      "subtipo": "burocrates",
+      "gravidade": "media",
+      "regex": "\\binúmer[oa]s\\b|\\buma\\s+infinidade\\s+de\\b|\\buma\\s+gama\\s+de\\b|\\buma\\s+série\\s+de\\b",
+      "explicacao": "Quantidade vaga inflada.",
+      "substituto": "'muitos', ou o número"
+    },
+    {
+      "id": "cq_bem_como",
+      "categoria": "calques",
+      "subtipo": "burocrates",
+      "gravidade": "media",
+      "regex": "\\bbem\\s+como\\b",
+      "explicacao": "Conector de ofício.",
+      "substituto": "'e', 'e também'"
+    },
+    {
+      "id": "cq_uma_vez_que",
+      "categoria": "calques",
+      "subtipo": "burocrates",
+      "gravidade": "media",
+      "regex": "\\buma\\s+vez\\s+que\\b|\\bvisto\\s+que\\b|\\bhaja\\s+vista\\b|\\bem\\s+virtude\\s+de\\b",
+      "explicacao": "Causal formal.",
+      "substituto": "'porque', 'já que'"
+    },
+    {
+      "id": "cq_tendo_em_vista",
+      "categoria": "calques",
+      "subtipo": "burocrates",
+      "gravidade": "media",
+      "regex": "\\btendo\\s+em\\s+vista\\b|\\blevando\\s+em\\s+(?:conta|consideração)\\b|\\bconsiderando\\s+que\\b",
+      "explicacao": "Preâmbulo de ofício.",
+      "substituto": "'como', 'já que', ou corte"
+    },
+    {
+      "id": "cq_a_fim_de",
+      "categoria": "calques",
+      "subtipo": "burocrates",
+      "gravidade": "media",
+      "regex": "\\ba\\s+fim\\s+de\\b|\\bde\\s+modo\\s+a\\b|\\bcom\\s+o\\s+(?:objetivo|intuito|propósito|fim)\\s+de\\b|\\bno\\s+sentido\\s+de\\b",
+      "explicacao": "Finalidade em burocratês.",
+      "substituto": "'pra'"
+    },
+    {
+      "id": "cq_de_suma_importancia",
+      "categoria": "calques",
+      "subtipo": "burocrates",
+      "gravidade": "alta",
+      "regex": "\\bde\\s+(?:suma|extrema|grande|vital|fundamental)\\s+(?:importância|relevância|valia)\\b",
+      "explicacao": "Importância inflada em ofício.",
+      "substituto": "'importa porque...'"
+    },
+    {
+      "id": "cq_faz_se_necessario",
+      "categoria": "calques",
+      "subtipo": "burocrates",
+      "gravidade": "alta",
+      "regex": "\\bfaz-se\\s+(?:necessário|necessária|mister)\\b|\\btorna-se\\s+(?:necessário|essencial|fundamental|imprescindível|evidente|claro)\\b",
+      "explicacao": "Impessoal de ofício.",
+      "substituto": "'você precisa', 'a gente precisa'"
+    },
+    {
+      "id": "cq_acerca_de",
+      "categoria": "calques",
+      "subtipo": "burocrates",
+      "gravidade": "media",
+      "regex": "\\bacerca\\s+d[oae]s?\\b|\\bno\\s+âmbito\\s+d[oae]s?\\b|\\bem\\s+relação\\s+ao\\s+que\\b",
+      "explicacao": "Preposição de ofício.",
+      "substituto": "'sobre'"
+    },
+    {
+      "id": "cq_sobretudo",
+      "categoria": "calques",
+      "subtipo": "burocrates",
+      "gravidade": "baixa",
+      "regex": "\\bsobretudo\\b|\\bmormente\\b",
+      "explicacao": "Registro formal.",
+      "substituto": "'principalmente'"
+    },
+    {
+      "id": "cq_sendo_que",
+      "categoria": "calques",
+      "subtipo": "gerundismo",
+      "gravidade": "baixa",
+      "regex": "\\bsendo\\s+que\\b",
+      "explicacao": "Emenda de frase preguiçosa.",
+      "substituto": "ponto final e frase nova"
+    },
+    {
+      "id": "cq_de_alto_nivel",
+      "categoria": "calques",
+      "subtipo": "calque",
+      "gravidade": "media",
+      "regex": "\\bde\\s+alto\\s+(?:nível|impacto|valor|padrão|desempenho)\\b|\\bde\\s+alta\\s+(?:performance|qualidade|conversão)\\b",
+      "explicacao": "Adjetivo de vitrine sem conteúdo.",
+      "substituto": "diga o que é alto: número, comparação"
+    },
+    {
+      "id": "cq_resultados_expressivos",
+      "categoria": "conteudo",
+      "subtipo": "inflacao",
+      "gravidade": "media",
+      "regex": "\\bresultados?\\s+(?:expressivos?|surpreendentes?|extraordinários?|consistentes?|reais|concretos?|incríveis|significativos?|impressionantes?|sólidos?|tangíveis|duradouros?)\\b",
+      "explicacao": "Adjetivo no lugar do número.",
+      "substituto": "o número, o prazo, o caso"
+    },
+    {
+      "id": "cq_faz_sentido",
+      "categoria": "calques",
+      "subtipo": "calque",
+      "gravidade": "baixa",
+      "regex": "\\bfaz\\s+(?:todo\\s+)?(?:o\\s+)?sentido\\s+(?:que|quando|se|para|pra)\\b",
+      "explicacao": "'It makes sense' como cola.",
+      "substituto": "afirme direto"
+    },
+    {
+      "id": "cq_aproveitar_ao_maximo",
+      "categoria": "calques",
+      "subtipo": "calque",
+      "gravidade": "media",
+      "regex": "\\baproveit(?:ar|e|ando|a|am)\\s+ao\\s+máximo\\b|\\btirar\\s+o\\s+máximo\\s+(?:proveito|de)\\b",
+      "explicacao": "Calque de 'make the most of'.",
+      "substituto": "diga o que fazer com aquilo"
+    },
+    {
+      "id": "cq_proximo_nivel",
+      "categoria": "calques",
+      "subtipo": "calque",
+      "gravidade": "alta",
+      "regex": "\\b(?:para|pra|ao)\\s+o?\\s*próximo\\s+n[íi]vel\\b|\\boutro\\s+n[íi]vel\\b|\\bpatamar\\b",
+      "explicacao": "Calque de 'next level'.",
+      "substituto": "diga onde ela chega, com número"
+    },
+    {
+      "id": "cq_ao_inves_de_apenas",
+      "categoria": "calques",
+      "subtipo": "calque",
+      "gravidade": "baixa",
+      "regex": "\\b(?:ao\\s+invés|em\\s+vez)\\s+de\\s+(?:apenas|simplesmente|somente)\\b",
+      "explicacao": "Contraste automático de 'instead of just'.",
+      "substituto": "afirme o que fazer"
+    },
+    {
+      "id": "cq_fazer_acontecer",
+      "categoria": "calques",
+      "subtipo": "calque",
+      "gravidade": "media",
+      "regex": "\\bfaz(?:er|endo)\\s+acontecer\\b|\\bfaça\\s+acontecer\\b",
+      "explicacao": "Calque motivacional de 'make it happen'.",
+      "substituto": "diga o que fazer"
+    },
+    {
+      "id": "cq_dar_o_proximo_passo",
+      "categoria": "calques",
+      "subtipo": "calque",
+      "gravidade": "baixa",
+      "regex": "\\b(?:dar|dê|dando)\\s+o\\s+próximo\\s+passo\\b|\\bo\\s+próximo\\s+passo\\s+é\\b",
+      "explicacao": "Fecho de landing page.",
+      "substituto": "diga qual é o passo"
+    },
+    {
+      "id": "cq_estar_presente",
+      "categoria": "calques",
+      "subtipo": "calque",
+      "gravidade": "baixa",
+      "regex": "\\bestar\\s+(?:verdadeiramente\\s+|realmente\\s+)?presente\\b|\\bpresença\\s+(?:genuína|verdadeira|real)\\b",
+      "explicacao": "Calque de 'be present'.",
+      "substituto": "descreva o gesto"
+    },
+    {
+      "id": "cq_conectar_se",
+      "categoria": "calques",
+      "subtipo": "calque",
+      "gravidade": "media",
+      "regex": "\\bse\\s+conect(?:ar|a|am|ando|e|ou)\\s+(?:com|ao|à|a)\\b|\\bconect(?:ar|e|ando)-se\\s+(?:com|ao|à|a)\\b",
+      "explicacao": "Calque de 'connect with'.",
+      "substituto": "conversar, entender, criar confiança"
+    },
+    {
+      "id": "cq_construir_relacionamento",
+      "categoria": "calques",
+      "subtipo": "calque",
+      "gravidade": "media",
+      "regex": "\\bconstru(?:ir|a|indo|ímos|iu)\\s+(?:um\\s+|uma\\s+)?(?:relacionamento|relação|conexão|confiança|autoridade|vínculo)s?\\b",
+      "explicacao": "Calque de 'build a relationship'.",
+      "substituto": "diga o que a pessoa faz na prática"
+    },
+    {
+      "id": "cq_experiencia_do_cliente",
+      "categoria": "calques",
+      "subtipo": "calque",
+      "gravidade": "baixa",
+      "regex": "\\bexperiência\\s+(?:do|da)\\s+(?:cliente|usuário|consumidor)\\b",
+      "explicacao": "Jargão de CX.",
+      "substituto": "como a paciente é tratada"
+    },
+    {
+      "id": "cq_solucoes",
+      "categoria": "calques",
+      "subtipo": "calque",
+      "gravidade": "baixa",
+      "regex": "\\bsoluç(?:ão|ões)\\s+(?:personalizada|personalizadas|completa|completas|inovadora|inovadoras|integrada|integradas|eficaz|eficazes|sob\\s+medida)\\b",
+      "explicacao": "Vitrine corporativa.",
+      "substituto": "diga o que é"
+    },
+    {
+      "id": "cq_processo_de",
+      "categoria": "calques",
+      "subtipo": "calque",
+      "gravidade": "baixa",
+      "regex": "\\bprocesso\\s+de\\s+(?:transformação|evolução|crescimento|amadurecimento|aprendizado|mudança|autoconhecimento)\\b",
+      "explicacao": "Abstração empilhada.",
+      "substituto": "diga o que mudou"
+    },
+    {
+      "id": "cq_lidar_com_desafios",
+      "categoria": "calques",
+      "subtipo": "calque",
+      "gravidade": "baixa",
+      "regex": "\\b(?:enfrentar|lidar\\s+com|superar|vencer)\\s+(?:os\\s+|as\\s+|esses\\s+|essas\\s+)?(?:desafios|obstáculos|adversidades|dificuldades)\\b",
+      "explicacao": "Desafio genérico sem nome.",
+      "substituto": "nomeie o problema"
+    },
+    {
+      "id": "cq_habilidades",
+      "categoria": "calques",
+      "subtipo": "calque",
+      "gravidade": "baixa",
+      "regex": "\\b(?:habilidades|competências|soft\\s+skills)\\s+(?:essenciais|fundamentais|necessárias|importantes|de\\s+comunicação)\\b",
+      "explicacao": "Jargão de RH.",
+      "substituto": "diga qual habilidade"
+    },
+    {
+      "id": "cq_ferramenta_poderosa",
+      "categoria": "calques",
+      "subtipo": "calque",
+      "gravidade": "media",
+      "regex": "\\b(?:uma\\s+)?ferramenta\\s+(?:poderosa|valiosa|essencial|fundamental|indispensável|importante)\\b|\\baliad[oa]\\s+(?:poderos[oa]|valios[oa]|fundamental|importante)\\b",
+      "explicacao": "Elogio genérico a um método.",
+      "substituto": "diga o que a ferramenta faz"
+    },
+    {
+      "id": "cq_cada_vez_mais_imp",
+      "categoria": "conteudo",
+      "subtipo": "inflacao",
+      "gravidade": "media",
+      "regex": "\\bcada\\s+vez\\s+mais\\s+(?:importante|necessário|necessária|relevante|essencial|comum|presente|difícil|competitivo|competitiva)\\b|\\bmais\\s+do\\s+que\\s+nunca\\b|\\bnunca\\s+foi\\s+tão\\s+(?:importante|necessário|fácil|urgente|difícil)\\b",
+      "explicacao": "Urgência inflada sem data.",
+      "substituto": "diga desde quando e quanto"
+    },
+    {
+      "id": "cb_espero_que_ajude",
+      "categoria": "comunicacao",
+      "subtipo": "chatbot",
+      "gravidade": "critica",
+      "regex": "\\bespero\\s+(?:que\\s+)?(?:isso\\s+|isto\\s+|este\\s+|esse\\s+)?(?:ajude|tenha\\s+ajudado|seja\\s+útil|ter\\s+ajudado)\\b",
+      "explicacao": "Despedida de assistente.",
+      "substituto": "corte"
+    },
+    {
+      "id": "cb_fique_a_vontade",
+      "categoria": "comunicacao",
+      "subtipo": "chatbot",
+      "gravidade": "critica",
+      "regex": "\\b(?:fique|sinta-se|fiquem|sintam-se)\\s+à\\s+vontade\\s+para\\b|\\bnão\\s+hesite\\s+em\\b|\\bse\\s+tiver\\s+(?:alguma\\s+|mais\\s+|qualquer\\s+)?(?:dúvida|pergunta)s?\\b",
+      "explicacao": "Fecho de atendimento.",
+      "substituto": "corte"
+    },
+    {
+      "id": "cb_otima_pergunta",
+      "categoria": "comunicacao",
+      "subtipo": "chatbot",
+      "gravidade": "critica",
+      "regex": "\\b(?:ótima|excelente|boa)\\s+pergunta\\b|\\b(?:ótimo|excelente)\\s+ponto\\b|\\bvocê\\s+está\\s+(?:absolutamente\\s+|totalmente\\s+)?(?:certo|certa|correto|correta)\\b",
+      "explicacao": "Bajulação de chatbot.",
+      "substituto": "corte"
+    },
+    {
+      "id": "cb_exclamacao_afirmativa",
+      "categoria": "comunicacao",
+      "subtipo": "chatbot",
+      "gravidade": "alta",
+      "regex": "(?:^|[.!?]\\s+)(?:Claro|Certamente|Com\\s+certeza|Absolutamente|Perfeito|Excelente|Ótimo)!",
+      "explicacao": "Confirmação de assistente.",
+      "substituto": "corte",
+      "flags": "m"
+    },
+    {
+      "id": "cb_vamos_la",
+      "categoria": "comunicacao",
+      "subtipo": "chatbot",
+      "gravidade": "media",
+      "regex": "\\bvamos\\s+lá[!.:]|\\bvamos\\s+(?:nessa|juntos)[!.:]|\\bbora\\s+lá[!.:]",
+      "explicacao": "Animação de apresentador.",
+      "substituto": "corte"
+    },
+    {
+      "id": "cb_lembre_se",
+      "categoria": "comunicacao",
+      "subtipo": "chatbot",
+      "gravidade": "media",
+      "regex": "\\blembre-se\\s*(?:de\\s+que|que|:)|\\bnão\\s+se\\s+esqueça\\s+de\\b|\\btenha\\s+em\\s+mente\\b",
+      "explicacao": "Instrutor de apostila.",
+      "substituto": "afirme direto"
+    },
+    {
+      "id": "cb_reflita",
+      "categoria": "comunicacao",
+      "subtipo": "chatbot",
+      "gravidade": "media",
+      "regex": "\\bpense\\s+(?:nisso|sobre\\s+isso|comigo)\\b|\\breflita\\s+(?:sobre|um\\s+pouco|a\\s+respeito)\\b|\\bvamos\\s+pensar\\s+juntos\\b|\\bpare\\s+(?:e|para)\\s+pens(?:e|ar)\\b",
+      "explicacao": "Convite à reflexão pré-fabricado.",
+      "substituto": "corte; faça a pergunta concreta ou afirme"
+    },
+    {
+      "id": "cb_ia_disclaimer",
+      "categoria": "comunicacao",
+      "subtipo": "disclaimer",
+      "gravidade": "critica",
+      "regex": "\\bcomo\\s+(?:uma\\s+)?(?:IA|inteligência\\s+artificial|modelo\\s+de\\s+linguagem|assistente\\s+virtual)\\b|\\bnão\\s+tenho\\s+acesso\\s+a\\s+(?:dados|informações)\\s+em\\s+tempo\\s+real\\b|\\b(?:minha|meu)\\s+(?:última\\s+atualização|corte\\s+de\\s+conhecimento|treinamento)\\b|\\bnão\\s+posso\\s+(?:fornecer|dar|oferecer)\\s+(?:aconselhamento|orientação|conselho)\\s+(?:médic|jurídic|financeir|profission)",
+      "explicacao": "O modelo se identificou.",
+      "substituto": "corte tudo"
+    },
+    {
+      "id": "cb_placeholder",
+      "categoria": "comunicacao",
+      "subtipo": "placeholder",
+      "gravidade": "critica",
+      "regex": "\\[(?:seu|sua|insira|inserir|nome|adicione|adicionar|descreva|especifique|coloque|cidade|clínica|data|valor|número|link|exemplo|X|Y|N)\\b[^\\]\\n]{0,80}\\]|\\[(?:INSERIR|TODO|TBD|XXX|PLACEHOLDER|A\\s+DEFINIR|PREENCHER)[^\\]\\n]{0,80}\\]|\\{\\{[^}\\n]{1,60}\\}\\}",
+      "explicacao": "Lacuna de template não preenchida.",
+      "substituto": "preencha ou corte"
+    },
+    {
+      "id": "cb_citation_leak",
+      "categoria": "comunicacao",
+      "subtipo": "placeholder",
+      "gravidade": "critica",
+      "regex": "\\bcite(?:turn|news|search)\\d+|\\boai_citation\\b|contentReference\\[oaicite|utm_source=(?:chatgpt|openai|claude|perplexity|gemini|copilot)",
+      "explicacao": "Marcação interna de chatbot vazou.",
+      "substituto": "corte"
+    },
+    {
+      "id": "cb_raciocinio",
+      "categoria": "comunicacao",
+      "subtipo": "raciocinio",
+      "gravidade": "critica",
+      "regex": "\\bvamos\\s+pensar\\s+passo\\s+a\\s+passo\\b|\\banalisando\\s+(?:a\\s+situação|o\\s+cenário|isso)\\s+(?:de\\s+forma\\s+)?(?:sistemática|lógica|racionalmente|logicamente)\\b|\\bprimeiro,?\\s+vamos\\s+considerar\\b|\\bquebrando\\s+(?:isso|isto)\\s+em\\s+partes\\b|\\bpor\\s+partes[:,]",
+      "explicacao": "Artefato de cadeia de raciocínio.",
+      "substituto": "corte"
+    },
+    {
+      "id": "cb_segue_abaixo",
+      "categoria": "comunicacao",
+      "subtipo": "chatbot",
+      "gravidade": "alta",
+      "regex": "\\baqui\\s+(?:está|estão|vai|vão)\\s+(?:o|a|os|as|um|uma|alguns|algumas)\\s+(?:resumo|lista|visão\\s+geral|passo\\s+a\\s+passo|guia|dicas|passos|pontos|principais|exemplos?|modelo|sugestões)\\b|\\bsegue(?:m)?\\s+(?:abaixo\\s+)?(?:o|a|os|as|um|uma|alguns|algumas)\\b|\\ba\\s+seguir,?\\s+(?:apresento|listo|apresentamos|listamos|você\\s+(?:encontra|verá|vai\\s+ver))\\b|\\babaixo,?\\s+(?:você\\s+encontra|listamos|apresentamos|seguem|estão)\\b|\\bconfira\\s+(?:a\\s+seguir|abaixo)\\b",
+      "explicacao": "Entrega de assistente.",
+      "substituto": "corte; vá direto ao conteúdo"
+    },
+    {
+      "id": "cb_principais_aprendizados",
+      "categoria": "comunicacao",
+      "subtipo": "meta_texto",
+      "gravidade": "alta",
+      "regex": "\\b(?:principais|pontos?)\\s+(?:aprendizados|takeaways|lições|conclusões|pontos|destaques|insights)\\b|\\btakeaways?\\b|\\bpontos-chave\\b|\\bresumo\\s+do\\s+capítulo\\b|\\bem\\s+poucas\\s+palavras\\b|\\bem\\s+linhas\\s+gerais\\b|\\bde\\s+forma\\s+resumida\\b",
+      "explicacao": "Sumário de apostila.",
+      "substituto": "corte; a leitora lembra o que importou"
+    },
+    {
+      "id": "cb_espero_que_goste",
+      "categoria": "comunicacao",
+      "subtipo": "chatbot",
+      "gravidade": "alta",
+      "regex": "\\bespero\\s+que\\s+(?:você\\s+)?(?:goste|tenha\\s+gostado|aproveite|tenha\\s+aproveitado)\\b|\\bboa\\s+leitura[!.]|\\bvamos\\s+juntos\\s+nessa\\b",
+      "explicacao": "Despedida de apresentador.",
+      "substituto": "corte"
+    },
+    {
+      "id": "cb_como_voce_pode_ver",
+      "categoria": "comunicacao",
+      "subtipo": "meta_texto",
+      "gravidade": "media",
+      "regex": "\\bcomo\\s+(?:você\\s+)?(?:pode|podem|podemos)\\s+(?:ver|perceber|notar|observar)\\b|\\bcomo\\s+(?:se\\s+)?(?:pode|podemos)\\s+(?:ver|perceber|notar|observar)\\b|\\bperceba\\s+que\\b|\\bnote\\s+que\\b|\\bobserve\\s+que\\b",
+      "explicacao": "Aponta pro óbvio.",
+      "substituto": "corte"
+    },
+    {
+      "id": "cb_em_primeiro_lugar_e",
+      "categoria": "comunicacao",
+      "subtipo": "chatbot",
+      "gravidade": "baixa",
+      "regex": "\\bantes\\s+de\\s+(?:mais\\s+nada|tudo|começar)\\b|\\bpara\\s+começar\\b|\\bpara\\s+iniciar\\b",
+      "explicacao": "Aquecimento de apresentador.",
+      "substituto": "corte"
+    },
+    {
+      "id": "cb_espero_ter",
+      "categoria": "comunicacao",
+      "subtipo": "chatbot",
+      "gravidade": "alta",
+      "regex": "\\bcom\\s+(?:essas|estas)\\s+(?:dicas|estratégias|informações|orientações|ferramentas)\\b|\\bcom\\s+(?:essas|estas)\\s+\\w+\\s+em\\s+mãos\\b",
+      "explicacao": "Fecho de artigo de SEO.",
+      "substituto": "corte"
+    },
+    {
+      "id": "cb_titulo_generico",
+      "categoria": "comunicacao",
+      "subtipo": "meta_texto",
+      "gravidade": "media",
+      "regex": "^#{1,6}\\s*(?:\\d+[.)]?\\s*)?(?:Conclusão|Introdução|Resumo|Considerações\\s+finais|Próximos\\s+passos|Pontos-chave|Principais\\s+aprendizados|Reflexão\\s+final|Palavras\\s+finais|Encerramento|Visão\\s+geral|Objetivos?\\s+do\\s+capítulo)\\s*$",
+      "explicacao": "Título de apostila.",
+      "substituto": "título com conteúdo, ou nenhum",
+      "flags": "m",
+      "escopo": "titulos"
+    },
+    {
+      "id": "cb_titulo_emoji",
+      "categoria": "estrutura",
+      "subtipo": "formatacao",
+      "gravidade": "alta",
+      "regex": "^#{1,6}\\s*[^\\w\\s#*_`(\\[\"'«»]{1,4}\\s*\\w|^#{1,6}\\s+.*[\\U0001F300-\\U0001FAFF\\u2600-\\u27BF]",
+      "explicacao": "Emoji em título.",
+      "substituto": "tire o emoji",
+      "flags": "m",
+      "escopo": "titulos"
+    },
+    {
+      "id": "ct_estudos_mostram",
+      "categoria": "conteudo",
+      "subtipo": "atribuicao_vaga",
+      "gravidade": "alta",
+      "regex": "\\b(?:especialistas|estudos|pesquisas|estudos\\s+recentes|pesquisas\\s+recentes|a\\s+ciência|dados|os\\s+dados|levantamentos|evidências)\\s+(?:mostram|apontam|indicam|comprovam|revelam|sugerem|afirmam|concordam|dizem|demonstram|confirmam)\\b",
+      "explicacao": "Atribuição vaga: quem, quando, quanto?",
+      "substituto": "cite a fonte com número, ou assuma que é leitura sua"
+    },
+    {
+      "id": "ct_segundo_especialistas",
+      "categoria": "conteudo",
+      "subtipo": "atribuicao_vaga",
+      "gravidade": "alta",
+      "regex": "\\b(?:segundo|de\\s+acordo\\s+com|conforme)\\s+(?:especialistas|estudos|pesquisas|a\\s+ciência|dados|levantamentos|a\\s+literatura)\\b",
+      "explicacao": "Atribuição vaga.",
+      "substituto": "cite a fonte"
+    },
+    {
+      "id": "ct_comprovado",
+      "categoria": "conteudo",
+      "subtipo": "atribuicao_vaga",
+      "gravidade": "media",
+      "regex": "\\b(?:é\\s+comprovado|cientificamente\\s+comprovado|está\\s+comprovado|sabe-se\\s+que|é\\s+sabido\\s+que|é\\s+de\\s+conhecimento\\s+geral|todo\\s+mundo\\s+sabe\\s+que|não\\s+é\\s+segredo\\s+que|é\\s+consenso\\s+que)\\b",
+      "explicacao": "Prova afirmada sem fonte.",
+      "substituto": "cite ou assuma como opinião"
+    },
+    {
+      "id": "ct_muitos_profissionais",
+      "categoria": "conteudo",
+      "subtipo": "atribuicao_vaga",
+      "gravidade": "baixa",
+      "regex": "\\b(?:muitos|muitas|a\\s+maioria\\s+d[oa]s|grande\\s+parte\\s+d[oa]s)\\s+(?:profissionais|dentistas|médicos|clínicas|pessoas|empreendedores|especialistas)\\s+(?:acreditam|pensam|acham|dizem|relatam|ainda|não\\s+sabem|cometem)\\b",
+      "explicacao": "Multidão anônima como prova.",
+      "substituto": "diga quantas, de onde veio o número"
+    },
+    {
+      "id": "ct_ninguem_conta",
+      "categoria": "conteudo",
+      "subtipo": "novidade_inflada",
+      "gravidade": "media",
+      "regex": "\\bo\\s+que\\s+(?:ninguém|quase\\s+ninguém|poucos|pouca\\s+gente)\\s+(?:te\\s+)?(?:conta|fala|diz|ensina|explica|percebe|sabe|entende)\\b|\\bo\\s+segredo\\s+(?:que|dos|das|para|pra|por\\s+trás)\\b|\\ba\\s+verdade\\s+(?:que\\s+ninguém|inconveniente|nua\\s+e\\s+crua|é\\s+que)\\b|\\bque\\s+ninguém\\s+(?:está|tá)\\s+(?:falando|olhando|vendo|contando)\\b",
+      "explicacao": "Novidade inflada.",
+      "substituto": "diga a coisa sem o tambor"
+    },
+    {
+      "id": "ct_erro_que_ninguem",
+      "categoria": "conteudo",
+      "subtipo": "novidade_inflada",
+      "gravidade": "baixa",
+      "regex": "\\bo\\s+(?:erro|problema|detalhe)\\s+que\\s+(?:ninguém|quase\\s+ninguém|poucos|pouca\\s+gente|a\\s+maioria)\\b",
+      "explicacao": "Gancho de capa dentro do corpo do texto.",
+      "substituto": "nomeie o erro"
+    },
+    {
+      "id": "ct_futuro_pertence",
+      "categoria": "conteudo",
+      "subtipo": "conclusao_generica",
+      "gravidade": "alta",
+      "regex": "\\bo\\s+futuro\\s+(?:é|será|está|pertence|chegou|já\\s+começou)\\b|\\bsó\\s+o\\s+tempo\\s+dirá\\b|\\bo\\s+tempo\\s+dirá\\b|\\buma\\s+coisa\\s+é\\s+certa\\b|\\bo\\s+céu\\s+é\\s+o\\s+limite\\b|\\bo\\s+resto\\s+é\\s+(?:consequência|história|detalhe)\\b|\\be\\s+o\\s+resto\\s+vem\\b",
+      "explicacao": "Conclusão genérica sem afirmação testável.",
+      "substituto": "corte, ou diga algo específico"
+    },
+    {
+      "id": "ct_no_fim_das_contas",
+      "categoria": "conteudo",
+      "subtipo": "conclusao_generica",
+      "gravidade": "media",
+      "regex": "\\bno\\s+(?:fim|final)\\s+das\\s+contas\\b|\\bno\\s+(?:fim|final),\\s+(?:é|tudo|o\\s+que|a\\s+gente|você)\\b|\\bem\\s+última\\s+(?:análise|instância)\\b",
+      "explicacao": "Fecho que resume o que já foi dito.",
+      "substituto": "corte"
+    },
+    {
+      "id": "ct_questao_de",
+      "categoria": "conteudo",
+      "subtipo": "conclusao_generica",
+      "gravidade": "media",
+      "regex": "\\bé\\s+(?:só\\s+|tudo\\s+|apenas\\s+)?(?:uma\\s+)?questão\\s+de\\s+(?:tempo|escolha|prática|treino|consistência|disciplina|prioridade|mentalidade|hábito|decisão|foco|atitude|postura|perspectiva|confiança|coragem|clareza)\\b",
+      "explicacao": "Aforismo de fecho.",
+      "substituto": "diga o que fazer"
+    },
+    {
+      "id": "ct_e_sobre",
+      "categoria": "conteudo",
+      "subtipo": "conclusao_generica",
+      "gravidade": "media",
+      "regex": "(?:^|[.!?]\\s+)(?:É|Isso\\s+é|Tudo\\s+é|Sempre\\s+foi)\\s+sobre\\s+[^.!?\\n]{2,50}[.!]",
+      "explicacao": "'It's about X' como fecho.",
+      "substituto": "afirme o que importa sem a moldura",
+      "flags": "m"
+    },
+    {
+      "id": "ct_esta_em_suas_maos",
+      "categoria": "conteudo",
+      "subtipo": "conclusao_generica",
+      "gravidade": "alta",
+      "regex": "\\bestá\\s+(?:em\\s+suas|nas\\s+suas|em\\s+tuas|nas\\s+tuas|em\\s+sua|na\\s+sua)\\s+mãos?\\b|\\bdepende\\s+(?:só|apenas|somente)?\\s*de\\s+você\\b|\\ba\\s+(?:escolha|decisão)\\s+é\\s+(?:sua|tua)\\b|\\bo\\s+(?:próximo\\s+passo|resto)\\s+é\\s+(?:seu|com\\s+você)\\b",
+      "explicacao": "Fecho motivacional.",
+      "substituto": "diga o que fazer amanhã de manhã"
+    },
+    {
+      "id": "ct_comece_hoje",
+      "categoria": "conteudo",
+      "subtipo": "conclusao_generica",
+      "gravidade": "media",
+      "regex": "\\bcomece\\s+(?:hoje|agora|já|ainda\\s+hoje|pequeno)\\b|\\ba\\s+jornada\\s+(?:começa|continua|é\\s+longa)\\b|\\bque\\s+venham\\s+os\\s+próximos\\b|\\bo\\s+melhor\\s+(?:momento|dia|hora)\\s+(?:para|pra)\\s+começar\\s+é\\s+(?:hoje|agora)\\b",
+      "explicacao": "CTA de post motivacional.",
+      "substituto": "corte"
+    },
+    {
+      "id": "ct_simples_assim",
+      "categoria": "conteudo",
+      "subtipo": "fecho_grandioso",
+      "gravidade": "media",
+      "regex": "(?:^|[.!?]\\s+)(?:Simples\\s+assim|E\\s+é\\s+isso|Ponto\\s+final|Só\\s+isso|Nada\\s+mais|Ponto|É\\s+isso|Assim\\s+de\\s+simples)\\s*[.!]",
+      "explicacao": "Punchline de encerramento fabricada.",
+      "substituto": "corte; pare na frase anterior",
+      "flags": "m"
+    },
+    {
+      "id": "ct_nao_e_magica",
+      "categoria": "conteudo",
+      "subtipo": "fecho_grandioso",
+      "gravidade": "media",
+      "regex": "\\bnão\\s+é\\s+(?:mágica|sorte|milagre|truque|fórmula\\s+mágica|receita\\s+de\\s+bolo|sobre\\s+sorte)[,.]?\\s*(?:é|mas)\\b",
+      "explicacao": "Contraste de fecho automático.",
+      "substituto": "afirme o que é"
+    },
+    {
+      "id": "ct_pode_ser_que",
+      "categoria": "conteudo",
+      "subtipo": "hedge",
+      "gravidade": "baixa",
+      "regex": "\\bpode\\s+ser\\s+que\\b|\\bé\\s+possível\\s+que\\b|\\bhá\\s+quem\\s+diga\\b|\\balguns\\s+(?:podem|poderiam)\\s+(?:argumentar|dizer|pensar)\\b",
+      "explicacao": "Hedge: quem escreve não se comprometeu.",
+      "substituto": "tome posição, ou diga a ressalva com nome"
+    },
+    {
+      "id": "ct_em_geral",
+      "categoria": "conteudo",
+      "subtipo": "hedge",
+      "gravidade": "baixa",
+      "regex": "\\bem\\s+geral\\b|\\bde\\s+modo\\s+geral\\b|\\bna\\s+maioria\\s+dos\\s+casos\\b|\\bem\\s+muitos\\s+casos\\b|\\bem\\s+(?:certa|alguma)\\s+medida\\b|\\baté\\s+certo\\s+ponto\\b",
+      "explicacao": "Hedge de generalização.",
+      "substituto": "diga quando vale e quando não"
+    },
+    {
+      "id": "ct_de_certa_forma",
+      "categoria": "conteudo",
+      "subtipo": "hedge",
+      "gravidade": "baixa",
+      "regex": "\\bde\\s+(?:certa|alguma)\\s+(?:forma|maneira)\\b|\\bde\\s+certo\\s+modo\\b|\\bnão\\s+necessariamente\\b|\\bde\\s+alguma\\s+forma\\b",
+      "explicacao": "Hedge: amortece a frase.",
+      "substituto": "corte"
+    },
+    {
+      "id": "ct_cada_caso",
+      "categoria": "conteudo",
+      "subtipo": "hedge",
+      "gravidade": "media",
+      "regex": "\\bcada\\s+caso\\s+é\\s+um\\s+caso\\b|\\bdepende\\s+(?:do\\s+caso|de\\s+cada|muito|de\\s+vários\\s+fatores)\\b|\\bdesde\\s+que\\s+bem\\s+(?:aplicad|feit|executad|conduzid|utilizad|usad)\\w*|\\bnão\\s+existe\\s+(?:uma\\s+)?(?:fórmula|resposta|receita)\\s+(?:única|pronta|certa|mágica)\\b",
+      "explicacao": "Em cima do muro.",
+      "substituto": "diga o que você faria"
+    },
+    {
+      "id": "ct_talvez",
+      "categoria": "conteudo",
+      "subtipo": "hedge",
+      "gravidade": "baixa",
+      "regex": "\\btalvez\\b|\\bpossivelmente\\b|\\beventualmente\\b|\\bprovavelmente\\b",
+      "explicacao": "Hedge adverbial (um por texto passa; a densidade é o tell).",
+      "substituto": "afirme ou corte"
+    },
+    {
+      "id": "ct_hedge_empilhado",
+      "categoria": "conteudo",
+      "subtipo": "hedge",
+      "gravidade": "alta",
+      "regex": "\\b(?:pode|podem|poderia|poderiam|poderá|poderão)\\s+(?:\\w+\\s+)?(?:potencialmente|eventualmente|possivelmente|talvez)\\b|\\b(?:potencialmente|eventualmente|possivelmente)\\s+(?:pode|podem|poderia|poderiam)\\b",
+      "explicacao": "Hedge empilhado: modal + advérbio de dúvida.",
+      "substituto": "escolha um"
+    },
+    {
+      "id": "ct_tende_a",
+      "categoria": "conteudo",
+      "subtipo": "hedge",
+      "gravidade": "baixa",
+      "regex": "\\btend(?:e|em)\\s+a\\b|\\bpode\\s+(?:ajudar|contribuir|fazer\\s+sentido|ser\\s+(?:uma\\s+)?(?:boa|ótima)\\s+(?:ideia|opção|alternativa|saída))\\b|\\bvale\\s+considerar\\b|\\bé\\s+uma\\s+possibilidade\\b|\\buma\\s+alternativa\\s+(?:seria|pode\\s+ser)\\b",
+      "explicacao": "Sugestão amortecida.",
+      "substituto": "'faça X'"
+    },
+    {
+      "id": "ct_concessao_falsa",
+      "categoria": "conteudo",
+      "subtipo": "concessao_falsa",
+      "gravidade": "media",
+      "regex": "\\bembora\\s+\\w+\\s+(?:seja|sejam|tenha|tenham|possa|possam)\\b|\\bapesar\\s+d(?:os|as|e)\\s+(?:todos\\s+os\\s+|todas\\s+as\\s+)?(?:desafios|dificuldades|obstáculos|avanços|esforços)\\b|\\bainda\\s+que\\s+(?:existam|haja|hajam|seja)\\b|\\bmesmo\\s+com\\s+(?:todos\\s+os\\s+|todas\\s+as\\s+)?(?:desafios|obstáculos|dificuldades)\\b",
+      "explicacao": "Concessão sem conteúdo antes da tese.",
+      "substituto": "corte a concessão ou nomeie o problema"
+    },
+    {
+      "id": "ct_template_seja_voce",
+      "categoria": "conteudo",
+      "subtipo": "template",
+      "gravidade": "media",
+      "regex": "\\bseja\\s+você\\s+(?:um|uma)\\s+\\w+\\s+ou\\s+(?:um|uma)\\b|\\bindependente(?:mente)?\\s+(?:de|se)\\s+(?:você|ser|estar|ter|do\\s+tamanho|da\\s+sua)\\b|\\bnão\\s+importa\\s+(?:se\\s+você|o\\s+tamanho|quantos|quantas|há\\s+quanto\\s+tempo|onde)\\b|\\btanto\\s+para\\s+\\w+\\s+quanto\\s+para\\b|\\bde\\s+\\w+\\s+a\\s+\\w+,\\s+(?:todos|todas|qualquer)\\b",
+      "explicacao": "Falsa amplitude: 'pra todo mundo' é 'pra ninguém'.",
+      "substituto": "escolha a leitora e fale com ela"
+    },
+    {
+      "id": "ct_desde_ate",
+      "categoria": "conteudo",
+      "subtipo": "template",
+      "gravidade": "baixa",
+      "regex": "\\bdesde\\s+(?:o|a|os|as|um|uma)?\\s*\\w+\\s+até\\s+(?:o|a|os|as|um|uma)?\\s*\\w+\\b",
+      "explicacao": "Intervalo falso ('desde iniciantes até experientes').",
+      "substituto": "diga os dois pontos que importam ou corte"
+    },
+    {
+      "id": "ct_momento_decisivo",
+      "categoria": "conteudo",
+      "subtipo": "inflacao",
+      "gravidade": "media",
+      "regex": "\\bmomento\\s+(?:decisivo|crucial|histórico|único|de\\s+virada|chave)\\b|\\bmud(?:ou|a|ar)\\s+(?:o\\s+jogo|tudo|para\\s+sempre|completamente)\\b|\\bponto\\s+de\\s+virada\\b|(?<!de )(?<!do )(?<!pra )(?<!para )\\bantes\\s+e\\s+depois\\b(?!\\s+d[oa])",
+      "explicacao": "Significância inflada.",
+      "substituto": "diga o que aconteceu"
+    },
+    {
+      "id": "ct_verdadeira_transformacao",
+      "categoria": "conteudo",
+      "subtipo": "inflacao",
+      "gravidade": "media",
+      "regex": "\\b(?:verdadeir[oa]|real|genuín[oa])\\s+(?:transformação|mudança|conexão|autoridade|valor|resultado|cuidado|propósito|impacto|evolução|virada|liberdade)\\b",
+      "explicacao": "'Real/verdadeiro' como intensificador de abstrato.",
+      "substituto": "diga o que é diferente do falso"
+    },
+    {
+      "id": "ct_pergunta_gancho",
+      "categoria": "estrutura",
+      "subtipo": "pergunta_retorica",
+      "gravidade": "media",
+      "regex": "\\bvocê\\s+já\\s+(?:parou\\s+para\\s+pensar|se\\s+perguntou|reparou|percebeu|se\\s+pegou|sentiu\\s+que|notou)\\b|\\be\\s+se\\s+eu\\s+(?:te\\s+)?dissesse\\s+que\\b|\\bquer\\s+saber\\s+(?:o\\s+segredo|como|a\\s+verdade|qual)\\b|\\bsabe\\s+(?:o\\s+que|por\\s+quê|qual)\\s*\\?|\\bimagine\\s+(?:um\\s+mundo|uma\\s+clínica|a\\s+seguinte\\s+situação|o\\s+seguinte|só|que\\s+você)\\b",
+      "explicacao": "Pergunta retórica de abertura pré-fabricada.",
+      "substituto": "afirme; ou faça a pergunta com dado concreto"
+    },
+    {
+      "id": "ct_a_resposta_e_simples",
+      "categoria": "estrutura",
+      "subtipo": "pergunta_retorica",
+      "gravidade": "media",
+      "regex": "\\ba\\s+resposta\\s+é\\s+(?:simples|não|sim|clara|óbvia)\\b|\\ba\\s+boa\\s+notícia\\s+é\\s+que\\b|\\ba\\s+má\\s+notícia\\s+é\\s+que\\b|\\bspoiler:|\\b(?:o\\s+resultado|a\\s+razão|o\\s+motivo|a\\s+resposta|o\\s+segredo|o\\s+problema|a\\s+diferença)\\?\\s+(?:Simples|Nenhum|Nenhuma|Zero|Um|Uma|Só|Você)\\b",
+      "explicacao": "Pergunta-resposta ensaiada.",
+      "substituto": "afirme"
+    },
+    {
+      "id": "es_contraste_nao_e_x_e_y",
+      "categoria": "estrutura",
+      "subtipo": "contraste",
+      "gravidade": "media",
+      "regex": "\\bnão\\s+é\\s+(?:sobre\\s+|só\\s+|apenas\\s+|questão\\s+de\\s+)?[^.,;!?\\n]{2,45},\\s+(?:é|mas|e\\s+sim)\\s+(?:sobre\\s+|de\\s+)?",
+      "explicacao": "Contraste fácil 'não é X, é Y': virou tique.",
+      "substituto": "afirme a coisa que importa"
+    },
+    {
+      "id": "es_contraste_nao_se_trata",
+      "categoria": "estrutura",
+      "subtipo": "contraste",
+      "gravidade": "media",
+      "regex": "\\bnão\\s+se\\s+trata\\s+(?:de\\s+|só\\s+de\\s+|apenas\\s+de\\s+)?[^.,;!?\\n]{2,45},\\s+(?:mas|e\\s+sim|se\\s+trata)\\b|\\bnão\\s+(?:está|tá)\\s+(?:em|no|na)\\s+[^.,;!?\\n]{2,40},\\s+(?:está|tá|mas)\\b",
+      "explicacao": "Contraste fácil 'não se trata de X, mas de Y'.",
+      "substituto": "afirme direto"
+    },
+    {
+      "id": "es_contraste_dividido",
+      "categoria": "estrutura",
+      "subtipo": "contraste",
+      "gravidade": "media",
+      "regex": "(?:^|[.!?]\\s+)(?:Não|Nunca)\\s+(?:é|foi|se\\s+trata\\s+de|está|era)\\s+[^.!?\\n]{2,50}[.!?]\\s+(?:É|Foi|Está|Era|Trata-se)\\s+",
+      "explicacao": "Contraste dividido em duas frases: mesma muleta, disfarçada.",
+      "substituto": "afirme a segunda parte",
+      "flags": "m"
+    },
+    {
+      "id": "es_contraste_contagem",
+      "categoria": "estrutura",
+      "subtipo": "contraste",
+      "gravidade": "alta",
+      "regex": "(?:Não\\s+(?:é|foi|era)\\s+[^.!?\\n]{2,40}[.!?]\\s+){2,}(?:É|Foi|Era)\\b",
+      "explicacao": "Contagem regressiva de negações antes da revelação.",
+      "substituto": "vá direto ao que é",
+      "flags": "m"
+    },
+    {
+      "id": "es_mais_do_que",
+      "categoria": "estrutura",
+      "subtipo": "contraste",
+      "gravidade": "media",
+      "regex": "\\bmais\\s+do\\s+que\\s+(?:um|uma|o|a)?\\s*[^.,;!?\\n]{2,40},\\s+(?:é|se\\s+trata\\s+de|trata-se\\s+de|ele|ela|isso)\\b|\\bmuito\\s+além\\s+de\\s+[^.,;!?\\n]{2,40},\\s+(?:é|se\\s+trata)\\b",
+      "explicacao": "'Mais do que X, é Y': contraste automático.",
+      "substituto": "afirme o Y"
+    },
+    {
+      "id": "es_x_e_o_novo_y",
+      "categoria": "estrutura",
+      "subtipo": "aforismo",
+      "gravidade": "media",
+      "regex": "\\b\\w+\\s+é\\s+[oa]\\s+nov[oa]\\s+\\w+\\b|\\b\\w+\\s+é\\s+a\\s+(?:linguagem|moeda|arquitetura|alma|essência|chave|base|arte)\\s+d[oa]s?\\s+\\w+",
+      "explicacao": "Fórmula de aforismo ('X é o novo Y', 'X é a moeda de Y').",
+      "substituto": "diga a afirmação concreta por trás"
+    },
+    {
+      "id": "es_negacao_em_cadeia",
+      "categoria": "estrutura",
+      "subtipo": "anafora",
+      "gravidade": "media",
+      "regex": "(?:^|[.!?:]\\s+)(?:Nada\\s+de|Sem|Zero|Nenhum|Nenhuma)\\s+[^.,;\\n]{1,25}(?:[,.]\\s*(?:nada\\s+de|sem|zero|nenhum|nenhuma)\\s+[^.,;\\n]{1,25}){2,}",
+      "explicacao": "Cadeia de negações ('sem X, sem Y, sem Z').",
+      "substituto": "diga o que tem",
+      "flags": "m"
+    },
+    {
+      "id": "es_lista_negrito_separador",
+      "categoria": "estrutura",
+      "subtipo": "formatacao",
+      "gravidade": "alta",
+      "regex": "^\\s*(?:[-*+]|\\d+[.)])\\s+\\*\\*[^*\\n]+\\*\\*\\s*[:\\u2014\\u2013-]",
+      "explicacao": "Lista com termo em negrito + separador: molde de resposta de chatbot.",
+      "substituto": "parágrafo, ou lista sem negrito",
+      "flags": "m"
+    },
+    {
+      "id": "es_negrito_dois_pontos",
+      "categoria": "estrutura",
+      "subtipo": "formatacao",
+      "gravidade": "media",
+      "regex": "\\*\\*[^*\\n]{2,40}:\\*\\*",
+      "explicacao": "Cabeçalho inline em negrito ('**Dica:**').",
+      "substituto": "escreva a frase"
+    },
+    {
+      "id": "es_tres_adjetivos",
+      "categoria": "estrutura",
+      "subtipo": "triade",
+      "gravidade": "baixa",
+      "regex": "\\b(?:mais\\s+)?\\w+(?:ad[oa]|ente|ável|ível|os[oa]|iv[oa])s?,\\s+(?:mais\\s+)?\\w+(?:ad[oa]|ente|ável|ível|os[oa]|iv[oa])s?\\s+e\\s+(?:mais\\s+)?\\w+(?:ad[oa]|ente|ável|ível|os[oa]|iv[oa])s?\\b",
+      "explicacao": "Tríade de adjetivos.",
+      "substituto": "escolha um, ou mostre em vez de adjetivar"
+    },
+    {
+      "id": "es_travessao",
+      "categoria": "estrutura",
+      "subtipo": "travessao",
+      "gravidade": "alta",
+      "regex": "\\u2014|\\u2013|(?<=\\S)\\s--\\s(?=\\S)|(?<=\\S)\\s-\\s(?=\\S)",
+      "explicacao": "Travessão ou hífen entre palavras: assinatura de IA e proibido na casa.",
+      "substituto": "vírgula, ponto, ou reescreva"
+    },
+    {
+      "id": "es_reticencias_dramaticas",
+      "categoria": "estrutura",
+      "subtipo": "formatacao",
+      "gravidade": "baixa",
+      "regex": "\\.\\.\\.[ ]+(?:e|mas|até|ou)\\s",
+      "explicacao": "Reticência dramática antes da revelação.",
+      "substituto": "vírgula ou ponto"
+    },
+    {
+      "id": "es_emoji_no_corpo",
+      "categoria": "estrutura",
+      "subtipo": "formatacao",
+      "gravidade": "media",
+      "regex": "[\\U0001F300-\\U0001FAFF\\u2600-\\u27BF\\u2705\\u274C]",
+      "explicacao": "Emoji em prosa de livro.",
+      "substituto": "tire"
+    }
+  ],
+  "metricas": {
+    "ritmo_metronomo": {
+      "categoria": "meta",
+      "min_frases": 8,
+      "min_media_palavras": 9,
+      "cv_media": 0.34,
+      "cv_alta": 0.24,
+      "peso_media": 6,
+      "peso_alta": 10,
+      "explicacao": "Frases quase do mesmo tamanho (desvio-padrão baixo): ritmo de metrônomo."
+    },
+    "paragrafos_uniformes": {
+      "categoria": "meta",
+      "min_paragrafos": 5,
+      "min_palavras_paragrafo": 15,
+      "tolerancia": 0.25,
+      "proporcao_minima": 0.7,
+      "peso": 5,
+      "explicacao": "A maior parte dos parágrafos tem o mesmo tamanho."
+    },
+    "paragrafos_mesmas_frases": {
+      "categoria": "meta",
+      "min_paragrafos": 4,
+      "min_media_frases": 3,
+      "peso": 4,
+      "explicacao": "Todos os parágrafos têm o mesmo número de frases (±1)."
+    },
+    "ritmo_entre_paragrafos": {
+      "categoria": "meta",
+      "min_paragrafos": 4,
+      "min_frases_paragrafo": 3,
+      "desvio_max": 0.08,
+      "cv_medio_max": 0.45,
+      "peso": 5,
+      "explicacao": "Cada parágrafo tem a mesma variação interna de ritmo: cadência igual do início ao fim."
+    },
+    "pontuacao_uniforme": {
+      "categoria": "meta",
+      "min_paragrafos": 4,
+      "min_palavras_paragrafo": 5,
+      "cv_max": 0.25,
+      "media_min": 0.04,
+      "peso": 3,
+      "explicacao": "Densidade de pontuação igual em todos os parágrafos."
+    },
+    "diversidade_lexical": {
+      "categoria": "meta",
+      "min_tokens": 500,
+      "ttr_max": 0.3,
+      "peso": 2,
+      "explicacao": "Poucas palavras distintas pro tamanho do texto."
+    },
+    "anafora": {
+      "categoria": "estrutura",
+      "min_frases_sequencia": 3,
+      "peso": 3,
+      "stoplist": [
+        "e",
+        "mas",
+        "eu",
+        "a",
+        "o",
+        "os",
+        "as",
+        "ele",
+        "ela",
+        "eles",
+        "elas",
+        "isso",
+        "isto",
+        "aí",
+        "então",
+        "se",
+        "quando",
+        "porque",
+        "que",
+        "um",
+        "uma",
+        "em",
+        "no",
+        "na",
+        "de",
+        "do",
+        "da",
+        "com",
+        "por",
+        "pra",
+        "para",
+        "ou",
+        "aquilo",
+        "esse",
+        "essa",
+        "este",
+        "esta",
+        "só",
+        "já",
+        "tem",
+        "tinha",
+        "foi",
+        "era",
+        "é",
+        "tá",
+        "olha",
+        "cara",
+        "enfim",
+        "hoje"
+      ],
+      "explicacao": "Três ou mais frases seguidas começando igual."
+    },
+    "travessao": {
+      "categoria": "estrutura",
+      "explicacao": "Contado pelo padrão es_travessao; aqui só a densidade por mil palavras vai no relatório."
+    },
+    "dois_pontos": {
+      "categoria": "estrutura",
+      "min_ocorrencias": 4,
+      "max_por_mil": 8,
+      "peso": 5,
+      "explicacao": "Dois-pontos demais no meio de frase: cadência de slide."
+    },
+    "listas": {
+      "categoria": "estrutura",
+      "min_itens": 6,
+      "proporcao_max": 0.35,
+      "peso": 6,
+      "np_min_itens": 5,
+      "np_max_palavras": 7,
+      "np_peso": 8,
+      "explicacao": "Texto de livro andando em lista; e lista de sintagmas sem verbo."
+    },
+    "negrito": {
+      "categoria": "estrutura",
+      "minimo_absoluto": 3,
+      "palavras_por_negrito": 250,
+      "peso_media": 5,
+      "peso_alta": 9,
+      "explicacao": "Negrito espalhado demais."
+    },
+    "triades": {
+      "categoria": "estrutura",
+      "min_ocorrencias": 3,
+      "min_por_mil": 4,
+      "peso": 5,
+      "explicacao": "Regra de três compulsiva ('X, Y e Z') em série."
+    },
+    "contrastes_em_serie": {
+      "categoria": "estrutura",
+      "min_ocorrencias": 3,
+      "peso": 6,
+      "explicacao": "Contraste fácil três ou mais vezes no mesmo texto: tique."
+    },
+    "perguntas_fim_paragrafo": {
+      "categoria": "estrutura",
+      "min_ocorrencias": 3,
+      "proporcao_min": 0.2,
+      "peso": 5,
+      "explicacao": "Parágrafo fechando em pergunta retórica, em série."
+    },
+    "fechos_grandiosos": {
+      "categoria": "conteudo",
+      "max_palavras": 14,
+      "min_frases_paragrafo": 2,
+      "peso": 2.5,
+      "peso_serie": 6,
+      "min_serie": 3,
+      "abstratos": "coragem|propósito|verdade|essência|escolha|liberdade|transformação|legado|jornada|confiança|clareza|consistência|presença|mudança|futuro|sucesso|cuidado|amor|respeito|sonho|potencial|crescimento|evolução|autenticidade|intenção|excelência|coerência|maturidade|humanidade|conexão|propósito|atitude|disciplina|resultado",
+      "explicacao": "Última frase do parágrafo curta, com palavra abstrata, sem número: fecho grandioso."
+    },
+    "hedging_em_serie": {
+      "categoria": "conteudo",
+      "min_ocorrencias": 4,
+      "min_por_mil": 5,
+      "peso": 6,
+      "explicacao": "Hedging em série: o texto inteiro está em cima do muro."
+    },
+    "emoji": {
+      "categoria": "estrutura",
+      "explicacao": "Contado pelo padrão es_emoji_no_corpo."
+    }
+  }
+}
