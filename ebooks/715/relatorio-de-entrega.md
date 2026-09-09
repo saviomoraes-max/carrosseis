@@ -160,4 +160,9 @@ palavras que são da Ana. Ele marcou "gerar valor" como sotaque de máquina numa
 frase que sai inteira da boca dela, onde a expressão aparece quatro vezes.
 
 Cada passada grande deixou um snapshot em `revisao/_pre-*`, então dá pra voltar
-atrás em qualquer ponto.
+atrás em qualquer ponto. As provas em PNG e o HTML intermediário não vão pro git
+(45 MB de derivado): `--provas` refaz em dois minutos.
+
+O método está versionado em `skills/ebook-humano-reconecta/`, espelho da skill que
+vive em `~/.claude/skills/`. A peça a ler antes do próximo livro é
+`referencias/padrao-de-refinamento.md`.

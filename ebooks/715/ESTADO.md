@@ -53,7 +53,9 @@ ebooks/715/
   render/indice-paginas.json  em que página começa cada bloco
 ```
 
-Scripts em `~/.claude/skills/ebook-humano-reconecta/scripts/`:
+Scripts em `~/.claude/skills/ebook-humano-reconecta/scripts/`, com espelho
+versionado em `~/reconecta/skills/ebook-humano-reconecta/` (a skill viva é a de
+`~/.claude`; ver `ESPELHO.md` pra ressincronizar):
 `render_pdf.py`, `detector_ptbr.py`, `andamento.py`, `graficos.py`, `cola_png.py`,
 `revisor_pontuacao.py`, `wf_revisao_capitulo.js`, `wf_corpus_fala.js`, `wf_cego.js`,
 `coleta_slack_autor.py`.
