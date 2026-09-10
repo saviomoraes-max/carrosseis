@@ -4,7 +4,7 @@ Na sua clínica, você tem a salinha do fechamento ou a salinha do pagamento?
 
 E eu vou aproveitar pra contar um caso meu, que aconteceu duas ou três vezes, de eu ir numa clínica, em alguma especialidade, e acontecer exatamente esse movimento. A última vez foi bem recente.
 
-Eu converso com a profissional. A gente chega junto num plano de tratamento, um plano de seis meses. Tem alguma dúvida ou outra durante a consulta, tudo normal. E aí, na hora do fechamento, eu sou conduzida pra recepção e fico numa área de espera uns dez minutinhos e depois sou conduzida de novo, agora pra sala de fechamento, com o financeiro. Uma outra pessoa, né.
+Eu converso com a profissional. A gente chega junto num plano de tratamento, um plano de seis meses. Tem alguma dúvida ou outra durante a consulta, tudo normal. E aí, na hora do fechamento, eu sou conduzida pra recepção e fico numa área de espera uns dez minutinhos e depois sou conduzida de novo, agora pra sala de fechamento, com o financeiro. Uma outra pessoa.
 
 Eu já dou spoiler, tá? Quando eu entrei naquela salinha, a minha cabeça já tinha ido embora.
 
@@ -24,7 +24,7 @@ Toda aquela aura que tinha se formado até eu falar com a doutora foi completame
 
 Por quê?
 
-Porque eu não estava mais falando com uma especialista que tinha entendido o meu problema e me trazido a solução pras dores que eu tinha levado pra ela, né, eu estava falando com uma pessoa que entendeu que agora, depois que eu entendi que meus problemas têm solução, a gente parte para uma transação financeira.
+Porque eu não estava mais falando com uma especialista que tinha entendido o meu problema e me trazido a solução pras dores que eu tinha levado pra ela. Eu estava falando com uma pessoa que entendeu que agora, depois que eu entendi que meus problemas têm solução, a gente parte para uma transação financeira.
 
 Se eu tivesse entendido o preço na sala, talvez eu teria fechado. Lá dentro.
 

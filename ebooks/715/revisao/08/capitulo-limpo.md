@@ -4,7 +4,7 @@
 VOCÊ: Por isso, já sei que a doutora vai te ajudar com essa região do queixo que tá te incomodando e parar de se sentir com vontade de se esconder nas fotos.
 :::
 
-Então, isso aí é a apresentação inteira. Uma frase, colada na transição, e ela tem exatamente duas coisas dentro: o problema, com a palavra dela, e o sentimento, com a palavra dela. Não tem o nome do procedimento e não tem o que a doutora vai fazer e não tem quanto tempo dura a consulta, né.
+Então, isso aí é a apresentação inteira. Uma frase, colada na transição, e ela tem exatamente duas coisas dentro: o problema, com a palavra dela, e o sentimento, com a palavra dela. Não tem o nome do procedimento e não tem o que a doutora vai fazer e não tem quanto tempo dura a consulta.
 
 :::grafico duas
 O que entra | O que não entra
@@ -13,13 +13,13 @@ O sentimento, «com a palavra dela» | O que a doutora vai fazer
  | Quanto tempo dura a consulta
 :::
 
-Eu sei que dá vontade de encher, né. É o momento em que você sente que finalmente pode falar, depois de quatro passos perguntando e um só concordando. E é por isso que a apresentação é curta, gente: quem construiu o valor da consulta foi ela, nos cinco passos anteriores, e você só devolve.
+Eu sei que dá vontade de encher. É o momento em que você sente que finalmente pode falar, depois de quatro passos perguntando e um só concordando. E é por isso que a apresentação é curta, gente: quem construiu o valor da consulta foi ela, nos cinco passos anteriores, e você só devolve.
 
 ## Pra que serve
 
 Mostrar como a consulta vai ajudar a resolver o problema dela. E vender só aquilo que ela já quer comprar.
 
-Esse “só” é a frase do capítulo 2 voltando. Ela quer resolver o queixo antes do casamento, e é isso que você vende. Agora, se a gente aproveita pra falar do bioestimulador, do protocolo de pele, do pacote de manutenção, a gente está vendendo o que ela ainda não quer e cada item a mais é um motivo a mais pra ela pensar, tá.
+Esse “só” é a frase do capítulo 2 voltando. Ela quer resolver o queixo antes do casamento, e é isso que você vende. Agora, se a gente aproveita pra falar do bioestimulador, do protocolo de pele, do pacote de manutenção, a gente está vendendo o que ela ainda não quer e cada item a mais é um motivo a mais pra ela pensar.
 
 ## A frase
 
@@ -42,7 +42,7 @@ NEG: Não parece resolver o meu problema.
 POS: É exatamente isso que eu estou buscando.
 :::
 
-A leitura negativa tem três frases: “não parece resolver o meu problema”, “acho que não preciso disso tudo”, “preciso avaliar se é pra mim”. Repara que as três nascem de excesso, né, porque a gente apresentou mais solução do que ela pediu e solução que não resolve o problema dela e porque a gente qualificou demais a consulta e encheu a paciente de informação que não serve pra ela.
+A leitura negativa tem três frases: “não parece resolver o meu problema”, “acho que não preciso disso tudo”, “preciso avaliar se é pra mim”. Repara que as três nascem de excesso, porque a gente apresentou mais solução do que ela pediu e solução que não resolve o problema dela e porque a gente qualificou demais a consulta e encheu a paciente de informação que não serve pra ela.
 
 A leitura positiva é uma frase só: “é exatamente isso que eu estou buscando”. E acontece quando você apresenta a solução certa pro problema que ela trouxe e quando você usa as palavras dela pra referenciar o problema durante a apresentação.
 

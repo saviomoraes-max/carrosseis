@@ -11,7 +11,7 @@ VOCÊ: Consegue me enviar o comprovante agora para já confirmarmos seu horário
 
 Olha só onde o preço apareceu nessa cena. Na segunda mensagem, depois do horário que ela já aceitou, e como “investimento da consulta”, com a chave PIX logo abaixo. Agora, se ele aparece antes disso, acontece o contrário: ela sabe quanto custa agora e ela sabe como que funciona para poder agendar e ela volta na hora que ela quer. Ela acha que ela pode voltar na hora que ela quer. Aí não tem urgência, né, gente?
 
-Então, esse é o passo sete. Um dos dois erros que o framework manda evitar aqui é perguntar quando a paciente pode, em vez de oferecer um horário. Porque se eu pergunto para ela quando ela pode, o bastão tá na mão dela, né, e a gente fica só reagindo. Ela vai olhar a agenda, olhar a semana, voltar depois, ou não voltar.
+Então, esse é o passo sete. Um dos dois erros que o framework manda evitar aqui é perguntar quando a paciente pode, em vez de oferecer um horário. Porque se eu pergunto para ela quando ela pode, o bastão tá na mão dela, e a gente fica só reagindo. Ela vai olhar a agenda, olhar a semana, voltar depois, ou não voltar.
 
 ## Pra que serve
 
@@ -33,7 +33,7 @@ O próximo horário disponível na agenda da doutora é quinta-feira às 15h. Co
 
 Um horário só. E o bastão continua com você, ó: você ofereceu, ela reagiu.
 
-Agora, se ela só disser que quinta não dá, sem propor nada, você oferece o seguinte, do mesmo jeito: o próximo horário livre, e o mesmo “como fica para você?”. O erro é perguntar antes de oferecer, tá. Oferece primeiro e aí, se precisar, pergunta.
+Agora, se ela só disser que quinta não dá, sem propor nada, você oferece o seguinte, do mesmo jeito: o próximo horário livre, e o mesmo “como fica para você?”. O erro é perguntar antes de oferecer. Oferece primeiro e aí, se precisar, pergunta.
 
 E quando ela mesma fala quando pode, antes de você sair procurando esse horário, tem uma pergunta:
 
@@ -41,7 +41,7 @@ E quando ela mesma fala quando pode, antes de você sair procurando esse horári
 Se eu conseguir um horário [período mencionado], a gente pode seguir com o seu agendamento?
 :::
 
-Primeiro ela diz que segue, tá. Só depois você vai olhar a agenda.
+Primeiro ela diz que segue. Só depois você vai olhar a agenda.
 
 Segundo, depois que ela confirmou o horário, você fala do investimento e da forma de pagamento.
 
@@ -59,7 +59,7 @@ Consegue me enviar o comprovante agora para já confirmarmos seu horário na age
 
 O “agora” aparece duas vezes, no PIX e no comprovante. Não existe uma venda, na verdade, não existe um agendamento feito se o comprovante não for enviado. Comprovante não foi enviado, a venda não foi feita, o agendamento não foi feito. A gente só comemora a venda, só comemora o agendamento depois do comprovante.
 
-Agora, e se ela disser que faz o PIX à noite? Não justifica, não precisa. Quanto mais a gente fala, mais a gente se explica, e mais parece que a gente tá querendo justificar alguma coisa. É o que é e ponto. Passar o preço pra pessoa e tagarelar depois, gente, misericórdia, que problemão que é. Pede uma vez e segue.
+Agora, e se ela disser que faz o PIX à noite? Não justifica, não precisa. Quanto mais a gente fala, mais a gente se explica, e mais parece que a gente tá querendo justificar alguma coisa. É o que é e ponto. Passar o preço pra pessoa e tagarelar depois, misericórdia, que problemão que é. Pede uma vez e segue.
 
 E aqui tem uma regra que não é minha, é da casa, e ela é dura: sem PIX, sem agenda. O PIX é o que confirma o horário; sem ele aquilo ali é reserva, não é agendamento. Então não abre a brecha do “depois”. Se ela diz que faz à noite, o horário fica reservado, não confirmado, e é isso que você devolve pra ela: que o horário só entra na agenda quando o comprovante chegar. Cancelar não custa nada pra quem não pagou, e é por isso que a gente cobra na hora.
 

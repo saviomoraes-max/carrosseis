@@ -13,9 +13,9 @@ No capítulo 1 eu te contei a salinha do financeiro pelo lado da paciente.
 
 E de vendedora, o que eu vi foi isso: a doutora entendeu o meu problema e uma outra pessoa vendeu.
 
-E aqui eu não estou falando que existe um certo ou errado, tá, mas pelo que eu observo nas mais de 3 mil clínicas por aqui, quando a doutora se capacita pra fazer o fechamento e ela entende que ela é doutora e que ela é vendedora também, o ticket médio sobe, a taxa de fechamento sobe, enfim, é mil maravilhas.
+E aqui eu não estou falando que existe um certo ou errado, mas pelo que eu observo nas mais de 3 mil clínicas por aqui, quando a doutora se capacita pra fazer o fechamento e ela entende que ela é doutora e que ela é vendedora também, o ticket médio sobe, a taxa de fechamento sobe, enfim, é mil maravilhas.
 
-Agora, se está funcionando desse jeito na sua clínica, continua. E quando eu digo funcionando é assim: o ticket médio que você passa lá na sala é o mesmo ticket médio que fecha lá no final e a taxa de conversão é a mesma, né, e não tem ninguém indo embora pra casa pra pensar. Então está tudo certo, continua desse jeito.
+Agora, se está funcionando desse jeito na sua clínica, continua. E quando eu digo funcionando é assim: o ticket médio que você passa lá na sala é o mesmo ticket médio que fecha lá no final e a taxa de conversão é a mesma, e não tem ninguém indo embora pra casa pra pensar. Então está tudo certo, continua desse jeito.
 
 :::grafico sinais Está funcionando assim?
 - O ticket médio que você passa lá na sala é o mesmo que fecha lá no final
@@ -31,7 +31,7 @@ Tudo, e é por isso que eu escrevi este livro em vez de um sobre a consulta.
 
 A doutora que responde o preço na primeira mensagem do WhatsApp é a mesma que manda a paciente pra salinha do financeiro.
 
-No WhatsApp o número vai pra paciente cedo demais. Na salinha, vai por uma pessoa que não ouviu nada, né, e nos dois casos a paciente sai com o número na mão e vai pensar sozinha, não porque o número é alto, mas porque ela ainda não sabe se aquilo resolve o problema dela.
+No WhatsApp o número vai pra paciente cedo demais. Na salinha, vai por uma pessoa que não ouviu nada, e nos dois casos a paciente sai com o número na mão e vai pensar sozinha, não porque o número é alto, mas porque ela ainda não sabe se aquilo resolve o problema dela.
 
 :::grafico convergem
 No WhatsApp | O número vai pra paciente «cedo demais»

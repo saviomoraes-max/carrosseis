@@ -20,7 +20,7 @@ X | Você reage com ansiedade, pressa ou justificativa | Perde a paciente
 V | Você responde com curiosidade e direção | A conversa volta, e o agendamento junto
 :::
 
-Curiosidade e direção. Eu gosto dessas duas palavras. Curiosidade é o que passa na sua cabeça quando chega o “vou pensar”, né, pensar no quê. E a direção é o que a gente faz com essa curiosidade, que é perguntar em vez de ficar esperando ela voltar.
+Curiosidade e direção. Eu gosto dessas duas palavras. Curiosidade é o que passa na sua cabeça quando chega o “vou pensar”: pensar no quê. E a direção é o que a gente faz com essa curiosidade, que é perguntar em vez de ficar esperando ela voltar.
 
 ## Dois tipos
 
@@ -33,7 +33,7 @@ Ela consegue explicar com clareza. | Surge de repente no final da conversa.
 Preocupação legítima: resultado, segurança, tempo. | Tem a ver com pensar mais ou falar com alguém.
 :::
 
-A objeção real vem com nome. Olha uma: “Ah, eu posso ficar igual o fofão. Uma bochecha imensa, a cara quadrada. Como é que você me garante que não vai acontecer?” Ela te contou o medo, né, o medo tem nome, e é o nome que você pergunta. “Quando você diz que pode ficar igual o fofão, o que exatamente te preocupa?” E ela vai te contar de onde vem isso e o que ela não quer de jeito nenhum, e você tá de volta no passo dois só que agora em cima do medo dela.
+A objeção real vem com nome. Olha uma: “Ah, eu posso ficar igual o fofão. Uma bochecha imensa, a cara quadrada. Como é que você me garante que não vai acontecer?” Ela te contou o medo. O medo tem nome, e é o nome que você pergunta. “Quando você diz que pode ficar igual o fofão, o que exatamente te preocupa?” E ela vai te contar de onde vem isso e o que ela não quer de jeito nenhum, e você tá de volta no passo dois só que agora em cima do medo dela.
 
 Repara no “de repente”: a paciente estava conversando bem e contou o problema e estava tudo certo e na hora do horário apareceu o “vou ver com meu marido”. Ó, gente, eu não sei quantos maridos que eu tive na minha vida de ter falado “não, tenho que ver com meu marido”. Os maridos, o tanto de marido que essas mulheres criam.
 
@@ -47,7 +47,7 @@ Quando você diz [objeção], o que exatamente te preocupa?
 O que especificamente você precisa pensar?
 :::
 
-Qualquer uma das duas serve, tá. A de baixo é a de cima já com o “vou pensar” dentro, então usa ela quando foi isso que chegou.
+Qualquer uma das duas serve. A de baixo é a de cima já com o “vou pensar” dentro, então usa ela quando foi isso que chegou.
 
 Se a resposta for vaga, outro “te aviso depois” ou um “ah, não sei”, é cortina de fumaça. E a cortina esconde quase sempre a mesma coisa: ela ainda não sabe se a consulta resolve o problema dela. O preço, o marido e a agenda entram na conversa porque algum passo anterior ficou raso e a paciente chegou no fechamento sem estar convencida por ela mesma.
 

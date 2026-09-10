@@ -1,0 +1,113 @@
+{
+  "arquivo": "manuscrito/01-a-salinha-do-financeiro.md",
+  "palavras": 840,
+  "paragrafos": 23,
+  "frases": 64,
+  "mascarado": {
+    "frontmatter": 1,
+    "blocos_script": 1,
+    "marcadores_bloco": 4,
+    "citacoes": 11,
+    "titulos_curtos": 3
+  },
+  "avisos": [],
+  "absolvidos_pelo_corpus": [
+    {
+      "termo": "pode ser que",
+      "subtipo": "hedge",
+      "gravidade": "baixa",
+      "no_corpus": 5
+    },
+    {
+      "termo": "Pode ser que",
+      "subtipo": "hedge",
+      "gravidade": "baixa",
+      "no_corpus": 5
+    },
+    {
+      "termo": "talvez",
+      "subtipo": "hedge",
+      "gravidade": "baixa",
+      "no_corpus": 40
+    }
+  ],
+  "amostra_pequena": false,
+  "score": 0,
+  "faixa": "limpo (soa gente)",
+  "pontos": 0,
+  "densidade": 0.0,
+  "formula": "densidade = pontos / max(palavras, piso_palavras) * 1000; score = 100 * (1 - exp(-densidade / k)), k = 50, piso_palavras = 300 (texto curto não explode com um achado só). Nota por categoria usa k_categoria sobre a densidade só daquela categoria.",
+  "categorias": {
+    "conteudo": {
+      "rotulo": "Conteúdo e inflação",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "linguagem": {
+      "rotulo": "Linguagem e vocabulário",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "estrutura": {
+      "rotulo": "Estrutura e ritmo",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "comunicacao": {
+      "rotulo": "Sobras de chatbot",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "meta": {
+      "rotulo": "Uniformidade de ritmo (estatística)",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "calques": {
+      "rotulo": "Calques do inglês e burocratês",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    }
+  },
+  "metricas": {
+    "frases_media_palavras": 13.1,
+    "frases_desvio_padrao": 8.6,
+    "frases_cv": 0.65,
+    "paragrafos": 23,
+    "paragrafos_mediana_palavras": 42.0,
+    "paragrafos_proporcao_mesmo_tamanho": 0.33,
+    "ritmo_entre_paragrafos_desvio": 0.179,
+    "pontuacao_cv": 0.48,
+    "ttr": 0.396,
+    "frases_mesmo_inicio_proporcao": 0.02,
+    "travessoes": 0,
+    "travessoes_por_mil": 0.0,
+    "dois_pontos": 3,
+    "dois_pontos_por_mil": 3.57,
+    "itens_lista": 0,
+    "proporcao_linhas_em_lista": 0.0,
+    "negritos": 0,
+    "triades": 0,
+    "triades_por_mil": 0.0,
+    "contrastes": 0,
+    "paragrafos_terminando_em_pergunta": 4,
+    "fechos_grandiosos": 0,
+    "hedges": 3,
+    "hedges_por_mil": 3.57
+  },
+  "achados": [],
+  "achados_ocultos": 0,
+  "min_gravidade": "baixa"
+}

@@ -9,7 +9,7 @@ fontes: "fontes/transcricao/script-paciente-modelo.txt (aula 5.1, Script de What
 ---
 # Quando ela vem de anúncio de paciente modelo
 
-Tudo que eu te mostrei até aqui é pra paciente que chegou sozinha até você, pelo perfil, por um caso ou por um anúncio comum, perguntando de procedimento ou de preço. Essa paciente tá quentinha, tá morna ali. Tá só esperando você aquecer mais. Só que a paciente que chega por anúncio de paciente modelo é outra conversa e tem um caminho próprio, mais curto de propósito, e é ele inteiro que está aqui, né, porque a dúvida chega direto pra gente, ó. “Os leads estão chegando, mas, depois que eu passo o preço, a maioria questiona. Como assim, paciente modelo e eu vou ter que pagar?”
+Tudo que eu te mostrei até aqui é pra paciente que chegou sozinha até você, pelo perfil, por um caso ou por um anúncio comum, perguntando de procedimento ou de preço. Essa paciente tá quentinha, tá morna ali. Tá só esperando você aquecer mais. Só que a paciente que chega por anúncio de paciente modelo é outra conversa e tem um caminho próprio, mais curto de propósito, e é ele inteiro que está aqui, porque a dúvida chega direto pra gente. “Os leads estão chegando, mas, depois que eu passo o preço, a maioria questiona. Como assim, paciente modelo e eu vou ter que pagar?”
 
 Acontece. E acontece porque essa pessoa está procurando uma oportunidade. Literalmente uma oportunidade, uma oportunidade escassa, que talvez não aconteça de novo. Então a gente precisa tratar esse atendimento mais do que nunca como um processo seletivo, um processo de seleção mesmo. Tem gente que faz o 715 inteiro com ela e se frustra muito, porque no final ela questiona o preço mais do que uma paciente normal. E fica inviável a gente fazer o framework completo com todo mundo: tem clínica que recebe dez, vinte, quarenta mensagens de paciente modelo por dia.
 
@@ -56,7 +56,7 @@ As vagas de paciente modelo desse mês já foram encerradas, mas numa próxima o
 Pela forma como você trouxe isso, e pelo que a doutora avaliou, faz todo sentido você ser uma das selecionadas pra vaga de paciente modelo. Tanto a consulta quanto o procedimento são feitos pela própria doutora, com o mesmo cuidado do atendimento de sempre, por um valor mais acessível.
 :::
 
-E aqui entram as informações da vaga, ó. Edição é a leva de vagas de modelo que você abre no mês, tá.
+E aqui entram as informações da vaga. Edição é a leva de vagas de modelo que você abre no mês.
 
 :::frase
 A vaga que abriu é dia [data], às [hora]. O valor normal desse protocolo é [valor] e, como paciente modelo, fica [valor]. Como modelo, a gente usa as suas fotos de antes e depois nos nossos anúncios. Pra travar a vaga tem uma reserva de [valor].
@@ -78,4 +78,4 @@ Podemos reservar a sua vaga no dia [data], às [hora]?
 
 Se ela não pode naquela hora, ela fala e a gente vai ajustando o horário. Daí em diante é o passo sete do 715, igualzinho. Horário, chave PIX, comprovante.
 
-Tem clínica na mentoria que faz mais direto ainda. Conexão breve e já manda a apresentação inteira, pode ou não pode, e tem dado certo também. Então o que a gente pede é o seguinte, ó. Testa os dois jeitos na próxima leva de mensagens, faz do jeito completo, faz do jeito mais direto, e fica com o que funcionar na sua mão. Tá?
+Tem clínica na mentoria que faz mais direto ainda. Conexão breve e já manda a apresentação inteira, pode ou não pode, e tem dado certo também. Então o que a gente pede é o seguinte. Testa os dois jeitos na próxima leva de mensagens, faz do jeito completo, faz do jeito mais direto, e fica com o que funcionar na sua mão. Tá?

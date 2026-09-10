@@ -9,7 +9,7 @@ fontes: "fontes/02-manual-objecoes.md (p.1-9)"
 ---
 # O manual de respostas
 
-Este capítulo é pra deixar do lado do celular. Eu organizei por família de objeção, e em cada uma você vai ver a mensagem que a paciente manda e o que a gente responde se quiser continuar a conversa, e nas que mais aparecem eu mostro também o que a gente responde se quiser perder a paciente, e por que perde. As frases de continuar são modelo, tá, do mesmo jeito que eu falei no capítulo 2. Copia a frase, troca pelas palavras que ela mesma usou, e o que você manda depois depende do que ela respondeu.
+Este capítulo é pra deixar do lado do celular. Eu organizei por família de objeção, e em cada uma você vai ver a mensagem que a paciente manda e o que a gente responde se quiser continuar a conversa, e nas que mais aparecem eu mostro também o que a gente responde se quiser perder a paciente, e por que perde. As frases de continuar são modelo, do mesmo jeito que eu falei no capítulo 2. Copia a frase, troca pelas palavras que ela mesma usou, e o que você manda depois depende do que ela respondeu.
 
 :::grafico indice
 Preço
@@ -102,7 +102,7 @@ responde: Sem problemas! Pra gente entender se faz sentido seguir também, o que
 responde: Claro! Pra gente encerrar aqui também, como entendeu que a consulta com a doutora vai te ajudar a resolver [problema]?
 :::
 
-Essa frase encerra a conversa e transfere o controle pra paciente, que provavelmente nunca mais vai voltar, né, e você perde a chance de entender o que ainda está impedindo a decisão.
+Essa frase encerra a conversa e transfere o controle pra paciente, que provavelmente nunca mais vai voltar, e você perde a chance de entender o que ainda está impedindo a decisão.
 
 :::caso
 ela: “vou ver com meu marido e te aviso”.

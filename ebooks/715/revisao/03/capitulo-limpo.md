@@ -5,13 +5,13 @@ ELA: Oi, boa tarde! Quanto custa o preenchimento labial?
 VOCÊ: Claro que posso te passar valores e mais informações sobre o preenchimento! Mas antes, até pra entender se a doutora vai conseguir te ajudar no seu caso ou não, o que faz você buscar por preenchimento hoje?
 :::
 
-Essa é a primeira mensagem que chega na maioria das clínicas que eu conheço. Preço, direto. E a maioria responde o preço, direto. Eu entendo, né, porque parece educação. A pessoa perguntou, você responde. Só que na segunda mensagem você disse que vai passar o valor, e antes fez uma pergunta. Você não escondeu nada. Você só não largou o bastão.
+Essa é a primeira mensagem que chega na maioria das clínicas que eu conheço. Preço, direto. E a maioria responde o preço, direto. Eu entendo, porque parece educação. A pessoa perguntou, você responde. Só que na segunda mensagem você disse que vai passar o valor, e antes fez uma pergunta. Você não escondeu nada. Você só não largou o bastão.
 
 Então, isso aqui é o passo um. Uma mensagem, e o objetivo dela é pequeno. Só que o passo não acaba nessa mensagem, tá? Conexão você vai fazer a conversa inteira. O que acaba aqui é a abertura.
 
 ## Pra que serve
 
-Três coisas, ó, e as três acontecem na mesma mensagem. Abrir espaço pra conversa. Tirar a resistência inicial. E mostrar que você está ali pra entender se consegue ajudar ou não.
+São três coisas, e as três acontecem na mesma mensagem. Abrir espaço pra conversa. Tirar a resistência inicial. E mostrar que você está ali pra entender se consegue ajudar ou não.
 
 :::grafico grade
 1 | Abrir espaço pra conversa
@@ -19,7 +19,7 @@ Três coisas, ó, e as três acontecem na mesma mensagem. Abrir espaço pra conv
 3 | Mostrar que você está ali pra entender se consegue ajudar «ou não»
 :::
 
-Gente, esse “ou não” é o coração do passo. Quando você diz pra paciente que primeiro precisa entender se a doutora consegue ajudar no caso dela, você está dizendo que existe a possibilidade de não conseguir, tá? Porque às vezes eu nem vou conseguir. E aí é como se eu tivesse tirado de cima dela toda a pressão de que ela tem que fazer alguma coisa naquele momento. Então ela começa a relaxar, porque antes ela tá assim, ó, dura igual uma pedra, uma porta que ela não tá abrindo brecha para mim.
+Gente, esse “ou não” é o coração do passo. Quando você diz pra paciente que primeiro precisa entender se a doutora consegue ajudar no caso dela, você está dizendo que existe a possibilidade de não conseguir, tá? Porque às vezes eu nem vou conseguir. E aí é como se eu tivesse tirado de cima dela toda a pressão de que ela tem que fazer alguma coisa naquele momento. Então ela começa a relaxar, porque antes ela tá assim, dura igual uma pedra, uma porta que ela não tá abrindo brecha para mim.
 
 E a resistência é isso, ó: ela esquiva de todas as respostas que ela deveria dar, eu faço uma pergunta, ela me responde “o que que é o preço?”. É entender que aquela pessoa, ela tá com medo de se comprometer.
 
