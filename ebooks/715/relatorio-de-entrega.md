@@ -1,7 +1,7 @@
 # Script 715 — relatório de entrega
 
 Para o Sávio. O que o livro é, o que foi medido, o que depende de você e como
-regerar tudo. Escrito em 09/set/2026.
+regerar tudo. Atualizado em 10/set/2026, depois da banca de leitura.
 
 O documento de retomada técnica é o `ESTADO.md`, ao lado deste. Este aqui é o de
 decisão: o que dá pra vender, o que ainda não, e por quê.
@@ -64,7 +64,14 @@ decisão por maioria. **Não é portão**, é termômetro: em 08/set ele penaliz
 citação literal da Ana como se fosse máquina, e desde então fidelidade sempre
 vence. Mesmo assim ele é a única medida de resultado que existe.
 
-**3. Linter de pontuação** (`revisor_pontuacao.py`). Fala reportada sem aspas, aspa
+**3. Banca de leitura** (`wf_banca.js`). Seis examinadores leem o livro INTEIRO de
+ponta a ponta, um cético por examinador, e um relator fecha. Foi a primeira vez que
+alguém leu este livro do começo ao fim: tudo que existia antes lia um bloco por vez.
+Achou 13 defeitos confirmados que nenhuma outra lente podia ver, incluindo um
+capítulo que chegava **incompleto no PDF pago**. Parecer completo em
+`revisao/banca-10set.md`.
+
+**4. Linter de pontuação** (`revisor_pontuacao.py`). Fala reportada sem aspas, aspa
 que não fecha, espaço antes de pontuação, parágrafo em minúscula, e a mesma frase
 repetida duas vezes no mesmo parágrafo. **Zero achados.** Zero travessão no livro
 inteiro, 205 pares de aspas curvas fechando.
@@ -111,22 +118,51 @@ livro.
 instaladas são versão trial. O PDF está usando `TT_Modernoir_Trial_Bold.ttf`.
 Vender o material com fonte trial é problema de licenciamento, não de design.
 
-**2. Amostras ESCRITAS da Ana.** Mensagem, e-mail, post, qualquer coisa que ela
-tenha digitado. Todo o fingerprint de voz hoje é FALA transcrita, e a passagem de
-fala para papel ainda é inferência minha. Isto deixou de ser bloqueio quando a
-substituição por fala real resolveu 13 dos 15 blocos, mas é o que fecharia o
-resíduo dos dois que faltam.
+**2. As duas fontes da metodologia discordam entre si, e isso vazou pro livro.**
+O `01-framework-715.md` e o `03-manual-perguntas.md` trazem redações diferentes
+das mesmas frases prontas:
 
-O Slack não serve pra isso: o token do ambiente está morto (`account_inactive`) e
-o do Keychain só tem `chat:write`, `channels:read` e `files:read`. Faltam
-`users:read` e `channels:history` no app que já existe — é uma alteração de escopo
-no app, não um app novo.
+| Frase | Framework | Manual de perguntas |
+| --- | --- | --- |
+| Transição | "e de já estar **desde** [tempo]" | "e por já estar **há** [TEMPO INFORMADO]" |
+| Apresentação | "com o [problema] **e parar de**" | "com a [DOR TRAZIDA] **e parar de**" |
+| Horário | "na agenda **da Dra. Mariana**" | "na agenda é **[dia/horário]**" |
+| Comprovante | "para já **confirmarmos** seu horário" | "para já **garantir** o seu horário" |
 
-**3. Duas correções de pontuação dentro de card de script.** Estão em
+Padronizei no livro pela redação que fecha gramaticalmente, mas **o PDF da
+metodologia precisa da mesma correção**, senão a divergência volta no próximo
+material. Duas delas são erro de verdade, não variação:
+- "desde [tempo]" não fecha: "desde" pede data e a paciente dá duração ("uns dois anos").
+- "vai te ajudar com o [problema] **e** parar de se sentir" faz a DOUTORA parar de se
+  sentir mal. É a frase mais copiada do livro, e ia direto pro WhatsApp da paciente
+  assim. Virou "**pra você** parar de se sentir".
+
+**3. Três buracos de conteúdo que eu não posso preencher sem inventar.**
+- **O que responder quando ela diz que faz o PIX à noite.** O manual de objeções não
+  tem esse card. O capítulo 09 prometia "objeção tem lugar próprio mais pra frente" e
+  o capítulo 11 não entrega. Mudei a remissão pra apontar pra ferramenta genérica que
+  existe, mas o card em si depende da Ana.
+- **O que fazer com as conversas que já morreram no WhatsApp.** A leitora fechou o
+  livro sem saber, e o livro pergunta isso em cinco capítulos. Existe material na fala
+  dela sobre reativação, mas de outra coisa: lista fria de contatos que nunca
+  agendaram, e depende de um "manual de abordagens" que não está entre as fontes.
+  Declarei o recorte no capítulo 12 ("este livro é da próxima conversa em diante") pra
+  não deixar a leitora pendurada. **Se você quiser o capítulo, ele precisa da Ana.**
+- **No capítulo 11, dois cards mandam prometer o valor do procedimento e um terceiro
+  proíbe passar valor de caso que ninguém olhou.** O livro não diz como se cumpre a
+  promessa.
+
+**4. Quem digita no WhatsApp.** O livro nunca decide: ora é você, ora é a atendente,
+ora é a doutora, e as frases prontas pressupõem que a doutora é outra pessoa. Não se
+resolve com achar e substituir: é escolha de leitora-alvo, e é barato resolver agora.
+
+**5. Dois pontos de cansaço, que são decisão editorial.** A leitora cansou na abertura
+do capítulo 02 (leu como a página de vendas de novo, com faturamento de 200 mil) e na
+primeira metade do capítulo 12 (que reconta o capítulo 1 pela quarta vez).
+
+**6. Duas correções de pontuação dentro de card de script.** Estão em
 `revisao-pontuacao.json`, campo `em_card`. Não apliquei porque frase de script vai
-literal, e mexer nelas é decisão sua, não minha.
-
----
+literal, e mexer nelas é decisão sua.
 
 ## O que dá pra fazer sem depender de ninguém
 

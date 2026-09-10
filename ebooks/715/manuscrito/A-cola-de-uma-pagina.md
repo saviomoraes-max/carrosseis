@@ -49,7 +49,7 @@ Avança quando ela responde completo e emocional, e começa a perguntar da agend
 «5. Transição.» A real é que a iniciativa ela já tomou. Agora é só concretizar a decisão.
 
 :::frase
-[Nome], por conta da forma que trouxe... e de já estar desde [tempo] sentindo assim... concordo que não tem por que deixar mais para depois.
+[Nome], por conta da forma que trouxe... e de já estar há [tempo] sentindo assim... concordo que não tem por que deixar mais para depois.
 :::
 
 Avança imediatamente.
@@ -57,7 +57,7 @@ Avança imediatamente.
 «6. Apresentação.» Vender só o que ela já quer, com as palavras dela.
 
 :::frase
-Por isso, já sei que a doutora vai te ajudar com o [problema] e parar de se sentir [como está se sentindo].
+Por isso, já sei que a doutora vai te ajudar com o [problema] pra você parar de se sentir [como está se sentindo].
 :::
 
 Avança quando ela pergunta da consulta em si, e da disponibilidade.

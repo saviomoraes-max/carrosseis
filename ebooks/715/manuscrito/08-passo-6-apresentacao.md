@@ -10,7 +10,7 @@ fontes: "fontes/01-framework-715.md (Etapa 6, p.7-8); fontes/03-manual-perguntas
 # Apresentação
 
 :::cena
-VOCÊ: Por isso, já sei que a doutora vai te ajudar com essa região do queixo que tá te incomodando e parar de se sentir com vontade de se esconder nas fotos.
+VOCÊ: Por isso, já sei que a doutora vai te ajudar com essa região do queixo que tá te incomodando pra você parar de se sentir com vontade de se esconder nas fotos.
 :::
 
 Então, isso aí é a apresentação inteira. Uma frase, colada na transição, e ela tem exatamente duas coisas dentro: o problema, com a palavra dela, e o sentimento, com a palavra dela. Não tem o nome do procedimento e não tem o que a doutora vai fazer e não tem quanto tempo dura a consulta, né.
@@ -33,7 +33,7 @@ Esse “só” é a frase do capítulo 2 voltando. Ela quer resolver o queixo an
 ## A frase
 
 :::frase
-Por isso, já sei que a doutora vai te ajudar com o [problema] e parar de se sentir [como está se sentindo].
+Por isso, já sei que a doutora vai te ajudar com o [problema] pra você parar de se sentir [como está se sentindo].
 :::
 
 O “por isso” cola na transição. O “já sei” é você assumindo a autoridade que ela te deu no passo um. E os dois colchetes você preenche com o que ela disse, não com o que você diagnosticou. Se ela falou “caindo perto do queixo”, vai “caindo perto do queixo”. Se ela falou “me esconder nas fotos”, vai “me esconder nas fotos”. A palavra dela é o que faz ela ler a frase e pensar: “é exatamente isso”.

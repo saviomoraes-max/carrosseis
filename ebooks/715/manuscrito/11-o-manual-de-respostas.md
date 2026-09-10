@@ -72,7 +72,7 @@ responde: Sem problemas! Até pra gente entender se faz sentido seguir ou não, 
 
 Essa objeção aparece quando durante a conversa não ficou claro como a consulta resolve o problema dela. De fato, só existe uma forma da gente gerar valor na conversa, que é quando a pessoa entende que o problema que ela tem a gente consegue ajudar a resolver. E se o valor não for percebido, nem se a consulta for de graça vai valer a pena.
 
-A gente acha, quando fala sobre isso, que vai facilitar o processo de fechamento. Só que é exatamente essa percepção que o paciente tem: pô, então tá me forçando a fechar um procedimento, então não quero. Você falar que o valor da consulta é abatido se ela fizer o procedimento no mesmo dia, aí é quase você falando assim: eu vou te dar um descontinho agora porque depois vai ser forçado a fechar um procedimento.
+A gente acha, quando fala sobre isso, que vai facilitar o processo de fechamento. Só que é exatamente essa percepção que a paciente tem: pô, então tá me forçando a fechar um procedimento, então não quero. Você falar que o valor da consulta é abatido se ela fizer o procedimento no mesmo dia, aí é quase você falando assim: eu vou te dar um descontinho agora porque depois vai ser forçada a fechar um procedimento.
 
 Já a segunda só gera mais objeção. Se ela não entendeu o valor da consulta até agora, não vai ser se qualificando que ela vai passar a entender.
 

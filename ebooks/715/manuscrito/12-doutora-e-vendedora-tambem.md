@@ -43,13 +43,13 @@ Os sete passos são o jeito de não fazer isso antes da consulta. E quando você
 
 ## O que eu quero que você faça agora
 
-Pega a próxima paciente nova que chamar no WhatsApp e faz os sete passos com ela, na ordem. A cola do anexo A é uma página só, pra você deixar do lado do celular.
+Pega a próxima paciente nova que chamar no WhatsApp e faz os sete passos com ela, na ordem. E as conversas que já morreram no seu WhatsApp, essas eu não vou mexer aqui, tá? Este livro é da próxima conversa em diante. A cola do anexo A é uma página só, pra você deixar do lado do celular.
 
 Se a conversa travar, tem um passo que ficou raso. Eu começaria olhando o dois, o capítulo 4, porque é onde ela conta o problema, e paciente que chega lá na frente ainda falando em procedimento é passo dois raso. Então volta lá e refaz a pergunta de clarear com a próxima paciente.
 
 E se você quiser que a gente olhe isso junto, a sua conversa, o seu número, a sua clínica, marca um horário com o nosso time. E eu vou fazer com você exatamente o que eu te pedi pra fazer com a paciente, porque é assim que eu trabalho. Primeiro a gente entende. Depois a gente vê se consegue ajudar. Se conseguir, aí a gente pensa em próximos passos, pode ser?
 
-https://supercaso.com.br/consulta?utm_source=ebook&utm_medium=material-rico&utm_campaign=FRAMEWORK-715&utm_content=cta-final
+[supercaso.com.br/consulta](https://supercaso.com.br/consulta?utm_source=ebook&utm_medium=material-rico&utm_campaign=FRAMEWORK-715&utm_content=cta-final)
 
 :::pergunta
 Agora, antes de você fechar o livro: na sua clínica, você tem a salinha do fechamento ou a salinha do pagamento? E a próxima paciente que te mandar mensagem, quem vai passar o preço pra ela? Você, ou alguém que não ouviu nada do problema dela?

@@ -1,6 +1,6 @@
 # Quando ela vem de anúncio de paciente modelo
 
-Tudo que eu te mostrei até aqui é pra paciente que chegou por conta própria, pelo link da bio, perguntando de procedimento ou de preço. Quem vem pelo link da bio tá quentinho, tá morno ali. Tá só esperando você aquecer mais. Só que a paciente que chega por anúncio de paciente modelo é outra conversa e tem um caminho próprio, mais curto de propósito, e é ele inteiro que está aqui, né, porque a dúvida chega direto pra gente, ó. “Os leads estão chegando, mas, depois que eu passo o preço, a maioria questiona. Como assim, paciente modelo e eu vou ter que pagar?”
+Tudo que eu te mostrei até aqui é pra paciente que chegou sozinha até você, pelo perfil, por um caso ou por um anúncio comum, perguntando de procedimento ou de preço. Essa paciente tá quentinha, tá morna ali. Tá só esperando você aquecer mais. Só que a paciente que chega por anúncio de paciente modelo é outra conversa e tem um caminho próprio, mais curto de propósito, e é ele inteiro que está aqui, né, porque a dúvida chega direto pra gente, ó. “Os leads estão chegando, mas, depois que eu passo o preço, a maioria questiona. Como assim, paciente modelo e eu vou ter que pagar?”
 
 Acontece. E acontece porque essa pessoa está procurando uma oportunidade. Literalmente uma oportunidade, uma oportunidade escassa, que talvez não aconteça de novo. Então a gente precisa tratar esse atendimento mais do que nunca como um processo seletivo, um processo de seleção mesmo. Tem gente que faz o 715 inteiro com ela e se frustra muito, porque no final ela questiona o preço mais do que uma paciente normal. E fica inviável a gente fazer o framework completo com todo mundo: tem clínica que recebe dez, vinte, quarenta mensagens de paciente modelo por dia.
 
@@ -16,7 +16,7 @@ A mensagem “topa ou não topa” | O meio-termo | Os sete passos completos
 ## Conexão
 
 :::frase
-Oi [nome], aqui é a [seu nome], da clínica da doutora [nome da doutora]. Antes de passar as informações sobre a vaga de paciente modelo, deixa eu entender rapidinho se faz sentido você entrar ainda nessa edição. E se sim, a gente pensa nos próximos passos. Como você entende que participar dessa edição vai te ajudar agora?
+Oi [Nome], aqui é a [seu nome], da clínica da doutora [nome da doutora]. Antes de passar as informações sobre a vaga de paciente modelo, deixa eu entender rapidinho se faz sentido você entrar ainda nessa edição. E se sim, a gente pensa nos próximos passos. Como você entende que participar dessa edição vai te ajudar agora?
 :::
 
 A resposta que você quer ouvir é alguma versão de “eu estou buscando uma oportunidade de fazer harmonização facial por um preço mais acessível”. Quem veio pelo quiz, que é o formulário de perguntas que ela responde antes de cair no seu WhatsApp, chega um pouco mais consciente, porque leu muita coisa no caminho. Quem veio direto pra mensagem precisa dessa conscientização aqui, na conversa.
@@ -27,7 +27,7 @@ A resposta que você quer ouvir é alguma versão de “eu estou buscando uma op
 Entendi. Então me conta o que exatamente você vê hoje quando se olha no espelho e que gostaria que fosse diferente. Me manda uma foto sua de frente, se puder. Não vale a do perfil.
 :::
 
-A seleção começa na foto. Se o que você quer é caso pro feed, a gente precisa ter definido antes qual que é o problema que você resolve, certo? E sem isso, qualquer investimento em paciente modelo é dinheiro jogado fora. Se você está se posicionando em derretimento facial e entra em contato uma pessoa mais ou menos na faixa dos 28 anos, não é o problema que você tá posicionada para resolver. Essa não entra nessa edição. E é pra ela que serve a saída aqui embaixo. Agora, se a vaga é pra ter caso e caixa ao mesmo tempo, você não precisa escolher: vai da situação direto pra apresentação.
+A seleção começa na foto. Se o que você quer é caso pro feed, a gente precisa ter definido antes qual que é o problema que você resolve, certo? E sem isso, qualquer investimento em paciente modelo é dinheiro jogado fora. Se você está se posicionando em derretimento facial e entra em contato uma pessoa mais ou menos na faixa dos 28 anos, não é o problema que você tá posicionada para resolver. Essa não entra nessa edição. E é pra ela que serve a saída aqui embaixo. Agora, se a vaga é pra ter caso e caixa ao mesmo tempo, aí você não usa o corte por idade nem por problema: aceita quem chegou e vai da situação direto pra apresentação.
 
 :::grafico bifurca
 A seleção começa na foto

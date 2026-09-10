@@ -46,7 +46,7 @@ O “com tudo o que falamos” no começo da primeira não é enfeite. Ele amarr
 Pular pra apresentação direto, sem entender o que ela está buscando. E se qualificar, de qualquer jeito que seja, elogiar a doutora ou a clínica pra consulta parecer valer mais.
 :::
 
-O segundo é o erro que mais volta no material, porque se qualificar demais aparece lá na conexão, aqui na qualificação, de novo na transição e ainda na apresentação. E quem comete não faz por mal, sabe? Chega a ser automático mesmo, ainda mais quando a gente gosta do trabalho da doutora ou de onde a gente trabalha. A paciente acabou de dizer que quer a consulta, e a atendente, toda animada, emenda: “e a doutora é ótima, os casos dela são perfeitos, olha esse caso que lindo”. Parou. A paciente estava se convencendo sozinha e você entrou no meio pra convencer. E quando a gente qualifica a doutora, todas as informações que a gente coloca nem chegam a ser avaliadas.
+O segundo é o erro que mais volta no material, porque se qualificar demais aparece lá na conexão, aqui na qualificação, de novo na transição e ainda na apresentação. A paciente acabou de dizer que quer a consulta, e a atendente, toda animada, emenda: “e a doutora é ótima, os casos dela são perfeitos, olha esse caso que lindo”. Parou. A paciente estava se convencendo sozinha e você entrou no meio pra convencer. E quando a gente qualifica a doutora, todas as informações que a gente coloca nem chegam a ser avaliadas.
 
 ## Como ela lê você
 
@@ -70,7 +70,7 @@ A leitura positiva é: “ela entendeu o meu problema e sei que vai me ajudar a 
 
 Dos quatro sinais, o último é o que eu peço pra você prestar atenção, porque quem dá esse sinal é você, não a paciente. Se em algum momento do passo quatro você sentir vontade de argumentar, segura. E argumentar não é errado, tá? Só que ainda não é a hora. A vontade de argumentar é o sinal de que a paciente ainda não declarou e aí o que resolve é mais uma pergunta, igual você fez no passo dois.
 
-Eu sinto que muitas vezes eu perdia agendamentos porque eu passei o Pix sem a pessoa pedir pelo Pix ou sem a pessoa pedir pela consulta, sabe? E quando ela pergunta “e a agenda, como funciona?” antes de você oferecer, o passo quatro acabou.
+Eu sinto que muitas vezes eu perdia agendamentos porque eu passei o PIX sem a pessoa pedir pelo PIX ou sem a pessoa pedir pela consulta, sabe? E quando ela pergunta “e a agenda, como funciona?” antes de você oferecer, o passo quatro acabou.
 
 :::pergunta
 Na sua conversa mais recente que virou consulta, quem falou da agenda primeiro? Você ou ela?

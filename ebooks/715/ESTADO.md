@@ -111,7 +111,7 @@ zero travessão, aspas simples só dentro de duplas.
 
 ---
 
-## As oito descobertas que mudaram o projeto
+## As nove descobertas que mudaram o projeto
 
 Cada uma tem arquivo próprio. Ler antes de mexer em qualquer coisa.
 
@@ -162,7 +162,19 @@ Cada uma tem arquivo próprio. Ler antes de mexer em qualquer coisa.
    ESTRUTURA (anáfora, dois-pontos, contraste) não se absolve: composição é de quem
    escreveu, não de quem falou.
 
-8. **Cético de um bloco não vê os outros.** Numa rodada de seis blocos em paralelo,
+8. **A banca de leitura, e o capítulo que saía incompleto.** Em 10/set seis examinadores
+   leram o livro INTEIRO de ponta a ponta pela primeira vez (`revisao/banca-10set.md`): 57
+   acusações, 13 confirmadas, 4 altas, num livro que passava em todos os portões de bloco.
+   O achado nº 1 não era de escrita: uma cerca `:::` com texto colado fazia o parser engolir,
+   calado, um parágrafo e o bloco "o que evitar" do capítulo 05, que chegava incompleto no PDF
+   pago. Nenhum instrumento pegava porque **todos liam a fonte e ninguém olhava o render**.
+   Hoje o build morre em cerca malformada e confere bloco a bloco fonte contra saída.
+
+   Descoberta de método junto: as duas fontes da metodologia **discordam entre si** na redação
+   de duas frases prontas (transição e apresentação). O livro carregava as duas versões porque
+   era fiel às duas. Padronizado, e o PDF da metodologia precisa da mesma correção.
+
+9. **Cético de um bloco não vê os outros.** Numa rodada de seis blocos em paralelo,
    três achados confirmados colidiram: garimpeiros diferentes acharam a MESMA
    passagem do corpus e a puseram em capítulos diferentes. O livro ficou com a mesma
    anedota da Ana em dois capítulos seguidos. Toda rodada multi-bloco agora termina

@@ -10,7 +10,7 @@ fontes: "fontes/01-framework-715.md (Etapa 5, p.6-7); fontes/03-manual-perguntas
 # Transição
 
 :::cena
-VOCÊ: [Nome], por conta da forma que trouxe... e de já estar desde uns dois anos sentindo assim... concordo que não tem por que deixar mais para depois.
+VOCÊ: [Nome], por conta da forma que trouxe... e de já estar há uns dois anos sentindo assim... concordo que não tem por que deixar mais para depois.
 :::
 
 Uma mensagem. É isso o passo cinco. Ele é o mais curto do script, e é onde a tentação de pular etapa tem endereço. Sabe o que a atendente faz? Sai do passo quatro, com a paciente declarada, e vai direto pro horário e às vezes funciona. Só que entre o que ela disse e o que você vai oferecer fica faltando uma coisa, ó. A ponte.
@@ -24,7 +24,7 @@ Os três objetivos falam do problema dela. Sem o problema que a pessoa tá passa
 ## A frase
 
 :::frase
-[Nome], por conta da forma que trouxe... e de já estar desde [tempo] sentindo assim... concordo que não tem por que deixar mais para depois.
+[Nome], por conta da forma que trouxe... e de já estar há [tempo] sentindo assim... concordo que não tem por que deixar mais para depois.
 :::
 
 Três pedaços. O nome dela. A forma como ela trouxe e o tempo que ela está assim. O que você preenche são dois, o nome e o tempo. O nome você já tem desde o começo da conversa. O tempo ela te contou lá no passo três quando você perguntou “por que agora” e o script chama esse pedaço de “tempo informado” porque é o tempo que ela mesma te deu, né. O “por conta da forma que trouxe” é o corpo do script. O que muda são os colchetes. A palavra dela mesma entra no passo seis. E o “concordo”. Você não está propondo que ela resolva agora. Ela já tomou essa decisão no passo três, quando disse “por que agora”, e o que você faz aqui é concordar. Quem concorda está do lado dela.
@@ -32,7 +32,7 @@ Três pedaços. O nome dela. A forma como ela trouxe e o tempo que ela está ass
 :::grafico grade
 1 | «[Nome]» · você já tem desde o começo
 2 | «por conta da forma que trouxe» · é o corpo do script, não muda
-3 | «desde [tempo]» · ela te deu no passo três
+3 | «há [tempo]» · ela te deu no passo três
 :::
 
 E se ela não te deu o tempo, não inventa um. Tira esse pedaço e fica só com a forma que ela trouxe, a frase aguenta.

@@ -35,7 +35,7 @@ Preocupação legítima: resultado, segurança, tempo. | Tem a ver com pensar ma
 
 A objeção real vem com nome. Olha uma: “Ah, eu posso ficar igual o fofão. Uma bochecha imensa, a cara quadrada. Como é que você me garante que não vai acontecer?” Ela te contou o medo, né, o medo tem nome, e é o nome que você pergunta. “Quando você diz que pode ficar igual o fofão, o que exatamente te preocupa?” E ela vai te contar de onde vem isso e o que ela não quer de jeito nenhum, e você tá de volta no passo dois só que agora em cima do medo dela.
 
-Repara no “de repente”: a paciente estava conversando bem e contou o problema e estava tudo certo e na hora do horário apareceu o “vou ver com meu marido”. Ó, gente, eu não sei quantos maridos que eu tive na minha vida de ter falado não, tenho que ver com meu marido. Os maridos, o tanto de marido que essas mulheres criam.
+Repara no “de repente”: a paciente estava conversando bem e contou o problema e estava tudo certo e na hora do horário apareceu o “vou ver com meu marido”. Ó, gente, eu não sei quantos maridos que eu tive na minha vida de ter falado “não, tenho que ver com meu marido”. Os maridos, o tanto de marido que essas mulheres criam.
 
 Se a gente quer saber qual das duas chegou, a gente pergunta. E pergunta com curiosidade, não com cobrança, que ela sente a diferença.
 
@@ -60,7 +60,7 @@ E é aqui que entra o voltar que eu prometi no capítulo 9. Voltar é refazer a 
 
 ## Por que responder mata
 
-A forma mais fácil de encerrar uma conversa é com uma resposta. Eu já te disse isso lá no capítulo 2, e acho que aqui é onde ela pesa mais, porque vale pra objeção e vale pra pergunta, a regra é a mesma. Pensa na pergunta que chega logo no início da conversa, “quanto custa a consulta?”. Se você responde “a consulta custa 200 reais”, acabou. E pensa só. Ela quer saber o preço? Ela não quer saber o preço. Ela quer saber se vale o preço, né? E com o seu 200 na mão ela vai comparar com a clínica ao lado sem saber o que nenhuma das duas consultas resolve.
+A forma mais fácil de encerrar uma conversa é com uma resposta. Eu já te disse isso lá no capítulo 2, e acho que aqui é onde ela pesa mais, porque vale pra objeção e vale pra pergunta, a regra é a mesma. Pensa na pergunta que chega logo no início da conversa, “quanto custa a consulta?”. Se você responde “a consulta custa R$ 200”, acabou. E pensa só. Ela quer saber o preço? Ela não quer saber o preço. Ela quer saber se vale o preço, né? E com o seu 200 na mão ela vai comparar com a clínica ao lado sem saber o que nenhuma das duas consultas resolve.
 
 Agora, se você responde assim:
 

@@ -9,7 +9,7 @@ fontes: "fontes/03-manual-perguntas.md (p.1-3); fontes/01-framework-715.md"
 ---
 # Banco de perguntas
 
-Aqui é só a lista, tá. O sinal pra avançar em cada passo está na cola do anexo A, e as respostas pra quando ela trava estão nos capítulos 10 e 11.
+Aqui é só a lista, tá. O sinal pra avançar em cada passo está na cola do anexo A, e as respostas pra quando ela trava estão nos capítulos 10 e 11. Algumas perguntas aqui aparecem com uma redação um pouquinho diferente da que está no capítulo. São variações da mesma pergunta, e as duas servem.
 
 :::grafico rail 0
 :::
@@ -79,11 +79,11 @@ Verificar se a paciente realmente está pronta pra tomar uma decisão.
 
 Aqui não tem pergunta, tem uma frase, e ela vem antes da apresentação.
 
-“[Nome], por conta da forma que trouxe e por já estar há [tempo informado] sentindo assim... concordo que não tem por que deixar mais para depois.”
+“[Nome], por conta da forma que trouxe... e de já estar há [tempo] sentindo assim... concordo que não tem por que deixar mais para depois.”
 
 ## 6. Apresentação
 
-“Por isso, já sei que a doutora vai te ajudar com a [dor trazida] e parar de se sentir [sentimento informado].”
+“Por isso, já sei que a doutora vai te ajudar com o [problema] pra você parar de se sentir [como está se sentindo].”
 
 ## 7. Fechamento
 

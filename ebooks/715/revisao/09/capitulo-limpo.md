@@ -59,7 +59,7 @@ Consegue me enviar o comprovante agora para já confirmarmos seu horário na age
 
 O “agora” aparece duas vezes, no PIX e no comprovante. Não existe uma venda, na verdade, não existe um agendamento feito se o comprovante não for enviado. Comprovante não foi enviado, a venda não foi feita, o agendamento não foi feito. A gente só comemora a venda, só comemora o agendamento depois do comprovante.
 
-Agora, e se ela disser que faz o PIX à noite? Não justifica, não precisa. Quanto mais a gente fala, mais a gente se explica, mas parece que a gente tá querendo justificar alguma coisa. É o que é e ponto. Passar o preço pra pessoa e tagarelar depois, gente, misericórdia, que problemão que é. Pede uma vez e segue. Só que, se ela empurrar o pagamento pra depois disso, aí já virou objeção, e objeção tem lugar próprio mais pra frente.
+Agora, e se ela disser que faz o PIX à noite? Não justifica, não precisa. Quanto mais a gente fala, mais a gente se explica, e mais parece que a gente tá querendo justificar alguma coisa. É o que é e ponto. Passar o preço pra pessoa e tagarelar depois, gente, misericórdia, que problemão que é. Pede uma vez e segue. Só que, se ela empurrar o pagamento pra depois disso, aí já virou objeção. E objeção nunca se responde com informação, se responde com pergunta, que é o capítulo 10.
 
 :::evite
 Perguntar a disponibilidade da paciente antes de oferecer um primeiro horário disponível. E partir pro fechamento sem ter criado compromisso suficiente.

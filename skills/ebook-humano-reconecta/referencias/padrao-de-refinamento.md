@@ -15,6 +15,12 @@ Um capítulo só é dado por fechado quando os quatro passam:
 | Achados de gravidade alta confirmados | 0 na última rodada | `rodada-N.json`, campo `altas_confirmadas` |
 | Leitor cego | **termômetro, não portão** (ver 3c) | `rodada-N.json`, campo `cego` |
 | Travessão | 0 | `grep -c "—"` no manuscrito |
+| Fonte x render | nenhum bloco perdido | `render_pdf.py` conta e para o build (ver 3j) |
+| Banca de leitura | 0 achados altos confirmados | `wf_banca.js` sobre `livro_continuo.py` (ver 3i) |
+
+A banca é portão de LIVRO, não de capítulo: roda uma vez quando os blocos estão fechados, e de
+novo depois de qualquer rodada que mexa em mais de um bloco. É a única lente que enxerga o que
+existe entre capítulos.
 
 O leitor cego saiu da lista de portões em 08/set, depois de um experimento
 controlado (`experimento-desalinho.md` no projeto do livro): ele penalizou uma
@@ -324,6 +330,67 @@ da mesma interjeição em pontos diferentes do capítulo.
   corpus: neste projeto ele estava no Google Drive da empresa.
 - O cego **continua não sendo portão** (3c vale). Ele virou o que sempre deveria ter sido: a
   medida de resultado que diz se a reescrita valeu, não a régua que dita a edição.
+
+## 3i. A banca: alguém precisa ler o livro inteiro, e ninguém estava lendo
+
+Este pipeline inteiro lia UM BLOCO POR VEZ. O detector mede um capítulo, os revisores conferem
+um capítulo contra a fonte, o leitor cego lê um capítulo sem saber que existe livro em volta.
+Depois de 39 leitores cegos, 15 blocos no portão do detector e zero achado de pontuação, o
+Script 715 tinha treze defeitos que nenhuma dessas lentes podia enxergar, porque todas eram
+estruturalmente cegas para o que só existe ENTRE capítulos.
+
+**A banca é seis lentes lendo o livro inteiro, na ordem, de uma sentada:**
+
+| Lente | O que só ela vê |
+| --- | --- |
+| língua | erro mecânico de português, com o registro oral protegido por lista explícita |
+| continuidade | promessa feita e não cumprida, remissão cruzada errada, termo usado antes de ser explicado |
+| repetição | a mesma anedota, fórmula ou frase em dois capítulos diferentes |
+| contradição | o capítulo A prescreve o oposto do capítulo B |
+| leitora-alvo | onde ela perde o fio, onde cansa, o que ela fecha o livro sem saber |
+| termos | vocabulário e grafia oscilando ao longo do livro |
+
+Cada uma tem um cético que reabre o livro, e a **primeira obrigação do cético é o grep da
+citação**: trecho que não aparece literal é paráfrase, e a acusação cai antes de qualquer
+julgamento de mérito. Um relator fecha, junta o que duas lentes acharam no mesmo trecho (isso
+é sinal de gravidade) e separa o que é conserto do que é decisão humana.
+
+**O insumo é `livro_continuo.py`**, que junta os quinze blocos num arquivo só, na ordem do
+sumário, trocando cerca de compilador por rótulo legível. Ninguém lê `:::frase`; a banca
+precisa receber o objeto que a leitora recebe.
+
+**Proteger a voz é o que decide se a banca presta.** O corretor de língua recebe uma lista dura
+do que NÃO é erro neste produto: "pra", "tá", "né", frase sem verbo, autocorreção no meio do
+raciocínio, coloquialismo de norma não culta dentro da voz da autora. Sem essa lista ele
+endireita justamente o que 39 leitores cegos citaram como prova de que o texto é humano. Na
+dúvida entre erro e jeito de falar, é jeito de falar.
+
+**Resultado da primeira execução:** 57 acusações, 13 confirmadas, 4 altas. As notas por lente
+são o mapa de onde doer: continuidade 8,5 e língua 8,5 (a espinha está firme) contra repetição
+6,0 e termos 6,5 (é ali que o livro sangra).
+
+## 3j. Nada comparava a FONTE com o RENDER, e por isso um capítulo saiu incompleto
+
+O achado nº 1 da banca não era de escrita: era um capítulo chegando incompleto no PDF pago.
+Uma cerca de fechamento com texto colado na mesma linha (`::: E aí ela responde...`) fazia o
+parser não reconhecer o fechamento, seguir até a cerca seguinte e engolir, calado, um parágrafo
+inteiro e o bloco "o que evitar" do capítulo.
+
+**Por que nenhum instrumento pegou:** o detector mede a prosa do markdown, o linter mede o
+markdown, o leitor cego lê `capitulo-limpo.md`, que é o markdown. Todos liam a FONTE. O render
+era o único lugar onde o texto sumia, e ninguém olhava pra ele.
+
+**Duas guardas, as duas em `render_pdf.py`:**
+1. Dentro do laço que consome um bloco, qualquer linha que comece com `:::` e não seja cerca de
+   fechamento **para o build** e diz o arquivo e a linha. A checagem tem de estar DENTRO do
+   laço: no topo ela nunca roda, porque a linha malformada é consumida como conteúdo. Foi
+   exatamente esse o ponto cego do parser.
+2. Depois de montar o HTML, conta os blocos por tipo no markdown e no render. Se o render tem
+   menos, **o build morre** dizendo qual tipo sumiu.
+
+**Regra geral, que vale além deste bug:** toda régua deste pipeline lê a fonte. Se o
+compilador perder alguma coisa entre a fonte e o entregável, só um leitor humano descobre, e
+tarde. Onde houver compilação, tem que haver conferência de fonte contra saída.
 
 ## 4. O que nunca entra
 

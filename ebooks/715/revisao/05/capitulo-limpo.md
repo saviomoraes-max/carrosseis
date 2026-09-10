@@ -54,7 +54,9 @@ E se ela responde “nada, sempre quis”? Então você ainda não tem o motivo.
 Você oferece a espera: “por que fazer agora e não esperar mais um pouco?”
 V | Ela é obrigada a argumentar contra a espera | Quem argumenta contra esperar está se convencendo de agir
 X | Ela topa esperar, ou nem assim vem nada | O passo três não aconteceu, e quem está convencida é você
-::: Agora, se nem assim vem nada, ou se ela topa esperar, o passo três não aconteceu, e quem está convencida é você. Não tem nenhum indício de intolerância, entendeu? Ela não falou dor em nenhum momento, nem problema. Então, como não tem nem dor, nem problema, não tem por que a gente perguntar sobre tolerância ou sobre incômodo, sobre prioridade. Volta pro passo dois e aprofunda até achar o que faz disso um problema agora.
+:::
+
+Agora, se nem assim vem nada, ou se ela topa esperar, o passo três não aconteceu, e quem está convencida é você. Não tem nenhum indício de intolerância, entendeu? Ela não falou dor em nenhum momento, nem problema. Então, como não tem nem dor, nem problema, não tem por que a gente perguntar sobre tolerância ou sobre incômodo, sobre prioridade. Volta pro passo dois e aprofunda até achar o que faz disso um problema agora.
 
 :::evite
 Interromper a paciente quando ela está se abrindo. Tentar animar a paciente minimizando o problema. Oferecer solução imediata sem explorar a dor por completo.

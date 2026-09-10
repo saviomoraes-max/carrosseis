@@ -25,6 +25,11 @@ def front_matter(txt):
 
 def inline(s):
     s = html.escape(s, quote=False)
+    # [texto](url): o destino leva os UTMs, a leitora vê só o domínio. Num produto pago,
+    # etiquetar o próprio ebook como "material-rico" na cara de quem comprou é o detalhe
+    # que a banca chamou de pior do livro.
+    s = re.sub(r"\[([^\]]+)\]\((https?://[^)\s]+)\)",
+               lambda m: f'<a class="ref" href="{m.group(2)}">{m.group(1)}</a>', s)
     s = re.sub(r"«(.+?)»", r'<span class="enf">\1</span>', s)
     s = re.sub(r"\b(capítulo|Capítulo) (\d{1,2})\b", lambda m: f'<a class="ref" href="#cap-{int(m.group(2)):02d}">{m.group(1)} {m.group(2)}</a>', s)
     s = re.sub(r"\b(anexo|Anexo) ([AB])\b", lambda m: f'<a class="ref" href="#cap-{m.group(2)}">{m.group(1)} {m.group(2)}</a>', s)
@@ -64,7 +69,9 @@ def bloco_caso(linhas):
             + linha("responde", "O que continua a conversa", slots["responde"])
             + "</div>")
 
-def md_para_html(txt):
+BLOCOS = {"frase", "cena", "caso", "punch", "pergunta", "grafico", "evite"}
+
+def md_para_html(txt, nome_arquivo="?"):
     out, i, linhas = [], 0, txt.splitlines(); par, lista = [], None
     def fecha_par():
         nonlocal par
@@ -76,7 +83,21 @@ def md_para_html(txt):
         ln = linhas[i]
         if ln.startswith(":::"):
             fecha_par(); fecha_lista(); tipo = ln[3:].strip(); j = i + 1; corpo = []
-            while j < len(linhas) and linhas[j].strip() != ":::": corpo.append(linhas[j]); j += 1
+            # Cerca de FECHAMENTO com texto colado na mesma linha ("::: E aí ela responde")
+            # era engolida CALADA: o laço abaixo não a reconhecia como fechamento, seguia até
+            # a cerca seguinte e comia o parágrafo e o bloco inteiro. Custou um capítulo
+            # incompleto no PDF pago. A checagem tem de estar DENTRO do laço, que é onde a
+            # linha malformada passa.
+            while j < len(linhas) and linhas[j].strip() != ":::":
+                if linhas[j].lstrip().startswith(":::"):
+                    raise SystemExit(
+                        f"ERRO em {nome_arquivo}: dentro do bloco ':::{tipo}' há uma linha que "
+                        f"começa com ':::' e não é cerca de fechamento.\n"
+                        f"  linha {j+1}: {linhas[j][:110]}\n"
+                        f"  conserte pondo ':::' sozinho na linha e o texto no parágrafo de baixo.")
+                corpo.append(linhas[j]); j += 1
+            if j >= len(linhas):
+                raise SystemExit(f"ERRO em {nome_arquivo}: bloco ':::{tipo}' aberto e nunca fechado.")
             if tipo == "cena": out.append(bloco_cena(corpo))
             elif tipo == "caso": out.append(bloco_caso(corpo))
             elif tipo == "frase":
@@ -86,7 +107,7 @@ def md_para_html(txt):
             elif tipo == "pergunta": out.append(f'<div class="pergunta inteira" data-kicker="Pergunta em aberto">{inline(" ".join(c.strip() for c in corpo if c.strip()))}</div>')
             elif tipo.startswith("grafico"):
                 partes = tipo.split(); out.append(graficos.render(partes[1] if len(partes) > 1 else "", " ".join(partes[2:]) if len(partes) > 2 else "", corpo))
-            elif tipo == "evite": out.append('<div class="evite"><span class="kicker xs mute">O que evitar</span>' + md_para_html("\n".join(corpo)) + "</div>")
+            elif tipo == "evite": out.append('<div class="evite"><span class="kicker xs mute">O que evitar</span>' + md_para_html("\n".join(corpo), nome_arquivo) + "</div>")
             i = j + 1; continue
         if ln.startswith("# "): i += 1; continue
         if ln.startswith("## "): fecha_par(); fecha_lista(); out.append(f'<h2 class="disp">{inline(ln[3:])}</h2>'); i += 1; continue
@@ -142,14 +163,14 @@ def compilar(raiz, so_html=False, provas=False):
         partes.append(f'''<section class="pg abertura" id="cap-{html.escape(num)}" data-cap="{i}">{chrome(hud)}<span class="disp" style="position:absolute;left:56px;top:260px;font-size:640px;line-height:.85;color:rgba(238,217,189,.12)">{html.escape(num)}</span>
 {('<div class="rail-abertura">' + graficos.rail(int(re.search(r"\d+", m.get("kicker","")).group()), mini=True) + '</div>') if re.match(r"(?i)^passo\s*\d+$", m.get("kicker","").strip()) else ''}
 <div class="stack"><span class="kicker">{html.escape(m.get("prova", m.get("kicker","")))}</span><div class="sp22"></div><h1 class="disp">{inline(m.get("titulo",""))}</h1><div class="sp30"></div><span class="sub">{inline(m.get("subtitulo",""))}</span></div>{rodape(slug, "", True)}</section>''')
-        partes.append(f'<div class="fonte" data-hud="{html.escape(hud)}" data-kicker="{html.escape(m.get("kicker",""))}" data-titulo="{html.escape(m.get("titulo",""))}">{md_para_html(corpo)}</div>')
+        partes.append(f'<div class="fonte" data-hud="{html.escape(hud)}" data-kicker="{html.escape(m.get("kicker",""))}" data-titulo="{html.escape(m.get("titulo",""))}">{md_para_html(corpo, caps[i].name)}</div>')
     cc = L.get("contracapa")
     if cc:
         partes.append(f'<section class="pg contracapa">{chrome(L["hud"])}'
             f'<div class="stack"><span class="kicker">{html.escape(cc["kicker"])}</span><div class="sp22"></div>'
             f'<h1 class="disp">{inline(cc["titulo"])}</h1><div class="sp30"></div>'
             f'<span class="sub">{inline(cc["texto"])}</span></div>'
-            f'<div class="link">{html.escape(cc["link"])}</div>'
+            f'<div class="link"><a class="ref" href="{html.escape(cc["link"])}">{html.escape(cc.get("link_texto", cc["link"]))}</a></div>'
             f'<img class="logo" src="file://{ds}/assets/logo-cream.svg">'
             f'{rodape(L.get("rodape_capa", slug), "", True)}</section>')
 
@@ -158,6 +179,28 @@ def compilar(raiz, so_html=False, provas=False):
                  "rodape_json": json.dumps(slug, ensure_ascii=False), "hud_json": json.dumps(L["hud"], ensure_ascii=False), "css_graficos": graficos.CSS}.items():
         out = out.replace("{{"+k+"}}", v)
     rd = raiz / "render"; rd.mkdir(exist_ok=True); (rd / "livro.html").write_text(out, encoding="utf-8")
+
+    # CONFERÊNCIA FONTE x RENDER. Nada no pipeline comparava as duas coisas, e por isso um
+    # capítulo saiu incompleto no PDF pago sem nenhum instrumento acusar: o detector mede a
+    # prosa do markdown, o linter mede o markdown, o leitor cego lê o markdown. Todos liam a
+    # fonte. Se o render come um bloco, só um leitor humano descobre, e tarde.
+    esperado, achado = {}, {}
+    marca = {"frase": 'class="frase"', "cena": 'class="chat"', "caso": 'class="caso"',
+             "evite": 'class="evite"', "punch": "class=\"punch", "pergunta": "class=\"pergunta",
+             "grafico": 'class="g '}
+    for c in caps:
+        for ln in c.read_text(encoding="utf-8").split("\n"):
+            if ln.startswith(":::") and ln.strip() != ":::":
+                k = ln[3:].strip().split()[0]
+                if k in marca: esperado[k] = esperado.get(k, 0) + 1
+    for k, m in marca.items():
+        achado[k] = out.count(m)
+    faltando = {k: (esperado[k], achado.get(k, 0)) for k in esperado if achado.get(k, 0) < esperado[k]}
+    if faltando:
+        det = "; ".join(f"{k}: {e} no markdown, {a} no render" for k, (e, a) in faltando.items())
+        raise SystemExit(f"ERRO: o render perdeu bloco pelo caminho ({det}). "
+                         f"Quase sempre é cerca ':::' malformada. Não publique este PDF.")
+    print("fonte x render: " + ", ".join(f"{k} {esperado[k]}" for k in sorted(esperado)))
     if so_html: return
     from playwright.sync_api import sync_playwright
     with sync_playwright() as p:

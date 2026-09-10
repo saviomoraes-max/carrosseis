@@ -12,12 +12,12 @@ Porque flacidez, pra ela, é uma coisa que ela vê no espelho, num lugar especí
 
 ## Pra que serve
 
-O passo dois é entender o que está acontecendo hoje e que poderia ser diferente, entender como isso está afetando ela hoje, clarear o significado das palavras que ela usou pra chegar no problema que trouxe ela até o WhatsApp e aprofundar até entender o que faz disso um problema agora.
+O passo dois é clarear o significado das palavras que ela usou pra chegar no problema que trouxe ela até o WhatsApp, entender o que está acontecendo hoje e que poderia ser diferente, entender como isso está afetando ela hoje e aprofundar até entender o que faz disso um problema agora.
 
 :::grafico ordem
+Clarear o significado das palavras que ela usou
 Entender o que está acontecendo hoje e que poderia ser diferente
 Entender como isso está afetando ela hoje
-Clarear o significado das palavras que ela usou
 Aprofundar até entender o que faz disso um problema agora
 :::
 
