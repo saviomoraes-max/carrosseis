@@ -560,6 +560,55 @@ com uma versão já reescrita. O defeito só aparece quando alguém preenche mec
 Ler o markdown não é ler o livro.** O script `wf_entrega` da auditoria está no rastro do
 projeto 715, em `revisao/auditoria-entrega-parecer.md`.
 
+## 3o. Link que existe não é link que funciona
+
+O Chromium escreve **todo** link interno como **destino nomeado** (`/Dest /cap-01`), resolvido
+por um dicionário `/Dests` no catálogo. É PDF válido, abre certinho no Acrobat e no Preview, e
+é a forma MENOS compatível que existe: vários leitores de celular e alguns visualizadores web
+ignoram destino nomeado e **o clique simplesmente não faz nada**, sem erro nenhum.
+
+Num livro que a leitora abre no celular, isso é a diferença entre sumário clicável e sumário
+decorativo. E conferir que "os links existem e apontam pro lugar certo" **não pega isso** — eu
+tinha conferido, destino a destino, e estava tudo certo no arquivo e potencialmente morto na mão
+dela.
+
+`linkar_pdf.py` roda depois do Chromium e faz três coisas:
+
+1. Troca cada destino nomeado por **destino explícito**, com a referência da página dentro da
+   própria anotação. Não depende de tabela nenhuma.
+2. Cria os **marcadores** do PDF, com as partes como pais e os blocos aninhados. Um livro de 150
+   páginas sem índice lateral se navega só por rolagem.
+3. **Morre** se algum link interno apontar pra um destino que não existe.
+
+Está plugado no fim do `render_pdf.py`, então roda sempre.
+
+### E o que mais deveria ser clicável e não era
+
+Nada no pipeline transformava em link aquilo que a leitora naturalmente tentaria clicar:
+
+- a lista de capítulos nas páginas de parte;
+- **os sete círculos do trilho**, que aparecem na abertura de cada passo e nos anexos. O passo N
+  mora no capítulo N+2, então cada círculo leva ao capítulo dele.
+
+O trilho é SVG, e o Chromium só gera anotação de link a partir de `<a>` de HTML: a solução é
+âncora transparente posicionada por cima do círculo, com a mesma matemática do SVG. **Confira a
+sobreposição medindo o `/Rect` da anotação contra o centro do círculo**, lembrando que a página
+sai em pontos (escala 0,75 em relação ao CSS de 1080px).
+
+Foram de 40 pra 123 links internos.
+
+### Fonte: embutida não é a mesma coisa que usada
+
+Descoberto na mesma passada, e vale registrar porque eu tinha afirmado o contrário num documento
+de entrega: **o Chromium não embute fonte que não permite ser embutida.** Ele renderiza com ela e
+desenha cada glifo como **vetor, numa fonte Type3**. O livro sai com a tipografia certa e o PDF
+não carrega arquivo de fonte licenciada dentro dele, o que é melhor pra licença.
+
+Confira com `/BaseFont` + `/Subtype`: `/Type3` sem `/BaseFont` é glifo desenhado. E confira
+`/ToUnicode` em cada uma, porque é o que mantém o texto pesquisável. Efeito colateral a declarar:
+texto com espaçamento de letra sai da busca como letra separada (`P R O V A  N º`), o que vale
+pra qualquer leitor de PDF.
+
 ## 4. O que nunca entra
 
 - Caso, número, data ou frase pronta que não esteja nas fontes ou na fala

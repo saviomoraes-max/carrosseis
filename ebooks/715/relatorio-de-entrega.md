@@ -122,9 +122,25 @@ system e, por isso, sobrepunha a licenciada e embutia no PDF a string *"not for
 commercial or personal use"*.
 
 O `@font-face` saiu. O Chromium resolve a família `TT Modernoir` pelo sistema, e o PDF
-agora embute `TTModernoir-Bd` em 24 subsets, com zero menção a trial, a DaFont ou a
-TypeType, e zero ocorrência de `Impact` (o fallback). O render também morre se a família
-não resolver, pra nunca mais sair um PDF com a tipografia trocada em silêncio.
+tem **zero menção a trial, a DaFont ou a TypeType**, e zero ocorrência de `Impact` (o
+fallback). O render também morre se a família não resolver, pra nunca mais sair um PDF com
+a tipografia trocada em silêncio.
+
+**Correção de uma coisa que eu tinha escrito errado aqui.** Este parágrafo dizia que o PDF
+"embute `TTModernoir-Bd` em 24 subsets". **Não embute, e é melhor assim.** Conferido no
+arquivo entregue: a única fonte embutida como arquivo é a `SpaceMono-Regular`. A TT
+Modernoir e a Inter vêm do sistema e o Chromium desenha cada glifo delas como **vetor**
+(fonte Type3, 649 delas no livro), que é o que ele faz quando a fonte não permite ser
+embutida. O livro sai com a tipografia certa, ninguém redistribui arquivo de fonte
+licenciada, e o texto continua selecionável e pesquisável, porque todas as Type3 carregam
+tabela de caracteres. Confirmei que era assim também no PDF de ontem, então não é regressão:
+era a frase que estava errada, não o arquivo.
+
+**Uma consequência prática, pequena mas real:** o *chrome* com espaçamento de letra (o
+kicker, o cabeçalho, o rodapé e os rótulos dos cartões, todos em Space Mono) sai da busca
+como letra separada, `P R O V A  N º  0 3`. Isso é do espaçamento, não da fonte, e vale
+pra qualquer leitor de PDF. Todo o conteúdo de leitura, incluindo títulos, corpo, frases
+prontas, balões e gráficos, é pesquisável normalmente.
 
 **Uma limpeza que vale fazer:** os cinco `TT_Modernoir_Trial_*.ttf` em
 `Reconecta Design System/fonts/` podem ser apagados. Enquanto existirem, qualquer peça

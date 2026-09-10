@@ -50,7 +50,7 @@ ebooks/715/
     transcricao/*.txt      3 aulas do WAID transcritas com WhisperX
   revisao/NN/              por bloco: capitulo-vK.md, detector-vK.json, rodada-K.json/txt
   revisao/_pre-*/          snapshots antes de cada passada grande
-  render/script-715.pdf    150 páginas, 9:16 (1080×1920)
+  render/script-715.pdf    150 páginas, 9:16, 123 links internos + 22 marcadores
   render/provas/*.png      uma PNG por página
   render/cola/*.png        a cola dos 7 passos como peça de celular (cola_png.py)
   render/preview.html      abrir no browser pra folhear
@@ -68,7 +68,7 @@ ebooks/715/
 Scripts em `~/.claude/skills/ebook-humano-reconecta/scripts/`, com espelho
 versionado em `~/reconecta/skills/ebook-humano-reconecta/` (a skill viva é a de
 `~/.claude`; ver `ESPELHO.md` pra ressincronizar):
-`render_pdf.py`, `detector_ptbr.py`, `andamento.py`, `graficos.py`, `cola_png.py`,
+`render_pdf.py`, `linkar_pdf.py`, `detector_ptbr.py`, `andamento.py`, `graficos.py`, `cola_png.py`,
 `revisor_pontuacao.py`, `livro_continuo.py`, `wf_revisao_capitulo.js`, `wf_corpus_fala.js`,
 `wf_cego.js`, `wf_banca.js`, `coleta_slack_autor.py`.
 
@@ -131,7 +131,7 @@ zero travessão, aspas simples só dentro de duplas.
 
 ---
 
-## As doze descobertas que mudaram o projeto
+## As treze descobertas que mudaram o projeto
 
 Cada uma tem arquivo próprio. Ler antes de mexer em qualquer coisa.
 
@@ -273,6 +273,23 @@ Cada uma tem arquivo próprio. Ler antes de mexer em qualquer coisa.
     **Régua: antes de entregar, alguém tem que OLHAR a prova e alguém tem que PREENCHER as
     frases.** Ler o markdown não é ler o livro.
 
+13. **Os links existiam e podiam não funcionar.** O Chromium escreve todo link interno como
+    DESTINO NOMEADO, que vários leitores de celular ignoram em silêncio: o clique não faz
+    nada e nada acusa. Eu tinha conferido destino a destino, e o que conferi foi que o
+    arquivo estava certo, não que a leitora conseguiria usar. `linkar_pdf.py` troca por
+    destino explícito, cria os marcadores do PDF e morre se algum link ficar sem alvo.
+
+    Na mesma passada entrou o que ninguém tinha tornado clicável: a lista das páginas de
+    parte e **os sete círculos do trilho** (passo N leva ao capítulo N+2). Como o trilho é
+    SVG e o Chromium só faz link de `<a>` de HTML, a solução é âncora transparente por cima,
+    conferida medindo o `/Rect` contra o centro do círculo. **De 40 pra 123 links internos.**
+
+    Junto: **o PDF não embute a TT Modernoir, e é melhor assim.** O Chromium não embute
+    fonte que não permite, então desenha cada glifo como vetor (Type3). A tipografia sai
+    certa, ninguém redistribui arquivo licenciado e o texto continua pesquisável. Era assim
+    desde ontem; o que estava errado era a frase no relatório, que dizia o contrário e foi
+    corrigida.
+
 ## Decisões já tomadas (não reabrir)
 
 - Título: "7 passos para 1 **agendamento** a cada 5 contatos" (era "consulta").
@@ -386,9 +403,12 @@ python3 $S/livro_continuo.py $P                          # monta o insumo da ban
 ```
 
 O `--corpus` **não é opcional**: sem ele o detector acusa como vocabulário de IA palavras
-que são da autora. E o `render_pdf` agora morre em três situações, de propósito: cerca
-`:::` malformada, bloco perdido entre a fonte e o render, e família TT Modernoir não
-resolvida. Nenhuma delas deve ser contornada.
+que são da autora. E o `render_pdf` agora morre em QUATRO situações, de propósito: cerca
+`:::` malformada, bloco perdido entre a fonte e o render, família TT Modernoir não resolvida,
+e link interno apontando pra destino que não existe. Nenhuma delas deve ser contornada.
+
+O `linkar_pdf.py` roda sozinho no fim do render: troca destino nomeado por explícito e cria
+os marcadores do PDF. Ver a descoberta 13.
 
 Pra rodar a banca (13 agentes, ~17 min), depois de `livro_continuo.py`:
 `wf_banca.js` com `{livro, ortotipografia, fingerprint}`.

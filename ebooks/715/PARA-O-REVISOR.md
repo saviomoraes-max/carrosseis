@@ -20,9 +20,21 @@ Leia estas quatro páginas antes de abrir o PDF. Depois disso, o texto é seu.
 | **Estrutura** | 12 capítulos em 4 partes + 3 anexos (A: cola rápida, B: banco de perguntas, C: paciente modelo) |
 | **Camada colável** | 52 frases prontas e 23 cartões de objeção — este é o produto de verdade |
 
-**O arquivo pra revisar é `render/script-715.pdf`.** O texto-fonte, se você preferir revisar em
-texto corrido, está em `render/livro-continuo.md`: é o livro inteiro num arquivo só, na ordem de
+**O arquivo pra revisar é `script-715.pdf`.** O texto-fonte, se você preferir revisar em texto
+corrido, está em `script-715-texto-corrido.md`: é o livro inteiro num arquivo só, na ordem de
 leitura, sem as marcações do compilador.
+
+**Ele navega.** Abra os marcadores do PDF (o painel lateral) e você tem as quatro partes com os
+quinze blocos aninhados. No sumário, cada linha leva à página do capítulo. Dentro do texto, toda
+menção a "capítulo 11" ou "anexo A" é link. Nas páginas de parte, cada linha da lista é link. E
+**cada um dos sete círculos do trilho é link pro capítulo daquele passo** — são 123 links internos,
+todos conferidos um a um contra a página de destino.
+
+Duas observações de arquivo, pra você não estranhar: o texto é selecionável e pesquisável, mas o
+*chrome* com espaçamento de letra (kicker, cabeçalho, rodapé, rótulos dos cartões) sai da busca
+como letra separada, `P R O V A  N º  0 3` — é do espaçamento, vale pra qualquer leitor. E as
+fontes de título e de corpo vêm do sistema e são desenhadas como vetor, então o PDF não carrega
+arquivo de fonte licenciada dentro dele.
 
 ---
 

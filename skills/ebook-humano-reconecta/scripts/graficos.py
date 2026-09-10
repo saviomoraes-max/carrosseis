@@ -64,7 +64,14 @@ def rail(atual=0, mini=False):
             for k, palavra in enumerate(nome):
                 out.append(f'<text x="{x:.1f}" y="{y + r + 34 + k*22}" text-anchor="middle" font-family="Space Mono" font-size="14" letter-spacing="1.5" fill="{GOLD if on else CREAM62}">{palavra}</text>')
     out.append("</svg>")
-    return f'<div class="g g-rail{" mini" if mini else ""}">' + "".join(out) + "</div>"
+    # Cada passo do trilho vira link pro capítulo dele. O passo N mora no capítulo N+2
+    # (passo 1 = cap 03 ... passo 7 = cap 09). Âncora HTML sobreposta em vez de <a> dentro do
+    # SVG, porque o Chromium só gera anotação de link no PDF a partir de <a> de HTML.
+    alvos = "".join(
+        f'<a class="hit" href="#cap-{i+3:02d}" style="left:{x0 + i*step - r - 6:.1f}px;'
+        f'top:{y - r - 6:.1f}px;width:{2*r + 12:.0f}px;height:{2*r + 12:.0f}px"></a>'
+        for i in range(n))
+    return (f'<div class="g g-rail{" mini" if mini else ""}">' + "".join(out) + alvos + "</div>")
 
 def funil():
     W, H = 952, 200; r = 36; xs = [120 + i * 110 for i in range(5)]; y = 70
@@ -272,6 +279,8 @@ CSS = """
 .g .dot.gold{background:var(--gold)} .g .dot.red{background:var(--red)}
 .g-rail{margin:20px 0 52px 0} .g-rail.mini{margin:0}
 .g-svg{display:block}
+.g-rail{position:relative}
+.g-rail .hit{position:absolute;display:block;border-radius:50%}
 .g-linha{position:relative;display:flex;gap:28px;padding-top:8px}
 .g-linha .trilho{position:absolute;left:24px;right:24px;top:31px;height:1.5px;background:rgba(238,217,189,.28)}
 .g-linha .col{flex:1;display:flex;flex-direction:column;gap:14px}

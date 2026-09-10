@@ -165,8 +165,9 @@ def compilar(raiz, so_html=False, provas=False):
         hud = m.get("hud", L["hud"]); num = m.get("numero", "")
         if num in abre_parte:
             pa, caps_parte = abre_parte[num]
-            itens = "".join(f'<div class="it"><span class="n">{html.escape(e["numero"])}</span>'
-                            f'<span class="t">{inline(e["titulo"])}</span></div>' for e in caps_parte)
+            # a lista da página de parte é navegação: cada linha leva ao capítulo dela
+            itens = "".join(f'<a class="it" href="#cap-{html.escape(e["numero"])}"><span class="n">{html.escape(e["numero"])}</span>'
+                            f'<span class="t">{inline(e["titulo"])}</span></a>' for e in caps_parte)
             partes.append(f'<section class="pg parte">{chrome(L["hud"])}'
                 f'<span class="marca">{html.escape(pa["rotulo"].split()[-1])}</span>'
                 f'<div class="stack"><span class="kicker">{html.escape(pa["rotulo"])}</span><div class="sp22"></div>'
@@ -248,6 +249,14 @@ def compilar(raiz, so_html=False, provas=False):
         }""")
         pg.pdf(path=str(rd / f'{L["arquivo"]}.pdf'), width="1080px", height="1920px", print_background=True, prefer_css_page_size=True, margin={"top":"0","bottom":"0","left":"0","right":"0"})
         b.close()
+    # O índice de páginas sai SEMPRE, não só com --provas: o pós-processador de links
+    # precisa dele pra montar os marcadores do PDF.
+    (rd / "indice-paginas.json").write_text(json.dumps(indice, ensure_ascii=False, indent=2))
+    # O Chromium escreve link interno como destino NOMEADO, que vários leitores de celular
+    # ignoram em silêncio. Aqui vira destino explícito, e o PDF ganha marcadores.
+    subprocess.run([sys.executable, str(RAIZ_SKILL / "linkar_pdf.py"),
+                    str(rd / f'{L["arquivo"]}.pdf'),
+                    str(rd / "indice-paginas.json"), str(raiz / "livro.json")], check=True)
     print("páginas:", n); print("pdf:", rd / f'{L["arquivo"]}.pdf')
     if orfas:
         print(f"ATENÇÃO: {len(orfas)} página(s) de miolo abaixo de 35% de ocupação:",
@@ -259,7 +268,6 @@ def compilar(raiz, so_html=False, provas=False):
         for f in prov.glob("pag*.png"): f.unlink()
         subprocess.run([sys.executable, str(RAIZ_SKILL / "provas_pdf.py"), str(rd / f'{L["arquivo"]}.pdf'), str(prov)], check=True)
         subprocess.run([sys.executable, str(RAIZ_SKILL / "preview_provas.py"), str(rd)], check=True)
-        (rd / "indice-paginas.json").write_text(json.dumps(indice, ensure_ascii=False, indent=2))
         # A cola sai por cola_png.py: recortar página do PDF entregaria o corpo de leitura
         # (38px) numa peça que é de consulta rápida. É outra tipografia, outra montagem.
         subprocess.run([sys.executable, str(RAIZ_SKILL / "cola_png.py"), str(raiz)], check=True)
