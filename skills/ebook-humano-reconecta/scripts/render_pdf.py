@@ -206,6 +206,11 @@ def compilar(raiz, so_html=False, provas=False):
     with sync_playwright() as p:
         b = p.chromium.launch(); pg = b.new_page()
         pg.goto((rd / "livro.html").resolve().as_uri()); pg.wait_for_selector("body[data-paginado]"); pg.wait_for_timeout(1200)
+        if pg.evaluate("document.body.dataset.semDisplay === '1'"):
+            raise SystemExit(
+                "ERRO: a família \"TT Modernoir\" não está disponível pro Chromium, e o livro sairia\n"
+                "  com a fonte de fallback sem avisar. Ative a TT Modernoir no Adobe Fonts\n"
+                "  (app Creative Cloud > Fontes > Adicionar fontes) e rode de novo.")
         n = pg.evaluate("document.querySelectorAll('.pg').length")
         # Auditoria de ocupação: página de miolo quase vazia é órfã e some no olho de quem
         # folheia 130 provas. Páginas de abertura, parte, capa, sumário, contracapa e as

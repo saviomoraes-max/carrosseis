@@ -210,8 +210,10 @@ Cada uma tem arquivo próprio. Ler antes de mexer em qualquer coisa.
 ## O que falta
 
 **Depende do Sávio:**
-- **Licença das fontes TT Modernoir.** É o único bloqueio de lançamento. O PDF está usando
-  `TT_Modernoir_Trial_Bold.ttf`.
+- ~~Licença das fontes~~ **resolvido em 10/set.** A TT Modernoir licenciada vem do Adobe
+  Fonts ativado na máquina, e o Chromium a resolve pela família. O `@font-face` que
+  apontava pro `.ttf` de trial saiu do `template.html`, e o render morre se a família não
+  resolver. Os `TT_Modernoir_Trial_*.ttf` do design system podem ser apagados.
 - **Amostras ESCRITAS da Ana** (mensagem, e-mail, post). Todo o fingerprint é FALA. Não é
   mais bloqueio (a substituição por fala resolveu o cego em 13 dos 15 blocos), mas é o que
   fecharia o resíduo. O Slack não serve: o token do ambiente está morto (`account_inactive`)

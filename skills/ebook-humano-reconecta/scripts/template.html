@@ -2,7 +2,6 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap">
 <style>
 @page { size: 1080px 1920px; margin: 0; }
-@font-face { font-family: "TT Modernoir"; src: url("{{ds}}/fonts/TT_Modernoir_Trial_Bold.ttf") format("truetype"); font-weight: 700; }
 :root{ --ink:#161616; --ink-deep:#0c0b0b; --cream:#eed9bd; --cream-90:rgba(238,217,189,.9); --cream-80:rgba(238,217,189,.8); --cream-62:rgba(238,217,189,.62); --gold:#eece66; --gold-65:rgba(238,206,102,.65); --red:#d3111a;
   --disp:"TT Modernoir",Impact,sans-serif; --mono:"Space Mono",ui-monospace,Menlo,monospace; --body:Inter,-apple-system,"Helvetica Neue",Arial,sans-serif; }
 *{box-sizing:border-box}
@@ -90,6 +89,9 @@ a.ref{color:var(--gold);text-decoration:none;border-bottom:1.5px solid var(--gol
 {{corpo}}
 <script>
 document.fonts.ready.then(function(){
+  // A display do livro é a TT Modernoir, que vem do Adobe Fonts ativado na máquina.
+  // Sem ela o Chromium cai no Impact do fallback SEM AVISAR e o livro sai com outra cara.
+  if (!document.fonts.check('700 100px "TT Modernoir"')) document.body.dataset.semDisplay = '1';
   const SLUG = {{rodape_json}}; const HUD = {{hud_json}};
   const BARS = [[0,2],[7,3],[15,1],[21,2],[28,3],[36,2],[43,1],[49,3],[57,2],[64,1],[70,2],[77,3],[85,1],[91,2]];
   const barcode = () => '<div class="barcode">' + BARS.map(b => '<i style="left:'+b[0]+'px;width:'+b[1]+'px"></i>').join('') + '</div>';

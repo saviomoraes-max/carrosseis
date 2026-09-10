@@ -114,13 +114,21 @@ livro.
 
 ## O que depende de você
 
-**1. Os arquivos licenciados da TT Modernoir.** Você disse que a licença existe, e eu
-acredito. O problema é outro e é do arquivo: os cinco `.ttf` do design system são a
-build de **trial do DaFont**, e a string de licença que viaja dentro do PDF diz
-textualmente *"This trial version of font software is designed for evaluation purposes
-only, and not for commercial or personal use"*, com copyright da **TypeType**, não da
-Adobe. Ponha os arquivos licenciados em `Reconecta Design System/fonts/` e eu aponto o
-render pra eles em um minuto.
+**1. ~~A fonte~~ — resolvido em 10/set.** Você tinha razão: a TT Modernoir licenciada
+já estava ativada nesta máquina pelo Adobe Fonts, e o `Trademark` dela diz *"TT
+Modernoir (Special version for Adobe)"*. O que estava errado era o render, que apontava
+por `@font-face` pros cinco `.ttf` de **trial do DaFont** que estão na pasta do design
+system e, por isso, sobrepunha a licenciada e embutia no PDF a string *"not for
+commercial or personal use"*.
+
+O `@font-face` saiu. O Chromium resolve a família `TT Modernoir` pelo sistema, e o PDF
+agora embute `TTModernoir-Bd` em 24 subsets, com zero menção a trial, a DaFont ou a
+TypeType, e zero ocorrência de `Impact` (o fallback). O render também morre se a família
+não resolver, pra nunca mais sair um PDF com a tipografia trocada em silêncio.
+
+**Uma limpeza que vale fazer:** os cinco `TT_Modernoir_Trial_*.ttf` em
+`Reconecta Design System/fonts/` podem ser apagados. Enquanto existirem, qualquer peça
+nova que aponte pra pasta reintroduz o problema.
 
 **2. Duas frases prontas da metodologia lidas ao pé da letra dizem outra coisa.**
 Você decidiu que a metodologia é proposital, e o livro voltou a carregar a redação
