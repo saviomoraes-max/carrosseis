@@ -114,55 +114,65 @@ livro.
 
 ## O que depende de você
 
-**1. Licença das fontes TT Modernoir. Isto bloqueia o lançamento.** As fontes
-instaladas são versão trial. O PDF está usando `TT_Modernoir_Trial_Bold.ttf`.
-Vender o material com fonte trial é problema de licenciamento, não de design.
+**1. Os arquivos licenciados da TT Modernoir.** Você disse que a licença existe, e eu
+acredito. O problema é outro e é do arquivo: os cinco `.ttf` do design system são a
+build de **trial do DaFont**, e a string de licença que viaja dentro do PDF diz
+textualmente *"This trial version of font software is designed for evaluation purposes
+only, and not for commercial or personal use"*, com copyright da **TypeType**, não da
+Adobe. Ponha os arquivos licenciados em `Reconecta Design System/fonts/` e eu aponto o
+render pra eles em um minuto.
 
-**2. As duas fontes da metodologia discordam entre si, e isso vazou pro livro.**
-O `01-framework-715.md` e o `03-manual-perguntas.md` trazem redações diferentes
-das mesmas frases prontas:
+**2. Duas frases prontas da metodologia lidas ao pé da letra dizem outra coisa.**
+Você decidiu que a metodologia é proposital, e o livro voltou a carregar a redação
+literal dela. Registro aqui só pra você ter o dado, sem reabrir:
+- *"a doutora vai te ajudar com o [problema] **e** parar de se sentir [como está se
+  sentindo]"* — como "com o [problema]" é sintagma preposicional, "parar" coordena com
+  "vai te ajudar", e quem para de se sentir mal, lido ao pé da letra, é a doutora. É a
+  frase mais copiada do livro e vai colada pro WhatsApp da paciente.
+- *"e de já estar **desde** [tempo] sentindo assim"* — "desde" pede data e a paciente dá
+  duração, então sai "desde uns dois anos". O manual de perguntas escreve "**há** [TEMPO
+  INFORMADO]", que fecha. As duas fontes discordam entre si, e o livro agora reflete
+  cada uma na sua casa: capítulos e cola seguem o framework, anexo B segue o manual.
 
-| Frase | Framework | Manual de perguntas |
-| --- | --- | --- |
-| Transição | "e de já estar **desde** [tempo]" | "e por já estar **há** [TEMPO INFORMADO]" |
-| Apresentação | "com o [problema] **e parar de**" | "com a [DOR TRAZIDA] **e parar de**" |
-| Horário | "na agenda **da Dra. Mariana**" | "na agenda é **[dia/horário]**" |
-| Comprovante | "para já **confirmarmos** seu horário" | "para já **garantir** o seu horário" |
+**3. Dois pontos de cansaço, que são corte editorial.** Detalhe em "O que a leitora
+disse" abaixo.
 
-Padronizei no livro pela redação que fecha gramaticalmente, mas **o PDF da
-metodologia precisa da mesma correção**, senão a divergência volta no próximo
-material. Duas delas são erro de verdade, não variação:
-- "desde [tempo]" não fecha: "desde" pede data e a paciente dá duração ("uns dois anos").
-- "vai te ajudar com o [problema] **e** parar de se sentir" faz a DOUTORA parar de se
-  sentir mal. É a frase mais copiada do livro, e ia direto pro WhatsApp da paciente
-  assim. Virou "**pra você** parar de se sentir".
+## O que a leitora disse, e onde ela cansou
 
-**3. Três buracos de conteúdo que eu não posso preencher sem inventar.**
-- **O que responder quando ela diz que faz o PIX à noite.** O manual de objeções não
-  tem esse card. O capítulo 09 prometia "objeção tem lugar próprio mais pra frente" e
-  o capítulo 11 não entrega. Mudei a remissão pra apontar pra ferramenta genérica que
-  existe, mas o card em si depende da Ana.
-- **O que fazer com as conversas que já morreram no WhatsApp.** A leitora fechou o
-  livro sem saber, e o livro pergunta isso em cinco capítulos. Existe material na fala
-  dela sobre reativação, mas de outra coisa: lista fria de contatos que nunca
-  agendaram, e depende de um "manual de abordagens" que não está entre as fontes.
-  Declarei o recorte no capítulo 12 ("este livro é da próxima conversa em diante") pra
-  não deixar a leitora pendurada. **Se você quiser o capítulo, ele precisa da Ana.**
-- **No capítulo 11, dois cards mandam prometer o valor do procedimento e um terceiro
-  proíbe passar valor de caso que ninguém olhou.** O livro não diz como se cumpre a
-  promessa.
+A banca põe uma leitora-alvo pra ler o livro inteiro de uma sentada, como ela leria:
+dentista de harmonização facial, atende o WhatsApp da própria clínica, comprou pela
+página de vendas, lendo no celular à noite. Ela deu **nota 8** e disse que
+recomendaria pra uma colega. Onde o livro a ganhou, nas palavras dela:
 
-**4. Quem digita no WhatsApp.** O livro nunca decide: ora é você, ora é a atendente,
-ora é a doutora, e as frases prontas pressupõem que a doutora é outra pessoa. Não se
-resolve com achar e substituir: é escolha de leitora-alvo, e é barato resolver agora.
+- a cena da salinha do financeiro no capítulo 1, *"porque eu já fui essa paciente e eu
+  já sou essa clínica"*;
+- o gráfico do bastão no capítulo 2, *"a coisa mais útil do livro inteiro, porque eu me
+  vi respondendo R$ 200 e olhando pro visto azul"*;
+- a paciente do queixo, que atravessa do capítulo 4 ao 9 sem trocar de exemplo;
+- o capítulo 11 inteiro, *"que é o que eu vou realmente usar"*.
 
-**5. Dois pontos de cansaço, que são decisão editorial.** A leitora cansou na abertura
-do capítulo 02 (leu como a página de vendas de novo, com faturamento de 200 mil) e na
-primeira metade do capítulo 12 (que reconta o capítulo 1 pela quarta vez).
+**Ela cansou em dois pontos, e os dois são corte editorial, não defeito:**
 
-**6. Duas correções de pontuação dentro de card de script.** Estão em
-`revisao-pontuacao.json`, campo `em_card`. Não apliquei porque frase de script vai
-literal, e mexer nelas é decisão sua.
+**A abertura do capítulo 02.** É o bloco das quatro doutoras e do *"nós temos pessoas
+que faturam 200 mil em cidades de 5 mil habitantes"*. Nas palavras dela: *"Essa página
+eu pularia. É a página de vendas de novo, com faturamento e tudo, e eu já comprei. Nada
+disso é atendimento no WhatsApp, e o capítulo só engata quando chega na parte de dentro
+do WhatsApp."* O material é literal da fala da Ana e é bom argumento; o problema é o
+lugar, logo depois de ela já ter pago.
+
+**A primeira metade do capítulo 12.** A salinha do financeiro volta **quatro vezes** no
+livro: capítulos 1, 6, 10 e 12. Nas duas últimas ela é renarrada com as frases do
+capítulo 1 quase intactas, e o 12, que deveria ser o giro final, refaz a seção "A
+salinha do WhatsApp" do capítulo 1. Ela: *"Na quarta vez eu passei o dedo pra frente."*
+
+Nos dois casos o conserto é o mesmo e é seu: **cortar, não reescrever.** O 02 engata
+quando chega no WhatsApp; o 12 tem argumento próprio depois que para de recontar. Eu
+não cortei porque é decisão de posicionamento, não de revisão: a abertura do 02 é o
+argumento de que o problema é interno, e você pode querer ele ali mesmo.
+
+O terceiro ponto de cansaço que ela apontou, o link de rastreio à mostra dentro de um
+produto pago, já está resolvido: a leitora vê `supercaso.com.br/consulta` e os UTMs
+viajam no destino.
 
 ## O que dá pra fazer sem depender de ninguém
 

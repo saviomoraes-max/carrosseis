@@ -91,6 +91,8 @@ responde: [Nome], bem que eu gostaria, viu? Mas eu só faço o agendamento... im
 
 Essa é pra quem agenda. Agora, se é você mesma que responde, a lógica não muda: você não passa valor de um caso que ainda não olhou. Só troca o “eu só faço o agendamento” pelo motivo verdadeiro.
 
+E repara que nas duas respostas de preço lá em cima você promete passar a informação, e aqui você não passa o valor. Isso não é contradição, e é o ponto que mais confunde: o que você prometeu foi passar a informação, não cravar um número por mensagem. Prometer e depois recusar seco, aquele “não consigo passar valores”, é o pior dos dois mundos, porque soa como quem esconde. O que a gente faz é explicar o motivo verdadeiro: a doutora precisa avaliar pra garantir o melhor tratamento, e pode ser até que precise de menos do que você imagina. Você não escondeu nada. Você disse que ia passar, e passou o que dá pra passar antes de alguém olhar o caso.
+
 ## Falta de compromisso
 
 :::caso

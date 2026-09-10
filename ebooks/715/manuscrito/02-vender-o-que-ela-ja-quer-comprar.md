@@ -31,7 +31,7 @@ A queixa das quatro era a mesma: chegou menos gente. E as quatro foram procurar 
 Para vender qualquer coisa, é só vender aquilo que a pessoa já quer comprar.
 :::
 
-Gente, essa frase é o 715 inteiro. Ela já quer. Ninguém manda mensagem pra clínica sem querer alguma coisa e o que a gente faz nos sete passos é descobrir o que ela quer de verdade. Pensa o seguinte, toda pergunta que a pessoa faz para você é porque existe um motivo por trás da pergunta. Ela escreve “gostaria de saber como funciona a questão do botox, preenchimento labial, valores?”, e o que ela quer mesmo só aparece depois que alguém pergunta: “me incomoda algumas linhas de expressão que tenho no rosto, principalmente fazer a famosa cara de brava”.
+Gente, essa frase é o 715 inteiro. Ela já quer. Ninguém manda mensagem pra clínica sem querer alguma coisa e o que a gente faz nos sete passos é descobrir o que ela quer de verdade. Pensa o seguinte, toda pergunta que a pessoa faz para você é porque existe um motivo por trás da pergunta. Ela escreve “gostaria de saber como funciona a questão do botox, preenchimento labial, valores?”, e o que ela quer mesmo só aparece depois que alguém pergunta e ela responde: “me incomoda algumas linhas de expressão que tenho no rosto, principalmente fazer a famosa cara de brava”.
 
 Então, o nome é “sete passos para um agendamento a cada cinco contatos”, ó, um a cada cinco, e não “sete passos para agendar todo mundo”, porque o que a gente quer é a paciente sair da conversa querendo marcar sem ninguém ter empurrado, se o problema que ela trouxe se resolve com a consulta. Agora, se não resolve, ela não agenda, e está tudo certo.
 
@@ -39,6 +39,8 @@ Então, o nome é “sete passos para um agendamento a cada cinco contatos”, �
 :::
 
 ## O que eu peço pra você guardar
+
+Antes de tudo, uma coisa sobre o “você” deste livro. Quem digita no WhatsApp da clínica é quem atende, e o script foi escrito pra essa pessoa: repara que a abertura tem dois espaços pra preencher, o seu nome e o nome da doutora. Se quem atende é você mesma, doutora, aí você fala de você na terceira pessoa mesmo, que é como a paciente ouve do outro lado.
 
 Então, eu quero te passar primeiro o que a gente considera a base de qualquer atendimento, tá? São oito coisas, e isso aqui é o que eu vejo dar certo nas clínicas que passam por aqui e são mais de 3 mil, e elas voltam em todos os capítulos, então guarda.
 

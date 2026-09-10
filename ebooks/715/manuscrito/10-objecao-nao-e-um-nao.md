@@ -58,9 +58,9 @@ O que especificamente você precisa pensar?
 
 Qualquer uma das duas serve, tá. A de baixo é a de cima já com o “vou pensar” dentro, então usa ela quando foi isso que chegou.
 
-Se a resposta for vaga, outro “te aviso depois” ou um “ah, não sei”, é cortina de fumaça. E a cortina esconde quase sempre a mesma coisa: ela ainda não sabe se a consulta resolve o problema dela. O preço, o marido e a agenda entram na conversa porque em algum passo anterior ficou raso e a paciente chegou no fechamento sem estar convencida por ela mesma.
+Se a resposta for vaga, outro “te aviso depois” ou um “ah, não sei”, é cortina de fumaça. E a cortina esconde quase sempre a mesma coisa: ela ainda não sabe se a consulta resolve o problema dela. O preço, o marido e a agenda entram na conversa porque algum passo anterior ficou raso e a paciente chegou no fechamento sem estar convencida por ela mesma.
 
-E é aqui que entra o voltar que eu prometi no capítulo 9. Voltar é refazer a pergunta do passo que ficou raso, em vez de inventar resposta nova pra objeção. Olha as duas respostas pro “vou pensar” que você vai ver inteiras no capítulo 11. “O que te fez pensar em resolver isso agora e nos trouxe até aqui?” é a pergunta do passo três. “Como entendeu que a consulta com a doutora vai te ajudar a resolver [problema]?” é a pergunta do passo quatro. Você volta um passo e pergunta de novo.
+E é aqui que entra o voltar que eu prometi no capítulo 9. Voltar é refazer a pergunta do passo que ficou raso, em vez de inventar resposta nova pra objeção. Olha as duas respostas pro “vou pensar” que você vai ver inteiras no capítulo 11. “O que te fez pensar em resolver isso agora e nos trouxe até aqui?” é a pergunta do passo três. “Como entendeu que a consulta com a doutora vai te ajudar a resolver [problema]?” é a pergunta do passo quatro. Você volta pro passo que ficou raso e pergunta de novo.
 
 :::grafico mapa
 “O que te fez pensar em resolver isso agora e nos trouxe até aqui?” | Passo 3

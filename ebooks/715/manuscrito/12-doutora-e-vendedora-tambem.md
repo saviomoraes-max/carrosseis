@@ -43,7 +43,15 @@ Os sete passos são o jeito de não fazer isso antes da consulta. E quando você
 
 ## O que eu quero que você faça agora
 
-Pega a próxima paciente nova que chamar no WhatsApp e faz os sete passos com ela, na ordem. E as conversas que já morreram no seu WhatsApp, essas eu não vou mexer aqui, tá? Este livro é da próxima conversa em diante. A cola do anexo A é uma página só, pra você deixar do lado do celular.
+Pega a próxima paciente nova que chamar no WhatsApp e faz os sete passos com ela, na ordem. A cola do anexo A é uma página só, pra você deixar do lado do celular.
+
+E as conversas que já morreram no seu WhatsApp, aquelas que você abriu enquanto lia este livro? Elas não estão perdidas, e o jeito de voltar nelas não é mandar “passando pra saber se você viu”. Essa é a mensagem que queima o contato de vez.
+
+A regra da casa pra reabrir conversa é uma só: cada toque traz coisa nova. Um caso, uma pergunta, uma referência, alguma coisa que ela ainda não tinha visto. Repetir cobrança sem novidade não é insistência, é queimar o lead.
+
+E o que traz coisa nova numa conversa antiga é a dor que ela já te contou. Você volta na conversa, procura a palavra que ela usou lá atrás, e reabre por ali. Vai até a mensagem antiga dela e curte, que já gera notificação. Ou manda um áudio curto: “vi que você tava olhando, ainda faz sentido pra você?”. Não é cobrança, é reaproximação, e é a palavra dela que abre a porta de novo, do mesmo jeito que abriria numa conversa nova.
+
+Agora, se a base parada é grande demais pra ir uma por uma, a gente faz repescagem, e a nossa é no dia 20 de cada mês: você separa um dia e reativa todo mundo que está parado, com uma abordagem só.
 
 Se a conversa travar, tem um passo que ficou raso. Eu começaria olhando o dois, o capítulo 4, porque é onde ela conta o problema, e paciente que chega lá na frente ainda falando em procedimento é passo dois raso. Então volta lá e refaz a pergunta de clarear com a próxima paciente.
 

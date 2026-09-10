@@ -73,7 +73,7 @@ A vaga de modelo não é gratuita, é mais acessível. A consulta e o procedimen
 ## Fechamento
 
 :::frase
-Podemos reservar a sua vaga no dia [tal], às [hora]?
+Podemos reservar a sua vaga no dia [data], às [hora]?
 :::
 
 Se ela não pode naquela hora, ela fala e a gente vai ajustando o horário. Daí em diante é o passo sete do 715, igualzinho. Horário, chave PIX, comprovante.

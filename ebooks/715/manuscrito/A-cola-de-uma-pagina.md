@@ -4,7 +4,7 @@ kicker: "Anexo A"
 prova: "Anexo A · A cola"
 hud: "Script 715 · Anexo A"
 titulo: "Cola de uma página"
-subtitulo: "Os sete passos, uma pergunta por passo, e o sinal pra avançar. Pra deixar do lado do celular."
+subtitulo: "Os sete passos, as frases de cada um, e o sinal pra avançar. Pra deixar do lado do celular."
 fontes: "fontes/01-framework-715.md; fontes/03-manual-perguntas.md"
 ---
 # Cola de uma página
@@ -49,7 +49,7 @@ Avança quando ela responde completo e emocional, e começa a perguntar da agend
 «5. Transição.» A real é que a iniciativa ela já tomou. Agora é só concretizar a decisão.
 
 :::frase
-[Nome], por conta da forma que trouxe... e de já estar há [tempo] sentindo assim... concordo que não tem por que deixar mais para depois.
+[Nome], por conta da forma que trouxe... e de já estar desde [tempo] sentindo assim... concordo que não tem por que deixar mais para depois.
 :::
 
 Avança imediatamente.
@@ -57,7 +57,7 @@ Avança imediatamente.
 «6. Apresentação.» Vender só o que ela já quer, com as palavras dela.
 
 :::frase
-Por isso, já sei que a doutora vai te ajudar com o [problema] pra você parar de se sentir [como está se sentindo].
+Por isso, já sei que a doutora vai te ajudar com o [problema] e parar de se sentir [como está se sentindo].
 :::
 
 Avança quando ela pergunta da consulta em si, e da disponibilidade.

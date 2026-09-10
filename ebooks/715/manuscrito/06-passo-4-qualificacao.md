@@ -55,7 +55,7 @@ O “com tudo o que falamos” no começo da primeira não é enfeite. Ele amarr
 Pular pra apresentação direto, sem entender o que ela está buscando. E se qualificar, de qualquer jeito que seja, elogiar a doutora ou a clínica pra consulta parecer valer mais.
 :::
 
-O segundo é o erro que mais volta no material, porque se qualificar demais aparece lá na conexão, aqui na qualificação, de novo na transição e ainda na apresentação. A paciente acabou de dizer que quer a consulta, e a atendente, toda animada, emenda: “e a doutora é ótima, os casos dela são perfeitos, olha esse caso que lindo”. Parou. A paciente estava se convencendo sozinha e você entrou no meio pra convencer. E quando a gente qualifica a doutora, todas as informações que a gente coloca nem chegam a ser avaliadas.
+O segundo é o erro que mais volta no material, porque se qualificar demais aparece lá na conexão, aqui na qualificação, de novo na transição e ainda na apresentação. A paciente acabou de dizer que quer a consulta, e você, toda animada, emenda: “e a doutora é ótima, os casos dela são perfeitos, olha esse caso que lindo”. Parou. A paciente estava se convencendo sozinha e você entrou no meio pra convencer. E quando a gente qualifica a doutora, todas as informações que a gente coloca nem chegam a ser avaliadas.
 
 ## Como ela lê você
 
