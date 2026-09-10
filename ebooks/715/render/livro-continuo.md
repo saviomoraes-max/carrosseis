@@ -123,7 +123,7 @@ Então, eu quero te passar primeiro o que a gente considera a base de qualquer a
 
 «4.» Conexão acontece durante o atendimento inteiro, e não só no começo, porque a doutora que é simpática no “oi” e vira tabela de preço quando chega o “quanto custa” perdeu a paciente ali. Isso vai voltar em cada passo.
 
-«5.» Scripts são referências. As perguntas dos próximos capítulos são modelo: você copia a pergunta e troca pelas palavras que ela mesma usou e o que você manda depois depende do que ela respondeu. Copiar e colar o script sem contexto é outro pecado mortal do atendimento. Aí fica uma conversa robótica como se eu tivesse entrevistando a pessoa. Com o tempo você para de olhar o script, porque passa a ler o sinal dela.
+«5.» Scripts são referências. As perguntas dos próximos capítulos são modelo: você copia a pergunta e troca pelas palavras que ela mesma usou e o que você manda depois depende do que ela respondeu. Copiar e colar o script sem contexto é pecado mortal do atendimento. Aí fica uma conversa robótica. Com o tempo você para de olhar o script, porque passa a ler o sinal dela.
 
 «6.» Quem faz as perguntas conduz a conversa, e fica com o bastão na mão. Porque no momento em que ela pergunta quanto custa e você responde o valor e não manda mais nada, o bastão passou pra ela, e aí ela manda um “obrigada, vou pensar”, e você fica olhando pro visto azul. O lead sumiu, eu não agendei, todo mundo saiu sem o problema resolvido. E qual é a forma mais fácil de encerrar uma conversa? Com uma resposta. E eu não tô te pedindo pra esconder o preço, tá? Tô pedindo pra perguntar antes de responder. Qual pergunta? Isso é o passo um.
 
@@ -228,7 +228,9 @@ CAPÍTULO 04 · Situação
    Onde você descobre o que a palavra dela quer dizer.
 ------------------------------------------------------------------------------
 
-[conversa de WhatsApp]
+Essa aqui é outra conversa, e a palavra que ela trouxe é outra. É essa paciente que vai atravessar os próximos capítulos com a gente.
+
+    [conversa de WhatsApp]
       ELA: É que eu tô com o rosto muito flácido, queria ver o que dá pra fazer.
       VOCÊ: Quando você diz “rosto flácido”, o que exatamente você quer dizer com isso?
       ELA: Ah, é mais aqui na parte de baixo, sabe? Perto do queixo. Eu olho no espelho e parece que tá caindo.
@@ -451,9 +453,9 @@ CAPÍTULO 07 · Transição
 ------------------------------------------------------------------------------
 
 [conversa de WhatsApp]
-      VOCÊ: [Nome], por conta da forma que trouxe... e de já estar desde uns dois anos sentindo assim... concordo que não tem por que deixar mais para depois.
+      VOCÊ: Por conta da forma que trouxe... e de já estar desde uns dois anos sentindo assim... concordo que não tem por que deixar mais para depois.
 
-Uma mensagem. É isso o passo cinco. Ele é o mais curto do script, e é onde a tentação de pular etapa tem endereço. Sabe o que a gente faz? Sai do passo quatro, com a paciente declarada, e vai direto pro horário e às vezes funciona. Só que entre o que ela disse e o que você vai oferecer fica faltando uma coisa. A ponte.
+Uma mensagem. É isso o passo cinco, e é o mais curto do script. Sabe o que a gente faz? Sai do passo quatro, com a paciente declarada, e vai direto pro horário, e às vezes funciona. Só que aí fica faltando a parte em que a gente oferece pra ela o problema resolvido, e é isso que a transição é.
 
 ## Pra que serve
 
@@ -461,24 +463,26 @@ Ligar o que a gente faz com o problema que ela trouxe. Mostrar que é isso que e
 
 Os três objetivos falam do problema dela. Sem o problema que a pessoa tá passando, a transição vai ser de onde para onde? E ela não apresenta a consulta ainda, isso é o passo seis. Ela só justifica o próximo passo, com o que ela mesma te contou.
 
+E tem uma coisa aqui que eu acho importantíssima: a pessoa não pode sair da transição com medo. Com medo ela já tava desde o momento que entrou em contato. A transição precisa deixar ela mais certa da decisão, e não mais incerta.
+
 ## A frase
 
     FRASE PRONTA — [Nome], por conta da forma que trouxe... e de já estar desde [tempo] sentindo assim... concordo que não tem por que deixar mais para depois.
 
-Três pedaços. O nome dela. A forma como ela trouxe e o tempo que ela está assim. O que você preenche são dois, o nome e o tempo. O nome você já tem desde o começo da conversa. O tempo ela te contou lá no passo três quando você perguntou “por que agora” e o script chama esse pedaço de “tempo informado” porque é o tempo que ela mesma te deu. O “por conta da forma que trouxe” é o corpo do script. O que muda são os colchetes. A palavra dela mesma entra no passo seis. E o “concordo”. Você não está propondo que ela resolva agora. Ela já tomou essa decisão no passo três, quando disse “por que agora”, e o que você faz aqui é concordar. Quem concorda está do lado dela.
+Três pedaços. O nome dela. A forma como ela trouxe e o tempo que ela está assim. O que você preenche são dois, o nome e o tempo. O nome você já tem desde o começo da conversa. O tempo ela te contou sozinha, contando o problema, lá no passo dois: “tem uns dois anos que eu reparo”. O script chama esse pedaço de “tempo informado” porque é o tempo que ela mesma te deu. O “por conta da forma que trouxe” é o corpo do script. O que muda são os colchetes. A palavra dela mesma entra no passo seis. E o “concordo”. Você não está propondo que ela resolva agora. Ela já tomou essa decisão no passo três, quando disse “por que agora”, e o que você faz aqui é concordar. Quem concorda está do lado dela.
 
     [gráfico: grade]
       1 | «[Nome]» · você já tem desde o começo
       2 | «por conta da forma que trouxe» · é o corpo do script, não muda
-      3 | «desde [tempo]» · ela te deu no passo três
+      3 | «desde [tempo]» · ela mesma te deu, no passo dois
 
 E se ela não te deu o tempo, não inventa um. Tira esse pedaço e fica só com a forma que ela trouxe, a frase aguenta.
 
-As reticências são do script e eu acho que fazem diferença. No WhatsApp a paciente lê com a pausa, como se você estivesse pensando junto com ela. Mantém.
+As reticências são do script e eu acho que fazem diferença, então mantém elas. No WhatsApp a paciente lê com a pausa, como se você estivesse pensando junto com ela.
 
     O QUE EVITAR — Explicação técnica sobre procedimento. Listar todas as qualificações da doutora sem conexão com o problema. Passar muita informação de uma vez. E falar de preço antes de mostrar como a consulta resolve o problema.
 
-Três desses quatro são a mesma tentação, que é encher a mensagem. A transição funciona porque é curta. Agora, se depois do “não tem por que deixar mais para depois” você emenda um parágrafo sobre bioestimulador, a ponte caiu.
+Três desses quatro são a mesma tentação, que é encher a mensagem. A transição funciona porque é curta. Agora, se depois do “não tem por que deixar mais para depois” você emenda um parágrafo sobre bioestimulador, você acabou de passar muita informação de uma vez, que é justamente o que a lista logo acima manda evitar.
 
 O quarto é outro erro, e é de ordem trocada. Ela ainda não viu como a consulta resolve o problema dela, e se o valor não for percebido, nem se a consulta for de graça vai valer a pena.
 
@@ -641,7 +645,7 @@ CAPÍTULO 10 · Objeção não é um não
 [conversa de WhatsApp]
       ELA: Ah, entendi. Vou pensar e qualquer coisa te aviso.
 
-Naqueles dez minutinhos da salinha, o que passou pela minha cabeça foi isso: e se for muito caro, será que é prioridade agora, será que eu não encontro outro jeito? Eu, que trabalho com isso o dia inteiro. E a doutora, na mesma consulta, tinha me falado que estava com muita gente indo pra casa pensar. Então, quando eu leio um “vou pensar e qualquer coisa te aviso” no WhatsApp de uma clínica, eu sei o que tem atrás, porque já passou pela minha cabeça também. Se você atende WhatsApp de clínica, já leu essa mensagem mais vezes do que gostaria, sabe?
+Naqueles dez minutinhos antes da salinha, o que passou pela minha cabeça foi isso: e se for muito caro, será que é prioridade agora, será que eu não encontro outro jeito? Eu, que trabalho com isso o dia inteiro. E a doutora, na mesma consulta, tinha me falado que estava com muita gente indo pra casa pensar. Então, quando eu leio um “vou pensar e qualquer coisa te aviso” no WhatsApp de uma clínica, eu sei o que tem atrás, porque já passou pela minha cabeça também. Se você atende WhatsApp de clínica, já leu essa mensagem mais vezes do que gostaria, sabe?
 
 E a resposta que perde a paciente é justamente a mais educada, “claro, fico à disposição”. Educado, tranquilo, e a conversa acabou ali. O controle passou pra ela, e ela provavelmente não volta. E mesmo assim a gente responde isso, porque parece o certo.
 
@@ -779,7 +783,7 @@ O preço não é a objeção real. Gente, o que incomoda a paciente não é paga
 
 Essa é pra quem agenda. Agora, se é você mesma que responde, a lógica não muda: você não passa valor de um caso que ainda não olhou. Só troca o “eu só faço o agendamento” pelo motivo verdadeiro.
 
-E repara que nas duas respostas de preço lá em cima você promete passar a informação, e aqui você não passa o valor. Isso não é contradição, e é o ponto que mais confunde: o que você prometeu foi passar a informação, não cravar um número por mensagem. Prometer e depois recusar seco, aquele “não consigo passar valores”, é o pior dos dois mundos, porque soa como quem esconde. O que a gente faz é explicar o motivo verdadeiro: a doutora precisa avaliar pra garantir o melhor tratamento, e pode ser até que precise de menos do que você imagina. Você não escondeu nada. Você disse que ia passar, e passou o que dá pra passar antes de alguém olhar o caso.
+E repara que nas três respostas de preço lá em cima você promete passar a informação, e aqui você não passa o valor. Isso não é contradição, e é o ponto que mais confunde: o que você prometeu foi passar a informação, não cravar um número por mensagem. Prometer e depois recusar seco, aquele “não consigo passar valores”, é o pior dos dois mundos, porque soa como quem esconde. O que a gente faz é explicar o motivo verdadeiro: a doutora precisa avaliar pra garantir o melhor tratamento, e pode ser até que precise de menos do que você imagina. Você não escondeu nada. Você disse que ia passar, e passou o que dá pra passar antes de alguém olhar o caso.
 
 ## Falta de compromisso
 
@@ -789,7 +793,7 @@ E repara que nas duas respostas de preço lá em cima você promete passar a inf
       O QUE CONTINUA A CONVERSA: Sem problemas! Pra gente entender se faz sentido seguir também, o que te fez pensar em resolver isso agora e nos trouxe até aqui?
       O QUE CONTINUA A CONVERSA: Claro! Pra gente encerrar aqui também, como entendeu que a consulta com a doutora vai te ajudar a resolver [problema]?
 
-Essa frase encerra a conversa e transfere o controle pra paciente, que provavelmente nunca mais vai voltar, e você perde a chance de entender o que ainda está impedindo a decisão.
+O “fico à disposição” encerra a conversa e transfere o controle pra paciente, que provavelmente nunca mais vai voltar, e você perde a chance de entender o que ainda está impedindo a decisão.
 
     [cartão de objeção]
       ELA MANDA: “vou ver com meu marido e te aviso”.
@@ -910,7 +914,7 @@ Os sete passos são o jeito de não fazer isso antes da consulta. E quando você
 
 ## O que eu quero que você faça agora
 
-Pega a próxima paciente nova que chamar no WhatsApp e faz os sete passos com ela, na ordem. A cola do anexo A é uma página só, pra você deixar do lado do celular.
+Pega a próxima paciente nova que chamar no WhatsApp e faz os sete passos com ela, na ordem. A cola do anexo A é curta de propósito, pra você deixar do lado do celular. E se a mensagem que chegar for de anúncio de paciente modelo, o caminho é outro, mais curto de propósito, e está inteiro no anexo C.
 
 E as conversas que já morreram no seu WhatsApp, aquelas que você abriu enquanto lia este livro? Elas não estão perdidas, e o jeito de voltar nelas não é mandar “passando pra saber se você viu”. Essa é a mensagem que queima o contato de vez.
 
@@ -929,7 +933,7 @@ E se você quiser que a gente olhe isso junto, a sua conversa, o seu número, a 
     PERGUNTA EM ABERTO — Agora, antes de você fechar o livro: na sua clínica, você tem a salinha do fechamento ou a salinha do pagamento? E a próxima paciente que te mandar mensagem, quem vai passar o preço pra ela? Você, ou alguém que não ouviu nada do problema dela?
 
 ------------------------------------------------------------------------------
-ANEXO A · Cola de uma página
+ANEXO A · Cola rápida
    Os sete passos, as frases de cada um, e o sinal pra avançar. Pra deixar do lado do celular.
 ------------------------------------------------------------------------------
 
@@ -1099,6 +1103,8 @@ O que a gente usa é um meio-termo. Nem só a mensagem “topa ou não topa”, 
 
 ## Conexão
 
+Edição é a leva de vagas de modelo que você abre no mês. É a palavra que vai na primeira mensagem, então ela precisa estar clara pra você antes de estar pra ela.
+
     FRASE PRONTA — Oi [Nome], aqui é a [seu nome], da clínica da doutora [nome da doutora]. Antes de passar as informações sobre a vaga de paciente modelo, deixa eu entender rapidinho se faz sentido você entrar ainda nessa edição. E se sim, a gente pensa nos próximos passos. Como você entende que participar dessa edição vai te ajudar agora?
 
 A resposta que você quer ouvir é alguma versão de “eu estou buscando uma oportunidade de fazer harmonização facial por um preço mais acessível”. Quem veio pelo quiz, que é o formulário de perguntas que ela responde antes de cair no seu WhatsApp, chega um pouco mais consciente, porque leu muita coisa no caminho. Quem veio direto pra mensagem precisa dessa conscientização aqui, na conversa.
@@ -1122,11 +1128,11 @@ Fora da faixa etária ou fora do problema, a gente já agradece.
 
     FRASE PRONTA — Pela forma como você trouxe isso, e pelo que a doutora avaliou, faz todo sentido você ser uma das selecionadas pra vaga de paciente modelo. Tanto a consulta quanto o procedimento são feitos pela própria doutora, com o mesmo cuidado do atendimento de sempre, por um valor mais acessível.
 
-E aqui entram as informações da vaga. Edição é a leva de vagas de modelo que você abre no mês.
+E aqui entram as informações da vaga.
 
-    FRASE PRONTA — A vaga que abriu é dia [data], às [hora]. O valor normal desse protocolo é [valor] e, como paciente modelo, fica [valor]. Como modelo, a gente usa as suas fotos de antes e depois nos nossos anúncios. Pra travar a vaga tem uma reserva de [valor].
+    FRASE PRONTA — A vaga que abriu é dia [data], às [hora]. O valor normal desse protocolo é [valor normal] e, como paciente modelo, fica [valor de modelo]. Como modelo, a gente usa as suas fotos de antes e depois nos nossos anúncios. Pra travar a vaga tem uma reserva de [valor da reserva].
 
-Não é consulta, é «reserva». O valor da reserva já entra como parte do pagamento, sem taxa extra. Pra paciente modelo, quanto menos resistência, melhor.
+O que ela paga pra travar a vaga não é a consulta, é uma «reserva». O valor da reserva já entra como parte do pagamento, sem taxa extra. Pra paciente modelo, quanto menos resistência, melhor.
 
 E quando vier o “como assim, eu vou ter que pagar?”, que vem, a resposta já é a da apresentação.
 

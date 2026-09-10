@@ -3,11 +3,11 @@ numero: "A"
 kicker: "Anexo A"
 prova: "Anexo A · A cola"
 hud: "Script 715 · Anexo A"
-titulo: "Cola de uma página"
+titulo: "Cola rápida"
 subtitulo: "Os sete passos, as frases de cada um, e o sinal pra avançar. Pra deixar do lado do celular."
 fontes: "fontes/01-framework-715.md; fontes/03-manual-perguntas.md"
 ---
-# Cola de uma página
+# Cola rápida
 
 :::grafico rail 0
 :::

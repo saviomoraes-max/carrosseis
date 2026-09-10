@@ -59,7 +59,7 @@ Então, eu quero te passar primeiro o que a gente considera a base de qualquer a
 
 «4.» Conexão acontece durante o atendimento inteiro, e não só no começo, porque a doutora que é simpática no “oi” e vira tabela de preço quando chega o “quanto custa” perdeu a paciente ali. Isso vai voltar em cada passo.
 
-«5.» Scripts são referências. As perguntas dos próximos capítulos são modelo: você copia a pergunta e troca pelas palavras que ela mesma usou e o que você manda depois depende do que ela respondeu. Copiar e colar o script sem contexto é outro pecado mortal do atendimento. Aí fica uma conversa robótica como se eu tivesse entrevistando a pessoa. Com o tempo você para de olhar o script, porque passa a ler o sinal dela.
+«5.» Scripts são referências. As perguntas dos próximos capítulos são modelo: você copia a pergunta e troca pelas palavras que ela mesma usou e o que você manda depois depende do que ela respondeu. Copiar e colar o script sem contexto é pecado mortal do atendimento. Aí fica uma conversa robótica. Com o tempo você para de olhar o script, porque passa a ler o sinal dela.
 
 «6.» Quem faz as perguntas conduz a conversa, e fica com o bastão na mão. Porque no momento em que ela pergunta quanto custa e você responde o valor e não manda mais nada, o bastão passou pra ela, e aí ela manda um “obrigada, vou pensar”, e você fica olhando pro visto azul. O lead sumiu, eu não agendei, todo mundo saiu sem o problema resolvido. E qual é a forma mais fácil de encerrar uma conversa? Com uma resposta. E eu não tô te pedindo pra esconder o preço, tá? Tô pedindo pra perguntar antes de responder. Qual pergunta? Isso é o passo um.
 

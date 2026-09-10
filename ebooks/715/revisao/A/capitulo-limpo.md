@@ -1,4 +1,4 @@
-# Cola de uma página
+# Cola rápida
 
 :::grafico rail 0
 :::

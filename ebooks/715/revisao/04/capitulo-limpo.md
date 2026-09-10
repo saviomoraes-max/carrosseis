@@ -1,5 +1,7 @@
 # Situação
 
+Essa aqui é outra conversa, e a palavra que ela trouxe é outra. É essa paciente que vai atravessar os próximos capítulos com a gente.
+
 :::cena
 ELA: É que eu tô com o rosto muito flácido, queria ver o que dá pra fazer.
 VOCÊ: Quando você diz “rosto flácido”, o que exatamente você quer dizer com isso?

@@ -434,6 +434,58 @@ leitores cegos citaram como prova de humanidade. Tirá-las deve empurrar o vered
 direção de "ia". Isso é preço, não defeito: o produto é lido por uma doutora cansada no
 celular, não por um detector. Quando as duas réguas brigarem, ganha a leitora.
 
+## 3l. Metáfora inventada é andaime, e o detector não a vê
+
+O capítulo mais curto do livro (a transição, 7 páginas de prosa) foi o único que os três
+leitores cegos reprovaram por unanimidade: **3 a 0 pra "IA"**. Ao mesmo tempo o detector
+dava score **0** nele, o mais limpo do livro inteiro. As duas medições estavam certas e
+mediam coisas diferentes.
+
+O que os cegos ouviam era **uma metáfora que eu inventei sustentando o capítulo**. A palavra
+era "ponte": a transição era a ponte, a frase pronta era a ponte, e o erro fazia "a ponte
+cair". Três aparições, nas três dobras estruturais do capítulo.
+
+A conferência que resolve isso é de uma linha:
+
+```bash
+grep -c "ponte" corpus/autora.txt   # 0 em 80.938 palavras
+grep -rn "ponte" fontes/*.md        # 0
+```
+
+**Zero na fala dela, zero nas fontes.** Era minha, e estava carregando o capítulo.
+
+### Por que o detector não pega
+
+O detector mede vocabulário e estrutura de frase contra o corpus. Metáfora inventada não usa
+palavra de IA, não usa conector proibido, não faz antítese. Ela passa limpa. O que ela produz
+é **ritmo**: uma imagem inventada precisa ser plantada, retomada e paga, e essas três batidas
+caem em pontos regulares. Foi exatamente isso que os cegos descreveram, cada um com outra
+palavra: "beat desenhado", "todo parágrafo termina com um clique redondo", "regularidade
+rítmica é o tell mais forte".
+
+### A régua
+
+1. **Toda imagem que organiza um capítulo precisa passar no grep do corpus.** Se a autora
+   nunca disse aquilo, ela não pode ser a viga. Pode ser uma frase de passagem; não pode ser
+   o que segura três parágrafos.
+2. **Pancada curta de uma palavra fechando parágrafo** ("A ponte.", "Mantém.") é o
+   maneirismo que o fingerprint proíbe explicitamente. Ela não faz isso.
+3. **O conserto não é cortar, é substituir por fala real.** Cortar a metáfora deixa o buraco
+   e o capítulo fica mais liso ainda. Ir ao corpus e achar como ela diz aquilo é o que move
+   o cego. Aqui virou "a parte em que a gente oferece pra ela o problema resolvido", que é
+   dela, e entrou junto uma doutrina que o capítulo não tinha ("a pessoa não pode sair da
+   transição com medo").
+4. **Depois de enxertar, rode o detector no bloco.** O meu enxerto introduziu um contraste
+   "não é X, é Y", que o fingerprint limita a um por capítulo. O detector pegou na hora.
+
+Resultado da passada: 0 a 3 pra "IA" virou **2 a 1 pra "pessoa"**, e as duas provas de que
+era gente que os leitores citaram foram as frases dela que eu enxertei.
+
+**Corolário pro portão:** um bloco com detector baixo e cego reprovando não é contradição, é
+divisão de trabalho. O detector vê palavra, o cego ouve ritmo. Bloco de prosa composta, sem
+cena e sem caso, é o candidato natural — rode o cego nele mesmo quando o detector estiver
+zerado.
+
 ## 4. O que nunca entra
 
 - Caso, número, data ou frase pronta que não esteja nas fontes ou na fala

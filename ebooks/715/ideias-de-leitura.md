@@ -68,6 +68,48 @@ manuscrito** — nenhum diagrama afirma nada que o texto ao lado não diga.
   `duas` ou um `leituras` separa a célula do par dela.
 - O rótulo "FECHAMENTO" do trilho cortava na borda direita da página.
 
+## Feito em 10/set (tarde): a faxina do parecer da 5ª banca
+
+A 5ª banca confirmou três achados pelo cético e o relator escreveu, além deles, uma lista de
+itens que ninguém tinha aplicado porque não passaram no cético. Só que boa parte deles não é
+opinião, é CONTAGEM — dá pra provar com grep. Verifiquei um por um antes de tocar em qualquer
+coisa. Oito eram defeito de verdade:
+
+22. **Anexo C: três números diferentes com o mesmo `[valor]`.** "O valor normal desse protocolo
+    é [valor] e, como paciente modelo, fica [valor]... uma reserva de [valor]." A doutora
+    preenche e ENVIA. Virou `[valor normal]`, `[valor de modelo]`, `[valor da reserva]`. É o
+    mais caro da lista porque o erro sai da clínica dela, não do livro.
+23. **Anexo C: "edição" usada quatro vezes antes de ser definida**, e a primeira delas dentro da
+    mensagem que a leitora manda. A definição era do próprio livro, só estava 31 linhas tarde
+    demais. Subiu pra antes da primeira frase pronta.
+24. **Anexo C não era chamado por ninguém.** Nove páginas que só o sumário alcançava. Uma linha
+    no cap 12 resolve, e o link interno já aponta pra lá.
+25. **Cap 10: "naqueles dez minutinhos da salinha".** No cap 01 os dez minutinhos são de espera
+    na recepção, ANTES de entrar. A volta da cena contradizia o gráfico da própria cena.
+26. **Cap 11: "nas duas respostas de preço lá em cima" são três.** Contadas: as três prometem
+    passar a informação.
+27. **Cap 02: "outro pecado mortal" sem primeiro pecado.** Nenhum dos quatro itens anteriores
+    fala em pecado.
+28. **Cap 02: a comparação da conversa robótica aparecia duas vezes.** No corpus a autora falou
+    ela UMA vez. Fica no cap 05, onde a leitura negativa É o interrogatório.
+29. **Cap 04: a troca de procedimento sem costura.** O cap 03 demonstra com preenchimento labial
+    e o 04 abre com flacidez no queixo. Uma linha reconhece a troca e apresenta a paciente que
+    atravessa 04, 05, 06, 07 e 08.
+30. **Cap 07: o `[tempo]` creditado ao passo três.** Na cena do próprio livro ela entrega o tempo
+    ("tem uns dois anos que eu reparo") respondendo o passo DOIS, uma fala antes da pergunta do
+    "por que agora".
+
+**Seis achados do mesmo parecer eu descartei, e o motivo importa mais que o corte:**
+- "nem se a consulta for de graça vai valer a pena" nos caps 07 e 11: é literal do manual de
+  objeções, que também a repete em dois lugares (p.48 e p.270). Metodologia é proposital.
+- "olha esse caso que lindo" nos caps 03 e 06: o cap 06 declara a repetição na mesma frase
+  ("é o erro que mais volta no material"). Callback marcado não é eco.
+- "a salinha do fechamento ou a salinha do pagamento" nos caps 01 e 12: é o bookend do livro,
+  a mesma pergunta abrindo e fechando.
+- "lead" quatro vezes: é palavra da autora, está no corpus.
+- `[tempo]` contra `[tempo informado]`: as duas metodologias divergem e o Sávio já decidiu.
+- a frase da apresentação e o "desde [tempo]": decisão do Sávio, metodologia é proposital.
+
 ## Propostas (a validar)
 
 ~~A. Cap. 11 em duas colunas~~ — FEITO, como cartão (item 13). Duas colunas não cabem em 9:16. Era: "se quiser perder" (vermelho) × "se quiser continuar" (dourado). Hoje é prosa + card; em coluna vira consulta rápida no celular.
@@ -75,9 +117,9 @@ manuscrito** — nenhum diagrama afirma nada que o texto ao lado não diga.
 C. Um caso completo em balões, do "quanto custa" ao comprovante, como anexo C. Precisa de fonte: uma conversa real anonimizada (canal de depoimentos no Slack) ou um roteiro que a Ana aprove. Não invento.
 D. Anexo B também indexado "pelo que ela disse": a paciente escreveu X → você responde Y. Hoje é por etapa.
 ~~E. Cola em PNG~~ — FEITO (item 12). Era: 1080×1920 separado, pra doutora salvar no celular e abrir sem o PDF.
-F. Links internos no PDF: sumário clicável e toda menção "capítulo 11" vira link. Custo baixo no render.
+~~F. Links internos no PDF~~ — FEITO **e verificado**. O sumário e toda menção a capítulo ou anexo viram link. A checagem que faltava era outra: o Chromium podia estar descartando âncora interna na impressão, e o sumário viraria retângulo morto sem ninguém perceber. Conferido no PDF gerado, destino por destino, contra o `indice-paginas.json`: 35 links internos, todos caindo na abertura certa, mais os 2 externos do CTA. O regex do render só cobria anexo A e B; foi pra A-D, senão a primeira menção a anexo C sairia como texto morto.
 ~~G. Barra de progresso~~ — FEITO (item 11). Era: (hairline com a posição), além do "Passo 03/07" do HUD.
-H. Glossário de uma página: bastão, cortina de fumaça, presente inaceitável, leitura, transição.
+H. Glossário de uma página: bastão, cortina de fumaça, presente inaceitável, leitura, transição. **Medido em 10/set e o buraco é menor do que parecia:** cada termo da casa já nasce definido na primeira aparição — bastão no cap 02, presente inaceitável é o título do 05, cortina de fumaça abre o 10, edição agora vem antes da primeira mensagem no anexo C. Sobra só "transição", usada no cap 06 antes do 07 definir, e ela já é nome de passo no trilho. Se for fazer, toda entrada é frase LITERAL do livro com o capítulo de origem: definição inventada já passou por quatro rodadas aqui.
 ~~I. Contracapa~~ — FEITO (item 10). Era: (hoje o link está solto no cap. 12).
 J. Áudio: se a Ana gravar cada capítulo, QR/link na abertura. Fecha o problema de voz de vez.
 K. Carimbos tipográficos nas aberturas ("Caso aberto", "Arquivo confidencial"), no vocabulário dos kickers do DS. Só se não pesar.

@@ -24,6 +24,8 @@ A mensagem “topa ou não topa” | O meio-termo | Os sete passos completos
 
 ## Conexão
 
+Edição é a leva de vagas de modelo que você abre no mês. É a palavra que vai na primeira mensagem, então ela precisa estar clara pra você antes de estar pra ela.
+
 :::frase
 Oi [Nome], aqui é a [seu nome], da clínica da doutora [nome da doutora]. Antes de passar as informações sobre a vaga de paciente modelo, deixa eu entender rapidinho se faz sentido você entrar ainda nessa edição. E se sim, a gente pensa nos próximos passos. Como você entende que participar dessa edição vai te ajudar agora?
 :::
@@ -56,13 +58,13 @@ As vagas de paciente modelo desse mês já foram encerradas, mas numa próxima o
 Pela forma como você trouxe isso, e pelo que a doutora avaliou, faz todo sentido você ser uma das selecionadas pra vaga de paciente modelo. Tanto a consulta quanto o procedimento são feitos pela própria doutora, com o mesmo cuidado do atendimento de sempre, por um valor mais acessível.
 :::
 
-E aqui entram as informações da vaga. Edição é a leva de vagas de modelo que você abre no mês.
+E aqui entram as informações da vaga.
 
 :::frase
-A vaga que abriu é dia [data], às [hora]. O valor normal desse protocolo é [valor] e, como paciente modelo, fica [valor]. Como modelo, a gente usa as suas fotos de antes e depois nos nossos anúncios. Pra travar a vaga tem uma reserva de [valor].
+A vaga que abriu é dia [data], às [hora]. O valor normal desse protocolo é [valor normal] e, como paciente modelo, fica [valor de modelo]. Como modelo, a gente usa as suas fotos de antes e depois nos nossos anúncios. Pra travar a vaga tem uma reserva de [valor da reserva].
 :::
 
-Não é consulta, é «reserva». O valor da reserva já entra como parte do pagamento, sem taxa extra. Pra paciente modelo, quanto menos resistência, melhor.
+O que ela paga pra travar a vaga não é a consulta, é uma «reserva». O valor da reserva já entra como parte do pagamento, sem taxa extra. Pra paciente modelo, quanto menos resistência, melhor.
 
 E quando vier o “como assim, eu vou ter que pagar?”, que vem, a resposta já é a da apresentação.
 

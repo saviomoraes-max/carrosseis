@@ -43,7 +43,7 @@ Os sete passos são o jeito de não fazer isso antes da consulta. E quando você
 
 ## O que eu quero que você faça agora
 
-Pega a próxima paciente nova que chamar no WhatsApp e faz os sete passos com ela, na ordem. A cola do anexo A é uma página só, pra você deixar do lado do celular.
+Pega a próxima paciente nova que chamar no WhatsApp e faz os sete passos com ela, na ordem. A cola do anexo A é curta de propósito, pra você deixar do lado do celular. E se a mensagem que chegar for de anúncio de paciente modelo, o caminho é outro, mais curto de propósito, e está inteiro no anexo C.
 
 E as conversas que já morreram no seu WhatsApp, aquelas que você abriu enquanto lia este livro? Elas não estão perdidas, e o jeito de voltar nelas não é mandar “passando pra saber se você viu”. Essa é a mensagem que queima o contato de vez.
 

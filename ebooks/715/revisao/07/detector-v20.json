@@ -1,0 +1,110 @@
+{
+  "arquivo": "manuscrito/07-passo-5-transicao.md",
+  "palavras": 513,
+  "paragrafos": 11,
+  "frases": 44,
+  "mascarado": {
+    "frontmatter": 1,
+    "blocos_script": 4,
+    "marcadores_bloco": 10,
+    "citacoes": 7,
+    "titulos_curtos": 4
+  },
+  "avisos": [],
+  "absolvidos_pelo_corpus": [],
+  "amostra_pequena": false,
+  "score": 11,
+  "faixa": "limpo (soa gente)",
+  "pontos": 3,
+  "densidade": 5.8,
+  "formula": "densidade = pontos / max(palavras, piso_palavras) * 1000; score = 100 * (1 - exp(-densidade / k)), k = 50, piso_palavras = 300 (texto curto não explode com um achado só). Nota por categoria usa k_categoria sobre a densidade só daquela categoria.",
+  "categorias": {
+    "conteudo": {
+      "rotulo": "Conteúdo e inflação",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "linguagem": {
+      "rotulo": "Linguagem e vocabulário",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "estrutura": {
+      "rotulo": "Estrutura e ritmo",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "comunicacao": {
+      "rotulo": "Sobras de chatbot",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "meta": {
+      "rotulo": "Uniformidade de ritmo (estatística)",
+      "achados": 1,
+      "pontos": 3,
+      "densidade": 5.8,
+      "nota": 32
+    },
+    "calques": {
+      "rotulo": "Calques do inglês e burocratês",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    }
+  },
+  "metricas": {
+    "frases_media_palavras": 11.9,
+    "frases_desvio_padrao": 6.4,
+    "frases_cv": 0.54,
+    "paragrafos": 11,
+    "paragrafos_mediana_palavras": 40,
+    "paragrafos_proporcao_mesmo_tamanho": 0.64,
+    "ritmo_entre_paragrafos_desvio": 0.201,
+    "pontuacao_cv": 0.21,
+    "ttr": 0.396,
+    "frases_mesmo_inicio_proporcao": 0.12,
+    "travessoes": 0,
+    "travessoes_por_mil": 0.0,
+    "dois_pontos": 2,
+    "dois_pontos_por_mil": 3.9,
+    "itens_lista": 0,
+    "proporcao_linhas_em_lista": 0.0,
+    "negritos": 0,
+    "triades": 1,
+    "triades_por_mil": 1.95,
+    "contrastes": 0,
+    "paragrafos_terminando_em_pergunta": 1,
+    "fechos_grandiosos": 0,
+    "hedges": 0,
+    "hedges_por_mil": 0.0
+  },
+  "achados": [
+    {
+      "id": "m_pontuacao_uniforme",
+      "categoria": "meta",
+      "subtipo": "ritmo",
+      "gravidade": "baixa",
+      "peso": 3,
+      "texto": "pontuação uniforme entre parágrafos (CV 0.21)",
+      "inicio": 454,
+      "fim": 749,
+      "explicacao": "Densidade de pontuação igual em todos os parágrafos.",
+      "sugestao": "Parágrafo denso de vírgula ao lado de parágrafo seco.",
+      "contribuicao": 3,
+      "linha": 16,
+      "trecho": "«Uma mensagem. É isso o passo cinco, e é o mais curto do script. Sabe o que a gente faz? Sai do passo quatro, com a paciente declarada, e vai direto pro horário, e às vezes funciona. Só que aí fica faltando a parte em que a gente oferece pra ela o problema resolvido, e é isso que a transição é. »"
+    }
+  ],
+  "achados_ocultos": 0,
+  "min_gravidade": "baixa"
+}

@@ -142,6 +142,15 @@ literal dela. Registro aqui só pra você ter o dado, sem reabrir:
   INFORMADO]", que fecha. As duas fontes discordam entre si, e o livro agora reflete
   cada uma na sua casa: capítulos e cola seguem o framework, anexo B segue o manual.
 
+  **Esta segunda merece uma última olhada sua, porque a 6ª banca mudou a natureza do
+  argumento.** Até agora era erro de leitura, coisa que quase ninguém repara. A leitora da
+  banca reformulou assim: ela não leu o livro e tropeçou, ela **copiou a frase pra mandar e
+  travou**. O livro manda preencher com o que a paciente disse, e o que a paciente diz no
+  próprio exemplo do livro é *"tem uns dois anos que eu reparo"*. O que sai do WhatsApp da
+  clínica é *"de já estar desde dois anos sentindo assim"*. São quatro ocorrências (cap 07 e
+  anexo A), e a troca é de uma palavra. **Não mexi**, porque você decidiu que metodologia é
+  proposital, e essa decisão continua valendo até você dizer o contrário.
+
 **3. As muletas orais saíram, e isso tem um preço declarado.** A seu pedido, 38 muletas
 foram cortadas: o `, né,` do meio da frase e o `, né.` fechando com ponto. Ficaram as 28
 que fecham pergunta com `?`, que são recurso escrito, e os vocativos que se dirigem a
@@ -206,6 +215,36 @@ renarração.
 O terceiro ponto de cansaço que ela apontou, o link de rastreio à mostra dentro de um
 produto pago, já está resolvido: a leitora vê `supercaso.com.br/consulta` e os UTMs
 viajam no destino.
+
+### O que a 6ª banca põe na sua mesa e nenhuma lente resolve
+
+Quatro coisas que a banca aponta e diz, com todas as letras, que não são revisão:
+
+**A última página.** O livro roda o passo um na leitora pra marcar a call, e ela, que já
+tinha pago, terminou o livro desconfiada. A frase dela: recomendaria o livro **avisando pra
+ignorar a última página**. A banca sabe o custo (uma leitora satisfeita fechando o livro na
+defensiva) e não sabe o ganho, porque a taxa de conversão dessa call é um número seu. Se o
+livro é isca pra call, talvez seja exatamente o desenho.
+
+**A objeção que falta.** *"Faço o PIX à noite"* é, segundo a leitora, a mais comum do dia
+dela, e é a única do dia dela que não tem texto pronto no livro. Escrever é conteúdo novo,
+com escopo e prazo, não conserto.
+
+**Os doze fins de capítulo.** Quase todos terminam numa pergunta em aberto que faz a leitora
+pensar nas conversas que ela perdeu, e nenhum dá uma tarefa pra amanhã de manhã. Pode ser
+doutrina da casa ou pode ser buraco. Mexer nisso é reeditar os doze fechos, então é escopo,
+não revisão.
+
+**O anexo C e olho jurídico.** Nenhuma das seis lentes olhou o livro do ponto de vista de
+regra de publicidade ou de conselho de classe, e o anexo C trata de vaga de paciente modelo,
+reserva e abatimento no valor do procedimento. Se isso precisa passar por advogado, precisa
+passar **antes** de vender. A banca não faz essa checagem e eu também não.
+
+Um quinto, menor, que já é decisão sua e está registrado: o anexo C manda dizer que *"as
+vagas desse mês já foram encerradas"* pra candidata que não passou na seleção, quando elas
+não foram. É o único lugar do livro que manda a leitora dar um motivo que não é o verdadeiro,
+e o capítulo 11 ensina o contrário. Você já decidiu manter, porque recusar assim é mais
+gentil. Fica registrado que contradiz a régua do próprio livro.
 
 ## O que dá pra fazer sem depender de ninguém
 

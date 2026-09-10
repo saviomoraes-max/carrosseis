@@ -1,6 +1,6 @@
-# Bancas de leitura — o rastro das cinco
+# Bancas de leitura — o rastro das seis
 
-Cinco passadas de banca em 10/set, cada uma com seis examinadores lendo o livro
+Seis passadas de banca em 10/set, cada uma com seis examinadores lendo o livro
 INTEIRO de ponta a ponta, um cético por examinador e um relator fechando.
 
 | Banca | Brutos | Confirmados | Altas | Média | Língua | Contin. | Repet. | Contrad. | Leitora | Termos |
@@ -10,6 +10,7 @@ INTEIRO de ponta a ponta, um cético por examinador e um relator fechando.
 | 3ª | 53 | 9 | 3 | **7.8** | 8.5 | 8.5 | 6.5 | 8 | 8 | 7 |
 | 4ª | 59 | 5 | 3 | **7.7** | 8.5 | 8.5 | 6.5 | 8 | 8 | 6.5 |
 | 5ª | 48 | 3 | 1 | **8.1** | 9.2 | 8 | 7 | 8 | 8 | 8.5 |
+| 6ª | 51 | 4 | **0** | **8.2** | 9 | 8.5 | 7.5 | 8.5 | 8 | 7.5 |
 
 ## O que cada passada moveu
 
@@ -23,6 +24,12 @@ INTEIRO de ponta a ponta, um cético por examinador e um relator fechando.
 - **4ª → 5ª.** Depois de tirar as 38 muletas orais. **A leitora não caiu** (ficou em 8,0),
   e língua subiu de 8,5 para 9,2 e termos de 6,5 para 8,5. A previsão de que o veredito
   andaria para "IA" não se confirmou.
+
+- **5ª → 6ª.** Depois da faxina do parecer da 5ª: oito defeitos que o cético não tinha
+  confirmado, mas que eram CONTAGEM e não opinião, verificados um a um por grep antes de
+  qualquer edição. **Primeira banca com zero achado de gravidade alta.** Repetição sobe de
+  7,0 pra 7,5 e contradição de 8,0 pra 8,5, que são exatamente as duas lentes que a faxina
+  atacou. Termos cai de 8,5 pra 7,5 porque a lente foi atrás das frases coláveis desta vez.
 
 ## O que sobra, e por quê
 
@@ -101,3 +108,29 @@ A conversa demonstrativa sai do preenchimento labial e vira flacidez do queixo s
 - A verdade dos casos, valores e cenas. Nenhuma lente tinha como checar isso. Se algum número é ilustrativo, quem confirma é você.
 
 Resumo de esforço: tudo do item 2 cabe numa sessão de revisão, e o item 2.1 sozinho é o que separa vender e não vender. O item 4 não é revisão, é decisão.
+
+---
+
+## Parecer da 6ª banca (o mais recente)
+
+Está em `banca6-parecer.md` ao lado, inteiro. Os quatro confirmados:
+
+| # | Onde | O quê | Status |
+| --- | --- | --- | --- |
+| 1 | Cap 07 e anexo A | `desde [tempo]` pede marco, não duração. A leitora preenche "uns dois anos" e manda "desde dois anos" | **DECISÃO DO SÁVIO: fica.** É literal do framework p.7 |
+| 2 | Cap 11 | "Essa frase encerra a conversa" apontava pro cartão errado: logo acima estão as duas frases que CONTINUAM | corrigido |
+| 3 | Cap 12 e anexo A | "cola de uma página" ocupava seis páginas | corrigido: virou "Cola rápida" |
+| 4 | Anexo C | "Não é consulta, é «reserva»" lido rápido dizia que na vaga de modelo não tem consulta | corrigido |
+
+O item 1 é o mesmo achado que três bancas anteriores fizeram sobre a frase da apresentação,
+agora com um argumento mais afiado: **não é a leitura do livro que quebra, é a mensagem que
+sai da clínica.** O anexo B, que segue o manual, já traz `há [tempo informado]`. Continua
+sendo decisão do dono, e não foi mexido.
+
+**O que a banca aponta e não é revisão, é escopo (seção 4 do parecer):**
+- A última página roda o passo um na leitora pra marcar a call, e ela terminou o livro
+  desconfiada. A banca sabe o custo, não sabe o ganho: o número da conversão é seu.
+- A objeção "faço o PIX à noite" não tem texto pronto, e é a mais comum do dia dela.
+- Os doze fins de capítulo perguntam o que ela errou e não dão tarefa pra amanhã.
+- O anexo C trata de vaga de paciente modelo, reserva e abatimento. Nenhuma lente olhou
+  isso do ponto de vista de regra de publicidade ou de conselho de classe.

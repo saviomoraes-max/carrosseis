@@ -32,7 +32,7 @@ def inline(s):
                lambda m: f'<a class="ref" href="{m.group(2)}">{m.group(1)}</a>', s)
     s = re.sub(r"«(.+?)»", r'<span class="enf">\1</span>', s)
     s = re.sub(r"\b(capítulo|Capítulo) (\d{1,2})\b", lambda m: f'<a class="ref" href="#cap-{int(m.group(2)):02d}">{m.group(1)} {m.group(2)}</a>', s)
-    s = re.sub(r"\b(anexo|Anexo) ([AB])\b", lambda m: f'<a class="ref" href="#cap-{m.group(2)}">{m.group(1)} {m.group(2)}</a>', s)
+    s = re.sub(r"\b(anexo|Anexo) ([A-D])\b", lambda m: f'<a class="ref" href="#cap-{m.group(2)}">{m.group(1)} {m.group(2)}</a>', s)
     return s
 
 def bloco_cena(linhas):

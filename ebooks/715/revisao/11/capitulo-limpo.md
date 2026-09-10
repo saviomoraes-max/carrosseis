@@ -82,7 +82,7 @@ responde: [Nome], bem que eu gostaria, viu? Mas eu só faço o agendamento... im
 
 Essa é pra quem agenda. Agora, se é você mesma que responde, a lógica não muda: você não passa valor de um caso que ainda não olhou. Só troca o “eu só faço o agendamento” pelo motivo verdadeiro.
 
-E repara que nas duas respostas de preço lá em cima você promete passar a informação, e aqui você não passa o valor. Isso não é contradição, e é o ponto que mais confunde: o que você prometeu foi passar a informação, não cravar um número por mensagem. Prometer e depois recusar seco, aquele “não consigo passar valores”, é o pior dos dois mundos, porque soa como quem esconde. O que a gente faz é explicar o motivo verdadeiro: a doutora precisa avaliar pra garantir o melhor tratamento, e pode ser até que precise de menos do que você imagina. Você não escondeu nada. Você disse que ia passar, e passou o que dá pra passar antes de alguém olhar o caso.
+E repara que nas três respostas de preço lá em cima você promete passar a informação, e aqui você não passa o valor. Isso não é contradição, e é o ponto que mais confunde: o que você prometeu foi passar a informação, não cravar um número por mensagem. Prometer e depois recusar seco, aquele “não consigo passar valores”, é o pior dos dois mundos, porque soa como quem esconde. O que a gente faz é explicar o motivo verdadeiro: a doutora precisa avaliar pra garantir o melhor tratamento, e pode ser até que precise de menos do que você imagina. Você não escondeu nada. Você disse que ia passar, e passou o que dá pra passar antes de alguém olhar o caso.
 
 ## Falta de compromisso
 
@@ -93,7 +93,7 @@ responde: Sem problemas! Pra gente entender se faz sentido seguir também, o que
 responde: Claro! Pra gente encerrar aqui também, como entendeu que a consulta com a doutora vai te ajudar a resolver [problema]?
 :::
 
-Essa frase encerra a conversa e transfere o controle pra paciente, que provavelmente nunca mais vai voltar, e você perde a chance de entender o que ainda está impedindo a decisão.
+O “fico à disposição” encerra a conversa e transfere o controle pra paciente, que provavelmente nunca mais vai voltar, e você perde a chance de entender o que ainda está impedindo a decisão.
 
 :::caso
 ela: “vou ver com meu marido e te aviso”.

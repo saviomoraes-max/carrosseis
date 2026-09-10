@@ -21,7 +21,7 @@ Regra de fidelidade: nenhum caso, número ou frase pronta que não esteja nas fo
 | 10 | Objeção não é um não | Objeção como pedido de clareza. Reagir com ansiedade perde; responder com curiosidade e direção recupera. Objeção real x cortina de fumaça e a pergunta que separa as duas. | Objeções p.5-6 |
 | 11 | O manual de respostas | Catálogo no formato "se quiser perder a lead / se quiser continuar a conversa / por que não funciona", por família: preço, consulta paga, falta de compromisso, informação técnica, resistência, lead que mandou foto. | Objeções p.1-9 |
 | 12 | Doutora é vendedora também | Fecho: volta à salinha do financeiro. "Se está funcionando do seu jeito, continua". Se não, se capacitar pra vender na sala e no WhatsApp. O que muda quando a doutora aceita que também vende: ticket médio e taxa de fechamento sobem (dito pela Ana, sem número). Convite final DECIDIDO (07/set): direciona pra agendar uma conversa com o time de closers pra entrar na mentoria. Na voz da Ana, sem cara de anúncio dentro de livro pago. | Fala da Ana |
-| A | Anexo 1: Cola de uma página | Os 7 passos, uma pergunta por passo, o sinal pra avançar. Pra deixar do lado do celular. | Perguntas p.1-3 |
+| A | Anexo 1: Cola rápida | Os 7 passos, uma pergunta por passo, o sinal pra avançar. Pra deixar do lado do celular. | Perguntas p.1-3 |
 | B | Anexo 2: Banco de perguntas | Todas as perguntas por etapa, sem prosa. | Perguntas p.1-3 |
 
 ## Esqueleto fixo dos capítulos 3 a 9 (um por passo)

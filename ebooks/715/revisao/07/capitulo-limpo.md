@@ -1,10 +1,10 @@
 # Transição
 
 :::cena
-VOCÊ: [Nome], por conta da forma que trouxe... e de já estar desde uns dois anos sentindo assim... concordo que não tem por que deixar mais para depois.
+VOCÊ: Por conta da forma que trouxe... e de já estar desde uns dois anos sentindo assim... concordo que não tem por que deixar mais para depois.
 :::
 
-Uma mensagem. É isso o passo cinco. Ele é o mais curto do script, e é onde a tentação de pular etapa tem endereço. Sabe o que a gente faz? Sai do passo quatro, com a paciente declarada, e vai direto pro horário e às vezes funciona. Só que entre o que ela disse e o que você vai oferecer fica faltando uma coisa. A ponte.
+Uma mensagem. É isso o passo cinco, e é o mais curto do script. Sabe o que a gente faz? Sai do passo quatro, com a paciente declarada, e vai direto pro horário, e às vezes funciona. Só que aí fica faltando a parte em que a gente oferece pra ela o problema resolvido, e é isso que a transição é.
 
 ## Pra que serve
 
@@ -12,29 +12,31 @@ Ligar o que a gente faz com o problema que ela trouxe. Mostrar que é isso que e
 
 Os três objetivos falam do problema dela. Sem o problema que a pessoa tá passando, a transição vai ser de onde para onde? E ela não apresenta a consulta ainda, isso é o passo seis. Ela só justifica o próximo passo, com o que ela mesma te contou.
 
+E tem uma coisa aqui que eu acho importantíssima: a pessoa não pode sair da transição com medo. Com medo ela já tava desde o momento que entrou em contato. A transição precisa deixar ela mais certa da decisão, e não mais incerta.
+
 ## A frase
 
 :::frase
 [Nome], por conta da forma que trouxe... e de já estar desde [tempo] sentindo assim... concordo que não tem por que deixar mais para depois.
 :::
 
-Três pedaços. O nome dela. A forma como ela trouxe e o tempo que ela está assim. O que você preenche são dois, o nome e o tempo. O nome você já tem desde o começo da conversa. O tempo ela te contou lá no passo três quando você perguntou “por que agora” e o script chama esse pedaço de “tempo informado” porque é o tempo que ela mesma te deu. O “por conta da forma que trouxe” é o corpo do script. O que muda são os colchetes. A palavra dela mesma entra no passo seis. E o “concordo”. Você não está propondo que ela resolva agora. Ela já tomou essa decisão no passo três, quando disse “por que agora”, e o que você faz aqui é concordar. Quem concorda está do lado dela.
+Três pedaços. O nome dela. A forma como ela trouxe e o tempo que ela está assim. O que você preenche são dois, o nome e o tempo. O nome você já tem desde o começo da conversa. O tempo ela te contou sozinha, contando o problema, lá no passo dois: “tem uns dois anos que eu reparo”. O script chama esse pedaço de “tempo informado” porque é o tempo que ela mesma te deu. O “por conta da forma que trouxe” é o corpo do script. O que muda são os colchetes. A palavra dela mesma entra no passo seis. E o “concordo”. Você não está propondo que ela resolva agora. Ela já tomou essa decisão no passo três, quando disse “por que agora”, e o que você faz aqui é concordar. Quem concorda está do lado dela.
 
 :::grafico grade
 1 | «[Nome]» · você já tem desde o começo
 2 | «por conta da forma que trouxe» · é o corpo do script, não muda
-3 | «desde [tempo]» · ela te deu no passo três
+3 | «desde [tempo]» · ela mesma te deu, no passo dois
 :::
 
 E se ela não te deu o tempo, não inventa um. Tira esse pedaço e fica só com a forma que ela trouxe, a frase aguenta.
 
-As reticências são do script e eu acho que fazem diferença. No WhatsApp a paciente lê com a pausa, como se você estivesse pensando junto com ela. Mantém.
+As reticências são do script e eu acho que fazem diferença, então mantém elas. No WhatsApp a paciente lê com a pausa, como se você estivesse pensando junto com ela.
 
 :::evite
 Explicação técnica sobre procedimento. Listar todas as qualificações da doutora sem conexão com o problema. Passar muita informação de uma vez. E falar de preço antes de mostrar como a consulta resolve o problema.
 :::
 
-Três desses quatro são a mesma tentação, que é encher a mensagem. A transição funciona porque é curta. Agora, se depois do “não tem por que deixar mais para depois” você emenda um parágrafo sobre bioestimulador, a ponte caiu.
+Três desses quatro são a mesma tentação, que é encher a mensagem. A transição funciona porque é curta. Agora, se depois do “não tem por que deixar mais para depois” você emenda um parágrafo sobre bioestimulador, você acabou de passar muita informação de uma vez, que é justamente o que a lista logo acima manda evitar.
 
 O quarto é outro erro, e é de ordem trocada. Ela ainda não viu como a consulta resolve o problema dela, e se o valor não for percebido, nem se a consulta for de graça vai valer a pena.
 

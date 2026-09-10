@@ -1,7 +1,7 @@
 # Script 715 — estado do projeto
 
 Ponto de retomada técnica. Quem pegar isto sem contexto nenhum consegue continuar.
-Atualizado em 10/set/2026, depois da quinta banca.
+Atualizado em 10/set/2026, depois da sexta banca.
 
 Para decisão (o que dá pra vender, o que falta, o que depende do Sávio), ler o
 `relatorio-de-entrega.md` ao lado.
@@ -50,14 +50,14 @@ ebooks/715/
     transcricao/*.txt      3 aulas do WAID transcritas com WhisperX
   revisao/NN/              por bloco: capitulo-vK.md, detector-vK.json, rodada-K.json/txt
   revisao/_pre-*/          snapshots antes de cada passada grande
-  render/script-715.pdf    146 páginas, 9:16 (1080×1920)
+  render/script-715.pdf    147 páginas, 9:16 (1080×1920)
   render/provas/*.png      uma PNG por página
   render/cola/*.png        a cola dos 7 passos como peça de celular (cola_png.py)
   render/preview.html      abrir no browser pra folhear
   render/indice-paginas.json  em que página começa cada bloco
   render/livro-continuo.md    o livro inteiro num arquivo só, na ordem, pra BANCA ler
-  revisao/bancas-10set.md     rastro comparado das CINCO bancas, com o que cada uma moveu
-  revisao/banca{,2,3,4,5}-10set.json   os pareceres crus
+  revisao/bancas-10set.md     rastro comparado das SEIS bancas, com o que cada uma moveu
+  revisao/banca{,2,3,4,5,6}-10set.json os pareceres crus (o da 6ª também em banca6-parecer.md)
 ```
 
 Scripts em `~/.claude/skills/ebook-humano-reconecta/scripts/`, com espelho
@@ -88,20 +88,20 @@ e `.../reconecta-metodologia-tema-t0-transversal.md`.
 | Bloco | Detector | Cego | Degraus |
 | --- | --- | --- | --- |
 | 01 | 0 | pessoa 68 | 3/3 |
-| 02 | 20 | pessoa 67 | 3/3 |
+| 02 | 20 | pessoa 72 | 3/3 |
 | 03 | 12 | pessoa 78 | 3/3 |
-| 04 | 11 | pessoa 74 | 3/3 |
+| 04 | 11 | pessoa 79 | 3/3 |
 | 05 | 13 | pessoa 69 | 3/3 |
 | 06 | 13 | pessoa 71 | 3/3 |
-| 07 | 0 | pessoa 68 | 3/3 |
+| 07 | 11 | pessoa 70 | 3/3 |
 | 08 | 18 | pessoa 60 | 3/3 |
 | 09 | 13 | pessoa 73 | 3/3 |
-| 10 | 9 | pessoa 85 | 3/3 |
-| 11 | 19 | pessoa 72 | 3/3 |
-| 12 | 12 | pessoa 68 | 3/3 |
+| 10 | 9 | pessoa 77 | 3/3 |
+| 11 | 19 | pessoa 76 | 3/3 |
+| 12 | 11 | pessoa 71 | 3/3 |
 | A | 28* | pessoa 73 | 2/2 |
 | B | 33* | pessoa 84 | 2/2 |
-| C | 17 | pessoa 72 | 3/3 |
+| C | 16 | pessoa 71 | 3/3 |
 
 Detector medido **com `--corpus`**, que é a régua do portão desde 09/set. Cego: três
 leitores independentes por bloco, decisão por maioria.
@@ -115,7 +115,7 @@ peça: tríade na cola, lista no banco de perguntas.
 **O 11 saiu de 40 pra 22 sem trocar uma palavra**, convertendo o andaime de catálogo em
 bloco `:::caso`. A conversão foi provada neutra por contagem: 0 palavra perdida, 0 inventada.
 
-**Diagramação:** 146 páginas em 4 partes, com contracapa. **34 gráficos vetoriais em 15 tipos**, e todo bloco tem pelo menos um, **zero páginas órfãs** (o render audita isso sozinho e denuncia página de miolo abaixo de 35% de ocupação). Dois bugs do paginador
+**Diagramação:** 147 páginas em 4 partes, com contracapa. **34 gráficos vetoriais em 15 tipos**, e todo bloco tem pelo menos um, **zero páginas órfãs** (o render audita isso sozinho e denuncia página de miolo abaixo de 35% de ocupação). Dois bugs do paginador
 corrigidos em 09/set: lista numerada era bloco indivisível (agora quebra entre
 páginas, com `start=` continuando a numeração) e o balanceamento da última página
 do capítulo media `scrollHeight`, que nunca fica menor que a caixa porque
@@ -126,7 +126,7 @@ zero travessão, aspas simples só dentro de duplas.
 
 ---
 
-## As nove descobertas que mudaram o projeto
+## As dez descobertas que mudaram o projeto
 
 Cada uma tem arquivo próprio. Ler antes de mexer em qualquer coisa.
 
@@ -177,7 +177,7 @@ Cada uma tem arquivo próprio. Ler antes de mexer em qualquer coisa.
    ESTRUTURA (anáfora, dois-pontos, contraste) não se absolve: composição é de quem
    escreveu, não de quem falou.
 
-8. **A banca de leitura: cinco passadas, e o capítulo que saía incompleto.** Tudo no
+8. **A banca de leitura: seis passadas, e o capítulo que saía incompleto.** Tudo no
    projeto lia UM BLOCO POR VEZ, e por isso era cego pra promessa quebrada, remissão
    errada, repetição entre capítulos e cansaço da leitora. A banca põe seis examinadores
    lendo o livro INTEIRO de ponta a ponta (`livro_continuo.py` monta o objeto que a
@@ -190,7 +190,8 @@ Cada uma tem arquivo próprio. Ler antes de mexer em qualquer coisa.
    | 2ª | 53 | 6 | 7,7 |
    | 3ª | 53 | 9 | 7,8 |
    | 4ª | 59 | 5 | 7,7 |
-   | 5ª | 48 | 3 | **8,1** |
+   | 5ª | 48 | 3 | 8,1 |
+   | 6ª | 51 | 4 | **8,2** |
 
    O achado nº 1 da primeira não era de escrita: o capítulo 05 chegava **incompleto no PDF
    pago**. Uma cerca `:::` com texto colado fazia o parser engolir, calado, um parágrafo e
@@ -202,6 +203,14 @@ Cada uma tem arquivo próprio. Ler antes de mexer em qualquer coisa.
    apontaram o mesmo trecho que eu tinha escrito uma hora antes. Na 4ª, ela achou que o
    meu texto novo se contradizia em dois pontos.
 
+   Na **6ª**, a primeira com **zero achado de gravidade alta**, o que moveu o ponteiro
+   não foi a banca em si: foi ler o parecer da 5ª procurando o que o cético NÃO tinha
+   confirmado. O relator escreve uma lista maior que a dos confirmados, e boa parte dela
+   é contagem, não opinião — dá pra provar com grep. Oito eram defeito de verdade, seis
+   eu descartei com motivo escrito. O mais caro: no anexo C, três números diferentes
+   (valor do protocolo, valor de modelo, valor da reserva) usavam o mesmo `[valor]` numa
+   frase que a doutora preenche e **envia**. O erro saía da clínica dela, não do livro.
+
    Descoberta de método junto: as duas fontes da metodologia **discordam entre si** na
    redação de quatro frases prontas. O livro carregava as duas porque era fiel às duas, e
    agora reflete cada uma na casa dela: capítulos e cola seguem o framework, anexo B segue
@@ -212,6 +221,18 @@ Cada uma tem arquivo próprio. Ler antes de mexer em qualquer coisa.
    passagem do corpus e a puseram em capítulos diferentes. O livro ficou com a mesma
    anedota da Ana em dois capítulos seguidos. Toda rodada multi-bloco agora termina
    com varredura de colisão antes de aplicar.
+
+10. **Detector 0 e leitor cego 3 a 0 pra "IA", no mesmo capítulo.** As duas medições
+    estavam certas: o detector vê PALAVRA, o cego ouve RITMO. O capítulo 07, o mais curto
+    e o único de prosa 100% composta, era sustentado por uma metáfora que **eu inventei**
+    — "a ponte" —, plantada, retomada e paga em três dobras estruturais. A conferência é de
+    uma linha: `grep -c ponte corpus/` deu **0 em 80.938 palavras**, e 0 nas fontes. O
+    conserto não foi cortar, foi substituir por fala real dela ("a parte em que a gente
+    oferece pra ela o problema resolvido") e enxertar uma doutrina que faltava ("a pessoa
+    não pode sair da transição com medo"). Voltou pra **2 a 1 pessoa**, e as duas provas
+    de que era gente que os leitores citaram foram justamente as frases dela que entraram.
+    Régua gravada como 3l no padrão. **Corolário: bloco de prosa composta, sem cena e sem
+    caso, precisa de cego mesmo com o detector zerado.**
 
 ## Decisões já tomadas (não reabrir)
 
@@ -260,15 +281,34 @@ quando a substituição por fala real resolveu o cego em 15 dos 15 blocos.
 - ~~Quem digita no WhatsApp.~~ O livro segue o framework, terceira pessoa. Ver as decisões.
 - ~~Os dois pontos de cansaço.~~ Cortados.
 - ~~As duas correções em card de script.~~ Já estavam aplicadas; o item era resíduo.
+- ~~Links internos no PDF (item F).~~ Já estavam no `inline()`, **mas ninguém tinha
+  verificado que sobrevivem à impressão.** O Chromium podia ter descartado a âncora e o
+  sumário viraria retângulo morto. Conferidos destino a destino contra o
+  `indice-paginas.json`: **35 links internos, todos na abertura certa**, mais os 2
+  externos do CTA. O regex do render cobria só anexo A e B; foi pra A-D.
+- ~~A faxina do parecer da 5ª banca.~~ Oito defeitos aplicados, seis descartados com
+  motivo. Detalhe item a item em `ideias-de-leitura.md`.
+- ~~O capítulo 07 lendo "IA" por 3 a 0.~~ Metáfora inventada fora, fala real dentro. Ver a
+  descoberta 10.
 
-**O único achado que três bancas seguidas apontaram e que NÃO foi corrigido**, por decisão
-do Sávio de que metodologia é proposital: a frase da apresentação, `"vai te ajudar com o
+**O achado que QUATRO bancas seguidas apontaram e que NÃO foi corrigido**, por decisão do
+Sávio de que metodologia é proposital: a frase da apresentação, `"vai te ajudar com o
 [problema] e parar de se sentir"`, que lida ao pé da letra põe a doutora como quem para de
 se sentir mal. Idem `"desde [tempo]"` na transição. As duas são literais do framework.
 
+A 6ª banca trouxe um argumento mais afiado no `desde [tempo]`, e ele merece uma segunda
+olhada do Sávio **porque mudou de natureza**: não é a leitura do livro que quebra, é a
+mensagem que sai. A leitora preenche com o que o próprio livro manda ("tem uns dois anos
+que eu reparo") e envia *"desde dois anos"*. O anexo B, que segue o manual, já traz
+`há [tempo informado]`. Quatro ocorrências. Continua sendo decisão do dono, e não foi
+mexido.
+
 **Melhoria opcional, não pendência:** `ideias-de-leitura.md` tem o anexo B indexado "pelo
-que ela disse", carimbos tipográficos e um glossário. O glossário é o mais arriscado do
-livro: definição inventada já passou por quatro rodadas aqui uma vez.
+que ela disse", carimbos tipográficos e um glossário. **Medido em 10/set: o glossário fecha
+um buraco menor do que parecia** — cada termo da casa já nasce definido na primeira
+aparição (bastão no cap 02, presente inaceitável é o título do 05, cortina de fumaça abre o
+10). Se for feito, toda entrada tem que ser frase LITERAL do livro com o capítulo de
+origem: definição inventada já passou por quatro rodadas aqui uma vez.
 
 ## Como retomar
 
@@ -291,6 +331,16 @@ resolvida. Nenhuma delas deve ser contornada.
 
 Pra rodar a banca (13 agentes, ~17 min), depois de `livro_continuo.py`:
 `wf_banca.js` com `{livro, ortotipografia, fingerprint}`.
+
+Pro leitor cego, **regere antes o `capitulo-limpo.md`** (é o manuscrito sem o front matter,
+e é o que o `wf_cego.js` lê; se você editar o manuscrito e não regerar, o cego mede a
+versão velha e você conclui errado). Depois de rodar, **grave o veredito** num
+`revisao/<bloco>/rodada-cego-*.json` com a chave `cego`, senão o `andamento.py` continua
+reportando a medição anterior.
+
+**Não confie no detector zerado.** Ele mede palavra; o cego ouve ritmo. O bloco 07 tinha
+score 0 e os três leitores diziam "IA". Bloco de prosa composta, sem cena e sem caso, pede
+cego mesmo com o detector limpo. Ver a descoberta 10 e a régua 3l.
 
 Regra que vale mais que todas: **achado só vira correção com veredito de
 cético**. Achado marcado `"sem veredito do cetico (falha)"` significa que o

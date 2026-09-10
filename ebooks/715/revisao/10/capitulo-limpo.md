@@ -4,7 +4,7 @@
 ELA: Ah, entendi. Vou pensar e qualquer coisa te aviso.
 :::
 
-Naqueles dez minutinhos da salinha, o que passou pela minha cabeça foi isso: e se for muito caro, será que é prioridade agora, será que eu não encontro outro jeito? Eu, que trabalho com isso o dia inteiro. E a doutora, na mesma consulta, tinha me falado que estava com muita gente indo pra casa pensar. Então, quando eu leio um “vou pensar e qualquer coisa te aviso” no WhatsApp de uma clínica, eu sei o que tem atrás, porque já passou pela minha cabeça também. Se você atende WhatsApp de clínica, já leu essa mensagem mais vezes do que gostaria, sabe?
+Naqueles dez minutinhos antes da salinha, o que passou pela minha cabeça foi isso: e se for muito caro, será que é prioridade agora, será que eu não encontro outro jeito? Eu, que trabalho com isso o dia inteiro. E a doutora, na mesma consulta, tinha me falado que estava com muita gente indo pra casa pensar. Então, quando eu leio um “vou pensar e qualquer coisa te aviso” no WhatsApp de uma clínica, eu sei o que tem atrás, porque já passou pela minha cabeça também. Se você atende WhatsApp de clínica, já leu essa mensagem mais vezes do que gostaria, sabe?
 
 E a resposta que perde a paciente é justamente a mais educada, “claro, fico à disposição”. Educado, tranquilo, e a conversa acabou ali. O controle passou pra ela, e ela provavelmente não volta. E mesmo assim a gente responde isso, porque parece o certo.
 

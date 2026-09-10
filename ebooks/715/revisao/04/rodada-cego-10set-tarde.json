@@ -1,0 +1,14 @@
+{
+  "cego": {
+    "veredito": "pessoa",
+    "confianca": 79,
+    "votos": {
+      "pessoa": 3,
+      "ia": 0,
+      "indeciso": 0
+    },
+    "nota": "7 blocos alterados"
+  },
+  "data": "2026-09-10",
+  "brutos": 0
+}
