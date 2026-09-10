@@ -100,7 +100,7 @@ peça: tríade na cola, lista no banco de perguntas.
 **O 11 saiu de 40 pra 22 sem trocar uma palavra**, convertendo o andaime de catálogo em
 bloco `:::caso`. A conversão foi provada neutra por contagem: 0 palavra perdida, 0 inventada.
 
-**Diagramação:** 143 páginas em 4 partes, com contracapa. **34 gráficos vetoriais em 15 tipos**, e todo bloco tem pelo menos um, **zero páginas órfãs** (o render audita isso sozinho e denuncia página de miolo abaixo de 35% de ocupação). Dois bugs do paginador
+**Diagramação:** 146 páginas em 4 partes, com contracapa. **34 gráficos vetoriais em 15 tipos**, e todo bloco tem pelo menos um, **zero páginas órfãs** (o render audita isso sozinho e denuncia página de miolo abaixo de 35% de ocupação). Dois bugs do paginador
 corrigidos em 09/set: lista numerada era bloco indivisível (agora quebra entre
 páginas, com `start=` continuando a numeração) e o balanceamento da última página
 do capítulo media `scrollHeight`, que nunca fica menor que a caixa porque
@@ -195,6 +195,12 @@ Cada uma tem arquivo próprio. Ler antes de mexer em qualquer coisa.
 - Livro dividido em 4 partes com página-marcador. Os rótulos são navegação, não
   doutrina.
 - A cola sai como peça própria (`cola_png.py`), não como recorte de página do PDF.
+- **Quem digita fala da doutora em terceira pessoa, e isso é proposital** (decisão do
+  Sávio, 10/set). As 29 frases prontas seguem o framework. Existe no `llm-wiki-time` a
+  decisão canônica **D-C de 28/jul** dizendo o oposto ("a secretária SE PASSA pela
+  doutora... naquela conversa ela é a doutora"), que revoga a ficha T8.23 e parte do
+  fluxo de handoff. **Não reabrir:** o livro segue o framework, e o capítulo 02 declara
+  uma vez quem é "você".
 - **Sem assinatura de autora.** Capa e rodapé levam só Reconecta (decisão do Sávio em
   10/set). A narração em primeira pessoa continua sendo a da Ana; o que saiu foi a
   assinatura, não a voz. `livro.json` sem a chave `autor` já omite o bloco na capa.

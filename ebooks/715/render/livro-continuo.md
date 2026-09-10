@@ -101,7 +101,7 @@ Então, o nome é “sete passos para um agendamento a cada cinco contatos”, �
 
 ## O que eu peço pra você guardar
 
-Antes de tudo, uma coisa sobre o “você” deste livro. Quem digita no WhatsApp da clínica é quem atende, e o script foi escrito pra essa pessoa: repara que a abertura tem dois espaços pra preencher, o seu nome e o nome da doutora. Se quem atende é você mesma, doutora, aí você fala de você na terceira pessoa mesmo, que é como a paciente ouve do outro lado.
+Antes de tudo, uma coisa sobre o “você” deste livro. Quem digita no WhatsApp da clínica é quem atende, e o script foi escrito pra essa pessoa. Repara que todas as frases prontas falam “a doutora” na terceira pessoa, tipo “até pra entender se a doutora vai conseguir te ajudar”: quem escreve não é ela. Se quem atende é você mesma, doutora, aí você fala de você na terceira pessoa mesmo, que é como a paciente ouve do outro lado.
 
 Então, eu quero te passar primeiro o que a gente considera a base de qualquer atendimento, tá? São oito coisas, e isso aqui é o que eu vejo dar certo nas clínicas que passam por aqui e são mais de 3 mil, e elas voltam em todos os capítulos, então guarda.
 
@@ -186,7 +186,7 @@ Perfil, anúncio ou caso, depende de onde ela te viu. Se ela chegou pelo anúnci
 
 E quando a primeira mensagem já vem com o preço, que é quase sempre:
 
-    FRASE PRONTA — Claro que posso te passar valores e mais informações sobre o procedimento! Mas antes, até pra entender se a doutora vai conseguir te ajudar no seu caso ou não... o que faz você buscar por esse procedimento hoje?
+    FRASE PRONTA — Claro que posso te passar valores e mais informações sobre o [procedimento/consulta]! Mas antes, até pra entender se a doutora vai conseguir te ajudar no seu caso ou não... o que faz você buscar por [procedimento/consulta] hoje?
 
 E pra quando o preço não veio na abertura, só um “oi, queria informações”, tem uma que eu gosto muito, porque pede permissão e já avisa o que vem:
 
@@ -803,8 +803,10 @@ Você transfere a responsabilidade da decisão pra alguém que nem participou da
       O QUE CONTINUA A CONVERSA: Sem problemas. Para não ficar correndo atrás de você e ser inconveniente, quando acredita que poderei ter esse retorno? Posso aguardar que você me chame no [dia específico mencionado] ou devo entrar em contato?
 
     [cartão de objeção]
-      ELA MANDA: “trabalho nesse horário e preciso ver quem vai ficar no meu lugar”. Essa só serve se na sua clínica a paciente paga a consulta na hora de marcar e pode remarcar sem perder o valor. Se não é assim, não promete.
+      ELA MANDA: “trabalho nesse horário e preciso ver quem vai ficar no meu lugar”.
       O QUE CONTINUA A CONVERSA: Posso dar uma sugestão? Para não perder seu horário e acabar ficando só para outra semana, outros pacientes pagam o valor da consulta e, se não podem no dia, eles nos avisam e a gente entende qual outro horário podemos encaixar. Como sente que assim vai ficar bom para você?
+
+Essa resposta só serve se na sua clínica a paciente paga a consulta na hora de marcar e pode remarcar sem perder o valor. Se não é assim, não promete.
 
     [cartão de objeção]
       ELA MANDA: “agora estou em outro estado e volto no fim do mês, quando voltar entro em contato”.
@@ -994,7 +996,7 @@ ANEXO B · Banco de perguntas
    Todas as perguntas do script, por etapa, sem prosa.
 ------------------------------------------------------------------------------
 
-Aqui é só a lista, tá. O sinal pra avançar em cada passo está na cola do anexo A, e as respostas pra quando ela trava estão nos capítulos 10 e 11. Algumas perguntas aqui aparecem com uma redação um pouquinho diferente da que está no capítulo. São variações da mesma pergunta, e as duas servem.
+Aqui é só a lista, tá. O sinal pra avançar em cada passo está na cola do anexo A, e as respostas pra quando ela trava estão nos capítulos 10 e 11. Algumas perguntas e frases aqui aparecem com uma redação um pouquinho diferente da que está no capítulo, com outro colchete ou sem as reticências. São variações da mesma frase, e as duas servem: se você já decorou a do capítulo, segue com ela.
 
     [gráfico: rail 0]
 

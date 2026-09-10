@@ -134,8 +134,13 @@ literal dela. Registro aqui só pra você ter o dado, sem reabrir:
   INFORMADO]", que fecha. As duas fontes discordam entre si, e o livro agora reflete
   cada uma na sua casa: capítulos e cola seguem o framework, anexo B segue o manual.
 
-**3. Dois pontos de cansaço, que são corte editorial.** Detalhe em "O que a leitora
-disse" abaixo.
+**3. Quatro posições da casa sobre quem digita no WhatsApp, e você já escolheu.**
+Registro só pra não voltar à mesa: a ficha T8.23 diz que quem responde nunca se passa
+pela doutora; a decisão canônica D-C de 28/jul diz o oposto e revoga a T8.23; o fluxo de
+handoff apresenta a secretária com autoridade emprestada; e o framework 715, que é a
+fonte do livro, fala da doutora em terceira pessoa em todas as frases prontas. **O livro
+segue o framework, por decisão sua em 10/set**, e o capítulo 02 declara uma vez quem é
+"você". Se um dia a D-C valer pro WhatsApp, são 29 frases prontas a virar.
 
 ## O que a leitora disse, e onde ela cansou
 

@@ -1,6 +1,6 @@
 # Banco de perguntas
 
-Aqui é só a lista, tá. O sinal pra avançar em cada passo está na cola do anexo A, e as respostas pra quando ela trava estão nos capítulos 10 e 11. Algumas perguntas aqui aparecem com uma redação um pouquinho diferente da que está no capítulo. São variações da mesma pergunta, e as duas servem.
+Aqui é só a lista, tá. O sinal pra avançar em cada passo está na cola do anexo A, e as respostas pra quando ela trava estão nos capítulos 10 e 11. Algumas perguntas e frases aqui aparecem com uma redação um pouquinho diferente da que está no capítulo, com outro colchete ou sem as reticências. São variações da mesma frase, e as duas servem: se você já decorou a do capítulo, segue com ela.
 
 :::grafico rail 0
 :::

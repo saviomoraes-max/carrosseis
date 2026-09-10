@@ -109,9 +109,11 @@ responde: Sem problemas. Para não ficar correndo atrás de você e ser inconven
 :::
 
 :::caso
-ela: “trabalho nesse horário e preciso ver quem vai ficar no meu lugar”. Essa só serve se na sua clínica a paciente paga a consulta na hora de marcar e pode remarcar sem perder o valor. Se não é assim, não promete.
+ela: “trabalho nesse horário e preciso ver quem vai ficar no meu lugar”.
 responde: Posso dar uma sugestão? Para não perder seu horário e acabar ficando só para outra semana, outros pacientes pagam o valor da consulta e, se não podem no dia, eles nos avisam e a gente entende qual outro horário podemos encaixar. Como sente que assim vai ficar bom para você?
 :::
+
+Essa resposta só serve se na sua clínica a paciente paga a consulta na hora de marcar e pode remarcar sem perder o valor. Se não é assim, não promete.
 
 :::caso
 ela: “agora estou em outro estado e volto no fim do mês, quando voltar entro em contato”.
