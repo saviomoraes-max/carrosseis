@@ -30,7 +30,7 @@ perde: “A consulta custa R$ 200.”
 responde: Claro que posso passar essa informação! Primeiramente, para entender se a doutora vai conseguir te ajudar no seu caso ou não, você já sabe o que está procurando?
 :::
 
-A forma mais fácil de encerrar uma conversa é com uma resposta, né? Por que você vai passar o valor da consulta se você nem sabe se o que ela está buscando ela vai encontrar na consulta?
+Por que você vai passar o valor da consulta se você nem sabe se o que ela está buscando ela vai encontrar na consulta?
 
 :::caso
 ela: O preço do procedimento: “qual o preço do preenchimento?”, “qual a média de valores dos procedimentos?”.

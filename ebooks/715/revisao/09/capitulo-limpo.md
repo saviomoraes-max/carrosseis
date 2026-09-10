@@ -9,7 +9,7 @@ VOCÊ: [chave PIX]
 VOCÊ: Consegue me enviar o comprovante agora para já confirmarmos seu horário na agenda?
 :::
 
-Olha só onde o preço apareceu nessa cena. Na segunda mensagem, depois do horário que ela já aceitou, e como “investimento da consulta”, com a chave PIX logo abaixo. Agora, se ele aparece antes disso, acontece o contrário: ela sabe quanto custa agora e ela sabe como que funciona para poder agendar e ela volta na hora que ela quer. Ela acha que ela pode voltar na hora que ela quer. Aí não tem urgência, né, gente?
+Olha só onde o preço apareceu nessa cena. Na sua segunda mensagem, depois do horário que ela já aceitou, e como “investimento da consulta”, com a chave PIX logo abaixo. Agora, se ele aparece antes disso, acontece o contrário: ela sabe quanto custa agora e ela sabe como que funciona para poder agendar e ela volta na hora que ela quer. Ela acha que ela pode voltar na hora que ela quer. Aí não tem urgência, né, gente?
 
 Então, esse é o passo sete. Um dos dois erros que o framework manda evitar aqui é perguntar quando a paciente pode, em vez de oferecer um horário. Porque se eu pergunto para ela quando ela pode, o bastão tá na mão dela, e a gente fica só reagindo. Ela vai olhar a agenda, olhar a semana, voltar depois, ou não voltar.
 
