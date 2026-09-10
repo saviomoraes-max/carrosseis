@@ -15,6 +15,13 @@ VOCÊ: Por isso, já sei que a doutora vai te ajudar com essa região do queixo 
 
 Então, isso aí é a apresentação inteira. Uma frase, colada na transição, e ela tem exatamente duas coisas dentro: o problema, com a palavra dela, e o sentimento, com a palavra dela. Não tem o nome do procedimento e não tem o que a doutora vai fazer e não tem quanto tempo dura a consulta, né.
 
+:::grafico duas
+O que entra | O que não entra
+O problema, «com a palavra dela» | O nome do procedimento
+O sentimento, «com a palavra dela» | O que a doutora vai fazer
+ | Quanto tempo dura a consulta
+:::
+
 Eu sei que dá vontade de encher, né. É o momento em que a atendente sente que finalmente pode falar, depois de quatro passos perguntando e um só concordando. E é por isso que a apresentação é curta, gente: quem construiu o valor da consulta foi ela, nos cinco passos anteriores, e você só devolve.
 
 ## Pra que serve

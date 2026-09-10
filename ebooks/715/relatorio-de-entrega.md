@@ -16,10 +16,10 @@ comprovante do PIX. Narrado em primeira pessoa pela **Ana Luiza**. Leitora-alvo:
 doutora que comprou pela VSL e lê no celular, entre um paciente e outro.
 
 **Arquivo:** `render/script-715.pdf`, 9:16 (1080×1920), feito pra tela de celular
-e não pra papel.
+e não pra papel. Capa e rodapé levam só a marca Reconecta, sem assinatura de autora.
 
 **Estrutura:** capa, sumário, quatro partes com página-marcador, doze capítulos,
-três anexos e contracapa com o CTA. São 138 páginas, zero páginas órfãs.
+três anexos e contracapa com o CTA. São 143 páginas, zero páginas órfãs, e **34 gráficos vetoriais** ilustrando o que o texto diz, sem uma foto.
 
 | Parte | Capítulos |
 | --- | --- |

@@ -8,11 +8,18 @@ ELA: Ah, é mais aqui na parte de baixo, sabe? Perto do queixo. Eu olho no espel
 
 A paciente passou do passo um. Ela respondeu contando. E aí vem a parte que eu mais vejo dar errado, gente. Um dos maiores erros que a gente comete: quando a pessoa começa a falar sobre o problema, ela dá uma palavra e a gente entende o contexto inteiro. Ela fala bioestimulador, eu já sei qual que é o diagnóstico completo. Se ela fala rugas, linhas de expressão, já sei tudo e não precisa falar mais nada, porque é maldição do conhecimento. A gente sabe do que ela tá falando, sabe? E aí a próxima mensagem já sai explicando o tratamento, e por fora parece atendimento bom, mas é a conversa morrendo de novo, só que mais tarde.
 
-Porque flacidez, pra ela, é uma coisa que ela vê no espelho, num lugar específico, num momento específico, e não a palavra que tá na sua apostila. Porque flacidez, pra ela, é uma coisa que ela vê no espelho, num lugar específico, num momento específico. Eu entendo como que resolve flacidez. Mas o que flacidez é para ela? Pensa que todo atendimento você é um balde vazio. Você não sabe como ela sente, você não sabe quem é ela, você não sabe nem o que que ela tá precisando, nem o que que é flacidez, o que que é ruga, nada.
+Porque flacidez, pra ela, é uma coisa que ela vê no espelho, num lugar específico, num momento específico, e não a palavra que tá na sua apostila. Eu entendo como que resolve flacidez. Mas o que flacidez é para ela? Pensa que todo atendimento você é um balde vazio. Você não sabe como ela sente, você não sabe quem é ela, você não sabe nem o que que ela tá precisando, nem o que que é flacidez, o que que é ruga, nada.
 
 ## Pra que serve
 
 O passo dois é entender o que está acontecendo hoje e que poderia ser diferente, entender como isso está afetando ela hoje, clarear o significado das palavras que ela usou pra chegar no problema que trouxe ela até o WhatsApp e aprofundar até entender o que faz disso um problema agora.
+
+:::grafico ordem
+Entender o que está acontecendo hoje e que poderia ser diferente
+Entender como isso está afetando ela hoje
+Clarear o significado das palavras que ela usou
+Aprofundar até entender o que faz disso um problema agora
+:::
 
 Repara que é tudo verbo de entender, nenhum de explicar. E eu não tô dizendo que explicar é errado, tá? É que ainda não é a hora. O passo dois é o passo em que você mais fica quieta.
 

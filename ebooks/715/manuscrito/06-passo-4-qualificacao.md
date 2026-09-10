@@ -24,6 +24,13 @@ Fazer a paciente declarar o que ela precisa, pra que depois você ofereça exata
 
 Repara na ordem. A pessoa verbaliza o problema que ela tá passando e a gente oferece o problema dela resolvido, né? O caminho contrário é oferecer primeiro e esperar a paciente se encaixar na oferta e aí ela escuta uma consulta genérica e pensa: “será que isso é pra mim?” É muito difícil a gente acertar a resposta que a pessoa quer receber. Agora, se ela falar que tipo de resposta ela quer receber, fica muito mais simples. A consulta que você vai apresentar é a que ela acabou de descrever.
 
+:::grafico duas
+A ordem | O caminho contrário
+A pessoa verbaliza o problema que ela tá passando | Você oferece primeiro
+A gente oferece o problema dela resolvido | A paciente tenta se encaixar na oferta
+A consulta que você apresenta é a que ela acabou de descrever | Ela escuta uma consulta genérica e pensa: «será que isso é pra mim?»
+:::
+
 ## As perguntas
 
 :::frase
@@ -48,7 +55,7 @@ O “com tudo o que falamos” no começo da primeira não é enfeite. Ele amarr
 Pular pra apresentação direto, sem entender o que ela está buscando. E se qualificar, de qualquer jeito que seja, elogiar a doutora ou a clínica pra consulta parecer valer mais.
 :::
 
-O segundo é o erro que mais volta no material, porque se qualificar demais aparece lá na conexão, aqui na qualificação e de novo na transição. O segundo é o erro que mais volta no material, porque se qualificar demais aparece lá na conexão, aqui na qualificação, de novo na transição e ainda na apresentação. E quem comete não faz por mal, sabe? Chega a ser automático mesmo, ainda mais quando a gente gosta do trabalho da doutora ou de onde a gente trabalha. A paciente acabou de dizer que quer a consulta, e a atendente, toda animada, emenda: “e a doutora é ótima, os casos dela são perfeitos, olha esse caso que lindo”. Parou. A paciente estava se convencendo sozinha e você entrou no meio pra convencer. E quando a gente qualifica a doutora, todas as informações que a gente coloca nem chegam a ser avaliadas.
+O segundo é o erro que mais volta no material, porque se qualificar demais aparece lá na conexão, aqui na qualificação, de novo na transição e ainda na apresentação. E quem comete não faz por mal, sabe? Chega a ser automático mesmo, ainda mais quando a gente gosta do trabalho da doutora ou de onde a gente trabalha. A paciente acabou de dizer que quer a consulta, e a atendente, toda animada, emenda: “e a doutora é ótima, os casos dela são perfeitos, olha esse caso que lindo”. Parou. A paciente estava se convencendo sozinha e você entrou no meio pra convencer. E quando a gente qualifica a doutora, todas as informações que a gente coloca nem chegam a ser avaliadas.
 
 ## Como ela lê você
 

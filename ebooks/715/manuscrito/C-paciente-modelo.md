@@ -15,6 +15,13 @@ Acontece. E acontece porque essa pessoa está procurando uma oportunidade. Liter
 
 O que a gente usa é um meio-termo. Nem só a mensagem “topa ou não topa”, nem os sete passos completos.
 
+:::grafico escala
+A mensagem “topa ou não topa” | O meio-termo | Os sete passos completos
+:::
+
+:::grafico rail 1,2,6,7
+:::
+
 ## Conexão
 
 :::frase
@@ -30,6 +37,12 @@ Entendi. Então me conta o que exatamente você vê hoje quando se olha no espel
 :::
 
 A seleção começa na foto. Se o que você quer é caso pro feed, a gente precisa ter definido antes qual que é o problema que você resolve, certo? E sem isso, qualquer investimento em paciente modelo é dinheiro jogado fora. Se você está se posicionando em derretimento facial e entra em contato uma pessoa mais ou menos na faixa dos 28 anos, não é o problema que você tá posicionada para resolver. Essa não entra nessa edição. E é pra ela que serve a saída aqui embaixo. Agora, se a vaga é pra ter caso e caixa ao mesmo tempo, você não precisa escolher: vai da situação direto pra apresentação.
+
+:::grafico bifurca
+A seleção começa na foto
+V | É o problema que você tá posicionada para resolver | Entra nessa edição
+X | Fora da faixa etária ou fora do problema | A gente já agradece
+:::
 
 Fora da faixa etária ou fora do problema, a gente já agradece.
 

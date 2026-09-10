@@ -46,7 +46,7 @@ ebooks/715/
     transcricao/*.txt      3 aulas do WAID transcritas com WhisperX
   revisao/NN/              por bloco: capitulo-vK.md, detector-vK.json, rodada-K.json/txt
   revisao/_pre-*/          snapshots antes de cada passada grande
-  render/script-715.pdf    137 páginas, 9:16 (1080×1920)
+  render/script-715.pdf    143 páginas, 9:16 (1080×1920)
   render/provas/*.png      uma PNG por página
   render/cola/*.png        a cola dos 7 passos como peça de celular (cola_png.py)
   render/preview.html      abrir no browser pra folhear
@@ -100,7 +100,7 @@ peça: tríade na cola, lista no banco de perguntas.
 **O 11 saiu de 40 pra 22 sem trocar uma palavra**, convertendo o andaime de catálogo em
 bloco `:::caso`. A conversão foi provada neutra por contagem: 0 palavra perdida, 0 inventada.
 
-**Diagramação:** 138 páginas em 4 partes, com contracapa, **zero páginas órfãs** (o render audita isso sozinho e denuncia página de miolo abaixo de 35% de ocupação). Dois bugs do paginador
+**Diagramação:** 143 páginas em 4 partes, com contracapa. **34 gráficos vetoriais em 15 tipos**, e todo bloco tem pelo menos um, **zero páginas órfãs** (o render audita isso sozinho e denuncia página de miolo abaixo de 35% de ocupação). Dois bugs do paginador
 corrigidos em 09/set: lista numerada era bloco indivisível (agora quebra entre
 páginas, com `start=` continuando a numeração) e o balanceamento da última página
 do capítulo media `scrollHeight`, que nunca fica menor que a caixa porque
@@ -183,6 +183,9 @@ Cada uma tem arquivo próprio. Ler antes de mexer em qualquer coisa.
 - Livro dividido em 4 partes com página-marcador. Os rótulos são navegação, não
   doutrina.
 - A cola sai como peça própria (`cola_png.py`), não como recorte de página do PDF.
+- **Sem assinatura de autora.** Capa e rodapé levam só Reconecta (decisão do Sávio em
+  10/set). A narração em primeira pessoa continua sendo a da Ana; o que saiu foi a
+  assinatura, não a voz. `livro.json` sem a chave `autor` já omite o bloco na capa.
 
 ---
 

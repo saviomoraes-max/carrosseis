@@ -116,15 +116,25 @@ def auditar(arq):
     # antes de mim, o que quer dizer que a leitora também pegaria.
     for m in re.finditer(r"^(?!:::)(?!#).+$", t, re.M):
         if protegido(m.start(), faixas): continue
-        vistas = {}
+        vistas = []
         for f in re.split(r"(?<=[.!?])\s+", m.group(0)):
             f = f.strip()
             if len(f) < 25: continue
-            if f in vistas:
-                achados.append((linha_de(t, m.start()), "eco-no-paragrafo",
-                                "a mesma frase aparece duas vezes no mesmo parágrafo",
-                                re.sub(r"\s+", " ", f)[:130], "apagar a repetição"))
-            vistas[f] = 1
+            # Eco não precisa ser idêntico: enxerto duplicado costuma deixar uma frase que é
+            # PREFIXO da outra ("...num momento específico." dentro de "...num momento
+            # específico, e não a palavra que tá na sua apostila."). Compara pelo miolo.
+            nucleo = f.rstrip(".!?")
+            # Duas frases que abrem iguais por 60 caracteres são a mesma frase reescrita:
+            # é a assinatura do enxerto que substituiu um trecho MAIOR do que o acusado.
+            # Elas nem precisam ser prefixo uma da outra, podem divergir no meio.
+            for v in vistas:
+                if (nucleo == v or nucleo.startswith(v) or v.startswith(nucleo)
+                        or (len(nucleo) >= 60 and len(v) >= 60 and nucleo[:60] == v[:60])):
+                    achados.append((linha_de(t, m.start()), "eco-no-paragrafo",
+                                    "a mesma frase aparece duas vezes no mesmo parágrafo",
+                                    re.sub(r"\s+", " ", f)[:130], "apagar a repetição"))
+                    break
+            vistas.append(nucleo)
 
     # aspas ímpares por parágrafo
     for m in re.finditer(r"^(?!:::)(?!#).+$", t, re.M):

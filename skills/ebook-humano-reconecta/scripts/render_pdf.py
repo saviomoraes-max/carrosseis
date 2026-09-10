@@ -110,7 +110,7 @@ def compilar(raiz, so_html=False, provas=False):
     tpl = (RAIZ_SKILL / "template.html").read_text(); slug = L["rodape"]; partes = []
     partes.append(f'''<section class="pg capa">{chrome(L["hud_capa"])}<div class="stack"><span class="kicker">{html.escape(L["kicker_capa"])}</span><div class="sp22"></div>
 <span class="disp selo">{html.escape(L["selo"])}</span><div class="sp22"></div><span class="disp tit">{html.escape(L["titulo_capa"])}</span><div class="sp30"></div><span class="sub">{inline(L["subtitulo"])}</span></div>
-<div class="autor"><span class="kicker sm">Por</span><span class="disp" style="font-size:52px">{html.escape(L["autor"])}</span></div>
+{('<div class="autor"><span class="kicker sm">Por</span><span class="disp" style="font-size:52px">' + html.escape(L["autor"]) + "</span></div>") if L.get("autor") else ""}
 <img class="logo" src="file://{ds}/assets/logo-cream.svg">{rodape(L.get("rodape_capa", slug), "", True)}</section>''')
     caps = sorted((raiz / "manuscrito").glob("*.md")); metas = [front_matter(c.read_text(encoding="utf-8")) for c in caps]
     # sumário vem do livro.json (mapa aprovado); capítulo já escrito ganha número de página, os outros ficam sem

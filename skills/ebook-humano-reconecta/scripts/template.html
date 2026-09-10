@@ -59,7 +59,7 @@ li{margin-bottom:12px} ol li::marker{color:var(--gold-65)}
 .rodape .col{display:flex;flex-direction:column;gap:16px}
 .slug,.pn{font-family:var(--mono);font-size:18px;line-height:100%;letter-spacing:.14em;color:var(--cream-62);text-transform:uppercase;white-space:nowrap}
 .barcode{position:relative;width:128px;height:34px} .barcode i{position:absolute;top:0;height:34px;background:var(--cream-80)}
-.capa .stack{position:absolute;left:64px;top:220px;width:952px;display:flex;flex-direction:column;align-items:flex-start}
+.capa .stack{position:absolute;left:64px;top:400px;width:952px;display:flex;flex-direction:column;align-items:flex-start}
 .capa .selo{font-size:220px} .capa .tit{font-size:78px} .capa .autor{position:absolute;left:64px;bottom:210px;display:flex;flex-direction:column;gap:14px}
 .capa .logo{position:absolute;right:64px;bottom:200px;width:140px}
 .abertura .stack{position:absolute;left:64px;bottom:260px;width:952px;display:flex;flex-direction:column;align-items:flex-start}
@@ -119,6 +119,30 @@ document.fonts.ready.then(function(){
       }
       return null;
     };
+    // Gráfico feito de linhas (ordem, índice, sinais, mapa) quebra entre páginas igual a
+    // lista. Sem isso ele é indivisível e, quando não cabe, empurra tudo pra frente e deixa
+    // meia página vazia atrás. Ficam INTEIROS de propósito: leituras (o par negativa/positiva
+    // só faz sentido junto), bastão, cena, frase, grade e duas (grid de duas colunas, em que
+    // quebrar significaria separar a célula do par dela).
+    const DIVISIVEIS = ['g-ordem', 'g-indice', 'g-sinais', 'g-mapa'];
+    const dividirGrafico = (b) => {
+      if (!b.classList || !DIVISIVEIS.some(k => b.classList.contains(k))) return null;
+      const itens = Array.from(b.children);
+      if (itens.length < 4) return null;
+      const clone = b.cloneNode(false);
+      c.appendChild(clone);
+      let posto = 0;
+      for (const it of itens) {
+        clone.appendChild(it.cloneNode(true));
+        if (!cabe()) { clone.removeChild(clone.lastElementChild); break; }
+        posto++;
+      }
+      if (posto < 2 || posto === itens.length) { c.removeChild(clone); return null; }
+      const resto = b.cloneNode(false);
+      itens.slice(posto).forEach(it => resto.appendChild(it));
+      return resto;
+    };
+
     // quebra uma lista por itens: o que couber fica, o resto vira lista nova na próxima
     // página, com start= pra numeração continuar. Sem isso, lista longa é indivisível e
     // empurra tudo pra frente, deixando a página anterior quase vazia.
@@ -153,6 +177,7 @@ document.fonts.ready.then(function(){
         let resto = null;
         if (b.tagName === 'P') resto = dividirP(b);
         else if (b.tagName === 'OL' || b.tagName === 'UL') resto = dividirLista(b);
+        else resto = dividirGrafico(b);
         if (resto) { fila.unshift(resto); pg = nova(); c = pg.querySelector('.conteudo'); continue; }
         const ult = c.lastElementChild;
         if (ult && /^H[23]$/.test(ult.tagName) && !ult.classList.contains('topo')) { c.removeChild(ult); pg = nova(); c = pg.querySelector('.conteudo'); c.appendChild(ult); }

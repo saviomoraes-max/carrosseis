@@ -23,6 +23,12 @@ Gente, objeção não é rejeição. É pedido de mais informação, ou sinal de
 
 Se você reage com ansiedade, pressa ou justificativa, perde a paciente. Se responde com curiosidade e direção, a conversa volta, e o agendamento junto.
 
+:::grafico bifurca
+Chega o “vou pensar”
+X | Você reage com ansiedade, pressa ou justificativa | Perde a paciente
+V | Você responde com curiosidade e direção | A conversa volta, e o agendamento junto
+:::
+
 Curiosidade e direção. Eu gosto dessas duas palavras. Curiosidade é o que passa na sua cabeça quando chega o “vou pensar”, né, pensar no quê. E a direção é o que a gente faz com essa curiosidade, que é perguntar em vez de ficar esperando ela voltar.
 
 ## Dois tipos
@@ -55,6 +61,11 @@ Qualquer uma das duas serve, tá. A de baixo é a de cima já com o “vou pensa
 Se a resposta for vaga, outro “te aviso depois” ou um “ah, não sei”, é cortina de fumaça. E a cortina esconde quase sempre a mesma coisa: ela ainda não sabe se a consulta resolve o problema dela. O preço, o marido e a agenda entram na conversa porque em algum passo anterior ficou raso e a paciente chegou no fechamento sem estar convencida por ela mesma.
 
 E é aqui que entra o voltar que eu prometi no capítulo 9. Voltar é refazer a pergunta do passo que ficou raso, em vez de inventar resposta nova pra objeção. Olha as duas respostas pro “vou pensar” que você vai ver inteiras no capítulo 11. “O que te fez pensar em resolver isso agora e nos trouxe até aqui?” é a pergunta do passo três. “Como entendeu que a consulta com a doutora vai te ajudar a resolver [problema]?” é a pergunta do passo quatro. Você volta um passo e pergunta de novo.
+
+:::grafico mapa
+“O que te fez pensar em resolver isso agora e nos trouxe até aqui?” | Passo 3
+“Como entendeu que a consulta com a doutora vai te ajudar a resolver [problema]?” | Passo 4
+:::
 
 ## Por que responder mata
 

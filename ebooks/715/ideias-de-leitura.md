@@ -1,6 +1,6 @@
 # Script 715 · ideias pra leitura mais interessante
 
-Estado: 09/set/2026. O que já entrou no render e o que depende de decisão do Sávio.
+Estado: 10/set/2026. O que já entrou no render e o que depende de decisão do Sávio.
 
 ## Já feito nesta rodada (render v2, 121 páginas)
 
@@ -36,6 +36,37 @@ Tudo vetor e texto, no vocabulário do DS (Space Mono, hairline, ponto, barra). 
 14. **O render se audita.** Toda compilação reporta página de miolo abaixo de 35% de ocupação.
     As páginas vazias por desenho (abertura, parte, capa, sumário, contracapa, frase inteira)
     ficam fora da conta.
+
+## Feito em 10/set: sete tipos novos de gráfico
+
+O livro tinha 22 gráficos em 8 tipos e quatro blocos sem nenhum. Passou a **34 em 15 tipos,
+e todo bloco tem pelo menos um**. Todos seguem a mesma regra dos anteriores: só texto,
+hairline, ponto e barra, sem ícone, sem ilustração, sem foto. E **todo rótulo é literal do
+manuscrito** — nenhum diagrama afirma nada que o texto ao lado não diga.
+
+15. **`bifurca`** — uma situação, dois caminhos, dois desfechos, com o que continua a
+    conversa em dourado e o que perde a paciente em vermelho. Entrou no capítulo 10 (chega
+    o "vou pensar"), no 5 (você oferece a espera) e no anexo C (a seleção).
+16. **`convergem`** — caminhos diferentes que terminam no mesmo lugar. Capítulo 12: no
+    WhatsApp o número vai cedo demais, na salinha vai por quem não ouviu nada, e nos dois
+    casos ela sai com o número na mão.
+17. **`escala`** — régua com dois extremos e o ponto do meio aceso. Anexo C: nem a mensagem
+    "topa ou não topa", nem os sete passos completos.
+18. **`ordem`** — sequência vertical numerada pra quando a ORDEM é o conteúdo. Capítulo 4:
+    os quatro verbos do passo dois.
+19. **`indice`** — índice de seções pra consulta rápida. Capítulo 11, que tem 1.900 palavras
+    e seis famílias de objeção: a leitora acha o caso sem folhear.
+20. **`mapa`** — ligação item → destino com o fio no meio. Capítulo 10: cada resposta pro
+    "vou pensar" e o passo a que ela pertence.
+21. **`rail` com conjunto** (`rail 1,2,6,7`) — caminho curto no trilho dos sete passos, com
+    os pulados apagados e o fio tracejado entre eles. É o anexo C inteiro numa linha.
+
+**Dois defeitos do paginador corrigidos junto:**
+- Gráfico de linhas era indivisível, então quando não cabia empurrava tudo e deixava meia
+  página vazia atrás. Agora `ordem`, `indice`, `sinais` e `mapa` quebram entre páginas como
+  lista, com a numeração continuando. Os outros seguem inteiros de propósito: quebrar um
+  `duas` ou um `leituras` separa a célula do par dela.
+- O rótulo "FECHAMENTO" do trilho cortava na borda direita da página.
 
 ## Propostas (a validar)
 

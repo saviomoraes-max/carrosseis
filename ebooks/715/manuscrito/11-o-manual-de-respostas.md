@@ -11,6 +11,15 @@ fontes: "fontes/02-manual-objecoes.md (p.1-9)"
 
 Este capítulo é pra deixar do lado do celular. Eu organizei por família de objeção, e em cada uma você vai ver a mensagem que a paciente manda e o que a gente responde se quiser continuar a conversa, e nas que mais aparecem eu mostro também o que a gente responde se quiser perder a paciente, e por que perde. As frases de continuar são modelo, tá, do mesmo jeito que eu falei no capítulo 2. Copia a frase, troca pelas palavras que ela mesma usou, e o que você manda depois depende do que ela respondeu.
 
+:::grafico indice
+Preço
+Consulta paga
+Falta de compromisso
+Informação técnica
+Resistência
+A paciente mandou foto
+:::
+
 Gente, repara que toda resposta que continua a conversa devolve uma pergunta. Nenhuma entrega a informação e para por ali. As perguntas somos nós que fazemos. Até porque penso o seguinte: se a gente responde as perguntas que a pessoa faz, quem tá no controle da conversa é ela.
 
 ## Preço

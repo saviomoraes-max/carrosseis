@@ -11,6 +11,18 @@ Sintaxe no markdown (bloco :::grafico <tipo> [param] ... :::):
   sinais            checklist; cada linha "- item"
   bastao            dois mini-diálogos lado a lado; linhas "ELA:"/"VOCÊ:" e "=> ELA" ou "=> VOCÊ" fecham cada coluna
   grade             grade numerada 2 colunas; cada linha "N | rótulo"
+  bifurca           uma situação e dois caminhos; 1ª linha a situação, demais "V|X | o que faz | no que dá"
+  convergem         caminhos diferentes com o MESMO fim; linhas "Rótulo | o que acontece" e "=> desfecho"
+  escala            régua de dois extremos com o ponto do meio aceso; uma linha "A | meio | B"
+  ordem             sequência vertical numerada, pra quando a ORDEM é o conteúdo; uma linha por item
+  indice            índice de seções pra consulta rápida; uma linha por seção, "Seção | nota" opcional
+  mapa              ligação item → destino com o fio no meio; linhas "texto | Destino"
+
+O `rail` também aceita CONJUNTO de passos ("rail 1,2,6,7"), pra desenhar caminho curto: os
+passos pulados ficam apagados e o fio entre eles vira tracejado.
+
+Quem quebra entre páginas (ver DIVISIVEIS no template.html): ordem, indice, sinais, mapa.
+Os outros são indivisíveis de propósito, porque quebrar separa par de célula ou de leitura.
 """
 import html, re
 
@@ -23,12 +35,27 @@ def _enf(s):  # «ênfase» → gold
 def _split(ln): return [p.strip() for p in ln.split("|")]
 
 def rail(atual=0, mini=False):
-    W = 952; n = 7; x0, x1 = 44, W - 44; step = (x1 - x0) / (n - 1); y = 46; r = 24
+    """Trilho dos 7 passos. `atual` aceita um número (o passo aceso, os anteriores em
+    percorrido) ou um conjunto de números, pra desenhar caminho curto: `rail 1,2,6,7`
+    acende só esses quatro e apaga o resto, que é o que o anexo C faz."""
+    conjunto = atual if isinstance(atual, (set, frozenset, list, tuple)) else None
+    atual = 0 if conjunto else atual
+    W = 952; n = 7; x0, x1 = 62, W - 62; step = (x1 - x0) / (n - 1); y = 46; r = 24
     H = 70 if mini else 150
     out = [f'<svg class="g-svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}">',
            f'<line x1="{x0}" y1="{y}" x2="{x1}" y2="{y}" stroke="{CREAM28}" stroke-width="1.5"/>']
+    if conjunto:
+        acesos = sorted(int(v) for v in conjunto)
+        for a, b in zip(acesos, acesos[1:]):
+            xa = x0 + (a - 1) * step; xb = x0 + (b - 1) * step
+            tracejado = ' stroke-dasharray="4 7"' if b - a > 1 else ''
+            out.append(f'<line x1="{xa:.1f}" y1="{y}" x2="{xb:.1f}" y2="{y}" stroke="{GOLD65}" stroke-width="1.5"{tracejado}/>')
     for i in range(n):
-        x = x0 + i * step; on = (i + 1) == atual; done = (i + 1) < atual
+        x = x0 + i * step
+        if conjunto:
+            on = (i + 1) in {int(v) for v in conjunto}; done = False
+        else:
+            on = (i + 1) == atual; done = (i + 1) < atual
         fill = GOLD if on else INK; stroke = GOLD if on else (CREAM62 if done else CREAM28)
         out.append(f'<circle cx="{x:.1f}" cy="{y}" r="{r}" fill="{fill}" stroke="{stroke}" stroke-width="1.5"/>')
         out.append(f'<text x="{x:.1f}" y="{y+1}" text-anchor="middle" dominant-baseline="central" font-family="Space Mono" font-size="20" fill="{INK if on else (CREAM if done else CREAM62)}">{i+1}</text>')
@@ -105,9 +132,118 @@ def grade(corpo):
     cels = "".join(f'<div class="cel"><span class="n">{_e(it[0])}</span><p>{_enf(it[1] if len(it) > 1 else "")}</p></div>' for it in itens)
     return f'<div class="g g-grade">{cels}</div>'
 
+# ---------------------------------------------------------------------------
+# Tipos de 10/set: o texto do livro descreve MUITO caminho (se isso, então
+# aquilo), e caminho desenhado se lê no celular numa olhada. Todos seguem a
+# mesma regra dos anteriores: só texto, hairline, ponto e barra.
+# ---------------------------------------------------------------------------
+
+def _forquilha(W=952, H=54, cima=1, baixo=2, gap=40):
+    """Conector em hairline: desce do bloco de cima e abre (ou fecha) pra N colunas.
+
+    O x de cada perna é o CENTRO REAL da coluna do grid, com o gap descontado. Dividir a
+    largura em quartos erra dez pixels, e dez pixels de desalinho aparecem no papel."""
+    meio = W / 2
+    def qx(n, i):
+        col = (W - gap * (n - 1)) / n
+        return i * (col + gap) + col / 2
+    out = [f'<svg class="g-svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}">']
+    if cima == 1:
+        out.append(f'<line x1="{meio}" y1="0" x2="{meio}" y2="{H/2:.0f}" stroke="{CREAM28}" stroke-width="1.5"/>')
+        xs = [qx(baixo, i) for i in range(baixo)]
+        out.append(f'<line x1="{xs[0]:.1f}" y1="{H/2:.0f}" x2="{xs[-1]:.1f}" y2="{H/2:.0f}" stroke="{CREAM28}" stroke-width="1.5"/>')
+        for x in xs:
+            out.append(f'<line x1="{x:.1f}" y1="{H/2:.0f}" x2="{x:.1f}" y2="{H}" stroke="{CREAM28}" stroke-width="1.5"/>')
+    else:
+        xs = [qx(cima, i) for i in range(cima)]
+        for x in xs:
+            out.append(f'<line x1="{x:.1f}" y1="0" x2="{x:.1f}" y2="{H/2:.0f}" stroke="{CREAM28}" stroke-width="1.5"/>')
+        out.append(f'<line x1="{xs[0]:.1f}" y1="{H/2:.0f}" x2="{xs[-1]:.1f}" y2="{H/2:.0f}" stroke="{CREAM28}" stroke-width="1.5"/>')
+        out.append(f'<line x1="{meio}" y1="{H/2:.0f}" x2="{meio}" y2="{H}" stroke="{CREAM28}" stroke-width="1.5"/>')
+    out.append("</svg>")
+    return "".join(out)
+
+def bifurca(corpo):
+    """Uma situação, dois caminhos, dois desfechos.
+
+    Primeira linha: a situação. Demais: "V|X | o que você faz | no que dá".
+    V pinta de dourado (o caminho que continua a conversa), X de vermelho.
+    """
+    linhas = [l for l in corpo if l.strip()]
+    if not linhas: return ""
+    situacao = linhas[0].strip()
+    ramos = []
+    for l in linhas[1:]:
+        ps = _split(l)
+        if len(ps) < 3: continue
+        bom = ps[0].strip().upper() in ("V", "SIM", "OK")
+        ramos.append((bom, ps[1], ps[2]))
+    if not ramos: return ""
+    cols = "".join(
+        f'<div class="ramo"><p class="acao">{_enf(acao)}</p>'
+        f'<div class="fim {"bom" if bom else "ruim"}"><i class="dot {"gold" if bom else "red"}"></i>'
+        f'<span>{_enf(fim)}</span></div></div>' for bom, acao, fim in ramos)
+    return (f'<div class="g g-bifurca"><div class="cond">{_enf(situacao)}</div>'
+            f'{_forquilha(baixo=len(ramos))}<div class="ramos c{len(ramos)}">{cols}</div></div>')
+
+def convergem(corpo):
+    """Dois caminhos diferentes que terminam no MESMO lugar.
+
+    Linhas "Rótulo | o que acontece", e a última começando com "=>" é o desfecho comum.
+    """
+    entradas, saida = [], ""
+    for l in corpo:
+        if not l.strip(): continue
+        if l.strip().startswith("=>"):
+            saida = l.strip()[2:].strip(); continue
+        ps = _split(l)
+        entradas.append((ps[0], ps[1] if len(ps) > 1 else ""))
+    if not entradas: return ""
+    cols = "".join(f'<div class="via"><span class="lbl">{_e(r)}</span><p>{_enf(x)}</p></div>' for r, x in entradas)
+    return (f'<div class="g g-converge"><div class="vias c{len(entradas)}">{cols}</div>'
+            f'{_forquilha(cima=len(entradas), baixo=1)}'
+            f'<div class="fim"><i class="dot red"></i><p>{_enf(saida)}</p></div></div>')
+
+def escala(corpo):
+    """Régua com dois extremos e o ponto que a gente usa no meio."""
+    ps = _split(" ".join(l for l in corpo if l.strip()))
+    if len(ps) < 3: return ""
+    W, y = 952, 34
+    xs = [90, W / 2, W - 90]
+    out = [f'<svg class="g-svg" viewBox="0 0 {W} 60" width="{W}" height="60">',
+           f'<line x1="{xs[0]}" y1="{y}" x2="{xs[2]}" y2="{y}" stroke="{CREAM28}" stroke-width="1.5"/>']
+    for i, x in enumerate(xs):
+        meio = i == 1
+        out.append(f'<circle cx="{x:.0f}" cy="{y}" r="{16 if meio else 9}" fill="{GOLD if meio else INK}" stroke="{GOLD if meio else CREAM62}" stroke-width="1.5"/>')
+    out.append("</svg>")
+    cels = "".join(f'<div class="p{i}{" meio" if i == 1 else ""}">{_enf(p)}</div>' for i, p in enumerate(ps[:3]))
+    return f'<div class="g g-escala">{"".join(out)}<div class="rot">{cels}</div></div>'
+
+def ordem(corpo):
+    """Sequência vertical numerada em que a ORDEM é o conteúdo."""
+    itens = [re.sub(r"^\s*[-*]\s*", "", l).strip() for l in corpo if l.strip()]
+    rows = "".join(f'<div class="lin"><span class="n">{i+1}</span><p>{_enf(t)}</p></div>' for i, t in enumerate(itens))
+    return f'<div class="g g-ordem">{rows}</div>'
+
+def indice(corpo):
+    """Índice de seções pra consulta rápida: a leitora acha o caso sem folhear."""
+    itens = [_split(l) for l in corpo if l.strip()]
+    rows = "".join(f'<div class="lin"><span class="n">{i+1:02d}</span><p>{_enf(it[0])}</p>'
+                   f'<span class="nota">{_enf(it[1]) if len(it) > 1 else ""}</span></div>'
+                   for i, it in enumerate(itens))
+    return f'<div class="g g-indice">{rows}</div>'
+
+def mapa(corpo):
+    """Ligação item → destino, com o fio no meio. "pergunta | Passo 3"."""
+    itens = [_split(l) for l in corpo if l.strip()]
+    rows = "".join(f'<div class="lin"><p class="de">{_enf(it[0])}</p><div class="fio"></div>'
+                   f'<span class="para">{_enf(it[1] if len(it) > 1 else "")}</span></div>' for it in itens)
+    return f'<div class="g g-mapa">{rows}</div>'
+
 def render(tipo, param, corpo):
     tipo = tipo.lower()
-    if tipo == "rail": return rail(int(param or 0))
+    if tipo == "rail":
+        return rail([int(v) for v in param.split(",")] if param and "," in param else int(param or 0))
     if tipo == "funil": return funil()
     if tipo == "linha": return linha(corpo)
     if tipo == "duas": return duas(corpo)
@@ -115,6 +251,12 @@ def render(tipo, param, corpo):
     if tipo == "sinais": return sinais(corpo, param or "Quando avançar")
     if tipo == "bastao": return bastao(corpo)
     if tipo == "grade": return grade(corpo)
+    if tipo == "bifurca": return bifurca(corpo)
+    if tipo == "convergem": return convergem(corpo)
+    if tipo == "escala": return escala(corpo)
+    if tipo == "ordem": return ordem(corpo)
+    if tipo == "indice": return indice(corpo)
+    if tipo == "mapa": return mapa(corpo)
     raise ValueError(f"grafico desconhecido: {tipo}")
 
 CSS = """
@@ -133,6 +275,7 @@ CSS = """
 .g-linha .nota{font-family:var(--body);font-weight:400;font-size:30px;line-height:1.4;color:var(--cream-80)}
 .g-duas{display:grid;grid-template-columns:1fr 1fr;column-gap:36px;row-gap:0}
 .g-duas .hd{display:flex;align-items:center;gap:12px;padding-bottom:18px;border-bottom:1.5px solid rgba(238,217,189,.28)}
+.g-duas .cel:empty{border-bottom:0;padding:0}
 .g-duas .cel{font-family:var(--body);font-size:32px;line-height:1.4;color:var(--cream-90);padding:20px 0;border-bottom:1px solid rgba(238,217,189,.14)}
 .g-leit .lin{display:flex;gap:22px;align-items:flex-start;padding:26px 0;border-top:1px solid rgba(238,217,189,.14)}
 .g-leit .lin .dot{margin-top:6px}
@@ -151,4 +294,41 @@ CSS = """
 .g-grade .cel{display:flex;gap:18px;align-items:baseline;padding:18px 0;border-top:1px solid rgba(238,217,189,.14)}
 .g-grade .n{font-family:var(--disp);font-weight:700;font-size:56px;line-height:1;color:var(--gold-65);width:58px;flex:none}
 .g-grade p{margin:0;font-size:32px;line-height:1.35;font-weight:500;color:var(--cream)}
+
+.g-bifurca .cond{font-family:var(--body);font-weight:600;font-size:34px;line-height:1.3;color:var(--cream);text-align:center;padding:24px 30px;border:1.5px solid rgba(238,217,189,.28);width:640px;margin:0 auto}
+.g-bifurca .ramos{display:grid;column-gap:40px}
+.g-bifurca .ramos.c2{grid-template-columns:1fr 1fr}
+.g-bifurca .ramos.c3{grid-template-columns:1fr 1fr 1fr}
+.g-bifurca .ramo{border:1.5px solid rgba(238,217,189,.28);display:flex;flex-direction:column}
+.g-bifurca .acao{margin:0;flex:1;padding:22px 26px;font-size:31px;line-height:1.35;color:var(--cream-90)}
+.g-bifurca .fim{display:flex;gap:16px;align-items:flex-start;padding:20px 26px;border-top:1.5px solid rgba(238,217,189,.28)}
+.g-bifurca .fim .dot{margin-top:11px}
+.g-bifurca .fim span{font-family:var(--body);font-weight:600;font-size:31px;line-height:1.3}
+.g-bifurca .fim.bom{border-top-color:var(--gold)} .g-bifurca .fim.bom span{color:var(--gold)}
+.g-bifurca .fim.ruim{border-top-color:var(--red)} .g-bifurca .fim.ruim span{color:rgba(238,217,189,.62)}
+.g-converge .vias{display:grid;column-gap:40px}
+.g-converge .vias.c2{grid-template-columns:1fr 1fr}
+.g-converge .via{padding:22px 26px;border:1.5px solid rgba(238,217,189,.28)}
+.g-converge .via p{margin:14px 0 0 0;font-size:31px;line-height:1.35;color:var(--cream-90)}
+.g-converge .fim{display:flex;gap:20px;align-items:flex-start;width:700px;margin:0 auto;padding:24px 30px;border:1.5px solid rgba(211,17,26,.55)}
+.g-converge .fim .dot{margin-top:12px}
+.g-converge .fim p{margin:0;font-family:var(--body);font-weight:600;font-size:33px;line-height:1.3;color:var(--cream)}
+.g-escala .rot{display:grid;grid-template-columns:1fr 1fr 1fr;column-gap:24px;margin-top:6px}
+.g-escala .rot>div{font-size:29px;line-height:1.35;color:var(--cream-62)}
+.g-escala .p0{text-align:left} .g-escala .p2{text-align:right}
+.g-escala .meio{text-align:center;color:var(--gold);font-weight:600;font-size:33px}
+.g-ordem .lin{display:flex;gap:26px;align-items:flex-start;padding:22px 0;border-top:1px solid rgba(238,217,189,.14)}
+.g-ordem .lin:last-child{border-bottom:1px solid rgba(238,217,189,.14)}
+.g-ordem .n{font-family:var(--disp);font-weight:700;font-size:48px;line-height:1;color:var(--gold);width:46px;flex:none}
+.g-ordem p{margin:0;font-size:34px;line-height:1.35;color:var(--cream)}
+.g-indice .lin{display:flex;gap:24px;align-items:baseline;padding:20px 0;border-top:1px solid rgba(238,217,189,.14)}
+.g-indice .lin:last-child{border-bottom:1px solid rgba(238,217,189,.14)}
+.g-indice .n{font-family:var(--mono);font-size:18px;letter-spacing:.16em;color:var(--gold-65);width:44px;flex:none}
+.g-indice p{margin:0;flex:1;font-family:var(--body);font-weight:500;font-size:33px;line-height:1.3;color:var(--cream)}
+.g-indice .nota{font-family:var(--mono);font-size:17px;letter-spacing:.08em;color:var(--cream-62);text-align:right}
+.g-mapa .lin{display:flex;gap:22px;align-items:center;padding:20px 0;border-top:1px solid rgba(238,217,189,.14)}
+.g-mapa .lin:last-child{border-bottom:1px solid rgba(238,217,189,.14)}
+.g-mapa .de{margin:0;flex:1;font-size:30px;line-height:1.35;color:var(--cream-90)}
+.g-mapa .fio{width:64px;height:1.5px;background:var(--gold-65);flex:none}
+.g-mapa .para{font-family:var(--mono);font-size:18px;letter-spacing:.16em;color:var(--gold);text-transform:uppercase;white-space:nowrap;flex:none}
 """

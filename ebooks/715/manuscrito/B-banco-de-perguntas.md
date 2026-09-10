@@ -11,6 +11,9 @@ fontes: "fontes/03-manual-perguntas.md (p.1-3); fontes/01-framework-715.md"
 
 Aqui é só a lista, tá. O sinal pra avançar em cada passo está na cola do anexo A, e as respostas pra quando ela trava estão nos capítulos 10 e 11.
 
+:::grafico rail 0
+:::
+
 ## 1. Conexão
 
 Aqui a gente ganha a permissão e a confiança pra seguir e aprofundar.

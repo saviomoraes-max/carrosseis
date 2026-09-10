@@ -57,7 +57,13 @@ A primeira é a única que começa pedindo licença, e não é por acaso. É o m
 
 O “por que fazer agora e não esperar mais um pouco?” parece perigoso, eu sei, tá? Parece que você está dando a ideia de esperar. Só que é o contrário, porque quando você oferece a espera, ela é obrigada a argumentar contra a espera e quem argumenta contra esperar está se convencendo de agir.
 
-E se ela responde “nada, sempre quis”? Então você ainda não tem o motivo. É pra isso que serve o “por que fazer agora e não esperar mais um pouco”: ela vai ter que dizer por que não espera. Agora, se nem assim vem nada, ou se ela topa esperar, o passo três não aconteceu, e quem está convencida é você. Não tem nenhum indício de intolerância, entendeu? Ela não falou dor em nenhum momento, nem problema. Então, como não tem nem dor, nem problema, não tem por que a gente perguntar sobre tolerância ou sobre incômodo, sobre prioridade. Volta pro passo dois e aprofunda até achar o que faz disso um problema agora.
+E se ela responde “nada, sempre quis”? Então você ainda não tem o motivo. É pra isso que serve o “por que fazer agora e não esperar mais um pouco”: ela vai ter que dizer por que não espera.
+
+:::grafico bifurca
+Você oferece a espera: “por que fazer agora e não esperar mais um pouco?”
+V | Ela é obrigada a argumentar contra a espera | Quem argumenta contra esperar está se convencendo de agir
+X | Ela topa esperar, ou nem assim vem nada | O passo três não aconteceu, e quem está convencida é você
+::: Agora, se nem assim vem nada, ou se ela topa esperar, o passo três não aconteceu, e quem está convencida é você. Não tem nenhum indício de intolerância, entendeu? Ela não falou dor em nenhum momento, nem problema. Então, como não tem nem dor, nem problema, não tem por que a gente perguntar sobre tolerância ou sobre incômodo, sobre prioridade. Volta pro passo dois e aprofunda até achar o que faz disso um problema agora.
 
 :::evite
 Interromper a paciente quando ela está se abrindo. Tentar animar a paciente minimizando o problema. Oferecer solução imediata sem explorar a dor por completo.
