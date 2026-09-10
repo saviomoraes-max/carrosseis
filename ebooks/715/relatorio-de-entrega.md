@@ -142,7 +142,15 @@ literal dela. Registro aqui só pra você ter o dado, sem reabrir:
   INFORMADO]", que fecha. As duas fontes discordam entre si, e o livro agora reflete
   cada uma na sua casa: capítulos e cola seguem o framework, anexo B segue o manual.
 
-**3. Quatro posições da casa sobre quem digita no WhatsApp, e você já escolheu.**
+**3. As muletas orais saíram, e isso tem um preço declarado.** A seu pedido, 38 muletas
+foram cortadas: o `, né,` do meio da frase e o `, né.` fechando com ponto. Ficaram as 28
+que fecham pergunta com `?`, que são recurso escrito, e os vocativos que se dirigem a
+quem lê. **O preço:** essas muletas eram literalmente o que os 39 leitores cegos citavam
+como prova de que o texto era humano, então o veredito deles deve andar na direção de
+"IA". Registro isso pra ninguém confundir a causa depois: não é o texto piorando, é uma
+troca deliberada de régua, com a leitora ganhando do detector.
+
+**4. Quatro posições da casa sobre quem digita no WhatsApp, e você já escolheu.**
 Registro só pra não voltar à mesa: a ficha T8.23 diz que quem responde nunca se passa
 pela doutora; a decisão canônica D-C de 28/jul diz o oposto e revoga a T8.23; o fluxo de
 handoff apresenta a secretária com autoridade emprestada; e o framework 715, que é a

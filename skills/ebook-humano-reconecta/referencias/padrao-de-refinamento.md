@@ -331,6 +331,9 @@ da mesma interjeição em pontos diferentes do capítulo.
 - O cego **continua não sendo portão** (3c vale). Ele virou o que sempre deveria ter sido: a
   medida de resultado que diz se a reescrita valeu, não a régua que dita a edição.
 
+**Limite desta seção, posto pelo dono do produto em 10/set:** tudo acima vale pra decidir
+QUE MATERIAL entra, e para de valer na hora de decidir COMO ELE É PONTUADO. Ver 3k.
+
 ## 3i. A banca: alguém precisa ler o livro inteiro, e ninguém estava lendo
 
 Este pipeline inteiro lia UM BLOCO POR VEZ. O detector mede um capítulo, os revisores conferem
@@ -391,6 +394,45 @@ era o único lugar onde o texto sumia, e ninguém olhava pra ele.
 **Regra geral, que vale além deste bug:** toda régua deste pipeline lê a fonte. Se o
 compilador perder alguma coisa entre a fonte e o entregável, só um leitor humano descobre, e
 tarde. Onde houver compilação, tem que haver conferência de fonte contra saída.
+
+## 3k. Fala real é o insumo, não o acabamento: a fronteira que o dono do produto traçou
+
+A técnica de 3h funciona, e é por isso que ela é perigosa. Ao trocar prosa composta por
+fala literal da autora, entra junto tudo que vem colado na fala: a muleta no meio da frase,
+o "né" fechando afirmação com ponto, a autocorreção. Os leitores cegos premiam isso, porque
+é exatamente o que máquina não produz. **Só que leitor cego não é a leitora, e ebook pago
+não é transcrição.**
+
+Em 10/set o dono do produto olhou uma linha do Script 715 e disse: *"esse ', né,' quebra a
+leitura demais. É um ebook, não é pra colocar todos os vícios de linguagem dela."* Estava
+certo, e a régua acima estava empurrando na direção errada.
+
+**A fronteira, e ela é de POSIÇÃO NA FRASE, não de palavra:**
+
+| Onde está | O que é | Decisão |
+| --- | --- | --- |
+| `, né,` no MEIO da frase | filler puro, corta o fôlego da leitora no meio | **corta** |
+| `, né.` fechando com PONTO | nem tag question é (essa fecha com "?"), é resíduo de transcrição | **corta** |
+| `, né?` fechando pergunta | pergunta de confirmação, recurso escrito legítimo | **fica** |
+| `Gente,` abrindo frase | vocativo que se dirige a quem lê | **fica** |
+| `, gente.` fechando frase | vocativo, idem | **fica** |
+
+No Script 715 isso deu 38 cortes: 22 do meio e 16 de fim com ponto, contra 28 tag questions
+mantidas em 11 mil palavras de prosa.
+
+**Cortar não é apagar.** Em seis dos 22 casos, remover a muleta deixava duas orações
+independentes coladas por vírgula, porque era ela que fazia a junção. Esses viram ponto
+final ou dois-pontos. Aplicar `re.sub` na muleta e ir embora produz erro de pontuação onde
+antes havia oralidade, o que é uma troca ruim.
+
+**Mede antes de cortar, e mede POR POSIÇÃO.** O total não diz nada: no Script 715 eram 24
+no meio, 45 fechando e 8 abrindo, e só o primeiro grupo era problema. Quem contar só
+"quantos né tem no livro" corta os 77 ou não corta nenhum, e os dois estão errados.
+
+**Consequência aceita, não escondida:** essas muletas eram literalmente o que os 39
+leitores cegos citaram como prova de humanidade. Tirá-las deve empurrar o veredito na
+direção de "ia". Isso é preço, não defeito: o produto é lido por uma doutora cansada no
+celular, não por um detector. Quando as duas réguas brigarem, ganha a leitora.
 
 ## 4. O que nunca entra
 

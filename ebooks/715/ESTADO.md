@@ -195,6 +195,11 @@ Cada uma tem arquivo próprio. Ler antes de mexer em qualquer coisa.
 - Livro dividido em 4 partes com página-marcador. Os rótulos são navegação, não
   doutrina.
 - A cola sai como peça própria (`cola_png.py`), não como recorte de página do PDF.
+- **Muleta oral no MEIO da frase não entra** (decisão do Sávio, 10/set: "é um ebook, não
+  é pra colocar todos os vícios de linguagem dela"). Foram 38 cortes: 22 do meio e 16 de
+  `, né.` fechando com ponto. **Ficam** as 28 que fecham pergunta com `?` e os vocativos.
+  A régua está em `padrao-de-refinamento.md` 3k, e ela LIMITA a 3h: fala real é insumo,
+  não acabamento. **Não reabrir** achando que é oralidade a preservar.
 - **Quem digita fala da doutora em terceira pessoa, e isso é proposital** (decisão do
   Sávio, 10/set). As 29 frases prontas seguem o framework. Existe no `llm-wiki-time` a
   decisão canônica **D-C de 28/jul** dizendo o oposto ("a secretária SE PASSA pela
