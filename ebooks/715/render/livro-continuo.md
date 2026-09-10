@@ -87,23 +87,21 @@ Aí uma outra falou: “é porque eu acho que os pacientes estão procurando pro
 
 E 100% das pessoas que deram muito certo, 100% das pessoas que deram muito errado, que eu conheço, o fator que fez dar certo ou dar errado foi comportamental. Não foi nada externo, é sempre algo interno.
 
-Nós temos pessoas que faturam 200 mil em cidades de 5 mil habitantes e em cidades de 1 milhão. Nós temos pessoas que faturam 200 mil com mais de 60 anos e com menos de 25. Nós temos pessoas do interior e de capital. Nós temos biomédicas, médicas, dentistas, farmacêuticas, fisioterapeutas.
-
-O que que essas pessoas que conseguiram chegar lá têm de diferente de você?
-
 ## O que é interno no WhatsApp
 
 A queixa das quatro era a mesma: chegou menos gente. E as quatro foram procurar o motivo fora, na cidade, na idade, na concorrência. Só que se o problema fosse a cidade, misericórdia, eu teria que mudar de cidade, teria que mudar de região, teria que mudar meu tráfego, teria que mudar tudo. Agora, se a gente sabe que o problema tá com a gente, é a melhor coisa do mundo, porque tá no meu controle, então tá fácil. E a resposta do WhatsApp é a coisa mais interna que existe, né, porque depende do que você digita depois do “oi”, e quando chega menos gente cada conversa que morre pesa mais. A paciente que chama no WhatsApp é a mesma em qualquer clínica dessas que eu falei. Ela chega com uma dúvida e, quase sempre, com uma pergunta de preço.
 
     FRASE EM PÁGINA INTEIRA — Para vender qualquer coisa, é só vender aquilo que a pessoa já quer comprar.
 
-Gente, essa frase é o 715 inteiro. Ela já quer. Ninguém manda mensagem pra clínica sem querer alguma coisa e o que a gente faz nos sete passos é descobrir o que ela quer de verdade. Pensa o seguinte, toda pergunta que a pessoa faz para você é porque existe um motivo por trás da pergunta. Ela escreve “gostaria de saber como funciona a questão do botox, preenchimento labial, valores?”, e o que ela quer mesmo só aparece depois que alguém pergunta: “me incomoda algumas linhas de expressão que tenho no rosto, principalmente fazer a famosa cara de brava”.
+Gente, essa frase é o 715 inteiro. Ela já quer. Ninguém manda mensagem pra clínica sem querer alguma coisa e o que a gente faz nos sete passos é descobrir o que ela quer de verdade. Pensa o seguinte, toda pergunta que a pessoa faz para você é porque existe um motivo por trás da pergunta. Ela escreve “gostaria de saber como funciona a questão do botox, preenchimento labial, valores?”, e o que ela quer mesmo só aparece depois que alguém pergunta e ela responde: “me incomoda algumas linhas de expressão que tenho no rosto, principalmente fazer a famosa cara de brava”.
 
 Então, o nome é “sete passos para um agendamento a cada cinco contatos”, ó, um a cada cinco, e não “sete passos para agendar todo mundo”, porque o que a gente quer é a paciente sair da conversa querendo marcar sem ninguém ter empurrado, se o problema que ela trouxe se resolve com a consulta. Agora, se não resolve, ela não agenda, e está tudo certo.
 
     [gráfico: funil]
 
 ## O que eu peço pra você guardar
+
+Antes de tudo, uma coisa sobre o “você” deste livro. Quem digita no WhatsApp da clínica é quem atende, e o script foi escrito pra essa pessoa: repara que a abertura tem dois espaços pra preencher, o seu nome e o nome da doutora. Se quem atende é você mesma, doutora, aí você fala de você na terceira pessoa mesmo, que é como a paciente ouve do outro lado.
 
 Então, eu quero te passar primeiro o que a gente considera a base de qualquer atendimento, tá? São oito coisas, e isso aqui é o que eu vejo dar certo nas clínicas que passam por aqui e são mais de 3 mil, e elas voltam em todos os capítulos, então guarda.
 
@@ -421,7 +419,7 @@ O “com tudo o que falamos” no começo da primeira não é enfeite. Ele amarr
 
     O QUE EVITAR — Pular pra apresentação direto, sem entender o que ela está buscando. E se qualificar, de qualquer jeito que seja, elogiar a doutora ou a clínica pra consulta parecer valer mais.
 
-O segundo é o erro que mais volta no material, porque se qualificar demais aparece lá na conexão, aqui na qualificação, de novo na transição e ainda na apresentação. A paciente acabou de dizer que quer a consulta, e a atendente, toda animada, emenda: “e a doutora é ótima, os casos dela são perfeitos, olha esse caso que lindo”. Parou. A paciente estava se convencendo sozinha e você entrou no meio pra convencer. E quando a gente qualifica a doutora, todas as informações que a gente coloca nem chegam a ser avaliadas.
+O segundo é o erro que mais volta no material, porque se qualificar demais aparece lá na conexão, aqui na qualificação, de novo na transição e ainda na apresentação. A paciente acabou de dizer que quer a consulta, e você, toda animada, emenda: “e a doutora é ótima, os casos dela são perfeitos, olha esse caso que lindo”. Parou. A paciente estava se convencendo sozinha e você entrou no meio pra convencer. E quando a gente qualifica a doutora, todas as informações que a gente coloca nem chegam a ser avaliadas.
 
 ## Como ela lê você
 
@@ -453,9 +451,9 @@ CAPÍTULO 07 · Transição
 ------------------------------------------------------------------------------
 
 [conversa de WhatsApp]
-      VOCÊ: [Nome], por conta da forma que trouxe... e de já estar há uns dois anos sentindo assim... concordo que não tem por que deixar mais para depois.
+      VOCÊ: [Nome], por conta da forma que trouxe... e de já estar desde uns dois anos sentindo assim... concordo que não tem por que deixar mais para depois.
 
-Uma mensagem. É isso o passo cinco. Ele é o mais curto do script, e é onde a tentação de pular etapa tem endereço. Sabe o que a atendente faz? Sai do passo quatro, com a paciente declarada, e vai direto pro horário e às vezes funciona. Só que entre o que ela disse e o que você vai oferecer fica faltando uma coisa, ó. A ponte.
+Uma mensagem. É isso o passo cinco. Ele é o mais curto do script, e é onde a tentação de pular etapa tem endereço. Sabe o que a gente faz? Sai do passo quatro, com a paciente declarada, e vai direto pro horário e às vezes funciona. Só que entre o que ela disse e o que você vai oferecer fica faltando uma coisa, ó. A ponte.
 
 ## Pra que serve
 
@@ -465,14 +463,14 @@ Os três objetivos falam do problema dela. Sem o problema que a pessoa tá passa
 
 ## A frase
 
-    FRASE PRONTA — [Nome], por conta da forma que trouxe... e de já estar há [tempo] sentindo assim... concordo que não tem por que deixar mais para depois.
+    FRASE PRONTA — [Nome], por conta da forma que trouxe... e de já estar desde [tempo] sentindo assim... concordo que não tem por que deixar mais para depois.
 
 Três pedaços. O nome dela. A forma como ela trouxe e o tempo que ela está assim. O que você preenche são dois, o nome e o tempo. O nome você já tem desde o começo da conversa. O tempo ela te contou lá no passo três quando você perguntou “por que agora” e o script chama esse pedaço de “tempo informado” porque é o tempo que ela mesma te deu, né. O “por conta da forma que trouxe” é o corpo do script. O que muda são os colchetes. A palavra dela mesma entra no passo seis. E o “concordo”. Você não está propondo que ela resolva agora. Ela já tomou essa decisão no passo três, quando disse “por que agora”, e o que você faz aqui é concordar. Quem concorda está do lado dela.
 
     [gráfico: grade]
       1 | «[Nome]» · você já tem desde o começo
       2 | «por conta da forma que trouxe» · é o corpo do script, não muda
-      3 | «há [tempo]» · ela te deu no passo três
+      3 | «desde [tempo]» · ela te deu no passo três
 
 E se ela não te deu o tempo, não inventa um. Tira esse pedaço e fica só com a forma que ela trouxe, a frase aguenta.
 
@@ -496,7 +494,7 @@ CAPÍTULO 08 · Apresentação
 ------------------------------------------------------------------------------
 
 [conversa de WhatsApp]
-      VOCÊ: Por isso, já sei que a doutora vai te ajudar com essa região do queixo que tá te incomodando pra você parar de se sentir com vontade de se esconder nas fotos.
+      VOCÊ: Por isso, já sei que a doutora vai te ajudar com essa região do queixo que tá te incomodando e parar de se sentir com vontade de se esconder nas fotos.
 
 Então, isso aí é a apresentação inteira. Uma frase, colada na transição, e ela tem exatamente duas coisas dentro: o problema, com a palavra dela, e o sentimento, com a palavra dela. Não tem o nome do procedimento e não tem o que a doutora vai fazer e não tem quanto tempo dura a consulta, né.
 
@@ -506,7 +504,7 @@ Então, isso aí é a apresentação inteira. Uma frase, colada na transição, 
       O sentimento, «com a palavra dela» | O que a doutora vai fazer
       | Quanto tempo dura a consulta
 
-Eu sei que dá vontade de encher, né. É o momento em que a atendente sente que finalmente pode falar, depois de quatro passos perguntando e um só concordando. E é por isso que a apresentação é curta, gente: quem construiu o valor da consulta foi ela, nos cinco passos anteriores, e você só devolve.
+Eu sei que dá vontade de encher, né. É o momento em que você sente que finalmente pode falar, depois de quatro passos perguntando e um só concordando. E é por isso que a apresentação é curta, gente: quem construiu o valor da consulta foi ela, nos cinco passos anteriores, e você só devolve.
 
 ## Pra que serve
 
@@ -516,7 +514,7 @@ Esse “só” é a frase do capítulo 2 voltando. Ela quer resolver o queixo an
 
 ## A frase
 
-    FRASE PRONTA — Por isso, já sei que a doutora vai te ajudar com o [problema] pra você parar de se sentir [como está se sentindo].
+    FRASE PRONTA — Por isso, já sei que a doutora vai te ajudar com o [problema] e parar de se sentir [como está se sentindo].
 
 O “por isso” cola na transição. O “já sei” é você assumindo a autoridade que ela te deu no passo um. E os dois colchetes você preenche com o que ela disse, não com o que você diagnosticou. Se ela falou “caindo perto do queixo”, vai “caindo perto do queixo”. Se ela falou “me esconder nas fotos”, vai “me esconder nas fotos”. A palavra dela é o que faz ela ler a frase e pensar: “é exatamente isso”.
 
@@ -599,7 +597,11 @@ Terceiro, você pede o comprovante na hora.
 
 O “agora” aparece duas vezes, no PIX e no comprovante. Não existe uma venda, na verdade, não existe um agendamento feito se o comprovante não for enviado. Comprovante não foi enviado, a venda não foi feita, o agendamento não foi feito. A gente só comemora a venda, só comemora o agendamento depois do comprovante.
 
-Agora, e se ela disser que faz o PIX à noite? Não justifica, não precisa. Quanto mais a gente fala, mais a gente se explica, e mais parece que a gente tá querendo justificar alguma coisa. É o que é e ponto. Passar o preço pra pessoa e tagarelar depois, gente, misericórdia, que problemão que é. Pede uma vez e segue. Só que, se ela empurrar o pagamento pra depois disso, aí já virou objeção. E objeção nunca se responde com informação, se responde com pergunta, que é o capítulo 10.
+Agora, e se ela disser que faz o PIX à noite? Não justifica, não precisa. Quanto mais a gente fala, mais a gente se explica, e mais parece que a gente tá querendo justificar alguma coisa. É o que é e ponto. Passar o preço pra pessoa e tagarelar depois, gente, misericórdia, que problemão que é. Pede uma vez e segue.
+
+E aqui tem uma regra que não é minha, é da casa, e ela é dura: sem PIX, sem agenda. O PIX é o que confirma o horário; sem ele aquilo ali é reserva, não é agendamento. Então não abre a brecha do “depois”. Se ela diz que faz à noite, o horário fica reservado, não confirmado, e é isso que você devolve pra ela: que o horário só entra na agenda quando o comprovante chegar. Cancelar não custa nada pra quem não pagou, e é por isso que a gente cobra na hora.
+
+Agora, se ela empurrar o pagamento pra depois disso e insistir, aí já virou objeção. E objeção nunca se responde com informação, se responde com pergunta, que é o capítulo 10.
 
     O QUE EVITAR — Perguntar a disponibilidade da paciente antes de oferecer um primeiro horário disponível. E partir pro fechamento sem ter criado compromisso suficiente.
 
@@ -678,9 +680,9 @@ Se a gente quer saber qual das duas chegou, a gente pergunta. E pergunta com cur
 
 Qualquer uma das duas serve, tá. A de baixo é a de cima já com o “vou pensar” dentro, então usa ela quando foi isso que chegou.
 
-Se a resposta for vaga, outro “te aviso depois” ou um “ah, não sei”, é cortina de fumaça. E a cortina esconde quase sempre a mesma coisa: ela ainda não sabe se a consulta resolve o problema dela. O preço, o marido e a agenda entram na conversa porque em algum passo anterior ficou raso e a paciente chegou no fechamento sem estar convencida por ela mesma.
+Se a resposta for vaga, outro “te aviso depois” ou um “ah, não sei”, é cortina de fumaça. E a cortina esconde quase sempre a mesma coisa: ela ainda não sabe se a consulta resolve o problema dela. O preço, o marido e a agenda entram na conversa porque algum passo anterior ficou raso e a paciente chegou no fechamento sem estar convencida por ela mesma.
 
-E é aqui que entra o voltar que eu prometi no capítulo 9. Voltar é refazer a pergunta do passo que ficou raso, em vez de inventar resposta nova pra objeção. Olha as duas respostas pro “vou pensar” que você vai ver inteiras no capítulo 11. “O que te fez pensar em resolver isso agora e nos trouxe até aqui?” é a pergunta do passo três. “Como entendeu que a consulta com a doutora vai te ajudar a resolver [problema]?” é a pergunta do passo quatro. Você volta um passo e pergunta de novo.
+E é aqui que entra o voltar que eu prometi no capítulo 9. Voltar é refazer a pergunta do passo que ficou raso, em vez de inventar resposta nova pra objeção. Olha as duas respostas pro “vou pensar” que você vai ver inteiras no capítulo 11. “O que te fez pensar em resolver isso agora e nos trouxe até aqui?” é a pergunta do passo três. “Como entendeu que a consulta com a doutora vai te ajudar a resolver [problema]?” é a pergunta do passo quatro. Você volta pro passo que ficou raso e pergunta de novo.
 
     [gráfico: mapa]
       “O que te fez pensar em resolver isso agora e nos trouxe até aqui?” | Passo 3
@@ -776,6 +778,8 @@ O preço não é a objeção real. Gente, o que incomoda a paciente não é paga
       O QUE CONTINUA A CONVERSA: [Nome], bem que eu gostaria, viu? Mas eu só faço o agendamento... imagina se eu passar um valor pra você e quando a doutora, que é especialista, analisar seu caso for diferente do que eu passei? Aposto que ia ficar brava comigo...
 
 Essa é pra quem agenda. Agora, se é você mesma que responde, a lógica não muda: você não passa valor de um caso que ainda não olhou. Só troca o “eu só faço o agendamento” pelo motivo verdadeiro.
+
+E repara que nas duas respostas de preço lá em cima você promete passar a informação, e aqui você não passa o valor. Isso não é contradição, e é o ponto que mais confunde: o que você prometeu foi passar a informação, não cravar um número por mensagem. Prometer e depois recusar seco, aquele “não consigo passar valores”, é o pior dos dois mundos, porque soa como quem esconde. O que a gente faz é explicar o motivo verdadeiro: a doutora precisa avaliar pra garantir o melhor tratamento, e pode ser até que precise de menos do que você imagina. Você não escondeu nada. Você disse que ia passar, e passou o que dá pra passar antes de alguém olhar o caso.
 
 ## Falta de compromisso
 
@@ -874,7 +878,7 @@ CAPÍTULO 12 · Doutora é vendedora também
 
 No capítulo 1 eu te contei a salinha do financeiro pelo lado da paciente.
 
-E de vendedora, o que eu vi foi isso: a doutora entendeu o meu problema e uma outra pessoa vendeu e no caminho entre as duas, dez minutinhos numa área de espera, eu fui pra casa pensar sem sair da clínica.
+E de vendedora, o que eu vi foi isso: a doutora entendeu o meu problema e uma outra pessoa vendeu.
 
 E aqui eu não estou falando que existe um certo ou errado, tá, mas pelo que eu observo nas mais de 3 mil clínicas por aqui, quando a doutora se capacita pra fazer o fechamento e ela entende que ela é doutora e que ela é vendedora também, o ticket médio sobe, a taxa de fechamento sobe, enfim, é mil maravilhas.
 
@@ -885,7 +889,7 @@ Agora, se está funcionando desse jeito na sua clínica, continua. E quando eu d
       - A taxa de conversão é a mesma
       - Não tem ninguém indo embora pra casa pra pensar
 
-Agora, se não acontece dessa forma, eu acho que vale a pena a gente se capacitar pra vender na sala, na consulta. E beleza, pode ser que a transação mesmo, o fechamento, fique do lado de fora da sala, até pela experiência da paciente. Só que o preço, ela precisa ter entendido lá dentro, com quem entendeu o problema dela.
+Agora, se não acontece dessa forma, eu acho que vale a pena a gente se capacitar pra vender na sala, na consulta. O fechamento pode até ficar do lado de fora, como eu falei lá no capítulo 1. Só que o preço, ela precisa ter entendido lá dentro, com quem entendeu o problema dela.
 
 ## O que o WhatsApp tem a ver com a sala
 
@@ -904,7 +908,15 @@ Os sete passos são o jeito de não fazer isso antes da consulta. E quando você
 
 ## O que eu quero que você faça agora
 
-Pega a próxima paciente nova que chamar no WhatsApp e faz os sete passos com ela, na ordem. E as conversas que já morreram no seu WhatsApp, essas eu não vou mexer aqui, tá? Este livro é da próxima conversa em diante. A cola do anexo A é uma página só, pra você deixar do lado do celular.
+Pega a próxima paciente nova que chamar no WhatsApp e faz os sete passos com ela, na ordem. A cola do anexo A é uma página só, pra você deixar do lado do celular.
+
+E as conversas que já morreram no seu WhatsApp, aquelas que você abriu enquanto lia este livro? Elas não estão perdidas, e o jeito de voltar nelas não é mandar “passando pra saber se você viu”. Essa é a mensagem que queima o contato de vez.
+
+A regra da casa pra reabrir conversa é uma só: cada toque traz coisa nova. Um caso, uma pergunta, uma referência, alguma coisa que ela ainda não tinha visto. Repetir cobrança sem novidade não é insistência, é queimar o lead.
+
+E o que traz coisa nova numa conversa antiga é a dor que ela já te contou. Você volta na conversa, procura a palavra que ela usou lá atrás, e reabre por ali. Vai até a mensagem antiga dela e curte, que já gera notificação. Ou manda um áudio curto: “vi que você tava olhando, ainda faz sentido pra você?”. Não é cobrança, é reaproximação, e é a palavra dela que abre a porta de novo, do mesmo jeito que abriria numa conversa nova.
+
+Agora, se a base parada é grande demais pra ir uma por uma, a gente faz repescagem, e a nossa é no dia 20 de cada mês: você separa um dia e reativa todo mundo que está parado, com uma abordagem só.
 
 Se a conversa travar, tem um passo que ficou raso. Eu começaria olhando o dois, o capítulo 4, porque é onde ela conta o problema, e paciente que chega lá na frente ainda falando em procedimento é passo dois raso. Então volta lá e refaz a pergunta de clarear com a próxima paciente.
 
@@ -916,7 +928,7 @@ E se você quiser que a gente olhe isso junto, a sua conversa, o seu número, a 
 
 ------------------------------------------------------------------------------
 ANEXO A · Cola de uma página
-   Os sete passos, uma pergunta por passo, e o sinal pra avançar. Pra deixar do lado do celular.
+   Os sete passos, as frases de cada um, e o sinal pra avançar. Pra deixar do lado do celular.
 ------------------------------------------------------------------------------
 
 [gráfico: rail 0]
@@ -949,13 +961,13 @@ Avança quando ela responde completo e emocional, e começa a perguntar da agend
 
 «5. Transição.» A real é que a iniciativa ela já tomou. Agora é só concretizar a decisão.
 
-    FRASE PRONTA — [Nome], por conta da forma que trouxe... e de já estar há [tempo] sentindo assim... concordo que não tem por que deixar mais para depois.
+    FRASE PRONTA — [Nome], por conta da forma que trouxe... e de já estar desde [tempo] sentindo assim... concordo que não tem por que deixar mais para depois.
 
 Avança imediatamente.
 
 «6. Apresentação.» Vender só o que ela já quer, com as palavras dela.
 
-    FRASE PRONTA — Por isso, já sei que a doutora vai te ajudar com o [problema] pra você parar de se sentir [como está se sentindo].
+    FRASE PRONTA — Por isso, já sei que a doutora vai te ajudar com o [problema] e parar de se sentir [como está se sentindo].
 
 Avança quando ela pergunta da consulta em si, e da disponibilidade.
 
@@ -1051,11 +1063,11 @@ Verificar se a paciente realmente está pronta pra tomar uma decisão.
 
 Aqui não tem pergunta, tem uma frase, e ela vem antes da apresentação.
 
-“[Nome], por conta da forma que trouxe... e de já estar há [tempo] sentindo assim... concordo que não tem por que deixar mais para depois.”
+“[Nome], por conta da forma que trouxe e por já estar há [tempo informado] sentindo assim... concordo que não tem por que deixar mais para depois.”
 
 ## 6. Apresentação
 
-“Por isso, já sei que a doutora vai te ajudar com o [problema] pra você parar de se sentir [como está se sentindo].”
+“Por isso, já sei que a doutora vai te ajudar com a [dor trazida] e parar de se sentir [sentimento informado].”
 
 ## 7. Fechamento
 
@@ -1120,7 +1132,7 @@ E quando vier o “como assim, eu vou ter que pagar?”, que vem, a resposta já
 
 ## Fechamento
 
-    FRASE PRONTA — Podemos reservar a sua vaga no dia [tal], às [hora]?
+    FRASE PRONTA — Podemos reservar a sua vaga no dia [data], às [hora]?
 
 Se ela não pode naquela hora, ela fala e a gente vai ajustando o horário. Daí em diante é o passo sete do 715, igualzinho. Horário, chave PIX, comprovante.
 

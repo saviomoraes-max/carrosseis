@@ -10,10 +10,6 @@ Aí uma outra falou: “é porque eu acho que os pacientes estão procurando pro
 
 E 100% das pessoas que deram muito certo, 100% das pessoas que deram muito errado, que eu conheço, o fator que fez dar certo ou dar errado foi comportamental. Não foi nada externo, é sempre algo interno.
 
-Nós temos pessoas que faturam 200 mil em cidades de 5 mil habitantes e em cidades de 1 milhão. Nós temos pessoas que faturam 200 mil com mais de 60 anos e com menos de 25. Nós temos pessoas do interior e de capital. Nós temos biomédicas, médicas, dentistas, farmacêuticas, fisioterapeutas.
-
-O que que essas pessoas que conseguiram chegar lá têm de diferente de você?
-
 ## O que é interno no WhatsApp
 
 A queixa das quatro era a mesma: chegou menos gente. E as quatro foram procurar o motivo fora, na cidade, na idade, na concorrência. Só que se o problema fosse a cidade, misericórdia, eu teria que mudar de cidade, teria que mudar de região, teria que mudar meu tráfego, teria que mudar tudo. Agora, se a gente sabe que o problema tá com a gente, é a melhor coisa do mundo, porque tá no meu controle, então tá fácil. E a resposta do WhatsApp é a coisa mais interna que existe, né, porque depende do que você digita depois do “oi”, e quando chega menos gente cada conversa que morre pesa mais. A paciente que chama no WhatsApp é a mesma em qualquer clínica dessas que eu falei. Ela chega com uma dúvida e, quase sempre, com uma pergunta de preço.
@@ -22,7 +18,7 @@ A queixa das quatro era a mesma: chegou menos gente. E as quatro foram procurar 
 Para vender qualquer coisa, é só vender aquilo que a pessoa já quer comprar.
 :::
 
-Gente, essa frase é o 715 inteiro. Ela já quer. Ninguém manda mensagem pra clínica sem querer alguma coisa e o que a gente faz nos sete passos é descobrir o que ela quer de verdade. Pensa o seguinte, toda pergunta que a pessoa faz para você é porque existe um motivo por trás da pergunta. Ela escreve “gostaria de saber como funciona a questão do botox, preenchimento labial, valores?”, e o que ela quer mesmo só aparece depois que alguém pergunta: “me incomoda algumas linhas de expressão que tenho no rosto, principalmente fazer a famosa cara de brava”.
+Gente, essa frase é o 715 inteiro. Ela já quer. Ninguém manda mensagem pra clínica sem querer alguma coisa e o que a gente faz nos sete passos é descobrir o que ela quer de verdade. Pensa o seguinte, toda pergunta que a pessoa faz para você é porque existe um motivo por trás da pergunta. Ela escreve “gostaria de saber como funciona a questão do botox, preenchimento labial, valores?”, e o que ela quer mesmo só aparece depois que alguém pergunta e ela responde: “me incomoda algumas linhas de expressão que tenho no rosto, principalmente fazer a famosa cara de brava”.
 
 Então, o nome é “sete passos para um agendamento a cada cinco contatos”, ó, um a cada cinco, e não “sete passos para agendar todo mundo”, porque o que a gente quer é a paciente sair da conversa querendo marcar sem ninguém ter empurrado, se o problema que ela trouxe se resolve com a consulta. Agora, se não resolve, ela não agenda, e está tudo certo.
 
@@ -30,6 +26,8 @@ Então, o nome é “sete passos para um agendamento a cada cinco contatos”, �
 :::
 
 ## O que eu peço pra você guardar
+
+Antes de tudo, uma coisa sobre o “você” deste livro. Quem digita no WhatsApp da clínica é quem atende, e o script foi escrito pra essa pessoa: repara que a abertura tem dois espaços pra preencher, o seu nome e o nome da doutora. Se quem atende é você mesma, doutora, aí você fala de você na terceira pessoa mesmo, que é como a paciente ouve do outro lado.
 
 Então, eu quero te passar primeiro o que a gente considera a base de qualquer atendimento, tá? São oito coisas, e isso aqui é o que eu vejo dar certo nas clínicas que passam por aqui e são mais de 3 mil, e elas voltam em todos os capítulos, então guarda.
 

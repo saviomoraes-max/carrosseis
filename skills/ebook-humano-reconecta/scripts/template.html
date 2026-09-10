@@ -192,12 +192,24 @@ document.fonts.ready.then(function(){
       const u = el.lastElementChild;
       return u ? (u.offsetTop - el.offsetTop + u.offsetHeight) : 0;
     };
-    if (ultimaMiolo) {
-      const cf = ultimaMiolo.querySelector('.conteudo');
+    // Balanceia TODA página que fecha uma corrida de miolo, não só a última do capítulo.
+    // Quando o próximo bloco vira página inteira (frase, pergunta), a página anterior também
+    // é fim de corrida e pode ficar com um parágrafo só. Era o caso da 15: o balanceador
+    // olhava só `ultimaMiolo` e essa cauda passava batida.
+    const fechaCorrida = [];
+    for (const pg of Array.from(f.parentNode.children)) {
+      if (!pg.classList || !pg.classList.contains('miolo')) continue;
+      if (pg.parentNode !== f.parentNode) continue;
+      const prox = pg.nextElementSibling;
+      if (!prox || !prox.classList.contains('miolo')) fechaCorrida.push(pg);
+    }
+    for (const alvo of fechaCorrida) {
+      const cf = alvo.querySelector('.conteudo');
+      if (!cf) continue;
       const util = cf.clientHeight;
       let guarda = 0;
       while (guarda++ < 8 && ocupacao(cf) < util * 0.32) {
-        const ant = ultimaMiolo.previousElementSibling;
+        const ant = alvo.previousElementSibling;
         if (!ant || !ant.classList.contains('miolo')) break;
         const ca = ant.querySelector('.conteudo');
         if (!ca) break;

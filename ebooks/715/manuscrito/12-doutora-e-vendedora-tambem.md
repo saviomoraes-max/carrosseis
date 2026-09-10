@@ -11,7 +11,7 @@ fontes: "fontes/voz/amostra-fala-analuiza.txt; fontes/01-framework-715.md (p.1)"
 
 No capítulo 1 eu te contei a salinha do financeiro pelo lado da paciente.
 
-E de vendedora, o que eu vi foi isso: a doutora entendeu o meu problema e uma outra pessoa vendeu e no caminho entre as duas, dez minutinhos numa área de espera, eu fui pra casa pensar sem sair da clínica.
+E de vendedora, o que eu vi foi isso: a doutora entendeu o meu problema e uma outra pessoa vendeu.
 
 E aqui eu não estou falando que existe um certo ou errado, tá, mas pelo que eu observo nas mais de 3 mil clínicas por aqui, quando a doutora se capacita pra fazer o fechamento e ela entende que ela é doutora e que ela é vendedora também, o ticket médio sobe, a taxa de fechamento sobe, enfim, é mil maravilhas.
 
@@ -23,7 +23,7 @@ Agora, se está funcionando desse jeito na sua clínica, continua. E quando eu d
 - Não tem ninguém indo embora pra casa pra pensar
 :::
 
-Agora, se não acontece dessa forma, eu acho que vale a pena a gente se capacitar pra vender na sala, na consulta. E beleza, pode ser que a transação mesmo, o fechamento, fique do lado de fora da sala, até pela experiência da paciente. Só que o preço, ela precisa ter entendido lá dentro, com quem entendeu o problema dela.
+Agora, se não acontece dessa forma, eu acho que vale a pena a gente se capacitar pra vender na sala, na consulta. O fechamento pode até ficar do lado de fora, como eu falei lá no capítulo 1. Só que o preço, ela precisa ter entendido lá dentro, com quem entendeu o problema dela.
 
 ## O que o WhatsApp tem a ver com a sala
 

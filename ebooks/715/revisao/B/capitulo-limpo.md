@@ -70,11 +70,11 @@ Verificar se a paciente realmente está pronta pra tomar uma decisão.
 
 Aqui não tem pergunta, tem uma frase, e ela vem antes da apresentação.
 
-“[Nome], por conta da forma que trouxe... e de já estar há [tempo] sentindo assim... concordo que não tem por que deixar mais para depois.”
+“[Nome], por conta da forma que trouxe e por já estar há [tempo informado] sentindo assim... concordo que não tem por que deixar mais para depois.”
 
 ## 6. Apresentação
 
-“Por isso, já sei que a doutora vai te ajudar com o [problema] pra você parar de se sentir [como está se sentindo].”
+“Por isso, já sei que a doutora vai te ajudar com a [dor trazida] e parar de se sentir [sentimento informado].”
 
 ## 7. Fechamento
 

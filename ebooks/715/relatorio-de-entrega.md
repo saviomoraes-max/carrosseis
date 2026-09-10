@@ -165,10 +165,22 @@ livro: capítulos 1, 6, 10 e 12. Nas duas últimas ela é renarrada com as frase
 capítulo 1 quase intactas, e o 12, que deveria ser o giro final, refaz a seção "A
 salinha do WhatsApp" do capítulo 1. Ela: *"Na quarta vez eu passei o dedo pra frente."*
 
-Nos dois casos o conserto é o mesmo e é seu: **cortar, não reescrever.** O 02 engata
-quando chega no WhatsApp; o 12 tem argumento próprio depois que para de recontar. Eu
-não cortei porque é decisão de posicionamento, não de revisão: a abertura do 02 é o
-argumento de que o problema é interno, e você pode querer ele ali mesmo.
+**Os dois foram cortados em 10/set, a seu pedido.** O corte foi cirúrgico, não uma
+reescrita:
+
+- No **capítulo 02** saiu só o bloco de faturamento (*"Nós temos pessoas que faturam 200
+  mil em cidades de 5 mil habitantes..."*) e a pergunta que dependia dele. **A anedota
+  das quatro doutoras ficou**, porque é ela que arma a tese, e a tese ficou inteira
+  (*"Não foi nada externo, é sempre algo interno"*). O capítulo agora emenda direto no
+  título "O que é interno no WhatsApp".
+- No **capítulo 12** saiu a renarração da cena da salinha, que o parágrafo anterior já
+  aponta (*"No capítulo 1 eu te contei a salinha pelo lado da paciente"*), e a frase
+  quase idêntica à do capítulo 1 virou ponteiro (*"O fechamento pode até ficar do lado
+  de fora, como eu falei lá no capítulo 1"*). O argumento do capítulo ficou intacto.
+
+As voltas da salinha nos capítulos 6 e 10 **não** foram cortadas: lá ela é callback com
+conteúdo novo (o estado emocional no diagnóstico, o monólogo dos dez minutinhos), não
+renarração.
 
 O terceiro ponto de cansaço que ela apontou, o link de rastreio à mostra dentro de um
 produto pago, já está resolvido: a leitora vê `supercaso.com.br/consulta` e os UTMs
