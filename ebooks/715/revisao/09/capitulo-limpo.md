@@ -63,7 +63,7 @@ Agora, e se ela disser que faz o PIX à noite? Não justifica, não precisa. Qua
 
 E tem uma regra da casa que resolve isso sem discussão: sem PIX, sem agenda. O horário só entra na agenda quando o comprovante chega, e é só isso que você devolve pra ela, sem abrir a brecha do “depois”. Cancelar não custa nada pra quem não pagou, e é por isso que a gente cobra na hora.
 
-Agora, se ela empurrar o pagamento pra depois disso e insistir, aí já virou objeção. E objeção nunca se responde com informação, se responde com pergunta, que é o capítulo 10.
+Agora, se ela empurrar o pagamento pra depois disso e insistir, aí já virou objeção. E objeção nunca se responde com informação, se responde com pergunta, que é o capítulo 10. As frases prontas dessa, inclusive a do “faço o PIX à noite”, estão no capítulo 11.
 
 :::evite
 Perguntar a disponibilidade da paciente antes de oferecer um primeiro horário disponível. E partir pro fechamento sem ter criado compromisso suficiente.
@@ -78,7 +78,7 @@ NEG: Vou ter que me organizar pra ir na consulta.
 POS: Estou tomando a melhor decisão.
 :::
 
-A leitura negativa aqui é uma frase pequena, e passa batida: “vou ter que me organizar pra ir na consulta”. É a paciente dizendo que a consulta virou um custo. Isso acontece quando o preço da consulta parece maior do que o preço de não resolver o problema, e quando a gente não mostrou, ao longo da conversa, o que a consulta resolve.
+A leitura negativa aqui é pequena e passa batida. É a paciente dizendo que a consulta virou um custo. Isso acontece quando o preço da consulta parece maior do que o preço de não resolver o problema, e quando a gente não mostrou, ao longo da conversa, o que a consulta resolve.
 
 A leitura positiva é: “estou tomando a melhor decisão”. E acontece quando, ao longo da conversa, ficou claro qual era o problema, como ele mexe com ela e por que é agora e não depois. E quando a consulta apareceu como a resposta pra isso. Essa lista, ponto importante, é o script inteiro, gente. O fechamento colhe o que os seis passos deixaram pronto.
 

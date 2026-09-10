@@ -6,12 +6,13 @@ Este capítulo é pra deixar do lado do celular. Eu organizei por família de ob
 Preço
 Consulta paga
 Falta de compromisso
+Na hora do PIX
 Informação técnica
 Resistência
 A paciente mandou foto
 :::
 
-Gente, repara que toda resposta que continua a conversa devolve uma pergunta. Nenhuma entrega a informação e para por ali. As perguntas somos nós que fazemos. Até porque penso o seguinte: se a gente responde as perguntas que a pessoa faz, quem tá no controle da conversa é ela.
+Gente, repara que quase toda resposta que continua a conversa devolve uma pergunta. As duas que não devolvem são as da hora do PIX, porque ali a regra da casa já é a resposta inteira: você diz numa linha e segue. As perguntas somos nós que fazemos. Até porque penso o seguinte: se a gente responde as perguntas que a pessoa faz, quem tá no controle da conversa é ela.
 
 ## Preço
 
@@ -80,7 +81,11 @@ ela: “tenho que ir pra fazer orçamento e ver valor de procedimento? Não pode
 responde: [Nome], bem que eu gostaria, viu? Mas eu só faço o agendamento... imagina se eu passar um valor pra você e quando a doutora, que é especialista, analisar seu caso for diferente do que eu passei? Aposto que ia ficar brava comigo...
 :::
 
-Essa é pra quem agenda. Agora, se é você mesma que responde, a lógica não muda: você não passa valor de um caso que ainda não olhou. Só troca o “eu só faço o agendamento” pelo motivo verdadeiro.
+Essa é pra quem agenda. Agora, se é você mesma que responde, a lógica não muda: você não passa valor de um caso que ainda não olhou. O que muda é uma coisa só, que é trocar o “eu só faço o agendamento” pelo motivo verdadeiro. Fica assim:
+
+:::frase
+[Nome], bem que eu gostaria, viu? Mas eu preciso avaliar o seu caso pra garantir o melhor tratamento, e pode ser até que precise de menos do que você imagina. Você já sabe o que está procurando?
+:::
 
 E repara que nas três respostas de preço lá em cima você promete passar a informação, e aqui você não passa o valor. Isso não é contradição, e é o ponto que mais confunde: o que você prometeu foi passar a informação, não cravar um número por mensagem. Prometer e depois recusar seco, aquele “não consigo passar valores”, é o pior dos dois mundos, porque soa como quem esconde. O que a gente faz é explicar o motivo verdadeiro: a doutora precisa avaliar pra garantir o melhor tratamento, e pode ser até que precise de menos do que você imagina. Você não escondeu nada. Você disse que ia passar, e passou o que dá pra passar antes de alguém olhar o caso.
 
@@ -134,6 +139,24 @@ responde: Sem problemas. Entendo que toda decisão precisa ser pensada. Quando v
 ela: “já fiz botox recentemente, depois te procuro pra fazer de novo”.
 responde: Ah, entendi... Mas o que te fez procurar por botox agora, mesmo tendo feito recentemente? Tem alguma outra coisa que gostaria de melhorar... se pudesse?
 :::
+
+## Na hora do PIX
+
+:::caso
+ela: “faço o PIX à noite” ou “depois eu te mando”.
+perde: “Imagina, sem pressa! Pode mandar depois que eu já deixo o seu horário guardado.”
+responde: Sem problemas. Só te adianto que o horário entra na agenda quando o comprovante chega, tá bom?
+:::
+
+Não justifica, não precisa. Quanto mais a gente fala, mais parece que tá querendo justificar alguma coisa. Pede uma vez e segue. E repara no que a resposta devolve: a regra que eu te dei no capítulo 9, sem PIX, sem agenda. Ela não promete guardar o horário, porque prometer guardar é abrir a brecha do “depois” com as suas próprias mãos.
+
+:::caso
+ela: “o pagamento é antecipado?” ou “não me sinto confortável pagando adiantado, prefiro no dia da consulta”.
+perde: “É porque a doutora já teve muita desmarcação em cima da hora e a pessoa não compareceu, então é pra preservar o horário.”
+responde: Sim, o pagamento é antecipado para garantir o seu horário.
+:::
+
+Toda vez que a pessoa fala que não quer pagar a consulta antecipado, a forma mais rápida da gente perder essa pessoa é justificando o preço da consulta e o pagamento antecipado. Repara que o “para garantir o seu horário” já dá o motivo, só que num disclaimer pequeno, e a gente não estende muito mais. Aquela explicação sobre as pacientes que não compareceram é a pior coisa que a gente pode falar nesse momento, porque põe na cabeça dela uma desconfiança que não era dela.
 
 ## Informação técnica
 

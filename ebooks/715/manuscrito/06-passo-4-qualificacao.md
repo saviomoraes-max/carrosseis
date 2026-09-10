@@ -22,7 +22,7 @@ Isso é o passo quatro, e é onde a frase da primeira página do framework acont
 
 Fazer a paciente declarar o que ela precisa, pra que depois você ofereça exatamente o que ela está buscando. E aumentar o comprometimento dela em agendar.
 
-Repara na ordem. A pessoa verbaliza o problema que ela tá passando e a gente oferece o problema dela resolvido, né? O caminho contrário é oferecer primeiro e esperar a paciente se encaixar na oferta e aí ela escuta uma consulta genérica e pensa: “será que isso é pra mim?” É muito difícil a gente acertar a resposta que a pessoa quer receber. Agora, se ela falar que tipo de resposta ela quer receber, fica muito mais simples. A consulta que você vai apresentar é a que ela acabou de descrever.
+Repara na ordem, porque o caminho contrário é o que mais acontece. É muito difícil a gente acertar a resposta que a pessoa quer receber. Agora, se ela mesma falar que tipo de resposta ela quer receber, fica muito mais simples.
 
 :::grafico duas
 A ordem | O caminho contrário
@@ -61,10 +61,11 @@ O segundo é o erro que mais volta no material, porque se qualificar demais apar
 
 :::grafico leituras
 NEG: Ainda não sei se o meu problema vai ser resolvido.
+NEG: Eu só quero fazer o procedimento tal.
 POS: Ela entendeu o meu problema e sei que vai me ajudar a resolver.
 :::
 
-A leitura negativa do passo quatro tem duas frases: “ainda não sei se o meu problema vai ser resolvido” e “eu só quero fazer o procedimento tal”. As duas aparecem pelo mesmo motivo: a gente não foi fundo no problema, e ela nunca chegou a contar por que foi procurar a consulta. Porque se a pessoa não verbalizar isso, qualquer coisa que eu falar depois vai ser uma solução para um problema que, pra ela, não é tão grave assim, não é tão sério para ela. Então, se ela chega no passo quatro e ainda fala em procedimento, é porque o passo dois ficou raso, ou o três. Volta.
+As duas leituras negativas do passo quatro aparecem pelo mesmo motivo: a gente não foi fundo no problema, e ela nunca chegou a contar por que foi procurar a consulta. Porque se a pessoa não verbalizar isso, qualquer coisa que eu falar depois vai ser uma solução para um problema que, pra ela, não é tão grave assim, não é tão sério para ela. Então, se ela chega no passo quatro e ainda fala em procedimento, é porque o passo dois ficou raso, ou o três. Volta.
 
 A leitura positiva é: “ela entendeu o meu problema e sei que vai me ajudar a resolver”. E acontece quando a gente mostra que quer entender o que ela está dizendo e quando a gente ouve mais do que fala. No WhatsApp isso é uma coisa só: a sua mensagem começa pela palavra dela e no fim do passo ela escreveu mais do que você.
 

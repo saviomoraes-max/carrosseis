@@ -96,15 +96,20 @@ def duas(corpo):
             f'<div class="hd b"><i class="dot red"></i><span class="lbl">{_e(hb)}</span></div>{rows}</div>')
 
 def leituras(corpo):
-    neg = pos = ""
+    """Aceita VÁRIAS linhas NEG e POS. Antes guardava só a última de cada uma, e a leitora
+    via UMA frase enquanto o parágrafo ao lado declarava três: perda silenciosa, do mesmo
+    tipo que já fez um capítulo inteiro sumir do PDF."""
+    neg, pos = [], []
     for l in corpo:
         m = re.match(r"^\s*(NEG|POS)\s*:\s*(.*)$", l)
         if m:
-            if m.group(1) == "NEG": neg = m.group(2)
-            else: pos = m.group(2)
+            (neg if m.group(1) == "NEG" else pos).append(m.group(2).strip())
+    if not neg and not pos:
+        raise SystemExit("ERRO no gráfico 'leituras': nenhuma linha NEG: ou POS: reconhecida.")
+    frases = lambda xs: "".join(f'<p>“{_enf(x)}”</p>' for x in xs)
     return (f'<div class="g g-leit">'
-            f'<div class="lin"><i class="dot red"></i><div><span class="lbl">Leitura negativa</span><p>“{_enf(neg)}”</p></div></div>'
-            f'<div class="lin"><i class="dot gold"></i><div><span class="lbl">Leitura positiva</span><p>“{_enf(pos)}”</p></div></div></div>')
+            f'<div class="lin"><i class="dot red"></i><div><span class="lbl">Leitura negativa</span>{frases(neg)}</div></div>'
+            f'<div class="lin"><i class="dot gold"></i><div><span class="lbl">Leitura positiva</span>{frases(pos)}</div></div></div>')
 
 def sinais(corpo, titulo="Quando avançar"):
     itens = [re.sub(r"^\s*[-*]\s*", "", l) for l in corpo if l.strip()]
@@ -280,6 +285,7 @@ CSS = """
 .g-leit .lin{display:flex;gap:22px;align-items:flex-start;padding:26px 0;border-top:1px solid rgba(238,217,189,.14)}
 .g-leit .lin .dot{margin-top:6px}
 .g-leit p{margin:14px 0 0 0;font-size:40px;line-height:1.35;font-weight:500;color:var(--cream)}
+.g-leit p+p{margin-top:12px}
 .g-sinais .lin{display:flex;gap:22px;align-items:flex-start;padding:20px 0;border-top:1px solid rgba(238,217,189,.14)}
 .g-sinais .n{font-family:var(--mono);font-size:18px;letter-spacing:.14em;color:var(--gold-65);width:40px;padding-top:14px;flex:none}
 .g-sinais .box{width:34px;height:34px;border:1.5px solid rgba(238,217,189,.45);flex:none;margin-top:9px}

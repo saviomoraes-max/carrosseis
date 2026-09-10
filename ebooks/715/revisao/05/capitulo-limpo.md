@@ -56,7 +56,7 @@ V | Ela é obrigada a argumentar contra a espera | Quem argumenta contra esperar
 X | Ela topa esperar, ou nem assim vem nada | O passo três não aconteceu, e quem está convencida é você
 :::
 
-Agora, se nem assim vem nada, ou se ela topa esperar, o passo três não aconteceu, e quem está convencida é você. Não tem nenhum indício de intolerância, entendeu? Ela não falou dor em nenhum momento, nem problema. Então, como não tem nem dor, nem problema, não tem por que a gente perguntar sobre tolerância ou sobre incômodo, sobre prioridade. Volta pro passo dois e aprofunda até achar o que faz disso um problema agora.
+E quando cai desse lado, não tem nenhum indício de intolerância, entendeu? Ela não falou dor em nenhum momento, nem problema. Então, como não tem nem dor, nem problema, não tem por que a gente perguntar sobre tolerância ou sobre incômodo, sobre prioridade. Volta pro passo dois e aprofunda até achar o que faz disso um problema agora.
 
 :::evite
 Interromper a paciente quando ela está se abrindo. Tentar animar a paciente minimizando o problema. Oferecer solução imediata sem explorar a dor por completo.
@@ -71,7 +71,7 @@ NEG: Mais uma daquelas técnicas de venda batidas.
 POS: Estamos entendendo juntas pra ver se vão conseguir me ajudar.
 :::
 
-A leitura negativa aqui é: “mais uma daquelas técnicas de venda batidas”. Ela acontece quando a conversa vira interrogatório e a sua pergunta seguinte não tem nada a ver com o que ela acabou de responder. Termino a resposta dela, eu passo pra próxima pergunta, e aí fica uma conversa robótica como se eu tivesse entrevistando a pessoa, né? Ela contou do casamento, você mandou a próxima pergunta do script sem citar o casamento, e pronto, ela viu o script. A pessoa, ela não se sente ouvida. Aí a próxima mensagem começa pela palavra dela, “novembro, então...”, e só depois vem a pergunta. Pode ser a mesma pergunta do script. O que muda é que ela vem depois do casamento, não no lugar dele.
+A leitura negativa aqui acontece quando a conversa vira interrogatório e a sua pergunta seguinte não tem nada a ver com o que ela acabou de responder. Termino a resposta dela, eu passo pra próxima pergunta, e aí fica uma conversa robótica como se eu tivesse entrevistando a pessoa, né? Ela contou do casamento, você mandou a próxima pergunta do script sem citar o casamento, e pronto, ela viu o script. A pessoa, ela não se sente ouvida. Aí a próxima mensagem começa pela palavra dela, “novembro, então...”, e só depois vem a pergunta. Pode ser a mesma pergunta do script. O que muda é que ela vem depois do casamento, não no lugar dele.
 
 A leitura positiva é: “estamos entendendo juntas pra ver se vão conseguir me ajudar”. Juntas, ela e você, do mesmo lado do problema. Acontece quando ela entende que as respostas dela importam pra ter o problema resolvido, e quando a conversa flui.
 

@@ -1,0 +1,14 @@
+{
+  "cego": {
+    "veredito": "pessoa",
+    "confianca": 66,
+    "votos": {
+      "pessoa": 2,
+      "ia": 1,
+      "indeciso": 0
+    },
+    "nota": "depois de tirar decalque e contabilidade"
+  },
+  "data": "2026-09-10",
+  "brutos": 0
+}

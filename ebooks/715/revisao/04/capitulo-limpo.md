@@ -14,7 +14,7 @@ Porque flacidez, pra ela, é uma coisa que ela vê no espelho, num lugar especí
 
 ## Pra que serve
 
-O passo dois é clarear o significado das palavras que ela usou pra chegar no problema que trouxe ela até o WhatsApp, entender o que está acontecendo hoje e que poderia ser diferente, entender como isso está afetando ela hoje e aprofundar até entender o que faz disso um problema agora.
+O passo dois é quatro movimentos, e todos eles em cima da palavra que ela usou.
 
 :::grafico ordem
 Clarear o significado das palavras que ela usou
@@ -72,11 +72,12 @@ Eu já fiz isso bastante com o “mas você é linda”, tá? Eu respondia assim
 ## Como ela lê você
 
 :::grafico leituras
-NEG: Ela está fazendo uma entrevista? Tô cansada de tantas perguntas.
+NEG: Ela está fazendo uma entrevista? Tô cansada de tantas perguntas, já falei o que eu quero.
+NEG: Está sendo invasiva.
 POS: Ela está querendo me entender pra ver se consegue me ajudar.
 :::
 
-A leitura negativa do passo dois tem cara de interrogatório: “ela está fazendo uma entrevista? Tô cansada de tantas perguntas, já falei o que eu quero, está sendo invasiva.” Isso acontece quando você só faz perguntas sem referenciar o que ela disse, quando pergunta como ela se sente e presume que ela está incomodada, e quando copia o script sem prestar atenção na conversa.
+A leitura negativa do passo dois tem cara de interrogatório, e acontece quando você só faz perguntas sem referenciar o que ela disse, quando pergunta como ela se sente e presume que ela está incomodada, e quando copia o script sem prestar atenção na conversa.
 
 A leitura positiva é: “ela está querendo me entender pra ver se consegue me ajudar.” E acontece quando a paciente entende a intenção por trás das perguntas, e quando você referencia o que ela disse e se interessa pela resposta.
 

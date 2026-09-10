@@ -486,6 +486,38 @@ divisão de trabalho. O detector vê palavra, o cego ouve ritmo. Bloco de prosa 
 cena e sem caso, é o candidato natural — rode o cego nele mesmo quando o detector estiver
 zerado.
 
+## 3m. O bloco canário, e por que a correção também precisa de portão
+
+O capítulo mais composto do livro (a transição: o mais curto, sem cena de paciente, sem caso)
+oscilou **quatro vezes num único dia** entre "pessoa" e "IA", e cada volta foi por um tell
+DIFERENTE, todos escritos por mim, um deles introduzido pela correção anterior:
+
+| passada | veredito | o que os cegos ouviram |
+| --- | --- | --- |
+| 1 | 0×3 pessoa | a metáfora inventada ("a ponte"), plantada e paga em três dobras |
+| 2 | 2×1 pessoa | — (a fala real enxertada virou a prova de humanidade) |
+| 3 | 1×2 pessoa | decalque de tradução ("e é isso que a transição é") + contabilidade da própria lista ("três desses quatro… o quarto") |
+| 4 | 2×1 pessoa | cadência: três seções abrindo com fragmento curto isolado + antítese espelhada |
+
+Três lições, e a terceira é a que dói.
+
+**1. Existe um bloco canário, e dá pra saber qual é antes de medir.** É o mais curto, o de
+prosa 100% composta, o que não tem cena nem caso nem transcrição. Ele acusa primeiro. Numa
+rodada com orçamento apertado, mede esse antes de todos.
+
+**2. O detector e o cego não brigam, dividem trabalho.** Esse capítulo esteve com score 0 e
+3×0 "IA" ao mesmo tempo. Palavra contra ritmo. Score baixo não dispensa cego.
+
+**3. A correção precisa passar no mesmo portão que o texto original.** Duas das quatro voltas
+foram causadas pela correção anterior: eu comprimi a fala dela ("transformar essa transição em
+algo que deixe ela mais certa… ao invés de incerteza, mais certa") numa antítese espelhada
+("mais certa da decisão, e não mais incerta"), que é o maneirismo mais previsível de máquina em
+PT-BR. **Comprimir fala real é reescrever.** Se a frase dela é torta e longa, ela entra torta e
+longa, ou não entra.
+
+Régua: depois de aplicar qualquer correção num bloco, roda o detector NELE e, se for bloco
+canário, roda o cego de novo. Correção não é isenta de medição.
+
 ## 4. O que nunca entra
 
 - Caso, número, data ou frase pronta que não esteja nas fontes ou na fala

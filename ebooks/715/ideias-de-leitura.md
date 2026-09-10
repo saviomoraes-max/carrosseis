@@ -110,12 +110,45 @@ coisa. Oito eram defeito de verdade:
 - `[tempo]` contra `[tempo informado]`: as duas metodologias divergem e o Sávio já decidiu.
 - a frase da apresentação e o "desde [tempo]": decisão do Sávio, metodologia é proposital.
 
+## Feito em 10/set (fim de tarde): os quatro pedidos de acabamento da leitora
+
+A leitora-alvo da banca fez quatro pedidos práticos. Três eram meus e foram feitos; o quarto
+é escopo e está registrado como decisão.
+
+31. **A objeção mais comum do dia dela não tinha texto colável.** "Faço o PIX à noite"
+    existia como PROSA no cap 09 (o que não fazer), e o próprio cap 09 delegava ao 10/11 —
+    só que o cap 11 não tinha a família. Agora tem: **"Na hora do PIX"**, com dois cartões.
+    A resposta e o "disclaimer pequeno" são fala literal dela no corpus, do dia em que essa
+    objeção exata foi levada pra ela numa mentoria; a regra do horário é do cap 09
+    ("sem PIX, sem agenda"). O cap 09 ganhou a remissão que faltava.
+32. **O cartão do orçamento mandava ela escrever a própria frase**, num capítulo em que todo
+    o resto é copiar e colar. O livro já abria a exceção ("se é você mesma que responde... só
+    troca o 'eu só faço o agendamento' pelo motivo verdadeiro") e já tinha o motivo verdadeiro
+    escrito no parágrafo seguinte. Montei a frase com as duas peças, sem inventar nada.
+33. **Os gráficos repetiam o parágrafo palavra por palavra.** Medido: **13 dos 34**. O pior
+    era o cap 04, com a mesma lista de quatro itens como frase corrida de 51 palavras e logo
+    abaixo como diagrama. Nova divisão de trabalho: **o gráfico diz QUAIS são, a prosa diz
+    POR QUE acontecem**. Ficou em 9 de 34, e os que sobraram são de um ou dois rótulos com
+    parágrafo fazendo outro serviço.
+34. **O gráfico `leituras` descartava linha em silêncio.** Achado pelo leitor cego, não pela
+    banca: o parágrafo dizia "a leitura negativa tem três frases" e o diagrama ao lado
+    mostrava UMA. O renderizador só guardava a última linha `NEG:` — qualquer segunda sumia
+    sem aviso, do mesmo jeito que já fez um capítulo inteiro sumir do PDF. Consertado no
+    `graficos.py` (aceita várias, e morre se não achar nenhuma) e as frases que faltavam,
+    todas literais do framework, entraram nos caps 04, 06 e 08.
+
+**Os doze fins de capítulo continuam perguntando o que ela errou sem dar tarefa pra amanhã.**
+A leitora reclamou e a banca respondeu que isso é ESCOPO, não revisão: mexer significa
+reeditar os doze fechos de um livro pronto. Não fiz por conta própria. Vale registrar que a
+instrução prática existe, só não está no fecho: nos sete capítulos de passo ela vem em
+"Quando avançar", logo acima da pergunta, e no livro inteiro vem no anexo A e no cap 12.
+
 ## Propostas (a validar)
 
 ~~A. Cap. 11 em duas colunas~~ — FEITO, como cartão (item 13). Duas colunas não cabem em 9:16. Era: "se quiser perder" (vermelho) × "se quiser continuar" (dourado). Hoje é prosa + card; em coluna vira consulta rápida no celular.
 ~~B. Páginas-marcador~~ — FEITO (item 9). Era: Parte 1 (caps 1-2, a tese), Parte 2 (caps 3-9, os 7 passos), Parte 3 (caps 10-11, objeções), Parte 4 (cap. 12 + anexos). Uma página escura com o número da parte gigante, como a abertura de capítulo.
-C. Um caso completo em balões, do "quanto custa" ao comprovante, como anexo C. Precisa de fonte: uma conversa real anonimizada (canal de depoimentos no Slack) ou um roteiro que a Ana aprove. Não invento.
-D. Anexo B também indexado "pelo que ela disse": a paciente escreveu X → você responde Y. Hoje é por etapa.
+C. Um caso completo em balões, do "quanto custa" ao comprovante, como anexo C. Precisa de fonte: uma conversa real anonimizada (canal de depoimentos no Slack) ou um roteiro que a Ana aprove. Não invento. **Continua sem fonte em 10/set** — segue fora.
+~~D. Anexo B indexado "pelo que ela disse"~~ — **DESCARTADO em 10/set, com motivo.** A ideia era: palavra que ela usou → pergunta pra devolver. Só que a seção 2 do anexo B já é isso, cada pergunta carrega a palavra dentro, e o cap 04 ensina explicitamente que é UM movimento aplicável a qualquer palavra ("dá pra fazer isso com qualquer palavra que ela trouxer"). Um índice de dez entradas sugere consulta exaustiva e trabalha CONTRA a doutrina, fazendo a leitora procurar a palavra dela na lista em vez de aplicar o movimento. Não é falta de trabalho, é que a ideia estava errada.
 ~~E. Cola em PNG~~ — FEITO (item 12). Era: 1080×1920 separado, pra doutora salvar no celular e abrir sem o PDF.
 ~~F. Links internos no PDF~~ — FEITO **e verificado**. O sumário e toda menção a capítulo ou anexo viram link. A checagem que faltava era outra: o Chromium podia estar descartando âncora interna na impressão, e o sumário viraria retângulo morto sem ninguém perceber. Conferido no PDF gerado, destino por destino, contra o `indice-paginas.json`: 35 links internos, todos caindo na abertura certa, mais os 2 externos do CTA. O regex do render só cobria anexo A e B; foi pra A-D, senão a primeira menção a anexo C sairia como texto morto.
 ~~G. Barra de progresso~~ — FEITO (item 11). Era: (hairline com a posição), além do "Passo 03/07" do HUD.

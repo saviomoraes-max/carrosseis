@@ -1,10 +1,10 @@
 # Transição
 
 :::cena
-VOCÊ: Por conta da forma que trouxe... e de já estar desde uns dois anos sentindo assim... concordo que não tem por que deixar mais para depois.
+VOCÊ: [Nome], por conta da forma que trouxe... e de já estar desde uns dois anos sentindo assim... concordo que não tem por que deixar mais para depois.
 :::
 
-Uma mensagem. É isso o passo cinco, e é o mais curto do script. Sabe o que a gente faz? Sai do passo quatro, com a paciente declarada, e vai direto pro horário, e às vezes funciona. Só que aí fica faltando a parte em que a gente oferece pra ela o problema resolvido, e é isso que a transição é.
+O passo cinco é uma mensagem só, e é o mais curto do script. Sabe o que a gente faz? Sai do passo quatro, com a paciente declarada, e vai direto pro horário, e às vezes funciona. Só que aí fica faltando a parte em que a gente oferece pra ela o problema resolvido, e a transição é isso.
 
 ## Pra que serve
 
@@ -12,7 +12,7 @@ Ligar o que a gente faz com o problema que ela trouxe. Mostrar que é isso que e
 
 Os três objetivos falam do problema dela. Sem o problema que a pessoa tá passando, a transição vai ser de onde para onde? E ela não apresenta a consulta ainda, isso é o passo seis. Ela só justifica o próximo passo, com o que ela mesma te contou.
 
-E tem uma coisa aqui que eu acho importantíssima: a pessoa não pode sair da transição com medo. Com medo ela já tava desde o momento que entrou em contato. A transição precisa deixar ela mais certa da decisão, e não mais incerta.
+E tem uma coisa aqui que eu acho importantíssima: a pessoa não pode sair da transição com medo. Com medo ela já tava desde o momento que entrou em contato. A transição precisa transformar isso em alguma coisa que deixe ela mais certa da decisão.
 
 ## A frase
 
@@ -36,9 +36,9 @@ As reticências são do script e eu acho que fazem diferença, então mantém el
 Explicação técnica sobre procedimento. Listar todas as qualificações da doutora sem conexão com o problema. Passar muita informação de uma vez. E falar de preço antes de mostrar como a consulta resolve o problema.
 :::
 
-Três desses quatro são a mesma tentação, que é encher a mensagem. A transição funciona porque é curta. Agora, se depois do “não tem por que deixar mais para depois” você emenda um parágrafo sobre bioestimulador, você acabou de passar muita informação de uma vez, que é justamente o que a lista logo acima manda evitar.
+A tentação aqui é encher a mensagem. A transição funciona porque é curta, e se depois do “não tem por que deixar mais para depois” você emenda um parágrafo sobre bioestimulador, ela deixou de ser curta.
 
-O quarto é outro erro, e é de ordem trocada. Ela ainda não viu como a consulta resolve o problema dela, e se o valor não for percebido, nem se a consulta for de graça vai valer a pena.
+E falar de preço aqui é outro erro, que é de ordem trocada. Ela ainda não viu como a consulta resolve o problema dela, e se o valor não for percebido, nem se a consulta for de graça vai valer a pena.
 
 ## Quando avançar
 

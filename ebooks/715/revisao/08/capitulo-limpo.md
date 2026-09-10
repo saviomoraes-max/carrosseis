@@ -4,7 +4,7 @@
 VOCÊ: Por isso, já sei que a doutora vai te ajudar com essa região do queixo que tá te incomodando e parar de se sentir com vontade de se esconder nas fotos.
 :::
 
-Então, isso aí é a apresentação inteira. Uma frase, colada na transição, e ela tem exatamente duas coisas dentro: o problema, com a palavra dela, e o sentimento, com a palavra dela. Não tem o nome do procedimento e não tem o que a doutora vai fazer e não tem quanto tempo dura a consulta.
+Então, isso aí é a apresentação inteira. Uma frase, colada na transição, e ela tem exatamente duas coisas dentro. Repara no tamanho da coluna da direita.
 
 :::grafico duas
 O que entra | O que não entra
@@ -39,12 +39,14 @@ Seis erros, e eu quero comentar dois. O “pode fazer no mesmo dia” parece fac
 
 :::grafico leituras
 NEG: Não parece resolver o meu problema.
+NEG: Acho que não preciso disso tudo.
+NEG: Preciso avaliar se é pra mim.
 POS: É exatamente isso que eu estou buscando.
 :::
 
-A leitura negativa tem três frases: “não parece resolver o meu problema”, “acho que não preciso disso tudo”, “preciso avaliar se é pra mim”. Repara que as três nascem de excesso, porque a gente apresentou mais solução do que ela pediu e solução que não resolve o problema dela e porque a gente qualificou demais a consulta e encheu a paciente de informação que não serve pra ela.
+Repara que as três nascem de excesso, porque a gente apresentou mais solução do que ela pediu e solução que não resolve o problema dela e porque a gente qualificou demais a consulta e encheu a paciente de informação que não serve pra ela.
 
-A leitura positiva é uma frase só: “é exatamente isso que eu estou buscando”. E acontece quando você apresenta a solução certa pro problema que ela trouxe e quando você usa as palavras dela pra referenciar o problema durante a apresentação.
+A positiva é uma só, e acontece quando você apresenta a solução certa pro problema que ela trouxe e quando você usa as palavras dela pra referenciar o problema durante a apresentação.
 
 ## Quando avançar
 

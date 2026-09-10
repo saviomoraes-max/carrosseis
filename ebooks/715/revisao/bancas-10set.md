@@ -1,6 +1,6 @@
-# Bancas de leitura — o rastro das seis
+# Bancas de leitura — o rastro das sete
 
-Seis passadas de banca em 10/set, cada uma com seis examinadores lendo o livro
+Sete passadas de banca em 10/set, cada uma com seis examinadores lendo o livro
 INTEIRO de ponta a ponta, um cético por examinador e um relator fechando.
 
 | Banca | Brutos | Confirmados | Altas | Média | Língua | Contin. | Repet. | Contrad. | Leitora | Termos |
@@ -11,6 +11,8 @@ INTEIRO de ponta a ponta, um cético por examinador e um relator fechando.
 | 4ª | 59 | 5 | 3 | **7.7** | 8.5 | 8.5 | 6.5 | 8 | 8 | 6.5 |
 | 5ª | 48 | 3 | 1 | **8.1** | 9.2 | 8 | 7 | 8 | 8 | 8.5 |
 | 6ª | 51 | 4 | **0** | **8.2** | 9 | 8.5 | 7.5 | 8.5 | 8 | 7.5 |
+| 7ª | 46 | 3 | 2 | **8.2** | 9 | 8.5 | 7 | 8.5 | 8.5 | 7.5 |
+| 8ª | — | — | — | **ABORTADA** | — | — | 7 | — | 7.5 | 7.5 |
 
 ## O que cada passada moveu
 
@@ -30,6 +32,22 @@ INTEIRO de ponta a ponta, um cético por examinador e um relator fechando.
   qualquer edição. **Primeira banca com zero achado de gravidade alta.** Repetição sobe de
   7,0 pra 7,5 e contradição de 8,0 pra 8,5, que são exatamente as duas lentes que a faxina
   atacou. Termos cai de 8,5 pra 7,5 porque a lente foi atrás das frases coláveis desta vez.
+
+- **6ª → 7ª.** Depois da família nova do PIX, do cartão do orçamento montado, dos gráficos que
+  ecoavam o parágrafo e das leituras negativas que o renderizador engolia. **Repetição sobe a
+  única lente que nunca tinha passado de 7,5 no dia... e cai pra 7**, porque a família nova do
+  PIX duplicou um comentário do cap 09. Leitora sobe pra 8,5. E aparecem **dois achados altos**,
+  sendo um deles CRIADO POR MIM naquela mesma passada: a abertura do cap 11 declarava que
+  "nenhuma resposta entrega a informação e para por ali", e as duas respostas do PIX que eu
+  acabara de escrever fazem exatamente isso. A doutrina da autora é responder numa linha e não
+  estender; quem estava errado era o absoluto, e foi ele que mudou.
+
+- **8ª: ABORTADA no limite semanal da conta.** Três lentes de seis terminaram e **nenhum cético
+  rodou**. Os 34 achados brutos estão todos com `sem veredito do cetico (falha)`, que pela régua
+  da casa quer dizer que o agente morreu, não que a acusação seja boa. **Nada dela foi aplicado**,
+  e as notas parciais (repetição 7, leitora 7,5, termos 7,5) NÃO são comparáveis com as linhas
+  acima, porque faltam três lentes e falta a peneira. Está em `banca8-ABORTADA-10set.json` só
+  como pista pra próxima passada. A última banca válida é a 7ª.
 
 ## O que sobra, e por quê
 
@@ -134,3 +152,25 @@ sendo decisão do dono, e não foi mexido.
 - Os doze fins de capítulo perguntam o que ela errou e não dão tarefa pra amanhã.
 - O anexo C trata de vaga de paciente modelo, reserva e abatimento. Nenhuma lente olhou
   isso do ponto de vista de regra de publicidade ou de conselho de classe.
+
+
+---
+
+## Parecer da 7ª banca (a última VÁLIDA)
+
+Inteiro em `banca7-parecer.md`. Os três confirmados:
+
+| # | Onde | O quê | Status |
+| --- | --- | --- | --- |
+| 1 | Cap 11 | A abertura declarava que **nenhuma** resposta entrega informação e para. As duas do PIX, escritas nessa mesma passada, fazem isso | **corrigido.** O absoluto virou "quase toda", e a exceção passou a ser nomeada |
+| 2 | Cap 08, anexo A e anexo B | `vai te ajudar com o [problema] E parar de se sentir` põe a doutora como quem para de se sentir mal | **DECISÃO DO SÁVIO: fica.** Literal do framework |
+| 3 | Anexo C | "As vagas desse mês já foram encerradas" quando o motivo é outro | **DECISÃO DO SÁVIO: fica.** É literal da transcrição da aula 5.1, com a justificativa da própria autora ("sem falar assim, ah, você não foi selecionada") |
+
+O cético **vetou explicitamente** consertar a cola do anexo A pra acomodar o cap 11: o cap 09
+já define que a pergunta de pagamento só vira objeção quando ela empurra e insiste, então a
+cola não está contradita, e amaciar o lembrete tira o dente dele. Corrigiu-se o capítulo.
+
+**O item 3 é o único achado do dia em que a fonte foi conferida e mudou a leitura.** A frase
+não é invenção do livro: está palavra por palavra em `fontes/transcricao/script-paciente-modelo.txt`
+linha 15, junto com o motivo dela. Ou seja, cai na régua "se está na metodologia é proposital".
+Continua contradizendo o cap 11, e continua registrado.

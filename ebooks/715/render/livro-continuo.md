@@ -241,7 +241,7 @@ Porque flacidez, pra ela, é uma coisa que ela vê no espelho, num lugar especí
 
 ## Pra que serve
 
-O passo dois é clarear o significado das palavras que ela usou pra chegar no problema que trouxe ela até o WhatsApp, entender o que está acontecendo hoje e que poderia ser diferente, entender como isso está afetando ela hoje e aprofundar até entender o que faz disso um problema agora.
+O passo dois é quatro movimentos, e todos eles em cima da palavra que ela usou.
 
     [gráfico: ordem]
       Clarear o significado das palavras que ela usou
@@ -284,10 +284,11 @@ Eu já fiz isso bastante com o “mas você é linda”, tá? Eu respondia assim
 ## Como ela lê você
 
     [gráfico: leituras]
-      NEG: Ela está fazendo uma entrevista? Tô cansada de tantas perguntas.
+      NEG: Ela está fazendo uma entrevista? Tô cansada de tantas perguntas, já falei o que eu quero.
+      NEG: Está sendo invasiva.
       POS: Ela está querendo me entender pra ver se consegue me ajudar.
 
-A leitura negativa do passo dois tem cara de interrogatório: “ela está fazendo uma entrevista? Tô cansada de tantas perguntas, já falei o que eu quero, está sendo invasiva.” Isso acontece quando você só faz perguntas sem referenciar o que ela disse, quando pergunta como ela se sente e presume que ela está incomodada, e quando copia o script sem prestar atenção na conversa.
+A leitura negativa do passo dois tem cara de interrogatório, e acontece quando você só faz perguntas sem referenciar o que ela disse, quando pergunta como ela se sente e presume que ela está incomodada, e quando copia o script sem prestar atenção na conversa.
 
 A leitura positiva é: “ela está querendo me entender pra ver se consegue me ajudar.” E acontece quando a paciente entende a intenção por trás das perguntas, e quando você referencia o que ela disse e se interessa pela resposta.
 
@@ -352,7 +353,7 @@ E se ela responde “nada, sempre quis”? Então você ainda não tem o motivo.
       V | Ela é obrigada a argumentar contra a espera | Quem argumenta contra esperar está se convencendo de agir
       X | Ela topa esperar, ou nem assim vem nada | O passo três não aconteceu, e quem está convencida é você
 
-Agora, se nem assim vem nada, ou se ela topa esperar, o passo três não aconteceu, e quem está convencida é você. Não tem nenhum indício de intolerância, entendeu? Ela não falou dor em nenhum momento, nem problema. Então, como não tem nem dor, nem problema, não tem por que a gente perguntar sobre tolerância ou sobre incômodo, sobre prioridade. Volta pro passo dois e aprofunda até achar o que faz disso um problema agora.
+E quando cai desse lado, não tem nenhum indício de intolerância, entendeu? Ela não falou dor em nenhum momento, nem problema. Então, como não tem nem dor, nem problema, não tem por que a gente perguntar sobre tolerância ou sobre incômodo, sobre prioridade. Volta pro passo dois e aprofunda até achar o que faz disso um problema agora.
 
     O QUE EVITAR — Interromper a paciente quando ela está se abrindo. Tentar animar a paciente minimizando o problema. Oferecer solução imediata sem explorar a dor por completo.
 
@@ -364,7 +365,7 @@ Esse passo tem uma coisa diferente dos outros: aqui a paciente às vezes se emoc
       NEG: Mais uma daquelas técnicas de venda batidas.
       POS: Estamos entendendo juntas pra ver se vão conseguir me ajudar.
 
-A leitura negativa aqui é: “mais uma daquelas técnicas de venda batidas”. Ela acontece quando a conversa vira interrogatório e a sua pergunta seguinte não tem nada a ver com o que ela acabou de responder. Termino a resposta dela, eu passo pra próxima pergunta, e aí fica uma conversa robótica como se eu tivesse entrevistando a pessoa, né? Ela contou do casamento, você mandou a próxima pergunta do script sem citar o casamento, e pronto, ela viu o script. A pessoa, ela não se sente ouvida. Aí a próxima mensagem começa pela palavra dela, “novembro, então...”, e só depois vem a pergunta. Pode ser a mesma pergunta do script. O que muda é que ela vem depois do casamento, não no lugar dele.
+A leitura negativa aqui acontece quando a conversa vira interrogatório e a sua pergunta seguinte não tem nada a ver com o que ela acabou de responder. Termino a resposta dela, eu passo pra próxima pergunta, e aí fica uma conversa robótica como se eu tivesse entrevistando a pessoa, né? Ela contou do casamento, você mandou a próxima pergunta do script sem citar o casamento, e pronto, ela viu o script. A pessoa, ela não se sente ouvida. Aí a próxima mensagem começa pela palavra dela, “novembro, então...”, e só depois vem a pergunta. Pode ser a mesma pergunta do script. O que muda é que ela vem depois do casamento, não no lugar dele.
 
 A leitura positiva é: “estamos entendendo juntas pra ver se vão conseguir me ajudar”. Juntas, ela e você, do mesmo lado do problema. Acontece quando ela entende que as respostas dela importam pra ter o problema resolvido, e quando a conversa flui.
 
@@ -399,7 +400,7 @@ Isso é o passo quatro, e é onde a frase da primeira página do framework acont
 
 Fazer a paciente declarar o que ela precisa, pra que depois você ofereça exatamente o que ela está buscando. E aumentar o comprometimento dela em agendar.
 
-Repara na ordem. A pessoa verbaliza o problema que ela tá passando e a gente oferece o problema dela resolvido, né? O caminho contrário é oferecer primeiro e esperar a paciente se encaixar na oferta e aí ela escuta uma consulta genérica e pensa: “será que isso é pra mim?” É muito difícil a gente acertar a resposta que a pessoa quer receber. Agora, se ela falar que tipo de resposta ela quer receber, fica muito mais simples. A consulta que você vai apresentar é a que ela acabou de descrever.
+Repara na ordem, porque o caminho contrário é o que mais acontece. É muito difícil a gente acertar a resposta que a pessoa quer receber. Agora, se ela mesma falar que tipo de resposta ela quer receber, fica muito mais simples.
 
     [gráfico: duas]
       A ordem | O caminho contrário
@@ -427,9 +428,10 @@ O segundo é o erro que mais volta no material, porque se qualificar demais apar
 
     [gráfico: leituras]
       NEG: Ainda não sei se o meu problema vai ser resolvido.
+      NEG: Eu só quero fazer o procedimento tal.
       POS: Ela entendeu o meu problema e sei que vai me ajudar a resolver.
 
-A leitura negativa do passo quatro tem duas frases: “ainda não sei se o meu problema vai ser resolvido” e “eu só quero fazer o procedimento tal”. As duas aparecem pelo mesmo motivo: a gente não foi fundo no problema, e ela nunca chegou a contar por que foi procurar a consulta. Porque se a pessoa não verbalizar isso, qualquer coisa que eu falar depois vai ser uma solução para um problema que, pra ela, não é tão grave assim, não é tão sério para ela. Então, se ela chega no passo quatro e ainda fala em procedimento, é porque o passo dois ficou raso, ou o três. Volta.
+As duas leituras negativas do passo quatro aparecem pelo mesmo motivo: a gente não foi fundo no problema, e ela nunca chegou a contar por que foi procurar a consulta. Porque se a pessoa não verbalizar isso, qualquer coisa que eu falar depois vai ser uma solução para um problema que, pra ela, não é tão grave assim, não é tão sério para ela. Então, se ela chega no passo quatro e ainda fala em procedimento, é porque o passo dois ficou raso, ou o três. Volta.
 
 A leitura positiva é: “ela entendeu o meu problema e sei que vai me ajudar a resolver”. E acontece quando a gente mostra que quer entender o que ela está dizendo e quando a gente ouve mais do que fala. No WhatsApp isso é uma coisa só: a sua mensagem começa pela palavra dela e no fim do passo ela escreveu mais do que você.
 
@@ -453,9 +455,9 @@ CAPÍTULO 07 · Transição
 ------------------------------------------------------------------------------
 
 [conversa de WhatsApp]
-      VOCÊ: Por conta da forma que trouxe... e de já estar desde uns dois anos sentindo assim... concordo que não tem por que deixar mais para depois.
+      VOCÊ: [Nome], por conta da forma que trouxe... e de já estar desde uns dois anos sentindo assim... concordo que não tem por que deixar mais para depois.
 
-Uma mensagem. É isso o passo cinco, e é o mais curto do script. Sabe o que a gente faz? Sai do passo quatro, com a paciente declarada, e vai direto pro horário, e às vezes funciona. Só que aí fica faltando a parte em que a gente oferece pra ela o problema resolvido, e é isso que a transição é.
+O passo cinco é uma mensagem só, e é o mais curto do script. Sabe o que a gente faz? Sai do passo quatro, com a paciente declarada, e vai direto pro horário, e às vezes funciona. Só que aí fica faltando a parte em que a gente oferece pra ela o problema resolvido, e a transição é isso.
 
 ## Pra que serve
 
@@ -463,7 +465,7 @@ Ligar o que a gente faz com o problema que ela trouxe. Mostrar que é isso que e
 
 Os três objetivos falam do problema dela. Sem o problema que a pessoa tá passando, a transição vai ser de onde para onde? E ela não apresenta a consulta ainda, isso é o passo seis. Ela só justifica o próximo passo, com o que ela mesma te contou.
 
-E tem uma coisa aqui que eu acho importantíssima: a pessoa não pode sair da transição com medo. Com medo ela já tava desde o momento que entrou em contato. A transição precisa deixar ela mais certa da decisão, e não mais incerta.
+E tem uma coisa aqui que eu acho importantíssima: a pessoa não pode sair da transição com medo. Com medo ela já tava desde o momento que entrou em contato. A transição precisa transformar isso em alguma coisa que deixe ela mais certa da decisão.
 
 ## A frase
 
@@ -482,9 +484,9 @@ As reticências são do script e eu acho que fazem diferença, então mantém el
 
     O QUE EVITAR — Explicação técnica sobre procedimento. Listar todas as qualificações da doutora sem conexão com o problema. Passar muita informação de uma vez. E falar de preço antes de mostrar como a consulta resolve o problema.
 
-Três desses quatro são a mesma tentação, que é encher a mensagem. A transição funciona porque é curta. Agora, se depois do “não tem por que deixar mais para depois” você emenda um parágrafo sobre bioestimulador, você acabou de passar muita informação de uma vez, que é justamente o que a lista logo acima manda evitar.
+A tentação aqui é encher a mensagem. A transição funciona porque é curta, e se depois do “não tem por que deixar mais para depois” você emenda um parágrafo sobre bioestimulador, ela deixou de ser curta.
 
-O quarto é outro erro, e é de ordem trocada. Ela ainda não viu como a consulta resolve o problema dela, e se o valor não for percebido, nem se a consulta for de graça vai valer a pena.
+E falar de preço aqui é outro erro, que é de ordem trocada. Ela ainda não viu como a consulta resolve o problema dela, e se o valor não for percebido, nem se a consulta for de graça vai valer a pena.
 
 ## Quando avançar
 
@@ -500,7 +502,7 @@ CAPÍTULO 08 · Apresentação
 [conversa de WhatsApp]
       VOCÊ: Por isso, já sei que a doutora vai te ajudar com essa região do queixo que tá te incomodando e parar de se sentir com vontade de se esconder nas fotos.
 
-Então, isso aí é a apresentação inteira. Uma frase, colada na transição, e ela tem exatamente duas coisas dentro: o problema, com a palavra dela, e o sentimento, com a palavra dela. Não tem o nome do procedimento e não tem o que a doutora vai fazer e não tem quanto tempo dura a consulta.
+Então, isso aí é a apresentação inteira. Uma frase, colada na transição, e ela tem exatamente duas coisas dentro. Repara no tamanho da coluna da direita.
 
     [gráfico: duas]
       O que entra | O que não entra
@@ -530,11 +532,13 @@ Seis erros, e eu quero comentar dois. O “pode fazer no mesmo dia” parece fac
 
     [gráfico: leituras]
       NEG: Não parece resolver o meu problema.
+      NEG: Acho que não preciso disso tudo.
+      NEG: Preciso avaliar se é pra mim.
       POS: É exatamente isso que eu estou buscando.
 
-A leitura negativa tem três frases: “não parece resolver o meu problema”, “acho que não preciso disso tudo”, “preciso avaliar se é pra mim”. Repara que as três nascem de excesso, porque a gente apresentou mais solução do que ela pediu e solução que não resolve o problema dela e porque a gente qualificou demais a consulta e encheu a paciente de informação que não serve pra ela.
+Repara que as três nascem de excesso, porque a gente apresentou mais solução do que ela pediu e solução que não resolve o problema dela e porque a gente qualificou demais a consulta e encheu a paciente de informação que não serve pra ela.
 
-A leitura positiva é uma frase só: “é exatamente isso que eu estou buscando”. E acontece quando você apresenta a solução certa pro problema que ela trouxe e quando você usa as palavras dela pra referenciar o problema durante a apresentação.
+A positiva é uma só, e acontece quando você apresenta a solução certa pro problema que ela trouxe e quando você usa as palavras dela pra referenciar o problema durante a apresentação.
 
 ## Quando avançar
 
@@ -605,7 +609,7 @@ Agora, e se ela disser que faz o PIX à noite? Não justifica, não precisa. Qua
 
 E tem uma regra da casa que resolve isso sem discussão: sem PIX, sem agenda. O horário só entra na agenda quando o comprovante chega, e é só isso que você devolve pra ela, sem abrir a brecha do “depois”. Cancelar não custa nada pra quem não pagou, e é por isso que a gente cobra na hora.
 
-Agora, se ela empurrar o pagamento pra depois disso e insistir, aí já virou objeção. E objeção nunca se responde com informação, se responde com pergunta, que é o capítulo 10.
+Agora, se ela empurrar o pagamento pra depois disso e insistir, aí já virou objeção. E objeção nunca se responde com informação, se responde com pergunta, que é o capítulo 10. As frases prontas dessa, inclusive a do “faço o PIX à noite”, estão no capítulo 11.
 
     O QUE EVITAR — Perguntar a disponibilidade da paciente antes de oferecer um primeiro horário disponível. E partir pro fechamento sem ter criado compromisso suficiente.
 
@@ -617,7 +621,7 @@ O segundo erro é o que explica “vou pensar” chegando no fechamento. Se ela 
       NEG: Vou ter que me organizar pra ir na consulta.
       POS: Estou tomando a melhor decisão.
 
-A leitura negativa aqui é uma frase pequena, e passa batida: “vou ter que me organizar pra ir na consulta”. É a paciente dizendo que a consulta virou um custo. Isso acontece quando o preço da consulta parece maior do que o preço de não resolver o problema, e quando a gente não mostrou, ao longo da conversa, o que a consulta resolve.
+A leitura negativa aqui é pequena e passa batida. É a paciente dizendo que a consulta virou um custo. Isso acontece quando o preço da consulta parece maior do que o preço de não resolver o problema, e quando a gente não mostrou, ao longo da conversa, o que a consulta resolve.
 
 A leitura positiva é: “estou tomando a melhor decisão”. E acontece quando, ao longo da conversa, ficou claro qual era o problema, como ele mexe com ela e por que é agora e não depois. E quando a consulta apareceu como a resposta pra isso. Essa lista, ponto importante, é o script inteiro, gente. O fechamento colhe o que os seis passos deixaram pronto.
 
@@ -717,11 +721,12 @@ Este capítulo é pra deixar do lado do celular. Eu organizei por família de ob
       Preço
       Consulta paga
       Falta de compromisso
+      Na hora do PIX
       Informação técnica
       Resistência
       A paciente mandou foto
 
-Gente, repara que toda resposta que continua a conversa devolve uma pergunta. Nenhuma entrega a informação e para por ali. As perguntas somos nós que fazemos. Até porque penso o seguinte: se a gente responde as perguntas que a pessoa faz, quem tá no controle da conversa é ela.
+Gente, repara que quase toda resposta que continua a conversa devolve uma pergunta. As duas que não devolvem são as da hora do PIX, porque ali a regra da casa já é a resposta inteira: você diz numa linha e segue. As perguntas somos nós que fazemos. Até porque penso o seguinte: se a gente responde as perguntas que a pessoa faz, quem tá no controle da conversa é ela.
 
 ## Preço
 
@@ -781,7 +786,9 @@ O preço não é a objeção real. Gente, o que incomoda a paciente não é paga
       ELA MANDA: “tenho que ir pra fazer orçamento e ver valor de procedimento? Não pode falar por aqui?”.
       O QUE CONTINUA A CONVERSA: [Nome], bem que eu gostaria, viu? Mas eu só faço o agendamento... imagina se eu passar um valor pra você e quando a doutora, que é especialista, analisar seu caso for diferente do que eu passei? Aposto que ia ficar brava comigo...
 
-Essa é pra quem agenda. Agora, se é você mesma que responde, a lógica não muda: você não passa valor de um caso que ainda não olhou. Só troca o “eu só faço o agendamento” pelo motivo verdadeiro.
+Essa é pra quem agenda. Agora, se é você mesma que responde, a lógica não muda: você não passa valor de um caso que ainda não olhou. O que muda é uma coisa só, que é trocar o “eu só faço o agendamento” pelo motivo verdadeiro. Fica assim:
+
+    FRASE PRONTA — [Nome], bem que eu gostaria, viu? Mas eu preciso avaliar o seu caso pra garantir o melhor tratamento, e pode ser até que precise de menos do que você imagina. Você já sabe o que está procurando?
 
 E repara que nas três respostas de preço lá em cima você promete passar a informação, e aqui você não passa o valor. Isso não é contradição, e é o ponto que mais confunde: o que você prometeu foi passar a informação, não cravar um número por mensagem. Prometer e depois recusar seco, aquele “não consigo passar valores”, é o pior dos dois mundos, porque soa como quem esconde. O que a gente faz é explicar o motivo verdadeiro: a doutora precisa avaliar pra garantir o melhor tratamento, e pode ser até que precise de menos do que você imagina. Você não escondeu nada. Você disse que ia passar, e passou o que dá pra passar antes de alguém olhar o caso.
 
@@ -827,6 +834,22 @@ Essa resposta só serve se na sua clínica a paciente paga a consulta na hora de
     [cartão de objeção]
       ELA MANDA: “já fiz botox recentemente, depois te procuro pra fazer de novo”.
       O QUE CONTINUA A CONVERSA: Ah, entendi... Mas o que te fez procurar por botox agora, mesmo tendo feito recentemente? Tem alguma outra coisa que gostaria de melhorar... se pudesse?
+
+## Na hora do PIX
+
+    [cartão de objeção]
+      ELA MANDA: “faço o PIX à noite” ou “depois eu te mando”.
+      SE RESPONDER ASSIM, PERDE: “Imagina, sem pressa! Pode mandar depois que eu já deixo o seu horário guardado.”
+      O QUE CONTINUA A CONVERSA: Sem problemas. Só te adianto que o horário entra na agenda quando o comprovante chega, tá bom?
+
+Não justifica, não precisa. Quanto mais a gente fala, mais parece que tá querendo justificar alguma coisa. Pede uma vez e segue. E repara no que a resposta devolve: a regra que eu te dei no capítulo 9, sem PIX, sem agenda. Ela não promete guardar o horário, porque prometer guardar é abrir a brecha do “depois” com as suas próprias mãos.
+
+    [cartão de objeção]
+      ELA MANDA: “o pagamento é antecipado?” ou “não me sinto confortável pagando adiantado, prefiro no dia da consulta”.
+      SE RESPONDER ASSIM, PERDE: “É porque a doutora já teve muita desmarcação em cima da hora e a pessoa não compareceu, então é pra preservar o horário.”
+      O QUE CONTINUA A CONVERSA: Sim, o pagamento é antecipado para garantir o seu horário.
+
+Toda vez que a pessoa fala que não quer pagar a consulta antecipado, a forma mais rápida da gente perder essa pessoa é justificando o preço da consulta e o pagamento antecipado. Repara que o “para garantir o seu horário” já dá o motivo, só que num disclaimer pequeno, e a gente não estende muito mais. Aquela explicação sobre as pacientes que não compareceram é a pior coisa que a gente pode falar nesse momento, porque põe na cabeça dela uma desconfiança que não era dela.
 
 ## Informação técnica
 
@@ -888,7 +911,7 @@ E de vendedora, o que eu vi foi isso: a doutora entendeu o meu problema e uma ou
 
 E aqui eu não estou falando que existe um certo ou errado, mas pelo que eu observo nas mais de 3 mil clínicas por aqui, quando a doutora se capacita pra fazer o fechamento e ela entende que ela é doutora e que ela é vendedora também, o ticket médio sobe, a taxa de fechamento sobe, enfim, é mil maravilhas.
 
-Agora, se está funcionando desse jeito na sua clínica, continua. E quando eu digo funcionando é assim: o ticket médio que você passa lá na sala é o mesmo ticket médio que fecha lá no final e a taxa de conversão é a mesma, e não tem ninguém indo embora pra casa pra pensar. Então está tudo certo, continua desse jeito.
+Agora, se está funcionando desse jeito na sua clínica, continua. E quando eu digo funcionando, é assim:
 
     [gráfico: sinais Está funcionando assim?]
       - O ticket médio que você passa lá na sala é o mesmo que fecha lá no final
@@ -1119,8 +1142,6 @@ A seleção começa na foto. Se o que você quer é caso pro feed, a gente preci
       A seleção começa na foto
       V | É o problema que você tá posicionada para resolver | Entra nessa edição
       X | Fora da faixa etária ou fora do problema | A gente já agradece
-
-Fora da faixa etária ou fora do problema, a gente já agradece.
 
     FRASE PRONTA — As vagas de paciente modelo desse mês já foram encerradas, mas numa próxima oportunidade eu te aviso, combinado?
 

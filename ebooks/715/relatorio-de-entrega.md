@@ -151,6 +151,20 @@ literal dela. Registro aqui só pra você ter o dado, sem reabrir:
   anexo A), e a troca é de uma palavra. **Não mexi**, porque você decidiu que metodologia é
   proposital, e essa decisão continua valendo até você dizer o contrário.
 
+  **As duas correções estão escritas e esperando sua palavra.** Rodar é um comando:
+
+  ```bash
+  cd ~/reconecta/ebooks/715
+  python3 aplicar-correcao-metodologia.py --conferir   # só confere, não escreve
+  python3 aplicar-correcao-metodologia.py              # aplica as 8 trocas
+  python3 ~/.claude/skills/ebook-humano-reconecta/scripts/render_pdf.py . --provas
+  ```
+
+  O que ele muda é **conectivo, não conteúdo**: `e parar de se sentir` vira `pra você parar de
+  se sentir` (4 lugares) e `desde [tempo]` vira `há [tempo]` (4 lugares). Nenhuma palavra do
+  script, nenhum colchete, nenhuma ordem de passo muda. O `há` já é o que o anexo B escreve.
+  Ele confere tudo antes de escrever e morre se o manuscrito tiver mudado.
+
 **3. As muletas orais saíram, e isso tem um preço declarado.** A seu pedido, 38 muletas
 foram cortadas: o `, né,` do meio da frase e o `, né.` fechando com ponto. Ficaram as 28
 que fecham pergunta com `?`, que são recurso escrito, e os vocativos que se dirigem a

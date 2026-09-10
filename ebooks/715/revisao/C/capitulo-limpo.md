@@ -37,8 +37,6 @@ V | É o problema que você tá posicionada para resolver | Entra nessa edição
 X | Fora da faixa etária ou fora do problema | A gente já agradece
 :::
 
-Fora da faixa etária ou fora do problema, a gente já agradece.
-
 :::frase
 As vagas de paciente modelo desse mês já foram encerradas, mas numa próxima oportunidade eu te aviso, combinado?
 :::

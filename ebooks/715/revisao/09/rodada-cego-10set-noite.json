@@ -1,0 +1,14 @@
+{
+  "cego": {
+    "veredito": "pessoa",
+    "confianca": 67,
+    "votos": {
+      "pessoa": 2,
+      "ia": 1,
+      "indeciso": 0
+    },
+    "nota": "depois dos gráficos e do PIX"
+  },
+  "data": "2026-09-10",
+  "brutos": 0
+}
