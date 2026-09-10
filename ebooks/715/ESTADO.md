@@ -1,7 +1,7 @@
 # Script 715 — estado do projeto
 
 Ponto de retomada técnica. Quem pegar isto sem contexto nenhum consegue continuar.
-Atualizado em 09/set/2026, depois da rodada de corpus.
+Atualizado em 10/set/2026, depois da quinta banca.
 
 Para decisão (o que dá pra vender, o que falta, o que depende do Sávio), ler o
 `relatorio-de-entrega.md` ao lado.
@@ -31,6 +31,10 @@ Todo o resto está fechado.
 O que segurava "Revisão adversarial" era o degrau do leitor cego, e ele caiu inteiro:
 **os 15 blocos leem "pessoa"**, contra 4 na manhã de 09/set. Ver a descoberta 6.
 
+A tabela abaixo sai de `andamento.py --detalhe`, que é a fonte de verdade: ele escolhe o
+cego mais RECENTE por data de gravação. Ler os `rodada-N.json` na mão erra, porque em
+vários blocos a medição mais nova está num arquivo avulso de cego, não na rodada numerada.
+
 ---
 
 ## Onde estão as coisas
@@ -46,25 +50,36 @@ ebooks/715/
     transcricao/*.txt      3 aulas do WAID transcritas com WhisperX
   revisao/NN/              por bloco: capitulo-vK.md, detector-vK.json, rodada-K.json/txt
   revisao/_pre-*/          snapshots antes de cada passada grande
-  render/script-715.pdf    143 páginas, 9:16 (1080×1920)
+  render/script-715.pdf    146 páginas, 9:16 (1080×1920)
   render/provas/*.png      uma PNG por página
   render/cola/*.png        a cola dos 7 passos como peça de celular (cola_png.py)
   render/preview.html      abrir no browser pra folhear
   render/indice-paginas.json  em que página começa cada bloco
+  render/livro-continuo.md    o livro inteiro num arquivo só, na ordem, pra BANCA ler
+  revisao/bancas-10set.md     rastro comparado das CINCO bancas, com o que cada uma moveu
+  revisao/banca{,2,3,4,5}-10set.json   os pareceres crus
 ```
 
 Scripts em `~/.claude/skills/ebook-humano-reconecta/scripts/`, com espelho
 versionado em `~/reconecta/skills/ebook-humano-reconecta/` (a skill viva é a de
 `~/.claude`; ver `ESPELHO.md` pra ressincronizar):
 `render_pdf.py`, `detector_ptbr.py`, `andamento.py`, `graficos.py`, `cola_png.py`,
-`revisor_pontuacao.py`, `wf_revisao_capitulo.js`, `wf_corpus_fala.js`, `wf_cego.js`,
-`coleta_slack_autor.py`.
+`revisor_pontuacao.py`, `livro_continuo.py`, `wf_revisao_capitulo.js`, `wf_corpus_fala.js`,
+`wf_cego.js`, `wf_banca.js`, `coleta_slack_autor.py`.
 
 **O detector agora exige `--corpus`.** Sem ele acusa como vocabulário de IA palavras
 que são da autora. Ver a descoberta 7.
 
 Réguas em `referencias/`: `padrao-de-refinamento.md` (a mais importante),
 `ortotipografia-ptbr.md`, `catalogo-tells-ptbr.md`.
+
+**Quarta fonte, autorizada pelo Sávio em 10/set: `~/llm-wiki-time`.** É o vault da casa, e
+foi de lá que saíram os três buracos de conteúdo que as fontes originais não tinham. O que
+vale ler primeiro:
+`02-wiki/decisoes/2026-07-28-resolucao-das-divergencias-da-redacao-9-decisoes-canonicas-da-metodologia.md`
+(as nove decisões canônicas do Leo, e o aviso de que 9 fichas do vault estão erradas até
+serem corrigidas), `02-wiki/referencias/reconecta-metodologia-tema-t4-atendimento-fabrica-contatos.md`
+e `.../reconecta-metodologia-tema-t0-transversal.md`.
 
 ---
 
@@ -73,17 +88,17 @@ Réguas em `referencias/`: `padrao-de-refinamento.md` (a mais importante),
 | Bloco | Detector | Cego | Degraus |
 | --- | --- | --- | --- |
 | 01 | 0 | pessoa 68 | 3/3 |
-| 02 | 23 | pessoa 67 | 3/3 |
+| 02 | 20 | pessoa 67 | 3/3 |
 | 03 | 12 | pessoa 78 | 3/3 |
 | 04 | 11 | pessoa 74 | 3/3 |
 | 05 | 13 | pessoa 69 | 3/3 |
-| 06 | 12 | pessoa 71 | 3/3 |
+| 06 | 13 | pessoa 71 | 3/3 |
 | 07 | 0 | pessoa 68 | 3/3 |
 | 08 | 18 | pessoa 60 | 3/3 |
-| 09 | 14 | pessoa 73 | 3/3 |
+| 09 | 13 | pessoa 73 | 3/3 |
 | 10 | 9 | pessoa 85 | 3/3 |
-| 11 | 22 | pessoa 72 | 3/3 |
-| 12 | 0 | pessoa 68 | 3/3 |
+| 11 | 19 | pessoa 72 | 3/3 |
+| 12 | 12 | pessoa 68 | 3/3 |
 | A | 28* | pessoa 73 | 2/2 |
 | B | 33* | pessoa 84 | 2/2 |
 | C | 17 | pessoa 72 | 3/3 |
@@ -162,17 +177,35 @@ Cada uma tem arquivo próprio. Ler antes de mexer em qualquer coisa.
    ESTRUTURA (anáfora, dois-pontos, contraste) não se absolve: composição é de quem
    escreveu, não de quem falou.
 
-8. **A banca de leitura, e o capítulo que saía incompleto.** Em 10/set seis examinadores
-   leram o livro INTEIRO de ponta a ponta pela primeira vez (`revisao/banca-10set.md`): 57
-   acusações, 13 confirmadas, 4 altas, num livro que passava em todos os portões de bloco.
-   O achado nº 1 não era de escrita: uma cerca `:::` com texto colado fazia o parser engolir,
-   calado, um parágrafo e o bloco "o que evitar" do capítulo 05, que chegava incompleto no PDF
-   pago. Nenhum instrumento pegava porque **todos liam a fonte e ninguém olhava o render**.
-   Hoje o build morre em cerca malformada e confere bloco a bloco fonte contra saída.
+8. **A banca de leitura: cinco passadas, e o capítulo que saía incompleto.** Tudo no
+   projeto lia UM BLOCO POR VEZ, e por isso era cego pra promessa quebrada, remissão
+   errada, repetição entre capítulos e cansaço da leitora. A banca põe seis examinadores
+   lendo o livro INTEIRO de ponta a ponta (`livro_continuo.py` monta o objeto que a
+   leitora recebe), um cético por examinador e um relator. Rastro comparado em
+   `revisao/bancas-10set.md`.
 
-   Descoberta de método junto: as duas fontes da metodologia **discordam entre si** na redação
-   de duas frases prontas (transição e apresentação). O livro carregava as duas versões porque
-   era fiel às duas. Padronizado, e o PDF da metodologia precisa da mesma correção.
+   | Banca | Brutos | Confirm. | Média |
+   | --- | --- | --- | --- |
+   | 1ª | 57 | 13 | 7,5 |
+   | 2ª | 53 | 6 | 7,7 |
+   | 3ª | 53 | 9 | 7,8 |
+   | 4ª | 59 | 5 | 7,7 |
+   | 5ª | 48 | 3 | **8,1** |
+
+   O achado nº 1 da primeira não era de escrita: o capítulo 05 chegava **incompleto no PDF
+   pago**. Uma cerca `:::` com texto colado fazia o parser engolir, calado, um parágrafo e
+   o bloco "o que evitar". Nenhum instrumento pegava porque **todos liam a fonte e ninguém
+   olhava o render**. Hoje o build morre em cerca malformada e confere bloco a bloco fonte
+   contra saída.
+
+   **A banca é boa em pegar o que EU escrevo.** Na 3ª, quatro lentes independentes
+   apontaram o mesmo trecho que eu tinha escrito uma hora antes. Na 4ª, ela achou que o
+   meu texto novo se contradizia em dois pontos.
+
+   Descoberta de método junto: as duas fontes da metodologia **discordam entre si** na
+   redação de quatro frases prontas. O livro carregava as duas porque era fiel às duas, e
+   agora reflete cada uma na casa dela: capítulos e cola seguem o framework, anexo B segue
+   o manual de perguntas.
 
 9. **Cético de um bloco não vê os outros.** Numa rodada de seis blocos em paralelo,
    três achados confirmados colidiram: garimpeiros diferentes acharam a MESMA
@@ -214,35 +247,50 @@ Cada uma tem arquivo próprio. Ler antes de mexer em qualquer coisa.
 
 ## O que falta
 
-**Depende do Sávio:**
-- ~~Licença das fontes~~ **resolvido em 10/set.** A TT Modernoir licenciada vem do Adobe
-  Fonts ativado na máquina, e o Chromium a resolve pela família. O `@font-face` que
-  apontava pro `.ttf` de trial saiu do `template.html`, e o render morre se a família não
-  resolver. Os `TT_Modernoir_Trial_*.ttf` do design system podem ser apagados.
-- **Amostras ESCRITAS da Ana** (mensagem, e-mail, post). Todo o fingerprint é FALA. Não é
-  mais bloqueio (a substituição por fala resolveu o cego em 13 dos 15 blocos), mas é o que
-  fecharia o resíduo. O Slack não serve: o token do ambiente está morto (`account_inactive`)
-  e o do Keychain (`reconecta-slack`) só tem `chat:write`, `channels:read` e `files:read`.
-  Faltam `users:read` e `channels:history` no app que já existe.
-- Aprovar as duas correções de pontuação que caíram dentro de card de script
-  (`revisao-pontuacao.json`, campo `em_card`).
+**Nada bloqueia o lançamento.** Andamento 99%: escrita, revisão, design e fecho em 100%.
+Os 10% que faltam em "Fontes" são as amostras escritas da Ana, e deixaram de importar
+quando a substituição por fala real resolveu o cego em 15 dos 15 blocos.
 
-**Não depende de ninguém, e nada disso é bloqueio:**
-- `ideias-de-leitura.md` tem as propostas que sobraram, com o custo de cada uma. As três que
-  não dependem de fonte nova: anexo B indexado "pelo que ela disse", glossário e carimbos
-  tipográficos. O glossário é o mais arriscado: definição inventada já passou por quatro
-  rodadas neste livro uma vez (`paridade-de-juri.md`), então só entra com verbete literal.
+**Fechado em 10/set, não reabrir:**
+- ~~Licença da fonte.~~ A TT Modernoir licenciada vem do Adobe Fonts ativado na máquina.
+  Os 11 arquivos de trial foram **apagados** de três pastas, e os três pipelines que
+  apontavam pra eles (cola, engine dos carrosséis, motion) passaram a resolver a família
+  pelo sistema. A pasta `Reconecta Design System/fonts/` ficou **vazia**.
+- ~~Os três buracos de conteúdo.~~ Preenchidos com doutrina canônica do `llm-wiki-time`.
+- ~~Quem digita no WhatsApp.~~ O livro segue o framework, terceira pessoa. Ver as decisões.
+- ~~Os dois pontos de cansaço.~~ Cortados.
+- ~~As duas correções em card de script.~~ Já estavam aplicadas; o item era resíduo.
+
+**O único achado que três bancas seguidas apontaram e que NÃO foi corrigido**, por decisão
+do Sávio de que metodologia é proposital: a frase da apresentação, `"vai te ajudar com o
+[problema] e parar de se sentir"`, que lida ao pé da letra põe a doutora como quem para de
+se sentir mal. Idem `"desde [tempo]"` na transição. As duas são literais do framework.
+
+**Melhoria opcional, não pendência:** `ideias-de-leitura.md` tem o anexo B indexado "pelo
+que ela disse", carimbos tipográficos e um glossário. O glossário é o mais arriscado do
+livro: definição inventada já passou por quatro rodadas aqui uma vez.
 
 ## Como retomar
 
 ```bash
 P=~/reconecta/ebooks/715
 S=~/.claude/skills/ebook-humano-reconecta/scripts
-python3 $S/andamento.py $P --detalhe      # onde estamos
-python3 $S/detector_ptbr.py $P/revisao/11/capitulo-limpo.md   # um bloco
-python3 $S/revisor_pontuacao.py $P        # pontuação
-python3 $S/render_pdf.py $P --provas      # PDF + PNGs + abre o preview
+C=$P/fontes/voz/corpus/ana-luiza-falas-treinamentos.txt
+
+python3 $S/andamento.py $P --detalhe                     # onde estamos
+python3 $S/revisor_pontuacao.py $P                       # pontuação e eco
+python3 $S/detector_ptbr.py $P/revisao/11/capitulo-limpo.md --corpus $C   # um bloco
+python3 $S/render_pdf.py $P --provas                     # PDF + PNGs + cola + preview
+python3 $S/livro_continuo.py $P                          # monta o insumo da banca
 ```
+
+O `--corpus` **não é opcional**: sem ele o detector acusa como vocabulário de IA palavras
+que são da autora. E o `render_pdf` agora morre em três situações, de propósito: cerca
+`:::` malformada, bloco perdido entre a fonte e o render, e família TT Modernoir não
+resolvida. Nenhuma delas deve ser contornada.
+
+Pra rodar a banca (13 agentes, ~17 min), depois de `livro_continuo.py`:
+`wf_banca.js` com `{livro, ortotipografia, fingerprint}`.
 
 Regra que vale mais que todas: **achado só vira correção com veredito de
 cético**. Achado marcado `"sem veredito do cetico (falha)"` significa que o
