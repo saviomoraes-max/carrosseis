@@ -103,7 +103,7 @@ Então, o nome é “sete passos para um agendamento a cada cinco contatos”: u
 
 Antes de tudo, uma coisa sobre o “você” deste livro. Quem digita no WhatsApp da clínica é quem atende, e o script foi escrito pra essa pessoa. Repara que todas as frases prontas falam “a doutora” na terceira pessoa, tipo “até pra entender se a doutora vai conseguir te ajudar”: quem escreve não é ela. Se quem atende é você mesma, doutora, aí você fala de você na terceira pessoa mesmo, que é como a paciente ouve do outro lado.
 
-Então, eu quero te passar primeiro o que a gente considera a base de qualquer atendimento, tá? São oito coisas, e isso aqui é o que eu vejo dar certo nas clínicas que passam por aqui e são mais de 3 mil, e elas voltam em todos os capítulos, então guarda.
+Então, eu quero te passar primeiro o que a gente considera a base de qualquer atendimento, tá? São oito coisas, e isso aqui é o que eu vejo dar certo nas clínicas que passam por aqui e são mais de 3 mil. Essas oito voltam em todos os capítulos, então guarda.
 
     [gráfico: grade]
       1 | Entender se você consegue resolver
@@ -599,7 +599,7 @@ O “agora” aparece duas vezes, no PIX e no comprovante. Não existe uma venda
 
 Agora, e se ela disser que faz o PIX à noite? Não justifica, não precisa. Quanto mais a gente fala, mais a gente se explica, e mais parece que a gente tá querendo justificar alguma coisa. É o que é e ponto. Passar o preço pra pessoa e tagarelar depois, misericórdia, que problemão que é. Pede uma vez e segue.
 
-E aqui tem uma regra que não é minha, é da casa, e ela é dura: sem PIX, sem agenda. O PIX é o que confirma o horário; sem ele aquilo ali é reserva, não é agendamento. Então não abre a brecha do “depois”. Se ela diz que faz à noite, o horário fica reservado, não confirmado, e é isso que você devolve pra ela: que o horário só entra na agenda quando o comprovante chegar. Cancelar não custa nada pra quem não pagou, e é por isso que a gente cobra na hora.
+E tem uma regra da casa que resolve isso sem discussão: sem PIX, sem agenda. O horário só entra na agenda quando o comprovante chega, e é só isso que você devolve pra ela, sem abrir a brecha do “depois”. Cancelar não custa nada pra quem não pagou, e é por isso que a gente cobra na hora.
 
 Agora, se ela empurrar o pagamento pra depois disso e insistir, aí já virou objeção. E objeção nunca se responde com informação, se responde com pergunta, que é o capítulo 10.
 
@@ -916,7 +916,7 @@ E as conversas que já morreram no seu WhatsApp, aquelas que você abriu enquant
 
 A regra da casa pra reabrir conversa é uma só: cada toque traz coisa nova. Um caso, uma pergunta, uma referência, alguma coisa que ela ainda não tinha visto. Repetir cobrança sem novidade não é insistência, é queimar o lead.
 
-E o que traz coisa nova numa conversa antiga é a dor que ela já te contou. Você volta na conversa, procura a palavra que ela usou lá atrás, e reabre por ali. Vai até a mensagem antiga dela e curte, que já gera notificação. Ou manda um áudio curto: “vi que você tava olhando, ainda faz sentido pra você?”. Não é cobrança, é reaproximação, e é a palavra dela que abre a porta de novo, do mesmo jeito que abriria numa conversa nova.
+E o que traz coisa nova numa conversa antiga é a dor que ela já te contou. Você volta na conversa, procura a palavra que ela usou lá atrás, e reabre por ali. Vai até a mensagem antiga dela e curte, que já gera notificação. E se for mandar áudio, começa pela palavra dela: “lembrei do que você me contou daquele incômodo antes do casamento, ainda faz sentido pra você?”. Não é cobrança, é reaproximação, e é a palavra dela que abre a porta de novo, do mesmo jeito que abriria numa conversa nova.
 
 Agora, se a base parada é grande demais pra ir uma por uma, a gente faz repescagem, e a nossa é no dia 20 de cada mês: você separa um dia e reativa todo mundo que está parado, com uma abordagem só.
 

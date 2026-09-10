@@ -61,7 +61,7 @@ O “agora” aparece duas vezes, no PIX e no comprovante. Não existe uma venda
 
 Agora, e se ela disser que faz o PIX à noite? Não justifica, não precisa. Quanto mais a gente fala, mais a gente se explica, e mais parece que a gente tá querendo justificar alguma coisa. É o que é e ponto. Passar o preço pra pessoa e tagarelar depois, misericórdia, que problemão que é. Pede uma vez e segue.
 
-E aqui tem uma regra que não é minha, é da casa, e ela é dura: sem PIX, sem agenda. O PIX é o que confirma o horário; sem ele aquilo ali é reserva, não é agendamento. Então não abre a brecha do “depois”. Se ela diz que faz à noite, o horário fica reservado, não confirmado, e é isso que você devolve pra ela: que o horário só entra na agenda quando o comprovante chegar. Cancelar não custa nada pra quem não pagou, e é por isso que a gente cobra na hora.
+E tem uma regra da casa que resolve isso sem discussão: sem PIX, sem agenda. O horário só entra na agenda quando o comprovante chega, e é só isso que você devolve pra ela, sem abrir a brecha do “depois”. Cancelar não custa nada pra quem não pagou, e é por isso que a gente cobra na hora.
 
 Agora, se ela empurrar o pagamento pra depois disso e insistir, aí já virou objeção. E objeção nunca se responde com informação, se responde com pergunta, que é o capítulo 10.
 

@@ -1,0 +1,132 @@
+{
+  "arquivo": "manuscrito/C-paciente-modelo.md",
+  "palavras": 527,
+  "paragrafos": 11,
+  "frases": 37,
+  "mascarado": {
+    "frontmatter": 1,
+    "blocos_script": 10,
+    "marcadores_bloco": 20,
+    "citacoes": 6,
+    "titulos_curtos": 5
+  },
+  "avisos": [],
+  "absolvidos_pelo_corpus": [
+    {
+      "termo": "talvez",
+      "subtipo": "hedge",
+      "gravidade": "baixa",
+      "no_corpus": 40
+    }
+  ],
+  "amostra_pequena": false,
+  "score": 17,
+  "faixa": "leve sotaque (passa no portão)",
+  "pontos": 5.0,
+  "densidade": 9.5,
+  "formula": "densidade = pontos / max(palavras, piso_palavras) * 1000; score = 100 * (1 - exp(-densidade / k)), k = 50, piso_palavras = 300 (texto curto não explode com um achado só). Nota por categoria usa k_categoria sobre a densidade só daquela categoria.",
+  "categorias": {
+    "conteudo": {
+      "rotulo": "Conteúdo e inflação",
+      "achados": 1,
+      "pontos": 2.5,
+      "densidade": 4.7,
+      "nota": 27
+    },
+    "linguagem": {
+      "rotulo": "Linguagem e vocabulário",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "estrutura": {
+      "rotulo": "Estrutura e ritmo",
+      "achados": 1,
+      "pontos": 2.5,
+      "densidade": 4.7,
+      "nota": 27
+    },
+    "comunicacao": {
+      "rotulo": "Sobras de chatbot",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "meta": {
+      "rotulo": "Uniformidade de ritmo (estatística)",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "calques": {
+      "rotulo": "Calques do inglês e burocratês",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    }
+  },
+  "metricas": {
+    "frases_media_palavras": 15,
+    "frases_desvio_padrao": 9.3,
+    "frases_cv": 0.62,
+    "paragrafos": 11,
+    "paragrafos_mediana_palavras": 51,
+    "paragrafos_proporcao_mesmo_tamanho": 0.22,
+    "ritmo_entre_paragrafos_desvio": 0.111,
+    "pontuacao_cv": 0.52,
+    "ttr": 0.444,
+    "frases_mesmo_inicio_proporcao": 0.03,
+    "travessoes": 0,
+    "travessoes_por_mil": 0.0,
+    "dois_pontos": 2,
+    "dois_pontos_por_mil": 3.8,
+    "itens_lista": 0,
+    "proporcao_linhas_em_lista": 0.0,
+    "negritos": 0,
+    "triades": 1,
+    "triades_por_mil": 1.9,
+    "contrastes": 1,
+    "paragrafos_terminando_em_pergunta": 1,
+    "fechos_grandiosos": 0,
+    "hedges": 1,
+    "hedges_por_mil": 1.9
+  },
+  "achados": [
+    {
+      "id": "cq_cada_vez_mais_imp",
+      "categoria": "conteudo",
+      "subtipo": "inflacao",
+      "gravidade": "media",
+      "peso": 2.5,
+      "texto": "mais do que nunca",
+      "inicio": 1199,
+      "fim": 1216,
+      "explicacao": "Urgência inflada sem data.",
+      "sugestao": "diga desde quando e quanto",
+      "contribuicao": 2.5,
+      "linha": 14,
+      "trecho": "Então a gente precisa tratar esse atendimento «mais do que nunca» como um processo seletivo, um processo de seleção mesmo."
+    },
+    {
+      "id": "es_contraste_nao_e_x_e_y",
+      "categoria": "estrutura",
+      "subtipo": "contraste",
+      "gravidade": "media",
+      "peso": 2.5,
+      "texto": "Não é consulta, é",
+      "inicio": 4450,
+      "fim": 4467,
+      "explicacao": "Contraste fácil 'não é X, é Y': virou tique.",
+      "sugestao": "afirme a coisa que importa",
+      "contribuicao": 2.5,
+      "linha": 65,
+      "trecho": "«Não é consulta, é» «reserva»."
+    }
+  ],
+  "achados_ocultos": 0,
+  "min_gravidade": "baixa"
+}

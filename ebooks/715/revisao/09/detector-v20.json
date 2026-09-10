@@ -1,0 +1,110 @@
+{
+  "arquivo": "manuscrito/09-passo-7-fechamento.md",
+  "palavras": 727,
+  "paragrafos": 20,
+  "frases": 57,
+  "mascarado": {
+    "frontmatter": 1,
+    "blocos_script": 9,
+    "marcadores_bloco": 20,
+    "citacoes": 5,
+    "titulos_curtos": 5
+  },
+  "avisos": [],
+  "absolvidos_pelo_corpus": [],
+  "amostra_pequena": false,
+  "score": 13,
+  "faixa": "limpo (soa gente)",
+  "pontos": 5,
+  "densidade": 6.9,
+  "formula": "densidade = pontos / max(palavras, piso_palavras) * 1000; score = 100 * (1 - exp(-densidade / k)), k = 50, piso_palavras = 300 (texto curto não explode com um achado só). Nota por categoria usa k_categoria sobre a densidade só daquela categoria.",
+  "categorias": {
+    "conteudo": {
+      "rotulo": "Conteúdo e inflação",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "linguagem": {
+      "rotulo": "Linguagem e vocabulário",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "estrutura": {
+      "rotulo": "Estrutura e ritmo",
+      "achados": 1,
+      "pontos": 5,
+      "densidade": 6.9,
+      "nota": 37
+    },
+    "comunicacao": {
+      "rotulo": "Sobras de chatbot",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "meta": {
+      "rotulo": "Uniformidade de ritmo (estatística)",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "calques": {
+      "rotulo": "Calques do inglês e burocratês",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    }
+  },
+  "metricas": {
+    "frases_media_palavras": 12.8,
+    "frases_desvio_padrao": 7.3,
+    "frases_cv": 0.57,
+    "paragrafos": 20,
+    "paragrafos_mediana_palavras": 49.0,
+    "paragrafos_proporcao_mesmo_tamanho": 0.38,
+    "ritmo_entre_paragrafos_desvio": 0.182,
+    "pontuacao_cv": 0.45,
+    "ttr": 0.355,
+    "frases_mesmo_inicio_proporcao": 0.02,
+    "travessoes": 0,
+    "travessoes_por_mil": 0.0,
+    "dois_pontos": 7,
+    "dois_pontos_por_mil": 9.63,
+    "itens_lista": 0,
+    "proporcao_linhas_em_lista": 0.0,
+    "negritos": 0,
+    "triades": 1,
+    "triades_por_mil": 1.38,
+    "contrastes": 0,
+    "paragrafos_terminando_em_pergunta": 2,
+    "fechos_grandiosos": 0,
+    "hedges": 0,
+    "hedges_por_mil": 0.0
+  },
+  "achados": [
+    {
+      "id": "m_dois_pontos",
+      "categoria": "estrutura",
+      "subtipo": "pontuacao",
+      "gravidade": "media",
+      "peso": 5,
+      "texto": "7 dois-pontos em 727 palavras",
+      "inicio": 919,
+      "fim": 921,
+      "explicacao": "Dois-pontos demais no meio de frase: cadência de slide.",
+      "sugestao": "Troque por ponto ou vírgula; deixe só os que apresentam algo.",
+      "contribuicao": 5,
+      "linha": 21,
+      "trecho": "Agora, se ele aparece antes disso, acontece o contrário«: »ela sabe quanto custa agora e ela sabe como que funciona para poder agendar e ela volta na"
+    }
+  ],
+  "achados_ocultos": 0,
+  "min_gravidade": "baixa"
+}

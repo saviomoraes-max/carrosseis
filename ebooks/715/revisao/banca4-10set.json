@@ -1,0 +1,430 @@
+{
+  "notas": {
+    "lingua": 8.5,
+    "continuidade": 8.5,
+    "repeticao": 6.5,
+    "contradicao": 8,
+    "leitora": 8,
+    "termos": 6.5
+  },
+  "nota_media": 7.7,
+  "brutos_n": 59,
+  "confirmados_n": 5,
+  "altas": 3,
+  "pareceres": [
+    {
+      "lente": "lingua",
+      "nota": 8.5,
+      "resumo": "A mecânica do português está sólida para um texto de 15 mil palavras nascido de transcrição: concordância, crase, correlação de tempos e pontuação de discurso direto passam quase sem tropeço, e as contagens internas (\"são oito coisas\", \"em quatro situações\", \"de seis jeitos\", \"seis erros\", \"dos quatro sinais\", \"três pedaços\") batem todas com as listas correspondentes, assim como as referências cruzadas de capítulo e anexo e os números repetidos (R$ 200, dois anos de flacidez, novembro, mais de 3 mil clínicas). Não achei aspa reta, aspa que não fecha nem travessão no corpo. Os cinco achados são pontuais e três deles estão dentro de frases prontas, que é justamente onde erro mecânico custa mais caro, porque a leitora copia e manda pra paciente: a apresentação diz, ao pé da letra, que quem vai parar de se sentir mal é a doutora, e a transição usa \"desde\" com duração enquanto o Anexo B já traz \"há\" na mesma frase. Fora isso, há um verbo de pessoa trocada no capítulo 05 e dois pronomes com referente mais próximo errado. Tudo o que soa quebrado além disso é oralidade deliberada (anacoluto, autocorreção, fragmento, relativa sem preposição, \"por que que\") e não toquei."
+    },
+    {
+      "lente": "continuidade",
+      "nota": 8.5,
+      "resumo": "Li o livro inteiro e abri cada referência cruzada, uma por uma. Todas fecham: o capítulo 12 tem mesmo a salinha pelo lado de quem vende, a frase pronta que o capítulo 8 manda buscar no 11 está lá palavra por palavra, o \\\"voltar\\\" prometido no capítulo 9 aparece no 10, o passo dois é mesmo o capítulo 4, e o Anexo B tem as aberturas que a cola do Anexo A promete. A numeração dos sete passos não escorrega em nenhum capítulo, incluindo as contagens de passagem (\\\"depois de quatro passos perguntando e um só concordando\\\", \\\"nos cinco passos anteriores\\\", \\\"se os seis passos anteriores aconteceram\\\"), e nenhum exemplo aparece do nada: a paciente do queixo entra no capítulo 4 e atravessa até o 9 com os mesmos dois anos, o mesmo casamento em novembro e o mesmo R$ 200. Bastão, cortina de fumaça, presente inaceitável e leitura são todos explicados na primeira vez que aparecem. O que sobrou é pequeno e concentrado em três pontos: \\\"edição\\\" vira termo da casa no Anexo C três usos antes de ser definido, o capítulo 6 manda a leitora para \\\"a primeira página do framework\\\", que ela não tem em mãos, e o capítulo 7 atribui o \\\"tempo informado\\\" a uma pergunta que, na cena impressa do próprio livro, não foi a que arrancou o tempo dela."
+    },
+    {
+      "lente": "repeticao",
+      "nota": 6.5,
+      "resumo": "O livro sabe voltar em si mesmo quando quer: as frases prontas se repetem de propósito, os anexos A e B resumem sem pedir desculpa, e boa parte dos retornos vem declarada (\\\"Esse 'só' é a frase do capítulo 2 voltando\\\", \\\"o voltar que eu prometi no capítulo 9\\\", \\\"como eu falei lá no capítulo 1\\\"). Isso funciona e não é achado. O problema está na anedota da salinha do financeiro, que é contada quatro vezes: por inteiro no capítulo 1, recontada com frases quase idênticas no capítulo 6, recontada de novo no capítulo 10 com a ruminação e o plot twist da doutora, e só então paga no capítulo 12, que era onde o próprio livro tinha marcado o encontro. Some a isso três frases de efeito reusadas literalmente em outro capítulo (\\\"nem se a consulta for de graça vai valer a pena\\\", \\\"conversa robótica como se eu tivesse entrevistando a pessoa\\\", \\\"a forma mais fácil de encerrar uma conversa é com uma resposta\\\" na terceira aparição) e o mesmo exemplo de se qualificar copiado do capítulo 3 para o 6. O capítulo 1 também gasta antes a revelação da frase-tese que o capítulo 2 vai revelar de novo como se fosse a primeira vez. Nada disso quebra o livro, mas a leitora que lê de ponta a ponta vai ter a sensação de já ter lido aquilo em cinco ou seis momentos."
+    },
+    {
+      "lente": "contradicao",
+      "nota": 8,
+      "resumo": "O livro é coerente onde costuma quebrar: a numeração dos sete passos bate em todos os capítulos, nos dois anexos e na cola; as referências cruzadas existem de verdade (capítulo 1 promete o 12, o 9 promete o 10, o 10 entrega no 11); as contagens conferem (oito bases, seis jeitos de perguntar por que agora, quatro sinais); e a maior contradição aparente, prometer valores no passo um e não cravar número por mensagem, o próprio texto antecipa e resolve no capítulo 11. Os problemas reais são poucos e localizados. O mais grave está no capítulo 12, no fim do livro, onde a autora condena a mensagem de cobrança sem novidade e três linhas depois entrega uma frase pronta que é exatamente isso, e é essa frase que a leitora vai copiar. Depois vem a palavra reserva significando o horário não pago no capítulo 9 e o pagamento que trava a vaga no Anexo C, um sinal de avanço no passo seis que depende de um preço que só entra no passo sete, e uma frase modelo do capítulo 11 que qualifica a doutora como especialista logo abaixo do exemplo em que qualificar a doutora como especialista é o que perde a paciente."
+    },
+    {
+      "lente": "leitora",
+      "nota": 8,
+      "resumo": "O livro me ganhou no capítulo 1: a salinha do financeiro é a minha paciente e eu li sem pular uma linha, e o gancho do WhatsApp ser a mesma salinha sem porta é a melhor coisa daqui. Me ganhou de novo no gráfico do bastão, em “Autoridade no WhatsApp não é currículo. É a pessoa que faz a pergunta certa”, no casamento em novembro do passo três, que foi onde eu finalmente entendi o método, e no “Cancelar não custa nada pra quem não pagou”. O capítulo 11 é o que eu vou usar amanhã, e vale sozinho o que eu paguei. O que me irritou foi confiar nas frases prontas e achar erro justamente nelas: a da apresentação tem o sujeito trocado, a da transição me faz escrever “desde uns dois anos”, e a segunda resposta do “vou pensar” avisa a paciente que a gente vai encerrar, que é o oposto do que o capítulo 10 acabou de ensinar. Perdi o fio no PIX à noite, onde numa página me mandam não justificar e na seguinte me mandam explicar a diferença entre reservado e confirmado. E a salinha volta quatro vezes com as mesmas palavras, sendo que o capítulo 12, que era a promessa do livro desde a página 1, se resolve numa frase só. Recomendo pra uma colega, mas avisando pra ela conferir as frases antes de copiar."
+    },
+    {
+      "lente": "termos",
+      "nota": 6.5,
+      "resumo": "A camada que mais costuma vazar passou limpa: WhatsApp, PIX e Instagram têm grafia única nas 50 e poucas ocorrências, a paciente é \"a paciente\" ou \"ela\" em praticamente todo o livro, os passos são numerados por extenso na prosa e em algarismo só dentro dos gráficos, e conferi uma a uma as quinze referências cruzadas de capítulo e anexo, todas apontam pro lugar certo. O problema está concentrado em dois pontos, e são justamente os que a leitora usa: os colchetes e as frases prontas repetidas entre capítulo e anexos. O mesmo campo aparece como [problema], [problema mencionado] e [dor trazida]; [tempo] vira [tempo informado]; [Nome] convive com [seu nome] e [nome da doutora] na mesma linha; e existe um \"R$ X\" sem colchete nenhum. As frases prontas divergem entre o corpo e o Anexo B em sete lugares, e nem todas as divergências cabem no aviso de abertura do anexo: mudam verbo, artigo, reticência que o capítulo 07 mandou manter e a palavra que pede licença. O achado mais caro é o do capítulo 04, onde a frase pronta devolve \"flacidez\" a uma paciente que escreveu \"rosto flácido\", contrariando a regra que o próprio parágrafo acabou de dar. Fora isso, o produto é chamado de cinco nomes (\"script 715\", \"o 715\", \"o script\", \"o material\", \"o framework\") e \"reserva\" tem sentidos opostos no capítulo 09 e no Anexo C."
+    }
+  ],
+  "confirmados": [
+    {
+      "trecho": "[Nome], por conta da forma que trouxe... e de já estar desde [tempo] sentindo assim... concordo que não tem por que deixar mais para depois.",
+      "onde": "Capítulo 07",
+      "problema": "\"Desde\" pede um ponto no tempo, não uma duração: preenchido, sai \"desde uns dois anos\", como está na conversa de exemplo do próprio capítulo. O Anexo B já traz a forma certa da mesma frase, com \"há [tempo informado]\", então o livro se contradiz na frase que a leitora vai copiar.",
+      "gravidade": "media",
+      "correcao": "[Nome], por conta da forma que trouxe... e de já estar há [tempo] sentindo assim... concordo que não tem por que deixar mais para depois. (mesma troca na conversa do capítulo 07 e na cola do Anexo A)",
+      "lente": "lingua",
+      "real": true,
+      "motivo_cetico": "O trecho existe literalmente (linha 466, repetido em 966) e o preenchido do próprio capítulo sai \"desde uns dois anos\" (linha 454), com \"desde\" pedindo marco e não duração. O livro se contradiz na mesma frase pronta: o Anexo B traz \"por já estar há [tempo informado] sentindo assim\" (linha 1068), e é frase que a leitora copia e manda pra paciente, então a versão errada circula.",
+      "correcao_final": "Trocar em todas as quatro ocorrências, senão a grade contradiz a frase: linha 454 \"e de já estar há uns dois anos sentindo assim\"; linhas 466 e 966 \"e de já estar há [tempo] sentindo assim\"; linha 473 do gráfico \"3 | «há [tempo]» · ela te deu no passo três\"."
+    },
+    {
+      "trecho": "Ou manda um áudio curto: “vi que você tava olhando, ainda faz sentido pra você?”. Não é cobrança, é reaproximação, e é a palavra dela que abre a porta de novo, do mesmo jeito que abriria numa conversa nova.",
+      "onde": "Capítulo 12",
+      "problema": "Duas frases antes, no mesmo capítulo, o livro diz o contrário: “Elas não estão perdidas, e o jeito de voltar nelas não é mandar “passando pra saber se você viu”. Essa é a mensagem que queima o contato de vez.” e “A regra da casa pra reabrir conversa é uma só: cada toque traz coisa nova.”. O áudio prescrito não traz nada de novo e não usa a palavra dela: “vi que você tava olhando” é a mesma cutucada de “passando pra saber se você viu”, que acabou de ser chamada de mensagem que queima o contato. A leitora vai copiar a frase pronta, não o princípio.",
+      "gravidade": "alta",
+      "correcao": "Trocar o exemplo por um toque que cumpra a regra da própria página: “Ou manda um áudio curto começando pela palavra dela: “lembrei do que você me contou do queixo antes do casamento, apareceu um caso aqui parecido com o seu, quer ver?”.”",
+      "lente": "contradicao",
+      "real": true,
+      "motivo_cetico": "Trecho literal confirmado na linha 919, e as duas âncoras da acusação também são literais (linha 915 e 917). Quatro linhas depois de dizer que a regra é \"cada toque traz coisa nova\" e que \"passando pra saber se você viu\" queima o contato, o áudio modelo não traz caso, pergunta nova nem palavra dela, e mesmo assim a frase seguinte afirma \"é a palavra dela que abre a porta de novo\". Pior: \"vi que você tava olhando\" pressupõe um olhar que o livro nunca estabeleceu, então a leitora que copiar a frase pronta manda exatamente a cutucada que a página acabou de proibir. A correção proposta usa o caso corrente do livro (queixo, casamento em novembro, linhas 234 a 519), cumpre a própria regra e não usa travessão nem itálico.",
+      "correcao_final": "Trocar o exemplo por um toque que cumpra a regra da própria página: “Ou manda um áudio curto começando pela palavra dela: “lembrei do que você me contou do queixo antes do casamento, apareceu um caso aqui parecido com o seu, quer ver?”.”"
+    },
+    {
+      "trecho": "Por isso, já sei que a doutora vai te ajudar com o [problema] e parar de se sentir [como está se sentindo].",
+      "onde": "Capítulo 08",
+      "problema": "A frase mais copiável do livro está quebrada: coordenado com “vai te ajudar”, o verbo “parar” fica com a doutora como sujeito, ou seja, é a doutora que vai parar de se sentir assim. Eu ia mandar isso pra paciente sem perceber, porque o livro repete a mesma construção errada na cena de WhatsApp, no anexo A e no anexo B.",
+      "gravidade": "alta",
+      "correcao": "Por isso, já sei que a doutora vai te ajudar com o [problema] e a parar de sentir [como está se sentindo].",
+      "lente": "leitora",
+      "real": true,
+      "motivo_cetico": "Trecho literal nas linhas 517 e 972, e a mesma construção aparece na cena (496) e no anexo B (1073). Coordenado com \"vai te ajudar\", o infinitivo \"parar de se sentir\" fica com a doutora como sujeito, e isso não é oralidade da narradora: é frase de copiar e colar que a leitora manda pra paciente. A correção proposta falha porque tira o \"se\": preenchida com o exemplo do próprio livro vira \"parar de sentir com vontade de se esconder nas fotos\", que não fecha, e ainda mistura \"ajudar com\" e \"ajudar a\".",
+      "correcao_final": "Por isso, já sei que a doutora vai te ajudar com o [problema], pra você parar de se sentir [como está se sentindo]. Aplicar nos quatro lugares: cena do capítulo 8, frase pronta do 8, anexo A, e anexo B (lá com [dor trazida] e [sentimento informado])."
+    },
+    {
+      "trecho": "[Nome], por conta da forma que trouxe... e de já estar desde [tempo] sentindo assim... concordo que não tem por que deixar mais para depois.",
+      "onde": "Capítulo 07",
+      "problema": "“Desde” pede marco no tempo, não duração: preenchendo com o que a paciente deu na cena, sai “desde uns dois anos”, que não é português. O próprio anexo B traz a forma certa com “há”, então a versão que eu vou decorar, que é a do capítulo, é a errada.",
+      "gravidade": "alta",
+      "correcao": "[Nome], por conta da forma que trouxe... e de já estar há [tempo] sentindo assim... concordo que não tem por que deixar mais para depois.",
+      "lente": "leitora",
+      "real": true,
+      "motivo_cetico": "Literal em 466 e 966, e a cena da linha 454 mostra o preenchimento real, \"já estar desde uns dois anos sentindo assim\", que não é português: \"desde\" pede marco, não duração. O próprio anexo B (1068) traz a forma certa com \"há\", então é regência quebrada dentro da frase que a leitora copia. A correção proposta acerta, mas conserta só uma das quatro ocorrências e deixaria o livro incoerente consigo mesmo.",
+      "correcao_final": "Trocar \"desde\" por \"há\" nas quatro ocorrências: cena, \"e de já estar há uns dois anos sentindo assim\"; frase pronta do capítulo 7 e do anexo A, \"e de já estar há [tempo] sentindo assim\"; e o item 3 do gráfico, \"«há [tempo]» · ela te deu no passo três\"."
+    },
+    {
+      "trecho": "São oito coisas, e isso aqui é o que eu vejo dar certo nas clínicas que passam por aqui e são mais de 3 mil, e elas voltam em todos os capítulos, então guarda.",
+      "onde": "Capítulo 02",
+      "problema": "O “elas” gruda em “clínicas”, que é o substantivo colado antes, e por um segundo eu li que as clínicas voltam em todos os capítulos. São as oito coisas.",
+      "gravidade": "baixa",
+      "correcao": "São oito coisas, e isso aqui é o que eu vejo dar certo nas clínicas que passam por aqui e são mais de 3 mil. Essas oito voltam em todos os capítulos, então guarda.",
+      "lente": "leitora",
+      "real": true,
+      "motivo_cetico": "\"Elas\" cai no substantivo colado antes, \"clínicas que passam por aqui\", e clínica que volta é leitura plausível em contexto de mentoria, então é pronome com referente errado, que está na lista de erro de verdade. A correção proposta resolve sem travessão, sem itálico e sem tirar o \"então guarda\", e mantém a frase corrida da autora.",
+      "correcao_final": "São oito coisas, e isso aqui é o que eu vejo dar certo nas clínicas que passam por aqui e são mais de 3 mil. Essas oito voltam em todos os capítulos, então guarda."
+    }
+  ],
+  "refutados": [
+    {
+      "lente": "lingua",
+      "trecho": "Termino a resposta dela, eu passo pra próxima pergunta, e aí fica uma conversa robótica como se eu tivesse entrevistando a pessoa, né?",
+      "problema": "O verbo está na primeira pessoa com um objeto que não fecha: \"terminar a resposta dela\" quer dizer completar a resposta da paciente, e quem termina a resposta é ela. Ou faltou a marca de terceira pessoa (\"Terminou\"), ou faltou o \"de ler\".",
+      "motivo": "O trecho existe (linha 365), mas a leitura da acusação não é a única: em primeira pessoa, \"terminar\" com objeto direto é uso corrente e a própria autora usa assim no capítulo 06 (\"Quando a doutora terminou o diagnóstico\"), do mesmo jeito que se diz \"terminei o livro dela\" pra dizer que acabei de ler. A frase já está em primeira pessoa por dentro (\"como se eu tivesse entrevistando a pessoa\"), e o \"eu\" repetido no segundo verbo é redundância oral normal (\"Chego em casa, eu ligo a TV\"). Nada quebra: nas duas leituras a sequência é a mesma (a resposta dela acaba, vem a próxima pergunta do script), então a leitora não tropeça."
+    },
+    {
+      "lente": "lingua",
+      "trecho": "Por isso, já sei que a doutora vai te ajudar com o [problema] e parar de se sentir [como está se sentindo].",
+      "problema": "Sem o \"a\" de \"ajudar a\", os dois verbos coordenados ficam com o mesmo sujeito e a frase diz que a doutora vai parar de se sentir assim. Aparece igual na conversa de exemplo do capítulo 08 (\"e parar de se sentir com vontade de se esconder nas fotos\"), no Anexo A e no Anexo B, e é frase que a leitora copia e manda pra paciente.",
+      "motivo": "O trecho existe (linhas 517 e 972), mas é elipse oral corrente do \"a\" de \"ajudar a\", e o livro é consistente: aparece na mesma forma na conversa do capítulo 08 (497) e no Anexo B (1072), sem contradizer nenhuma outra versão da frase. Com \"[como está se sentindo]\" e, no exemplo preenchido, \"se esconder nas fotos\", nenhuma leitora entende que quem para de se sentir assim é a doutora. Além disso a correção proposta piora: \"ajudar com o [problema] e a parar\" coordena um complemento com \"com\" e outro com \"a\", o que trava a frase que ela vai colar no WhatsApp."
+    },
+    {
+      "lente": "lingua",
+      "trecho": "São oito coisas, e isso aqui é o que eu vejo dar certo nas clínicas que passam por aqui e são mais de 3 mil, e elas voltam em todos os capítulos, então guarda.",
+      "problema": "O \"elas\" tem como referente mais próximo \"as clínicas\", e o que volta em todos os capítulos são as oito coisas, não as clínicas.",
+      "motivo": "O trecho existe (linha 106), mas o referente se resolve sozinho: clínica não volta em capítulo, e logo abaixo vem o gráfico com as oito coisas numeradas, então a leitora liga \"elas\" às oito no mesmo fôlego. O miolo sobre as clínicas é aparte de fala, e retomar o assunto principal depois de um aparte é padrão de oralidade, que é o registro deliberado do livro. A correção \"essas oito\" só endurece a frase sem resolver risco nenhum."
+    },
+    {
+      "lente": "lingua",
+      "trecho": "E ela termina em agenda, e a pergunta dela já é a porta do passo sete.",
+      "problema": "Dois referentes diferentes na mesma frase: o \"ela\" é a resposta pronta e o \"dela\" é a paciente. Duas linhas antes, o \"ela\" do mesmo parágrafo era a paciente (\"ela comprou a consulta\"), então a troca passa despercebida e a leitora tropeça.",
+      "motivo": "O trecho existe (linha 542), mas os dois pronomes se resolvem: \"ela\" retoma \"a resposta pronta\", o substantivo feminino imediatamente antes da citação, e a resposta citada termina mesmo em \"agenda da doutora\". Seja \"a pergunta dela\" a da paciente (\"e como funciona a consulta?\") ou a pergunta que fecha a resposta pronta, o destino é o mesmo, o passo sete, então não há leitura contrária possível. A correção proposta mantém o \"dela\" que a acusação chama de ambíguo, ou seja, nem resolve o que alega."
+    },
+    {
+      "lente": "continuidade",
+      "trecho": "Antes de passar as informações sobre a vaga de paciente modelo, deixa eu entender rapidinho se faz sentido você entrar ainda nessa edição. E se sim, a gente pensa nos próximos passos. Como você entende que participar dessa edição vai te ajudar agora?",
+      "problema": "\"Edição\" entra como termo da casa já na primeira frase pronta do anexo, e volta mais duas vezes (\"Essa não entra nessa edição\" e \"Entra nessa edição\") antes de ser explicada. A definição só chega lá embaixo, na apresentação: \"E aqui entram as informações da vaga. Edição é a leva de vagas de modelo que você abre no mês.\"",
+      "motivo": "O trecho existe (linha 1102), mas \"edição\" não é termo opaco: vem colado de \"vaga de paciente modelo\" na mesma frase e se lê sozinho como a leva de vagas aberta agora. Mais: a ordem acusada é a da própria fonte (fontes/transcricao/script-paciente-modelo.txt, linhas 9-10 trazem a frase pronta com \"nessa edição\" e nunca definem o termo) — o livro já MELHOROU a aula ao acrescentar a definição na apresentação. Ordem didática discutível não é erro de continuidade, e nenhuma doutora trava ali."
+    },
+    {
+      "lente": "continuidade",
+      "trecho": "Isso é o passo quatro, e é onde a frase da primeira página do framework acontece: vender só aquilo que a pessoa já quer comprar.",
+      "problema": "A leitora não tem nenhum \"framework\" com primeira página: a frase está no capítulo 1 e em página inteira no capítulo 2, e é assim que o capítulo 8 cita ela, certo (\"Esse 'só' é a frase do capítulo 2 voltando\"). O livro ainda trata \"o framework\" como um documento de fora em mais dois lugares, sem nunca dizer o que é: \"Um dos dois erros que o framework manda evitar aqui\" (capítulo 9) e \"fica inviável a gente fazer o framework completo com todo mundo\" (Anexo C).",
+      "motivo": "O trecho existe (linha 394), mas a acusação erra o fato: o framework é um documento real e a frase está literalmente na PÁGINA 1 dele (fontes/01-framework-715.md: \"<!-- página 1 --> FRAMEWORK DE ATENDIMENTO 715 ... Para vender qualquer coisa, é só vender aquilo que a pessoa já quer comprar.\"), e \"framework\" é o nome que a autora dá ao 715 na voz dela (22 ocorrências no corpus; a própria campanha é FRAMEWORK-715). A frase é reposta inteira logo depois dos dois pontos, então nada se perde para a leitora."
+    },
+    {
+      "lente": "continuidade",
+      "trecho": "O tempo ela te contou lá no passo três quando você perguntou “por que agora” e o script chama esse pedaço de “tempo informado” porque é o tempo que ela mesma te deu.",
+      "problema": "Na própria cena do livro o tempo não veio da pergunta \"por que agora\". Ela deu o tempo na mensagem anterior, ainda respondendo o passo dois (\"Tem uns dois anos que eu reparo\"), e a resposta ao \"por que agora\" foi o casamento da irmã em novembro. Quem seguir a instrução ao pé da letra vai procurar o tempo na resposta errada.",
+      "motivo": "O trecho existe (linha 468) e é verdade que o \"dois anos\" vem da resposta anterior, mas essa fala está impressa DENTRO do bloco de WhatsApp do capítulo 5, que é o passo três — é lá que a leitora viu o tempo, e o gráfico três linhas abaixo repete \"ela te deu no passo três\". Com o exemplo já preenchido logo acima (\"desde uns dois anos\"), ninguém preenche [tempo] com \"novembro\". A correção proposta ainda piora: \"no passo três, antes mesmo do 'por que agora'\" se contradiz, já que o passo três É a pergunta do \"por que agora\", e deixaria o gráfico contradizendo o parágrafo."
+    },
+    {
+      "lente": "continuidade",
+      "trecho": "## Os três passos",
+      "problema": "Num livro cuja espinha são sete passos numerados, chamar de \"os três passos\" as três etapas internas do passo sete colide com a numeração e faz a leitora que está no celular parar pra recontar. A cola do Anexo A descreve a mesma coisa sem usar a palavra passo: \"Um horário, depois o investimento e o PIX, depois o comprovante. Nessa ordem.\"",
+      "motivo": "O título existe (linha 567), mas não colide com nada: o subtítulo do capítulo já diz \"Horário, PIX, comprovante. Nessa ordem\", o gráfico logo abaixo do título nomeia os três, e o corpo vem \"Primeiro... Segundo... Terceiro\". Sub-passo dentro de passo é uso normal em português e a leitora não para pra recontar. \"Movimentos\" seria palavra que o livro não usa em lugar nenhum, o que resolveria um problema inexistente criando outro."
+    },
+    {
+      "lente": "continuidade",
+      "trecho": "O livro é narrado em primeira pessoa pela fundadora da clínica.",
+      "problema": "A narradora não é dona de clínica em lugar nenhum do livro: no capítulo 1 ela vai como paciente à clínica de outra pessoa e diz que trabalha com vendas e com clínicas, no capítulo 12 fala das \"mais de 3 mil clínicas por aqui\" e do \"nosso time\", e no Anexo C fala de \"clínica na mentoria\". Essa ficha não sai no PDF nem no livro.html, mas está no arquivo e induz ao erro quem for editar ou vender o livro.",
+      "motivo": "A linha existe (linha 9) e a ficha de fato está errada (a narradora é fundadora da mentoria, não de clínica), mas ela é cabeçalho de trabalho e não chega à leitora: grep em livro.html dá 0 e a extração de texto do script-715.pdf dá 0 para \"fundadora\", \"Ebook pago\" e \"VSL\", com os três arquivos do mesmo timestamp. Critério (4) cai — nenhuma leitora real tropeça ali. (Idêntica já foi levantada e refutada em revisao/banca2-10set.json com a mesma evidência.)"
+    },
+    {
+      "lente": "repeticao",
+      "trecho": "Eu já estive do lado de lá dessa conversa, lembra da salinha? Quando a doutora terminou o diagnóstico, eu já tava completamente na emoção e já tinha entendido que aquilo ali resolvia o meu problema, e não precisava ter tido processo de convencimento nenhum depois, né? Se eu tivesse entendido o preço ali na sala, talvez eu teria fechado lá dentro.",
+      "problema": "É a cena do capítulo 1 recontada frase por frase, incluindo a reescrita quase literal de \"Se eu tivesse entendido o preço na sala, talvez eu teria fechado. Lá dentro.\" e de \"eu já tava completamente na emoção. Eu já tinha entendido que aquilo resolvia o meu problema\". Some com o capítulo 10 e o capítulo 12, a salinha é contada quatro vezes no livro, e o capítulo 1 já avisou que a volta dela é no 12.",
+      "motivo": "O trecho confere na linha 394, mas o callback é declarado (\"lembra da salinha?\") e paga na frase seguinte, que já está no livro: \"E a paciente do queixo chegou no mesmo lugar sem passar por salinha nenhuma.\" São 5.683 palavras de distância do cap. 1, e a correção proposta apaga justamente o que dá referente a \"o mesmo lugar\", criando pronome sem antecedente. O apoio da acusação também não confere: a linha 57 promete pro cap. 12 só a leitura de vendedora (\"De vendedora eu vi outra coisa\"), não exclusividade da salinha."
+    },
+    {
+      "lente": "repeticao",
+      "trecho": "Naqueles dez minutinhos da salinha, o que passou pela minha cabeça foi isso: e se for muito caro, será que é prioridade agora, será que eu não encontro outro jeito? Eu, que trabalho com isso o dia inteiro. E a doutora, na mesma consulta, tinha me falado que estava com muita gente indo pra casa pensar.",
+      "problema": "Duas batidas do capítulo 1 replayadas por extenso: a ruminação (\"e se esse negócio for muito caro? (...) será que isso é prioridade agora? Será que eu não consigo encontrar outros meios?\") e o plot twist da doutora (\"a gente tá com muita gente indo pra casa pensar\"), que lá foi o remate do capítulo. A leitora acabou de ler os dois e reconhece.",
+      "motivo": "Está a 9.188 palavras do cap. 1 e é reescrita, não literal (\"não encontro outro jeito\" contra \"não consigo encontrar outros meios\"). A retomada é a dobradiça do capítulo: é ela que liga o \"vou pensar\" do WhatsApp ao \"ir pra casa pensar\" da clínica, que é o gancho do cap. 10. E a correção proposta reescreve frases que já estão nas duas linhas seguintes do mesmo parágrafo (\"eu sei o que tem atrás, porque já passou pela minha cabeça também\" e \"já leu essa mensagem mais vezes do que gostaria, sabe?\"), o que criaria duplicação de verdade."
+    },
+    {
+      "lente": "repeticao",
+      "trecho": "E se o valor não for percebido, nem se a consulta for de graça vai valer a pena.",
+      "problema": "Frase idêntica, palavra por palavra, ao fecho do capítulo 7 (\"Ela ainda não viu como a consulta resolve o problema dela, e se o valor não for percebido, nem se a consulta for de graça vai valer a pena\"). Não é frase pronta de script, é comentário da autora, e o parágrafo do capítulo 11 já diz a mesma coisa na frase anterior.",
+      "motivo": "As duas ocorrências (linhas 483 e 763) estão a 3.849 palavras uma da outra, com três capítulos no meio, e a do cap. 11 é a mais nativa das duas: \"nem se a consulta for de graça\" está literalmente na seção da consulta paga, dois cartões antes do \"vou fazer no concorrente que é de graça\". O apoio da acusação não se sustenta: a frase anterior diz como o valor se gera, esta diz o que acontece na ausência dele, tudo amarrado no \"de graça\" da objeção."
+    },
+    {
+      "lente": "repeticao",
+      "trecho": "Termino a resposta dela, eu passo pra próxima pergunta, e aí fica uma conversa robótica como se eu tivesse entrevistando a pessoa, né?",
+      "problema": "\"Aí fica uma conversa robótica como se eu tivesse entrevistando a pessoa\" é reuso literal de uma frase do capítulo 2, no item 5 da base (\"Copiar e colar o script sem contexto é outro pecado mortal do atendimento. Aí fica uma conversa robótica como se eu tivesse entrevistando a pessoa.\"). Mesma imagem, mesmas palavras, sem sinalizar que está voltando.",
+      "motivo": "O cap. 2 contrata a volta em voz alta na linha 118: \"São oito coisas... e elas voltam em todos os capítulos, então guarda.\" A imagem da entrevista já é motivo corrente do livro (o cap. 4 usa \"ela está fazendo uma entrevista? Tô cansada de tantas perguntas\"), e são 3.734 palavras de distância com cena nova no cap. 5, o casamento citado e a pergunta seguinte sem citá-lo."
+    },
+    {
+      "lente": "repeticao",
+      "trecho": "A forma mais fácil de encerrar uma conversa é com uma resposta, né? Por que você vai passar o valor da consulta se você nem sabe se o que ela está buscando ela vai encontrar na consulta?",
+      "problema": "Terceira aparição da mesma sentença de efeito. Ela nasce no capítulo 2 (\"E qual é a forma mais fácil de encerrar uma conversa? Com uma resposta.\") e o capítulo 10 já a retoma declarando a volta (\"Eu já te disse isso lá no capítulo 2\"). Aqui ela volta uma quarta página depois, sem aviso e sem acrescentar nada.",
+      "motivo": "É a máxima-tese do livro na terceira aparição, e o \"né?\" é o marcador oral de terreno comum que a autora usa do começo ao fim, ou seja, a volta está sinalizada, só que na fala e não em metatexto. O cap. 11 se declara consulta avulsa (\"Este capítulo é pra deixar do lado do celular\"), então repor a regra no primeiro cartão de preço é serviço pra quem abre o capítulo direto. Cai também pelo registro deliberado: repetição pra martelar um ponto está na lista de não acusar."
+    },
+    {
+      "lente": "repeticao",
+      "trecho": "Gente, essa frase é o 715 inteiro. Ela já quer. Ninguém manda mensagem pra clínica sem querer alguma coisa e o que a gente faz nos sete passos é descobrir o que ela quer de verdade.",
+      "problema": "O capítulo 1 já revelou a frase e já fez esse mesmo comentário no fecho: \"Então o script 715 parte de uma frase só (...) Quem manda mensagem pra clínica já quer alguma coisa. Pode ser que ela não saiba direito o quê (...) mas ela quer.\" A leitora recebe a mesma revelação duas vezes seguidas, com o mesmo argumento de apoio.",
+      "motivo": "Entre as duas ocorrências tem quebra de capítulo, 613 palavras sobre outro assunto (as quatro doutoras e o motivo interno) e a FRASE EM PÁGINA INTEIRA, que é monumento visual: o comentário depois é legenda do monumento, não segunda revelação, e emenda direto em material novo (o motivo atrás da pergunta, o exemplo do botox, o \"um a cada cinco\"). A correção ainda abre com \"Eu fechei o capítulo passado com ela\", cujo \"ela\" disputa referente com a paciente, que é a \"ela\" do livro inteiro."
+    },
+    {
+      "lente": "repeticao",
+      "trecho": "No WhatsApp o número vai pra paciente cedo demais. Na salinha, vai por uma pessoa que não ouviu nada, e nos dois casos a paciente sai com o número na mão e vai pensar sozinha, não porque o número é alto, mas porque ela ainda não sabe se aquilo resolve o problema dela.",
+      "problema": "É a mesma convergência já argumentada por extenso no capítulo 1, com as mesmas três batidas: preço cedo demais no WhatsApp, pessoa que não ouviu nada na clínica, paciente ruminando sozinha (\"no WhatsApp ele vem cedo (...) vem de alguém que também não perguntou nada, e dá na mesma. A paciente recebe um número de quem não fez o diagnóstico dela e vai ruminar sozinha do jeito que eu ruminei\"). Só o final é novo.",
+      "motivo": "O capítulo abre declarando a volta na primeira linha (\"No capítulo 1 eu te contei a salinha do financeiro pelo lado da paciente\"), então recontar a convergência é a função dele, não reprise acidental. A prosa ainda alimenta o [gráfico: convergem] logo abaixo, que precisa das três batidas em texto. A correção acrescenta \"Você já viu isso no capítulo 1\" dezessete linhas depois de o capítulo ter dito exatamente isso."
+    },
+    {
+      "lente": "repeticao",
+      "trecho": "A paciente acabou de dizer que quer a consulta, e você, toda animada, emenda: “e a doutora é ótima, os casos dela são perfeitos, olha esse caso que lindo”. Parou.",
+      "problema": "O exemplo de se qualificar é copiado do capítulo 3 sem trocar uma palavra: lá está \"aquele “a doutora é ótima, esses casos são perfeitos, olha esse caso que lindo”\". O parágrafo até avisa que o erro reaparece em vários passos, mas então precisa de uma cena nova, não da mesma cena.",
+      "motivo": "O parágrafo declara que esse erro volta em quatro passos, e manter a frase igual é o que faz a leitora reconhecer que é o mesmo erro; a citação nem é literal entre os dois pontos (\"esses casos são perfeitos\" no cap. 3, \"os casos dela são perfeitos\" no cap. 6). A cena substituta proposta troca o se-qualificar por promessa de resultado (\"já fez um caso igualzinho ao seu e ficou perfeito\"), que é outro erro e contraria a regra da casa, então a correção estragaria o exemplo."
+    },
+    {
+      "lente": "repeticao",
+      "trecho": "E aqui eu não estou falando que existe um certo ou errado, mas pelo que eu observo nas mais de 3 mil clínicas por aqui, quando a doutora se capacita pra fazer o fechamento e ela entende que ela é doutora e que ela é vendedora também, o ticket médio sobe, a taxa de fechamento sobe, enfim, é mil maravilhas.",
+      "problema": "A ressalva é a mesma fórmula do capítulo 1, sobre o mesmo assunto (a salinha): \"E aqui eu não tô falando que existe um certo ou errado. Tô contando o que aconteceu comigo.\" Como o capítulo 12 já é a volta declarada à salinha, repetir o mesmo pedido de licença faz a página soar como reprise.",
+      "motivo": "\"Não tô dizendo que X é errado\" é tique de voz da autora, não cópia de fórmula: aparece também na linha 250 (\"não tô dizendo que explicar é errado, tá?\"), na 442 (\"argumentar não é errado, tá?\") e no cap. 2 (\"não tô te pedindo pra esconder o preço, tá?\"), com variação de grafia inclusive (\"tô\" no cap. 1, \"estou\" no 12). Aqui a ressalva protege a afirmação mais contenciosa do livro pro público dele, que doutora é vendedora também; cortá-la deixa a página mais dura com a leitora que tem salinha, não melhor."
+    },
+    {
+      "lente": "contradicao",
+      "trecho": "O PIX é o que confirma o horário; sem ele aquilo ali é reserva, não é agendamento.",
+      "problema": "No Anexo C a mesma palavra significa o oposto: “Não é consulta, é «reserva». O valor da reserva já entra como parte do pagamento, sem taxa extra.” e “Pra travar a vaga tem uma reserva de [valor].”. No capítulo 9, reserva é o estado ruim, o horário que ninguém pagou; no Anexo C, reserva é justamente o pagamento que trava a vaga. Quem leu os dois não sabe mais o que responder pra paciente que pergunta se o horário dela está reservado.",
+      "motivo": "Os dois trechos existem, mas não se contradizem: no capítulo 9 \"reserva\" é estado do horário não pago, e no Anexo C \"uma reserva de [valor]\" é uma quantia, sinal que entra como parte do pagamento, sentido comercial corrente e desambiguado pelo próprio \"de [valor]\". A doutrina é a mesma nos dois lugares, dinheiro trava a vaga, tanto que o Anexo C fecha mandando de volta pro passo sete: \"Horário, chave PIX, comprovante\". A resposta pra paciente que pergunta se o horário está reservado é idêntica nas duas páginas: reservado enquanto não paga, confirmado quando o comprovante chega."
+    },
+    {
+      "lente": "contradicao",
+      "trecho": "Ela entendeu que a consulta vale mais do que custa",
+      "problema": "Esse é um sinal de avanço do passo seis, e nesse ponto a paciente ainda não sabe o preço. O capítulo 9 diz onde o número entra: “Olha só onde o preço apareceu nessa cena. Na segunda mensagem, depois do horário que ela já aceitou”, e o capítulo 1 fecha a regra com “o preço entra no último”. O livro pede que a atendente observe uma conta que a paciente não tem como fazer ainda, e o próprio capítulo 8 lista “Falar do preço antes de construir todo o valor da consulta” entre os erros.",
+      "motivo": "O item existe literalmente na linha 538, mas \"vale mais do que custa\" não exige um número na mão: é justamente a convicção que o livro quer construída ANTES do preço aparecer, pra que no passo sete o valor caia em cima de uma decisão já tomada. O próprio capítulo 8 diz \"quem construiu o valor da consulta foi ela, nos cinco passos anteriores\", e o capítulo 11 trata a consulta paga como fato já conhecido pela paciente (\"a avaliação é paga?\"), então ela sabe que custa, só não sabe quanto. O sinal é a tese do livro, não uma conta impossível."
+    },
+    {
+      "lente": "contradicao",
+      "trecho": "[Nome], bem que eu gostaria, viu? Mas eu só faço o agendamento... imagina se eu passar um valor pra você e quando a doutora, que é especialista, analisar seu caso for diferente do que eu passei? Aposto que ia ficar brava comigo...",
+      "problema": "Sete linhas acima, na mesma seção, a resposta marcada como a que PERDE a paciente é “A doutora é referência na área e especialista em casos como o seu, esse é o valor da hora dela.”, e o capítulo 6 proíbe sem exceção: “E se qualificar, de qualquer jeito que seja, elogiar a doutora ou a clínica pra consulta parecer valer mais.”. Aí a frase modelo do próprio livro qualifica a doutora com a mesma palavra, especialista, e o texto não avisa que ali vale.",
+      "motivo": "Os três trechos são literais, mas a função das duas aparições de \"especialista\" é oposta: na resposta que perde, o elogio É a resposta e serve pra justificar o preço (\"esse é o valor da hora dela\"), que é exatamente o que a regra do capítulo 6 proíbe, elogiar \"pra consulta parecer valer mais\". Na frase modelo, \"que é especialista\" é a razão de não cravar número por mensagem, e o parágrafo logo abaixo explicita esse motivo verdadeiro: \"você não passa valor de um caso que ainda não olhou\". A correção proposta ainda enfraqueceria a lógica, porque tira justamente quem tem competência pra avaliar o caso."
+    },
+    {
+      "lente": "contradicao",
+      "trecho": "Acho que vale a pena a gente perguntar como ela entende, como ela percebe, o que ela vê, porque perguntar como ela se sente já presume que ela está incomodada com algo, e isso pode gerar resistência, né?",
+      "problema": "O motivo dado pra proibir o “sentir” é não presumir incômodo, mas uma das frases prontas aprovadas seis linhas acima presume o incômodo com todas as letras: “Em que momentos você percebe mais esse incômodo?” (repetida como item 12 do Anexo B). A regra pela palavra e a razão da regra não batem, e a leitora fica sem saber se o proibido é o verbo sentir ou o pressuposto.",
+      "motivo": "O trecho existe, mas a regra operacional do capítulo está dada pela palavra e continua intacta: nenhuma das três perguntas usa \"sentir\", e o O QUE EVITAR fecha com \"E perguntar como ela se sente\". \"Esse incômodo\" é anafórico, vem nas perguntas de aprofundar, que só entram \"depois que ela clareou\", ou seja, retoma o que ela mesma acabou de descrever, e não presume nada que ela não tenha dito. O próprio livro já mostra a versão personalizada na linha 292 (\"em que momento você percebe mais isso?\"), então a leitora não fica sem saída."
+    },
+    {
+      "lente": "leitora",
+      "trecho": "Claro! Pra gente encerrar aqui também, como entendeu que a consulta com a doutora vai te ajudar a resolver [problema]?",
+      "problema": "Essa é uma das duas respostas pro “vou pensar”, e ela avisa a paciente que a gente vai encerrar. É exatamente o que o capítulo 10 manda não fazer, que é liberar a paciente. Eu li três vezes achando que tinha entendido errado.",
+      "motivo": "O trecho existe (790), mas as duas opções estão sob \"O QUE CONTINUA A CONVERSA\" e a segunda termina em pergunta, que é exatamente o que o capítulo 10 manda fazer com objeção. O que o 10 chama de liberar a paciente é o \"fico à disposição\", listado ali em cima como a resposta que perde. \"Pra gente encerrar aqui também\" é o mesmo movimento de oferecer a saída que o livro usa em \"por que fazer agora e não esperar mais um pouco\", e a correção proposta troca isso por pressão."
+    },
+    {
+      "lente": "leitora",
+      "trecho": "Se ela diz que faz à noite, o horário fica reservado, não confirmado, e é isso que você devolve pra ela: que o horário só entra na agenda quando o comprovante chegar.",
+      "problema": "Dois parágrafos antes, no mesmo cenário do PIX à noite, o livro manda o contrário: “Não justifica, não precisa”, “é o que é e ponto”, “pede uma vez e segue”. Na hora que essa mensagem chegar no meu WhatsApp eu não vou saber se explico a regra da reserva ou se fico calada, e é a situação mais comum do fechamento.",
+      "motivo": "O \"não justifica, não precisa\" do parágrafo anterior é sobre não tagarelar depois de passar o preço, e o parágrafo seguinte diz exatamente o que se fala uma vez: que o horário só entra na agenda quando o comprovante chegar. Isso é o próprio \"pede uma vez e segue\", não o contrário dele, e em nenhum lugar o livro manda ficar calada. A correção ainda inventaria uma frase pronta que não existe no texto."
+    },
+    {
+      "lente": "leitora",
+      "trecho": "E de vendedora, o que eu vi foi isso: a doutora entendeu o meu problema e uma outra pessoa vendeu.",
+      "problema": "No capítulo 1 ela promete: “De vendedora eu vi outra coisa, e essa parte fica pro capítulo 12”. Eu esperei o livro inteiro por essa parte e ela é uma frase, que além de tudo já tinha sido dita no capítulo 1 com outras palavras. Não é outra coisa, é a mesma coisa.",
+      "motivo": "O pagamento do capítulo 12 não é a frase sozinha: o capítulo inteiro é o que a vendedora viu, ou seja, que quando a doutora se capacita pra fechar o ticket médio e a taxa de fechamento sobem, mais o checklist do \"está funcionando assim?\" e o \"o que o WhatsApp tem a ver com a sala\". É diagnóstico comercial, não a dor de paciente do capítulo 1. E o que se pede não é correção de texto, é outro capítulo."
+    },
+    {
+      "lente": "leitora",
+      "trecho": "Se eu tivesse entendido o preço ali na sala, talvez eu teria fechado lá dentro.",
+      "problema": "É a quarta vez que a salinha do financeiro volta, quase com as mesmas palavras do capítulo 1, e ainda volta no 10 e no 12. Na do capítulo 6 eu pulei o parágrafo inteiro, porque já sabia o final. A história é ótima na primeira vez e vira enchimento nas outras três.",
+      "motivo": "A salinha aparece no capítulo 1, no 6 (394), no 10 (644) e no 12, então a do capítulo 6 é a segunda volta, não a quarta, e a acusação se contradiz ao dizer que ela ainda volta no 10 e no 12. Repetição para martelar um ponto é registro deliberado do livro, e essa volta tem função nova: a paciente do queixo chegou no mesmo lugar sem passar por salinha nenhuma."
+    },
+    {
+      "lente": "leitora",
+      "trecho": "Algumas perguntas e frases aqui aparecem com uma redação um pouquinho diferente da que está no capítulo, com outro colchete ou sem as reticências. São variações da mesma frase, e as duas servem: se você já decorou a do capítulo, segue com ela.",
+      "problema": "O capítulo 7 diz sobre as reticências: “fazem diferença”, “a paciente lê com a pausa”, “Mantém”. Aí o anexo tira as reticências e me avisa que tanto faz. Não é tanto faz depois do que o capítulo me disse, e no anexo, que é justamente o que eu vou usar de madrugada com a conversa aberta, quero uma versão só, a final.",
+      "motivo": "A nota não diz que tanto faz: ela avisa que existe variação e manda ficar com a do capítulo, \"se você já decorou a do capítulo, segue com ela\". Isso preserva a instrução do capítulo 7 sobre manter as reticências em vez de contradizê-la. É honestidade de anexo sobre um script que tem duas redações vivas."
+    },
+    {
+      "lente": "leitora",
+      "trecho": "Você lembra da última vez que uma paciente disse “por que agora”, e a sua resposta foi “que bom, deixa eu ver a agenda”? Ela marcou?",
+      "problema": "O livro inteiro usa “por que agora” como a pergunta que EU faço no passo três. Aqui quem diz “por que agora” é a paciente, e eu travei tentando imaginar uma paciente escrevendo isso.",
+      "motivo": "O mesmo capítulo 7, vinte linhas antes (468), já usa a abreviação: \"Ela já tomou essa decisão no passo três, quando disse 'por que agora'\". Ou seja, \"a paciente disse por que agora\" quer dizer que ela entregou o motivo, e a leitora chega na pergunta em aberto já treinada nisso pelo próprio capítulo."
+    },
+    {
+      "lente": "leitora",
+      "trecho": "Três pedaços. O nome dela. A forma como ela trouxe e o tempo que ela está assim.",
+      "problema": "Diz três pedaços, o gráfico lista três, e no meio do mesmo parágrafo aparece um quarto, o “concordo”, que ganha a explicação mais longa de todas. Fiquei sem saber se a frase tem três partes ou quatro, e é a frase que eu preciso montar na hora.",
+      "motivo": "Os três pedaços são os que compõem a frase, e o texto é explícito na sequência: \"O que você preenche são dois, o nome e o tempo\". O \"concordo\" entra como comentário de postura, quem concorda está do lado dela, não como pedaço pra preencher, e o fragmento \"E o 'concordo'.\" é marca de fala protegida. Nada trava na hora de montar a mensagem."
+    },
+    {
+      "lente": "leitora",
+      "trecho": "Como você entende que a doutora pode te ajudar?",
+      "problema": "Essa e as três frases prontas antes dela chegam empilhadas sem me dizer quando usar cada uma. Só a quinta e a sexta ganham gatilho (“quando a primeira mensagem já vem com o preço”, “pra quando o preço não veio”). Com quatro aberturas boas na mão e um “oi, queria informações” na tela, eu não sei qual mandar.",
+      "motivo": "A acusação erra o fato: a segunda pergunta ganha gatilho explícito logo abaixo, \"Perfil, anúncio ou caso, depende de onde ela te viu\", e a terceira ganha um parágrafo de uso, com o \"se vier só o sim seco, emenda: me conta\". O capítulo ainda diz que quase todas são abertas e o item 5 do capítulo 2 avisa que script é referência, então na abertura qualquer uma serve, e esse é o ponto."
+    },
+    {
+      "lente": "leitora",
+      "trecho": "Agora, se a vaga é pra ter caso e caixa ao mesmo tempo, aí você não usa o corte por idade nem por problema: aceita quem chegou e vai da situação direto pra apresentação.",
+      "problema": "O caminho do anexo já é situação e depois apresentação, não tem passo entre os dois. Então a instrução não muda nada do que eu acabei de ler, e eu voltei duas telas procurando a diferença.",
+      "motivo": "O que muda está dito na mesma frase, antes dos dois pontos: \"você não usa o corte por idade nem por problema: aceita quem chegou\". O \"vai da situação direto pra apresentação\" confirma que a saída de agradecimento, desenhada no gráfico logo abaixo, não entra nesse caso. É o cancelamento do desvio, não instrução vazia."
+    },
+    {
+      "lente": "leitora",
+      "trecho": "Acontece quando a paciente sente que pode agendar a hora que quiser, porque agenda sempre aberta é clínica que pega qualquer uma, e quem pega qualquer uma não está escolhendo, está vendendo.",
+      "problema": "Isso me acusou de um problema que eu tenho, agenda aberta, e o livro nunca mais volta nele. Nenhum dos sete passos me ensina a mostrar agenda cheia sem mentir, e no passo sete eu ofereço “o próximo horário disponível” como se sempre houvesse um.",
+      "motivo": "O livro fecha esse assunto no passo sete: oferece um horário só, \"Um horário só. E o bastão continua com você\", e lista como erro perguntar a disponibilidade antes de oferecer o primeiro horário. A prática que a acusação pede, oferecer um horário e nunca a semana inteira, já está escrita no capítulo 9, então a acusação cai por leitura incompleta."
+    },
+    {
+      "lente": "leitora",
+      "trecho": "E se você quiser que a gente olhe isso junto, a sua conversa, o seu número, a sua clínica, marca um horário com o nosso time.",
+      "problema": "É o único ponto do livro em que eu senti que estavam me vendendo dentro de uma coisa que eu já paguei, e o pior não é o convite, é o lugar dele: ele entra antes da última pergunta em aberto, que é o fecho emocional do livro. Eu fechei o ebook com o link na cabeça, não com a pergunta.",
+      "motivo": "O convite não é o fecho: depois dele vem a pergunta em aberto (929), que encerra o livro com a mesma pergunta que abriu o capítulo 1. E o parágrafo do convite é a demonstração do método na própria leitora, \"primeiro a gente entende, depois a gente vê se consegue ajudar\", então a ordem é proposital e a última palavra continua sendo a pergunta."
+    },
+    {
+      "lente": "leitora",
+      "trecho": "PERGUNTA EM ABERTO — Agora, das suas últimas conversas, em quantas a paciente escreveu “exatamente”? E em quantas você explicou o procedimento antes de saber o que a palavra dela queria dizer?",
+      "problema": "Todo capítulo termina com duas perguntas no mesmo molde, e quatro delas começam com “Agora,”. Na terceira eu já sabia o formato e comecei a pular o bloco inteiro sem ler. E aí eu chego no fim do capítulo sem nada pra fazer amanhã de manhã: a única instrução prática do livro é a do capítulo 12.",
+      "motivo": "\"Agora,\" é marcador de fala da autora, protegido pelo registro, e o fecho em perguntas é dispositivo declarado do livro (o capítulo 8 fecha com uma só, aliás). A parte que sustentaria a acusação é falsa: cada capítulo entrega frase pronta, sinais de avanço e o que evitar, e o anexo A é uma cola de uma página, então não é verdade que a única instrução prática está no capítulo 12."
+    },
+    {
+      "lente": "termos",
+      "trecho": "    FRASE PRONTA — Quando você diz “flacidez”, o que exatamente quer dizer?",
+      "problema": "Dois parágrafos acima o livro manda \"A gente pega a palavra dela e devolve como pergunta\", e a conversa modelo do mesmo capítulo devolve \"rosto flácido\", que foi o que a paciente escreveu. A frase pronta devolve \"flacidez\", que é o termo da autora, não o dela. O Anexo B publica a versão certa (\"rosto flácido\"), então a mesma frase existe no livro nas duas grafias, e a leitora que copiar a do capítulo comete exatamente o erro que o capítulo condena.",
+      "motivo": "A acusação parte da premissa de que \"flacidez\" é termo da autora e não da paciente, mas duas linhas abaixo da própria frase pronta o livro diz \"Se ela falar flacidez, a gente clareia flacidez: o que que é isso para ela?\", e o Anexo A repete \"Se ela falar flacidez, a gente clareia flacidez\". As três frases prontas dessa seção são três exemplos com três palavras diferentes de paciente (flacidez, harmonização facial, melhorar o contorno), e o Anexo A generaliza o slot como [palavra dela], então nada ali manda devolver a palavra errada."
+    },
+    {
+      "lente": "termos",
+      "trecho": "“Por isso, já sei que a doutora vai te ajudar com a [dor trazida] e parar de se sentir [sentimento informado].”",
+      "problema": "No capítulo 08 e no Anexo A a mesma frase é \"com o [problema] e parar de se sentir [como está se sentindo]\". O Anexo B renomeia os dois colchetes e ainda troca \"com o\" por \"com a\". O aviso de abertura do Anexo B só cobre \"outro colchete\", e quem decorou um par não reconhece o outro.",
+      "motivo": "O Anexo B abre dizendo, com todas as letras, que \"Algumas perguntas e frases aqui aparecem com uma redação um pouquinho diferente da que está no capítulo, com outro colchete\" e fecha com \"se você já decorou a do capítulo, segue com ela\", que é exatamente a objeção levantada. O \"com o\" virar \"com a\" não é troca gratuita, é a concordância obrigatória com \"dor trazida\", que é feminino."
+    },
+    {
+      "lente": "termos",
+      "trecho": "    FRASE PRONTA — Vou te explicar como funciona. Antes, que outra dúvida ainda ficou em como podemos ajudar a resolver [problema mencionado], antes de vermos a disponibilidade na agenda da doutora?",
+      "problema": "O mesmo slot aparece no livro com três nomes: [problema] (capítulos 05, 08, 10, 11 e Anexo A), [problema mencionado] (capítulos 08 e 11) e [dor trazida] (Anexo B). Nada no texto explica a diferença, porque não existe diferença.",
+      "motivo": "[problema] e [problema mencionado] nomeiam o mesmo campo de forma autoexplicativa, e a leitora preenche os dois com a mesma coisa sem hesitar. Não há sentido quebrado, referente errado nem ambiguidade, só variação de rótulo de colchete, que é o tipo de coisa que o livro já avisa ser variação da mesma frase."
+    },
+    {
+      "lente": "termos",
+      "trecho": "    FRASE PRONTA — Oi [Nome], aqui é a [seu nome], da clínica da doutora [nome da doutora]. Antes de passar as informações sobre a vaga de paciente modelo, deixa eu entender rapidinho se faz sentido você entrar ainda nessa edição.",
+      "problema": "Três colchetes de nome próprio na mesma frase, um capitalizado e dois em caixa baixa. No resto do livro inteiro o padrão é [Nome] com maiúscula, e esses dois são a única exceção.",
+      "motivo": "[Nome] é maiúsculo porque é o nome próprio da paciente; [seu nome] e [nome da doutora] são descrições de campo, e todos os outros colchetes descritivos do livro são minúsculos ([valor], [tempo], [problema], [dia], [hora], [palavra dela], [objeção], [data]). Ou seja, a linha segue o padrão em vez de rompê-lo, e ninguém tropeça preenchendo."
+    },
+    {
+      "lente": "termos",
+      "trecho": "      SE RESPONDER ASSIM, PERDE: “Os procedimentos começam a partir de R$ X.”",
+      "problema": "É o único placeholder de valor do livro sem colchete. Em todos os outros lugares (capítulo 09, Anexo A, Anexo B, Anexo C) é \"R$ [valor]\". Aqui o \"X\" solto parece parte da fala, não um campo a preencher.",
+      "motivo": "Essa linha é um SE RESPONDER ASSIM, PERDE, ou seja, ilustração da resposta que mata a conversa, e ninguém copia resposta errada. As outras linhas PERDE usam número cravado (\"A consulta custa R$ 200\"), então a família de exemplos ruins nunca usou colchete, e o Anexo C, que a acusação cita como contraprova, escreve \"[valor]\" sem R$ na frente."
+    },
+    {
+      "lente": "termos",
+      "trecho": "A regra da casa pra reabrir conversa é uma só: cada toque traz coisa nova. Um caso, uma pergunta, uma referência, alguma coisa que ela ainda não tinha visto. Repetir cobrança sem novidade não é insistência, é queimar o lead.",
+      "problema": "O parágrafo anterior chama a mesma pessoa de \"contato\" (\"a mensagem que queima o contato de vez\") e este a chama de \"lead\". Dois nomes para a mesma pessoa e para a mesma ação, em parágrafos colados, num livro que a chama de \"a paciente\" 97 vezes.",
+      "motivo": "\"Lead\" é vocabulário nativo do livro, aparece quatro vezes (capítulo 02 duas, capítulo 12 e Anexo C), então não é palavra estranha entrando de paraquedas. Trocar contato por lead em frases vizinhas é variação de fala, não referente quebrado, e a leitora do nicho lê as duas como a mesma pessoa sem parar."
+    },
+    {
+      "lente": "termos",
+      "trecho": "e aí ela manda um “obrigada, vou pensar”, e você fica olhando pro visto azul. O lead sumiu, eu não agendei, todo mundo saiu sem o problema resolvido.",
+      "problema": "A paciente é \"ela\" na frase anterior e vira \"o lead\", no masculino, na frase seguinte. O fingerprint mede que a autora chama essa pessoa de \"a pessoa\" (159 ocorrências) contra quatro vezes menos \"o lead\", e o livro inteiro a trata no feminino.",
+      "motivo": "\"O lead\" é sintagma nominal, não pronome, então não existe pronome com referente errado nem concordância quebrada: \"lead\" é masculino em português independentemente do sexo da pessoa. A frase faz um zoom out proposital da paciente para o resultado comercial (\"o lead sumiu, eu não agendei, todo mundo saiu sem o problema resolvido\"), que é movimento típico de fala."
+    },
+    {
+      "lente": "termos",
+      "trecho": "Então, esse é o passo sete. Um dos dois erros que o framework manda evitar aqui é perguntar quando a paciente pode, em vez de oferecer um horário.",
+      "problema": "A mesma coisa é chamada de \"o script 715\" (cap. 01), \"o 715\" (cap. 02 e Anexo C), \"o script\" (cap. 07, 09), \"o material\" (cap. 06) e \"o framework\" (cap. 06, 09, Anexo C). São cinco nomes para um produto só, e \"framework\" ainda é jargão em inglês num livro que o fingerprint mede com zero jargão corporativo.",
+      "motivo": "\"Framework\" aparece três vezes no livro (capítulos 06 e 09 e Anexo C) e ainda está no utm_campaign do link final, então é vocabulário da casa e não jargão intruso. Chamar a mesma coisa de script, material ou framework é variação de fala, não erro de sentido, e nenhuma dessas ocorrências deixa a leitora sem saber do que se fala."
+    },
+    {
+      "lente": "termos",
+      "trecho": "Isso é o passo quatro, e é onde a frase da primeira página do framework acontece: vender só aquilo que a pessoa já quer comprar.",
+      "problema": "A frase está no capítulo 02, e é assim que o capítulo 08 a localiza (\"Esse “só” é a frase do capítulo 2 voltando\"). \"A primeira página do framework\" não aponta pra nenhum lugar do livro, e a leitora que quiser voltar não acha.",
+      "motivo": "A frase citada está na mesma sentença (\"vender só aquilo que a pessoa já quer comprar\"), então a leitora não precisa voltar a lugar nenhum para achá-la. \"Primeira página do framework\" descreve o status da frase, que é a que abre o script (capítulo 01 já diz \"o script 715 parte de uma frase só\"), e o livro usa \"página\" nesse sentido solto em outros pontos, como \"a cola do anexo A é uma página só\"."
+    },
+    {
+      "lente": "termos",
+      "trecho": "      VOCÊ: Claro que eu posso te passar mais informações sobre a consulta. Antes, para entender se a doutora vai conseguir te ajudar no seu caso ou não... como entende que a consulta vai te ajudar?",
+      "problema": "O capítulo 10 traz a mesma frase como FRASE PRONTA com três diferenças que ninguém anuncia: \"pra entender\" no lugar de \"para entender\", \"como você entende\" no lugar de \"como entende\", e vírgula no lugar das reticências. É a frase mais repetida do livro e ela aparece em duas grafias.",
+      "motivo": "A ocorrência do capítulo 02 está dentro do gráfico do bastão, que é encenação de conversa, e a do capítulo 10 é a frase pronta; as três diferenças apontadas são pra versus para, com você versus sem você, e reticências versus vírgula, todas oralidade protegida. O próprio livro instrui que \"Scripts são referências\" e que a leitora troca as palavras, então variação entre exemplo e modelo é o método, não descuido."
+    },
+    {
+      "lente": "termos",
+      "trecho": "      O QUE CONTINUA A CONVERSA: Claro que posso passar essa informação! Primeiramente, para entender se a doutora vai conseguir te ajudar no seu caso ou não, você já sabe o que está procurando?",
+      "problema": "\"Primeiramente\" abre quatro scripts do capítulo 11 e não aparece em nenhum outro lugar do livro, nem na narração da autora. Nos capítulos 03, 08 e 10 e nos anexos o mesmo movimento é \"Mas antes\", \"Antes\" ou \"até pra entender\". É um registro formal que não é o dela e destoa das frases irmãs da mesma página.",
+      "motivo": "\"Primeiramente\" abre quatro cartões do capítulo 11 de forma consistente e está sempre dentro de mensagem escrita para a paciente, não na narração da autora, onde um registro um pouco mais formal é natural no WhatsApp de clínica. Não há erro de concordância, referente, tempo ou sentido, e a correção proposta apenas troca uma preferência de estilo por outra."
+    },
+    {
+      "lente": "termos",
+      "trecho": "1. “Posso estar errada, mas me parece que isso não começou agora. O que mudou para você buscar uma solução neste momento?”",
+      "problema": "No capítulo 05 a frase é \"Posso estar enganada\", e o capítulo destaca justamente essa abertura (\"A primeira é a única que começa pedindo licença, e não é por acaso\"). A palavra carregada de função muda no anexo sem motivo.",
+      "motivo": "\"Posso estar errada\" e \"posso estar enganada\" fazem exatamente o mesmo movimento de pedir licença, que é o que o capítulo 05 destaca; a função está no gesto, não no adjetivo. E o aviso de abertura do Anexo B já declara que ali as frases aparecem com redação um pouquinho diferente e que as duas servem."
+    },
+    {
+      "lente": "termos",
+      "trecho": "“[Nome], por conta da forma que trouxe e por já estar há [tempo informado] sentindo assim... concordo que não tem por que deixar mais para depois.”",
+      "problema": "Três divergências da versão do capítulo 07 e do Anexo A: some a primeira reticência, que o capítulo 07 manda expressamente manter (\"As reticências são do script e eu acho que fazem diferença... Mantém.\"), \"e de já estar desde\" vira \"e por já estar há\", e o colchete [tempo] vira [tempo informado].",
+      "motivo": "O aviso de abertura do Anexo B nomeia literalmente as duas divergências acusadas: \"com outro colchete ou sem as reticências\". Além disso, \"por já estar há [tempo informado]\" está correto em português e não muda o sentido de \"de já estar desde [tempo]\", então a leitora não tropeça nem executa diferente."
+    },
+    {
+      "lente": "termos",
+      "trecho": "Verificar se a paciente realmente está pronta pra tomar uma decisão.",
+      "problema": "É a definição do passo 4 no anexo, e ela inverte o que o capítulo 06 e o Anexo A dizem: lá o passo é \"Fazer a paciente declarar o que ela precisa\" e \"Fazer ela declarar o que a consulta vai resolver\". Declarar é ela produzindo; verificar é você checando. São coisas diferentes.",
+      "motivo": "As linhas de cabeçalho do Anexo B são resumos livres em todas as etapas (a 1 fala em ganhar permissão, a 2 em clarear, a 7 em confirmar entendimento), então não são cópias das definições dos capítulos. E logo abaixo dessa linha estão as mesmas cinco perguntas de declaração do capítulo 06, de modo que a leitora faz exatamente o mesmo movimento; o capítulo ainda trata a prontidão como parte do passo (\"você sente que não precisa convencer de nada\")."
+    },
+    {
+      "lente": "termos",
+      "trecho": "Não é consulta, é «reserva». O valor da reserva já entra como parte do pagamento, sem taxa extra.",
+      "problema": "No capítulo 09 \"reserva\" é justamente o horário que NÃO vale porque não foi pago (\"sem ele aquilo ali é reserva, não é agendamento\"). No Anexo C a mesma palavra passa a nomear o pagamento que trava a vaga. A leitora que leu os dois entende o contrário em um dos lugares.",
+      "motivo": "A frase se define no mesmo fôlego: a linha anterior diz \"Pra travar a vaga tem uma reserva de [valor]\" e a seguinte diz \"O valor da reserva já entra como parte do pagamento\", então ali reserva é claramente dinheiro pago, sem chance de a leitora ler como horário não confirmado. E o anexo fecha reafirmando a regra do capítulo 09 (\"Daí em diante é o passo sete do 715, igualzinho. Horário, chave PIX, comprovante\"), então não há contradição de fundo; a correção proposta ainda deixaria \"tem uma reserva de [valor]\" e \"Podemos reservar a sua vaga\" intactos, criando incoerência nova dentro do próprio anexo."
+    },
+    {
+      "lente": "termos",
+      "trecho": "5. “Consegue me enviar o comprovante agora para já garantir o seu horário?”",
+      "problema": "No capítulo 09 e no Anexo A a frase é \"para já confirmarmos seu horário na agenda\". O anexo troca o verbo e o sujeito (de \"confirmarmos\" para \"garantir\") e corta \"na agenda\", que é o pedaço que amarra a frase à regra de sem PIX, sem agenda.",
+      "motivo": "\"Garantir o seu horário\" mantém a mesma condição de \"confirmarmos seu horário na agenda\", que é o horário depender do comprovante, então nada se inverte nem se afrouxa. O Anexo B avisa na abertura que traz variações de redação da mesma frase e que quem decorou a do capítulo segue com ela."
+    },
+    {
+      "lente": "termos",
+      "trecho": "1. “O próximo horário disponível na agenda é [dia/horário]. Como fica para você?”",
+      "problema": "No capítulo 09 e no Anexo A é \"na agenda da doutora é [dia] às [hora]\". O anexo funde dois colchetes em um com barra e apaga \"da doutora\", que o capítulo 02 explica ser deliberado (quem escreve fala da doutora na terceira pessoa).",
+      "motivo": "Tirar \"da doutora\" não coloca quem atende na primeira pessoa: \"na agenda\" é neutro e não vira \"minha agenda\", então a regra do capítulo 02 sobre falar da doutora em terceira pessoa continua intacta. Fundir [dia] e [hora] em [dia/horário] é exatamente o \"outro colchete\" que o Anexo B declara na abertura."
+    },
+    {
+      "lente": "termos",
+      "trecho": "    FRASE PRONTA — A vaga que abriu é dia [data], às [hora]. O valor normal desse protocolo é [valor] e, como paciente modelo, fica [valor].",
+      "problema": "\"Protocolo\" só aparece uma outra vez no livro, no capítulo 08, e lá é exemplo do que NÃO se fala com a paciente (\"se a gente aproveita pra falar do bioestimulador, do protocolo de pele, do pacote de manutenção\"). Aqui a palavra vetada entra dentro da mensagem que vai pra paciente, e nomeia o que o resto do anexo chama de procedimento.",
+      "motivo": "O veto do capítulo 08 não é à palavra protocolo, é a empilhar oferta que ela não pediu (\"do bioestimulador, do protocolo de pele, do pacote de manutenção\"), enquanto no Anexo C \"desse protocolo\" nomeia justamente a coisa que ela está comprando. Referentes diferentes, nenhum choque, e a leitora entende o preço da vaga sem hesitar."
+    },
+    {
+      "lente": "termos",
+      "trecho": "3. “Você mencionou ‘harmonização’, o que exatamente você imagina quando pensa nisso?”",
+      "problema": "No capítulo 04 a mesma pergunta traz \"harmonização facial\" por extenso, e o fingerprint registra que a autora nunca corta o termo. É o único lugar do livro em que aparece encurtado.",
+      "motivo": "A palavra está entre aspas simples dentro do script porque é a palavra que a PACIENTE mencionou, e devolver a palavra dela é literalmente a regra do passo dois; paciente diz \"harmonização\" o tempo todo. Além disso, a pergunta do capítulo 04 não é a mesma (\"Como assim harmonização facial? O que você imagina que envolve?\"), então a premissa de duas grafias da mesma frase não se sustenta."
+    },
+    {
+      "lente": "termos",
+      "trecho": "      O QUE CONTINUA A CONVERSA: Entendo sua preocupação com o calor. Posso perguntar uma coisa? O que te fez buscar uma solução para [problema mencionado] justamente agora, mesmo com o verão?",
+      "problema": "O capítulo 05 nomeia a fórmula da casa com todas as letras: \"o mesmo movimento do “posso te perguntar uma coisa?” que a casa usa antes de toda pergunta difícil\". Aqui e só aqui ela sai sem o \"te\", enquanto na objeção do marido, três cartões acima, está completa.",
+      "motivo": "O capítulo 05 descreve um movimento, não uma string fixa: \"É o mesmo movimento do posso te perguntar uma coisa\". Com ou sem o \"te\" a frase é natural em português e faz o mesmo pedido de licença, e o próprio capítulo 11 já varia isso em outros cartões (\"Posso dar uma sugestão?\", \"posso te perguntar rapidinho\"); a correção ainda contrabandeia a troca de colchete da acusação 2."
+    }
+  ],
+  "relatorio": "# Parecer da banca: Script 715\n\nNotas: língua 8,5 · continuidade 8,5 · contradição 8 · leitora 8 · repetição 6,5 · termos 6,5 (média 7,7)\n\n---\n\n## 1. Está pronto pra vender?\n\nNão hoje: o livro em si está de pé (método, numeração, referências cruzadas, exemplos, tudo fecha), mas as frases prontas, que são exatamente o que a leitora copia e manda pra paciente, têm erro em três lugares diferentes, e enquanto isso não for corrigido você está vendendo um material que faz a cliente errar com o nome dela na assinatura. O conserto é pontual, não é reescrita.\n\n---\n\n## 2. O mais grave, em ordem\n\n### 2.1. Capítulo 08, a frase da apresentação, que é a mais copiada do livro (duas lentes bateram no mesmo trecho: língua e leitora)\n\n> FRASE PRONTA: Por isso, já sei que a doutora vai te ajudar com o [problema] e parar de se sentir [como está se sentindo].\n\nCoordenado com “vai te ajudar”, o “parar de se sentir” fica com a doutora como sujeito. Ao pé da letra, quem vai parar de se sentir mal é a doutora. Está em quatro lugares: cena do capítulo 8 (linha 496), frase pronta do capítulo 8 (517), Anexo A (972) e Anexo B (1073, lá com [dor trazida] e [sentimento informado]).\n\nO que fazer: reescrever a frase pondo a paciente como sujeito, nos quatro lugares. Atenção: a redação que a lente propôs (“pra você parar de se sentir…”) foi **reprovada pelo cético**, porque preenchida com o exemplo do próprio livro (“me esconder nas fotos”) não fecha e ainda mistura “ajudar com” e “ajudar a”. Ou seja: o defeito está confirmado, mas a banca não tem uma redação aprovada pra te entregar. Ela precisa ser escrita e testada preenchendo com os dois exemplos que o próprio capítulo dá na linha 519 (“caindo perto do queixo”, “me esconder nas fotos”). Isso é decisão de quem assina a voz, e volta no item 4.\n\nGravidade: é a frase da apresentação, o passo mais copiado, e é a única aqui que ainda não tem solução pronta.\n\n### 2.2. Capítulo 07, “desde [tempo]”, e o livro se contradizendo com o próprio Anexo B (duas lentes: língua e leitora)\n\n> FRASE PRONTA: [Nome], por conta da forma que trouxe... e de já estar desde [tempo] sentindo assim... concordo que não tem por que deixar mais para depois.\n\n“Desde” pede marco no tempo, não duração. Preenchido com o que a paciente deu na cena, sai “desde uns dois anos”, e está assim impresso na linha 454. Pior: o Anexo B já traz a forma certa (“por já estar há [tempo informado] sentindo assim”, linha 1068). Então o livro ensina duas versões da mesma frase, e a versão que a leitora decora, a do capítulo, é a errada.\n\nO que fazer, nas quatro ocorrências:\n- linha 454 (cena): “e de já estar há uns dois anos sentindo assim”\n- linhas 466 e 966 (frase pronta do capítulo 7 e do Anexo A): “e de já estar há [tempo] sentindo assim”\n- linha 473 (gráfico): `3 | «há [tempo]» · ela te deu no passo três`\n\nConserto mecânico, quinze minutos. Só não pode consertar uma ocorrência e deixar as outras, senão o livro fica incoerente consigo mesmo do mesmo jeito.\n\n### 2.3. Capítulo 12, o áudio de reaproximação contradiz a regra dada quatro linhas antes (contradição, gravidade alta)\n\n> Ou manda um áudio curto: “vi que você tava olhando, ainda faz sentido pra você?”. Não é cobrança, é reaproximação, e é a palavra dela que abre a porta de novo. (linha 919)\n\nQuatro linhas acima o livro diz que “passando pra saber se você viu” é “a mensagem que queima o contato de vez” (915) e que “a regra da casa pra reabrir conversa é uma só: cada toque traz coisa nova” (917). O áudio modelo não traz caso, nem pergunta nova, nem a palavra dela, e ainda pressupõe um olhar que o livro nunca estabeleceu. A leitora vai copiar a frase pronta, não o princípio, e vai mandar exatamente a cutucada que a página acabou de proibir.\n\nO que fazer (redação já checada pelo cético, usa o caso corrente do livro e cumpre a própria regra):\n\n> Ou manda um áudio curto começando pela palavra dela: “lembrei do que você me contou do queixo antes do casamento, apareceu um caso aqui parecido com o seu, quer ver?”.\n\nAgrava: é o capítulo de fechamento, o encontro que o livro marcou desde a página 1, e a leitora já achou que ele se resolve rápido demais.\n\n### 2.4. Capítulo 02, pronome com referente errado (gravidade baixa)\n\n> São oito coisas, e isso aqui é o que eu vejo dar certo nas clínicas que passam por aqui e são mais de 3 mil, e elas voltam em todos os capítulos, então guarda. (linha 106)\n\nO “elas” gruda em “clínicas”. Troca por: “...e são mais de 3 mil. Essas oito voltam em todos os capítulos, então guarda.”\n\n---\n\n### Segundo bloco: apontado pelas lentes, ainda **não** passou pelo cético\n\nNão trate como fato verificado linha a linha, trate como fila de conferência. Ordenei pelo que mais lente repetiu.\n\n1. **A salinha do financeiro é contada quatro vezes** (repetição + leitora, as duas reclamaram). Inteira no capítulo 1, recontada com frases quase idênticas no 6, recontada de novo no 10 com a ruminação e o plot twist, e só paga no 12. Junto disso: três frases de efeito reusadas literalmente em outro capítulo, o exemplo de se qualificar copiado do capítulo 3 pro 6, e o capítulo 1 gastando antes a revelação da frase-tese que o 2 revela de novo como se fosse a primeira vez. Foi o que puxou a nota de repetição pra 6,5.\n2. **A palavra “reserva” tem sentidos opostos no livro** (termos + contradição, e a leitora perdeu o fio na mesma zona). No capítulo 9 (linha 602) reserva é o horário **não pago**; no Anexo C (1127 e 1129) reserva é o pagamento que **trava a vaga**. A leitora também travou no PIX à noite: numa página mandam não justificar, na seguinte mandam explicar a diferença entre reservado e confirmado. É a mesma região do texto sendo apontada por três lentes, o que pra mim faz dela a candidata número 1 a virar achado confirmado numa próxima passada.\n3. **Colchetes e frases prontas divergindo entre corpo e anexos** (termos, ecoado pela leitora, que fecha o parecer dizendo “recomendo, mas avisando pra conferir as frases antes de copiar”). O mesmo campo aparece como [problema], [problema mencionado] e [dor trazida]; [tempo] vira [tempo informado]; [Nome] convive com [seu nome] e [nome da doutora] na mesma linha; existe um “R$ X” sem colchete. As frases prontas divergem entre corpo e Anexo B em sete lugares (verbo, artigo, reticência que o capítulo 07 mandou manter, palavra que pede licença), e nem tudo cabe no aviso de abertura do anexo. O mais caro do bloco: no capítulo 04 a frase pronta devolve “flacidez” a uma paciente que escreveu “rosto flácido”, contrariando a regra que o parágrafo acabou de dar.\n4. **Três pontos de continuidade** (continuidade): “edição” vira termo da casa no Anexo C três usos antes de ser definido; o capítulo 6 manda a leitora pra “a primeira página do framework”, que ela não tem em mãos; o capítulo 7 atribui o “tempo informado” a uma pergunta que, na cena impressa, não foi a que arrancou o tempo dela.\n5. **Duas incoerências menores de método** (contradição): um sinal de avanço no passo seis que depende de um preço que só entra no passo sete, e uma frase modelo do capítulo 11 que qualifica a doutora como especialista logo abaixo do exemplo em que qualificar a doutora como especialista é o que perde a paciente.\n6. **A segunda resposta do “vou pensar”** (leitora): avisa a paciente que a conversa vai ser encerrada, que é o oposto do que o capítulo 10 acabou de ensinar.\n\n---\n\n## 3. O que está bom e não se mexe\n\n- **O capítulo 1 e o gancho do WhatsApp ser a mesma salinha do financeiro, só que sem porta.** A leitora chamou de melhor coisa do livro e leu sem pular linha. Reduzir a recontagem nos capítulos 6 e 10 não é motivo pra tocar no original.\n- **O capítulo 11.** A leitora disse que é o que ela vai usar amanhã e que vale sozinho o que pagou. (A frase modelo do item 5 acima é um ajuste dentro dele, não um problema do capítulo.)\n- **O passo três com o casamento em novembro.** Foi onde a leitora entendeu o método. Não encurta.\n- **As frases que já funcionam:** “Autoridade no WhatsApp não é currículo. É a pessoa que faz a pergunta certa”, “Cancelar não custa nada pra quem não pagou”, e o gráfico do bastão.\n- **O esqueleto todo.** Três lentes conferiram separado e bateu: numeração dos sete passos em todos os capítulos, nos dois anexos e na cola, incluindo as contagens de passagem; as quinze referências cruzadas apontam todas pro lugar certo; as contagens internas (oito coisas, quatro situações, seis jeitos, seis erros, quatro sinais, três pedaços) batem com as listas; os números repetidos (R$ 200, dois anos, novembro, mais de 3 mil clínicas) não escorregam; e nenhum exemplo aparece do nada, todo termo da casa é explicado na primeira vez que aparece (a exceção é “edição”, item 4 acima).\n- **A repetição declarada.** “Esse ‘só’ é a frase do capítulo 2 voltando”, os anexos A e B resumindo sem pedir desculpa, as frases prontas voltando de propósito: isso funciona e a banca não considera achado. O problema de repetição é só a salinha e as três frases de efeito.\n- **A oralidade.** Anacoluto, autocorreção, fragmento, relativa sem preposição, “por que que”: a lente de língua identificou como deliberado e não tocou. Quem for aplicar as correções não pode “limpar” isso de carona.\n- **A contradição aparente do passo um** (prometer valores e não cravar número por mensagem): o próprio texto antecipa e resolve no capítulo 11. Está resolvido, não mexe.\n- **A camada que costuma vazar passou limpa:** WhatsApp, PIX e Instagram com grafia única nas 50 e poucas ocorrências, a paciente sempre “a paciente” ou “ela”, passos por extenso na prosa e em algarismo só dentro dos gráficos.\n\n---\n\n## 4. O que a banca não consegue avaliar, e depende de você\n\n1. **A redação nova da frase do capítulo 08.** O cético reprovou a única proposta que chegou até ele. Escolher a redação que põe a paciente como sujeito sem quebrar a voz da Ana e sem quebrar o preenchimento é decisão de quem assina o texto, não da banca.\n2. **O nome comercial do produto.** O livro se chama de cinco coisas: “script 715”, “o 715”, “o script”, “o material”, “o framework”. A banca sabe dizer que é inconsistente; qual dos cinco é o nome que vai pra capa e pra página de vendas é sua decisão.\n3. **A “primeira página do framework” citada no capítulo 6.** Isso pressupõe um entregável fora do livro. Se ele existe e vai junto na compra, a remissão está certa e o achado morre; se não existe, o capítulo precisa ser reescrito. A banca não tem como saber o que compõe o pacote vendido.\n4. **Qual das quatro salinhas fica.** Cortar recontagem é decisão de ritmo e de voz. A banca mede que a leitora sentiu ter lido aquilo cinco ou seis vezes; ela não decide se o retorno no capítulo 10 (com a ruminação e o plot twist) vale o custo.\n5. **Se o capítulo 12 deve crescer.** A leitora sentiu que a promessa feita na página 1 se resolve numa frase só. Isso é escopo de produto, não erro de texto.\n6. **Onde consertar as sete divergências entre corpo e Anexo B:** muda o corpo, muda o anexo, ou muda o aviso de abertura do anexo pra cobrir a diferença. As três saídas são defensáveis e a escolha é editorial.\n7. **Até onde limpar sem descaracterizar.** Boa parte do que “soa quebrado” é a transcrição da Ana funcionando. A fronteira entre oralidade que vende e erro que envergonha, nas partes que não são frase pronta, é chamada sua.\n8. **Preço, oferta e conversão.** A banca leu o texto, não mediu reembolso, nem leitura até o fim, nem o que acontece quando 300 dentistas copiam essas frases no mesmo mês.\n\n**Recomendação da banca:** consertar 2.1 a 2.4 (é o bloco confirmado, e 2.2, 2.3 e 2.4 já têm redação pronta), rodar a fila do segundo bloco começando por “reserva” e pelos colchetes, e só então abrir venda. O livro não precisa de mais uma passada de escrita, precisa de uma passada de conferência nas frases que a leitora copia.\n\nArquivo auditado: `/Users/saviomoraes/reconecta/ebooks/715/render/livro-continuo.md` (1.141 linhas). Todas as linhas citadas neste parecer foram conferidas no arquivo antes de escrever."
+}
