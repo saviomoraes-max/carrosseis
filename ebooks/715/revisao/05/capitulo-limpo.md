@@ -71,7 +71,7 @@ NEG: Mais uma daquelas técnicas de venda batidas.
 POS: Estamos entendendo juntas pra ver se vão conseguir me ajudar.
 :::
 
-A leitura negativa aqui acontece quando a conversa vira interrogatório e a sua pergunta seguinte não tem nada a ver com o que ela acabou de responder. Termino a resposta dela, eu passo pra próxima pergunta, e aí fica uma conversa robótica como se eu tivesse entrevistando a pessoa, né? Ela contou do casamento, você mandou a próxima pergunta do script sem citar o casamento, e pronto, ela viu o script. A pessoa, ela não se sente ouvida. Aí a próxima mensagem começa pela palavra dela, “novembro, então...”, e só depois vem a pergunta. Pode ser a mesma pergunta do script. O que muda é que ela vem depois do casamento, não no lugar dele.
+A leitura negativa aqui acontece quando a conversa vira interrogatório e a sua pergunta seguinte não tem nada a ver com o que ela acabou de responder. Terminou a resposta dela, eu passo pra próxima pergunta, e aí fica uma conversa robótica como se eu tivesse entrevistando a pessoa, né? Ela contou do casamento, você mandou a próxima pergunta do script sem citar o casamento, e pronto, ela viu o script. A pessoa, ela não se sente ouvida. Aí a próxima mensagem começa pela palavra dela, “novembro, então...”, e só depois vem a pergunta. Pode ser a mesma pergunta do script. O que muda é que ela vem depois do casamento, não no lugar dele.
 
 A leitura positiva é: “estamos entendendo juntas pra ver se vão conseguir me ajudar”. Juntas, ela e você, do mesmo lado do problema. Acontece quando ela entende que as respostas dela importam pra ter o problema resolvido, e quando a conversa flui.
 

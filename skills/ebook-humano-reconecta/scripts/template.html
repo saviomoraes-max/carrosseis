@@ -139,7 +139,7 @@ document.fonts.ready.then(function(){
         if (!cabe()) { clone.removeChild(clone.lastElementChild); break; }
         posto++;
       }
-      if (posto < 2 || posto === itens.length) { c.removeChild(clone); return null; }
+      if (posto < 2 || itens.length - posto < 2) { c.removeChild(clone); return null; }
       const resto = b.cloneNode(false);
       itens.slice(posto).forEach(it => resto.appendChild(it));
       return resto;
@@ -182,7 +182,10 @@ document.fonts.ready.then(function(){
         else resto = dividirGrafico(b);
         if (resto) { fila.unshift(resto); pg = nova(); c = pg.querySelector('.conteudo'); continue; }
         const ult = c.lastElementChild;
+        const ehDeixa = (el) => el && el.tagName === 'P' && /[:：]\s*$/.test(el.textContent || '')
+                         && (el.textContent || '').trim().split(/\s+/).length <= 18;
         if (ult && /^H[23]$/.test(ult.tagName) && !ult.classList.contains('topo')) { c.removeChild(ult); pg = nova(); c = pg.querySelector('.conteudo'); c.appendChild(ult); }
+        else if (ehDeixa(ult)) { c.removeChild(ult); pg = nova(); c = pg.querySelector('.conteudo'); c.appendChild(ult); }
         else { pg = nova(); c = pg.querySelector('.conteudo'); }
         c.appendChild(b);
       }

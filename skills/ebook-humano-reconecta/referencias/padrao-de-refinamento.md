@@ -518,6 +518,48 @@ longa, ou não entra.
 Régua: depois de aplicar qualquer correção num bloco, roda o detector NELE e, se for bloco
 canário, roda o cego de novo. Correção não é isenta de medição.
 
+## 3n. Ninguém estava OLHANDO o livro, e ninguém estava PREENCHENDO as frases
+
+Todo o pipeline lê texto. O detector lê markdown, o linter lê markdown, o leitor cego lê
+markdown, a banca lê o livro-contínuo. Um livro de 150 páginas passou por **sete bancas
+completas** e por dezenas de rodadas de portão sem que ninguém abrisse uma única prova.
+
+A auditoria de entrega pôs **cinco revisores de prova gráfica lendo os PNGs um a um** e uma
+lente **preenchendo cada frase pronta e mandando na cabeça**. Resultado: **22 achados
+confirmados, 4 de gravidade alta**, num livro que a banca já tinha aprovado.
+
+### O que só a PROVA pega
+
+- `R$` separado do valor na quebra de linha, dentro da frase que a leitora copia e manda.
+- Bloco gráfico partindo entre páginas e deixando o último item sozinho no topo da seguinte,
+  com fio em cima e embaixo, com cara de lista nova. (A trava de divisão só checava o pedaço
+  que FICA; faltava checar o que SAI.)
+- Deixa terminando em dois-pontos sozinha no pé de uma página, com o card que ela anuncia
+  abrindo a próxima. Mesma regra do título que nunca fica órfão, e ninguém tinha escrito.
+- Título de abertura deixando uma palavra sozinha na segunda linha.
+- Coluna de gráfico desalinhada porque um dos títulos quebrou em duas linhas e empurrou o
+  texto de baixo só naquela coluna.
+- Fio de conector parando 4px antes da caixa: SVG inline sentando na linha de base do texto,
+  sobrando o espaço do descendente. `display:block` resolve.
+
+### O que só a camada COLÁVEL PREENCHIDA pega
+
+Preencha cada frase pronta com os dados do caso que o próprio livro usa como exemplo, e leia
+em voz alta. O padrão dos defeitos é sempre o mesmo: **artigo ou preposição fixa antes de um
+colchete que recebe gênero variável.**
+
+- `sobre o [procedimento/consulta]` → "sobre o consulta".
+- `me chame no [dia]` → "me chame no quinta-feira". Cinco dos sete dias são femininos.
+- Cartão com duas mensagens de entrada e uma resposta só, que serve pra uma delas.
+- Cartão que pergunta o dia e, na frase seguinte, já usa o dia que ela não deu.
+
+Nenhum diálogo de exemplo do livro pega isso, porque nos exemplos o autor preencheu **na mão**,
+com uma versão já reescrita. O defeito só aparece quando alguém preenche mecanicamente.
+
+**Régua: antes de entregar, alguém tem que OLHAR a prova e alguém tem que PREENCHER as frases.
+Ler o markdown não é ler o livro.** O script `wf_entrega` da auditoria está no rastro do
+projeto 715, em `revisao/auditoria-entrega-parecer.md`.
+
 ## 4. O que nunca entra
 
 - Caso, número, data ou frase pronta que não esteja nas fontes ou na fala

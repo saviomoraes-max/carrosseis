@@ -1,7 +1,7 @@
 # Script 715 — estado do projeto
 
 Ponto de retomada técnica. Quem pegar isto sem contexto nenhum consegue continuar.
-Atualizado em 10/set/2026, depois da sétima banca.
+Atualizado em 10/set/2026, depois da AUDITORIA DE ENTREGA (nove lentes, 22 achados corrigidos).
 
 Para decisão (o que dá pra vender, o que falta, o que depende do Sávio), ler o
 `relatorio-de-entrega.md` ao lado.
@@ -50,7 +50,7 @@ ebooks/715/
     transcricao/*.txt      3 aulas do WAID transcritas com WhisperX
   revisao/NN/              por bloco: capitulo-vK.md, detector-vK.json, rodada-K.json/txt
   revisao/_pre-*/          snapshots antes de cada passada grande
-  render/script-715.pdf    148 páginas, 9:16 (1080×1920)
+  render/script-715.pdf    150 páginas, 9:16 (1080×1920)
   render/provas/*.png      uma PNG por página
   render/cola/*.png        a cola dos 7 passos como peça de celular (cola_png.py)
   render/preview.html      abrir no browser pra folhear
@@ -60,6 +60,9 @@ ebooks/715/
   revisao/banca{,2,3,4,5,6,7}-10set.json  os pareceres crus (6ª e 7ª também em banca{6,7}-parecer.md)
   revisao/banca8-ABORTADA-10set.json     a 8ª morreu no limite semanal; NÃO tem cético, não aplicar
   aplicar-correcao-metodologia.py        as 2 correções que dependem de decisão do Sávio, prontas
+  PARA-O-REVISOR.md                      o briefing que vai junto pro revisor humano
+  entrega/                               o pacote pronto: PDF, briefing, texto corrido e a cola em PNG
+  revisao/auditoria-entrega-parecer.md   o parecer das nove lentes que olharam a entrega
 ```
 
 Scripts em `~/.claude/skills/ebook-humano-reconecta/scripts/`, com espelho
@@ -91,19 +94,19 @@ e `.../reconecta-metodologia-tema-t0-transversal.md`.
 | --- | --- | --- | --- |
 | 01 | 0 | pessoa 68 | 3/3 |
 | 02 | 20 | pessoa 72 | 3/3 |
-| 03 | 12 | pessoa 78 | 3/3 |
+| 03 | 12 | pessoa 80 | 3/3 |
 | 04 | 0 | pessoa 81 | 3/3 |
-| 05 | 13 | pessoa 71 | 3/3 |
+| 05 | 13 | pessoa 70 | 3/3 |
 | 06 | 14 | pessoa 73 | 3/3 |
 | 07 | 0 | pessoa 66 | 3/3 |
 | 08 | 0 | pessoa 69 | 3/3 |
 | 09 | 13 | pessoa 67 | 3/3 |
 | 10 | 9 | pessoa 77 | 3/3 |
-| 11 | 16 | pessoa 78 | 3/3 |
+| 11 | 14 | pessoa 78 | 3/3 |
 | 12 | 12 | pessoa 71 | 3/3 |
 | A | 28* | pessoa 73 | 2/2 |
 | B | 33* | pessoa 84 | 2/2 |
-| C | 17 | pessoa 71 | 3/3 |
+| C | 17 | pessoa 73 | 3/3 |
 
 Detector medido **com `--corpus`**, que é a régua do portão desde 09/set. Cego: três
 leitores independentes por bloco, decisão por maioria.
@@ -117,7 +120,7 @@ peça: tríade na cola, lista no banco de perguntas.
 **O 11 saiu de 40 pra 22 sem trocar uma palavra**, convertendo o andaime de catálogo em
 bloco `:::caso`. A conversão foi provada neutra por contagem: 0 palavra perdida, 0 inventada.
 
-**Diagramação:** 148 páginas em 4 partes, com contracapa. **34 gráficos vetoriais em 15 tipos**, e todo bloco tem pelo menos um, **zero páginas órfãs** (o render audita isso sozinho e denuncia página de miolo abaixo de 35% de ocupação). Dois bugs do paginador
+**Diagramação:** 150 páginas em 4 partes, com contracapa. **34 gráficos vetoriais em 15 tipos**, e todo bloco tem pelo menos um, **zero páginas órfãs** (o render audita isso sozinho e denuncia página de miolo abaixo de 35% de ocupação). Dois bugs do paginador
 corrigidos em 09/set: lista numerada era bloco indivisível (agora quebra entre
 páginas, com `start=` continuando a numeração) e o balanceamento da última página
 do capítulo media `scrollHeight`, que nunca fica menor que a caixa porque
@@ -128,7 +131,7 @@ zero travessão, aspas simples só dentro de duplas.
 
 ---
 
-## As onze descobertas que mudaram o projeto
+## As doze descobertas que mudaram o projeto
 
 Cada uma tem arquivo próprio. Ler antes de mexer em qualquer coisa.
 
@@ -247,6 +250,28 @@ Cada uma tem arquivo próprio. Ler antes de mexer em qualquer coisa.
 
     Corolário operacional: antes de rodar banca, olhe se dá pra pagar por ela. Uma banca são
     13 agentes e ~1,5M de tokens de subagente.
+
+12. **Cinco lentes olharam as 150 páginas RENDERIZADAS, e nenhum instrumento tinha feito isso.**
+    Todo o pipeline lia texto: o detector lê markdown, o linter lê markdown, o cego lê markdown,
+    a banca lê o livro-contínuo. **Ninguém abria a prova.** A auditoria de entrega pôs cinco
+    revisores de prova gráfica lendo os PNGs um a um, mais uma lente preenchendo a camada
+    colável e mandando na cabeça, mais fidelidade às fontes, estrutura e completude. Nove
+    lentes, cético por lente: **22 achados confirmados, 4 altos**, todos corrigidos.
+
+    O que só a prova pega: `R$` separado do valor na quebra de linha, dentro da frase que a
+    leitora copia. Bloco gráfico partindo e deixando o quarto item sozinho no topo da página
+    seguinte. Deixa terminando em dois-pontos no pé de uma página com o card que ela anuncia
+    abrindo a próxima. Título de abertura deixando uma palavra sozinha na segunda linha.
+    Coluna de gráfico desalinhada porque o título quebrou em duas linhas. Fio de conector
+    parando 4px antes da caixa, que era o SVG inline sentando na linha de base do texto.
+
+    O que só a camada colável PREENCHIDA pega: `sobre o [procedimento/consulta]` vira "sobre o
+    consulta". `me chame no [dia]` morre em cinco dos sete dias da semana, que são femininos.
+    Cartão com duas mensagens de entrada e uma resposta só que serve pra uma delas. Cartão que
+    pergunta o dia e na frase seguinte já usa o dia.
+
+    **Régua: antes de entregar, alguém tem que OLHAR a prova e alguém tem que PREENCHER as
+    frases.** Ler o markdown não é ler o livro.
 
 ## Decisões já tomadas (não reabrir)
 

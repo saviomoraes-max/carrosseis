@@ -49,9 +49,9 @@ E as conversas que já morreram no seu WhatsApp, aquelas que você abriu enquant
 
 A regra da casa pra reabrir conversa é uma só: cada toque traz coisa nova. Um caso, uma pergunta, uma referência, alguma coisa que ela ainda não tinha visto. Repetir cobrança sem novidade não é insistência, é queimar o lead.
 
-E o que traz coisa nova numa conversa antiga é a dor que ela já te contou. Você volta na conversa, procura a palavra que ela usou lá atrás, e reabre por ali. Vai até a mensagem antiga dela e curte, que já gera notificação. E se for mandar áudio, começa pela palavra dela: “lembrei do que você me contou daquele incômodo antes do casamento, ainda faz sentido pra você?”. Não é cobrança, é reaproximação, e é a palavra dela que abre a porta de novo, do mesmo jeito que abriria numa conversa nova.
+E o que traz coisa nova numa conversa antiga é a dor que ela já te contou. Você volta na conversa, procura a palavra que ela usou lá atrás, e reabre por ali. E se for mandar áudio, começa pela palavra dela: “lembrei do que você me contou daquele incômodo antes do casamento, ainda faz sentido pra você?”. Não é cobrança, é reaproximação, e é a palavra dela que abre a porta de novo, do mesmo jeito que abriria numa conversa nova.
 
-Agora, se a base parada é grande demais pra ir uma por uma, a gente faz repescagem, e a nossa é no dia 20 de cada mês: você separa um dia e reativa todo mundo que está parado, com uma abordagem só.
+Agora, se a base parada é grande demais pra ir uma por uma, a gente faz repescagem, e a nossa é no dia 20 de cada mês: você separa um dia e reativa todo mundo que está parado. Mesmo em lote, não manda a mesma mensagem pra todo mundo. A abordagem continua saindo da dor que cada uma te contou.
 
 Se a conversa travar, tem um passo que ficou raso. Eu começaria olhando o dois, o capítulo 4, porque é onde ela conta o problema, e paciente que chega lá na frente ainda falando em procedimento é passo dois raso. Então volta lá e refaz a pergunta de clarear com a próxima paciente.
 

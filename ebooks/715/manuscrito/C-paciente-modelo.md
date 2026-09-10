@@ -38,7 +38,7 @@ A resposta que você quer ouvir é alguma versão de “eu estou buscando uma op
 Entendi. Então me conta o que exatamente você vê hoje quando se olha no espelho e que gostaria que fosse diferente. Me manda uma foto sua de frente, se puder. Não vale a do perfil.
 :::
 
-A seleção começa na foto. Se o que você quer é caso pro feed, a gente precisa ter definido antes qual que é o problema que você resolve, certo? E sem isso, qualquer investimento em paciente modelo é dinheiro jogado fora. Se você está se posicionando em derretimento facial e entra em contato uma pessoa mais ou menos na faixa dos 28 anos, não é o problema que você tá posicionada para resolver. Essa não entra nessa edição. E é pra ela que serve a saída aqui embaixo. Agora, se a vaga é pra ter caso e caixa ao mesmo tempo, aí você não usa o corte por idade nem por problema: aceita quem chegou e vai da situação direto pra apresentação.
+A seleção começa na foto. Se o que você quer é caso pro feed, a gente precisa ter definido antes qual que é o problema que você resolve, certo? E sem isso, qualquer investimento em paciente modelo é dinheiro jogado fora. Se você está se posicionando em derretimento facial e entra em contato uma pessoa mais ou menos na faixa dos 28 anos, não é o problema que você tá posicionada para resolver. Essa não entra nessa edição. E é pra ela que serve a saída. Agora, se a vaga é pra ter caso e caixa ao mesmo tempo, aí você não usa o corte por idade nem por problema: aceita quem chegou e vai da situação direto pra apresentação.
 
 :::grafico bifurca
 A seleção começa na foto

@@ -271,12 +271,13 @@ CSS = """
 .g .dot{display:inline-block;width:12px;height:12px;border-radius:50%;flex:none}
 .g .dot.gold{background:var(--gold)} .g .dot.red{background:var(--red)}
 .g-rail{margin:20px 0 52px 0} .g-rail.mini{margin:0}
+.g-svg{display:block}
 .g-linha{position:relative;display:flex;gap:28px;padding-top:8px}
 .g-linha .trilho{position:absolute;left:24px;right:24px;top:31px;height:1.5px;background:rgba(238,217,189,.28)}
 .g-linha .col{flex:1;display:flex;flex-direction:column;gap:14px}
 .g-linha .no{width:48px;height:48px;border-radius:50%;border:1.5px solid var(--gold);background:var(--ink);display:flex;align-items:center;justify-content:center;position:relative}
 .g-linha .no .n{font-family:var(--mono);font-size:16px;color:var(--gold);letter-spacing:.1em}
-.g-linha .tit{font-family:var(--body);font-weight:600;font-size:34px;line-height:1.25;color:var(--cream);margin-top:6px}
+.g-linha .tit{font-family:var(--body);font-weight:600;font-size:34px;line-height:1.25;color:var(--cream);margin-top:6px;min-height:85px}
 .g-linha .nota{font-family:var(--body);font-weight:400;font-size:30px;line-height:1.4;color:var(--cream-80)}
 .g-duas{display:grid;grid-template-columns:1fr 1fr;column-gap:36px;row-gap:0}
 .g-duas .hd{display:flex;align-items:center;gap:12px;padding-bottom:18px;border-bottom:1.5px solid rgba(238,217,189,.28)}

@@ -1,0 +1,14 @@
+{
+  "cego": {
+    "veredito": "pessoa",
+    "confianca": 73,
+    "votos": {
+      "pessoa": 3,
+      "ia": 0,
+      "indeciso": 0
+    },
+    "nota": "depois da auditoria de entrega"
+  },
+  "data": "2026-09-10",
+  "brutos": 0
+}

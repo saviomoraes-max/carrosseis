@@ -96,7 +96,7 @@ Essa é pra quem agenda. Agora, se é você mesma que responde, a lógica não m
 [Nome], bem que eu gostaria, viu? Mas eu preciso avaliar o seu caso pra garantir o melhor tratamento, e pode ser até que precise de menos do que você imagina. Você já sabe o que está procurando?
 :::
 
-E repara que nas três respostas de preço lá em cima você promete passar a informação, e aqui você não passa o valor. Isso não é contradição, e é o ponto que mais confunde: o que você prometeu foi passar a informação, não cravar um número por mensagem. Prometer e depois recusar seco, aquele “não consigo passar valores”, é o pior dos dois mundos, porque soa como quem esconde. O que a gente faz é explicar o motivo verdadeiro: a doutora precisa avaliar pra garantir o melhor tratamento, e pode ser até que precise de menos do que você imagina. Você não escondeu nada. Você disse que ia passar, e passou o que dá pra passar antes de alguém olhar o caso.
+E repara que nas três respostas de preço lá em cima você promete passar a informação, e aqui você não passa o valor. Isso não é contradição, e é o ponto que mais confunde: o que você prometeu foi passar a informação, e informação aqui não é o preço do procedimento, que ninguém sabe antes de olhar o caso. Prometer e depois recusar seco, aquele “não consigo passar valores”, é o pior dos dois mundos, porque soa como quem esconde. O que a gente faz é explicar o motivo verdadeiro: a doutora precisa avaliar pra garantir o melhor tratamento, e pode ser até que precise de menos do que você imagina. Você não escondeu nada. Você disse que ia passar, e passou o que dá pra passar antes de alguém olhar o caso. O valor da consulta você passa, e passa no passo sete.
 
 ## Falta de compromisso
 
@@ -106,6 +106,8 @@ perde: “Tudo bem, fico à disposição!”
 responde: Sem problemas! Pra gente entender se faz sentido seguir também, o que te fez pensar em resolver isso agora e nos trouxe até aqui?
 responde: Claro! Pra gente encerrar aqui também, como entendeu que a consulta com a doutora vai te ajudar a resolver [problema]?
 :::
+
+São duas, e você manda uma só. A primeira é a pergunta do passo três, a segunda é a do passo quatro, e você escolhe pela que ficou rasa na sua conversa, que é o voltar do capítulo 10.
 
 O “fico à disposição” encerra a conversa e transfere o controle pra paciente, que provavelmente nunca mais vai voltar, e você perde a chance de entender o que ainda está impedindo a decisão.
 
@@ -119,8 +121,10 @@ Você transfere a responsabilidade da decisão pra alguém que nem participou da
 
 :::caso
 ela: “vou verificar minha agenda e te falo depois”.
-responde: Sem problemas. Para não ficar correndo atrás de você e ser inconveniente, quando acredita que poderei ter esse retorno? Posso aguardar que você me chame no [dia específico mencionado] ou devo entrar em contato?
+responde: Sem problemas. Para não ficar correndo atrás de você e ser inconveniente, quando acredita que poderei ter esse retorno? Posso aguardar que você me chame [na quinta, no sábado, dia 12] ou devo entrar em contato?
 :::
+
+Repara que o colchete só existe se ela já tiver falado um dia. Se ela não falou nenhum, você manda só até o “quando acredita que poderei ter esse retorno?” e espera. O resto da frase é pra quando ela deu a data e você está confirmando quem procura quem.
 
 :::caso
 ela: “trabalho nesse horário e preciso ver quem vai ficar no meu lugar”.
@@ -165,6 +169,8 @@ perde: “É porque a doutora já teve muita desmarcação em cima da hora e a p
 responde: Sim, o pagamento é antecipado para garantir o seu horário.
 :::
 
+O “sim” é pra quando ela perguntou. Se ela já veio dizendo que prefere pagar no dia, começa direto: “O pagamento é antecipado para garantir o seu horário.”
+
 Toda vez que a pessoa fala que não quer pagar a consulta antecipado, a forma mais rápida da gente perder essa pessoa é justificando o preço da consulta e o pagamento antecipado. Repara que o “para garantir o seu horário” já dá o motivo, só que num disclaimer pequeno, e a gente não estende muito mais. Aquela explicação sobre as pacientes que não compareceram é a pior coisa que a gente pode falar nesse momento, porque põe na cabeça dela uma desconfiança que não era dela.
 
 ## Informação técnica
@@ -174,8 +180,10 @@ ela: “queria mais informações do procedimento tal”.
 responde: Claro que posso passar! Primeiramente, para a gente entender se a doutora vai poder ajudar, ou não, como entende que o procedimento pode ajudar no seu caso?
 :::
 
+Se for no início do atendimento:
+
 :::caso
-ela: “como funciona a consulta?”. Se for no início do atendimento:
+ela: “como funciona a consulta?”.
 responde: Claro, posso te explicar como funciona. Antes, até pra entender se a doutora possivelmente vai conseguir te ajudar no seu caso ou não, o que te fez procurar por uma consulta com ela hoje?
 :::
 

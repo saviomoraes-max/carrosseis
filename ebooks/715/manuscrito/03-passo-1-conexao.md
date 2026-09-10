@@ -55,7 +55,7 @@ Como você entende que a doutora pode te ajudar?
 E quando a primeira mensagem já vem com o preço, que é quase sempre:
 
 :::frase
-Claro que posso te passar valores e mais informações sobre o [procedimento/consulta]! Mas antes, até pra entender se a doutora vai conseguir te ajudar no seu caso ou não... o que faz você buscar por [procedimento/consulta] hoje?
+Claro que posso te passar valores e mais informações sobre [o procedimento/a consulta]! Mas antes, até pra entender se a doutora vai conseguir te ajudar no seu caso ou não... o que faz você buscar por [procedimento/consulta] hoje?
 :::
 
 E pra quando o preço não veio na abertura, só um “oi, queria informações”, tem uma que eu gosto muito, porque pede permissão e já avisa o que vem:

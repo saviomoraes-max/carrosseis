@@ -186,7 +186,7 @@ Perfil, anúncio ou caso, depende de onde ela te viu. Se ela chegou pelo anúnci
 
 E quando a primeira mensagem já vem com o preço, que é quase sempre:
 
-    FRASE PRONTA — Claro que posso te passar valores e mais informações sobre o [procedimento/consulta]! Mas antes, até pra entender se a doutora vai conseguir te ajudar no seu caso ou não... o que faz você buscar por [procedimento/consulta] hoje?
+    FRASE PRONTA — Claro que posso te passar valores e mais informações sobre [o procedimento/a consulta]! Mas antes, até pra entender se a doutora vai conseguir te ajudar no seu caso ou não... o que faz você buscar por [procedimento/consulta] hoje?
 
 E pra quando o preço não veio na abertura, só um “oi, queria informações”, tem uma que eu gosto muito, porque pede permissão e já avisa o que vem:
 
@@ -365,7 +365,7 @@ Esse passo tem uma coisa diferente dos outros: aqui a paciente às vezes se emoc
       NEG: Mais uma daquelas técnicas de venda batidas.
       POS: Estamos entendendo juntas pra ver se vão conseguir me ajudar.
 
-A leitura negativa aqui acontece quando a conversa vira interrogatório e a sua pergunta seguinte não tem nada a ver com o que ela acabou de responder. Termino a resposta dela, eu passo pra próxima pergunta, e aí fica uma conversa robótica como se eu tivesse entrevistando a pessoa, né? Ela contou do casamento, você mandou a próxima pergunta do script sem citar o casamento, e pronto, ela viu o script. A pessoa, ela não se sente ouvida. Aí a próxima mensagem começa pela palavra dela, “novembro, então...”, e só depois vem a pergunta. Pode ser a mesma pergunta do script. O que muda é que ela vem depois do casamento, não no lugar dele.
+A leitura negativa aqui acontece quando a conversa vira interrogatório e a sua pergunta seguinte não tem nada a ver com o que ela acabou de responder. Terminou a resposta dela, eu passo pra próxima pergunta, e aí fica uma conversa robótica como se eu tivesse entrevistando a pessoa, né? Ela contou do casamento, você mandou a próxima pergunta do script sem citar o casamento, e pronto, ela viu o script. A pessoa, ela não se sente ouvida. Aí a próxima mensagem começa pela palavra dela, “novembro, então...”, e só depois vem a pergunta. Pode ser a mesma pergunta do script. O que muda é que ela vem depois do casamento, não no lugar dele.
 
 A leitura positiva é: “estamos entendendo juntas pra ver se vão conseguir me ajudar”. Juntas, ela e você, do mesmo lado do problema. Acontece quando ela entende que as respostas dela importam pra ter o problema resolvido, e quando a conversa flui.
 
@@ -790,7 +790,7 @@ Essa é pra quem agenda. Agora, se é você mesma que responde, a lógica não m
 
     FRASE PRONTA — [Nome], bem que eu gostaria, viu? Mas eu preciso avaliar o seu caso pra garantir o melhor tratamento, e pode ser até que precise de menos do que você imagina. Você já sabe o que está procurando?
 
-E repara que nas três respostas de preço lá em cima você promete passar a informação, e aqui você não passa o valor. Isso não é contradição, e é o ponto que mais confunde: o que você prometeu foi passar a informação, não cravar um número por mensagem. Prometer e depois recusar seco, aquele “não consigo passar valores”, é o pior dos dois mundos, porque soa como quem esconde. O que a gente faz é explicar o motivo verdadeiro: a doutora precisa avaliar pra garantir o melhor tratamento, e pode ser até que precise de menos do que você imagina. Você não escondeu nada. Você disse que ia passar, e passou o que dá pra passar antes de alguém olhar o caso.
+E repara que nas três respostas de preço lá em cima você promete passar a informação, e aqui você não passa o valor. Isso não é contradição, e é o ponto que mais confunde: o que você prometeu foi passar a informação, e informação aqui não é o preço do procedimento, que ninguém sabe antes de olhar o caso. Prometer e depois recusar seco, aquele “não consigo passar valores”, é o pior dos dois mundos, porque soa como quem esconde. O que a gente faz é explicar o motivo verdadeiro: a doutora precisa avaliar pra garantir o melhor tratamento, e pode ser até que precise de menos do que você imagina. Você não escondeu nada. Você disse que ia passar, e passou o que dá pra passar antes de alguém olhar o caso. O valor da consulta você passa, e passa no passo sete.
 
 ## Falta de compromisso
 
@@ -799,6 +799,8 @@ E repara que nas três respostas de preço lá em cima você promete passar a in
       SE RESPONDER ASSIM, PERDE: “Tudo bem, fico à disposição!”
       O QUE CONTINUA A CONVERSA: Sem problemas! Pra gente entender se faz sentido seguir também, o que te fez pensar em resolver isso agora e nos trouxe até aqui?
       O QUE CONTINUA A CONVERSA: Claro! Pra gente encerrar aqui também, como entendeu que a consulta com a doutora vai te ajudar a resolver [problema]?
+
+São duas, e você manda uma só. A primeira é a pergunta do passo três, a segunda é a do passo quatro, e você escolhe pela que ficou rasa na sua conversa, que é o voltar do capítulo 10.
 
 O “fico à disposição” encerra a conversa e transfere o controle pra paciente, que provavelmente nunca mais vai voltar, e você perde a chance de entender o que ainda está impedindo a decisão.
 
@@ -811,7 +813,9 @@ Você transfere a responsabilidade da decisão pra alguém que nem participou da
 
     [cartão de objeção]
       ELA MANDA: “vou verificar minha agenda e te falo depois”.
-      O QUE CONTINUA A CONVERSA: Sem problemas. Para não ficar correndo atrás de você e ser inconveniente, quando acredita que poderei ter esse retorno? Posso aguardar que você me chame no [dia específico mencionado] ou devo entrar em contato?
+      O QUE CONTINUA A CONVERSA: Sem problemas. Para não ficar correndo atrás de você e ser inconveniente, quando acredita que poderei ter esse retorno? Posso aguardar que você me chame [na quinta, no sábado, dia 12] ou devo entrar em contato?
+
+Repara que o colchete só existe se ela já tiver falado um dia. Se ela não falou nenhum, você manda só até o “quando acredita que poderei ter esse retorno?” e espera. O resto da frase é pra quando ela deu a data e você está confirmando quem procura quem.
 
     [cartão de objeção]
       ELA MANDA: “trabalho nesse horário e preciso ver quem vai ficar no meu lugar”.
@@ -849,6 +853,8 @@ Não justifica, não precisa. Quanto mais a gente fala, mais parece que tá quer
       SE RESPONDER ASSIM, PERDE: “É porque a doutora já teve muita desmarcação em cima da hora e a pessoa não compareceu, então é pra preservar o horário.”
       O QUE CONTINUA A CONVERSA: Sim, o pagamento é antecipado para garantir o seu horário.
 
+O “sim” é pra quando ela perguntou. Se ela já veio dizendo que prefere pagar no dia, começa direto: “O pagamento é antecipado para garantir o seu horário.”
+
 Toda vez que a pessoa fala que não quer pagar a consulta antecipado, a forma mais rápida da gente perder essa pessoa é justificando o preço da consulta e o pagamento antecipado. Repara que o “para garantir o seu horário” já dá o motivo, só que num disclaimer pequeno, e a gente não estende muito mais. Aquela explicação sobre as pacientes que não compareceram é a pior coisa que a gente pode falar nesse momento, porque põe na cabeça dela uma desconfiança que não era dela.
 
 ## Informação técnica
@@ -857,8 +863,10 @@ Toda vez que a pessoa fala que não quer pagar a consulta antecipado, a forma ma
       ELA MANDA: “queria mais informações do procedimento tal”.
       O QUE CONTINUA A CONVERSA: Claro que posso passar! Primeiramente, para a gente entender se a doutora vai poder ajudar, ou não, como entende que o procedimento pode ajudar no seu caso?
 
+Se for no início do atendimento:
+
     [cartão de objeção]
-      ELA MANDA: “como funciona a consulta?”. Se for no início do atendimento:
+      ELA MANDA: “como funciona a consulta?”.
       O QUE CONTINUA A CONVERSA: Claro, posso te explicar como funciona. Antes, até pra entender se a doutora possivelmente vai conseguir te ajudar no seu caso ou não, o que te fez procurar por uma consulta com ela hoje?
 
 Agora, se for no meio do atendimento:
@@ -943,9 +951,9 @@ E as conversas que já morreram no seu WhatsApp, aquelas que você abriu enquant
 
 A regra da casa pra reabrir conversa é uma só: cada toque traz coisa nova. Um caso, uma pergunta, uma referência, alguma coisa que ela ainda não tinha visto. Repetir cobrança sem novidade não é insistência, é queimar o lead.
 
-E o que traz coisa nova numa conversa antiga é a dor que ela já te contou. Você volta na conversa, procura a palavra que ela usou lá atrás, e reabre por ali. Vai até a mensagem antiga dela e curte, que já gera notificação. E se for mandar áudio, começa pela palavra dela: “lembrei do que você me contou daquele incômodo antes do casamento, ainda faz sentido pra você?”. Não é cobrança, é reaproximação, e é a palavra dela que abre a porta de novo, do mesmo jeito que abriria numa conversa nova.
+E o que traz coisa nova numa conversa antiga é a dor que ela já te contou. Você volta na conversa, procura a palavra que ela usou lá atrás, e reabre por ali. E se for mandar áudio, começa pela palavra dela: “lembrei do que você me contou daquele incômodo antes do casamento, ainda faz sentido pra você?”. Não é cobrança, é reaproximação, e é a palavra dela que abre a porta de novo, do mesmo jeito que abriria numa conversa nova.
 
-Agora, se a base parada é grande demais pra ir uma por uma, a gente faz repescagem, e a nossa é no dia 20 de cada mês: você separa um dia e reativa todo mundo que está parado, com uma abordagem só.
+Agora, se a base parada é grande demais pra ir uma por uma, a gente faz repescagem, e a nossa é no dia 20 de cada mês: você separa um dia e reativa todo mundo que está parado. Mesmo em lote, não manda a mesma mensagem pra todo mundo. A abordagem continua saindo da dor que cada uma te contou.
 
 Se a conversa travar, tem um passo que ficou raso. Eu começaria olhando o dois, o capítulo 4, porque é onde ela conta o problema, e paciente que chega lá na frente ainda falando em procedimento é passo dois raso. Então volta lá e refaz a pergunta de clarear com a próxima paciente.
 
@@ -964,7 +972,7 @@ ANEXO A · Cola rápida
 
 «1. Conexão.» Abrir espaço pra conversa e mostrar que você está ali pra entender se consegue ajudar ou não.
 
-    FRASE PRONTA — Claro que posso te passar valores e mais informações sobre o [procedimento/consulta]! Mas antes, até pra entender se a doutora vai conseguir te ajudar no seu caso ou não... o que faz você buscar por [procedimento/consulta] hoje?
+    FRASE PRONTA — Claro que posso te passar valores e mais informações sobre [o procedimento/a consulta]! Mas antes, até pra entender se a doutora vai conseguir te ajudar no seu caso ou não... o que faz você buscar por [procedimento/consulta] hoje?
 
 Essa é pra quando ela abre pedindo preço. Se abriu de outro jeito, as outras aberturas estão no anexo B.
 
@@ -1136,7 +1144,7 @@ A resposta que você quer ouvir é alguma versão de “eu estou buscando uma op
 
     FRASE PRONTA — Entendi. Então me conta o que exatamente você vê hoje quando se olha no espelho e que gostaria que fosse diferente. Me manda uma foto sua de frente, se puder. Não vale a do perfil.
 
-A seleção começa na foto. Se o que você quer é caso pro feed, a gente precisa ter definido antes qual que é o problema que você resolve, certo? E sem isso, qualquer investimento em paciente modelo é dinheiro jogado fora. Se você está se posicionando em derretimento facial e entra em contato uma pessoa mais ou menos na faixa dos 28 anos, não é o problema que você tá posicionada para resolver. Essa não entra nessa edição. E é pra ela que serve a saída aqui embaixo. Agora, se a vaga é pra ter caso e caixa ao mesmo tempo, aí você não usa o corte por idade nem por problema: aceita quem chegou e vai da situação direto pra apresentação.
+A seleção começa na foto. Se o que você quer é caso pro feed, a gente precisa ter definido antes qual que é o problema que você resolve, certo? E sem isso, qualquer investimento em paciente modelo é dinheiro jogado fora. Se você está se posicionando em derretimento facial e entra em contato uma pessoa mais ou menos na faixa dos 28 anos, não é o problema que você tá posicionada para resolver. Essa não entra nessa edição. E é pra ela que serve a saída. Agora, se a vaga é pra ter caso e caixa ao mesmo tempo, aí você não usa o corte por idade nem por problema: aceita quem chegou e vai da situação direto pra apresentação.
 
     [gráfico: bifurca]
       A seleção começa na foto

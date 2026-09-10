@@ -33,7 +33,19 @@ def inline(s):
     s = re.sub(r"«(.+?)»", r'<span class="enf">\1</span>', s)
     s = re.sub(r"\b(capítulo|Capítulo) (\d{1,2})\b", lambda m: f'<a class="ref" href="#cap-{int(m.group(2)):02d}">{m.group(1)} {m.group(2)}</a>', s)
     s = re.sub(r"\b(anexo|Anexo) ([A-D])\b", lambda m: f'<a class="ref" href="#cap-{m.group(2)}">{m.group(1)} {m.group(2)}</a>', s)
+    # Símbolo de moeda pendurado no fim da linha é quebra proibida em prova gráfica, e no
+    # livro isso caía justamente dentro da frase que a leitora COPIA e manda. Cola o R$ no
+    # que vem depois. Idem "pág. 3" e afins.
+    s = re.sub(r"\bR\$ (?=\S)", "R$\u00a0", s)
     return s
+
+def sem_viuva(s, minimo=6):
+    """Cola as duas últimas palavras com espaço inquebrável, pra a última linha nunca sair
+    com uma palavra só. `minimo` é quanta palavra a frase precisa ter pra valer a pena:
+    o corpo pede fôlego (6), o título de abertura quebra em duas linhas com bem menos (3)."""
+    m = re.search(r"(\s)([^\s<>]+)$", s)
+    if not m or len(s.split()) < minimo: return s
+    return s[:m.start(1)] + "\u00a0" + s[m.start(2):]
 
 def bloco_cena(linhas):
     """Cena vira transcrição de WhatsApp: balão da paciente à esquerda, o seu à direita."""
@@ -75,7 +87,7 @@ def md_para_html(txt, nome_arquivo="?"):
     out, i, linhas = [], 0, txt.splitlines(); par, lista = [], None
     def fecha_par():
         nonlocal par
-        if par: out.append("<p>" + inline(" ".join(par)) + "</p>"); par = []
+        if par: out.append("<p>" + sem_viuva(inline(" ".join(par))) + "</p>"); par = []
     def fecha_lista():
         nonlocal lista
         if lista: out.append(f"</{lista}>"); lista = None
@@ -162,7 +174,7 @@ def compilar(raiz, so_html=False, provas=False):
                 f'<div class="lista">{itens}</div>{rodape(slug, "", True)}</section>')
         partes.append(f'''<section class="pg abertura" id="cap-{html.escape(num)}" data-cap="{i}">{chrome(hud)}<span class="disp" style="position:absolute;left:56px;top:260px;font-size:640px;line-height:.85;color:rgba(238,217,189,.12)">{html.escape(num)}</span>
 {('<div class="rail-abertura">' + graficos.rail(int(re.search(r"\d+", m.get("kicker","")).group()), mini=True) + '</div>') if re.match(r"(?i)^passo\s*\d+$", m.get("kicker","").strip()) else ''}
-<div class="stack"><span class="kicker">{html.escape(m.get("prova", m.get("kicker","")))}</span><div class="sp22"></div><h1 class="disp">{inline(m.get("titulo",""))}</h1><div class="sp30"></div><span class="sub">{inline(m.get("subtitulo",""))}</span></div>{rodape(slug, "", True)}</section>''')
+<div class="stack"><span class="kicker">{html.escape(m.get("prova", m.get("kicker","")))}</span><div class="sp22"></div><h1 class="disp">{sem_viuva(inline(m.get("titulo","")), 3)}</h1><div class="sp30"></div><span class="sub">{inline(m.get("subtitulo",""))}</span></div>{rodape(slug, "", True)}</section>''')
         partes.append(f'<div class="fonte" data-hud="{html.escape(hud)}" data-kicker="{html.escape(m.get("kicker",""))}" data-titulo="{html.escape(m.get("titulo",""))}">{md_para_html(corpo, caps[i].name)}</div>')
     cc = L.get("contracapa")
     if cc:

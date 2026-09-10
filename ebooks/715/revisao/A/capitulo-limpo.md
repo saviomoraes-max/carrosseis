@@ -6,7 +6,7 @@
 «1. Conexão.» Abrir espaço pra conversa e mostrar que você está ali pra entender se consegue ajudar ou não.
 
 :::frase
-Claro que posso te passar valores e mais informações sobre o [procedimento/consulta]! Mas antes, até pra entender se a doutora vai conseguir te ajudar no seu caso ou não... o que faz você buscar por [procedimento/consulta] hoje?
+Claro que posso te passar valores e mais informações sobre [o procedimento/a consulta]! Mas antes, até pra entender se a doutora vai conseguir te ajudar no seu caso ou não... o que faz você buscar por [procedimento/consulta] hoje?
 :::
 
 Essa é pra quando ela abre pedindo preço. Se abriu de outro jeito, as outras aberturas estão no anexo B.

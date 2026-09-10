@@ -19,7 +19,7 @@ doutora que comprou pela VSL e lê no celular, entre um paciente e outro.
 e não pra papel. Capa e rodapé levam só a marca Reconecta, sem assinatura de autora.
 
 **Estrutura:** capa, sumário, quatro partes com página-marcador, doze capítulos,
-três anexos e contracapa com o CTA. São 143 páginas, zero páginas órfãs, e **34 gráficos vetoriais** ilustrando o que o texto diz, sem uma foto.
+três anexos e contracapa com o CTA. São 148 páginas, zero páginas órfãs, e **34 gráficos vetoriais** ilustrando o que o texto diz, sem uma foto.
 
 | Parte | Capítulos |
 | --- | --- |
@@ -240,9 +240,10 @@ ignorar a última página**. A banca sabe o custo (uma leitora satisfeita fechan
 defensiva) e não sabe o ganho, porque a taxa de conversão dessa call é um número seu. Se o
 livro é isca pra call, talvez seja exatamente o desenho.
 
-**A objeção que falta.** *"Faço o PIX à noite"* é, segundo a leitora, a mais comum do dia
-dela, e é a única do dia dela que não tem texto pronto no livro. Escrever é conteúdo novo,
-com escopo e prazo, não conserto.
+~~**A objeção que falta.**~~ **Resolvido em 10/set.** *"Faço o PIX à noite"* era, segundo a
+leitora, a mais comum do dia dela e a única sem texto pronto. Agora tem família própria no
+capítulo 11, **"Na hora do PIX"**, com dois cartões, e o capítulo 9 ganhou a remissão que
+faltava. A resposta e o "disclaimer pequeno" são fala literal da Ana no corpus.
 
 **Os doze fins de capítulo.** Quase todos terminam numa pergunta em aberto que faz a leitora
 pensar nas conversas que ela perdeu, e nenhum dá uma tarefa pra amanhã de manhã. Pode ser
