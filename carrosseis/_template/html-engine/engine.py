@@ -104,9 +104,11 @@ def _fonts_css():
         _font_face("Inter", "Inter-Bold.ttf", "700"),
         _font_face("Inter", "Inter-Black.ttf", "900"),
         _font_face("SubdaysTight", "SubdaysTight.ttf", "400"),
-        # design D — TT Modernoir TRIAL (decisão do Sávio 27/ago: publicar com a
-        # trial e trocar quando licenciar) + Space Mono (chrome do dossiê)
-        _font_face("TTModernoir", "TT_Modernoir_Trial_Bold.ttf", "700"),
+        # design D — a TT Modernoir LICENCIADA vem do Adobe Fonts ativado na máquina
+        # (10/set, fecha a decisão do Sávio de 27/ago: "publicar com a trial e trocar
+        # quando licenciar"). NÃO embutir em base64: a licença do Adobe Fonts não
+        # permite extrair e redistribuir o arquivo. O Chromium resolve pela família.
+        # + Space Mono (chrome do dossiê)
         _font_face("SpaceMono", "SpaceMono-Regular.ttf", "400"),
         _font_face("SpaceMono", "SpaceMono-Bold.ttf", "700"),
     ]
@@ -614,7 +616,7 @@ def _skin_css(skin):
             # cartão de 520px encostou no barcode)
             f".center-wrap{{padding-top:215px;padding-bottom:150px;"
             f"box-sizing:border-box;}}"
-            f".display{{font-family:'TTModernoir';letter-spacing:0;}}"
+            f".display{{font-family:'TT Modernoir',Impact,sans-serif;letter-spacing:0;}}"
             f".grain{{display:none;}}"
             f".pill{{display:none;}}"
             f".mast{{display:none;}}"  # o HUD do dossiê ocupa o topo-direita

@@ -48,7 +48,6 @@ def parsear(txt):
     return passos
 
 CSS = """
-@font-face{font-family:"TT Modernoir";src:url("{ds}/fonts/TT_Modernoir_Trial_Bold.ttf") format("truetype");font-weight:700}
 :root{--ink:#161616;--cream:#eed9bd;--cream-90:rgba(238,217,189,.9);--cream-70:rgba(238,217,189,.7);
 --cream-62:rgba(238,217,189,.62);--gold:#eece66;--gold-65:rgba(238,206,102,.65);--red:#d3111a;
 --disp:"TT Modernoir",Impact,sans-serif;--mono:"Space Mono",ui-monospace,monospace;--body:Inter,-apple-system,Arial,sans-serif}
@@ -147,6 +146,9 @@ def main():
         pgs = "".join(pagina(L, g, i + 1, len(grupos), L["titulo"]) for i, g in enumerate(grupos))
         (rd / "cola.html").write_text(doc(pgs), encoding="utf-8")
         pg.goto((rd / "cola.html").resolve().as_uri()); pg.wait_for_timeout(1500)
+        if not pg.evaluate("""document.fonts.check('700 100px "TT Modernoir"')"""):
+            raise SystemExit('ERRO: a família "TT Modernoir" não está disponível. Ative no '
+                             'Creative Cloud (Fontes) e rode de novo, senão a cola sai com a fonte errada.')
         sobra = pg.evaluate("""() => [...document.querySelectorAll('.corpo')].map(c => {
             const u = c.lastElementChild; return c.clientHeight - (u ? u.offsetTop + u.offsetHeight : 0); })""")
         saida = rd / "cola"; saida.mkdir(exist_ok=True)
