@@ -1,7 +1,7 @@
 ---
 numero: "11"
 kicker: "Capítulo 11"
-prova: "Prova nº 11 · Respostas"
+prova: "Capítulo 11 · Respostas"
 hud: "Script 715 · Capítulo 11"
 titulo: "O manual de respostas"
 subtitulo: "Objeção por objeção: o que perde a paciente e o que continua a conversa."
@@ -9,7 +9,7 @@ fontes: "fontes/02-manual-objecoes.md (p.1-9)"
 ---
 # O manual de respostas
 
-Este capítulo é pra deixar do lado do celular. Eu organizei por família de objeção, e em cada uma você vai ver a mensagem que a paciente manda e o que a gente responde se quiser continuar a conversa, e nas que mais aparecem eu mostro também o que a gente responde se quiser perder a paciente, e por que perde. As frases de continuar são modelo, do mesmo jeito que eu falei no capítulo 2. Copia a frase, troca pelas palavras que ela mesma usou, e o que você manda depois depende do que ela respondeu.
+Este capítulo é pra deixar do lado do celular. Eu organizei por tipo de objeção, e em cada uma você vai ver a mensagem que a paciente manda e o que a gente responde se quiser continuar a conversa, e nas que mais aparecem eu mostro também o que a gente responde se quiser perder a paciente, e por que perde. As frases de continuar são modelo, do mesmo jeito que eu falei no capítulo 2. Copia a frase, troca pelas palavras que ela mesma usou, e o que você manda depois depende do que ela respondeu.
 
 :::grafico indice
 Preço
@@ -21,7 +21,7 @@ Resistência
 A paciente mandou foto
 :::
 
-Gente, repara que quase toda resposta que continua a conversa devolve uma pergunta. As duas que não devolvem são as da hora do PIX, porque ali a regra da casa já é a resposta inteira: você diz numa linha e segue. As perguntas somos nós que fazemos. Até porque penso o seguinte: se a gente responde as perguntas que a pessoa faz, quem tá no controle da conversa é ela.
+Gente, repara que quase toda resposta que continua a conversa devolve uma pergunta. As duas que não devolvem são as da hora do PIX, porque ali a regra da casa já é a resposta inteira: você diz em uma linha e segue. As perguntas somos nós que fazemos. Até porque penso o seguinte: se a gente responde as perguntas que a pessoa faz, quem tá no controle da conversa é ela.
 
 ## Preço
 
@@ -83,7 +83,7 @@ perde: “A doutora é referência na área e especialista em casos como o seu, 
 responde: Claro, sem problemas! O que espera encontrar de diferente lá?
 :::
 
-O preço não é a objeção real. Gente, o que incomoda a paciente não é pagar, é pagar por algo que ela ainda não entendeu o valor.
+O preço não é a objeção real. O que incomoda a paciente não é pagar, é pagar por algo que ela ainda não entendeu o valor.
 
 :::caso
 ela: “tenho que ir pra fazer orçamento e ver valor de procedimento? Não pode falar por aqui?”.

@@ -1,8 +1,9 @@
 ---
 numero: "08"
-kicker: "Passo 06"
-prova: "Prova nº 08 · Passo 6 de 7"
-hud: "Script 715 · Passo 06 / 07"
+kicker: "Capítulo 08"
+passo: "6"
+prova: "Capítulo 08 · Passo 6 de 7"
+hud: "Script 715 · Capítulo 08 · Passo 6/7"
 titulo: "Apresentação"
 subtitulo: "Onde você vende só o que ela já quer comprar."
 fontes: "fontes/01-framework-715.md (Etapa 6, p.7-8); fontes/03-manual-perguntas.md (5. Transição e apresentação, p.3)"
@@ -22,7 +23,7 @@ O sentimento, «com a palavra dela» | O que a doutora vai fazer
  | Quanto tempo dura a consulta
 :::
 
-Eu sei que dá vontade de encher. É o momento em que você sente que finalmente pode falar, depois de quatro passos perguntando e um só concordando. E é por isso que a apresentação é curta, gente: quem construiu o valor da consulta foi ela, nos cinco passos anteriores, e você só devolve.
+Eu sei que dá vontade de encher. É o momento em que você sente que finalmente pode falar, depois de quatro passos perguntando e um só concordando. E é por isso que a apresentação é curta: quem construiu o valor da consulta foi ela, nos cinco passos anteriores, e você só devolve.
 
 ## Pra que serve
 
@@ -42,7 +43,7 @@ O “por isso” cola na transição. O “já sei” é você assumindo a autor
 Explicar a consulta como um processo mecânico ou técnico. Dizer que “se você se sentir segura, pode fazer o procedimento no mesmo dia”. Falar do preço antes de construir todo o valor da consulta. Dar a impressão de que a consulta é só uma formalidade antes do procedimento. Qualificar demais a consulta pra ela parecer mais valiosa, e oferecer soluções diferentes do que ela está buscando. E falar da duração da consulta.
 :::
 
-Seis erros, e eu quero comentar dois. O “pode fazer no mesmo dia” parece facilitar, e na cabeça dela transforma a consulta numa etapa burocrática antes da agulha. Ela deixa de vir pra consulta e passa a vir pro procedimento, e aí o preço da consulta vira obstáculo. E a duração: quando você diz que a consulta dura uma hora, você deu pra ela uma medida pra comparar com o preço e a consulta deixa de valer o problema resolvido e passa a valer uma hora.
+Existem seis erros, mas eu gostaria de comentar dois. O “pode fazer no mesmo dia” parece facilitar, e na cabeça dela transforma a consulta numa etapa burocrática antes da agulha. Ela deixa de vir pra consulta e passa a vir para o procedimento, e aí o preço da consulta vira obstáculo. E a duração: quando você diz que a consulta dura uma hora, você deu pra ela uma medida pra comparar com o preço e a consulta deixa de valer o problema resolvido e passa a valer uma hora.
 
 ## Como ela lê você
 
@@ -53,9 +54,9 @@ NEG: Preciso avaliar se é pra mim.
 POS: É exatamente isso que eu estou buscando.
 :::
 
-Repara que as três nascem de excesso, porque a gente apresentou mais solução do que ela pediu e solução que não resolve o problema dela e porque a gente qualificou demais a consulta e encheu a paciente de informação que não serve pra ela.
+Repara que as três nascem de excesso, porque a gente apresentou mais solução do que ela pediu, e solução que não resolve o problema dela, e porque a gente qualificou demais a consulta e encheu a paciente de informação que não serve pra ela.
 
-A positiva é uma só, e acontece quando você apresenta a solução certa pro problema que ela trouxe e quando você usa as palavras dela pra referenciar o problema durante a apresentação.
+A positiva é uma só, e acontece quando você apresenta a solução certa para o problema que ela trouxe e quando você usa as palavras dela pra referenciar o problema durante a apresentação.
 
 ## Quando avançar
 

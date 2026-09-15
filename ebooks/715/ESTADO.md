@@ -1,7 +1,9 @@
 # Script 715 — estado do projeto
 
 Ponto de retomada técnica. Quem pegar isto sem contexto nenhum consegue continuar.
-Atualizado em 10/set/2026, depois da AUDITORIA DE ENTREGA (nove lentes, 22 achados corrigidos).
+Atualizado em 15/set/2026, depois da REVISÃO HUMANA do Josué (91 trocas aplicadas por
+`aplicar-revisao-josue.py`, numeração trocada pra "Capítulo" em tudo). Antes disso, 10/set:
+AUDITORIA DE ENTREGA (nove lentes, 22 achados corrigidos).
 
 Para decisão (o que dá pra vender, o que falta, o que depende do Sávio), ler o
 `relatorio-de-entrega.md` ao lado.
@@ -319,6 +321,23 @@ Cada uma tem arquivo próprio. Ler antes de mexer em qualquer coisa.
 - **Sem assinatura de autora.** Capa e rodapé levam só Reconecta (decisão do Sávio em
   10/set). A narração em primeira pessoa continua sendo a da Ana; o que saiu foi a
   assinatura, não a voz. `livro.json` sem a chave `autor` já omite o bloco na capa.
+- **Revisão humana (Josué, 14/set) aplicada em 15/set.** PDF anotado, áudio e extração em
+  `revisao/humana/`; as trocas em `aplicar-revisao-josue.py`, cada uma com a página do PDF
+  anotado e, quando a digitação dele tinha erro ("coro", "por já falado", "para os" sobre
+  singular), a nota `ajuste:`. Realce roxo virou ênfase `«»`, porque a casa não usa negrito.
+  Marcação sem texto digitado não entrou, com três exceções escritas no script (couro, pro
+  feed, e a mesma frase repetida em outro lugar). O detector deu o mesmo score antes e depois
+  nos 15 blocos e o linter de pontuação deu zero.
+- **Numeração é "Capítulo" em tudo** (decisão do Sávio, 15/set, a partir do áudio do
+  revisor). "Prova nº" saiu da capa de capítulo. Capítulo de passo leva `kicker: "Capítulo 05"`,
+  `passo: "3"` e `hud: "Script 715 · Capítulo 05 · Passo 3/7"`; o render tira o trilho do
+  campo `passo` (`passo_do()` em `render_pdf.py`, que ainda aceita o kicker antigo "Passo 03").
+  O rótulo "PROVA" sem número, acima da frase-princípio do capítulo 02, ficou.
+- **Metodologia literal vence o revisor** (reconfirmado pelo Sávio em 15/set). As três frases
+  prontas dos manuais que ele mexeu ficaram como estão: "Em que momentos você percebe mais
+  esse incômodo?", "O que te trouxe a procurar por [procedimento] hoje?" e "Vou te explicar
+  como funciona. Antes, que outra dúvida... antes de vermos a disponibilidade na agenda da
+  doutora?" (esta também na citação do capítulo 08).
 
 ---
 

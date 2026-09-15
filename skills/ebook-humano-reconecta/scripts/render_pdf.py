@@ -134,6 +134,14 @@ def md_para_html(txt, nome_arquivo="?"):
     fecha_par(); fecha_lista(); return "\n".join(out)
 
 def chrome(hud): return f'<div class="rec-dot"></div><span class="rec">REC</span><span class="hud">{html.escape(hud)}</span>'
+def passo_do(m):
+    # o trilho da abertura sai do campo `passo`. Manuscrito antigo escrevia o passo no kicker
+    # ("Passo 03"), e o 715 trocou o kicker por "Capítulo 05" quando o revisor achou a numeração
+    # confusa. Os dois jeitos continuam valendo; 0 = bloco sem trilho.
+    p = str(m.get("passo", "")).strip()
+    if p.isdigit(): return int(p)
+    k = m.get("kicker", "").strip()
+    return int(re.search(r"\d+", k).group()) if re.match(r"(?i)^passo\s*\d+$", k) else 0
 def rodape(slug, num="", bc=True):
     bars = "".join(f'<i style="left:{l}px;width:{w}px"></i>' for l, w in [[0,2],[7,3],[15,1],[21,2],[28,3],[36,2],[43,1],[49,3],[57,2],[64,1],[70,2],[77,3],[85,1],[91,2]])
     return f'<div class="rodape"><div class="col">{"<div class=\"barcode\">"+bars+"</div>" if bc else ""}<span class="slug">{html.escape(slug)}</span></div><span class="pn">{num}</span></div>'
@@ -174,7 +182,7 @@ def compilar(raiz, so_html=False, provas=False):
                 f'<h1 class="disp">{inline(pa["titulo"])}</h1></div>'
                 f'<div class="lista">{itens}</div>{rodape(slug, "", True)}</section>')
         partes.append(f'''<section class="pg abertura" id="cap-{html.escape(num)}" data-cap="{i}">{chrome(hud)}<span class="disp" style="position:absolute;left:56px;top:260px;font-size:640px;line-height:.85;color:rgba(238,217,189,.12)">{html.escape(num)}</span>
-{('<div class="rail-abertura">' + graficos.rail(int(re.search(r"\d+", m.get("kicker","")).group()), mini=True) + '</div>') if re.match(r"(?i)^passo\s*\d+$", m.get("kicker","").strip()) else ''}
+{('<div class="rail-abertura">' + graficos.rail(passo_do(m), mini=True) + '</div>') if passo_do(m) else ''}
 <div class="stack"><span class="kicker">{html.escape(m.get("prova", m.get("kicker","")))}</span><div class="sp22"></div><h1 class="disp">{sem_viuva(inline(m.get("titulo","")), 3)}</h1><div class="sp30"></div><span class="sub">{inline(m.get("subtitulo",""))}</span></div>{rodape(slug, "", True)}</section>''')
         partes.append(f'<div class="fonte" data-hud="{html.escape(hud)}" data-kicker="{html.escape(m.get("kicker",""))}" data-titulo="{html.escape(m.get("titulo",""))}">{md_para_html(corpo, caps[i].name)}</div>')
     cc = L.get("contracapa")

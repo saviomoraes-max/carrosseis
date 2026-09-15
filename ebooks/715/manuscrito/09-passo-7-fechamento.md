@@ -1,8 +1,9 @@
 ---
 numero: "09"
-kicker: "Passo 07"
-prova: "Prova nº 09 · Passo 7 de 7"
-hud: "Script 715 · Passo 07 / 07"
+kicker: "Capítulo 09"
+passo: "7"
+prova: "Capítulo 09 · Passo 7 de 7"
+hud: "Script 715 · Capítulo 09 · Passo 7/7"
 titulo: "Fechamento"
 subtitulo: "Horário, PIX, comprovante. Nessa ordem."
 fontes: "fontes/01-framework-715.md (Etapa 7, p.8-9); fontes/03-manual-perguntas.md (7. Fechamento, p.3)"
@@ -24,7 +25,7 @@ Então, esse é o passo sete. Um dos dois erros que o framework manda evitar aqu
 
 ## Pra que serve
 
-Ser o próximo passo óbvio pra resolver o problema. Se os seis passos anteriores aconteceram, o fechamento só organiza o que ela já decidiu.
+O próximo passo óbvio para resolver o problema. Se os seis passos anteriores aconteceram, o fechamento só organiza o que ela já decidiu.
 
 ## Os três passos
 
@@ -89,7 +90,7 @@ POS: Estou tomando a melhor decisão.
 
 A leitura negativa aqui é pequena e passa batida. É a paciente dizendo que a consulta virou um custo. Isso acontece quando o preço da consulta parece maior do que o preço de não resolver o problema, e quando a gente não mostrou, ao longo da conversa, o que a consulta resolve.
 
-A leitura positiva é: “estou tomando a melhor decisão”. E acontece quando, ao longo da conversa, ficou claro qual era o problema, como ele mexe com ela e por que é agora e não depois. E quando a consulta apareceu como a resposta pra isso. Essa lista, ponto importante, é o script inteiro, gente. O fechamento colhe o que os seis passos deixaram pronto.
+A leitura positiva é: “estou tomando a melhor decisão”. E acontece quando, ao longo da conversa, ficou claro qual era o problema, como ele mexe com ela e por que é agora e não depois. E quando a consulta apareceu como a resposta pra isso. O fechamento colhe o que os seis passos deixaram pronto.
 
 ## Sinais de sucesso
 

@@ -1,7 +1,7 @@
 ---
 numero: "12"
 kicker: "Capítulo 12"
-prova: "Prova nº 12 · Diagnóstico"
+prova: "Capítulo 12 · Diagnóstico"
 hud: "Script 715 · Capítulo 12"
 titulo: "Doutora é vendedora também"
 subtitulo: "De volta à salinha, agora do lado de quem vende."
@@ -11,7 +11,7 @@ fontes: "fontes/voz/amostra-fala-analuiza.txt; fontes/01-framework-715.md (p.1)"
 
 No capítulo 1 eu te contei a salinha do financeiro pelo lado da paciente.
 
-E de vendedora, o que eu vi foi isso: a doutora entendeu o meu problema e uma outra pessoa vendeu.
+E como vendedora, o que eu vi foi isso: a doutora entendeu o meu problema e uma outra pessoa vendeu.
 
 E aqui eu não estou falando que existe um certo ou errado, mas pelo que eu observo nas mais de 3 mil clínicas por aqui, quando a doutora se capacita pra fazer o fechamento e ela entende que ela é doutora e que ela é vendedora também, o ticket médio sobe, a taxa de fechamento sobe, enfim, é mil maravilhas.
 
@@ -31,10 +31,10 @@ Tudo, e é por isso que eu escrevi este livro em vez de um sobre a consulta.
 
 A doutora que responde o preço na primeira mensagem do WhatsApp é a mesma que manda a paciente pra salinha do financeiro.
 
-No WhatsApp o número vai pra paciente cedo demais. Na salinha, vai por uma pessoa que não ouviu nada, e nos dois casos a paciente sai com o número na mão e vai pensar sozinha, não porque o número é alto, mas porque ela ainda não sabe se aquilo resolve o problema dela.
+No WhatsApp o número vai para a paciente cedo demais. Na salinha, vai por uma pessoa que não ouviu nada, e nos dois casos a paciente sai com o número na mão e vai pensar sozinha, não porque o número é alto, mas porque ela ainda não sabe se aquilo resolve o problema dela.
 
 :::grafico convergem
-No WhatsApp | O número vai pra paciente «cedo demais»
+No WhatsApp | O número vai para a paciente «cedo demais»
 Na salinha | Vai por uma pessoa que «não ouviu nada»
 => Ela sai com o número na mão e vai pensar sozinha
 :::
@@ -47,7 +47,7 @@ Pega a próxima paciente nova que chamar no WhatsApp e faz os sete passos com el
 
 E as conversas que já morreram no seu WhatsApp, aquelas que você abriu enquanto lia este livro? Elas não estão perdidas, e o jeito de voltar nelas não é mandar “passando pra saber se você viu”. Essa é a mensagem que queima o contato de vez.
 
-A regra da casa pra reabrir conversa é uma só: cada toque traz coisa nova. Um caso, uma pergunta, uma referência, alguma coisa que ela ainda não tinha visto. Repetir cobrança sem novidade não é insistência, é queimar o lead.
+A regra da casa para reabrir conversa é uma só: cada toque traz coisa nova. Um caso, uma pergunta, uma referência, alguma coisa que ela ainda não tinha visto. Repetir cobrança sem novidade não é insistência, é queimar o lead.
 
 E o que traz coisa nova numa conversa antiga é a dor que ela já te contou. Você volta na conversa, procura a palavra que ela usou lá atrás, e reabre por ali. E se for mandar áudio, começa pela palavra dela: “lembrei do que você me contou daquele incômodo antes do casamento, ainda faz sentido pra você?”. Não é cobrança, é reaproximação, e é a palavra dela que abre a porta de novo, do mesmo jeito que abriria numa conversa nova.
 

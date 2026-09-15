@@ -1,8 +1,9 @@
 ---
 numero: "05"
-kicker: "Passo 03"
-prova: "Prova nº 05 · Passo 3 de 7"
-hud: "Script 715 · Passo 03 / 07"
+kicker: "Capítulo 05"
+passo: "3"
+prova: "Capítulo 05 · Passo 3 de 7"
+hud: "Script 715 · Capítulo 05 · Passo 3/7"
 titulo: "Presente inaceitável"
 subtitulo: "Onde a paciente para de achar que dá pra deixar pra depois."
 fontes: "fontes/01-framework-715.md (Etapa 3, p.4-5); fontes/03-manual-perguntas.md (3. Presente inaceitável, p.2)"
@@ -17,7 +18,7 @@ ELA: Aconteceu que eu tenho o casamento da minha irmã em novembro e eu não que
 
 Ela acabou de te contar a data. Você não pediu a data, não falou de urgência, não ofereceu desconto pra fechar hoje. Você perguntou o que mudou, e ela te entregou o motivo pelo qual ela vai marcar. Isso é o passo três.
 
-Eu chamo ele de presente inaceitável porque é o momento em que a paciente olha pro problema que ela já tinha e decide que continuar assim não dá mais. Repara: o problema dela não começou hoje. A flacidez tem dois anos, né? O que mudou foi a tolerância, e alguma coisa mudou a tolerância. Então o seu trabalho é fazer ela dizer o que foi.
+Eu chamo ele de presente inaceitável porque é o momento em que a paciente olha para o problema que ela já tinha e decide que continuar assim não dá mais. Repara: o problema dela não começou hoje. A flacidez tem dois anos, né? O que mudou foi a tolerância, e alguma coisa mudou a tolerância. Então o seu trabalho é fazer ela dizer o que foi.
 
 ## Pra que serve
 
@@ -95,7 +96,7 @@ A leitura positiva é: “estamos entendendo juntas pra ver se vão conseguir me
 
 Não precisa dos quatro. Ela escreve muito mais do que você perguntou, cita a data, cita a foto, cita a irmã. Se ela te contou do casamento sem você pedir, o passo três aconteceu.
 
-O quarto é o que engana. Se quem está convencida é você, o passo três não aconteceu. Você vai levar essa convicção pros próximos passos e vai empurrar. Se quem está convencida é ela, os próximos passos são só confirmação.
+O quarto é o que engana. Se quem está convencida é você, o passo três não aconteceu. Você vai levar essa convicção para os próximos passos e vai “empurrar”. Se quem está convencida é ela, os próximos passos são só confirmação.
 
 :::pergunta
 Na sua última conversa que morreu, você sabe o que tinha mudado na vida da paciente? Ou você só sabe o que ela queria fazer?

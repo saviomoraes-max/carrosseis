@@ -1,7 +1,7 @@
 ---
 numero: "02"
 kicker: "Capítulo 02"
-prova: "Prova nº 02 · O princípio"
+prova: "Capítulo 02 · O princípio"
 hud: "Script 715 · Capítulo 02"
 titulo: "Vender o que ela já quer comprar"
 subtitulo: "O que eu peço pra você guardar antes do primeiro passo."
@@ -9,9 +9,9 @@ fontes: "fontes/voz/amostra-fala-analuiza-02.txt; fontes/01-framework-715.md (p.
 ---
 # Vender o que ela já quer comprar
 
-Eu tive a oportunidade de conversar com algumas doutoras essa semana, de situações bem diferentes, de cidades de tamanhos muito diferentes, de idades muito diferentes, de formações diferentes. E eu achei bem interessante o comportamento de cada uma delas, e queria compartilhar com você.
+Eu tive a oportunidade de conversar com algumas doutoras essa semana, de situações bem diferentes, de cidades de tamanhos muito diferentes, de idades e formações muito diferentes. E eu achei bem interessante o comportamento de cada uma delas, e queria compartilhar com você.
 
-O cenário no geral era até bem parecido, porque todas estavam com a mesma dúvida: o volume de leads baixou esse mês, essa primeira semana aqui de setembro. E cada uma delas atribuiu aquela dificuldade momentânea a uma coisa oposta da outra.
+O cenário no geral era até bem parecido, porque todas estavam com a mesma dúvida: o volume de leads abaixou esse mês, nessa primeira semana de setembro. E cada uma delas atribuiu aquela dificuldade momentânea a uma coisa oposta da outra.
 
 Então, eu ouvi de uma delas: “mas é porque a minha cidade é muito pequena, eu acho que de alguma forma pode ter saturado.” E a outra, que morava numa cidade muito grande, falou: “eu acho que é porque aqui tem muita gente, tem muito profissional também.”
 
@@ -29,14 +29,14 @@ Para vender qualquer coisa, é só vender aquilo que a pessoa já quer comprar.
 
 Gente, essa frase é o 715 inteiro. Ela já quer. Ninguém manda mensagem pra clínica sem querer alguma coisa e o que a gente faz nos sete passos é descobrir o que ela quer de verdade. Pensa o seguinte, toda pergunta que a pessoa faz para você é porque existe um motivo por trás da pergunta. Ela escreve “gostaria de saber como funciona a questão do botox, preenchimento labial, valores?”, e o que ela quer mesmo só aparece depois que alguém pergunta e ela responde: “me incomoda algumas linhas de expressão que tenho no rosto, principalmente fazer a famosa cara de brava”.
 
-Então, o nome é “sete passos para um agendamento a cada cinco contatos”: um a cada cinco, e não “sete passos para agendar todo mundo”, porque o que a gente quer é a paciente sair da conversa querendo marcar sem ninguém ter empurrado, se o problema que ela trouxe se resolve com a consulta. Agora, se não resolve, ela não agenda, e está tudo certo.
+Então, o nome é “sete passos para um agendamento a cada cinco contatos”: um a cada cinco, e não “sete passos para agendar todo mundo”, porque o que a gente quer é que a paciente saia da conversa querendo marcar, sem sentir que “empurraram a consulta nela”, caso o problema que ela trouxe se resolva com a consulta. Agora, se não resolve, ela não agenda, e está tudo certo.
 
 :::grafico funil
 :::
 
 ## O que eu peço pra você guardar
 
-Antes de tudo, uma coisa sobre o “você” deste livro. Quem digita no WhatsApp da clínica é quem atende, e o script foi escrito pra essa pessoa. Repara que todas as frases prontas falam “a doutora” na terceira pessoa, tipo “até pra entender se a doutora vai conseguir te ajudar”: quem escreve não é ela. Se quem atende é você mesma, doutora, aí você fala de você na terceira pessoa mesmo, que é como a paciente ouve do outro lado.
+Antes de tudo, uma coisa sobre o “você” deste livro. Quem digita no WhatsApp da clínica é quem atende, e o script foi escrito para essa pessoa. Repara que todas as frases prontas falam “a doutora” na terceira pessoa, por exemplo, “até pra entender se a doutora vai conseguir te ajudar”: quem escreve não é ela. Se quem atende é você mesma, doutora, aí você fala de você na terceira pessoa mesmo, que é como a paciente ouve do outro lado.
 
 Então, eu quero te passar primeiro o que a gente considera a base de qualquer atendimento, tá? São oito coisas, e isso aqui é o que eu vejo dar certo nas clínicas que passam por aqui e são mais de 3 mil. Essas oito voltam em todos os capítulos, então guarda.
 
@@ -51,17 +51,17 @@ Então, eu quero te passar primeiro o que a gente considera a base de qualquer a
 8 | Conexão derruba a resistência
 :::
 
-«1.» O atendimento é pra entender se aquela pessoa tem um problema que você consegue resolver ou não. Parece a mesma coisa que entrar pra agendar, mas na conversa não é, porque quem entra pra agendar pula pro fechamento e a paciente sente que você só está querendo vender.
+«1.» O atendimento é para entender se aquela pessoa tem um problema que você consegue resolver ou não. Parece a mesma coisa que entrar para agendar, mas na conversa não é, «porque quem entra para agendar pula para o fechamento e a paciente sente que você só está querendo vender».
 
-«2.» Agendamento é consequência. Quando a conversa é bem feita, geralmente ela pergunta disponibilidade na agenda na hora: “E você tem horário para quando?”, entendeu? E quando é você que oferece o horário, ela já estava esperando por ele.
+«2.» Agendamento é consequência. Quando a conversa é bem feita, geralmente ela pergunta disponibilidade na agenda na hora: “E você tem horário para quando?” E quando é você que oferece o horário, ela já estava esperando por ele.
 
-«3.» Empatia é a base do atendimento. E quando eu digo “empatia” é a paciente sentir que você está tentando entender o problema dela, e no WhatsApp isso é coisa concreta, é repetir a palavra que ela usou e perguntar antes de responder.
+«3.» Empatia é a base do atendimento. E quando eu digo “empatia” é a paciente sentir que você está tentando entender o problema dela, e no WhatsApp isso é coisa concreta, é «repetir a palavra que ela usou» e perguntar antes de responder.
 
 «4.» Conexão acontece durante o atendimento inteiro, e não só no começo, porque a doutora que é simpática no “oi” e vira tabela de preço quando chega o “quanto custa” perdeu a paciente ali. Isso vai voltar em cada passo.
 
 «5.» Scripts são referências. As perguntas dos próximos capítulos são modelo: você copia a pergunta e troca pelas palavras que ela mesma usou e o que você manda depois depende do que ela respondeu. Copiar e colar o script sem contexto é pecado mortal do atendimento. Aí fica uma conversa robótica. Com o tempo você para de olhar o script, porque passa a ler o sinal dela.
 
-«6.» Quem faz as perguntas conduz a conversa, e fica com o bastão na mão. Porque no momento em que ela pergunta quanto custa e você responde o valor e não manda mais nada, o bastão passou pra ela, e aí ela manda um “obrigada, vou pensar”, e você fica olhando pro visto azul. O lead sumiu, eu não agendei, todo mundo saiu sem o problema resolvido. E qual é a forma mais fácil de encerrar uma conversa? Com uma resposta. E eu não tô te pedindo pra esconder o preço, tá? Tô pedindo pra perguntar antes de responder. Qual pergunta? Isso é o passo um.
+«6.» Quem faz as perguntas conduz a conversa, e fica com o bastão na mão. Porque no momento em que ela pergunta quanto custa e você responde o valor e não manda mais nada, o bastão passou pra ela, e aí ela manda um “obrigada, vou pensar”, e você fica olhando para o visto azul. O lead sumiu, eu não agendei, todo mundo saiu sem o problema resolvido. E qual é a forma mais fácil de encerrar uma conversa? Com uma resposta. E eu não tô te pedindo pra esconder o preço, tá? Tô pedindo pra perguntar antes de responder. Qual pergunta? Isso é o passo um.
 
 :::grafico bastao
 ELA: Quanto custa a consulta?

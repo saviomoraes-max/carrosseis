@@ -21,42 +21,42 @@ Na sua clínica, você tem a salinha do fechamento ou a salinha do pagamento?
 
 E eu vou aproveitar pra contar um caso meu, que aconteceu duas ou três vezes, de eu ir numa clínica, em alguma especialidade, e acontecer exatamente esse movimento. A última vez foi bem recente.
 
-Eu converso com a profissional. A gente chega junto num plano de tratamento, um plano de seis meses. Tem alguma dúvida ou outra durante a consulta, tudo normal. E aí, na hora do fechamento, eu sou conduzida pra recepção e fico numa área de espera uns dez minutinhos e depois sou conduzida de novo, agora pra sala de fechamento, com o financeiro. Uma outra pessoa.
+Eu converso com a profissional. Chegamos juntos em um plano de tratamento, um plano de seis meses. Tive alguma dúvida ou outra durante a consulta. Até aí, tudo normal. E aí, na hora do fechamento, eu sou conduzida pra recepção e fico em uma área de espera uns dez minutinhos e depois sou conduzida de novo, agora pra sala de fechamento, com o financeiro. Uma outra pessoa.
 
 Eu já dou spoiler, tá? Quando eu entrei naquela salinha, a minha cabeça já tinha ido embora.
 
     [gráfico: linha]
-      A consulta | «Realmente eu encontrei a solução pro meu problema.»
-      A recepção | «E se esse negócio for muito caro? Será que é prioridade agora?»
-      A salinha do financeiro | «Vão arrancar o couro aqui de mim.»
+      A consulta | «Realmente eu encontrei a solução para o meu problema.»
+      A recepção | «E se for muito caro? Será que é prioridade agora?»
+      A salinha do financeiro | «Vão arrancar meu couro aqui.»
 
 ## Uns dez minutinhos
 
-Primeiro que essa salinha do financeiro já remete a “vão arrancar o couro aqui de mim”, porque até então, ponto importante, eu não sabia quanto ia custar o plano de tratamento. Não fazia a menor ideia. Então eu fui até essa salinha tal qual um animal se dirige para o abatedouro.
+Primeiro que essa salinha do financeiro já remete a “vão arrancar meu couro aqui”, porque até então, ponto importante, eu não sabia quanto ia custar o plano de tratamento. Não fazia a menor ideia. Então eu fui até essa salinha tal qual um animal se dirige para o abatedouro.
 
-É óbvio que eu tô sendo muito irônica e exagerada aqui, mas eu não pude deixar de pontuar esse sentimento. Eu ia lá no caminho e tá lá a salinha do financeiro e eu sabia que ia levar facada.
+É óbvio que eu tô sendo muito irônica e exagerada aqui, mas eu não pude deixar de pontuar esse sentimento. Eu estava indo a caminho da salinha do financeiro e eu sabia que ia levar “facada”.
 
-Toda aquela aura que tinha se formado até eu falar com a doutora foi completamente dizimada, mesmo que a experiência tenha sido satisfatória, mesmo que tenha sido tudo bacana. Aquele ponto da emoção, do “nossa, realmente eu encontrei a solução pro meu problema”, aquilo acabou naquele momento pra mim.
+Toda aquela aura que tinha se formado quando eu falei com a doutora foi completamente dizimada, mesmo que a experiência tenha sido satisfatória, mesmo que tenha sido tudo bacana. Aquele ponto da emoção, do “nossa, realmente eu encontrei a solução para o meu problema”, aquilo acabou naquele momento pra mim.
 
 Por quê?
 
-Porque eu não estava mais falando com uma especialista que tinha entendido o meu problema e me trazido a solução pras dores que eu tinha levado pra ela. Eu estava falando com uma pessoa que entendeu que agora, depois que eu entendi que meus problemas têm solução, a gente parte para uma transação financeira.
+Porque eu não estava mais falando com uma especialista que tinha entendido o meu problema e me trazido a solução para as dores que eu tinha levado pra ela. Eu estava falando com uma pessoa que entendeu que agora, depois que eu entendi que meus problemas têm solução, a gente parte para uma transação financeira.
 
 Se eu tivesse entendido o preço na sala, talvez eu teria fechado. Lá dentro.
 
-Porque eu já tava completamente na emoção. Eu já tinha entendido que aquilo resolvia o meu problema. Mas aí eu saí e esperei. E não foi só ter saído e esperado. Foi ter saído, ter esperado, ter pensado.
+Porque eu já estava completamente na emoção. Eu já tinha entendido que aquilo resolvia o meu problema. Mas aí eu saí e esperei. E não foi só ter saído e esperado. Foi ter saído, ter esperado, «ter pensado».
 
-Falei, cara, e se esse negócio for muito caro? E se for muito além do que eu tava imaginando? Paguei pela consulta, tudo certinho, tá? E se for muito diferente do que eu tava imaginando, será que isso é prioridade agora? Será que eu não consigo encontrar outros meios?
+Pensei, e se for muito caro? E se for muito além do que eu tava imaginando? Paguei pela consulta, tudo certinho, tá? E se for muito diferente do que eu tava imaginando, será que isso é prioridade agora? Será que eu não consigo encontrar outros meios?
 
-E eu comecei a ruminar aquilo na minha cabeça e quando eu cheguei no financeiro, aquilo pra mim já era quase uma encenação pra poder fechar. E da forma como foi conduzido comigo, foi todo um processo de convencimento. Olha, por conta de tudo que a doutora trouxe, parará, parará, parará. Quase uma cerimônia pra passar o preço.
+E eu comecei a ruminar aquilo na minha cabeça e quando eu cheguei no financeiro, aquilo pra mim já era quase uma encenação para poder fechar. E da forma como foi conduzido comigo, foi todo um processo de convencimento. Olha, por conta de tudo que a doutora trouxe, parará, parará, parará. Quase uma cerimônia pra passar o preço.
 
 Você vai me dizer: “mas eu não quero falar de dinheiro dentro da sala.” E beleza, pode ser que o fechamento mesmo fique do lado de fora da sala, até pela experiência da paciente. O que me pegou não foi o lado de fora. Foi eu sair da sala sem saber o preço e ir decidir com uma pessoa que não tinha ouvido nada do meu problema. E aqui eu não tô falando que existe um certo ou errado. Tô contando o que aconteceu comigo.
 
-Foi assim que eu me senti, de paciente. De vendedora eu vi outra coisa, e essa parte fica pro capítulo 12.
+Foi assim que eu me senti, como paciente. Como vendedora eu vi outra coisa, e essa parte fica para o capítulo 12.
 
 E aqui vem um plot twist interessante.
 
-Na consulta, a gente conversando, a doutora perguntou com quem eu trabalhava. Eu falei que trabalhava com vendas, com clínicas. E aí ela falou: “poxa, tô precisando de uma ajuda aqui, porque a gente tá com muita gente indo pra casa pensar.”
+Na consulta, a gente conversando, a doutora perguntou com quem eu trabalhava. Eu falei que trabalhava com vendas, com clínicas. E aí ela falou: “poxa, tô precisando de uma ajuda aqui, porque estamos com muita gente indo pra casa pensar.”
 
 Diagnóstico feito.
 
@@ -68,7 +68,7 @@ Porque a paciente que sai da salinha do financeiro e vai pra casa pensar é a me
 
 E olha que é engraçado. Na clínica o preço veio tarde demais, de uma pessoa que não tinha ouvido nada do meu problema, e no WhatsApp ele vem cedo, vem antes de ela pisar na clínica e vem de alguém que também não perguntou nada, e dá na mesma. A paciente recebe um número de quem não fez o diagnóstico dela e vai ruminar sozinha do jeito que eu ruminei.
 
-Então o script 715 parte de uma frase só, que é: «para vender qualquer coisa, é só vender aquilo que a pessoa já quer comprar». Quem manda mensagem pra clínica já quer alguma coisa. Pode ser que ela não saiba direito o quê, e geralmente ela não sabe mesmo, mas ela quer. Acho que o trabalho é entender isso antes de passar qualquer número. São sete passos, do primeiro oi até o comprovante do PIX, e o preço entra no último.
+Então o script 715 parte de uma frase só, que é: «para vender qualquer coisa, é só vender aquilo que a pessoa já quer comprar». Quem manda mensagem para a clínica já quer alguma coisa. Pode ser que ela não saiba direito o quê, e geralmente ela não sabe mesmo, mas ela quer. Acho que o trabalho é entender isso antes de passar qualquer número. São sete passos, do primeiro oi até o comprovante do PIX, e o preço entra no último.
 
     PERGUNTA EM ABERTO — Agora, na sua clínica, quanta gente foi pra casa pensar esse mês? E quanta gente perguntou o preço no seu WhatsApp e nunca mais respondeu?
 
@@ -77,9 +77,9 @@ CAPÍTULO 02 · Vender o que ela já quer comprar
    O que eu peço pra você guardar antes do primeiro passo.
 ------------------------------------------------------------------------------
 
-Eu tive a oportunidade de conversar com algumas doutoras essa semana, de situações bem diferentes, de cidades de tamanhos muito diferentes, de idades muito diferentes, de formações diferentes. E eu achei bem interessante o comportamento de cada uma delas, e queria compartilhar com você.
+Eu tive a oportunidade de conversar com algumas doutoras essa semana, de situações bem diferentes, de cidades de tamanhos muito diferentes, de idades e formações muito diferentes. E eu achei bem interessante o comportamento de cada uma delas, e queria compartilhar com você.
 
-O cenário no geral era até bem parecido, porque todas estavam com a mesma dúvida: o volume de leads baixou esse mês, essa primeira semana aqui de setembro. E cada uma delas atribuiu aquela dificuldade momentânea a uma coisa oposta da outra.
+O cenário no geral era até bem parecido, porque todas estavam com a mesma dúvida: o volume de leads abaixou esse mês, nessa primeira semana de setembro. E cada uma delas atribuiu aquela dificuldade momentânea a uma coisa oposta da outra.
 
 Então, eu ouvi de uma delas: “mas é porque a minha cidade é muito pequena, eu acho que de alguma forma pode ter saturado.” E a outra, que morava numa cidade muito grande, falou: “eu acho que é porque aqui tem muita gente, tem muito profissional também.”
 
@@ -95,13 +95,13 @@ A queixa das quatro era a mesma: chegou menos gente. E as quatro foram procurar 
 
 Gente, essa frase é o 715 inteiro. Ela já quer. Ninguém manda mensagem pra clínica sem querer alguma coisa e o que a gente faz nos sete passos é descobrir o que ela quer de verdade. Pensa o seguinte, toda pergunta que a pessoa faz para você é porque existe um motivo por trás da pergunta. Ela escreve “gostaria de saber como funciona a questão do botox, preenchimento labial, valores?”, e o que ela quer mesmo só aparece depois que alguém pergunta e ela responde: “me incomoda algumas linhas de expressão que tenho no rosto, principalmente fazer a famosa cara de brava”.
 
-Então, o nome é “sete passos para um agendamento a cada cinco contatos”: um a cada cinco, e não “sete passos para agendar todo mundo”, porque o que a gente quer é a paciente sair da conversa querendo marcar sem ninguém ter empurrado, se o problema que ela trouxe se resolve com a consulta. Agora, se não resolve, ela não agenda, e está tudo certo.
+Então, o nome é “sete passos para um agendamento a cada cinco contatos”: um a cada cinco, e não “sete passos para agendar todo mundo”, porque o que a gente quer é que a paciente saia da conversa querendo marcar, sem sentir que “empurraram a consulta nela”, caso o problema que ela trouxe se resolva com a consulta. Agora, se não resolve, ela não agenda, e está tudo certo.
 
     [gráfico: funil]
 
 ## O que eu peço pra você guardar
 
-Antes de tudo, uma coisa sobre o “você” deste livro. Quem digita no WhatsApp da clínica é quem atende, e o script foi escrito pra essa pessoa. Repara que todas as frases prontas falam “a doutora” na terceira pessoa, tipo “até pra entender se a doutora vai conseguir te ajudar”: quem escreve não é ela. Se quem atende é você mesma, doutora, aí você fala de você na terceira pessoa mesmo, que é como a paciente ouve do outro lado.
+Antes de tudo, uma coisa sobre o “você” deste livro. Quem digita no WhatsApp da clínica é quem atende, e o script foi escrito para essa pessoa. Repara que todas as frases prontas falam “a doutora” na terceira pessoa, por exemplo, “até pra entender se a doutora vai conseguir te ajudar”: quem escreve não é ela. Se quem atende é você mesma, doutora, aí você fala de você na terceira pessoa mesmo, que é como a paciente ouve do outro lado.
 
 Então, eu quero te passar primeiro o que a gente considera a base de qualquer atendimento, tá? São oito coisas, e isso aqui é o que eu vejo dar certo nas clínicas que passam por aqui e são mais de 3 mil. Essas oito voltam em todos os capítulos, então guarda.
 
@@ -115,17 +115,17 @@ Então, eu quero te passar primeiro o que a gente considera a base de qualquer a
       7 | Menos informação, menos objeção
       8 | Conexão derruba a resistência
 
-«1.» O atendimento é pra entender se aquela pessoa tem um problema que você consegue resolver ou não. Parece a mesma coisa que entrar pra agendar, mas na conversa não é, porque quem entra pra agendar pula pro fechamento e a paciente sente que você só está querendo vender.
+«1.» O atendimento é para entender se aquela pessoa tem um problema que você consegue resolver ou não. Parece a mesma coisa que entrar para agendar, mas na conversa não é, «porque quem entra para agendar pula para o fechamento e a paciente sente que você só está querendo vender».
 
-«2.» Agendamento é consequência. Quando a conversa é bem feita, geralmente ela pergunta disponibilidade na agenda na hora: “E você tem horário para quando?”, entendeu? E quando é você que oferece o horário, ela já estava esperando por ele.
+«2.» Agendamento é consequência. Quando a conversa é bem feita, geralmente ela pergunta disponibilidade na agenda na hora: “E você tem horário para quando?” E quando é você que oferece o horário, ela já estava esperando por ele.
 
-«3.» Empatia é a base do atendimento. E quando eu digo “empatia” é a paciente sentir que você está tentando entender o problema dela, e no WhatsApp isso é coisa concreta, é repetir a palavra que ela usou e perguntar antes de responder.
+«3.» Empatia é a base do atendimento. E quando eu digo “empatia” é a paciente sentir que você está tentando entender o problema dela, e no WhatsApp isso é coisa concreta, é «repetir a palavra que ela usou» e perguntar antes de responder.
 
 «4.» Conexão acontece durante o atendimento inteiro, e não só no começo, porque a doutora que é simpática no “oi” e vira tabela de preço quando chega o “quanto custa” perdeu a paciente ali. Isso vai voltar em cada passo.
 
 «5.» Scripts são referências. As perguntas dos próximos capítulos são modelo: você copia a pergunta e troca pelas palavras que ela mesma usou e o que você manda depois depende do que ela respondeu. Copiar e colar o script sem contexto é pecado mortal do atendimento. Aí fica uma conversa robótica. Com o tempo você para de olhar o script, porque passa a ler o sinal dela.
 
-«6.» Quem faz as perguntas conduz a conversa, e fica com o bastão na mão. Porque no momento em que ela pergunta quanto custa e você responde o valor e não manda mais nada, o bastão passou pra ela, e aí ela manda um “obrigada, vou pensar”, e você fica olhando pro visto azul. O lead sumiu, eu não agendei, todo mundo saiu sem o problema resolvido. E qual é a forma mais fácil de encerrar uma conversa? Com uma resposta. E eu não tô te pedindo pra esconder o preço, tá? Tô pedindo pra perguntar antes de responder. Qual pergunta? Isso é o passo um.
+«6.» Quem faz as perguntas conduz a conversa, e fica com o bastão na mão. Porque no momento em que ela pergunta quanto custa e você responde o valor e não manda mais nada, o bastão passou pra ela, e aí ela manda um “obrigada, vou pensar”, e você fica olhando para o visto azul. O lead sumiu, eu não agendei, todo mundo saiu sem o problema resolvido. E qual é a forma mais fácil de encerrar uma conversa? Com uma resposta. E eu não tô te pedindo pra esconder o preço, tá? Tô pedindo pra perguntar antes de responder. Qual pergunta? Isso é o passo um.
 
     [gráfico: bastao]
       ELA: Quanto custa a consulta?
@@ -168,9 +168,9 @@ São três coisas, e as três acontecem na mesma mensagem. Abrir espaço pra con
       2 | Tirar a resistência inicial
       3 | Mostrar que você está ali pra entender se consegue ajudar «ou não»
 
-Gente, esse “ou não” é o coração do passo. Quando você diz pra paciente que primeiro precisa entender se a doutora consegue ajudar no caso dela, você está dizendo que existe a possibilidade de não conseguir, tá? Porque às vezes eu nem vou conseguir. E aí é como se eu tivesse tirado de cima dela toda a pressão de que ela tem que fazer alguma coisa naquele momento. Então ela começa a relaxar, porque antes ela tá assim, dura igual uma pedra, uma porta que ela não tá abrindo brecha para mim.
+Gente, esse “ou não” é o coração do passo. Quando você diz para a paciente que primeiro precisa entender se a doutora consegue ajudar no caso dela, você está dizendo que existe a possibilidade de não conseguir, tá? Porque às vezes eu nem vou conseguir. E aí é como se eu tivesse tirado de cima dela toda a pressão de que ela tem que fazer alguma coisa naquele momento. Então ela começa a relaxar, porque antes ela estava “dura igual uma pedra”, uma porta que ela não tá abrindo brecha para mim.
 
-E a resistência é isso, ó: ela esquiva de todas as respostas que ela deveria dar, eu faço uma pergunta, ela me responde “o que que é o preço?”. É entender que aquela pessoa, ela tá com medo de se comprometer.
+E a resistência é isso: ela esquiva de todas as respostas que ela deveria dar, eu faço uma pergunta, ela me responde “qual é o preço?”. É entender que aquela pessoa, ela tá com medo de se comprometer.
 
 ## As perguntas
 
@@ -188,13 +188,13 @@ E quando a primeira mensagem já vem com o preço, que é quase sempre:
 
     FRASE PRONTA — Claro que posso te passar valores e mais informações sobre [o procedimento/a consulta]! Mas antes, até pra entender se a doutora vai conseguir te ajudar no seu caso ou não... o que faz você buscar por [procedimento/consulta] hoje?
 
-E pra quando o preço não veio na abertura, só um “oi, queria informações”, tem uma que eu gosto muito, porque pede permissão e já avisa o que vem:
+E pra quando o preço não veio na abertura, só um “oi, quero mais informações”, tem uma que eu gosto muito, porque pede permissão e já avisa o que vem:
 
     FRASE PRONTA — Nesse próximo minutinho vou buscar entender com você o que está procurando hoje, até pra entender se a doutora vai conseguir te ajudar no seu caso ou não, e se conseguir, aí a gente pensa em próximos passos, pode ser?
 
 Repara que quase todas são abertas. A do “você já sabe o que está procurando?” até dá pra responder com sim, mas na prática ela responde “sim, quero fazer botox” e você já tem por onde puxar. Se vier só o sim seco, emenda: “me conta”. Se ela responde sim ou não e para ali, você fica tendo que inventar a próxima pergunta sozinha. Se ela responde contando, ela fala mais do que você, e é isso que você quer.
 
-    O QUE EVITAR — Pergunta fechada, que ela responde com sim ou não. Texto longo e formal demais. Responder direto à pergunta que ela fez em vez de entender o que motivou a pergunta. Elogiar a doutora demais, que é o que a gente chama de se qualificar. E achar que a paciente direta, que parece já saber o que quer, é agendamento garantido e pular pro fechamento.
+    O QUE EVITAR — Pergunta fechada, que ela responde com sim ou não. Texto longo e formal demais. Responder direto à pergunta que ela fez em vez de entender o que motivou a pergunta. Elogiar a doutora demais, que é o que a gente chama de se qualificar. E achar que a paciente direta, que parece já saber o que quer, é agendamento garantido e pular para o fechamento.
 
 Sobre a última: a paciente que chega direta, já pedindo horário, engana. Parece pronta, né? Só que o que mais acontece é aquela pessoa mais que decidida, ela morre no meio da conversa. Ela desaparece no meio da conversa. Eu acho que ela some porque você agendou uma pessoa que você não conhece e você ainda não sabe o que ela quer de verdade, e é pra isso que o passo um existe. A resposta pra ela é a mesma do preço, só troca “valores” por “horário”. “Claro que posso te passar os horários! Mas antes, até pra entender se a doutora vai conseguir te ajudar no seu caso ou não, o que faz você buscar por botox hoje?”
 
@@ -206,7 +206,7 @@ Sobre a última: a paciente que chega direta, já pedindo horário, engana. Pare
 
 Em quase todo passo eu vou te mostrar as duas leituras que a paciente pode fazer de você, porque é isso que decide se ela continua ou não.
 
-Então, a leitura negativa aqui é: “ela só está querendo me vender”. E pelo que eu vejo, isso acontece em quatro situações. Acontece quando a gente se qualifica, aquele “a doutora é ótima, esses casos são perfeitos, olha esse caso que lindo”, e acontece quando a gente não fala pra que está ali. Acontece quando a paciente sente que pode agendar a hora que quiser, porque agenda sempre aberta é clínica que pega qualquer uma, e quem pega qualquer uma não está escolhendo, está vendendo. E acontece quando ela te vê numa posição abaixo dela, que é quando só ela pergunta e você só responde. E se qualificar, na verdade, chega a ser automático mesmo, ainda mais quando a gente gosta do trabalho da doutora ou de onde a gente trabalha, né? Só que pensa no que chega do outro lado. Você escreve “a doutora adora atender pacientes como você”, ou seja, ela adora atender todo mundo. Você é só mais uma, entendeu?
+Então, a leitura negativa aqui é: “ela só está querendo me vender”. E pelo que eu vejo, isso acontece em quatro situações. Acontece quando a gente se qualifica, aquele “a doutora é ótima, esses casos são perfeitos, olha esse caso que lindo”, e acontece quando a gente não fala pra que está ali. Acontece quando a paciente sente que pode agendar a hora que quiser, porque agenda sempre aberta é sinal de clínica que pega qualquer uma, e quem pega qualquer uma não está escolhendo, está vendendo. E acontece quando ela te vê numa posição abaixo dela, que é quando só ela pergunta e você só responde. E se qualificar, na verdade, chega a ser automático mesmo, ainda mais quando a gente gosta do trabalho da doutora ou de onde a gente trabalha, né? Só que pensa no que chega do outro lado. Você escreve “a doutora adora atender pacientes como você”, ou seja, ela adora atender todo mundo. Você é só mais uma, entendeu?
 
 A leitura positiva, a que eu quero que ela faça de você, é: “ela só quer me ajudar a resolver o meu problema”. E acontece quando você declara bem a intenção, quando fica claro que precisa entender antes de agendar pra saber se consegue ajudar ou não, e quando ela te percebe como uma autoridade naquele espaço e confia em você.
 
@@ -235,7 +235,7 @@ Essa aqui é outra conversa, e a palavra que ela trouxe é outra. É essa pacien
       VOCÊ: Quando você diz “rosto flácido”, o que exatamente você quer dizer com isso?
       ELA: Ah, é mais aqui na parte de baixo, sabe? Perto do queixo. Eu olho no espelho e parece que tá caindo.
 
-A paciente passou do passo um. Ela respondeu contando. E aí vem a parte que eu mais vejo dar errado, gente. Um dos maiores erros que a gente comete: quando a pessoa começa a falar sobre o problema, ela dá uma palavra e a gente entende o contexto inteiro. Ela fala bioestimulador, eu já sei qual que é o diagnóstico completo. Se ela fala rugas, linhas de expressão, já sei tudo e não precisa falar mais nada, porque é maldição do conhecimento. A gente sabe do que ela tá falando, sabe? E aí a próxima mensagem já sai explicando o tratamento, e por fora parece atendimento bom, mas é a conversa morrendo de novo, só que mais tarde.
+A paciente passou do passo um. Ela respondeu contando. E aí vem a parte que eu mais vejo dar errado. Um dos maiores erros que a gente comete: quando a pessoa começa a falar sobre o problema, ela dá uma palavra e a gente entende o contexto inteiro. Ela fala bioestimulador, eu já sei qual que é o diagnóstico completo. Se ela fala rugas, linhas de expressão, já sei tudo e não precisa falar mais nada, porque é maldição do conhecimento. A gente sabe do que ela tá falando? E aí a próxima mensagem já sai explicando o tratamento, e por fora parece atendimento bom, mas é a conversa morrendo de novo, só que mais tarde.
 
 Porque flacidez, pra ela, é uma coisa que ela vê no espelho, num lugar específico, num momento específico, e não a palavra que tá na sua apostila. Eu entendo como que resolve flacidez. Mas o que flacidez é para ela? Pensa que todo atendimento você é um balde vazio. Você não sabe como ela sente, você não sabe quem é ela, você não sabe nem o que que ela tá precisando, nem o que que é flacidez, o que que é ruga, nada.
 
@@ -253,7 +253,7 @@ Repara que é tudo verbo de entender, nenhum de explicar. E eu não tô dizendo 
 
 ## As perguntas
 
-As primeiras servem pra clarear a palavra que ela usou. A gente pega a palavra dela e devolve como pergunta.
+As primeiras servem para clarear a palavra que ela usou. A gente pega a palavra dela e devolve como pergunta.
 
     FRASE PRONTA — Quando você diz “flacidez”, o que exatamente quer dizer?
 
@@ -273,7 +273,7 @@ As outras servem pra aprofundar, depois que ela clareou.
 
 Uma por mensagem. Ela responde, você lê, e a próxima é a que encaixa no que ela acabou de escrever. Às vezes duas bastam. E quem manda as três de uma vez tá aplicando questionário.
 
-E em nenhuma dessas perguntas, ponto importante, aparece a palavra “sentir”. Acho que vale a pena a gente perguntar como ela entende, como ela percebe, o que ela vê, porque perguntar como ela se sente já presume que ela está incomodada com algo, e isso pode gerar resistência, né? Então a gente prefere perguntar como ela entende.
+E em nenhuma dessas perguntas, ponto importante, aparece a palavra “sentir”. Acredito que vale a pena a gente perguntar como ela entende, como ela percebe, o que ela vê, porque perguntar como ela se sente já presume que ela está incomodada com algo, e isso pode gerar resistência, né? Então a gente prefere perguntar como ela entende.
 
 E o impacto emocional que você precisa entender chega sem você pedir. Quando ela responde em que momento percebe mais, ela conta uma cena. No espelho de manhã, antes de uma foto. O que ela sente tá ali dentro da cena, nas palavras dela, sem você ter perguntado nada.
 
@@ -292,7 +292,7 @@ A leitura negativa do passo dois tem cara de interrogatório, e acontece quando 
 
 A leitura positiva é: “ela está querendo me entender pra ver se consegue me ajudar.” E acontece quando a paciente entende a intenção por trás das perguntas, e quando você referencia o que ela disse e se interessa pela resposta.
 
-A diferença entre as duas leituras é referenciar. Eu sempre gosto de pensar o seguinte quando tô atendendo: a pergunta que eu fiz, ela poderia ser feita para qualquer pessoa? Se eu desse um control C, control V nessa pergunta, em qualquer conversa, ela caberia? Então, possivelmente, eu acho que eu tô sendo genérica demais. Como é que eu posso personalizar mais? O que que eu tô deixando passar? “Quando você diz que tá caindo perto do queixo, em que momento você percebe mais isso?” Ela ouve a própria palavra e sente que você leu.
+A diferença entre as duas leituras é referenciar. Eu sempre gosto de pensar o seguinte, quando estou atendendo: a pergunta que eu fiz, ela poderia ser feita para qualquer pessoa? Se eu desse um control C, control V nessa pergunta, em qualquer conversa, ela caberia? Então, possivelmente, eu acho que eu tô sendo genérica demais. Como é que eu posso personalizar mais? O que que eu tô deixando passar? “Quando você diz que tá caindo perto do queixo, em que momento você percebe mais isso?” Ela ouve a própria palavra e sente que você leu.
 
 ## Quando avançar
 
@@ -302,7 +302,7 @@ A diferença entre as duas leituras é referenciar. Eu sempre gosto de pensar o 
       - Ela fala mais do que você nessa etapa
       - Ela usa frases como “exatamente isso!” ou “você entendeu!”
 
-Esse “exatamente isso” sai da pergunta que repetiu a palavra dela: ó, você perguntou em que momento ela percebe mais isso que tá caindo perto do queixo e ela respondeu “é isso, exatamente”. A partir daí ela não está mais conversando com uma atendente. Está conversando com alguém que entendeu.
+Esse “exatamente isso” sai da pergunta que repetiu a palavra dela: você perguntou em que momento ela percebe mais isso que tá caindo perto do queixo e ela respondeu “é isso, exatamente”. A partir daí ela não está mais conversando com uma atendente. Está conversando com alguém que entendeu.
 
     PERGUNTA EM ABERTO — Agora, das suas últimas conversas, em quantas a paciente escreveu “exatamente”? E em quantas você explicou o procedimento antes de saber o que a palavra dela queria dizer?
 
@@ -318,7 +318,7 @@ CAPÍTULO 05 · Presente inaceitável
 
 Ela acabou de te contar a data. Você não pediu a data, não falou de urgência, não ofereceu desconto pra fechar hoje. Você perguntou o que mudou, e ela te entregou o motivo pelo qual ela vai marcar. Isso é o passo três.
 
-Eu chamo ele de presente inaceitável porque é o momento em que a paciente olha pro problema que ela já tinha e decide que continuar assim não dá mais. Repara: o problema dela não começou hoje. A flacidez tem dois anos, né? O que mudou foi a tolerância, e alguma coisa mudou a tolerância. Então o seu trabalho é fazer ela dizer o que foi.
+Eu chamo ele de presente inaceitável porque é o momento em que a paciente olha para o problema que ela já tinha e decide que continuar assim não dá mais. Repara: o problema dela não começou hoje. A flacidez tem dois anos, né? O que mudou foi a tolerância, e alguma coisa mudou a tolerância. Então o seu trabalho é fazer ela dizer o que foi.
 
 ## Pra que serve
 
@@ -379,7 +379,7 @@ A leitura positiva é: “estamos entendendo juntas pra ver se vão conseguir me
 
 Não precisa dos quatro. Ela escreve muito mais do que você perguntou, cita a data, cita a foto, cita a irmã. Se ela te contou do casamento sem você pedir, o passo três aconteceu.
 
-O quarto é o que engana. Se quem está convencida é você, o passo três não aconteceu. Você vai levar essa convicção pros próximos passos e vai empurrar. Se quem está convencida é ela, os próximos passos são só confirmação.
+O quarto é o que engana. Se quem está convencida é você, o passo três não aconteceu. Você vai levar essa convicção para os próximos passos e vai “empurrar”. Se quem está convencida é ela, os próximos passos são só confirmação.
 
     PERGUNTA EM ABERTO — Na sua última conversa que morreu, você sabe o que tinha mudado na vida da paciente? Ou você só sabe o que ela queria fazer?
 
@@ -392,7 +392,7 @@ CAPÍTULO 06 · Qualificação
       VOCÊ: Com tudo o que falamos... como você entende que a consulta com a doutora pode te ajudar nesse momento?
       ELA: Eu acho que a doutora vai olhar o meu rosto e me dizer o que dá pra fazer nessa região do queixo antes de novembro. Eu quero chegar no casamento sem ficar me escondendo nas fotos.
 
-Então lê a resposta dela de novo. Ela acabou de escrever, com as palavras dela, o que a consulta é. A doutora vai olhar, vai dizer o que dá pra fazer, antes de novembro, pra ela não se esconder nas fotos. Você não apresentou nada ainda, gente. E a paciente já vendeu a consulta pra ela mesma.
+Então lê a resposta dela de novo. Ela acabou de escrever, com as palavras dela, o que a consulta é. A doutora vai olhar, vai dizer o que dá pra fazer, antes de novembro, pra ela não se esconder nas fotos. Você não apresentou nada ainda. E a paciente já vendeu a consulta pra ela mesma.
 
 Isso é o passo quatro, e é onde a frase da primeira página do framework acontece: vender só aquilo que a pessoa já quer comprar. A venda acontece sem você vender. Eu já estive do lado de lá dessa conversa, lembra da salinha? Quando a doutora terminou o diagnóstico, eu já tava completamente na emoção e já tinha entendido que aquilo ali resolvia o meu problema, e não precisava ter tido processo de convencimento nenhum depois, né? Se eu tivesse entendido o preço ali na sala, talvez eu teria fechado lá dentro. E a paciente do queixo chegou no mesmo lugar sem passar por salinha nenhuma. Ela pediu a consulta. Você só perguntou.
 
@@ -431,9 +431,9 @@ O segundo é o erro que mais volta no material, porque se qualificar demais apar
       NEG: Eu só quero fazer o procedimento tal.
       POS: Ela entendeu o meu problema e sei que vai me ajudar a resolver.
 
-As duas leituras negativas do passo quatro aparecem pelo mesmo motivo: a gente não foi fundo no problema, e ela nunca chegou a contar por que foi procurar a consulta. Porque se a pessoa não verbalizar isso, qualquer coisa que eu falar depois vai ser uma solução para um problema que, pra ela, não é tão grave assim, não é tão sério para ela. Então, se ela chega no passo quatro e ainda fala em procedimento, é porque o passo dois ficou raso, ou o três. Volta.
+As duas leituras negativas do passo quatro aparecem pelo mesmo motivo: a gente não foi fundo no problema, e ela nunca chegou a contar por que foi procurar a consulta. Porque se a pessoa não verbalizar isso, qualquer coisa que eu falar depois vai ser uma solução para um problema que, pra ela, não é tão grave assim, não é tão sério para ela. Então, se ela chega no passo quatro e ainda fala em procedimento, é porque o passo dois ficou raso, ou o três. Então volta.
 
-A leitura positiva é: “ela entendeu o meu problema e sei que vai me ajudar a resolver”. E acontece quando a gente mostra que quer entender o que ela está dizendo e quando a gente ouve mais do que fala. No WhatsApp isso é uma coisa só: a sua mensagem começa pela palavra dela e no fim do passo ela escreveu mais do que você.
+A leitura positiva é: “ela entendeu o meu problema e sei que vai me ajudar a resolver”. Isso acontece quando a gente mostra que quer entender o que ela está dizendo e quando a gente ouve mais do que fala. No WhatsApp isso é uma coisa só: a sua mensagem começa pela palavra dela e no fim do passo ela escreveu mais do que você.
 
 ## Quando avançar
 
@@ -461,7 +461,7 @@ O passo cinco é uma mensagem só, e é o mais curto do script. Sabe o que a gen
 
 ## Pra que serve
 
-Ligar o que a gente faz com o problema que ela trouxe. Mostrar que é isso que ela estava procurando. E dizer por que, pro problema dela, a consulta é o próximo passo.
+Ligar o que a gente faz com o problema que ela trouxe. Mostrar que é isso que ela estava procurando. E dizer por que, para o problema dela, a consulta é o próximo passo.
 
 Os três objetivos falam do problema dela. Sem o problema que a pessoa tá passando, a transição vai ser de onde para onde? E ela não apresenta a consulta ainda, isso é o passo seis. Ela só justifica o próximo passo, com o que ela mesma te contou.
 
@@ -480,7 +480,7 @@ Três pedaços. O nome dela. A forma como ela trouxe e o tempo que ela está ass
 
 E se ela não te deu o tempo, não inventa um. Tira esse pedaço e fica só com a forma que ela trouxe, a frase aguenta.
 
-As reticências são do script e eu acho que fazem diferença, então mantém elas. No WhatsApp a paciente lê com a pausa, como se você estivesse pensando junto com ela.
+As reticências são do script e eu acredito que fazem diferença, então mantém elas. No WhatsApp a paciente lê com a pausa, como se você estivesse pensando junto com ela.
 
     O QUE EVITAR — Explicação técnica sobre procedimento. Listar todas as qualificações da doutora sem conexão com o problema. Passar muita informação de uma vez. E falar de preço antes de mostrar como a consulta resolve o problema.
 
@@ -510,7 +510,7 @@ Então, isso aí é a apresentação inteira. Uma frase, colada na transição, 
       O sentimento, «com a palavra dela» | O que a doutora vai fazer
       | Quanto tempo dura a consulta
 
-Eu sei que dá vontade de encher. É o momento em que você sente que finalmente pode falar, depois de quatro passos perguntando e um só concordando. E é por isso que a apresentação é curta, gente: quem construiu o valor da consulta foi ela, nos cinco passos anteriores, e você só devolve.
+Eu sei que dá vontade de encher. É o momento em que você sente que finalmente pode falar, depois de quatro passos perguntando e um só concordando. E é por isso que a apresentação é curta: quem construiu o valor da consulta foi ela, nos cinco passos anteriores, e você só devolve.
 
 ## Pra que serve
 
@@ -526,7 +526,7 @@ O “por isso” cola na transição. O “já sei” é você assumindo a autor
 
     O QUE EVITAR — Explicar a consulta como um processo mecânico ou técnico. Dizer que “se você se sentir segura, pode fazer o procedimento no mesmo dia”. Falar do preço antes de construir todo o valor da consulta. Dar a impressão de que a consulta é só uma formalidade antes do procedimento. Qualificar demais a consulta pra ela parecer mais valiosa, e oferecer soluções diferentes do que ela está buscando. E falar da duração da consulta.
 
-Seis erros, e eu quero comentar dois. O “pode fazer no mesmo dia” parece facilitar, e na cabeça dela transforma a consulta numa etapa burocrática antes da agulha. Ela deixa de vir pra consulta e passa a vir pro procedimento, e aí o preço da consulta vira obstáculo. E a duração: quando você diz que a consulta dura uma hora, você deu pra ela uma medida pra comparar com o preço e a consulta deixa de valer o problema resolvido e passa a valer uma hora.
+Existem seis erros, mas eu gostaria de comentar dois. O “pode fazer no mesmo dia” parece facilitar, e na cabeça dela transforma a consulta numa etapa burocrática antes da agulha. Ela deixa de vir pra consulta e passa a vir para o procedimento, e aí o preço da consulta vira obstáculo. E a duração: quando você diz que a consulta dura uma hora, você deu pra ela uma medida pra comparar com o preço e a consulta deixa de valer o problema resolvido e passa a valer uma hora.
 
 ## Como ela lê você
 
@@ -536,9 +536,9 @@ Seis erros, e eu quero comentar dois. O “pode fazer no mesmo dia” parece fac
       NEG: Preciso avaliar se é pra mim.
       POS: É exatamente isso que eu estou buscando.
 
-Repara que as três nascem de excesso, porque a gente apresentou mais solução do que ela pediu e solução que não resolve o problema dela e porque a gente qualificou demais a consulta e encheu a paciente de informação que não serve pra ela.
+Repara que as três nascem de excesso, porque a gente apresentou mais solução do que ela pediu, e solução que não resolve o problema dela, e porque a gente qualificou demais a consulta e encheu a paciente de informação que não serve pra ela.
 
-A positiva é uma só, e acontece quando você apresenta a solução certa pro problema que ela trouxe e quando você usa as palavras dela pra referenciar o problema durante a apresentação.
+A positiva é uma só, e acontece quando você apresenta a solução certa para o problema que ela trouxe e quando você usa as palavras dela pra referenciar o problema durante a apresentação.
 
 ## Quando avançar
 
@@ -570,7 +570,7 @@ Então, esse é o passo sete. Um dos dois erros que o framework manda evitar aqu
 
 ## Pra que serve
 
-Ser o próximo passo óbvio pra resolver o problema. Se os seis passos anteriores aconteceram, o fechamento só organiza o que ela já decidiu.
+O próximo passo óbvio para resolver o problema. Se os seis passos anteriores aconteceram, o fechamento só organiza o que ela já decidiu.
 
 ## Os três passos
 
@@ -623,7 +623,7 @@ O segundo erro é o que explica “vou pensar” chegando no fechamento. Se ela 
 
 A leitura negativa aqui é pequena e passa batida. É a paciente dizendo que a consulta virou um custo. Isso acontece quando o preço da consulta parece maior do que o preço de não resolver o problema, e quando a gente não mostrou, ao longo da conversa, o que a consulta resolve.
 
-A leitura positiva é: “estou tomando a melhor decisão”. E acontece quando, ao longo da conversa, ficou claro qual era o problema, como ele mexe com ela e por que é agora e não depois. E quando a consulta apareceu como a resposta pra isso. Essa lista, ponto importante, é o script inteiro, gente. O fechamento colhe o que os seis passos deixaram pronto.
+A leitura positiva é: “estou tomando a melhor decisão”. E acontece quando, ao longo da conversa, ficou claro qual era o problema, como ele mexe com ela e por que é agora e não depois. E quando a consulta apareceu como a resposta pra isso. O fechamento colhe o que os seis passos deixaram pronto.
 
 ## Sinais de sucesso
 
@@ -649,7 +649,7 @@ CAPÍTULO 10 · Objeção não é um não
 [conversa de WhatsApp]
       ELA: Ah, entendi. Vou pensar e qualquer coisa te aviso.
 
-Naqueles dez minutinhos antes da salinha, o que passou pela minha cabeça foi isso: e se for muito caro, será que é prioridade agora, será que eu não encontro outro jeito? Eu, que trabalho com isso o dia inteiro. E a doutora, na mesma consulta, tinha me falado que estava com muita gente indo pra casa pensar. Então, quando eu leio um “vou pensar e qualquer coisa te aviso” no WhatsApp de uma clínica, eu sei o que tem atrás, porque já passou pela minha cabeça também. Se você atende WhatsApp de clínica, já leu essa mensagem mais vezes do que gostaria, sabe?
+Naqueles dez minutinhos antes da salinha, o que passou pela minha cabeça foi isso: e se for muito caro, será que é prioridade agora, será que eu não encontro outro jeito? Eu, que trabalho com isso o dia inteiro. E a doutora, na mesma consulta, tinha me falado que estava com muita gente indo pra casa pensar. Então, quando eu leio um “vou pensar e qualquer coisa te aviso” no WhatsApp de uma clínica, eu sei o que tem por trás, porque já passou pela minha cabeça também. Se você atende WhatsApp de clínica, já leu essa mensagem mais vezes do que gostaria, sabe?
 
 E a resposta que perde a paciente é justamente a mais educada, “claro, fico à disposição”. Educado, tranquilo, e a conversa acabou ali. O controle passou pra ela, e ela provavelmente não volta. E mesmo assim a gente responde isso, porque parece o certo.
 
@@ -664,7 +664,7 @@ Se você reage com ansiedade, pressa ou justificativa, perde a paciente. Se resp
       X | Você reage com ansiedade, pressa ou justificativa | Perde a paciente
       V | Você responde com curiosidade e direção | A conversa volta, e o agendamento junto
 
-Curiosidade e direção. Eu gosto dessas duas palavras. Curiosidade é o que passa na sua cabeça quando chega o “vou pensar”: pensar no quê. E a direção é o que a gente faz com essa curiosidade, que é perguntar em vez de ficar esperando ela voltar.
+Curiosidade e direção. Eu gosto dessas duas palavras. Curiosidade é o que passa na sua cabeça quando chega o “vou pensar”: pensar no quê? E a direção é o que a gente faz com essa curiosidade, que é perguntar em vez de ficar esperando ela voltar.
 
 ## Dois tipos
 
@@ -678,7 +678,7 @@ Existem dois tipos de objeção, e a resposta certa muda conforme qual das duas 
 
 A objeção real vem com nome. Olha uma: “Ah, eu posso ficar igual o fofão. Uma bochecha imensa, a cara quadrada. Como é que você me garante que não vai acontecer?” Ela te contou o medo. O medo tem nome, e é o nome que você pergunta. “Quando você diz que pode ficar igual o fofão, o que exatamente te preocupa?” E ela vai te contar de onde vem isso e o que ela não quer de jeito nenhum, e você tá de volta no passo dois só que agora em cima do medo dela.
 
-Repara no “de repente”: a paciente estava conversando bem e contou o problema e estava tudo certo e na hora do horário apareceu o “vou ver com meu marido”. Ó, gente, eu não sei quantos maridos que eu tive na minha vida de ter falado “não, tenho que ver com meu marido”. Os maridos, o tanto de marido que essas mulheres criam.
+Repara no “de repente”: a paciente estava conversando bem e contou o problema e estava tudo certo e na hora do horário apareceu o “vou ver com meu marido”. Olha, gente, eu já nem sei quantos maridos eu tive na minha vida por já ter falado “não, tenho que ver com o meu marido”. Vocês não têm noção do tanto de “maridos” que essas mulheres criam.
 
 Se a gente quer saber qual das duas chegou, a gente pergunta. E pergunta com curiosidade, não com cobrança, que ela sente a diferença.
 
@@ -690,7 +690,7 @@ Qualquer uma das duas serve. A de baixo é a de cima já com o “vou pensar” 
 
 Se a resposta for vaga, outro “te aviso depois” ou um “ah, não sei”, é cortina de fumaça. E a cortina esconde quase sempre a mesma coisa: ela ainda não sabe se a consulta resolve o problema dela. O preço, o marido e a agenda entram na conversa porque algum passo anterior ficou raso e a paciente chegou no fechamento sem estar convencida por ela mesma.
 
-E é aqui que entra o voltar que eu prometi no capítulo 9. Voltar é refazer a pergunta do passo que ficou raso, em vez de inventar resposta nova pra objeção. Olha as duas respostas pro “vou pensar” que você vai ver inteiras no capítulo 11. “O que te fez pensar em resolver isso agora e nos trouxe até aqui?” é a pergunta do passo três. “Como entendeu que a consulta com a doutora vai te ajudar a resolver [problema]?” é a pergunta do passo quatro. Você volta pro passo que ficou raso e pergunta de novo.
+E é aqui que entra o voltar que eu prometi no capítulo 9. Voltar é refazer a pergunta do passo que ficou raso, em vez de inventar resposta nova pra objeção. Olha as duas respostas para o “vou pensar” que você vai ver inteiras no capítulo 11. “O que te fez pensar em resolver isso agora e nos trouxe até aqui?” é a pergunta do passo três. “Como entendeu que a consulta com a doutora vai te ajudar a resolver [problema]?” é a pergunta do passo quatro. Você volta pro passo que ficou raso e pergunta de novo.
 
     [gráfico: mapa]
       “O que te fez pensar em resolver isso agora e nos trouxe até aqui?” | Passo 3
@@ -698,7 +698,7 @@ E é aqui que entra o voltar que eu prometi no capítulo 9. Voltar é refazer a 
 
 ## Por que responder mata
 
-A forma mais fácil de encerrar uma conversa é com uma resposta. Eu já te disse isso lá no capítulo 2, e acho que aqui é onde ela pesa mais, porque vale pra objeção e vale pra pergunta, a regra é a mesma. Pensa na pergunta que chega logo no início da conversa, “quanto custa a consulta?”. Se você responde “a consulta custa R$ 200”, acabou. E pensa só. Ela quer saber o preço? Ela não quer saber o preço. Ela quer saber se vale o preço, né? E com o seu 200 na mão ela vai comparar com a clínica ao lado sem saber o que nenhuma das duas consultas resolve.
+A forma mais fácil de encerrar uma conversa é com uma resposta. Eu já te disse isso lá no capítulo 2, e acho que aqui é onde ela pesa mais, porque vale pra objeção e vale pra pergunta, a regra é a mesma. Pensa na pergunta que chega logo no início da conversa, “quanto custa a consulta?”. Se você responde “a consulta custa R$ 200”, acabou. E pensa só. Ela quer saber o preço? Ela não quer saber o preço. Ela quer saber se vale o preço, né? E com os seus R$ 200 na mão ela vai comparar com a clínica ao lado sem saber o que nenhuma das duas consultas resolve.
 
 Agora, se você responde assim:
 
@@ -715,7 +715,7 @@ CAPÍTULO 11 · O manual de respostas
    Objeção por objeção: o que perde a paciente e o que continua a conversa.
 ------------------------------------------------------------------------------
 
-Este capítulo é pra deixar do lado do celular. Eu organizei por família de objeção, e em cada uma você vai ver a mensagem que a paciente manda e o que a gente responde se quiser continuar a conversa, e nas que mais aparecem eu mostro também o que a gente responde se quiser perder a paciente, e por que perde. As frases de continuar são modelo, do mesmo jeito que eu falei no capítulo 2. Copia a frase, troca pelas palavras que ela mesma usou, e o que você manda depois depende do que ela respondeu.
+Este capítulo é pra deixar do lado do celular. Eu organizei por tipo de objeção, e em cada uma você vai ver a mensagem que a paciente manda e o que a gente responde se quiser continuar a conversa, e nas que mais aparecem eu mostro também o que a gente responde se quiser perder a paciente, e por que perde. As frases de continuar são modelo, do mesmo jeito que eu falei no capítulo 2. Copia a frase, troca pelas palavras que ela mesma usou, e o que você manda depois depende do que ela respondeu.
 
     [gráfico: indice]
       Preço
@@ -726,7 +726,7 @@ Este capítulo é pra deixar do lado do celular. Eu organizei por família de ob
       Resistência
       A paciente mandou foto
 
-Gente, repara que quase toda resposta que continua a conversa devolve uma pergunta. As duas que não devolvem são as da hora do PIX, porque ali a regra da casa já é a resposta inteira: você diz numa linha e segue. As perguntas somos nós que fazemos. Até porque penso o seguinte: se a gente responde as perguntas que a pessoa faz, quem tá no controle da conversa é ela.
+Gente, repara que quase toda resposta que continua a conversa devolve uma pergunta. As duas que não devolvem são as da hora do PIX, porque ali a regra da casa já é a resposta inteira: você diz em uma linha e segue. As perguntas somos nós que fazemos. Até porque penso o seguinte: se a gente responde as perguntas que a pessoa faz, quem tá no controle da conversa é ela.
 
 ## Preço
 
@@ -780,7 +780,7 @@ Já a segunda só gera mais objeção. Se ela não entendeu o valor da consulta 
       SE RESPONDER ASSIM, PERDE: “A doutora é referência na área e especialista em casos como o seu, esse é o valor da hora dela.”
       O QUE CONTINUA A CONVERSA: Claro, sem problemas! O que espera encontrar de diferente lá?
 
-O preço não é a objeção real. Gente, o que incomoda a paciente não é pagar, é pagar por algo que ela ainda não entendeu o valor.
+O preço não é a objeção real. O que incomoda a paciente não é pagar, é pagar por algo que ela ainda não entendeu o valor.
 
     [cartão de objeção]
       ELA MANDA: “tenho que ir pra fazer orçamento e ver valor de procedimento? Não pode falar por aqui?”.
@@ -915,7 +915,7 @@ CAPÍTULO 12 · Doutora é vendedora também
 
 No capítulo 1 eu te contei a salinha do financeiro pelo lado da paciente.
 
-E de vendedora, o que eu vi foi isso: a doutora entendeu o meu problema e uma outra pessoa vendeu.
+E como vendedora, o que eu vi foi isso: a doutora entendeu o meu problema e uma outra pessoa vendeu.
 
 E aqui eu não estou falando que existe um certo ou errado, mas pelo que eu observo nas mais de 3 mil clínicas por aqui, quando a doutora se capacita pra fazer o fechamento e ela entende que ela é doutora e que ela é vendedora também, o ticket médio sobe, a taxa de fechamento sobe, enfim, é mil maravilhas.
 
@@ -934,10 +934,10 @@ Tudo, e é por isso que eu escrevi este livro em vez de um sobre a consulta.
 
 A doutora que responde o preço na primeira mensagem do WhatsApp é a mesma que manda a paciente pra salinha do financeiro.
 
-No WhatsApp o número vai pra paciente cedo demais. Na salinha, vai por uma pessoa que não ouviu nada, e nos dois casos a paciente sai com o número na mão e vai pensar sozinha, não porque o número é alto, mas porque ela ainda não sabe se aquilo resolve o problema dela.
+No WhatsApp o número vai para a paciente cedo demais. Na salinha, vai por uma pessoa que não ouviu nada, e nos dois casos a paciente sai com o número na mão e vai pensar sozinha, não porque o número é alto, mas porque ela ainda não sabe se aquilo resolve o problema dela.
 
     [gráfico: convergem]
-      No WhatsApp | O número vai pra paciente «cedo demais»
+      No WhatsApp | O número vai para a paciente «cedo demais»
       Na salinha | Vai por uma pessoa que «não ouviu nada»
       => Ela sai com o número na mão e vai pensar sozinha
 
@@ -949,7 +949,7 @@ Pega a próxima paciente nova que chamar no WhatsApp e faz os sete passos com el
 
 E as conversas que já morreram no seu WhatsApp, aquelas que você abriu enquanto lia este livro? Elas não estão perdidas, e o jeito de voltar nelas não é mandar “passando pra saber se você viu”. Essa é a mensagem que queima o contato de vez.
 
-A regra da casa pra reabrir conversa é uma só: cada toque traz coisa nova. Um caso, uma pergunta, uma referência, alguma coisa que ela ainda não tinha visto. Repetir cobrança sem novidade não é insistência, é queimar o lead.
+A regra da casa para reabrir conversa é uma só: cada toque traz coisa nova. Um caso, uma pergunta, uma referência, alguma coisa que ela ainda não tinha visto. Repetir cobrança sem novidade não é insistência, é queimar o lead.
 
 E o que traz coisa nova numa conversa antiga é a dor que ela já te contou. Você volta na conversa, procura a palavra que ela usou lá atrás, e reabre por ali. E se for mandar áudio, começa pela palavra dela: “lembrei do que você me contou daquele incômodo antes do casamento, ainda faz sentido pra você?”. Não é cobrança, é reaproximação, e é a palavra dela que abre a porta de novo, do mesmo jeito que abriria numa conversa nova.
 
@@ -1024,7 +1024,7 @@ Sucesso quando ela confirma sem hesitar, paga na hora e pergunta onde fica.
 
     FRASE PRONTA — Quando você diz [objeção], o que exatamente te preocupa?
 
-Resposta específica, você conversa sobre ela. Resposta vaga é cortina: algum passo anterior ficou raso. Volta pra ele, refaz a pergunta, e só oferece horário de novo quando o sinal daquele passo aparecer. As respostas prontas, objeção por objeção, estão no capítulo 11.
+Resposta específica, você conversa sobre ela. Resposta vaga é cortina de fumaça: algum passo anterior ficou raso. Volta pra ele, refaz a pergunta, e só oferece horário de novo quando o sinal daquele passo aparecer. As respostas prontas, objeção por objeção, estão no capítulo 11.
 
 ------------------------------------------------------------------------------
 ANEXO B · Banco de perguntas
@@ -1055,7 +1055,7 @@ Aqui a gente ganha a permissão e a confiança pra seguir e aprofundar.
 
 Clarear e aprofundar o presente que ela já sabe que não está bom.
 
-As primeiras servem pra clarear a palavra que ela usou.
+As primeiras servem para clarear a palavra que ela usou.
 
 1. “Quando você diz ‘rosto flácido’, o que exatamente você quer dizer com isso?”
 2. “O que você quis dizer com ‘olhar cansado’? Como você percebe isso?”
@@ -1121,7 +1121,7 @@ ANEXO C · Quando ela vem de anúncio de paciente modelo
    Nem a mensagem seca, nem os sete passos. Porque aqui é ela que está disputando a vaga.
 ------------------------------------------------------------------------------
 
-Tudo que eu te mostrei até aqui é pra paciente que chegou sozinha até você, pelo perfil, por um caso ou por um anúncio comum, perguntando de procedimento ou de preço. Essa paciente tá quentinha, tá morna ali. Tá só esperando você aquecer mais. Só que a paciente que chega por anúncio de paciente modelo é outra conversa e tem um caminho próprio, mais curto de propósito, e é ele inteiro que está aqui, porque a dúvida chega direto pra gente. “Os leads estão chegando, mas, depois que eu passo o preço, a maioria questiona. Como assim, paciente modelo e eu vou ter que pagar?”
+Tudo que eu te mostrei até aqui é para a paciente que chegou sozinha até você, pelo perfil, por um caso ou por um anúncio comum, perguntando de procedimento ou de preço. Essa paciente já está quente ou morna. Tá só esperando você aquecer mais. Só que a paciente que chega por anúncio de paciente modelo é outra conversa e tem um caminho próprio, mais curto de propósito, e é ele que está aqui, porque a dúvida chega direto pra gente. “Os leads estão chegando, mas, depois que eu passo o preço, a maioria questiona. Como assim, paciente modelo e eu vou ter que pagar?”
 
 Acontece. E acontece porque essa pessoa está procurando uma oportunidade. Literalmente uma oportunidade, uma oportunidade escassa, que talvez não aconteça de novo. Então a gente precisa tratar esse atendimento mais do que nunca como um processo seletivo, um processo de seleção mesmo. Tem gente que faz o 715 inteiro com ela e se frustra muito, porque no final ela questiona o preço mais do que uma paciente normal. E fica inviável a gente fazer o framework completo com todo mundo: tem clínica que recebe dez, vinte, quarenta mensagens de paciente modelo por dia.
 
@@ -1138,13 +1138,13 @@ Edição é a leva de vagas de modelo que você abre no mês. É a palavra que v
 
     FRASE PRONTA — Oi [Nome], aqui é a [seu nome], da clínica da doutora [nome da doutora]. Antes de passar as informações sobre a vaga de paciente modelo, deixa eu entender rapidinho se faz sentido você entrar ainda nessa edição. E se sim, a gente pensa nos próximos passos. Como você entende que participar dessa edição vai te ajudar agora?
 
-A resposta que você quer ouvir é alguma versão de “eu estou buscando uma oportunidade de fazer harmonização facial por um preço mais acessível”. Quem veio pelo quiz, que é o formulário de perguntas que ela responde antes de cair no seu WhatsApp, chega um pouco mais consciente, porque leu muita coisa no caminho. Quem veio direto pra mensagem precisa dessa conscientização aqui, na conversa.
+A resposta que você quer ouvir é alguma versão de “eu estou buscando uma oportunidade de fazer harmonização facial por um preço mais acessível”. Quem veio pelo quiz (que é o formulário de perguntas que ela responde antes de cair no seu WhatsApp) chega um pouco mais consciente, porque leu muita coisa no caminho. Quem veio direto pra mensagem precisa dessa conscientização aqui, na conversa.
 
 ## Situação, que aqui é seleção
 
     FRASE PRONTA — Entendi. Então me conta o que exatamente você vê hoje quando se olha no espelho e que gostaria que fosse diferente. Me manda uma foto sua de frente, se puder. Não vale a do perfil.
 
-A seleção começa na foto. Se o que você quer é caso pro feed, a gente precisa ter definido antes qual que é o problema que você resolve, certo? E sem isso, qualquer investimento em paciente modelo é dinheiro jogado fora. Se você está se posicionando em derretimento facial e entra em contato uma pessoa mais ou menos na faixa dos 28 anos, não é o problema que você tá posicionada para resolver. Essa não entra nessa edição. E é pra ela que serve a saída. Agora, se a vaga é pra ter caso e caixa ao mesmo tempo, aí você não usa o corte por idade nem por problema: aceita quem chegou e vai da situação direto pra apresentação.
+A seleção começa na foto. Se o que você quer é caso para o feed, a gente precisa ter definido antes qual que é o problema que você resolve, certo? E sem isso, qualquer investimento em paciente modelo é dinheiro jogado fora. Se você está se posicionando em derretimento facial e entra em contato uma pessoa mais ou menos na faixa dos 28 anos, não é o problema que você tá posicionada para resolver. Essa não entra nessa edição. E é pra ela que serve a saída. Agora, se a vaga é pra ter caso e caixa ao mesmo tempo, aí você não usa o corte por idade nem por problema: aceita quem chegou e vai da situação direto pra apresentação.
 
     [gráfico: bifurca]
       A seleção começa na foto

@@ -138,7 +138,7 @@ era a frase que estava errada, não o arquivo.
 
 **Uma consequência prática, pequena mas real:** o *chrome* com espaçamento de letra (o
 kicker, o cabeçalho, o rodapé e os rótulos dos cartões, todos em Space Mono) sai da busca
-como letra separada, `P R O V A  N º  0 3`. Isso é do espaçamento, não da fonte, e vale
+como letra separada, `C A P Í T U L O  0 3`. Isso é do espaçamento, não da fonte, e vale
 pra qualquer leitor de PDF. Todo o conteúdo de leitura, incluindo títulos, corpo, frases
 prontas, balões e gráficos, é pesquisável normalmente.
 

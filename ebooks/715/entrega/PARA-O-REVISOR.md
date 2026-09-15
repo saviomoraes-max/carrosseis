@@ -27,12 +27,12 @@ leitura, sem as marcações do compilador.
 **Ele navega.** Abra os marcadores do PDF (o painel lateral) e você tem as quatro partes com os
 quinze blocos aninhados. No sumário, cada linha leva à página do capítulo. Dentro do texto, toda
 menção a "capítulo 11" ou "anexo A" é link. Nas páginas de parte, cada linha da lista é link. E
-**cada um dos sete círculos do trilho é link pro capítulo daquele passo** — são 123 links internos,
+**cada um dos sete círculos do trilho é link pro capítulo daquele passo** — são 122 links internos,
 todos conferidos um a um contra a página de destino.
 
 Duas observações de arquivo, pra você não estranhar: o texto é selecionável e pesquisável, mas o
 *chrome* com espaçamento de letra (kicker, cabeçalho, rodapé, rótulos dos cartões) sai da busca
-como letra separada, `P R O V A  N º  0 3` — é do espaçamento, vale pra qualquer leitor. E as
+como letra separada, `C A P Í T U L O  0 3` — é do espaçamento, vale pra qualquer leitor. E as
 fontes de título e de corpo vêm do sistema e são desenhadas como vetor, então o PDF não carrega
 arquivo de fonte licenciada dentro dele.
 

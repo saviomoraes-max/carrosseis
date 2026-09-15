@@ -1,8 +1,9 @@
 ---
 numero: "07"
-kicker: "Passo 05"
-prova: "Prova nº 07 · Passo 5 de 7"
-hud: "Script 715 · Passo 05 / 07"
+kicker: "Capítulo 07"
+passo: "5"
+prova: "Capítulo 07 · Passo 5 de 7"
+hud: "Script 715 · Capítulo 07 · Passo 5/7"
 titulo: "Transição"
 subtitulo: "Uma frase, e nada de técnico nela."
 fontes: "fontes/01-framework-715.md (Etapa 5, p.6-7); fontes/03-manual-perguntas.md (5. Transição, p.3)"
@@ -17,7 +18,7 @@ O passo cinco é uma mensagem só, e é o mais curto do script. Sabe o que a gen
 
 ## Pra que serve
 
-Ligar o que a gente faz com o problema que ela trouxe. Mostrar que é isso que ela estava procurando. E dizer por que, pro problema dela, a consulta é o próximo passo.
+Ligar o que a gente faz com o problema que ela trouxe. Mostrar que é isso que ela estava procurando. E dizer por que, para o problema dela, a consulta é o próximo passo.
 
 Os três objetivos falam do problema dela. Sem o problema que a pessoa tá passando, a transição vai ser de onde para onde? E ela não apresenta a consulta ainda, isso é o passo seis. Ela só justifica o próximo passo, com o que ela mesma te contou.
 
@@ -39,7 +40,7 @@ Três pedaços. O nome dela. A forma como ela trouxe e o tempo que ela está ass
 
 E se ela não te deu o tempo, não inventa um. Tira esse pedaço e fica só com a forma que ela trouxe, a frase aguenta.
 
-As reticências são do script e eu acho que fazem diferença, então mantém elas. No WhatsApp a paciente lê com a pausa, como se você estivesse pensando junto com ela.
+As reticências são do script e eu acredito que fazem diferença, então mantém elas. No WhatsApp a paciente lê com a pausa, como se você estivesse pensando junto com ela.
 
 :::evite
 Explicação técnica sobre procedimento. Listar todas as qualificações da doutora sem conexão com o problema. Passar muita informação de uma vez. E falar de preço antes de mostrar como a consulta resolve o problema.

@@ -1,8 +1,9 @@
 ---
 numero: "06"
-kicker: "Passo 04"
-prova: "Prova nº 06 · Passo 4 de 7"
-hud: "Script 715 · Passo 04 / 07"
+kicker: "Capítulo 06"
+passo: "4"
+prova: "Capítulo 06 · Passo 4 de 7"
+hud: "Script 715 · Capítulo 06 · Passo 4/7"
 titulo: "Qualificação"
 subtitulo: "Onde ela diz, com as palavras dela, o que a consulta vai resolver."
 fontes: "fontes/01-framework-715.md (Etapa 4, p.5-6); fontes/03-manual-perguntas.md (4. Qualificação, p.2-3)"
@@ -14,7 +15,7 @@ VOCÊ: Com tudo o que falamos... como você entende que a consulta com a doutora
 ELA: Eu acho que a doutora vai olhar o meu rosto e me dizer o que dá pra fazer nessa região do queixo antes de novembro. Eu quero chegar no casamento sem ficar me escondendo nas fotos.
 :::
 
-Então lê a resposta dela de novo. Ela acabou de escrever, com as palavras dela, o que a consulta é. A doutora vai olhar, vai dizer o que dá pra fazer, antes de novembro, pra ela não se esconder nas fotos. Você não apresentou nada ainda, gente. E a paciente já vendeu a consulta pra ela mesma.
+Então lê a resposta dela de novo. Ela acabou de escrever, com as palavras dela, o que a consulta é. A doutora vai olhar, vai dizer o que dá pra fazer, antes de novembro, pra ela não se esconder nas fotos. Você não apresentou nada ainda. E a paciente já vendeu a consulta pra ela mesma.
 
 Isso é o passo quatro, e é onde a frase da primeira página do framework acontece: vender só aquilo que a pessoa já quer comprar. A venda acontece sem você vender. Eu já estive do lado de lá dessa conversa, lembra da salinha? Quando a doutora terminou o diagnóstico, eu já tava completamente na emoção e já tinha entendido que aquilo ali resolvia o meu problema, e não precisava ter tido processo de convencimento nenhum depois, né? Se eu tivesse entendido o preço ali na sala, talvez eu teria fechado lá dentro. E a paciente do queixo chegou no mesmo lugar sem passar por salinha nenhuma. Ela pediu a consulta. Você só perguntou.
 
@@ -65,9 +66,9 @@ NEG: Eu só quero fazer o procedimento tal.
 POS: Ela entendeu o meu problema e sei que vai me ajudar a resolver.
 :::
 
-As duas leituras negativas do passo quatro aparecem pelo mesmo motivo: a gente não foi fundo no problema, e ela nunca chegou a contar por que foi procurar a consulta. Porque se a pessoa não verbalizar isso, qualquer coisa que eu falar depois vai ser uma solução para um problema que, pra ela, não é tão grave assim, não é tão sério para ela. Então, se ela chega no passo quatro e ainda fala em procedimento, é porque o passo dois ficou raso, ou o três. Volta.
+As duas leituras negativas do passo quatro aparecem pelo mesmo motivo: a gente não foi fundo no problema, e ela nunca chegou a contar por que foi procurar a consulta. Porque se a pessoa não verbalizar isso, qualquer coisa que eu falar depois vai ser uma solução para um problema que, pra ela, não é tão grave assim, não é tão sério para ela. Então, se ela chega no passo quatro e ainda fala em procedimento, é porque o passo dois ficou raso, ou o três. Então volta.
 
-A leitura positiva é: “ela entendeu o meu problema e sei que vai me ajudar a resolver”. E acontece quando a gente mostra que quer entender o que ela está dizendo e quando a gente ouve mais do que fala. No WhatsApp isso é uma coisa só: a sua mensagem começa pela palavra dela e no fim do passo ela escreveu mais do que você.
+A leitura positiva é: “ela entendeu o meu problema e sei que vai me ajudar a resolver”. Isso acontece quando a gente mostra que quer entender o que ela está dizendo e quando a gente ouve mais do que fala. No WhatsApp isso é uma coisa só: a sua mensagem começa pela palavra dela e no fim do passo ela escreveu mais do que você.
 
 ## Quando avançar
 

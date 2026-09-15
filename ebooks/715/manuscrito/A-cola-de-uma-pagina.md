@@ -86,4 +86,4 @@ Sucesso quando ela confirma sem hesitar, paga na hora e pergunta onde fica.
 Quando você diz [objeção], o que exatamente te preocupa?
 :::
 
-Resposta específica, você conversa sobre ela. Resposta vaga é cortina: algum passo anterior ficou raso. Volta pra ele, refaz a pergunta, e só oferece horário de novo quando o sinal daquele passo aparecer. As respostas prontas, objeção por objeção, estão no capítulo 11.
+Resposta específica, você conversa sobre ela. Resposta vaga é cortina de fumaça: algum passo anterior ficou raso. Volta pra ele, refaz a pergunta, e só oferece horário de novo quando o sinal daquele passo aparecer. As respostas prontas, objeção por objeção, estão no capítulo 11.

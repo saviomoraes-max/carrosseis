@@ -34,7 +34,7 @@ Aqui a gente ganha a permissão e a confiança pra seguir e aprofundar.
 
 Clarear e aprofundar o presente que ela já sabe que não está bom.
 
-As primeiras servem pra clarear a palavra que ela usou.
+As primeiras servem para clarear a palavra que ela usou.
 
 1. “Quando você diz ‘rosto flácido’, o que exatamente você quer dizer com isso?”
 2. “O que você quis dizer com ‘olhar cansado’? Como você percebe isso?”
