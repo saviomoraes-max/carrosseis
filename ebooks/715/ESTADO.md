@@ -338,6 +338,20 @@ Cada uma tem arquivo próprio. Ler antes de mexer em qualquer coisa.
   esse incômodo?", "O que te trouxe a procurar por [procedimento] hoje?" e "Vou te explicar
   como funciona. Antes, que outra dúvida... antes de vermos a disponibilidade na agenda da
   doutora?" (esta também na citação do capítulo 08).
+- **Segunda rodada do Josué, 16/set: 6 correções, aplicadas** (`aplicar-revisao-josue-2.py`,
+  7 trocas porque a da p40 vale em dois lugares). PDF, áudio e transcrição em `revisao/humana/`.
+  O áudio foi transcrito no **ElevenLabs Scribe** (`scribe_v1`, `language_code=por`, chave no
+  Keychain `elevenlabs-api-key`) e confirma o escopo: "são seis correções só", páginas 6, 6, 8,
+  29, 40 e 131. **"Em que momentos" virou "Em quais momentos"** (cap 04 e anexo B): o Sávio
+  liberou a exceção em 16/set porque troca uma palavra e não mexe no que a frase pede. As outras
+  duas frases literais dos manuais seguem intactas.
+- **O detector acusou o anexo A em 49 e é falso positivo** (16/set). A única mudança foi
+  "responde completo" → "responde de forma completa", pedida pelo revisor. O achado novo é
+  `m_paragrafos_uniformes`: com duas palavras a mais, aquele parágrafo empatou em ~18 palavras
+  com os outros e a estatística de ritmo disparou. Não é vocabulário. O anexo tem 271 palavras,
+  abaixo do piso de 300, e o próprio detector escreve no JSON que ali o score é informativo e
+  **não serve de portão** (a cola é feita de itens curtos por natureza; sempre viveu em 28-33).
+  Redação do revisor mantida. Quem for mexer nisso de novo: leia o `--json`, não o score.
 
 ---
 

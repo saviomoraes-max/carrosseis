@@ -27,9 +27,9 @@ A salinha do financeiro | «Vão arrancar meu couro aqui.»
 
 Primeiro que essa salinha do financeiro já remete a “vão arrancar meu couro aqui”, porque até então, ponto importante, eu não sabia quanto ia custar o plano de tratamento. Não fazia a menor ideia. Então eu fui até essa salinha tal qual um animal se dirige para o abatedouro.
 
-É óbvio que eu tô sendo muito irônica e exagerada aqui, mas eu não pude deixar de pontuar esse sentimento. Eu estava indo a caminho da salinha do financeiro e eu sabia que ia levar “facada”.
+É óbvio que eu tô sendo muito irônica e exagerada aqui, mas eu não pude deixar de pontuar esse sentimento. Eu estava indo a caminho da salinha do financeiro e eu sabia que ia levar uma “facada”.
 
-Toda aquela aura que tinha se formado quando eu falei com a doutora foi completamente dizimada, mesmo que a experiência tenha sido satisfatória, mesmo que tenha sido tudo bacana. Aquele ponto da emoção, do “nossa, realmente eu encontrei a solução para o meu problema”, aquilo acabou naquele momento pra mim.
+Toda aquela aura que tinha se formado de quando eu tinha falado com a doutora foi completamente dizimada, mesmo que a experiência tenha sido satisfatória, mesmo que tenha sido tudo bacana. Aquele ponto da emoção, do “nossa, realmente eu encontrei a solução para o meu problema”, aquilo acabou naquele momento pra mim.
 
 Por quê?
 
@@ -45,7 +45,7 @@ E eu comecei a ruminar aquilo na minha cabeça e quando eu cheguei no financeiro
 
 Você vai me dizer: “mas eu não quero falar de dinheiro dentro da sala.” E beleza, pode ser que o fechamento mesmo fique do lado de fora da sala, até pela experiência da paciente. O que me pegou não foi o lado de fora. Foi eu sair da sala sem saber o preço e ir decidir com uma pessoa que não tinha ouvido nada do meu problema. E aqui eu não tô falando que existe um certo ou errado. Tô contando o que aconteceu comigo.
 
-Foi assim que eu me senti, como paciente. Como vendedora eu vi outra coisa, e essa parte fica para o capítulo 12.
+Foi assim que eu me senti, como paciente. Já como vendedora eu vi outra coisa, e essa parte fica para o capítulo 12.
 
 E aqui vem um plot twist interessante.
 

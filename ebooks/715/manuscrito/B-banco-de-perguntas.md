@@ -50,7 +50,7 @@ As primeiras servem para clarear a palavra que ela usou.
 E essas três são pra aprofundar, depois que ela clareou.
 
 11. “E isso vem sendo um problema... como?”
-12. “Em que momentos você percebe mais esse incômodo?”
+12. “Em quais momentos você percebe mais esse incômodo?”
 13. “O que percebe que gostaria que fosse diferente?”
 
 ## 3. Presente inaceitável

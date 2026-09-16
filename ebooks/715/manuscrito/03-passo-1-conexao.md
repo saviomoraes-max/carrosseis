@@ -59,7 +59,7 @@ E quando a primeira mensagem já vem com o preço, que é quase sempre:
 Claro que posso te passar valores e mais informações sobre [o procedimento/a consulta]! Mas antes, até pra entender se a doutora vai conseguir te ajudar no seu caso ou não... o que faz você buscar por [procedimento/consulta] hoje?
 :::
 
-E pra quando o preço não veio na abertura, só um “oi, quero mais informações”, tem uma que eu gosto muito, porque pede permissão e já avisa o que vem:
+E pra quando o preço não veio na abertura, só um “Olá, quero mais informações”, tem uma que eu gosto muito, porque pede permissão e já avisa o que vem:
 
 :::frase
 Nesse próximo minutinho vou buscar entender com você o que está procurando hoje, até pra entender se a doutora vai conseguir te ajudar no seu caso ou não, e se conseguir, aí a gente pensa em próximos passos, pode ser?

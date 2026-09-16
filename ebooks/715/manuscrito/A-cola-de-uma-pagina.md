@@ -44,7 +44,7 @@ Avança quando ela demonstra emoção e urgência, e você percebe que ela próp
 Com tudo o que falamos... como você entende que a consulta com a doutora pode te ajudar nesse momento?
 :::
 
-Avança quando ela responde completo e emocional, e começa a perguntar da agenda.
+Avança quando ela responde de forma completa e emocional, e começa a perguntar da agenda.
 
 «5. Transição.» A real é que a iniciativa ela já tomou. Agora é só concretizar a decisão.
 

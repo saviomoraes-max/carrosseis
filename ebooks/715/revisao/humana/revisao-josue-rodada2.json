@@ -1,0 +1,69 @@
+[
+ {
+  "pag": 6,
+  "tipo": "troca",
+  "riscado": "“facada”",
+  "novo": "uma \"facada\"",
+  "linhas": [
+   "financeiro e eu sabia que ia levar “facada”."
+  ],
+  "y": 658,
+  "x": 490
+ },
+ {
+  "pag": 6,
+  "tipo": "troca",
+  "riscado": "quandoeu falei",
+  "novo": "de quando eu tinha falado",
+  "linhas": [
+   "Toda aquela aura que tinha se formado quando eu",
+   "falei com a doutora foi completamente dizimada,"
+  ],
+  "y": 731,
+  "x": 38
+ },
+ {
+  "pag": 8,
+  "tipo": "troca",
+  "riscado": "Como",
+  "novo": "Já como",
+  "linhas": [
+   "Foi assim que eu me senti, como paciente. Como"
+  ],
+  "y": 912,
+  "x": 618
+ },
+ {
+  "pag": 29,
+  "tipo": "troca",
+  "riscado": "oi,",
+  "novo": "Olá",
+  "linhas": [
+   "“oi, quero mais informações”, tem uma que eu gosto"
+  ],
+  "y": 652,
+  "x": 50
+ },
+ {
+  "pag": 40,
+  "tipo": "troca",
+  "riscado": "que ",
+  "novo": "quais",
+  "linhas": [
+   "Em que momentos você percebe mais esse"
+  ],
+  "y": 194,
+  "x": 118
+ },
+ {
+  "pag": 131,
+  "tipo": "troca",
+  "riscado": "completo ",
+  "novo": "de forma completa e...",
+  "linhas": [
+   "Avança quando ela responde completo e emocional,"
+  ],
+  "y": 168,
+  "x": 438
+ }
+]

@@ -60,7 +60,7 @@ E isso vem sendo um problema... como?
 :::
 
 :::frase
-Em que momentos você percebe mais esse incômodo?
+Em quais momentos você percebe mais esse incômodo?
 :::
 
 :::frase

@@ -34,9 +34,9 @@ Eu já dou spoiler, tá? Quando eu entrei naquela salinha, a minha cabeça já t
 
 Primeiro que essa salinha do financeiro já remete a “vão arrancar meu couro aqui”, porque até então, ponto importante, eu não sabia quanto ia custar o plano de tratamento. Não fazia a menor ideia. Então eu fui até essa salinha tal qual um animal se dirige para o abatedouro.
 
-É óbvio que eu tô sendo muito irônica e exagerada aqui, mas eu não pude deixar de pontuar esse sentimento. Eu estava indo a caminho da salinha do financeiro e eu sabia que ia levar “facada”.
+É óbvio que eu tô sendo muito irônica e exagerada aqui, mas eu não pude deixar de pontuar esse sentimento. Eu estava indo a caminho da salinha do financeiro e eu sabia que ia levar uma “facada”.
 
-Toda aquela aura que tinha se formado quando eu falei com a doutora foi completamente dizimada, mesmo que a experiência tenha sido satisfatória, mesmo que tenha sido tudo bacana. Aquele ponto da emoção, do “nossa, realmente eu encontrei a solução para o meu problema”, aquilo acabou naquele momento pra mim.
+Toda aquela aura que tinha se formado de quando eu tinha falado com a doutora foi completamente dizimada, mesmo que a experiência tenha sido satisfatória, mesmo que tenha sido tudo bacana. Aquele ponto da emoção, do “nossa, realmente eu encontrei a solução para o meu problema”, aquilo acabou naquele momento pra mim.
 
 Por quê?
 
@@ -52,7 +52,7 @@ E eu comecei a ruminar aquilo na minha cabeça e quando eu cheguei no financeiro
 
 Você vai me dizer: “mas eu não quero falar de dinheiro dentro da sala.” E beleza, pode ser que o fechamento mesmo fique do lado de fora da sala, até pela experiência da paciente. O que me pegou não foi o lado de fora. Foi eu sair da sala sem saber o preço e ir decidir com uma pessoa que não tinha ouvido nada do meu problema. E aqui eu não tô falando que existe um certo ou errado. Tô contando o que aconteceu comigo.
 
-Foi assim que eu me senti, como paciente. Como vendedora eu vi outra coisa, e essa parte fica para o capítulo 12.
+Foi assim que eu me senti, como paciente. Já como vendedora eu vi outra coisa, e essa parte fica para o capítulo 12.
 
 E aqui vem um plot twist interessante.
 
@@ -188,7 +188,7 @@ E quando a primeira mensagem já vem com o preço, que é quase sempre:
 
     FRASE PRONTA — Claro que posso te passar valores e mais informações sobre [o procedimento/a consulta]! Mas antes, até pra entender se a doutora vai conseguir te ajudar no seu caso ou não... o que faz você buscar por [procedimento/consulta] hoje?
 
-E pra quando o preço não veio na abertura, só um “oi, quero mais informações”, tem uma que eu gosto muito, porque pede permissão e já avisa o que vem:
+E pra quando o preço não veio na abertura, só um “Olá, quero mais informações”, tem uma que eu gosto muito, porque pede permissão e já avisa o que vem:
 
     FRASE PRONTA — Nesse próximo minutinho vou buscar entender com você o que está procurando hoje, até pra entender se a doutora vai conseguir te ajudar no seu caso ou não, e se conseguir, aí a gente pensa em próximos passos, pode ser?
 
@@ -267,7 +267,7 @@ As outras servem pra aprofundar, depois que ela clareou.
 
     FRASE PRONTA — E isso vem sendo um problema... como?
 
-    FRASE PRONTA — Em que momentos você percebe mais esse incômodo?
+    FRASE PRONTA — Em quais momentos você percebe mais esse incômodo?
 
     FRASE PRONTA — O que percebe que gostaria que fosse diferente?
 
@@ -994,7 +994,7 @@ Avança quando ela demonstra emoção e urgência, e você percebe que ela próp
 
     FRASE PRONTA — Com tudo o que falamos... como você entende que a consulta com a doutora pode te ajudar nesse momento?
 
-Avança quando ela responde completo e emocional, e começa a perguntar da agenda.
+Avança quando ela responde de forma completa e emocional, e começa a perguntar da agenda.
 
 «5. Transição.» A real é que a iniciativa ela já tomou. Agora é só concretizar a decisão.
 
@@ -1071,7 +1071,7 @@ As primeiras servem para clarear a palavra que ela usou.
 E essas três são pra aprofundar, depois que ela clareou.
 
 11. “E isso vem sendo um problema... como?”
-12. “Em que momentos você percebe mais esse incômodo?”
+12. “Em quais momentos você percebe mais esse incômodo?”
 13. “O que percebe que gostaria que fosse diferente?”
 
 ## 3. Presente inaceitável
