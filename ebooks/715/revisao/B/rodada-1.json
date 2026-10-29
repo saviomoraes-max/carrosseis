@@ -1,0 +1,53 @@
+{
+ "capitulo": "/Users/saviomoraes/reconecta/ebooks/715/manuscrito/B-banco-de-perguntas.md",
+ "rodada": 1,
+ "brutos": 1,
+ "confirmados_n": 1,
+ "altas_confirmadas": 0,
+ "por_revisor": {
+  "fidelidade": {
+   "brutos": 1,
+   "confirmados": 1
+  }
+ },
+ "confirmados": [
+  {
+   "revisor": "fidelidade",
+   "tipo": "fidelidade",
+   "gravidade": "media",
+   "trecho": "1. \"O que te trouxe até aqui hoje?\"\n2. \"O que mais chamou sua atenção no trabalho da doutora?\"",
+   "detalhe": "O anexo se anuncia como \"Todas as perguntas do script, por etapa\" e lista no frontmatter as duas fontes (manual + framework). Mas puxa do framework só de forma seletiva: em Situação entram as 3 perguntas exclusivas do framework (itens 11 a 13) e em Fechamento entra a do PIX (item 4), enquanto em Conexão ficam de fora perguntas que só existem no framework p.1-2: \"O que mais te chamou atenção [no perfil/no anúncio/no caso]? Teve mais alguma coisa?\" e, principalmente, a declaração de intenção \"Nesse próximo minutinho vou buscar entender com você o que está procurando hoje até pra entender se a Dra. Mariana vai conseguir te ajudar no seu caso ou não, e se conseguir aí a gente pensa em próximos passos, pode ser?\" (que o mapa destaca no cap. 3 como a frase de declarar a intenção). Em Qualificação falta a variante do framework p.5: \"Com tudo o que falamos… Como você entende que a consulta com a doutora pode te ajudar nesse momento?\". O critério de inclusão ficou inconsistente: ou o banco é só o Manual de Perguntas (e aí os itens 11-13 de Situação e o 4 de Fechamento não deveriam estar) ou é as duas fontes (e aí faltam essas).",
+   "correcao": "Em Conexão, acrescentar dois itens literais do framework, com Dra. Mariana virando a doutora e a vírgula que o cap. 3 já usa: 10. \"O que mais te chamou atenção [no perfil/no anúncio/no caso]? Teve mais alguma coisa?\" e 11. \"Nesse próximo minutinho vou buscar entender com você o que está procurando hoje, até pra entender se a doutora vai conseguir te ajudar no seu caso ou não, e se conseguir aí a gente pensa em próximos passos, pode ser?\". Em Qualificação, não criar item novo: trocar o item 1 pela versão do framework, que contém a do manual: \"Com tudo o que falamos... Como você entende que a consulta com a doutora pode te ajudar nesse momento?\".",
+   "motivos": [
+    "Confere no arquivo: o frontmatter cita as duas fontes e o subtítulo promete \"todas as perguntas\", mas Situação 11-13 e Fechamento 4 (PIX) só existem no framework, enquanto a declaração de intenção (\"Nesse próximo minutinho... pode ser?\", listada no framework p.2 sob Perguntas e reproduzida literalmente no cap. 3, linha 54) e a variante \"O que mais te chamou atenção [no perfil/no anúncio/no caso]? Teve mais alguma coisa?\" ficaram fora de Conexão. Uma leitora que usa o anexo como banco de copiar e colar não acha a frase que o cap. 3 apresenta como a de declarar a intenção, e tem que voltar ao capítulo. Não é questão de voz nem de whitelist, é de fidelidade e completude; a parte da Qualificação, porém, é fraca: \"Com tudo o que falamos... Como você entende...\" é o item 1 com um prefixo, e acrescentar como item novo cria pergunta duplicada no banco."
+   ]
+  }
+ ],
+ "refutados": [],
+ "cego": {
+  "veredito": "pessoa",
+  "confianca": 68,
+  "pistas": [
+   {
+    "trecho": "Fica claro o que leva resolver esse problema a ser a prioridade agora.",
+    "pista": "Sintaxe torta, de fala transcrita (falta o 'a' antes de 'resolver', ordem invertida). IA escrevendo em PT-BR produz frase limpa aqui; erro desse tipo é de quem escreve como fala."
+   },
+   {
+    "trecho": "Por isso, já sei que a doutora vai te ajudar com a [dor trazida] e parar de se sentir [sentimento informado].",
+    "pista": "Sujeito troca no meio da frase (a doutora vai te ajudar... e [você] parar de se sentir). Falha de concordância que modelo de linguagem quase nunca deixa passar; parece script copiado de quem usa na prática."
+   },
+   {
+    "trecho": "Claro, posso te passar o preço do [procedimento], mas só para entender se a doutora vai conseguir te ajudar no seu caso ou não, o que te fez procurar por [procedimento] hoje?",
+    "pista": "Frase longa e encavalada, com 'ou não' enfiado no meio e pergunta colada sem pausa. É o jeito de uma fala real de atendimento anotada, não de texto gerado, que tende a quebrar em duas frases."
+   },
+   {
+    "trecho": "## 5 e 6. Transição e apresentação",
+    "pista": "Estrutura irregular: seções 1 a 4 e 7 têm lista numerada, as 5 e 6 são fundidas num só bloco sem lista. IA uniformiza o esqueleto; humano deixa a assimetria que veio do material de origem."
+   },
+   {
+    "trecho": "E isso vem sendo um problema... como?",
+    "pista": "Reticências como pausa oral e registro coloquial ('a gente', 'pra') convivendo com 'para' formal em outras perguntas do mesmo documento. Essa inconsistência de registro é marca de autor humano; a contrapista que segura minha confiança é a seção 2, cujas perguntas 1 a 10 giram sinônimos num molde repetido ('Quando você diz', 'Quando fala em', 'Quando menciona'), padrão que também aparece em lista expandida por IA."
+   }
+  ]
+ }
+}

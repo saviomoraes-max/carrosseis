@@ -1,0 +1,28 @@
+{
+  "cego": {
+    "veredito": "ia",
+    "confianca": 68
+  },
+  "pistas": [
+    {
+      "trecho": "Quem fez a pergunta foi você. Quem se convenceu foi ela.",
+      "pista": "Quiasmo epigramático perfeito, com paralelismo sintático exato e ritmo fechado. É a assinatura de frase-de-efeito otimizada: aparece exatamente no fim do parágrafo conceitual, no lugar onde um gerador coloca o remate. Fala espontânea quase nunca produz simetria tão limpa sem tropeço."
+    },
+    {
+      "trecho": "Todas elas perguntam a mesma coisa de seis jeitos: por que agora.",
+      "pista": "Contagem exata dos itens (\"seis jeitos\") mais dois-pontos com síntese de três palavras. Isso é comportamento de quem enumerou a lista antes de escrever a frase, não de quem está ensinando de cabeça — quem ensina diz \"todas perguntam a mesma coisa\" e não confere quantas são."
+    },
+    {
+      "trecho": "O que muda é que ela vem depois do casamento, não no lugar dele.",
+      "pista": "O texto inteiro roda no mesmo motor \"não é A, é B\" / \"se X, então não-Y; se Y, então X\" (repetido em pelo menos seis lugares: tolerância vs. problema, oferecer a espera vs. argumentar contra, convencida você vs. convencida ela). Uma única figura retórica sustentando o capítulo todo é padrão de geração, não de fala."
+    },
+    {
+      "trecho": "Se ela te contou do casamento sem você pedir, o passo três aconteceu.",
+      "pista": "Economia de callback boa demais: cada detalhe plantado na cena de abertura (novembro, irmã, casamento, foto, dois anos de flacidez) é reaproveitado depois com função pedagógica e nenhum sobra. Texto de origem oral deixa detalhe morto e repete o que já disse; aqui não há nenhuma sobra nem redundância."
+    },
+    {
+      "trecho": "parece perigoso, eu sei, tá?",
+      "pista": "As marcas de oralidade (\"tá?\", \"a gente é educada\", \"chamo ele de\", \"Repara:\") estão distribuídas em doses únicas e bem espaçadas, uma por seção, como tempero. Fala real agrupa cacoetes e contamina a sintaxe ao redor; aqui a frase volta imediatamente ao padrão editado, o que sugere humanização aplicada por cima de um texto já limpo."
+    }
+  ]
+}

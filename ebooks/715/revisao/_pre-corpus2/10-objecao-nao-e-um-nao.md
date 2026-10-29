@@ -1,0 +1,75 @@
+---
+numero: "10"
+kicker: "Capítulo 10"
+prova: "Prova nº 10 · Objeções"
+hud: "Script 715 · Capítulo 10"
+titulo: "Objeção não é um não"
+subtitulo: "Onde você aprende a diferença entre uma dúvida real e uma cortina de fumaça."
+fontes: "fontes/02-manual-objecoes.md (7. Lidando com objeções, p.5-6); fontes/01-framework-715.md (Etapa 7, p.9)"
+---
+# Objeção não é um não
+
+:::cena
+ELA: Ah, entendi. Vou pensar e qualquer coisa te aviso.
+:::
+
+Naqueles dez minutinhos da salinha, o que passou pela minha cabeça foi isso: e se for muito caro, será que é prioridade agora, será que eu não encontro outro jeito? Eu, que trabalho com isso o dia inteiro. E a doutora, na mesma consulta, tinha me falado que estava com muita gente indo pra casa pensar. Então, quando eu leio um “vou pensar e qualquer coisa te aviso” no WhatsApp de uma clínica, eu sei o que tem atrás, porque já passou pela minha cabeça também. Se você atende WhatsApp de clínica, já leu essa mensagem mais vezes do que gostaria, sabe?
+
+E a resposta que perde a paciente é justamente a mais educada, “claro, fico à disposição”. Educado, tranquilo, e a conversa acabou ali. O controle passou pra ela, e ela provavelmente não volta. E mesmo assim a gente responde isso, porque parece o certo.
+
+Gente, objeção não é rejeição. É pedido de mais informação, ou sinal de que ainda não ficou claro pra ela o que a consulta resolve. Olha o que vem depois de “vou pensar” quando você faz uma pergunta em vez de liberar a paciente. Ela conta o que precisa pensar. E isso é a conversa voltando.
+
+## Curiosidade e direção
+
+Se você reage com ansiedade, pressa ou justificativa, perde a paciente. Se responde com curiosidade e direção, a conversa volta, e o agendamento junto.
+
+Curiosidade e direção. Eu gosto dessas duas palavras. Curiosidade é o que passa na sua cabeça quando chega o “vou pensar”, né, pensar no quê. E a direção é o que a gente faz com essa curiosidade, que é perguntar em vez de ficar esperando ela voltar.
+
+## Dois tipos
+
+Existem dois tipos de objeção, e a resposta certa muda conforme qual das duas você tem na frente.
+
+:::grafico duas
+Objeção real | Cortina de fumaça
+Específica e detalhada. | Vaga e genérica: “vou pensar”, “te aviso depois”.
+Ela consegue explicar com clareza. | Surge de repente no final da conversa.
+Preocupação legítima: resultado, segurança, tempo. | Tem a ver com pensar mais ou falar com alguém.
+:::
+
+A objeção real vem com nome. Olha uma: “Eu fiz preenchimento uma vez e ficou muito artificial, tenho medo de acontecer de novo.” Ela te contou o medo, né, o medo tem nome, e é o nome que você pergunta. “Quando você diz que ficou artificial, o que exatamente te preocupa?” E ela vai te contar como ficou e o que ela não quer de novo e você tá de volta no passo dois só que agora em cima do medo dela.
+
+Repara no “de repente”: a paciente estava conversando bem e contou o problema e estava tudo certo e na hora do horário apareceu o “vou ver com meu marido”. O marido não apareceu do nada, né? Ele é a cortina.
+
+Se a gente quer saber qual das duas chegou, a gente pergunta. E pergunta com curiosidade, não com cobrança, que ela sente a diferença.
+
+:::frase
+Quando você diz [objeção], o que exatamente te preocupa?
+:::
+
+:::frase
+O que especificamente você precisa pensar?
+:::
+
+Qualquer uma das duas serve, tá. A de baixo é a de cima já com o “vou pensar” dentro, então usa ela quando foi isso que chegou.
+
+Se a resposta for vaga, outro “te aviso depois” ou um “ah, não sei”, é cortina de fumaça. E a cortina esconde quase sempre a mesma coisa: ela ainda não sabe se a consulta resolve o problema dela. O preço, o marido e a agenda entram na conversa porque em algum passo anterior ficou raso e a paciente chegou no fechamento sem estar convencida por ela mesma.
+
+E é aqui que entra o voltar que eu prometi no capítulo 9. Voltar é refazer a pergunta do passo que ficou raso, em vez de inventar resposta nova pra objeção. Olha as duas respostas pro “vou pensar” que você vai ver inteiras no capítulo 11. “O que te fez pensar em resolver isso agora e nos trouxe até aqui?” é a pergunta do passo três. “Como entendeu que a consulta com a doutora vai te ajudar a resolver [problema]?” é a pergunta do passo quatro. Você volta um passo e pergunta de novo.
+
+## Por que responder mata
+
+A forma mais fácil de encerrar uma conversa é com uma resposta. Eu já te disse isso lá no capítulo 2, e acho que aqui é onde ela pesa mais, porque vale pra objeção e vale pra pergunta, a regra é a mesma. Pensa na pergunta que chega logo no início da conversa, “quanto custa a consulta?”. Se você responde “a consulta custa 200 reais”, acabou. Por que você vai passar o valor da consulta se você nem sabe se o que ela está buscando ela vai encontrar na consulta? Você deu o número, ela pegou o número, e com o número na mão ela vai comparar o seu 200 com o preço da clínica ao lado sem saber o que nenhuma das duas consultas resolve.
+
+Agora, se você responde assim:
+
+:::frase
+Claro que eu posso te passar mais informações sobre a consulta. Antes, pra entender se a doutora vai conseguir te ajudar no seu caso ou não, como você entende que a consulta vai te ajudar?
+:::
+
+A conversa continua. Você não escondeu o preço, você disse que vai passar. Só que você não passou antes de perguntar.
+
+Então, no capítulo 11 eu pego uma objeção por vez. Objeção se responde com pergunta.
+
+:::pergunta
+Quantas vezes essa semana você respondeu “fico à disposição”? E o que aconteceu depois?
+:::

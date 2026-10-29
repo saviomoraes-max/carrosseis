@@ -1,0 +1,120 @@
+{
+  "arquivo": "/Users/saviomoraes/reconecta/ebooks/715/revisao/04/capitulo-limpo.md",
+  "palavras": 886,
+  "paragrafos": 25,
+  "frases": 80,
+  "mascarado": {
+    "citacoes": 2,
+    "titulos_curtos": 5
+  },
+  "avisos": [],
+  "score": 13,
+  "faixa": "limpo (soa gente)",
+  "pontos": 6,
+  "densidade": 6.8,
+  "formula": "densidade = pontos / max(palavras, piso_palavras) * 1000; score = 100 * (1 - exp(-densidade / k)), k = 50, piso_palavras = 300 (texto curto não explode com um achado só). Nota por categoria usa k_categoria sobre a densidade só daquela categoria.",
+  "categorias": {
+    "conteudo": {
+      "rotulo": "Conteúdo e inflação",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "linguagem": {
+      "rotulo": "Linguagem e vocabulário",
+      "achados": 1,
+      "pontos": 1,
+      "densidade": 1.1,
+      "nota": 7
+    },
+    "estrutura": {
+      "rotulo": "Estrutura e ritmo",
+      "achados": 1,
+      "pontos": 5,
+      "densidade": 5.6,
+      "nota": 31
+    },
+    "comunicacao": {
+      "rotulo": "Sobras de chatbot",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "meta": {
+      "rotulo": "Uniformidade de ritmo (estatística)",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "calques": {
+      "rotulo": "Calques do inglês e burocratês",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    }
+  },
+  "metricas": {
+    "frases_media_palavras": 11.2,
+    "frases_desvio_padrao": 7.2,
+    "frases_cv": 0.65,
+    "paragrafos": 25,
+    "paragrafos_mediana_palavras": 43,
+    "paragrafos_proporcao_mesmo_tamanho": 0.58,
+    "ritmo_entre_paragrafos_desvio": 0.209,
+    "pontuacao_cv": 1.11,
+    "ttr": 0.34,
+    "frases_mesmo_inicio_proporcao": 0.04,
+    "travessoes": 0,
+    "travessoes_por_mil": 0.0,
+    "dois_pontos": 9,
+    "dois_pontos_por_mil": 10.16,
+    "itens_lista": 0,
+    "proporcao_linhas_em_lista": 0.0,
+    "negritos": 0,
+    "triades": 0,
+    "triades_por_mil": 0.0,
+    "contrastes": 0,
+    "paragrafos_terminando_em_pergunta": 1,
+    "fechos_grandiosos": 0,
+    "hedges": 0,
+    "hedges_por_mil": 0.0
+  },
+  "achados": [
+    {
+      "id": "m_dois_pontos",
+      "categoria": "estrutura",
+      "subtipo": "pontuacao",
+      "gravidade": "media",
+      "peso": 5,
+      "texto": "9 dois-pontos em 886 palavras",
+      "inicio": 23,
+      "fim": 25,
+      "explicacao": "Dois-pontos demais no meio de frase: cadência de slide.",
+      "sugestao": "Troque por ponto ou vírgula; deixe só os que apresentam algo.",
+      "contribuicao": 5,
+      "linha": 4,
+      "trecho": "ELA«: »É que eu tô com o rosto muito flácido, queria ver o que dá pra fazer."
+    },
+    {
+      "id": "tr_a_partir_disso",
+      "categoria": "linguagem",
+      "subtipo": "transicao",
+      "gravidade": "baixa",
+      "peso": 1,
+      "texto": "A partir daí",
+      "inicio": 4998,
+      "fim": 5010,
+      "explicacao": "Conector de sequência automática.",
+      "sugestao": "'aí', 'depois'",
+      "contribuicao": 1,
+      "linha": 77,
+      "trecho": "«A partir daí» ela não está mais conversando com uma atendente."
+    }
+  ],
+  "achados_ocultos": 0,
+  "min_gravidade": "baixa"
+}

@@ -1,0 +1,674 @@
+[
+  {
+    "bloco": "02",
+    "votos": {
+      "pessoa": 2,
+      "ia": 1,
+      "indeciso": 0
+    },
+    "maioria": "pessoa",
+    "confianca_media": 67,
+    "leitores": [
+      {
+        "bloco": "02",
+        "leitor": 1,
+        "veredito": "ia",
+        "confianca": 63,
+        "pistas": [
+          {
+            "trecho": "“é porque eu acho que os pacientes estão procurando profissionais mais jovens do que eu.” Aí a outra, que é mais jovem, falou: “é porque eu acho que os pacientes estão procurando profissionais mais experientes do que eu.”",
+            "pista": "Anedota em 2x2 perfeito: cidade pequena x cidade grande, mais velha x mais nova, com as falas espelhadas quase palavra por palavra. Conversa real deixa lixo — nome, digressão, um quinto caso que não encaixa, uma frase que não serve ao argumento. Aqui as quatro doutoras existem só para fechar a simetria e desaparecem. Caso construído para a tese, não caso lembrado."
+          },
+          {
+            "trecho": "«3.» Empatia é a base do atendimento, sabe, e quando eu digo “empatia” é a paciente sentir que você está tentando entender o problema dela",
+            "pista": "Marcador de oralidade posto no metrônomo. \"sabe\" no item 3, \"gente\" no 4, \"sabe/né/tá\" no 5, \"né\" no 8 — sempre no meio da frase, depois de vírgula, um por bloco, nunca em rajada e nunca onde a fala de fato tropeça. Fala real amontoa três \"né\" numa frase e passa parágrafos inteiros sem nenhum. Isso é oralidade polvilhada por cima de texto já pronto."
+          },
+          {
+            "trecho": "a paciente que se sente entendida responde mensagem longa e a que se sente vendida responde com uma palavra, e você já deve ter visto as duas.",
+            "pista": "Densidade de antítese balanceada acima do humano. Quase todo fecho é um par simétrico: \"Script é referência, não roteiro\", \"Menos informação, menos objeção\", \"Não foi nada externo, é sempre algo interno\", \"Agendamento é consequência\". Oito itens e oito fechos redondos, nenhum item que termine sem graça. Ninguém falando acerta o alvo oito vezes seguidas."
+          },
+          {
+            "trecho": "Agora, se a gente sabe que o problema tá com a gente, é a melhor coisa do mundo, porque tá no meu controle, então tá fácil. E a resposta do WhatsApp é a coisa mais interna que existe, né",
+            "pista": "Costura visível entre dois assuntos. O parágrafo faz quatro movimentos num fôlego só (recapitula as quatro queixas, defende externo x interno, pula pro WhatsApp, apresenta a paciente) e usa a palavra \"interno\" como dobradiça para trocar de tema. Junto vem um escorregão de pessoa: \"o problema tá com a gente\" vira \"tá no meu controle\" na mesma frase. É emenda de montagem, não transição de quem está falando."
+          },
+          {
+            "trecho": "Nós temos pessoas que faturam 200 mil em cidades de 5 mil habitantes e em cidades de 1 milhão. Nós temos pessoas que faturam 200 mil com mais de 60 anos e com menos de 25.",
+            "pista": "Anáfora com extremos redondos e pareados: 5 mil contra 1 milhão, 60 contra 25, interior contra capital, e uma lista de cinco formações. Todo par é mínimo-máximo limpo, nenhum número torto, nenhum caso do meio. Some a isso a arquitetura do capítulo — grade de 8 rótulos e 8 parágrafos de tamanho quase idêntico, mais um \"outro pecado mortal do atendimento\" sem que exista um primeiro — e o que se vê é planilha virando prosa."
+          }
+        ]
+      },
+      {
+        "bloco": "02",
+        "leitor": 2,
+        "veredito": "pessoa",
+        "confianca": 72,
+        "pistas": [
+          {
+            "trecho": "Só que se o problema fosse a cidade, misericórdia, eu teria que mudar de cidade, teria que mudar de região, teria que mudar meu tráfego, teria que mudar tudo.",
+            "pista": "Interjeição idiossincrática (\"misericórdia\") no meio da oração e repetição em escada que cresce sem controle até estourar em \"tudo\". Pior (ou melhor): a pessoa gramatical escorrega — quem teria que mudar de cidade é a doutora, mas o autor fala \"eu\" e ainda diz \"meu tráfego\". IA não troca de sujeito no meio da hipótese; ela mantém o \"você\" do começo ao fim. Isso é boca falando, não teclado."
+          },
+          {
+            "trecho": "Copiar e colar o script sem contexto é outro pecado mortal do atendimento.",
+            "pista": "\"Outro\" sem primeiro. Não existe nenhum pecado mortal antes no capítulo. É anáfora órfã — resto de uma fala em que o primeiro pecado foi dito em outro momento e sumiu na edição. Texto gerado é obsessivamente coerente consigo mesmo; ele não deixa referência pendurada assim."
+          },
+          {
+            "trecho": "me incomoda algumas linhas de expressão que tenho no rosto, principalmente fazer a famosa cara de brava",
+            "pista": "Fala de paciente citada com a concordância errada preservada (\"me incomoda algumas\") e com expressão idiomática de consultório (\"a famosa cara de brava\"). Máquina higieniza citação: escreveria \"me incomodam algumas linhas\" e trocaria a gíria por \"rugas de expressão na glabela\". Manter o erro é decisão de quem transcreveu material real."
+          },
+          {
+            "trecho": "isso aqui é o que eu vejo dar certo nas clínicas que passam por aqui e são mais de 3 mil, e elas voltam em todos os capítulos, então guarda",
+            "pista": "O número entra atropelando a sintaxe, como aposto enfiado no meio do ar (\"e são mais de 3 mil\"), e depois o \"elas\" volta para \"as oito coisas\", não para as clínicas que acabaram de ser mencionadas. Ambiguidade de referente que sobrevive porque na fala o tom resolvia. Texto sintético organiza esse dado numa oração limpa."
+          },
+          {
+            "trecho": "e aí ela manda um “obrigada, vou pensar”, e você fica olhando pro visto azul. O lead sumiu, eu não agendei, todo mundo saiu sem o problema resolvido.",
+            "pista": "\"Visto azul\" é imagem de quem viveu a cena, não descrição de quem imagina a cena. E logo em seguida o sujeito troca outra vez — começa em \"você\", termina em \"eu não agendei\" e \"todo mundo\". Essa instabilidade de pronome dentro de duas frases seguidas é marca de oralidade; modelo de linguagem estabiliza o pronome porque a consistência é o que ele otimiza."
+          }
+        ]
+      },
+      {
+        "bloco": "02",
+        "leitor": 3,
+        "veredito": "pessoa",
+        "confianca": 66,
+        "pistas": [
+          {
+            "trecho": "me incomoda algumas linhas de expressão que tenho no rosto, principalmente fazer a famosa cara de brava",
+            "pista": "Citação com erro de concordância real (\"me incomoda algumas linhas\") e gíria específica do contexto (\"cara de brava\"). Isso tem cara de coisa copiada de uma conversa de verdade, não de exemplo inventado — texto de máquina costuma corrigir a gramática do exemplo sem perceber que está matando a naturalidade."
+          },
+          {
+            "trecho": "e isso aqui é o que eu vejo dar certo nas clínicas que passam por aqui e são mais de 3 mil, e elas voltam em todos os capítulos, então guarda",
+            "pista": "O número entra atravessado no meio da frase (\"e são mais de 3 mil\"), mal encaixado gramaticalmente. É o jeito que gente fala quando lembra do dado no meio do caminho. Máquina teria organizado isso numa frase limpa."
+          },
+          {
+            "trecho": "Só que se o problema fosse a cidade, misericórdia, eu teria que mudar de cidade, teria que mudar de região, teria que mudar meu tráfego, teria que mudar tudo.",
+            "pista": "Interjeição solta (\"misericórdia\") e troca de pessoa no meio do raciocínio: estava falando das quatro doutoras e de repente é \"eu teria que mudar meu tráfego\". Essa escorregada de quem está no lugar de quem, quem fala comete e quem escreve com IA quase nunca."
+          },
+          {
+            "trecho": "Copiar e colar o script sem contexto é outro pecado mortal do atendimento.",
+            "pista": "\"Outro\" pecado mortal — só que nenhum pecado mortal foi citado antes neste texto. É referência pendurada no vazio, de quem fala de memória e acha que já disse. Texto de IA costuma ser coerente demais consigo mesmo para deixar um fio solto desse tipo."
+          },
+          {
+            "trecho": "e aí ela manda um “obrigada, vou pensar”, e você fica olhando pro visto azul. O lead sumiu, eu não agendei, todo mundo saiu sem o problema resolvido.",
+            "pista": "Imagem concreta e específica do meio (\"visto azul\") seguida de uma lista bagunçada que muda de sujeito no meio (ela, eu, todo mundo). É desabafo, não redação — e o tipo de detalhe que só quem viveu a cena escolhe."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "bloco": "06",
+    "votos": {
+      "pessoa": 3,
+      "ia": 0,
+      "indeciso": 0
+    },
+    "maioria": "pessoa",
+    "confianca_media": 71,
+    "leitores": [
+      {
+        "bloco": "06",
+        "leitor": 1,
+        "veredito": "pessoa",
+        "confianca": 68,
+        "pistas": [
+          {
+            "trecho": "O segundo é o erro que mais volta no material, porque se qualificar demais aparece lá na conexão, aqui na qualificação e de novo na transição. O segundo é o erro que mais volta no material, porque se qualificar demais aparece lá na conexão, aqui na qualificação, de novo na transição e ainda na apresentação.",
+            "pista": "A mesma frase aparece duas vezes seguidas, a segunda com um item a mais na lista. É resíduo de edição: alguém colou a versão corrigida e esqueceu de apagar a antiga. Máquina gerando um capítulo não deixa esse tipo de sobra literal com variação — quem deixa é mão humana revisando por cima do próprio texto."
+          },
+          {
+            "trecho": "A leitura negativa do passo quatro tem duas frases: “ainda não sei se o meu problema vai ser resolvido” e “eu só quero fazer o procedimento tal”.",
+            "pista": "O bloco :::grafico logo acima só tem UMA frase negativa (NEG: Ainda não sei se o meu problema vai ser resolvido). O texto corrido contradiz o próprio quadro que ele acabou de apresentar. Isso é descasamento entre material de origem e diagramação, erro de montagem humana; texto de máquina costuma ser internamente coerente com o que ele mesmo listou três linhas antes."
+          },
+          {
+            "trecho": "Eu sinto que muitas vezes eu perdia agendamentos porque eu passei o Pix sem a pessoa pedir pelo Pix ou sem a pessoa pedir pela consulta, sabe?",
+            "pista": "Quebra de tempo verbal no meio da frase: começa em imperfeito habitual (\"perdia\") e cai em perfeito pontual (\"passei\"), com repetição desajeitada de \"sem a pessoa pedir\". É fala transcrita, com o raciocínio se reorganizando enquanto sai. Máquina alinha os tempos verbais e enxuga a repetição."
+          },
+          {
+            "trecho": "qualquer coisa que eu falar depois vai ser uma solução para um problema que, pra ela, não é tão grave assim, não é tão sério para ela",
+            "pista": "Dois defeitos juntos: troca de pessoa sem licença (o parágrafo inteiro fala com \"você\"/\"a gente\" e de repente vira \"eu falar\") e autorreparo redundante (\"não é tão grave assim, não é tão sério para ela\" é a mesma ideia dita duas vezes com sinônimo). Autorreparo é marca de boca, não de teclado."
+          },
+          {
+            "trecho": "Se eu tivesse entendido o preço ali na sala, talvez eu teria fechado lá dentro.",
+            "pista": "Condicional fora do padrão escrito (\"se tivesse... talvez teria\" no lugar de \"talvez tivesse fechado\"), dentro de uma lembrança pessoal frouxa que ainda emenda \"não precisava ter tido processo de convencimento nenhum depois, né?\". Anedota de IA vem arrumada e fecha em lição; esta divaga, erra a regência e termina em muleta oral."
+          }
+        ]
+      },
+      {
+        "bloco": "06",
+        "leitor": 2,
+        "veredito": "pessoa",
+        "confianca": 74,
+        "pistas": [
+          {
+            "trecho": "O segundo é o erro que mais volta no material, porque se qualificar demais aparece lá na conexão, aqui na qualificação e de novo na transição. O segundo é o erro que mais volta no material, porque se qualificar demais aparece lá na conexão, aqui na qualificação, de novo na transição e ainda na apresentação.",
+            "pista": "Sentença duplicada com uma variante ampliada logo em seguida. Isso é resto de passagem de revisão (o autor reescreveu e não apagou a versão antiga), não escrita gerada: modelo de linguagem não repete a mesma frase duas vezes seguidas acrescentando uma cláusula. É o achado mais forte do texto e o que mais pesa no veredito."
+          },
+          {
+            "trecho": "Eu sinto que muitas vezes eu perdia agendamentos porque eu passei o Pix sem a pessoa pedir pelo Pix ou sem a pessoa pedir pela consulta, sabe?",
+            "pista": "Frase mal costurada de ponta a ponta: mistura imperfeito com perfeito (\"perdia\" / \"passei\"), repete \"sem a pessoa pedir\" em vez de coordenar, e força a regência \"pedir pelo Pix\". IA escrevendo em registro oral produz oralidade limpa — coloca \"sabe?\" e \"né?\" no lugar certo, mas não quebra a concordância verbal assim."
+          },
+          {
+            "trecho": "qualquer coisa que eu falar depois vai ser uma solução para um problema que, pra ela, não é tão grave assim, não é tão sério para ela",
+            "pista": "Pleonasmo de fala pura: a segunda metade repete a primeira com sinônimo, e o mesmo período alterna \"pra ela\" e \"para ela\". Texto sintético é consistente no registro dentro de uma frase e corta a repetição redundante; aqui sobrou o duplo do falante."
+          },
+          {
+            "trecho": "A leitura negativa do passo quatro tem duas frases: “ainda não sei se o meu problema vai ser resolvido” e “eu só quero fazer o procedimento tal”.",
+            "pista": "A prosa afirma duas frases, mas o bloco gráfico logo acima só traz uma (NEG: \"Ainda não sei se o meu problema vai ser resolvido\"). Incoerência entre o elemento visual e o texto num documento curto — sinal de material vindo de fonte falada e diagramado depois por gente. Um gerador tende a manter coerência interna nessa distância e teria listado as duas."
+          },
+          {
+            "trecho": "E se qualificar, de qualquer jeito que seja, elogiar a doutora ou a clínica pra consulta parecer valer mais.",
+            "pista": "Anacoluto: começa como item de lista, insere um aposto e emenda outro verbo no infinitivo sem conectivo, deixando o período sem sintaxe fechada. Mesma marca aparece em \"é porque o passo dois ficou raso, ou o três\" (acréscimo depois do ponto lógico) e no imperativo de tu \"Então lê a resposta dela de novo\" convivendo com \"você\" no resto. Paradigma pronominal misto e frase quebrada são o que revisão de IA normaliza primeiro."
+          }
+        ]
+      },
+      {
+        "bloco": "06",
+        "leitor": 3,
+        "veredito": "pessoa",
+        "confianca": 72,
+        "pistas": [
+          {
+            "trecho": "O segundo é o erro que mais volta no material, porque se qualificar demais aparece lá na conexão, aqui na qualificação e de novo na transição. O segundo é o erro que mais volta no material, porque se qualificar demais aparece lá na conexão, aqui na qualificação, de novo na transição e ainda na apresentação.",
+            "pista": "A mesma frase aparece duas vezes seguidas, a segunda só com um item a mais na lista. Confirmei no grep: 2 ocorrencias. Isso e copiar-colar mal desfeito de quem reescreveu e esqueceu de apagar a versao velha. Erro de gente com pressa, nao de maquina."
+          },
+          {
+            "trecho": "qualquer coisa que eu falar depois vai ser uma solução para um problema que, pra ela, não é tão grave assim, não é tão sério para ela.",
+            "pista": "Diz a mesma coisa duas vezes na mesma frase, com palavras diferentes. E o jeito que a pessoa fala quando esta pensando em voz alta. Texto gerado enxuga essa repeticao."
+          },
+          {
+            "trecho": "avisa que o próximo passo existe, sem oferecer ele. A terceira chega a nomear a agenda. Ela ouve que o próximo passo existe e que você ainda não deu.",
+            "pista": "Gramatica solta de boca: 'sem oferecer ele' em vez de 'sem oferece-lo', e 'que voce ainda nao deu' sem o objeto. Deslize de fala transcrita, nao de escrita revisada."
+          },
+          {
+            "trecho": "A leitura negativa do passo quatro tem duas frases: “ainda não sei se o meu problema vai ser resolvido” e “eu só quero fazer o procedimento tal”.",
+            "pista": "O quadro logo acima so lista UMA frase negativa. O texto se contradiz com a propria caixinha a tres linhas de distancia. Quem escreveu nao releu o que estava do lado."
+          },
+          {
+            "trecho": "Eu já estive do lado de lá dessa conversa, lembra da salinha? [...] Se eu tivesse entendido o preço ali na sala, talvez eu teria fechado lá dentro.",
+            "pista": "Historia pessoal jogada no meio com um 'talvez' que enfraquece o proprio argumento, e um 'lembra da salinha?' que so faz sentido pra quem ja estava na conversa. E alguem lembrando, nao alguem construindo exemplo."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "bloco": "07",
+    "votos": {
+      "pessoa": 3,
+      "ia": 0,
+      "indeciso": 0
+    },
+    "maioria": "pessoa",
+    "confianca_media": 68,
+    "leitores": [
+      {
+        "bloco": "07",
+        "leitor": 1,
+        "veredito": "pessoa",
+        "confianca": 70,
+        "pistas": [
+          {
+            "trecho": "e se o valor não for percebido, nem se a consulta for de graça vai valer a pena",
+            "pista": "Sintaxe embolada de fala real. A comparação sai quebrada (falta o \"não\" ou uma reordenação: \"nem de graça vai valer a pena\"). Máquina em pt-BR quase nunca entrega um período torto assim e deixa passar — ela tende a corrigir para uma construção limpa. Erro de fluxo é assinatura de quem fala e depois transcreve."
+          },
+          {
+            "trecho": "Só que entre o que ela disse e o que você vai oferecer fica faltando uma coisa, ó. A ponte.",
+            "pista": "O \"ó\" solto no meio, como gesto de apontar antes da revelação. Não é \"olha\" nem \"veja\": é a interjeição curta de conversa presencial, colocada na posição certa. Modelo em português imita \"né\" e \"tá\" no fim de frase; esse \"ó\" no miolo é fora do repertório padrão."
+          },
+          {
+            "trecho": "E se ela não te deu o tempo, não inventa um. Tira esse pedaço e fica só com a forma que ela trouxe, a frase aguenta.",
+            "pista": "Imperativo coloquial na 3ª pessoa (\"não inventa\", \"tira\", \"fica\") em vez do subjuntivo culto (\"não invente\", \"tire\"). E \"a frase aguenta\" é metáfora de oficina, econômica e não decorativa. Texto sintético em pt-BR escorrega para o imperativo formal e para metáfora explicada."
+          },
+          {
+            "trecho": "Três pedaços. O nome dela. A forma como ela trouxe e o tempo que ela está assim. O que você preenche são dois",
+            "pista": "A contagem não fecha em paralelismo: anuncia três, entrega dois em uma frase e um em outra, e logo depois muda o critério para \"o que você preenche são dois\". Máquina mantém lista numerada simétrica e não deixa o leitor recontar. Aqui a estrutura é frouxa do jeito que alguém explicando ao vivo deixa."
+          },
+          {
+            "trecho": "As reticências são do script e eu acho que fazem diferença.",
+            "pista": "Opinião marcada em primeira pessoa sobre um detalhe minúsculo de pontuação, sem justificar com autoridade nem generalizar. É preferência de quem usa a coisa. Modelo tende a afirmar o benefício como fato (\"as reticências criam pausa e aumentam a conexão\") em vez de assumir o palpite."
+          }
+        ]
+      },
+      {
+        "bloco": "07",
+        "leitor": 2,
+        "veredito": "pessoa",
+        "confianca": 70,
+        "pistas": [
+          {
+            "trecho": "Sabe o que a atendente faz? Sai do passo quatro, com a paciente declarada, e vai direto pro horário e às vezes funciona.",
+            "pista": "A resposta não fecha com a própria pergunta. \"Sabe o que a atendente faz?\" pede um sujeito, e vem \"Sai do passo quatro\" com o sujeito elidido, mais dois \"e\" empilhados sem pontuação. É cadência de fala transcrita, não de frase construída. Máquina não deixa a concordância pendurada assim: ela responderia \"Ela sai do passo quatro...\"."
+          },
+          {
+            "trecho": "fica faltando uma coisa, ó. A ponte.",
+            "pista": "O \"ó\" dêitico, oral, jogado antes do ponto. É partícula de quem está apontando com a voz para alguém na frente. Praticamente não aparece em PT-BR gerado, porque não tem função sintática nenhuma e nenhum modelo arrisca colocá-la ali."
+          },
+          {
+            "trecho": "Três pedaços. O nome dela. A forma como ela trouxe e o tempo que ela está assim. O que você preenche são dois, o nome e o tempo.",
+            "pista": "Anuncia três e entrega em duas frases, com dois itens grudados na segunda, e o leitor tem que contar sozinho pra fechar a conta. Enumeração quebrada é defeito humano de rascunho. Texto sintético mantém o paralelismo do que prometeu numerar; é justamente o que ele faz bem demais."
+          },
+          {
+            "trecho": "E o “concordo”. Você não está propondo que ela resolva agora. Ela já tomou essa decisão no passo três, quando disse “por que agora”, e o que você faz aqui é concordar. Quem concorda está do lado dela.",
+            "pista": "Isso é um quarto item pendurado no fim de um parágrafo que já tinha trocado de assunto duas vezes (dos pedaços para o \"tempo informado\", do \"tempo informado\" para os colchetes) e que corre oito linhas sem quebra. A deriva de tópico dentro do mesmo bloco é marca de quem escreveu falando. Parágrafo de IA é curto e tematicamente puro."
+          },
+          {
+            "trecho": "Ela ainda não viu como a consulta resolve o problema dela, e se o valor não for percebido, nem se a consulta for de graça vai valer a pena.",
+            "pista": "Ordem torta: o \"nem\" antecipado antes da condicional deixa a frase meio manca, e ninguém revisou. É o tipo de nó que sobrevive quando o autor entende o que quis dizer e passa reto. Modelo desembaraça sozinho para \"não vai valer a pena nem se a consulta for de graça\"."
+          }
+        ]
+      },
+      {
+        "bloco": "07",
+        "leitor": 3,
+        "veredito": "pessoa",
+        "confianca": 65,
+        "pistas": [
+          {
+            "trecho": "Só que entre o que ela disse e o que você vai oferecer fica faltando uma coisa, ó. A ponte.",
+            "pista": "O \"ó\" apontando pro que vem depois é marcador de fala, não de escrita. Ninguém coloca isso pra enfeitar; sai quando a pessoa está falando e escreveu do jeito que falou."
+          },
+          {
+            "trecho": "O tempo ela te contou lá no passo três quando você perguntou “por que agora” e o script chama esse pedaço de “tempo informado” porque é o tempo que ela mesma te deu, né.",
+            "pista": "Frase longa que emenda três informações sem uma vírgula que ajude, e ainda termina com \"né\". É desleixo de quem escreveu na velocidade da fala. Texto de IA costuma cortar isso em duas ou três frases arrumadinhas."
+          },
+          {
+            "trecho": "Tira esse pedaço e fica só com a forma que ela trouxe, a frase aguenta.",
+            "pista": "Emenda duas orações só com vírgula e fecha com \"a frase aguenta\" — jeito torto e pessoal de dizer \"ainda funciona\". É escolha de vocabulário de gente, não fórmula."
+          },
+          {
+            "trecho": "As reticências são do script e eu acho que fazem diferença.",
+            "pista": "O \"eu acho que\" não precisava estar aí e não acrescenta nada ao ensino. É alguém dando opinião pequena sobre um detalhe bobo, coisa que texto gerado tende a afirmar com segurança ou nem mencionar."
+          },
+          {
+            "trecho": "Sem o problema que a pessoa tá passando, a transição vai ser de onde para onde?",
+            "pista": "Pergunta mal construída, meio truncada, que qualquer revisão teria endireitado. Sobrou porque quem escreveu falou assim e não voltou pra consertar."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "bloco": "09",
+    "votos": {
+      "pessoa": 1,
+      "ia": 2,
+      "indeciso": 0
+    },
+    "maioria": "ia",
+    "confianca_media": 63,
+    "leitores": [
+      {
+        "bloco": "09",
+        "leitor": 1,
+        "veredito": "ia",
+        "confianca": 65,
+        "pistas": [
+          {
+            "trecho": "A paciente que pergunta onde fica já está indo. Ela não está mais decidindo. Ela está se organizando pra chegar.",
+            "pista": "Par negação-afirmação espelhada (\"não é X, é Y\") em frases curtas gêmeas. É o tique mais batido de LLM em português. E não aparece uma vez só: repete em \"o fechamento não convence ninguém, ele só organiza\" e em \"ele não está ali por pressa\". Fala real não produz três desses no mesmo capítulo curto."
+          },
+          {
+            "trecho": "O erro é perguntar antes de oferecer. Depois de oferecer, pode perguntar.",
+            "pista": "Quiasmo (inversão simétrica dos termos) construído com precisão de frase feita. Não é como alguém explica falando; é construção escrita, e cara. Aparece um segundo quiasmo no mesmo texto: \"Ela não teve tempo de ir pra casa pensar, porque não sobrou nada pra pensar.\" Dois quiasmos em 95 linhas é assinatura de gerador otimizando ritmo."
+          },
+          {
+            "trecho": "Sabe onde o preço apareceu nessa cena? Na segunda mensagem. Depois do horário. Depois de seis passos.",
+            "pista": "Pergunta retórica seguida de fragmentos anafóricos em escada, cada um mais curto que o anterior. Estrutura de escada perfeita, com anáfora exata (\"Depois do... Depois de...\"). É o molde de \"prosa punchy\" que modelo aprende a executar; num transcrito real esses fragmentos viriam desalinhados ou com conector sobrando."
+          },
+          {
+            "trecho": "E “suficiente” tem medida. A medida veio do passo quatro.",
+            "pista": "Coesão por eco lexical: a última palavra de uma frase vira a primeira da seguinte. Mesmo mecanismo em \"Comprovante não foi enviado, a venda não foi feita, o agendamento não foi feito.\" É o jeito favorito de LLM emendar parágrafo, e o texto usa isso como muleta estrutural em vez de raciocínio encadeado."
+          },
+          {
+            "trecho": "Um horário só. E o bastão continua com você, ó: você ofereceu, ela reagiu.",
+            "pista": "Marcadores orais (\"ó\", \"tá\", \"gente\") aparecem SÓ como etiquetas destacáveis, coladas depois da vírgula ou no fim da frase. Apague todos e nenhuma sintaxe quebra. Fala de verdade bagunça a frase por dentro (anacoluto, retomada, sujeito trocado no meio); aqui a frase por baixo é impecável e a oralidade é aplicada como verniz. Isso é humanização por instrução, não fala."
+          }
+        ]
+      },
+      {
+        "bloco": "09",
+        "leitor": 2,
+        "veredito": "ia",
+        "confianca": 62,
+        "pistas": [
+          {
+            "trecho": "E se ela disser que faz o PIX à noite? E se ela disser que faz o PIX à noite?",
+            "pista": "Duplicação literal e adjacente da mesma pergunta dentro de um arquivo chamado 'capitulo-limpo'. Gaguejo de fala é a primeira coisa que morre numa revisão; repetição idêntica de frase inteira que sobrevive à limpeza é assinatura de geração, não de pessoa escrevendo nem de transcrição revisada. Nenhum ser humano digita isso duas vezes seguidas e relê sem cortar."
+          },
+          {
+            "trecho": "E acontece quando, ao longo da conversa, ficou claro qual era o problema... E é pra lá que a gente volta. ... E 'suficiente' tem medida. ... E manda a chave PIX numa mensagem separada... E o bastão continua com você",
+            "pista": "Cerca de doze frases iniciadas com 'E', espalhadas em intervalos quase regulares, uma ou duas por bloco. Isso não é respiração de fala — é regra de humanização aplicada em cima de um texto já pronto ('quebre frases e comece com E'). Fala real alterna conectivo, engasga, repete 'aí', 'então', abandona a frase no meio. Aqui o mesmo recurso aparece com uniformidade de máquina."
+          },
+          {
+            "trecho": "E o bastão continua com você, ó: você ofereceu, ela reagiu. / Primeiro ela diz que segue, tá. / Essa lista, ponto importante, é o script inteiro, gente.",
+            "pista": "Marcadores de oralidade racionados: um 'ó', dois 'tá', um 'gente' — um por seção, nunca em cacho, sempre nas variantes raras. E zero ocorrências de 'né', que é o tique mais frequente do português falado do Brasil. Um professor gravando aula não produz quatro páginas sem 'né'. A escolha das marcas raras e a ausência da comum indicam vocabulário oral aplicado por lista, não capturado."
+          },
+          {
+            "trecho": "A paciente que pergunta onde fica já está indo. Ela não está mais decidindo. Ela está se organizando pra chegar. / Na segunda mensagem. Depois do horário. Depois de seis passos. / Comprovante não foi enviado, a venda não foi feita, o agendamento não foi feito.",
+            "pista": "O mesmo molde de três batidas, com paralelismo sintático perfeito, reaparece em três pontos distantes do capítulo (abertura, meio e fecho). Copywriter usa tríade — mas varia o comprimento e erra o ritmo de vez em quando. Aqui as três instâncias têm a mesma métrica e a mesma função de encerrar parágrafo. É padrão reexecutado, não recurso reencontrado."
+          },
+          {
+            "trecho": "Se os seis passos anteriores aconteceram, o fechamento não convence ninguém, ele só organiza. / Ela não teve tempo de ir pra casa pensar, porque não sobrou nada pra pensar.",
+            "pista": "Frase de efeito com fecho impecável apoiada em lógica que não fecha: a condicional deveria ser 'não precisa convencer', não 'não convence ninguém' — o sentido trava, mas a cadência soa resolvida. Ao lado disso, um quiasmo lapidado ('tempo de pensar / nada pra pensar') fino demais para o registro falado do resto do capítulo. Essa combinação — som de conclusão sem a conclusão, e joia de redação isolada num texto de aula — é típica de máquina otimizando ritmo sem controlar o argumento."
+          }
+        ]
+      },
+      {
+        "bloco": "09",
+        "leitor": 3,
+        "veredito": "pessoa",
+        "confianca": 62,
+        "pistas": [
+          {
+            "trecho": "E se ela disser que faz o PIX à noite? E se ela disser que faz o PIX à noite?",
+            "pista": "A mesma pergunta repetida palavra por palavra, coladas uma na outra, sem nenhuma função. É erro de quem falou e não releu, ou de quem transcreveu. Texto montado do zero não deixa esse tipo de sobra."
+          },
+          {
+            "trecho": "Um horário só. E o bastão continua com você, ó: você ofereceu, ela reagiu.",
+            "pista": "Esse \"ó\" jogado no meio da frase é gente falando com alguém na frente, chamando atenção pro que vem. Ninguém escreve isso pensando; escapa."
+          },
+          {
+            "trecho": "Essa lista, ponto importante, é o script inteiro, gente.",
+            "pista": "\"gente\" no fim e o \"ponto importante\" enfiado no meio da frase, torto. É alguém dando aula e se interrompendo pra sublinhar, não alguém redigindo."
+          },
+          {
+            "trecho": "Não existe uma venda, na verdade, não existe um agendamento feito se o comprovante não for enviado.",
+            "pista": "A frase começa, o autor se corrige no meio (\"na verdade\") e recomeça sem apagar o começo errado. Pensamento acontecendo em tempo real."
+          },
+          {
+            "trecho": "Primeiro ela diz que segue, tá. Só depois você vai olhar a agenda.",
+            "pista": "O \"tá\" pendurado no fim aparece em umas frases e não em outras, sem padrão. Quando isso é imitação, costuma vir distribuído por igual; aqui está bagunçado como fala mesmo."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "bloco": "10",
+    "votos": {
+      "pessoa": 3,
+      "ia": 0,
+      "indeciso": 0
+    },
+    "maioria": "pessoa",
+    "confianca_media": 85,
+    "leitores": [
+      {
+        "bloco": "10",
+        "leitor": 1,
+        "veredito": "pessoa",
+        "confianca": 88,
+        "pistas": [
+          {
+            "trecho": "A objeção real vem com nome. A objeção real vem com nome. Olha uma: “Ah, eu posso ficar igual o fofão. [...] Ela te contou o medo, né, o medo tem nome, e é o nome que você pergunta. “Quando você diz que ficou artificial, o que exatamente te preocupa?”",
+            "pista": "Resíduo de montagem humana: a frase se repete literal e o parágrafo inteiro aparece duas vezes com exemplos diferentes e desencaixados (o primeiro fala de 'fofão', o segundo responde sobre 'ficou artificial', que ninguém disse). O mesmo erro se repete no fim: 'Então, no capítulo 11 eu pego uma objeção por vez.' duas vezes no mesmo parágrafo. Máquina gerando texto do zero não deixa esse tipo de duplicata colada e incoerente; isso é gente colando bloco de transcrição e esquecendo de limpar."
+          },
+          {
+            "trecho": "Ó, gente, eu não sei quantos maridos que eu tive na minha vida de ter falado não, tenho que ver com meu marido. Os maridos, o tanto de marido que essas mulheres criam.",
+            "pista": "Anacoluto puro: a frase começa numa sintaxe e termina em outra, sem concordância possível ('quantos maridos que eu tive na minha vida de ter falado não'). É fala espontânea travando no meio e se corrigindo por acúmulo. IA não erra assim — quando ela imita oralidade, ela imita com gramática limpa."
+          },
+          {
+            "trecho": "Ah, eu posso ficar igual o fofão. Uma bochecha imensa, a cara quadrada.",
+            "pista": "Referência cultural específica, datada e meio brega, do jeito que paciente fala de verdade. Modelo de linguagem escolhe comparação neutra e segura ('ficar artificial', 'exagerada'); 'igual o fofão' é vocabulário de consultório, não de gerador de texto."
+          },
+          {
+            "trecho": "Naqueles dez minutinhos da salinha, o que passou pela minha cabeça foi isso [...] E a doutora, na mesma consulta, tinha me falado que estava com muita gente indo pra casa pensar.",
+            "pista": "Memória pessoal citada pela metade, contando com contexto que o leitor supostamente já tem ('a salinha', 'a doutora', 'na mesma consulta'). Quem escreve com IA quase sempre explica a cena; quem viveu a cena pressupõe. Somado aos diminutivos ('dez minutinhos', 'salinha'), é textura de quem lembra, não de quem constrói exemplo."
+          },
+          {
+            "trecho": "a paciente estava conversando bem e contou o problema e estava tudo certo e na hora do horário apareceu o “vou ver com meu marido”",
+            "pista": "Polissíndeto de fala: quatro orações emendadas por 'e', sem vírgula nem hierarquia, e ainda com o cacófato 'na hora do horário'. É ritmo de quem está contando, não de quem está redigindo — e é exatamente o tipo de frase que qualquer revisor de IA teria partido em duas e limpado."
+          }
+        ]
+      },
+      {
+        "bloco": "10",
+        "leitor": 2,
+        "veredito": "pessoa",
+        "confianca": 78,
+        "pistas": [
+          {
+            "trecho": "Ó, gente, eu não sei quantos maridos que eu tive na minha vida de ter falado não, tenho que ver com meu marido. Os maridos, o tanto de marido que essas mulheres criam.",
+            "pista": "Frase quebrada de verdade. A oração descarrilha no meio (\"quantos maridos que eu tive na minha vida de ter falado não\") e depois o falante se corrige na marra com um fragmento sem verbo. Ninguém escreve isso de propósito e IA não erra assim: quando IA imita oralidade, ela produz frase curta e limpa com um \"né\" no fim, não anacoluto genuíno. É transcrição de boca."
+          },
+          {
+            "trecho": "“Ah, eu posso ficar igual o fofão. Uma bochecha imensa, a cara quadrada. Como é que você me garante que não vai acontecer?”",
+            "pista": "Referência culturalmente específica, datada e regional, colocada na boca da paciente no registro dela (\"igual o fofão\", \"a cara quadrada\"). Texto sintético cita o medo em abstrato (\"medo de ficar artificial\", \"resultado exagerado\"). Aqui o medo vem com apelido. E o próprio texto, quando repete o bloco, cai na versão genérica (\"quando você diz que ficou artificial\") — o contraste entre as duas versões mostra qual é a original."
+          },
+          {
+            "trecho": "Naqueles dez minutinhos da salinha, o que passou pela minha cabeça foi isso: e se for muito caro, será que é prioridade agora, será que eu não encontro outro jeito?",
+            "pista": "Abertura in media res com um dêitico que o capítulo nunca explica: \"naqueles\" dez minutinhos, \"a\" salinha. O texto assume que o leitor esteve lá no capítulo anterior. IA quase sempre reancora a cena antes de usá-la, porque escreve o capítulo como unidade autossuficiente. Some-se o duplo diminutivo (\"minutinhos\", \"salinha\"), que é fala, não escolha de estilo."
+          },
+          {
+            "trecho": "E é aqui que entra o voltar que eu prometi no capítulo 9. Voltar é refazer a pergunta do passo que ficou raso [...] “O que te fez pensar em resolver isso agora e nos trouxe até aqui?” é a pergunta do passo três.",
+            "pista": "Contabilidade de dívidas de um livro que existe fora deste arquivo: cobra o capítulo 9, empurra pro 11, retoma o 2, e amarra em passos numerados (dois, três, quatro) que não são definidos aqui. São referências operacionais, não decorativas — o texto seria incompreensível se os passos não existissem mesmo. IA solta esse tipo de crossreference vago (\"como vimos anteriormente\"), não com número e conteúdo checável."
+          },
+          {
+            "trecho": "A objeção real vem com nome. A objeção real vem com nome.",
+            "pista": "Sujeira de montagem que sobreviveu à revisão: a frase duplicada, e logo abaixo o mesmo parágrafo repetido inteiro com outro exemplo encaixado; no fim, \"Então, no capítulo 11 eu pego uma objeção por vez\" aparece duas vezes no mesmo parágrafo. É colagem de duas versões da mesma passagem que ninguém deletou — erro de gente editando transcrição. Ressalva honesta: esta é a pista mais ambígua do lote, porque modelo em loop também repete; o que a joga pro lado humano é que as repetições não são idênticas, são variantes alternativas do mesmo trecho, típicas de quem colou a segunda opção e esqueceu de apagar a primeira."
+          }
+        ]
+      },
+      {
+        "bloco": "10",
+        "leitor": 3,
+        "veredito": "pessoa",
+        "confianca": 88,
+        "pistas": [
+          {
+            "trecho": "Ó, gente, eu não sei quantos maridos que eu tive na minha vida de ter falado não, tenho que ver com meu marido. Os maridos, o tanto de marido que essas mulheres criam.",
+            "pista": "A frase quebra no meio e não fecha a sintaxe (\"quantos maridos que eu tive na minha vida de ter falado não\"). É alguém falando e se enrolando, e a piada sai torta em vez de sair pronta. Máquina não erra a estrutura da frase desse jeito: quando quer soar solta, ela soa solta e certinha."
+          },
+          {
+            "trecho": "A objeção real vem com nome. A objeção real vem com nome. Olha uma: “Ah, eu posso ficar igual o fofão. [...] Ela te contou o medo, né, o medo tem nome, e é o nome que você pergunta. “Quando você diz que ficou artificial, o que exatamente te preocupa?”",
+            "pista": "O mesmo bloco aparece duplicado, uma vez com o exemplo do \"fofão\" e outra com \"ficou artificial\", e a frase de abertura vem repetida colada. Isso é sujeira de montagem de material real (copiar/colar mal resolvido), não texto gerado. Um gerador entrega o parágrafo limpo e sem eco."
+          },
+          {
+            "trecho": "Naqueles dez minutinhos da salinha, o que passou pela minha cabeça foi isso: e se for muito caro, será que é prioridade agora, será que eu não encontro outro jeito?",
+            "pista": "Começa referindo \"aqueles dez minutinhos da salinha\" como se eu já soubesse do que se trata, e não explica. Quem escreve pensando em ser entendido por qualquer leitor abre o contexto; quem está contando uma cena que viveu supõe que o outro estava junto."
+          },
+          {
+            "trecho": "E pensa só. Ela quer saber o preço? Ela não quer saber o preço. Ela quer saber se vale o preço, né? E com o seu 200 na mão ela vai comparar com a clínica ao lado",
+            "pista": "Pergunta, responde sozinha e emenda um \"né?\" no meio do raciocínio, com o número entrando cru na conversa (\"o seu 200 na mão\"). É o ritmo de quem está explicando de boca, não de quem está redigindo."
+          },
+          {
+            "trecho": "Qualquer uma das duas serve, tá. A de baixo é a de cima já com o “vou pensar” dentro, então usa ela quando foi isso que chegou.",
+            "pista": "\"A de baixo\", \"a de cima\", \"tá\": a pessoa aponta para a página como quem aponta para um slide na frente da turma. Texto de IA costuma nomear as opções (\"a primeira pergunta\", \"a segunda\") em vez de apontar com o dedo."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "bloco": "12",
+    "votos": {
+      "pessoa": 2,
+      "ia": 1,
+      "indeciso": 0
+    },
+    "maioria": "pessoa",
+    "confianca_media": 68,
+    "leitores": [
+      {
+        "bloco": "12",
+        "leitor": 1,
+        "veredito": "ia",
+        "confianca": 72,
+        "pistas": [
+          {
+            "trecho": "eu fui pra casa pensar sem sair da clínica",
+            "pista": "Paradoxo fechado, epigramático, colocado exatamente no fim do parágrafo. Fala espontânea não formula uma antítese dessa limpeza no meio de uma frase já emaranhada — isso é frase construída pra ser citada, não frase dita. É o ponto mais forte contra origem humana/transcrição."
+          },
+          {
+            "trecho": "não porque o número é alto, mas porque ela ainda não sabe se aquilo resolve o problema dela",
+            "pista": "Estrutura \"não é X, é Y\" — o maneirismo mais previsível de texto de máquina em copy persuasiva em PT-BR. Aparece de novo, reciclada, na pergunta final (\"salinha do fechamento ou a salinha do pagamento\"): o texto pensa por oposições binárias simétricas o tempo todo."
+          },
+          {
+            "trecho": "Tudo, e é por isso que eu escrevi este livro em vez de um sobre a consulta.",
+            "pista": "Subtítulo em forma de pergunta (\"O que o WhatsApp tem a ver com a sala\") respondido com uma palavra isolada no início do parágrafo. É um truque de redação, não de fala. Padrão de abertura de seção que modelo de linguagem usa à exaustão."
+          },
+          {
+            "trecho": "Aí o preço só precisa vir de quem entendeu o problema dela. Lá dentro.",
+            "pista": "Fragmento de duas palavras isolado por ponto, como soco final, recuperando literalmente a frase de dois blocos antes (\"com quem entendeu o problema dela\"). Callback exato + fragmento-punch é arquitetura de texto revisado, não resíduo de oralidade."
+          },
+          {
+            "trecho": "enfim, é mil maravilhas",
+            "pista": "A oralidade aqui é decorativa: \"né\", \"tá\", \"enfim\", \"minutinhos\" aparecem sempre em posição sintática segura, e nenhuma frase é abandonada, corrigida no meio ou repetida à toa. Transcrição real de gente falando deixa lixo — falso começo, reparo, redundância que não vai a lugar nenhum. Aqui toda frase fecha e ainda entrega uma figura de retórica."
+          }
+        ]
+      },
+      {
+        "bloco": "12",
+        "leitor": 2,
+        "veredito": "pessoa",
+        "confianca": 65,
+        "pistas": [
+          {
+            "trecho": "o ticket médio sobe, a taxa de fechamento sobe, enfim, é mil maravilhas.",
+            "pista": "Idioma gasto pelo uso: a expressão é \"às mil maravilhas\" e aqui ela aparece mastigada, \"é mil maravilhas\". Máquina reproduz a forma canônica do dicionário; boca de gente desgasta a locução sem perceber. Erro pequeno demais pra ser plantado de propósito e grande demais pra passar batido se alguém estivesse escrevendo com cuidado."
+          },
+          {
+            "trecho": "Na hora que chegar lá, a venda passando ali por todas as etapas, essa questão da objeção de preço nem vai existir.",
+            "pista": "Oração absoluta jogada no meio (\"a venda passando ali por todas as etapas\") que não sustenta sujeito nenhum e atrapalha a frase em vez de somar. É sobra de fala. IA erra pra cima (floreia), não pra baixo: ela não produz entulho sintático que só ocupa espaço, porque o treino a empurra pra clareza."
+          },
+          {
+            "trecho": "e no caminho entre as duas, dez minutinhos numa área de espera, eu fui pra casa pensar sem sair da clínica.",
+            "pista": "A frase começa numa direção, aceita um aposto no meio do caminho e só fecha o sentido no paradoxo final. Quem escreve teria montado a imagem primeiro; quem fala descobre o achado no fim da frase e deixa a bagunça do percurso no texto. O paradoxo é bom, e é bom do jeito acidental."
+          },
+          {
+            "trecho": "Eu começaria olhando o dois, o capítulo 4, porque é onde ela conta o problema",
+            "pista": "Duas numerações concorrentes atritando na mesma frase (o passo dois e o capítulo 4) sem que o autor registre o atrito. Máquina padroniza referência cruzada ou explica a equivalência; pessoa que conhece o próprio material de cor troca de sistema de numeração no meio da respiração e segue em frente."
+          },
+          {
+            "trecho": "e paciente que chega lá na frente ainda falando em procedimento é passo dois raso",
+            "pista": "Artigo comido no sujeito e predicado telegráfico (\"é passo dois raso\"). É jargão interno usado como se o leitor já morasse na cabeça de quem fala, com a sintaxe encurtada que só acontece quando a regra já foi dita cem vezes em voz alta. Texto gerado explica o termo ou o encaixa numa frase inteira."
+          }
+        ]
+      },
+      {
+        "bloco": "12",
+        "leitor": 3,
+        "veredito": "pessoa",
+        "confianca": 66,
+        "pistas": [
+          {
+            "trecho": "a doutora entendeu o meu problema e uma outra pessoa vendeu e no caminho entre as duas, dez minutinhos numa área de espera, eu fui pra casa pensar sem sair da clínica.",
+            "pista": "A frase está quebrada. Ela emenda três coisas com \"e\", enfia um aposto no meio e termina numa contradição literal (\"fui pra casa pensar sem sair da clínica\"). É uma imagem que só funciona porque alguém improvisou falando e não voltou pra arrumar. Máquina não erra assim: erra pra menos, deixando tudo redondo."
+          },
+          {
+            "trecho": "o ticket médio sobe, a taxa de fechamento sobe, enfim, é mil maravilhas",
+            "pista": "Começa uma enumeração, faz dois itens e desiste no terceiro com um \"enfim, é mil maravilhas\" preguiçoso. Texto de IA fecha a série com o terceiro item na régua. Aqui a pessoa cansou da própria lista no meio."
+          },
+          {
+            "trecho": "Eu começaria olhando o dois, o capítulo 4, porque é onde ela conta o problema",
+            "pista": "Chama o mesmo assunto de \"o dois\" e de \"capítulo 4\" na mesma linha. É contabilidade interna de quem escreveu o livro inteiro e sabe que passo 2 mora no capítulo 4 — bagunçado do jeito que só quem tá dentro da própria obra bagunça."
+          },
+          {
+            "trecho": "Na hora que chegar lá, a venda passando ali por todas as etapas, essa questão da objeção de preço nem vai existir.",
+            "pista": "O trecho do meio (\"a venda passando ali por todas as etapas\") não concorda com nada na frase, é um pedaço solto de fala. Some ele e a frase melhora. Ninguém escreve isso digitando com calma; sai assim quando a pessoa fala e alguém transcreve."
+          },
+          {
+            "trecho": "Depois a gente vê se consegue ajudar. Se conseguir, aí a gente pensa em próximos passos, pode ser?",
+            "pista": "Fecha o livro pedindo permissão em voz alta (\"pode ser?\"), do mesmo jeito que \"né\", \"tá\", \"salinha\", \"minutinhos\" aparecem o tempo todo. E, principalmente: não tem NENHUMA das muletas de texto de máquina — zero lista com bullet, zero \"em resumo\", zero \"não se trata apenas de\", zero travessão longo. O texto é oral do início ao fim, não oral por enfeite."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "bloco": "C",
+    "votos": {
+      "pessoa": 2,
+      "ia": 1,
+      "indeciso": 0
+    },
+    "maioria": "pessoa",
+    "confianca_media": 72,
+    "leitores": [
+      {
+        "bloco": "C",
+        "leitor": 1,
+        "veredito": "pessoa",
+        "confianca": 78,
+        "pistas": [
+          {
+            "trecho": "A seleção começa na foto. A seleção começa na foto.",
+            "pista": "Repetição literal de uma frase inteira, colada. Isso é ênfase de fala ou resíduo de transcrição. Gerador de texto quase nunca duplica sentença idêntica em sequência — ele varia a segunda ocorrência ou apaga uma. Aqui ninguém apagou."
+          },
+          {
+            "trecho": "e é ele inteiro que está aqui, né, porque a dúvida chega direto pra gente, ó.",
+            "pista": "Dois marcadores orais ('né' encravado no meio da oração e 'ó' fechando) em posição idiomática de fala espontânea, não em posição decorativa de início de frase. IA que tenta soar coloquial em PT-BR planta esses marcadores no começo da sentença; aqui eles caem onde a respiração cai."
+          },
+          {
+            "trecho": "Quem vem pelo link da bio tá quentinho, tá morno ali.",
+            "pista": "Autocorreção contraditória deixada no texto: começa em 'quentinho', recua para 'morno'. É alguém ajustando a própria afirmação no ar. Texto de máquina escolhe uma temperatura e mantém — não deixa a hesitação semântica no papel."
+          },
+          {
+            "trecho": "Tem gente que faz o 715 inteiro com ela e se frustra muito",
+            "pista": "Jargão interno ('o 715', depois 'o passo sete do 715', 'edição') usado sem nenhuma definição, assumindo contexto compartilhado com o leitor. IA tem compulsão de glosar o termo próprio na primeira aparição; aqui só o 'quiz' ganha explicação, e ainda assim jogada no meio da oração como aposto de fala."
+          },
+          {
+            "trecho": "Se você está se posicionando em derretimento facial e entra em contato uma pessoa mais ou menos na faixa dos 28 anos, não é o problema que você tá posicionada para resolver.",
+            "pista": "Mistura de registro dentro da MESMA oração: 'está se posicionando' formal e 'você tá posicionada' contraído, mais o hedge vago 'mais ou menos na faixa dos 28 anos'. IA mantém registro consistente por parágrafo e prefere número seco ('até 30 anos'). Esse tipo de oscilação é de quem fala e depois só limpou o texto por cima."
+          }
+        ]
+      },
+      {
+        "bloco": "C",
+        "leitor": 2,
+        "veredito": "ia",
+        "confianca": 70,
+        "pistas": [
+          {
+            "trecho": "Só que a paciente que chega por anúncio de paciente modelo é outra conversa e tem um caminho próprio, mais curto de propósito, e é ele inteiro que está aqui, né, porque a dúvida chega direto pra gente, ó.",
+            "pista": "Oralidade colada por cima de sintaxe escrita. No mesmo período convivem um aposto de escritor (\"mais curto de propósito\") e uma clivada literária (\"e é ele inteiro que está aqui\") com duas partículas de fala (\"né\", \"ó\") penduradas no fim. Quem fala assim não constrói clivada; quem escreve clivada não pendura \"ó\". É tempero de oralidade aplicado depois, não fala transcrita."
+          },
+          {
+            "trecho": "A seleção começa na foto. A seleção começa na foto.",
+            "pista": "Repetição idêntica, palavra por palavra. Repetição real de fala muta (\"A seleção começa na foto. Começa na foto, viu\"). Duplicata exata e limpa é artefato de composição, não de voz — e sobreviveu à revisão porque foi colocada ali como marca de autenticidade, não porque alguém falou duas vezes."
+          },
+          {
+            "trecho": "Quem veio pelo quiz, que é o formulário de perguntas que ela responde antes de cair no seu WhatsApp, chega um pouco mais consciente, porque leu muita coisa no caminho.",
+            "pista": "Glosa didática encaixada exatamente na primeira menção do termo, em oração relativa fechada e sem sobra. Isso se repete com \"Edição é a leva de vagas de modelo que você abre no mês, tá.\" Definir termo na estreia, sempre no lugar certo, é comportamento de gerador de texto. Professor real ou já assume o jargão ou explica fora de hora."
+          },
+          {
+            "trecho": "Literalmente uma oportunidade, uma oportunidade escassa, que talvez não aconteça de novo.",
+            "pista": "Escalada por acréscimo em três tempos, cada degrau adicionando um adjetivo. O padrão se repete adiante (\"tá quentinho, tá morno ali. Tá só esperando você aquecer mais\") e vira antítese balanceada em \"Nem só a mensagem 'topa ou não topa', nem os sete passos completos.\" Ritmo bom demais e regular demais para prosa falada; é cadência de máquina imitando ênfase."
+          },
+          {
+            "trecho": "Se você está se posicionando em derretimento facial e entra em contato uma pessoa mais ou menos na faixa dos 28 anos, não é o problema que você tá posicionada para resolver.",
+            "pista": "\"está\" e \"tá\" no mesmo período, com o mesmo verbo (posicionar), sem motivo prosódico. Não é variação de registro, é normalização inconsistente — sinal de texto gerado num registro e depois coloquializado por passadas parciais. Some com isso o \"conscientização\" jogado no meio de um parágrafo de \"pra\"/\"tá\", e o desenho do sotaque não fecha."
+          }
+        ]
+      },
+      {
+        "bloco": "C",
+        "leitor": 3,
+        "veredito": "pessoa",
+        "confianca": 68,
+        "pistas": [
+          {
+            "trecho": "e é ele inteiro que está aqui, né, porque a dúvida chega direto pra gente, ó.",
+            "pista": "Muleta de fala no meio da frase: 'né' e 'ó' jogados em posições que não fazem sentido em texto planejado. Isso é boca falando, não mão escrevendo."
+          },
+          {
+            "trecho": "A seleção começa na foto. A seleção começa na foto.",
+            "pista": "A mesma frase repetida literalmente, colada. Ninguém digita isso de propósito e nenhum revisor deixaria passar se fosse texto pensado; é fala transcrita e não limpa."
+          },
+          {
+            "trecho": "Se você está se posicionando em derretimento facial e entra em contato uma pessoa mais ou menos na faixa dos 28 anos, não é o problema que você tá posicionada para resolver.",
+            "pista": "Frase quebrada: começa falando da profissional, vira pra paciente e volta sem concordar com nada. Sintaxe que desaba no meio é erro de quem está falando ao vivo."
+          },
+          {
+            "trecho": "Literalmente uma oportunidade, uma oportunidade escassa, que talvez não aconteça de novo.",
+            "pista": "Repete 'oportunidade' três vezes em duas frases, sem ganho nenhum. Gagueira de quem está pensando enquanto fala, não escolha de escrita."
+          },
+          {
+            "trecho": "Testa os dois jeitos na próxima leva de mensagens, faz do jeito completo, faz do jeito mais direto, e fica com o que funcionar na sua mão. Tá?",
+            "pista": "O capítulo simplesmente acaba num 'Tá?', sem parágrafo de fechamento, sem resumo, sem moral. Texto gerado quase sempre insiste em amarrar tudo no final."
+          }
+        ]
+      }
+    ]
+  }
+]

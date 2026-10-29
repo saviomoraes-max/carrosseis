@@ -1,0 +1,31 @@
+12-doutora-e-vendedora-tambem.md · rodada 2 · brutos 13 · confirmados 6 · altas 2 · cego ia 70
+
+[1] tell/alta
+  TRECHO: É o mesmo gesto: entregar o número pra alguém que ainda não entendeu o que o número resolve.
+  DETALHE: Revelação por dois-pontos (catálogo 1.9): sintagma nominal, dois-pontos, glosa do próprio conceito. Empilha com 3.11 (rótulo cunhado na hora). A frase anterior já tinha dito a mesma coisa com cena ("é a mesma que manda a
+  CORRECAO: Cortar a frase e NÃO pôr nada no lugar. A amarra já existe duas frases depois ("E nos dois casos a paciente sai com o número na mão e vai pensar sozinha"), e enfiar "Dá na mesma." logo após a primeira frase entrega a conclusão antes do espelho e mata as duas frases seguintes. Fica: "A doutora que responde o preço na primeira mensagem do WhatsApp é a mesma que manda a paciente pra salinha do financeiro. No WhatsApp o número vai pra paciente cedo demais. Na salinha, vai por uma pessoa que não ouviu nada. E nos dois casos a paciente sai com o número na mão e vai pensar sozinha. Não porque o número é alto. Porque ela ainda não sabe se aquilo resolve o problema dela." Se um dia alguém quiser mesm
+
+[2] tell/media
+  TRECHO: Na sua clínica, você tem a salinha do fechamento ou a salinha do pagamento? ⏎  ⏎ Diagnóstico feito.
+  DETALHE: Duas cópias literais do capítulo 1 (a linha de abertura e o carimbo do plot twist) usadas como fecho do livro. No capítulo 1 "Diagnóstico feito." pousava numa fala real da doutora pedindo ajuda, e por isso significava al
+  CORRECAO: Fechar no bloco, com três perguntas e sem o carimbo emprestado: ⏎ :::pergunta ⏎ Na sua clínica, você tem a salinha do fechamento ou a salinha do pagamento? E a próxima paciente que te mandar mensagem, quem vai passar o preço pra ela? Você, ou alguém que não ouviu nada do problema dela? ⏎ :::
+
+[3] tell/media
+  TRECHO: Eu começaria olhando o dois, porque é onde ela conta o problema, e paciente que chega lá na frente ainda falando em procedimento é passo dois raso. Os capítulos estão aí pra você voltar.
+  DETALHE: É a única instrução de conserto do livro inteiro e ela não tem endereço. Passo 2 é o capítulo 4 ("Situação"). O catálogo protege a ponte curta pra outro capítulo justamente quando ela tem número (5.2, guarda: "o script e
+  CORRECAO: A correção proposta troca "é onde ela conta o problema" por "é ali que ela conta o problema", e "ali" está na lista de corte da seção 6 do fingerprint ("'ali' e o 'aqui' de gesto: cortar"; "ali" só apareceu em A1 e foi rebaixado). Mantendo o "onde" original: "Se a conversa travar, tem um passo que ficou raso. Eu começaria olhando o dois, o capítulo 4, porque é onde ela conta o problema. Paciente que chega lá na frente ainda falando em procedimento é passo dois raso."
+
+[4] leitora/alta
+  TRECHO: É a conversa de entrada da mentoria, e é uma conversa. Primeiro a gente entende, depois a gente vê se consegue ajudar. Se conseguir, aí a gente pensa em próximos passos, pode ser?
+  DETALHE: É aqui que eu senti que estão me vendendo dentro de um livro que eu já paguei. E o pior não é ter oferta no fim, é que a oferta usa exatamente o script que ela acabou de me ensinar: declarar intenção, primeiro entender d
+  CORRECAO: E se você quiser que a gente olhe isso junto, a sua conversa, o seu número, a sua clínica, marca um horário com o nosso time. E eu vou fazer com você exatamente o que eu te pedi pra fazer com a paciente, porque é assim que eu trabalho. Primeiro a gente entende. Depois a gente vê se consegue ajudar. Se conseguir, aí a gente pensa em próximos passos, pode ser?
+
+[5] leitora/media
+  TRECHO: Na sua clínica, você tem a salinha do fechamento ou a salinha do pagamento?
+  DETALHE: Essa é a pergunta que eu ia levar comigo, e ela está depois do link de agendamento. Lendo no celular, quando aparece o link eu entendo que acabou: ou eu clico ou eu fecho o livro. Não voltei pra ver o que vinha depois. A
+  CORRECAO: Manter a ordem, trocando só a última virada: ⏎  ⏎ [LINK DE AGENDAMENTO COM O TIME] ⏎  ⏎ Agora, antes de você fechar o livro: na sua clínica, você tem a salinha do fechamento ou a salinha do pagamento? ⏎  ⏎ Diagnóstico feito. ⏎  ⏎ E uma trava de render junto: o link não pode ficar sozinho no pé da página, tem que dividir a página com as duas linhas finais.
+
+[6] leitora/baixa
+  TRECHO: Eu começaria olhando o dois, porque é onde ela conta o problema, e paciente que chega lá na frente ainda falando em procedimento é passo dois raso. Os capítulos estão aí pra você voltar.
+  DETALHE: Essa é a parte mais útil do capítulo e ela morre no final. Os capítulos estão aí pra você voltar não me serve às onze da noite no celular. Eu não vou caçar qual capítulo é o passo dois no sumário, eu simplesmente não vol
+  CORRECAO: Se a conversa travar, tem um passo que ficou raso. Eu começaria olhando o dois, porque é onde ela conta o problema, e paciente que chega lá na frente ainda falando em procedimento é passo dois raso. Volta no capítulo 4 e refaz a pergunta de clarear com a próxima paciente.

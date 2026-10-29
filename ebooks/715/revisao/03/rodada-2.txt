@@ -1,0 +1,26 @@
+03-passo-1-conexao.md · rodada 2 · brutos 19 · confirmados 5 · altas 1 · cego ia 62
+
+[1] tell/media
+  TRECHO: E pelo que eu vejo, isso acontece quando a gente se qualifica ("a doutora é ótima", "esses casos são perfeitos", "olha esse caso que lindo"), quando a gente não declara a intenção do atendimento, quando a paciente sente que se ela quiser agendar ela pode a qua
+  DETALHE: A anáfora de 4 degraus é dela (whitelist 2), mas está na forma errada: uma frase de 90 palavras com dois parênteses. No fingerprint (seção 6) a escada de 4 degraus da A2 vira parágrafo de 4 frases começando igual, sem bu
+  CORRECAO: E pelo que eu vejo, isso acontece quando a gente se qualifica: a doutora é ótima, esses casos são perfeitos, olha esse caso que lindo. Acontece quando a gente não declara a intenção do atendimento. Acontece quando a paciente sente que, se ela quiser agendar, ela pode a qualquer momento, porque agenda sempre aberta é clínica que pega qualquer uma, e quem pega qualquer uma está vendendo, não escolhendo. E acontece quando ela te vê numa posição abaixo dela, que é quando só ela pergunta e você só responde.
+
+[2] tell/media
+  TRECHO: Eu sei que o passo um cumpriu o papel dele quando ela começa a responder com mensagens mais longas e detalhadas, quando ela compartilha coisa pessoal sobre o problema dela, e quando ela responde rápido e demonstra interesse.
+  DETALHE: Frase-eco (catálogo 4.6) e esteira (2.6): repete palavra por palavra os três itens do bloco ":::grafico sinais" que está logo acima ("Ela responde com mensagens mais longas e detalhadas", "Compartilha coisa pessoal sobre
+  CORRECAO: Cortar a frase e emendar o parágrafo seguinte direto no gráfico: "Não precisa das três pra você saber que o passo um cumpriu o papel dele. Se a paciente que abriu com \"quanto custa?\" responde a sua pergunta com duas linhas contando o que está incomodando, a abertura acabou. Ela abriu."
+
+[3] fidelidade/media
+  TRECHO: A resposta pra ela é a mesma do preço, só troca valores por horário. Tem horário quinta sim, e antes de segurar ele pra você, até pra entender se a doutora vai conseguir te ajudar no seu caso ou não, o que faz você buscar por botox hoje?
+  DETALHE: Frase pronta que não existe em nenhuma das fontes. O framework (Etapa 1, O que evitar) só diz: "Achar que a paciente que é direta e parece já saber o que quer é um agendamento garantido e pular para o fechamento". Não há
+  CORRECAO: Manter a explicação e trocar a frase por uma que seja de fato a do preço com uma palavra trocada, sem prometer o horário: "A resposta pra ela é a mesma do preço, só troca valores por horário. Claro que posso te passar os horários! Mas antes, até pra entender se a doutora vai conseguir te ajudar no seu caso ou não, o que faz você buscar por botox hoje?"
+
+[4] fidelidade/baixa
+  TRECHO: O que mais te chamou atenção no perfil? Teve mais alguma coisa?
+  DETALHE: Fonte (framework p.1): "O que mais te chamou atenção [no perfil/no anúncio/no caso]? Teve mais alguma coisa?". O capítulo fixa só "no perfil" e perde as outras duas origens (anúncio, caso), que são justamente as mais com
+  CORRECAO: Manter o card como está ('O que mais te chamou atenção no perfil? Teve mais alguma coisa?') e inserir uma linha de prosa logo depois dele, antes do card seguinte: 'Perfil, anúncio ou caso, depende de onde ela te viu. Se ela chegou pelo anúncio, pergunta do anúncio. Se chegou por um caso que você postou, pergunta do caso.'
+
+[5] voz/alta
+  TRECHO: E pelo que eu vejo, isso acontece quando a gente se qualifica ("a doutora é ótima", "esses casos são perfeitos", "olha esse caso que lindo"), quando a gente não declara a intenção do atendimento, quando a paciente sente que se ela quiser agendar ela pode a qua
+  DETALHE: Frase de 85 palavras com dois parênteses e três aspas. Três desvios do fingerprint no mesmo período: (1) 'Frases de 45 a 73 palavras: quebrar em duas ou três, mantendo o e aí, o Aí ou o Agora, na junta'; (2) whitelist 22
+  CORRECAO: E pelo que eu vejo, isso acontece em quatro situações. Acontece quando a gente se qualifica, aquele a doutora é ótima, esses casos são perfeitos, olha esse caso que lindo. Acontece quando a gente não fala pra que está ali. Acontece quando a paciente sente que pode agendar a hora que quiser, porque agenda sempre aberta é clínica que pega qualquer uma, e quem pega qualquer uma não está escolhendo, está vendendo. E acontece quando ela te vê numa posição abaixo dela, que é quando só ela pergunta e você só responde.

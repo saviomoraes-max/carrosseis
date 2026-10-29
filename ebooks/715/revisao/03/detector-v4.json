@@ -1,0 +1,107 @@
+{
+  "arquivo": "/Users/saviomoraes/reconecta/ebooks/715/revisao/03/capitulo-limpo.md",
+  "palavras": 753,
+  "paragrafos": 15,
+  "frases": 60,
+  "mascarado": {
+    "blocos_script": 10,
+    "marcadores_bloco": 22,
+    "citacoes": 1,
+    "titulos_curtos": 5
+  },
+  "avisos": [],
+  "score": 8,
+  "faixa": "limpo (soa gente)",
+  "pontos": 3,
+  "densidade": 4.0,
+  "formula": "densidade = pontos / max(palavras, piso_palavras) * 1000; score = 100 * (1 - exp(-densidade / k)), k = 50, piso_palavras = 300 (texto curto não explode com um achado só). Nota por categoria usa k_categoria sobre a densidade só daquela categoria.",
+  "categorias": {
+    "conteudo": {
+      "rotulo": "Conteúdo e inflação",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "linguagem": {
+      "rotulo": "Linguagem e vocabulário",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "estrutura": {
+      "rotulo": "Estrutura e ritmo",
+      "achados": 1,
+      "pontos": 3,
+      "densidade": 4.0,
+      "nota": 23
+    },
+    "comunicacao": {
+      "rotulo": "Sobras de chatbot",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "meta": {
+      "rotulo": "Uniformidade de ritmo (estatística)",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "calques": {
+      "rotulo": "Calques do inglês e burocratês",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    }
+  },
+  "metricas": {
+    "frases_media_palavras": 12.6,
+    "frases_desvio_padrao": 7.7,
+    "frases_cv": 0.62,
+    "paragrafos": 15,
+    "paragrafos_mediana_palavras": 54,
+    "paragrafos_proporcao_mesmo_tamanho": 0.38,
+    "ritmo_entre_paragrafos_desvio": 0.159,
+    "pontuacao_cv": 0.62,
+    "ttr": 0.352,
+    "frases_mesmo_inicio_proporcao": 0.14,
+    "travessoes": 0,
+    "travessoes_por_mil": 0.0,
+    "dois_pontos": 6,
+    "dois_pontos_por_mil": 7.97,
+    "itens_lista": 0,
+    "proporcao_linhas_em_lista": 0.0,
+    "negritos": 0,
+    "triades": 1,
+    "triades_por_mil": 1.33,
+    "contrastes": 0,
+    "paragrafos_terminando_em_pergunta": 2,
+    "fechos_grandiosos": 0,
+    "hedges": 0,
+    "hedges_por_mil": 0.0
+  },
+  "achados": [
+    {
+      "id": "m_anafora",
+      "categoria": "estrutura",
+      "subtipo": "anafora",
+      "gravidade": "media",
+      "peso": 3,
+      "texto": "3 frases seguidas começando com «Acontece quando»",
+      "inicio": 4238,
+      "fim": 4596,
+      "explicacao": "Três ou mais frases seguidas começando igual.",
+      "sugestao": "Deixe uma; reescreva as outras com outro começo.",
+      "contribuicao": 3,
+      "linha": 67,
+      "trecho": "«Acontece quando a gente se qualifica, aquele a doutora é ótima, esses casos são perfeitos, olha esse caso que lindo. Acontece quando a gente não fala pra que está ali. Acontece quando a paciente sente que pode agendar a hora que quiser, porque agenda sempre aberta é clínica que pega qualquer uma, e quem pega qualquer uma não está escolhendo, está vendendo.» E acontece quando ela te vê numa posição abaixo dela, que é quando só ela pergunta e você"
+    }
+  ],
+  "achados_ocultos": 0,
+  "min_gravidade": "baixa"
+}

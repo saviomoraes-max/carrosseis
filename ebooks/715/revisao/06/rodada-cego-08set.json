@@ -1,0 +1,28 @@
+{
+  "cego": {
+    "veredito": "ia",
+    "confianca": 74
+  },
+  "pistas": [
+    {
+      "trecho": "Ela pediu a consulta. Você só perguntou.",
+      "pista": "Fecho em espelho invertido, e não é uma vez só: \"quem dá esse sinal é você, não a paciente\", \"Ela ouve que o próximo passo existe e que você ainda não deu\", \"a sua mensagem começa pela palavra dela, e no fim do passo ela escreveu mais do que você\", \"Primeiro ela declara, depois você oferece\". Quase todo parágrafo termina com uma antítese simétrica de duas partes, perfeitamente balanceada. Gente escrevendo do próprio repertório acerta esse golpe uma ou duas vezes por capítulo; aqui ele é a régua fixa de encerramento, o que denuncia geração por padrão retórico, não por pensamento."
+    },
+    {
+      "trecho": "O \"com tudo o que falamos\" no começo da primeira não é enfeite.",
+      "pista": "Fórmula \"não é X, é Y\" (negar o trivial pra anunciar profundidade) somada a uma cadeia de revelações por dois-pontos no mesmo capítulo: \"que faz uma coisa sutil:\", \"As duas aparecem pelo mesmo motivo:\", \"No WhatsApp isso é uma coisa só:\". É o par de tiques mais estável de LLM em PT-BR, e aqui aparece em densidade alta num texto curto."
+    },
+    {
+      "trecho": "E eu não tô dizendo que argumentar é errado, tá?",
+      "pista": "Os marcadores de oralidade (\"tava\", \"tô\", \"tá?\", \"Parou.\", \"Repara na ordem\") vêm dosados com regularidade quase métrica: um por parágrafo, sempre num período que no resto está impecável. Fala transcrita de verdade é suja em bloco (falso começo, repetição, frase que morre no meio, digressão que não volta). Aqui não há um único trecho malfeito, nenhuma vírgula fora do lugar, nenhuma digressão que não retorne exatamente ao ponto com piada pronta. Isso é coloquialismo aplicado por cima de prosa limpa, não prosa nascida da fala."
+    },
+    {
+      "trecho": "Eu já estive do lado de lá dessa conversa, lembra da salinha?",
+      "pista": "A memória pessoal não carrega nenhum detalhe inútil, que é o que memória real sempre carrega: não tem nome, cidade, o que a doutora falou, quanto custava, o que a pessoa estava vestindo. Tudo que está lá serve ao argumento e nada sobra, e o único gesto de intimidade é apontar pra um detalhe que estaria em outro lugar (\"lembra da salinha?\"). Encerra ainda num contrafactual que funciona como tese, não como lembrança: \"Se eu tivesse entendido o preço ali na sala, talvez eu teria fechado lá dentro.\""
+    },
+    {
+      "trecho": "A leitura negativa do passo quatro tem duas frases",
+      "pista": "O corpo anuncia duas frases e cita as duas, mas o bloco :::grafico leituras só traz uma (\"NEG: Ainda não sei se o meu problema vai ser resolvido.\") — a segunda, \"eu só quero fazer o procedimento tal\", não existe no gráfico. É a assinatura de texto montado em cima de um material-fonte que o autor do parágrafo tinha à vista e o autor do bloco não reconciliou. Quem viveu e domina o próprio conteúdo não anuncia dois itens e entrega um no quadro logo acima."
+    }
+  ]
+}

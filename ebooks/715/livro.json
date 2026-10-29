@@ -1,0 +1,104 @@
+{
+  "arquivo": "script-715",
+  "titulo": "Script 715",
+  "selo": "Script 715",
+  "titulo_capa": "7 passos para 1 agendamento\na cada 5 contatos.",
+  "subtitulo": "O script de atendimento que a gente usa nas clínicas da mentoria, do primeiro oi ao comprovante do PIX.",
+  "kicker_capa": "Arquivo confidencial · WhatsApp",
+  "hud_capa": "Caso Nº 715 · Atendimento",
+  "hud": "Script 715 · Atendimento",
+  "rodape": "Script 715 · Reconecta",
+  "rodape_capa": "Script 715 · Reconecta · 2026",
+  "ds": "/Volumes/SSD kenipe/inbox/Reconecta Design System",
+  "sumario": [
+    {
+      "numero": "01",
+      "titulo": "A salinha do financeiro"
+    },
+    {
+      "numero": "02",
+      "titulo": "Vender o que ela já quer comprar"
+    },
+    {
+      "numero": "03",
+      "titulo": "Passo 1: Conexão"
+    },
+    {
+      "numero": "04",
+      "titulo": "Passo 2: Situação"
+    },
+    {
+      "numero": "05",
+      "titulo": "Passo 3: Presente inaceitável"
+    },
+    {
+      "numero": "06",
+      "titulo": "Passo 4: Qualificação"
+    },
+    {
+      "numero": "07",
+      "titulo": "Passo 5: Transição"
+    },
+    {
+      "numero": "08",
+      "titulo": "Passo 6: Apresentação"
+    },
+    {
+      "numero": "09",
+      "titulo": "Passo 7: Fechamento"
+    },
+    {
+      "numero": "10",
+      "titulo": "Objeção não é um não"
+    },
+    {
+      "numero": "11",
+      "titulo": "O manual de respostas"
+    },
+    {
+      "numero": "12",
+      "titulo": "Doutora é vendedora também"
+    },
+    {
+      "numero": "A",
+      "titulo": "Cola rápida"
+    },
+    {
+      "numero": "B",
+      "titulo": "Banco de perguntas"
+    },
+    {
+      "numero": "C",
+      "titulo": "Quando ela vem de anúncio de paciente modelo"
+    }
+  ],
+  "partes": [
+    {
+      "rotulo": "Parte 1",
+      "titulo": "Antes do script",
+      "de": "01"
+    },
+    {
+      "rotulo": "Parte 2",
+      "titulo": "Os sete passos",
+      "de": "03"
+    },
+    {
+      "rotulo": "Parte 3",
+      "titulo": "Objeção e resposta",
+      "de": "10"
+    },
+    {
+      "rotulo": "Parte 4",
+      "titulo": "Pra usar no dia",
+      "de": "12"
+    }
+  ],
+  "contracapa": {
+    "kicker": "Fim do arquivo",
+    "titulo": "Marca um horário\ncom o nosso time.",
+    "texto": "E eu vou fazer com você exatamente o que eu te pedi pra fazer com a paciente, porque é assim que eu trabalho. Primeiro a gente entende. Depois a gente vê se consegue ajudar.",
+    "link": "https://supercaso.com.br/consulta?utm_source=ebook&utm_medium=material-rico&utm_campaign=FRAMEWORK-715&utm_content=cta-final",
+    "link_texto": "supercaso.com.br/consulta"
+  }
+}

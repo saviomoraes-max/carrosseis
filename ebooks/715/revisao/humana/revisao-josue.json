@@ -1,0 +1,2062 @@
+[
+ {
+  "pag": 5,
+  "tipo": "troca",
+  "riscado": "A gente chega",
+  "novo": "Chegamos",
+  "linhas": [
+   "Eu converso com a profissional. A gente chega junto"
+  ],
+  "y": 484,
+  "x": 476
+ },
+ {
+  "pag": 5,
+  "tipo": "troca",
+  "riscado": "junto",
+  "novo": "juntos",
+  "linhas": [
+   "Eu converso com a profissional. A gente chega junto"
+  ],
+  "y": 484,
+  "x": 679
+ },
+ {
+  "pag": 5,
+  "tipo": "realce",
+  "texto": "A gente chega",
+  "linhas": [
+   "Eu converso com a profissional. A gente chega junto"
+  ],
+  "y": 485,
+  "x": 484
+ },
+ {
+  "pag": 5,
+  "tipo": "troca",
+  "riscado": "num",
+  "novo": "em um plano",
+  "linhas": [
+   "num plano de tratamento, um plano de seis meses."
+  ],
+  "y": 527,
+  "x": 38
+ },
+ {
+  "pag": 5,
+  "tipo": "realce",
+  "texto": "numplano ",
+  "linhas": [
+   "num plano de tratamento, um plano de seis meses."
+  ],
+  "y": 528,
+  "x": 47
+ },
+ {
+  "pag": 5,
+  "tipo": "troca",
+  "riscado": "Tem",
+  "novo": "Tive",
+  "linhas": [
+   "Tem alguma dúvida ou outra durante a consulta,"
+  ],
+  "y": 570,
+  "x": 38
+ },
+ {
+  "pag": 5,
+  "tipo": "realce",
+  "texto": "Tem alguma",
+  "linhas": [
+   "Tem alguma dúvida ou outra durante a consulta,"
+  ],
+  "y": 571,
+  "x": 47
+ },
+ {
+  "pag": 5,
+  "tipo": "troca",
+  "riscado": "tudo",
+  "novo": "Até aí, tudo normal",
+  "linhas": [
+   "tudo normal. E aí, na hora do fechamento, eu sou"
+  ],
+  "y": 612,
+  "x": 38
+ },
+ {
+  "pag": 5,
+  "tipo": "realce",
+  "texto": "tudo normal",
+  "linhas": [
+   "tudo normal. E aí, na hora do fechamento, eu sou"
+  ],
+  "y": 613,
+  "x": 47
+ },
+ {
+  "pag": 5,
+  "tipo": "troca",
+  "riscado": "numa",
+  "novo": "em uma",
+  "linhas": [
+   "conduzida pra recepção e fico numa área de espera"
+  ],
+  "y": 655,
+  "x": 457
+ },
+ {
+  "pag": 5,
+  "tipo": "realce",
+  "texto": "n",
+  "linhas": [
+   "conduzida pra recepção e fico numa área de espera"
+  ],
+  "y": 656,
+  "x": 466
+ },
+ {
+  "pag": 5,
+  "tipo": "realce",
+  "texto": "uma",
+  "linhas": [
+   "conduzida pra recepção e fico numa área de espera"
+  ],
+  "y": 656,
+  "x": 483
+ },
+ {
+  "pag": 5,
+  "tipo": "realce",
+  "texto": "010203Vão arrancar ocouro aqui de mim.SC",
+  "linhas": [
+   "Vão arrancar o",
+   "couro aqui de mim.",
+   "01",
+   "02",
+   "03",
+   "SCRIPT 715 · RECONECTA"
+  ],
+  "y": 984,
+  "x": 47
+ },
+ {
+  "pag": 5,
+  "tipo": "troca",
+  "riscado": "esse negócio",
+  "novo": "E se for muito",
+  "linhas": [
+   "E se esse negócio"
+  ],
+  "y": 1102,
+  "x": 337
+ },
+ {
+  "pag": 5,
+  "tipo": "troca",
+  "riscado": "Vão arrancar ocouro aqui de mim.",
+  "novo": "\"Vão arrancar meu coro aqui\"",
+  "linhas": [
+   "Vão arrancar o",
+   "couro aqui de mim."
+  ],
+  "y": 1102,
+  "x": 530
+ },
+ {
+  "pag": 5,
+  "tipo": "realce",
+  "texto": "esse negócio",
+  "linhas": [
+   "E se esse negócio"
+  ],
+  "y": 1103,
+  "x": 343
+ },
+ {
+  "pag": 5,
+  "tipo": "troca",
+  "riscado": "pro ",
+  "novo": "para o",
+  "linhas": [
+   "pro meu problema."
+  ],
+  "y": 1165,
+  "x": 40
+ },
+ {
+  "pag": 5,
+  "tipo": "realce",
+  "texto": "pro",
+  "linhas": [
+   "pro meu problema."
+  ],
+  "y": 1166,
+  "x": 47
+ },
+ {
+  "pag": 6,
+  "tipo": "realce",
+  "texto": "vão arrancar o couro aqui de mim”,",
+  "linhas": [
+   "“vão arrancar o couro aqui de mim”, porque até"
+  ],
+  "y": 287,
+  "x": 60
+ },
+ {
+  "pag": 6,
+  "tipo": "troca",
+  "riscado": "Eu ia lá no caminho e tá lá a salinha dofinanceiro",
+  "novo": "Eu estava indo a caminho da salinha do financeiro",
+  "linhas": [
+   "sentimento. Eu ia lá no caminho e tá lá a salinha do",
+   "financeiro e eu sabia que ia levar facada."
+  ],
+  "y": 615,
+  "x": 38
+ },
+ {
+  "pag": 6,
+  "tipo": "realce",
+  "texto": "Eu ia lá no caminho e tá lá a salinha dofinanceiro",
+  "linhas": [
+   "sentimento. Eu ia lá no caminho e tá lá a salinha do",
+   "financeiro e eu sabia que ia levar facada."
+  ],
+  "y": 616,
+  "x": 47
+ },
+ {
+  "pag": 6,
+  "tipo": "troca",
+  "riscado": "facada",
+  "novo": "\"facada\"",
+  "linhas": [
+   "financeiro e eu sabia que ia levar facada."
+  ],
+  "y": 658,
+  "x": 489
+ },
+ {
+  "pag": 6,
+  "tipo": "realce",
+  "texto": "facada.",
+  "linhas": [
+   "financeiro e eu sabia que ia levar facada."
+  ],
+  "y": 659,
+  "x": 498
+ },
+ {
+  "pag": 6,
+  "tipo": "troca",
+  "riscado": "atéeufalar  ",
+  "novo": "quando eu falei",
+  "linhas": [
+   "Toda aquela aura que tinha se formado até eu falar"
+  ],
+  "y": 731,
+  "x": 572
+ },
+ {
+  "pag": 6,
+  "tipo": "realce",
+  "texto": "atéeufalar  com a doutora",
+  "linhas": [
+   "Toda aquela aura que tinha se formado até eu falar",
+   "com a doutora foi completamente dizimada, mesmo"
+  ],
+  "y": 732,
+  "x": 47
+ },
+ {
+  "pag": 6,
+  "tipo": "troca",
+  "riscado": " pro",
+  "novo": "para o meu",
+  "linhas": [
+   "solução pro meu problema”, aquilo acabou naquele"
+  ],
+  "y": 945,
+  "x": 144
+ },
+ {
+  "pag": 6,
+  "tipo": "realce",
+  "texto": "pro",
+  "linhas": [
+   "solução pro meu problema”, aquilo acabou naquele"
+  ],
+  "y": 946,
+  "x": 161
+ },
+ {
+  "pag": 7,
+  "tipo": "troca",
+  "riscado": "pras ",
+  "novo": "para as dores",
+  "linhas": [
+   "me trazido a solução pras dores que eu tinha levado"
+  ],
+  "y": 253,
+  "x": 327
+ },
+ {
+  "pag": 7,
+  "tipo": "realce",
+  "texto": "pras",
+  "linhas": [
+   "me trazido a solução pras dores que eu tinha levado"
+  ],
+  "y": 254,
+  "x": 335
+ },
+ {
+  "pag": 7,
+  "tipo": "realce",
+  "texto": " ",
+  "linhas": [
+   "entendeu que agora, depois que eu entendi que"
+  ],
+  "y": 340,
+  "x": 233
+ },
+ {
+  "pag": 7,
+  "tipo": "troca",
+  "riscado": "tava ",
+  "novo": "estava",
+  "linhas": [
+   "Porque eu já tava completamente na emoção. Eu já"
+  ],
+  "y": 612,
+  "x": 215
+ },
+ {
+  "pag": 7,
+  "tipo": "realce",
+  "texto": "tava",
+  "linhas": [
+   "Porque eu já tava completamente na emoção. Eu já"
+  ],
+  "y": 613,
+  "x": 224
+ },
+ {
+  "pag": 7,
+  "tipo": "realce-roxo",
+  "texto": "ter pensado.",
+  "linhas": [
+   "esperado. Foi ter saído, ter esperado, ter pensado."
+  ],
+  "y": 742,
+  "x": 559
+ },
+ {
+  "pag": 7,
+  "tipo": "troca",
+  "riscado": "Falei, cara",
+  "novo": "Pensei",
+  "linhas": [
+   "Falei, cara, e se esse negócio for muito caro? E se"
+  ],
+  "y": 813,
+  "x": 38
+ },
+ {
+  "pag": 7,
+  "tipo": "troca",
+  "riscado": "esse negócio",
+  "novo": "E se for muito caro?",
+  "linhas": [
+   "Falei, cara, e se esse negócio for muito caro? E se"
+  ],
+  "y": 813,
+  "x": 257
+ },
+ {
+  "pag": 7,
+  "tipo": "realce",
+  "texto": "Falei, cara,",
+  "linhas": [
+   "Falei, cara, e se esse negócio for muito caro? E se"
+  ],
+  "y": 814,
+  "x": 47
+ },
+ {
+  "pag": 7,
+  "tipo": "realce",
+  "texto": "esse negócio",
+  "linhas": [
+   "Falei, cara, e se esse negócio for muito caro? E se"
+  ],
+  "y": 814,
+  "x": 266
+ },
+ {
+  "pag": 8,
+  "tipo": "troca",
+  "riscado": "pra ",
+  "novo": "para",
+  "linhas": [
+   "era quase uma encenação pra poder fechar. E da"
+  ],
+  "y": 253,
+  "x": 402
+ },
+ {
+  "pag": 8,
+  "tipo": "realce",
+  "texto": "pra",
+  "linhas": [
+   "era quase uma encenação pra poder fechar. E da"
+  ],
+  "y": 254,
+  "x": 411
+ },
+ {
+  "pag": 8,
+  "tipo": "troca",
+  "riscado": "de",
+  "novo": "como",
+  "linhas": [
+   "Foi assim que eu me senti, de paciente. De"
+  ],
+  "y": 912,
+  "x": 403
+ },
+ {
+  "pag": 8,
+  "tipo": "troca",
+  "riscado": "De",
+  "novo": "como",
+  "linhas": [
+   "Foi assim que eu me senti, de paciente. De"
+  ],
+  "y": 912,
+  "x": 577
+ },
+ {
+  "pag": 8,
+  "tipo": "realce",
+  "texto": "Devendedora",
+  "linhas": [
+   "Foi assim que eu me senti, de paciente. De",
+   "vendedora eu vi outra coisa, e essa parte fica pro"
+  ],
+  "y": 913,
+  "x": 47
+ },
+ {
+  "pag": 8,
+  "tipo": "realce",
+  "texto": "de ",
+  "linhas": [
+   "Foi assim que eu me senti, de paciente. De"
+  ],
+  "y": 913,
+  "x": 412
+ },
+ {
+  "pag": 8,
+  "tipo": "realce",
+  "texto": "paciente",
+  "linhas": [
+   "Foi assim que eu me senti, de paciente. De"
+  ],
+  "y": 913,
+  "x": 454
+ },
+ {
+  "pag": 8,
+  "tipo": "troca",
+  "riscado": "pro",
+  "novo": "para o",
+  "linhas": [
+   "vendedora eu vi outra coisa, e essa parte fica pro"
+  ],
+  "y": 954,
+  "x": 660
+ },
+ {
+  "pag": 8,
+  "tipo": "realce",
+  "texto": "pro",
+  "linhas": [
+   "vendedora eu vi outra coisa, e essa parte fica pro"
+  ],
+  "y": 955,
+  "x": 669
+ },
+ {
+  "pag": 9,
+  "tipo": "troca",
+  "riscado": "agente tá com muita gente",
+  "novo": "estamos com muita gente",
+  "linhas": [
+   "“poxa, tô precisando de uma ajuda aqui, porque a",
+   "gente tá com muita gente indo pra casa pensar.”"
+  ],
+  "y": 296,
+  "x": 38
+ },
+ {
+  "pag": 9,
+  "tipo": "realce",
+  "texto": "porquea gente tá com muita gente",
+  "linhas": [
+   "“poxa, tô precisando de uma ajuda aqui, porque a",
+   "gente tá com muita gente indo pra casa pensar.”"
+  ],
+  "y": 297,
+  "x": 47
+ },
+ {
+  "pag": 10,
+  "tipo": "troca",
+  "riscado": "pra",
+  "novo": "para",
+  "linhas": [
+   "pra clínica já quer alguma coisa. Pode ser que ela"
+  ],
+  "y": 668,
+  "x": 38
+ },
+ {
+  "pag": 10,
+  "tipo": "realce",
+  "texto": "pra",
+  "linhas": [
+   "pra clínica já quer alguma coisa. Pode ser que ela"
+  ],
+  "y": 669,
+  "x": 47
+ },
+ {
+  "pag": 13,
+  "tipo": "troca",
+  "riscado": "de idadesmuitodiferentesdeformaçõesdiferentes ,   ",
+  "novo": "de idades e formações muito diferentes. ",
+  "linhas": [
+   "de cidades de tamanhos muito diferentes, de idades",
+   "muito diferentes, de formações diferentes. E eu"
+  ],
+  "y": 253,
+  "x": 38
+ },
+ {
+  "pag": 13,
+  "tipo": "realce",
+  "texto": "diferentes, de idadesmuitodiferentesdeformaçõesdiferentes ,   ",
+  "linhas": [
+   "de cidades de tamanhos muito diferentes, de idades",
+   "muito diferentes, de formações diferentes. E eu"
+  ],
+  "y": 254,
+  "x": 47
+ },
+ {
+  "pag": 13,
+  "tipo": "troca",
+  "riscado": "baixo",
+  "novo": "abaixou",
+  "linhas": [
+   "leads baixou esse mês, essa primeira semana aqui"
+  ],
+  "y": 540,
+  "x": 118
+ },
+ {
+  "pag": 13,
+  "tipo": "troca",
+  "riscado": "essa",
+  "novo": "nessa",
+  "linhas": [
+   "leads baixou esse mês, essa primeira semana aqui"
+  ],
+  "y": 540,
+  "x": 360
+ },
+ {
+  "pag": 13,
+  "tipo": "troca",
+  "riscado": "aqui",
+  "novo": "Remover",
+  "linhas": [
+   "leads baixou esse mês, essa primeira semana aqui"
+  ],
+  "y": 540,
+  "x": 663
+ },
+ {
+  "pag": 13,
+  "tipo": "realce",
+  "texto": "baixou",
+  "linhas": [
+   "leads baixou esse mês, essa primeira semana aqui"
+  ],
+  "y": 541,
+  "x": 127
+ },
+ {
+  "pag": 13,
+  "tipo": "realce",
+  "texto": "aqui",
+  "linhas": [
+   "leads baixou esse mês, essa primeira semana aqui"
+  ],
+  "y": 541,
+  "x": 672
+ },
+ {
+  "pag": 17,
+  "tipo": "troca",
+  "riscado": "queréapacientesairdaconversaquerendo       marcar sem ninguém ter empurrado, se o problemaque ela trouxe se resolve com a consulta",
+  "novo": "quer que a paciente saia da conversa querendo marcar, sem se sentir que \"empurraram a consulta a nela\", caso o problema que ela trouxe se resolve com a consulta.",
+  "linhas": [
+   "gente quer é a paciente sair da conversa querendo",
+   "marcar sem ninguém ter empurrado, se o problema",
+   "que ela trouxe se resolve com a consulta. Agora, se"
+  ],
+  "y": 839,
+  "x": 38
+ },
+ {
+  "pag": 17,
+  "tipo": "realce",
+  "texto": "queréapacientesairdaconversaquerendo       marcar sem ninguém ter empurrado, se o problemaque ela trouxe se resolve com a consulta.",
+  "linhas": [
+   "gente quer é a paciente sair da conversa querendo",
+   "marcar sem ninguém ter empurrado, se o problema",
+   "que ela trouxe se resolve com a consulta. Agora, se"
+  ],
+  "y": 840,
+  "x": 47
+ },
+ {
+  "pag": 17,
+  "tipo": "realce",
+  "texto": "empurrado",
+  "linhas": [
+   "marcar sem ninguém ter empurrado, se o problema"
+  ],
+  "y": 883,
+  "x": 383
+ },
+ {
+  "pag": 18,
+  "tipo": "troca",
+  "riscado": "pra",
+  "novo": "para",
+  "linhas": [
+   "e o script foi escrito pra essa pessoa. Repara que"
+  ],
+  "y": 329,
+  "x": 314
+ },
+ {
+  "pag": 18,
+  "tipo": "realce",
+  "texto": "pra",
+  "linhas": [
+   "e o script foi escrito pra essa pessoa. Repara que"
+  ],
+  "y": 330,
+  "x": 322
+ },
+ {
+  "pag": 18,
+  "tipo": "troca",
+  "riscado": "tipo",
+  "novo": "exemplo:",
+  "linhas": [
+   "pessoa, tipo “até pra entender se a doutora vai"
+  ],
+  "y": 414,
+  "x": 152
+ },
+ {
+  "pag": 18,
+  "tipo": "realce",
+  "texto": "tipo",
+  "linhas": [
+   "pessoa, tipo “até pra entender se a doutora vai"
+  ],
+  "y": 415,
+  "x": 161
+ },
+ {
+  "pag": 19,
+  "tipo": "troca",
+  "riscado": "pra ",
+  "novo": "para",
+  "linhas": [
+   "1. O atendimento é pra entender se aquela pessoa"
+  ],
+  "y": 592,
+  "x": 296
+ },
+ {
+  "pag": 19,
+  "tipo": "realce",
+  "texto": "pra ",
+  "linhas": [
+   "1. O atendimento é pra entender se aquela pessoa"
+  ],
+  "y": 593,
+  "x": 305
+ },
+ {
+  "pag": 19,
+  "tipo": "troca",
+  "riscado": " pra",
+  "novo": "para",
+  "linhas": [
+   "não. Parece a mesma coisa que entrar pra agendar,"
+  ],
+  "y": 678,
+  "x": 555
+ },
+ {
+  "pag": 19,
+  "tipo": "realce",
+  "texto": "pra",
+  "linhas": [
+   "não. Parece a mesma coisa que entrar pra agendar,"
+  ],
+  "y": 679,
+  "x": 571
+ },
+ {
+  "pag": 19,
+  "tipo": "realce-roxo",
+  "texto": "porque quem entra praagendar pula pro fechamento e a paciente sente quevocêsóestáquerendovender    .",
+  "linhas": [
+   "mas na conversa não é, porque quem entra pra",
+   "agendar pula pro fechamento e a paciente sente que",
+   "você só está querendo vender."
+  ],
+  "y": 721,
+  "x": 47
+ },
+ {
+  "pag": 19,
+  "tipo": "troca",
+  "riscado": "pro",
+  "novo": "para o",
+  "linhas": [
+   "agendar pula pro fechamento e a paciente sente que"
+  ],
+  "y": 763,
+  "x": 223
+ },
+ {
+  "pag": 19,
+  "tipo": "realce",
+  "texto": "pro",
+  "linhas": [
+   "agendar pula pro fechamento e a paciente sente que"
+  ],
+  "y": 764,
+  "x": 231
+ },
+ {
+  "pag": 19,
+  "tipo": "troca",
+  "riscado": "entendeu?",
+  "novo": "Remover...",
+  "linhas": [
+   "horário para quando?”, entendeu? E quando é você"
+  ],
+  "y": 1007,
+  "x": 353
+ },
+ {
+  "pag": 19,
+  "tipo": "realce",
+  "texto": "entendeu? ",
+  "linhas": [
+   "horário para quando?”, entendeu? E quando é você"
+  ],
+  "y": 1008,
+  "x": 361
+ },
+ {
+  "pag": 20,
+  "tipo": "realce-roxo",
+  "texto": "repetirapalavraqueela    usou",
+  "linhas": [
+   "isso é coisa concreta, é repetir a palavra que ela",
+   "usou e perguntar antes de responder."
+  ],
+  "y": 297,
+  "x": 47
+ },
+ {
+  "pag": 21,
+  "tipo": "troca",
+  "riscado": "pro ",
+  "novo": "para o ",
+  "linhas": [
+   "olhando pro visto azul. O lead sumiu, eu não"
+  ],
+  "y": 381,
+  "x": 154
+ },
+ {
+  "pag": 21,
+  "tipo": "realce",
+  "texto": "pro",
+  "linhas": [
+   "olhando pro visto azul. O lead sumiu, eu não"
+  ],
+  "y": 382,
+  "x": 163
+ },
+ {
+  "pag": 25,
+  "tipo": "realce",
+  "texto": " ",
+  "linhas": [
+   "se você quer vender."
+  ],
+  "y": 1213,
+  "x": 139
+ },
+ {
+  "pag": 27,
+  "tipo": "troca",
+  "riscado": "pra",
+  "novo": "para",
+  "linhas": [
+   "você diz pra paciente que primeiro precisa entender"
+  ],
+  "y": 771,
+  "x": 160
+ },
+ {
+  "pag": 27,
+  "tipo": "realce",
+  "texto": "pra",
+  "linhas": [
+   "você diz pra paciente que primeiro precisa entender"
+  ],
+  "y": 772,
+  "x": 169
+ },
+ {
+  "pag": 27,
+  "tipo": "troca",
+  "riscado": "táassim ",
+  "novo": "estava \"dura igual uma pedra\"",
+  "linhas": [
+   "porque antes ela tá assim, dura igual uma pedra,"
+  ],
+  "y": 1070,
+  "x": 271
+ },
+ {
+  "pag": 27,
+  "tipo": "realce",
+  "texto": "táassim ,",
+  "linhas": [
+   "porque antes ela tá assim, dura igual uma pedra,"
+  ],
+  "y": 1071,
+  "x": 280
+ },
+ {
+  "pag": 27,
+  "tipo": "realce",
+  "texto": "duraigualumapedra   ,",
+  "linhas": [
+   "porque antes ela tá assim, dura igual uma pedra,"
+  ],
+  "y": 1071,
+  "x": 407
+ },
+ {
+  "pag": 28,
+  "tipo": "troca",
+  "riscado": "ó",
+  "novo": "remover...",
+  "linhas": [
+   "E a resistência é isso, ó: ela esquiva de todas as"
+  ],
+  "y": 168,
+  "x": 336
+ },
+ {
+  "pag": 28,
+  "tipo": "realce",
+  "texto": "ó",
+  "linhas": [
+   "E a resistência é isso, ó: ela esquiva de todas as"
+  ],
+  "y": 169,
+  "x": 345
+ },
+ {
+  "pag": 28,
+  "tipo": "troca",
+  "riscado": "o que que",
+  "novo": "Qual",
+  "linhas": [
+   "pergunta, ela me responde “o que que é o preço?”. É"
+  ],
+  "y": 253,
+  "x": 419
+ },
+ {
+  "pag": 28,
+  "tipo": "realce",
+  "texto": "“oque que",
+  "linhas": [
+   "pergunta, ela me responde “o que que é o preço?”. É"
+  ],
+  "y": 254,
+  "x": 417
+ },
+ {
+  "pag": 29,
+  "tipo": "troca",
+  "riscado": "a",
+  "novo": "quero mais informações",
+  "linhas": [
+   "“oi, queria informações”, tem uma que eu gosto"
+  ],
+  "y": 652,
+  "x": 159
+ },
+ {
+  "pag": 29,
+  "tipo": "realce",
+  "texto": "ia",
+  "linhas": [
+   "“oi, queria informações”, tem uma que eu gosto"
+  ],
+  "y": 653,
+  "x": 161
+ },
+ {
+  "pag": 30,
+  "tipo": "troca",
+  "riscado": "pro ",
+  "novo": "para o",
+  "linhas": [
+   "garantido e pular pro fechamento."
+  ],
+  "y": 824,
+  "x": 275
+ },
+ {
+  "pag": 30,
+  "tipo": "realce",
+  "texto": "pro",
+  "linhas": [
+   "garantido e pular pro fechamento."
+  ],
+  "y": 825,
+  "x": 283
+ },
+ {
+  "pag": 32,
+  "tipo": "troca",
+  "riscado": "é clínica",
+  "novo": "é sinal de clínica",
+  "linhas": [
+   "aberta é clínica que pega qualquer uma, e quem"
+  ],
+  "y": 253,
+  "x": 133
+ },
+ {
+  "pag": 32,
+  "tipo": "realce",
+  "texto": "é clínica",
+  "linhas": [
+   "aberta é clínica que pega qualquer uma, e quem"
+  ],
+  "y": 254,
+  "x": 142
+ },
+ {
+  "pag": 36,
+  "tipo": "troca",
+  "riscado": "gent",
+  "novo": "Remover...",
+  "linhas": [
+   "errado, gente. Um dos maiores erros que a gente"
+  ],
+  "y": 909,
+  "x": 143
+ },
+ {
+  "pag": 36,
+  "tipo": "realce",
+  "texto": "gente",
+  "linhas": [
+   "errado, gente. Um dos maiores erros que a gente"
+  ],
+  "y": 910,
+  "x": 152
+ },
+ {
+  "pag": 37,
+  "tipo": "troca",
+  "riscado": "falando, sabe?",
+  "novo": "falando? (remover o \"sabe?\")",
+  "linhas": [
+   "A gente sabe do que ela tá falando, sabe? E aí a"
+  ],
+  "y": 168,
+  "x": 406
+ },
+ {
+  "pag": 40,
+  "tipo": "troca",
+  "riscado": "Em que momentos",
+  "novo": "Ou \"em quais momentos\" ou \"em que momento\"",
+  "linhas": [
+   "Em que momentos você percebe mais esse"
+  ],
+  "y": 194,
+  "x": 62
+ },
+ {
+  "pag": 40,
+  "tipo": "realce",
+  "texto": "Em que momentos",
+  "linhas": [
+   "Em que momentos você percebe mais esse"
+  ],
+  "y": 195,
+  "x": 72
+ },
+ {
+  "pag": 40,
+  "tipo": "realce",
+  "texto": "s ",
+  "linhas": [
+   "Em que momentos você percebe mais esse"
+  ],
+  "y": 195,
+  "x": 334
+ },
+ {
+  "pag": 40,
+  "tipo": "troca",
+  "riscado": "Acho",
+  "novo": "Acredito",
+  "linhas": [
+   "aparece a palavra “sentir”. Acho que vale a pena a"
+  ],
+  "y": 720,
+  "x": 401
+ },
+ {
+  "pag": 40,
+  "tipo": "realce",
+  "texto": "A",
+  "linhas": [
+   "aparece a palavra “sentir”. Acho que vale a pena a"
+  ],
+  "y": 721,
+  "x": 409
+ },
+ {
+  "pag": 40,
+  "tipo": "realce",
+  "texto": "cho ",
+  "linhas": [
+   "aparece a palavra “sentir”. Acho que vale a pena a"
+  ],
+  "y": 721,
+  "x": 429
+ },
+ {
+  "pag": 43,
+  "tipo": "troca",
+  "riscado": " ",
+  "novo": ",",
+  "linhas": [
+   "sempre gosto de pensar o seguinte quando tô"
+  ],
+  "y": 210,
+  "x": 515
+ },
+ {
+  "pag": 43,
+  "tipo": "troca",
+  "riscado": "tô",
+  "novo": "estou",
+  "linhas": [
+   "sempre gosto de pensar o seguinte quando tô"
+  ],
+  "y": 210,
+  "x": 632
+ },
+ {
+  "pag": 43,
+  "tipo": "realce",
+  "texto": " ",
+  "linhas": [
+   "sempre gosto de pensar o seguinte quando tô"
+  ],
+  "y": 211,
+  "x": 523
+ },
+ {
+  "pag": 43,
+  "tipo": "realce",
+  "texto": "tô",
+  "linhas": [
+   "sempre gosto de pensar o seguinte quando tô"
+  ],
+  "y": 211,
+  "x": 641
+ },
+ {
+  "pag": 44,
+  "tipo": "troca",
+  "riscado": "ó, ",
+  "novo": "Remover...",
+  "linhas": [
+   "a palavra dela: ó, você perguntou em que momento"
+  ],
+  "y": 681,
+  "x": 242
+ },
+ {
+  "pag": 44,
+  "tipo": "realce",
+  "texto": "ó, ",
+  "linhas": [
+   "a palavra dela: ó, você perguntou em que momento"
+  ],
+  "y": 682,
+  "x": 251
+ },
+ {
+  "pag": 47,
+  "tipo": "troca",
+  "riscado": "pro ",
+  "novo": "para o",
+  "linhas": [
+   "momento em que a paciente olha pro problema que"
+  ],
+  "y": 1059,
+  "x": 494
+ },
+ {
+  "pag": 47,
+  "tipo": "realce",
+  "texto": "pro",
+  "linhas": [
+   "momento em que a paciente olha pro problema que"
+  ],
+  "y": 1060,
+  "x": 503
+ },
+ {
+  "pag": 54,
+  "tipo": "troca",
+  "riscado": "pros",
+  "novo": "para os",
+  "linhas": [
+   "essa convicção pros próximos passos e vai"
+  ],
+  "y": 887,
+  "x": 256
+ },
+ {
+  "pag": 54,
+  "tipo": "realce",
+  "texto": "pros",
+  "linhas": [
+   "essa convicção pros próximos passos e vai"
+  ],
+  "y": 888,
+  "x": 264
+ },
+ {
+  "pag": 54,
+  "tipo": "troca",
+  "riscado": "empurrar.",
+  "novo": "\"empurrar\"",
+  "linhas": [
+   "empurrar. Se quem está convencida é ela, os"
+  ],
+  "y": 930,
+  "x": 38
+ },
+ {
+  "pag": 54,
+  "tipo": "realce",
+  "texto": "empurrar",
+  "linhas": [
+   "empurrar. Se quem está convencida é ela, os"
+  ],
+  "y": 931,
+  "x": 47
+ },
+ {
+  "pag": 57,
+  "tipo": "troca",
+  "riscado": ",",
+  "novo": "ponto",
+  "linhas": [
+   "fotos. Você não apresentou nada ainda, gente. E a"
+  ],
+  "y": 798,
+  "x": 564
+ },
+ {
+  "pag": 57,
+  "tipo": "troca",
+  "riscado": "gente",
+  "novo": "Remover...",
+  "linhas": [
+   "fotos. Você não apresentou nada ainda, gente. E a"
+  ],
+  "y": 798,
+  "x": 580
+ },
+ {
+  "pag": 57,
+  "tipo": "realce",
+  "texto": "gente",
+  "linhas": [
+   "fotos. Você não apresentou nada ainda, gente. E a"
+  ],
+  "y": 799,
+  "x": 589
+ },
+ {
+  "pag": 62,
+  "tipo": "troca",
+  "riscado": "Volta.",
+  "novo": "Então volta.",
+  "linhas": [
+   "o três. Volta."
+  ],
+  "y": 552,
+  "x": 131
+ },
+ {
+  "pag": 62,
+  "tipo": "realce",
+  "texto": "Volta.",
+  "linhas": [
+   "o três. Volta."
+  ],
+  "y": 553,
+  "x": 140
+ },
+ {
+  "pag": 62,
+  "tipo": "troca",
+  "riscado": "E",
+  "novo": "Isso",
+  "linhas": [
+   "sei que vai me ajudar a resolver”. E acontece quando"
+  ],
+  "y": 668,
+  "x": 491
+ },
+ {
+  "pag": 62,
+  "tipo": "realce",
+  "texto": "E",
+  "linhas": [
+   "sei que vai me ajudar a resolver”. E acontece quando"
+  ],
+  "y": 669,
+  "x": 500
+ },
+ {
+  "pag": 66,
+  "tipo": "troca",
+  "riscado": " pro",
+  "novo": "para os",
+  "linhas": [
+   "procurando. E dizer por que, pro problema dela, a"
+  ],
+  "y": 858,
+  "x": 423
+ },
+ {
+  "pag": 66,
+  "tipo": "realce",
+  "texto": "pro",
+  "linhas": [
+   "procurando. E dizer por que, pro problema dela, a"
+  ],
+  "y": 859,
+  "x": 440
+ },
+ {
+  "pag": 67,
+  "tipo": "realce",
+  "texto": " ",
+  "linhas": [
+   "Com medo ela já tava desde o momento que entrou"
+  ],
+  "y": 254,
+  "x": 194
+ },
+ {
+  "pag": 68,
+  "tipo": "troca",
+  "riscado": "acho",
+  "novo": "acredito",
+  "linhas": [
+   "As reticências são do script e eu acho que fazem"
+  ],
+  "y": 800,
+  "x": 485
+ },
+ {
+  "pag": 68,
+  "tipo": "realce",
+  "texto": "acho",
+  "linhas": [
+   "As reticências são do script e eu acho que fazem"
+  ],
+  "y": 801,
+  "x": 494
+ },
+ {
+  "pag": 72,
+  "tipo": "troca",
+  "riscado": "gente ",
+  "novo": "Remover...",
+  "linhas": [
+   "é por isso que a apresentação é curta, gente: quem"
+  ],
+  "y": 1073,
+  "x": 556
+ },
+ {
+  "pag": 72,
+  "tipo": "realce",
+  "texto": "gente, : ",
+  "linhas": [
+   "é por isso que a apresentação é curta, gente: quem"
+  ],
+  "y": 1074,
+  "x": 556
+ },
+ {
+  "pag": 74,
+  "tipo": "troca",
+  "riscado": "Seis erros, e",
+  "novo": "Existem seis erros, mas eu gostaria de comentar dois",
+  "linhas": [
+   "Seis erros, e eu quero comentar dois. O “pode fazer"
+  ],
+  "y": 768,
+  "x": 38
+ },
+ {
+  "pag": 74,
+  "tipo": "realce",
+  "texto": "Seis erros,",
+  "linhas": [
+   "Seis erros, e eu quero comentar dois. O “pode fazer"
+  ],
+  "y": 769,
+  "x": 47
+ },
+ {
+  "pag": 74,
+  "tipo": "troca",
+  "riscado": "pro",
+  "novo": "para o",
+  "linhas": [
+   "pro procedimento, e aí o preço da consulta vira"
+  ],
+  "y": 939,
+  "x": 38
+ },
+ {
+  "pag": 74,
+  "tipo": "realce",
+  "texto": "pro",
+  "linhas": [
+   "pro procedimento, e aí o preço da consulta vira"
+  ],
+  "y": 940,
+  "x": 47
+ },
+ {
+  "pag": 75,
+  "tipo": "troca",
+  "riscado": " ",
+  "novo": "vírgula",
+  "linhas": [
+   "gente apresentou mais solução do que ela pediu e"
+  ],
+  "y": 639,
+  "x": 692
+ },
+ {
+  "pag": 75,
+  "tipo": "troca",
+  "riscado": "e",
+  "novo": "é porque",
+  "linhas": [
+   "solução que não resolve o problema dela e porque a"
+  ],
+  "y": 681,
+  "x": 600
+ },
+ {
+  "pag": 75,
+  "tipo": "realce",
+  "texto": "e porque agente",
+  "linhas": [
+   "solução que não resolve o problema dela e porque a",
+   "gente qualificou demais a consulta e encheu a"
+  ],
+  "y": 682,
+  "x": 47
+ },
+ {
+  "pag": 75,
+  "tipo": "realce",
+  "texto": "qualificou ",
+  "linhas": [
+   "gente qualificou demais a consulta e encheu a"
+  ],
+  "y": 725,
+  "x": 132
+ },
+ {
+  "pag": 75,
+  "tipo": "troca",
+  "riscado": "pro",
+  "novo": "para o",
+  "linhas": [
+   "apresenta a solução certa pro problema que ela"
+  ],
+  "y": 882,
+  "x": 396
+ },
+ {
+  "pag": 75,
+  "tipo": "realce",
+  "texto": "pro",
+  "linhas": [
+   "apresenta a solução certa pro problema que ela"
+  ],
+  "y": 883,
+  "x": 404
+ },
+ {
+  "pag": 76,
+  "tipo": "troca",
+  "riscado": "Antes",
+  "novo": "mas antes de vermos a disponibilidade na agenda da doutora, que outra...",
+  "linhas": [
+   "explicar como funciona. Antes, que outra dúvida"
+  ],
+  "y": 783,
+  "x": 369
+ },
+ {
+  "pag": 76,
+  "tipo": "realce",
+  "texto": "Antes, que outra dúvidaainda ficou em como podemos ajudar a resolverproblemamencionadoantesdevermosa[ ],    disponibilidade na agenda da doutora?",
+  "linhas": [
+   "explicar como funciona. Antes, que outra dúvida",
+   "ainda ficou em como podemos ajudar a resolver",
+   "[problema mencionado], antes de vermos a",
+   "disponibilidade na agenda da doutora?”. E ela"
+  ],
+  "y": 784,
+  "x": 47
+ },
+ {
+  "pag": 76,
+  "tipo": "troca",
+  "riscado": "antesdevermosa   disponibilidade na agenda da doutora?",
+  "novo": "remover...",
+  "linhas": [
+   "[problema mencionado], antes de vermos a",
+   "disponibilidade na agenda da doutora?”. E ela"
+  ],
+  "y": 869,
+  "x": 38
+ },
+ {
+  "pag": 76,
+  "tipo": "troca",
+  "riscado": ",",
+  "novo": "?",
+  "linhas": [
+   "[problema mencionado], antes de vermos a"
+  ],
+  "y": 869,
+  "x": 359
+ },
+ {
+  "pag": 80,
+  "tipo": "troca",
+  "riscado": "Ser ",
+  "novo": "Remover...",
+  "linhas": [
+   "Ser o próximo passo óbvio pra resolver o problema."
+  ],
+  "y": 816,
+  "x": 38
+ },
+ {
+  "pag": 80,
+  "tipo": "troca",
+  "riscado": "pra ",
+  "novo": "para",
+  "linhas": [
+   "Ser o próximo passo óbvio pra resolver o problema."
+  ],
+  "y": 816,
+  "x": 405
+ },
+ {
+  "pag": 80,
+  "tipo": "realce",
+  "texto": "Ser",
+  "linhas": [
+   "Ser o próximo passo óbvio pra resolver o problema."
+  ],
+  "y": 817,
+  "x": 47
+ },
+ {
+  "pag": 80,
+  "tipo": "realce",
+  "texto": "pra",
+  "linhas": [
+   "Ser o próximo passo óbvio pra resolver o problema."
+  ],
+  "y": 817,
+  "x": 413
+ },
+ {
+  "pag": 85,
+  "tipo": "troca",
+  "riscado": "Essalista, ponto importante, é o script inteiro, gente.",
+  "novo": "Remover...",
+  "linhas": [
+   "consulta apareceu como a resposta pra isso. Essa",
+   "lista, ponto importante, é o script inteiro, gente. O"
+  ],
+  "y": 954,
+  "x": 38
+ },
+ {
+  "pag": 85,
+  "tipo": "realce",
+  "texto": "Essalista, ponto importante, é o script inteiro, gente",
+  "linhas": [
+   "consulta apareceu como a resposta pra isso. Essa",
+   "lista, ponto importante, é o script inteiro, gente. O"
+  ],
+  "y": 955,
+  "x": 47
+ },
+ {
+  "pag": 90,
+  "tipo": "troca",
+  "riscado": "atrás,",
+  "novo": "por trás",
+  "linhas": [
+   "clínica, eu sei o que tem atrás, porque já passou"
+  ],
+  "y": 681,
+  "x": 372
+ },
+ {
+  "pag": 90,
+  "tipo": "realce",
+  "texto": "atrás",
+  "linhas": [
+   "clínica, eu sei o que tem atrás, porque já passou"
+  ],
+  "y": 682,
+  "x": 380
+ },
+ {
+  "pag": 90,
+  "tipo": "realce",
+  "texto": "atrás, ",
+  "linhas": [
+   "clínica, eu sei o que tem atrás, porque já passou"
+  ],
+  "y": 682,
+  "x": 380
+ },
+ {
+  "pag": 92,
+  "tipo": "troca",
+  "riscado": "pensar no quê",
+  "novo": "pensar no quê?",
+  "linhas": [
+   "chega o “vou pensar”: pensar no quê. E a direção é"
+  ],
+  "y": 210,
+  "x": 345
+ },
+ {
+  "pag": 92,
+  "tipo": "realce",
+  "texto": "pensar no quê.",
+  "linhas": [
+   "chega o “vou pensar”: pensar no quê. E a direção é"
+  ],
+  "y": 211,
+  "x": 354
+ },
+ {
+  "pag": 93,
+  "tipo": "troca",
+  "riscado": "Ó, gente, eu não sei quantosmaridosqueeutivenaminhavidadeterfalado         “não,tenho que ver com meu marido”. Os maridos, otanto de marido que essas mulheres criam.",
+  "novo": "Olha gente, eu já nem sei quantos maridos eu tive na minha vida por já falado \"não, tenho que ver com o meu marido\". Vocês não tem noção do tanto de \"maridos\" que essas mulheres criam.",
+  "linhas": [
+   "com meu marido”. Ó, gente, eu não sei quantos",
+   "maridos que eu tive na minha vida de ter falado",
+   "“não, tenho que ver com meu marido”. Os maridos, o",
+   "tanto de marido que essas mulheres criam."
+  ],
+  "y": 625,
+  "x": 38
+ },
+ {
+  "pag": 93,
+  "tipo": "realce",
+  "texto": "eu não sei quantosmaridosqueeutivenaminhavidadeterfalado         “não,tenho que ver com meu marido”. Os maridos,",
+  "linhas": [
+   "com meu marido”. Ó, gente, eu não sei quantos",
+   "maridos que eu tive na minha vida de ter falado",
+   "“não, tenho que ver com meu marido”. Os maridos, o"
+  ],
+  "y": 626,
+  "x": 47
+ },
+ {
+  "pag": 93,
+  "tipo": "realce",
+  "texto": "Ó, gente",
+  "linhas": [
+   "com meu marido”. Ó, gente, eu não sei quantos"
+  ],
+  "y": 626,
+  "x": 298
+ },
+ {
+  "pag": 93,
+  "tipo": "realce",
+  "texto": "otanto de marido que essas mulheres criam.",
+  "linhas": [
+   "“não, tenho que ver com meu marido”. Os maridos, o",
+   "tanto de marido que essas mulheres criam."
+  ],
+  "y": 712,
+  "x": 47
+ },
+ {
+  "pag": 94,
+  "tipo": "troca",
+  "riscado": "pro",
+  "novo": "para o",
+  "linhas": [
+   "objeção. Olha as duas respostas pro “vou pensar”"
+  ],
+  "y": 826,
+  "x": 484
+ },
+ {
+  "pag": 94,
+  "tipo": "realce",
+  "texto": "p",
+  "linhas": [
+   "objeção. Olha as duas respostas pro “vou pensar”"
+  ],
+  "y": 827,
+  "x": 493
+ },
+ {
+  "pag": 94,
+  "tipo": "realce",
+  "texto": "ro",
+  "linhas": [
+   "objeção. Olha as duas respostas pro “vou pensar”"
+  ],
+  "y": 827,
+  "x": 510
+ },
+ {
+  "pag": 95,
+  "tipo": "troca",
+  "riscado": "oseu  200",
+  "novo": "os seus R$200",
+  "linhas": [
+   "com o seu 200 na mão ela vai comparar com a"
+  ],
+  "y": 857,
+  "x": 105
+ },
+ {
+  "pag": 95,
+  "tipo": "realce",
+  "texto": "oseu  200",
+  "linhas": [
+   "com o seu 200 na mão ela vai comparar com a"
+  ],
+  "y": 858,
+  "x": 113
+ },
+ {
+  "pag": 99,
+  "tipo": "troca",
+  "riscado": "amília ",
+  "novo": "Tipo",
+  "linhas": [
+   "organizei por família de objeção, e em cada uma"
+  ],
+  "y": 210,
+  "x": 233
+ },
+ {
+  "pag": 99,
+  "tipo": "realce",
+  "texto": "família",
+  "linhas": [
+   "organizei por família de objeção, e em cada uma"
+  ],
+  "y": 211,
+  "x": 232
+ },
+ {
+  "pag": 100,
+  "tipo": "troca",
+  "riscado": "numa",
+  "novo": "em uma",
+  "linhas": [
+   "da casa já é a resposta inteira: você diz numa linha e"
+  ],
+  "y": 296,
+  "x": 577
+ },
+ {
+  "pag": 100,
+  "tipo": "realce",
+  "texto": "vocêdiznuma  ",
+  "linhas": [
+   "da casa já é a resposta inteira: você diz numa linha e"
+  ],
+  "y": 297,
+  "x": 464
+ },
+ {
+  "pag": 105,
+  "tipo": "troca",
+  "riscado": "Gente,",
+  "novo": "Remover...",
+  "linhas": [
+   "O preço não é a objeção real. Gente, o que"
+  ],
+  "y": 168,
+  "x": 442
+ },
+ {
+  "pag": 105,
+  "tipo": "realce",
+  "texto": "Gente, ",
+  "linhas": [
+   "O preço não é a objeção real. Gente, o que"
+  ],
+  "y": 169,
+  "x": 451
+ },
+ {
+  "pag": 114,
+  "tipo": "troca",
+  "riscado": "Antes",
+  "novo": "Mas antes...",
+  "linhas": [
+   "Vou te explicar como funciona. Antes, que"
+  ],
+  "y": 665,
+  "x": 536
+ },
+ {
+  "pag": 114,
+  "tipo": "realce",
+  "texto": "Antes, queoutra dúvida ainda ficou",
+  "linhas": [
+   "Vou te explicar como funciona. Antes, que",
+   "outra dúvida ainda ficou em como podemos"
+  ],
+  "y": 666,
+  "x": 72
+ },
+ {
+  "pag": 121,
+  "tipo": "troca",
+  "riscado": "de ",
+  "novo": "como",
+  "linhas": [
+   "E de vendedora, o que eu vi foi isso: a doutora"
+  ],
+  "y": 283,
+  "x": 63
+ },
+ {
+  "pag": 121,
+  "tipo": "realce",
+  "texto": "de",
+  "linhas": [
+   "E de vendedora, o que eu vi foi isso: a doutora"
+  ],
+  "y": 284,
+  "x": 72
+ },
+ {
+  "pag": 122,
+  "tipo": "troca",
+  "riscado": "pra",
+  "novo": "para",
+  "linhas": [
+   "No WhatsApp o número vai pra paciente cedo"
+  ],
+  "y": 852,
+  "x": 415
+ },
+ {
+  "pag": 122,
+  "tipo": "realce",
+  "texto": "pra",
+  "linhas": [
+   "No WhatsApp o número vai pra paciente cedo"
+  ],
+  "y": 853,
+  "x": 424
+ },
+ {
+  "pag": 124,
+  "tipo": "troca",
+  "riscado": "pra",
+  "novo": "para",
+  "linhas": [
+   "A regra da casa pra reabrir conversa é uma só: cada"
+  ],
+  "y": 864,
+  "x": 258
+ },
+ {
+  "pag": 124,
+  "tipo": "realce",
+  "texto": "pra",
+  "linhas": [
+   "A regra da casa pra reabrir conversa é uma só: cada"
+  ],
+  "y": 865,
+  "x": 267
+ },
+ {
+  "pag": 131,
+  "tipo": "realce",
+  "texto": "completo",
+  "linhas": [
+   "Avança quando ela responde completo e emocional,"
+  ],
+  "y": 169,
+  "x": 447
+ },
+ {
+  "pag": 133,
+  "tipo": "troca",
+  "riscado": "ortina:",
+  "novo": "cortina de fumaça",
+  "linhas": [
+   "Resposta vaga é cortina: algum passo anterior ficou"
+  ],
+  "y": 480,
+  "x": 285
+ },
+ {
+  "pag": 133,
+  "tipo": "realce",
+  "texto": "cortina:",
+  "linhas": [
+   "Resposta vaga é cortina: algum passo anterior ficou"
+  ],
+  "y": 481,
+  "x": 278
+ },
+ {
+  "pag": 136,
+  "tipo": "troca",
+  "riscado": "por",
+  "novo": "pelo",
+  "linhas": [
+   "7. “O que te trouxe a procurar por [procedimento]"
+  ],
+  "y": 258,
+  "x": 471
+ },
+ {
+  "pag": 136,
+  "tipo": "realce",
+  "texto": "por",
+  "linhas": [
+   "7. “O que te trouxe a procurar por [procedimento]"
+  ],
+  "y": 259,
+  "x": 479
+ },
+ {
+  "pag": 137,
+  "tipo": "troca",
+  "riscado": "pra",
+  "novo": "para",
+  "linhas": [
+   "As primeiras servem pra clarear a palavra que"
+  ],
+  "y": 168,
+  "x": 322
+ },
+ {
+  "pag": 137,
+  "tipo": "realce",
+  "texto": "pra",
+  "linhas": [
+   "As primeiras servem pra clarear a palavra que"
+  ],
+  "y": 169,
+  "x": 331
+ },
+ {
+  "pag": 143,
+  "tipo": "troca",
+  "riscado": "ra",
+  "novo": "",
+  "linhas": [
+   "Tudo que eu te mostrei até aqui é pra paciente que"
+  ],
+  "y": 168,
+  "x": 513
+ },
+ {
+  "pag": 143,
+  "tipo": "realce",
+  "texto": "pra",
+  "linhas": [
+   "Tudo que eu te mostrei até aqui é pra paciente que"
+  ],
+  "y": 169,
+  "x": 505
+ },
+ {
+  "pag": 143,
+  "tipo": "troca",
+  "riscado": "táquentinha, tá morna ali",
+  "novo": "já está quente ou morna",
+  "linhas": [
+   "procedimento ou de preço. Essa paciente tá",
+   "quentinha, tá morna ali. Tá só esperando você"
+  ],
+  "y": 296,
+  "x": 38
+ },
+ {
+  "pag": 143,
+  "tipo": "realce",
+  "texto": "táquentinha, tá morna ali",
+  "linhas": [
+   "procedimento ou de preço. Essa paciente tá",
+   "quentinha, tá morna ali. Tá só esperando você"
+  ],
+  "y": 297,
+  "x": 47
+ },
+ {
+  "pag": 143,
+  "tipo": "troca",
+  "riscado": "nteiro ",
+  "novo": "remover",
+  "linhas": [
+   "inteiro que está aqui, porque a dúvida chega direto"
+  ],
+  "y": 510,
+  "x": 45
+ },
+ {
+  "pag": 143,
+  "tipo": "realce",
+  "texto": "i",
+  "linhas": [
+   "inteiro que está aqui, porque a dúvida chega direto"
+  ],
+  "y": 511,
+  "x": 47
+ },
+ {
+  "pag": 143,
+  "tipo": "realce",
+  "texto": "nteiro",
+  "linhas": [
+   "inteiro que está aqui, porque a dúvida chega direto"
+  ],
+  "y": 511,
+  "x": 54
+ },
+ {
+  "pag": 145,
+  "tipo": "troca",
+  "riscado": "que é o formulário deperguntas que ela responde antes de cair no seuWhatsApp",
+  "novo": "colocar parenteses ",
+  "linhas": [
+   "Quem veio pelo quiz, que é o formulário de",
+   "perguntas que ela responde antes de cair no seu",
+   "WhatsApp, chega um pouco mais consciente,"
+  ],
+  "y": 708,
+  "x": 38
+ },
+ {
+  "pag": 145,
+  "tipo": "realce",
+  "texto": "que é o formulário deperguntas que ela responde antes de cair no seuWhatsApp",
+  "linhas": [
+   "Quem veio pelo quiz, que é o formulário de",
+   "perguntas que ela responde antes de cair no seu",
+   "WhatsApp, chega um pouco mais consciente,"
+  ],
+  "y": 709,
+  "x": 47
+ },
+ {
+  "pag": 145,
+  "tipo": "realce",
+  "texto": "aqui,",
+  "linhas": [
+   "aqui, na conversa."
+  ],
+  "y": 922,
+  "x": 47
+ },
+ {
+  "pag": 146,
+  "tipo": "realce",
+  "texto": "pro",
+  "linhas": [
+   "caso pro feed, a gente precisa ter definido antes"
+  ],
+  "y": 570,
+  "x": 120
+ }
+]

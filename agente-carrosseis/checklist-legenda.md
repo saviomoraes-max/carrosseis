@@ -1,4 +1,13 @@
 # Checklist de Legenda — anti bafo de IA
+
+> **REGRA VIGENTE DESDE 26/10/2026 (vence o que estiver abaixo em conflito):** a legenda segue o
+> jeito dos Reels da Ana — curta (1 a 3 blocos), fala de WhatsApp, pergunta direta ou brincadeira,
+> 1-2 emojis dela. O bloco fixo de 4-5 parágrafos com "SALVA + MANDA" e o CTA verbatim igual em
+> toda legenda MORRERAM: "a gente sempre tem que tocar em alguns pontos na legenda como o cta e tal,
+> mas a abordagem pra isso em toda legenda [tem que ser] diferente, senão as pessoas notam muito
+> fácil o padrão" (Sávio). A PROMESSA do SUPERCASO (time analisa o cenário, 10-60 novos
+> pacientes/mês, palavra SUPERCASO) continua; a FRASE muda sempre. Formas em
+> `banco-cta-legenda.md`; antes de entregar rodar `python3 legenda_padrao.py <legenda.txt>`.
 > **Para quem é:** quem estiver escrevendo a legenda (Fable ou Opus).
 > **O princípio:** a legenda NÃO é um texto. É um **áudio de WhatsApp da mentora pra uma mentorada**, transcrito. Tudo aqui deriva disso. O caso de calibração é o AD010 (09/jul): a legenda passou por estrutura, âncoras e anti-eco — e o usuário reprovou mesmo assim ("muito robótica, bafo de IA"). Estar CERTA não basta; tem que soar GENTE.
 > Estrutura, anti-eco, CTA-espelho e U+2800 continuam obrigatórios — estão no `checklist-producao.md` §4 e não se repetem aqui. Este arquivo é só o filtro de HUMANIDADE, que roda DEPOIS da estrutura estar de pé.
@@ -21,6 +30,14 @@ Anáfora e antítese balanceada são assinatura de redator, não de fala.
 Apresentar a imagem antes de usar ("E ansiedade tem cheiro: é o bafo de vendedor") é o cheiro nº2 do voice-dna (anotar a própria frase) em versão de legenda. Ela solta a imagem SECA: *"O lead sente o seu bafo de vendedor e recua."*
 - **Teste:** algum dois-pontos INTRODUZINDO uma imagem/analogia? Corta a introdução, deixa a imagem.
 
+### 4 · PUNCHLINE DE COMPARAÇÃO — TOLERÂNCIA ZERO (26/10/2026)
+Sávio, sobre «Não é fórmula, é mapa. Tem lead que voa pela conexão e trava no fechamento, tem lead que
+precisa de mais tempo…»: *"esse tipo de frase me dá asco, essa punch line de comparação é vício de IA
+total, preciso que tome cuidado"*. Vale pra legenda E slide, mesmo quando a frase é verbatim da Ana:
+"não é X, é Y" · "X, nunca Y" · "para de X e passa a Y" · "tem quem X, tem quem Y" · "não tem nada a
+ver com X, tem a ver com Y" · "não quer X. Quer Y" · "X não tem, quem tem é Y". Afirmar direto a coisa.
+Detector: `python3 vicio_comparacao.py <legenda.txt|tweets.json|dump.json>`; os motores avisam no render.
+*(Regra antiga abaixo, agora mais dura: era "≤1".)*
 ### 4 · "Não é X, é Y" em série
 A construção existe na voz dela, mas UMA vez. Em série vira tique.
 - **Teste:** grep "não é" na legenda. **≤1** construção negação-pivô.
@@ -37,6 +54,12 @@ Legenda de IA é diagnóstico puro: descreve o erro, entrega a lição, ponto. A
 
 ### 7 · Fórmulas de legenda de IA
 - **Teste (grep, tolerância zero):** "Sabe aquela...?" como abertura · "A verdade é que" · "A real é que" · "Na prática," · "spoiler" · "plot twist" · "resultado:" · "Detalhe:" · "E o melhor:" · "Simples assim."
+
+### 8 · O parágrafo-índice do carrossel (16/set/26, o Sávio pegou no AD002)
+"Nos slides tá a resposta…", "as três peças estão no slide 4", "Deixei nos slides o que fazer…". **Medido: 51 das 58 legendas de SEM33-38 fazem esse movimento.** As palavras variam, o gesto é sempre o mesmo, e é o que mais tira o orgânico do texto: ninguém manda áudio pra uma amiga dizendo "no slide 4 você encontra". Vira sumário no meio da conversa.
+- **Teste:** existe um parágrafo cuja função é listar o que vem nos cards? Tem "slide" + número, ou "nos slides/nos cards" abrindo parágrafo? Então é índice.
+- **O conserto:** o parágrafo some. Quem lê a legenda está olhando o carrossel, não precisa de mapa. No lugar, uma frase que diga que a resposta EXISTE sem enumerar onde ela mora (*"Se essa pergunta te pega desprevenida toda vez, é porque ninguém te deu uma resposta pronta pra ela. Agora você tem uma."*), ou nada: emenda direto no SALVA + MANDA.
+- **Quando apontar ainda vale:** só quando o post tem uma peça que a legenda promete e o leitor não acharia sozinho (material clicável, link, ordem que importa). Aí aponta DENTRO de outra frase, em voz falada, sem número de slide.
 
 ---
 

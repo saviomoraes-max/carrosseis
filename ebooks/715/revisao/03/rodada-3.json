@@ -1,0 +1,91 @@
+{
+  "rodada": 3,
+  "data": "2026-09-09",
+  "lente": "corpus de fala da autora (80.938 palavras)",
+  "juri": "opus-5",
+  "brutos": 12,
+  "confirmados_n": 4,
+  "altas_confirmadas": 2,
+  "aplicados": 4,
+  "revertidos_por_colisao": {},
+  "resumo": "Bloco Passo 1 (Conexão). O corpus tem fala dela sobre praticamente todo assunto deste bloco, e em cinco pontos a fala é claramente melhor que a prosa composta. O padrão do que soa escrito aqui é sempre o mesmo: a passagem entrega o conteúdo certo e depois FECHA com uma antítese ou um par espelhado inventado (\"não está escolhendo, está vendendo\", \"Autoridade não é currículo, é a pessoa que faz a pergunta certa\", \"ninguém relaxa com quem já decidiu vender / a gente relaxa com quem ainda está decidindo\"). São três antíteses num bloco em que o fingerprint pede no máximo uma, e nenhuma das três tem fonte. Nos três casos o corpus tem a mesma ideia dita por ela de forma mais concreta e sem simetria: \"a forma mais rápida de encerrar uma conversa é com a resposta\", \"A pessoa entrou em contato com você porque ela precisa de você, não é porque você precisa dela\", \"ela sabe como que funciona para poder agendar e ela volta na hora que ela quer. Aí não tem urgência, né, gente?\", \"duro igual uma pedra, uma porta que ele não tá abrindo brecha para mim\", \"ela adora atender todo mundo. Você é só mais uma, entendeu?\". Propus 7 trocas, e três delas resolvem de uma vez o problema de voz e o de fonte. Em sem_fonte ficaram 5 itens, sendo o mais concreto um script entre aspas que não é literal de PDF nenhum (a versão \"posso te passar os horários\"): existe versão de preço em três fontes diferentes, versão de horário em nenhuma. Observação de método: as buscas por \"conexão\", \"ou não\", \"bastão\", \"se qualificar\", \"posicionamento\" e \"medo de se comprometer\" mostram que o corpus cobre este passo com folga, então quase toda prosa composta aqui era evitável.",
+  "confirmados": [
+    {
+      "tipo": "troca",
+      "gravidade": "alta",
+      "trecho": "E é exatamente isso que faz ela relaxar. Acho que ninguém relaxa com quem já decidiu vender. A gente relaxa com quem ainda está decidindo se dá pra ajudar.",
+      "fala_dela": "porque às vezes eu nem vou conseguir // Eu tô oferecendo para ele, é como se eu tivesse tirado de cima de de cima dele, né, toda a pressão de que ele tem que fazer alguma coisa naquele momento // Então ele começa a relaxar, porque antes ele tá assim, ó, duro igual uma pedra, uma porta que ele não tá abrindo brecha para mim",
+      "aplicado": "Gente, esse “ou não” é o coração do passo. Quando você diz pra paciente que primeiro precisa entender se a doutora consegue ajudar no caso dela, você está dizendo que existe a possibilidade de não conseguir, tá? Porque às vezes eu nem vou conseguir. E aí é como se eu tivesse tirado de cima dela toda a pressão de que ela tem que fazer alguma coisa naquele momento. Então ela começa a relaxar, porque antes ela tá assim, ó, dura igual uma pedra, uma porta que ela não tá abrindo brecha para mim.",
+      "cetico": "As três falas são literais (8384, 3048, 3050) e a de 8384 é justamente a justificativa do \"ou não\" (\"até para eu entender se eu consigo te ajudar no seu caso ou não / porque às vezes eu nem vou conseguir\"), então o par espelhado inventado sai e entra mecânica dela. O defeito é o enxerto: colar \"porque às vezes eu nem vou conseguir\" logo depois de \"faz ela relaxar\" inverte a causa (no corpus esse \"porque\" sustenta o \"ou não\", não o relaxar) e ainda duplica o verbo relaxar duas frases seguidas. Corrigido abaixo, mantendo cada fragmento literal."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "alta",
+      "trecho": "E se qualificar é o oposto do que parece. Quanto mais você elogia a doutora, mais ela sente que está sendo vendida.",
+      "fala_dela": "Se qualificar na professora, na verdade chega a ser automático mesmo, ainda mais quando a gente gosta do trabalho da doutora ou de onde a gente trabalha, né? // ela adora atender pacientes como você, ou seja, ela adora atender todo mundo // Você é só mais uma, entendeu?",
+      "aplicado": "E se qualificar, na verdade, chega a ser automático mesmo, ainda mais quando a gente gosta do trabalho da doutora ou de onde a gente trabalha, né? Só que pensa no que chega do outro lado. Você escreve “a doutora adora atender pacientes como você”, ou seja, ela adora atender todo mundo. Você é só mais uma, entendeu?",
+      "cetico": "As três falas são literais (802, 8180, 8182) e o corpus repete a mecânica em outro treinamento (9418 a 9424: elogio genérico à doutora, \"você é só mais uma\", \"uma dentre todas as outras\"), então a escada de comparativo inventada sai com lucro. O problema é de pronome: \"ela adora atender pacientes como você\" faz \"você\" virar a paciente no meio de um parágrafo onde \"você\" é a atendente, e sem marcar que aquilo é a frase que ela escreve o leitor tropeça. Alternativa marca a citação e preserva o resto literal."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "media",
+      "trecho": "Tirar a resistência inicial, aquela desconfiança de quem chama numa clínica e já espera ser empurrada.",
+      "fala_dela": "ela esquiva de todas as respostas que ela deveria dar, ela eh, eu faço uma pergunta, ela me responde: \"O que que é o preço? // é entender que aquela pessoa, ela tá com medo de se comprometer",
+      "aplicado": "Mantém a lista como está: \"Três coisas, ó, e as três acontecem na mesma mensagem. Abrir espaço pra conversa. Tirar a resistência inicial. E mostrar que você está ali pra entender se consegue ajudar ou não.\" Depois do parágrafo do “ou não”, entra parágrafo novo: \"E a resistência é isso, ó: ela esquiva de todas as respostas que ela deveria dar, eu faço uma pergunta, ela me responde “o que que é o preço?”. É entender que aquela pessoa, ela tá com medo de se comprometer.\"",
+      "cetico": "As duas falas são literais (6098 e 6100) e o aposto acusado é mesmo invenção: grep de \"empurr\" no corpus só devolve \"empurrãozinho\" (3354) e a passagem sobre pressionar (9700), nada de paciente que \"já espera ser empurrada\". O defeito é o lugar: colando depois da lista, o parágrafo deixa de terminar em \"ajudar ou não\" e o parágrafo seguinte abre com \"esse 'ou não'\" sem antecedente colado. Basta virar parágrafo próprio depois do \"ou não\", onde ainda emenda na porta fechada da troca 1."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "media",
+      "trecho": "Parece pronta, né? Aí você manda o horário e ela some e você fica sem entender.",
+      "fala_dela": "Na verdade, o que mais acontece é aquela pessoa mais que decidida, ela morre no meio da conversa, né? // Ela desaparece no meio da conversa",
+      "aplicado": "Parece pronta, né? Só que o que mais acontece é aquela pessoa mais que decidida, ela morre no meio da conversa. Ela desaparece no meio da conversa.",
+      "cetico": "As duas falas são literais (7056 e 7058) e o contexto é exatamente o caso do livro: 7048 traz a paciente que chega com \"quero agendar uma consulta, quanto custa?\" e vai direto pros finalmentes, e 6920 nomeia o erro (\"Achar que o lead que falou quero agendar uma consulta tá pronto para agendar\"), que é o mesmo último item do \"O que evitar\" do framework. Não quebra nada: \"ela some\" da frase seguinte continua com antecedente, e a repetição morre/desaparece é hábito dela, não empilhamento de marcador oral. É a troca mais limpa das seis."
+    }
+  ],
+  "refutados": [
+    {
+      "trecho": "Eu entendo, né, porque parece educação. A pessoa perguntou, você responde. Só que na segunda mensagem você disse que vai passar o valor, e antes fez uma pergunta.",
+      "motivo": "As duas falas existem literais (linhas 604 e 608), mas a premissa do garimpeiro é falsa: o bastão JÁ foi explicado, no capítulo imediatamente anterior (02-vender-o-que-ela-ja-quer-comprar.md, linha 66: \"Quem faz as perguntas conduz a conversa, e fica com o bastão na mão... E qual é a forma mais fácil de encerrar uma conversa? Com uma resposta\"), parágrafo que termina em \"Isso é o passo um\" e entrega o leitor exatamente neste bloco. A proposta reexplica o capítulo anterior e repete a máxima que ele acabou de usar como fecho, matando a compressão deliberada do parágrafo (\"Você não escondeu nada\" é callback do \"não tô te pedindo pra esconder o preço\" de lá). Pior: \"o bastão continua na mão dela\" contradiz o capítulo 02, onde o bastão é seu e só \"passou pra ela\" quando você respondeu."
+    },
+    {
+      "trecho": "Acontece quando a paciente sente que pode agendar a hora que quiser, porque agenda sempre aberta é clínica que pega qualquer uma, e quem pega qualquer uma não está escolhendo, está vendendo.",
+      "motivo": "As falas são literais (5566, 5568, 5570), mas vêm do fechamento: o contexto imediato (5560 a 5566) é ela ter passado preço e Pix sem compromisso, e o desfecho da fala é perder a venda por falta de urgência, não a paciente te ler como vendedora, que é o único assunto do parágrafo (as quatro situações da leitura negativa). Colar \"ela sabe quanto custa agora e ela sabe como que funciona para poder agendar\" ainda importa pro capítulo da Conexão o cenário que o bloco inteiro existe pra evitar, e fecha o item numa pergunta sobre urgência, que é vocabulário do passo 7. Só \"Ela acha que ela pode voltar na hora que ela quer\" serve, e essa metade apenas repete a frase que o livro já tem."
+    },
+    {
+      "trecho": "Autoridade no WhatsApp não é currículo. É a pessoa que faz a pergunta certa.",
+      "motivo": "As quatro falas são literais (1088 a 1094), mas dizem outra coisa: o contexto é consolo depois de rejeição (1096: \"Se ela falou você perdeu, nunca, em hipótese alguma, assuma isso como verdade\"), quem precisa de quem, e não a definição de autoridade por quem faz a pergunta. E o trecho acusado tem fonte, ao contrário do que o garimpeiro diz: corpus 9418 \"Não importa quais as qualificações da doutora, não importa o quão grande é a clínica\" é o \"não é currículo\" por sinônimo, e 03-manual-perguntas p.1 \"Quem faz as perguntas conduz a conversa (mantenha o bastão)\" mais corpus 9428 \"Bastão na nossa mão, posicionamento no atendimento é fundamental\" e 5580 \"subserviência acaba minando a autoridade dentro daquele ambiente do WhatsApp\" são a outra metade. Trocar aqui ainda arrebenta o arco aberto no capítulo 02, que fecha exatamente nessa equação."
+    },
+    {
+      "trecho": "“Claro que posso te passar os horários! Mas antes, até pra entender se a doutora vai conseguir te ajudar no seu caso ou não, o que faz você buscar por botox hoje?”",
+      "motivo": "O livro não apresenta isso como script de manual: a frase imediatamente anterior declara a derivação (\"A resposta pra ela é a mesma do preço, só troca 'valores' por 'horário'\"), e 03-manual-perguntas p.1 autoriza (\"Scripts são referências, não roteiros\"). O objeto do template varia em toda ocorrência de fonte e de corpus (02-manual-objecoes: \"essa informação\", \"uma estimativa de valores\"; corpus 1322 \"informações certinhas sobre harmonização facial\", 2642 \"valores\", 6586 \"o preço do Botox\"), e a doutrina do caso está sourceada em 6920 e no \"O que evitar\" do framework p.2. Adaptar o objeto é o comportamento dela, não invenção do redator."
+    },
+    {
+      "trecho": "porque agenda sempre aberta é clínica que pega qualquer uma, e quem pega qualquer uma não está escolhendo, está vendendo",
+      "motivo": "O gatilho é literal em 01-framework p.2 (\"O paciente sente que se ele quiser agendar ele pode a qualquer momento\"), listado ali como causa da leitura negativa, ou seja, a inferência agenda sempre disponível igual a te lê como vendedora é da fonte, não do livro. A metade do \"escolher\" tem fonte por paráfrase que o garimpeiro descartou rápido demais: corpus 5588 \"Gosto de pensar como se fosse um processo seletivo\", dito dentro da passagem sobre subserviência e declaração de intenção, e 9424 \"só faz a pessoa aparecer que ela é uma dentre todas as outras\"; o próprio manuscrito já usa isso em C-paciente-modelo.md. Sobra a imagem \"agenda sempre aberta é clínica que pega qualquer uma\", que é redação, não afirmação sem lastro."
+    },
+    {
+      "trecho": "Autoridade no WhatsApp não é currículo. É a pessoa que faz a pergunta certa.",
+      "motivo": "A busca parou em \"currículo\" e nunca tentou o sinônimo dela: corpus 9418 diz \"Não importa quais as qualificações da doutora, não importa quais são o quão grande é a clínica ou quantos pacientes iguais àquela ali você já atendeu\", que é literalmente autoridade não é currículo. A metade afirmativa está em 03-manual-perguntas p.1 (\"Quem faz as perguntas conduz a conversa (mantenha o bastão)\") somada a corpus 9428 (\"Bastão na nossa mão, posicionamento no atendimento é fundamental\") e 5580 (subserviência minando a autoridade no WhatsApp), com 01-framework p.2 dizendo que a leitura positiva vem de te perceber como autoridade e a negativa de te ver abaixo dela. A definição é síntese de fonte, não do livro."
+    },
+    {
+      "trecho": "Essa é a primeira mensagem que chega na maioria das clínicas que eu conheço. Preço, direto. E a maioria responde o preço, direto.",
+      "motivo": "Afirmação de frequência por observação própria é o registro nativo dela: corpus 8168 \"Isso é o que eu vejo em muitos atendimentos, tá?\", 5594 \"muitas vezes a gente passa o valor já se justificando\" e 5590 \"a gente observa atendimentos que falam sobre isso antes mesmo da pessoa questionar o preço\". O livro ainda amacia com \"que eu conheço\", e o segundo quantificador está coberto por 5594 mais 2026 (\"se ela fala o preço do botox, a gente responde o preço do botox\"). Não é dado fabricado, é testemunho, que é como ela fala."
+    },
+    {
+      "trecho": "A do “você já sabe o que está procurando?” até dá pra responder com sim, mas na prática ela responde “sim, quero fazer botox” e você já tem por onde puxar.",
+      "motivo": "O grep foi só em \"quero fazer botox\" e perdeu a conversa real que ela analisa: nas linhas 34 a 40 e 126 a 146 a resposta a \"você já sabe o que está procurando?\" é o próprio procedimento (\"harmonização\", \"contorno, melhorar a pele\") e a atendente puxa dali (\"Harmonização, o que você gostaria que fosse diferente?\"). E o \"você já tem por onde puxar\" é fala dela: 1492 \"Qualquer uma das palavras que a gente poderia pegar aqui já seria muito melhor\" e 2718 \"eu pegaria qualquer uma das coisas que ela falou para poder puxar\". A resposta monossilábica de 98 é o outro ramo, que o livro cobre na frase seguinte (\"Se vier só o sim seco, emenda: me conta\")."
+    }
+  ],
+  "cego": {
+    "veredito": "pessoa",
+    "confianca": 78,
+    "votos": {
+      "pessoa": 3,
+      "ia": 0,
+      "indeciso": 0
+    },
+    "leitores": 3,
+    "data": "2026-09-09"
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "arquivo": "manuscrito/11-o-manual-de-respostas.md",
+  "palavras": 1146,
+  "paragrafos": 27,
+  "frases": 67,
+  "mascarado": {
+    "frontmatter": 1,
+    "blocos_script": 28,
+    "marcadores_bloco": 58,
+    "citacoes": 34,
+    "titulos_curtos": 8
+  },
+  "avisos": [],
+  "absolvidos_pelo_corpus": [
+    {
+      "termo": "gerar valor",
+      "subtipo": "vocabulario_n1",
+      "gravidade": "alta",
+      "no_corpus": 4
+    },
+    {
+      "termo": "valor (abstrato) x11",
+      "subtipo": "vocabulario_n3",
+      "gravidade": "baixa",
+      "no_corpus": 120
+    }
+  ],
+  "amostra_pequena": false,
+  "score": 14,
+  "faixa": "limpo (soa gente)",
+  "pontos": 8.9,
+  "densidade": 7.8,
+  "formula": "densidade = pontos / max(palavras, piso_palavras) * 1000; score = 100 * (1 - exp(-densidade / k)), k = 50, piso_palavras = 300 (texto curto não explode com um achado só). Nota por categoria usa k_categoria sobre a densidade só daquela categoria.",
+  "categorias": {
+    "conteudo": {
+      "rotulo": "Conteúdo e inflação",
+      "achados": 2,
+      "pontos": 1.4,
+      "densidade": 1.2,
+      "nota": 8
+    },
+    "linguagem": {
+      "rotulo": "Linguagem e vocabulário",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "estrutura": {
+      "rotulo": "Estrutura e ritmo",
+      "achados": 2,
+      "pontos": 7.5,
+      "densidade": 6.5,
+      "nota": 35
+    },
+    "comunicacao": {
+      "rotulo": "Sobras de chatbot",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "meta": {
+      "rotulo": "Uniformidade de ritmo (estatística)",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "calques": {
+      "rotulo": "Calques do inglês e burocratês",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    }
+  },
+  "metricas": {
+    "frases_media_palavras": 17.1,
+    "frases_desvio_padrao": 10.3,
+    "frases_cv": 0.6,
+    "paragrafos": 27,
+    "paragrafos_mediana_palavras": 35.5,
+    "paragrafos_proporcao_mesmo_tamanho": 0.42,
+    "ritmo_entre_paragrafos_desvio": 0.189,
+    "pontuacao_cv": 0.77,
+    "ttr": 0.321,
+    "frases_mesmo_inicio_proporcao": 0.05,
+    "travessoes": 0,
+    "travessoes_por_mil": 0.0,
+    "dois_pontos": 13,
+    "dois_pontos_por_mil": 11.34,
+    "itens_lista": 0,
+    "proporcao_linhas_em_lista": 0.0,
+    "negritos": 0,
+    "triades": 1,
+    "triades_por_mil": 0.87,
+    "contrastes": 1,
+    "paragrafos_terminando_em_pergunta": 3,
+    "fechos_grandiosos": 0,
+    "hedges": 2,
+    "hedges_por_mil": 1.75
+  },
+  "achados": [
+    {
+      "id": "m_dois_pontos",
+      "categoria": "estrutura",
+      "subtipo": "pontuacao",
+      "gravidade": "media",
+      "peso": 5,
+      "texto": "13 dois-pontos em 1146 palavras",
+      "inicio": 1114,
+      "fim": 1116,
+      "explicacao": "Dois-pontos demais no meio de frase: cadência de slide.",
+      "sugestao": "Troque por ponto ou vírgula; deixe só os que apresentam algo.",
+      "contribuicao": 5,
+      "linha": 24,
+      "trecho": "que não devolvem são as da hora do PIX, porque ali a regra da casa já é a resposta inteira«: »você diz numa linha e segue."
+    },
+    {
+      "id": "ct_talvez",
+      "categoria": "conteudo",
+      "subtipo": "hedge",
+      "gravidade": "baixa",
+      "peso": 1,
+      "texto": "provavelmente",
+      "inicio": 2180,
+      "fim": 2193,
+      "explicacao": "Hedge adverbial (um por texto passa; a densidade é o tell).",
+      "sugestao": "afirme ou corte",
+      "contribuicao": 1,
+      "linha": 42,
+      "trecho": "ente numa comparação de preços, e ela vai comparar com base em algo que ela não entende e «provavelmente» vai embora sem nem saber se esse procedimento seria indicado no caso dela."
+    },
+    {
+      "id": "es_contraste_nao_e_x_e_y",
+      "categoria": "estrutura",
+      "subtipo": "contraste",
+      "gravidade": "media",
+      "peso": 2.5,
+      "texto": "não é pagar, é",
+      "inicio": 5143,
+      "fim": 5157,
+      "explicacao": "Contraste fácil 'não é X, é Y': virou tique.",
+      "sugestao": "afirme a coisa que importa",
+      "contribuicao": 2.5,
+      "linha": 86,
+      "trecho": "Gente, o que incomoda a paciente «não é pagar, é» pagar por algo que ela ainda não entendeu o valor."
+    },
+    {
+      "id": "ct_talvez",
+      "categoria": "conteudo",
+      "subtipo": "hedge",
+      "gravidade": "baixa",
+      "peso": 1,
+      "texto": "provavelmente",
+      "inicio": 7427,
+      "fim": 7440,
+      "explicacao": "Hedge adverbial (um por texto passa; a densidade é o tell).",
+      "sugestao": "afirme ou corte",
+      "contribuicao": 0.4,
+      "linha": 112,
+      "trecho": "O “fico à disposição” encerra a conversa e transfere o controle pra paciente, que «provavelmente» nunca mais vai voltar, e você perde a chance de entender o que ainda está impedindo a dec"
+    }
+  ],
+  "achados_ocultos": 0,
+  "min_gravidade": "baixa"
+}

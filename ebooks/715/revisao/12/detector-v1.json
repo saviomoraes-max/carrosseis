@@ -1,0 +1,136 @@
+{
+  "arquivo": "/Users/saviomoraes/reconecta/ebooks/715/manuscrito/12-doutora-e-vendedora-tambem.md",
+  "palavras": 575,
+  "paragrafos": 15,
+  "frases": 39,
+  "mascarado": {
+    "frontmatter": 1,
+    "citacoes": 2,
+    "titulos_curtos": 2
+  },
+  "avisos": [],
+  "score": 34,
+  "faixa": "sotaque perceptível (revisar antes de gastar agente)",
+  "pontos": 12,
+  "densidade": 20.9,
+  "formula": "densidade = pontos / max(palavras, piso_palavras) * 1000; score = 100 * (1 - exp(-densidade / k)), k = 50, piso_palavras = 300 (texto curto não explode com um achado só). Nota por categoria usa k_categoria sobre a densidade só daquela categoria.",
+  "categorias": {
+    "conteudo": {
+      "rotulo": "Conteúdo e inflação",
+      "achados": 2,
+      "pontos": 2,
+      "densidade": 3.5,
+      "nota": 21
+    },
+    "linguagem": {
+      "rotulo": "Linguagem e vocabulário",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "estrutura": {
+      "rotulo": "Estrutura e ritmo",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "comunicacao": {
+      "rotulo": "Sobras de chatbot",
+      "achados": 1,
+      "pontos": 10,
+      "densidade": 17.4,
+      "nota": 69
+    },
+    "meta": {
+      "rotulo": "Uniformidade de ritmo (estatística)",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "calques": {
+      "rotulo": "Calques do inglês e burocratês",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    }
+  },
+  "metricas": {
+    "frases_media_palavras": 14.7,
+    "frases_desvio_padrao": 10.9,
+    "frases_cv": 0.74,
+    "paragrafos": 15,
+    "paragrafos_mediana_palavras": 58,
+    "paragrafos_proporcao_mesmo_tamanho": 0.55,
+    "ritmo_entre_paragrafos_desvio": 0.311,
+    "pontuacao_cv": 0.6,
+    "ttr": 0.412,
+    "frases_mesmo_inicio_proporcao": 0.05,
+    "travessoes": 0,
+    "travessoes_por_mil": 0.0,
+    "dois_pontos": 3,
+    "dois_pontos_por_mil": 5.22,
+    "itens_lista": 0,
+    "proporcao_linhas_em_lista": 0.0,
+    "negritos": 0,
+    "triades": 0,
+    "triades_por_mil": 0.0,
+    "contrastes": 0,
+    "paragrafos_terminando_em_pergunta": 2,
+    "fechos_grandiosos": 0,
+    "hedges": 2,
+    "hedges_por_mil": 3.48
+  },
+  "achados": [
+    {
+      "id": "ct_pode_ser_que",
+      "categoria": "conteudo",
+      "subtipo": "hedge",
+      "gravidade": "baixa",
+      "peso": 1,
+      "texto": "pode ser que",
+      "inicio": 1551,
+      "fim": 1563,
+      "explicacao": "Hedge: quem escreve não se comprometeu.",
+      "sugestao": "tome posição, ou diga a ressalva com nome",
+      "contribuicao": 1,
+      "linha": 20,
+      "trecho": "E beleza, «pode ser que» a transação em si fique do lado de fora da sala, até pela experiência da paciente."
+    },
+    {
+      "id": "ct_talvez",
+      "categoria": "conteudo",
+      "subtipo": "hedge",
+      "gravidade": "baixa",
+      "peso": 1,
+      "texto": "provavelmente",
+      "inicio": 2832,
+      "fim": 2845,
+      "explicacao": "Hedge adverbial (um por texto passa; a densidade é o tell).",
+      "sugestao": "afirme ou corte",
+      "contribuicao": 1,
+      "linha": 34,
+      "trecho": "Se não subiu, ou subiu menos do que devia, «provavelmente» tem um passo que está ficando raso, e na maioria das vezes é o dois ou o três."
+    },
+    {
+      "id": "cb_placeholder",
+      "categoria": "comunicacao",
+      "subtipo": "placeholder",
+      "gravidade": "critica",
+      "peso": 10,
+      "texto": "[LINK DE AGENDAMENTO COM O TIME]",
+      "inicio": 3273,
+      "fim": 3305,
+      "explicacao": "Lacuna de template não preenchida.",
+      "sugestao": "preencha ou corte",
+      "contribuicao": 10,
+      "linha": 38,
+      "trecho": "«[LINK DE AGENDAMENTO COM O TIME]»"
+    }
+  ],
+  "achados_ocultos": 0,
+  "min_gravidade": "baixa"
+}

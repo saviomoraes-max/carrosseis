@@ -1,0 +1,386 @@
+[
+  {
+    "bloco": "11",
+    "votos": {
+      "pessoa": 3,
+      "ia": 0,
+      "indeciso": 0
+    },
+    "maioria": "pessoa",
+    "confianca_media": 72,
+    "leitores": [
+      {
+        "bloco": "11",
+        "leitor": 1,
+        "veredito": "pessoa",
+        "confianca": 68,
+        "pistas": [
+          {
+            "trecho": "Então, se ela fala o preço do botox, a gente responde o preço do botox, isso vai ajudar ela a resolver qual o problema?",
+            "pista": "Colapso sintático real: a frase começa condicional, vira afirmativa e termina em pergunta com ordem quebrada (\"resolver qual o problema\"). Modelo de linguagem tende a fechar a frase certa; isso é fala transcrita e não revisada."
+          },
+          {
+            "trecho": "aí é quase você falando assim: eu vou te dar um descontinho agora porque depois vai ser forçado a fechar um procedimento",
+            "pista": "Discurso direto sem aspas, andaime oral (\"aí é quase você falando assim\"), diminutivo espontâneo (\"descontinho\") e troca de sujeito no meio da própria fala (quem dá o desconto é 'eu', quem é forçado é a paciente). Erro de referência típico de boca, não de máquina."
+          },
+          {
+            "trecho": "pô, então tá me forçando a fechar um procedimento, então não quero",
+            "pista": "Interjeição \"pô\" dentro de simulação de pensamento da paciente e repetição de \"então\" na mesma linha. IA que imita oralidade salpica marcadores, mas costuma limpar a repetição imediata."
+          },
+          {
+            "trecho": "Humm... entendo. Fiquei curiosa...",
+            "pista": "A mesma hesitação aparece grafada de duas formas diferentes no capítulo (\"Humm...\" aqui e \"Hmm, terceira sessão\" na seção de informação técnica). Geração automática normaliza esse tipo de grafia; humano escrevendo em sessões diferentes não."
+          },
+          {
+            "trecho": "Essa só serve se na sua clínica a paciente paga a consulta na hora de marcar e pode remarcar sem perder o valor. Se não é assim, não promete.",
+            "pista": "Ressalva operacional enfiada dentro da linha \"ela:\", quebrando o próprio template que o capítulo usa em todos os outros blocos, e fechada com imperativo seco (\"não promete\"). É alguém lembrando de uma exceção prática no meio da escrita, não uma estrutura planejada."
+          }
+        ]
+      },
+      {
+        "bloco": "11",
+        "leitor": 2,
+        "veredito": "pessoa",
+        "confianca": 72,
+        "pistas": [
+          {
+            "trecho": "Até porque penso o seguinte: se a gente responde as perguntas que a pessoa faz, quem tá no controle da conversa é ela.",
+            "pista": "O raciocínio se monta enquanto fala, não antes: 'penso o seguinte' é muleta de quem está pensando alto, e a frase fecha com inversão coloquial ('quem tá no controle da conversa é ela') em vez do sujeito reto. Máquina não precisa anunciar que vai pensar; ela já entrega o pensamento pronto e alinhado."
+          },
+          {
+            "trecho": "Antes, que outra dúvida ainda ficou em como podemos ajudar a resolver [problema mencionado], antes de vermos a disponibilidade na agenda da doutora?",
+            "pista": "Frase quebrada: 'antes' repetido em dois pontos da mesma oração, regência torta em 'que outra dúvida ainda ficou em como podemos ajudar'. Isso é fala transcrita que ninguém releu. Modelo de linguagem erra por excesso de polimento, não por concordância travada desse tipo — e qualquer passada de revisão automática teria consertado."
+          },
+          {
+            "trecho": "Se quiser perder a paciente: “Sim, a avaliação é paga, mas o valor é abatido do procedimento que você for fazer no dia.” Por que não funciona: a gente acha, quando fala sobre isso, que vai facilitar o processo de fechamento.",
+            "pista": "Esse trecho é o único do capítulo inteiro que abandona a estrutura :::caso / perde: / responde: e vira prosa corrida com rótulos improvisados ('Se quiser perder a paciente', 'Por que não funciona', 'Outra que perde'). É resíduo de um material anterior que não foi convertido. Texto gerado de ponta a ponta sai uniforme; sobra de formatação é sujeira de arquivo que passou por mãos e versões."
+          },
+          {
+            "trecho": "pô, então tá me forçando a fechar um procedimento, então não quero. Você falar que o valor da consulta é abatido se ela fizer o procedimento no mesmo dia, aí é quase você falando assim: eu vou te dar um descontinho agora porque depois vai ser forçado a fechar um procedimento.",
+            "pista": "Encena duas vozes (a da paciente e a da própria autora) sem aspas, emendadas por 'aí é quase você falando assim', com interjeição ('pô') e diminutivo depreciativo ('descontinho'). E repete 'forçado a fechar um procedimento' a poucas linhas de distância — repetição que quem escreve para valer corta. Aqui ela ficou porque a pessoa estava falando, não redigindo."
+          },
+          {
+            "trecho": "responde: Humm... entendo. Fiquei curiosa... O que fez você considerar resolver isso agora",
+            "pista": "Grafia instável da mesma interjeição dentro do mesmo capítulo: 'Humm...' aqui e 'Hmm, terceira sessão' mais adiante. Duas grafias, duas pontuações, zero critério. Padronizar interjeição é reflexo automático de qualquer geração ou revisão por máquina; a variação solta indica trechos escritos em momentos diferentes, por ouvido, sem passada de uniformização."
+          }
+        ]
+      },
+      {
+        "bloco": "11",
+        "leitor": 3,
+        "veredito": "pessoa",
+        "confianca": 76,
+        "pistas": [
+          {
+            "trecho": "Você falar que o valor da consulta é abatido se ela fizer o procedimento no mesmo dia, aí é quase você falando assim: eu vou te dar um descontinho agora porque depois vai ser forçado a fechar um procedimento.",
+            "pista": "A frase descarrila no meio: começa com um sujeito (\"Você falar...\"), abandona ele no \"aí é quase você falando assim\" e termina com um verbo sem dono (\"vai ser forçado\" — forçado quem?). Isso é gente falando e alguém transcrevendo. Texto de máquina sai com a costura fechada; quando erra, erra pra mais arrumado, não pra mais torto."
+          },
+          {
+            "trecho": "Só que é exatamente essa percepção que o paciente tem: pô, então tá me forçando a fechar um procedimento, então não quero.",
+            "pista": "O \"pô\" e o \"então... então\" repetido dentro da mesma linha. É interjeição de conversa, com repetição que ninguém deixaria se estivesse escrevendo com calma ou gerando texto polido. Além disso troca de gênero no meio (vinha falando \"a paciente\", aqui vira \"o paciente\") — descuido típico de quem tá falando de cabeça."
+          },
+          {
+            "trecho": "Então, se ela fala o preço do botox, a gente responde o preço do botox, isso vai ajudar ela a resolver qual o problema?",
+            "pista": "Pergunta malformada, com a interrogação enfiada no fim de uma frase que não foi construída como pergunta, e \"ajudar ela\" em vez de \"ajudá-la\". É pergunta retórica de quem tá falando pra uma sala, não frase escrita."
+          },
+          {
+            "trecho": "Essa só serve se na sua clínica a paciente paga a consulta na hora de marcar e pode remarcar sem perder o valor. Se não é assim, não promete.",
+            "pista": "Ressalva prática enfiada no meio de um bloco que até então só tinha o modelo de resposta, cortando o formato. E o fecho é um imperativo seco de duas palavras (\"não promete\"), sem explicar, sem suavizar. Quem escreve organizadinho põe isso numa nota; quem tá falando lembra na hora e emenda."
+          },
+          {
+            "trecho": "nas que mais aparecem eu mostro também o que a gente responde se quiser perder a paciente, e por que perde",
+            "pista": "O próprio texto avisa que a estrutura vai ser irregular — e é: vários blocos têm o \"perde\", vários não têm, sem critério visível. Texto de IA tende a preencher todos os campos do formato que ele mesmo anunciou. Aqui o autor anuncia a falha antes de cometer, o que é comportamento de gente com preguiça honesta."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "bloco": "03",
+    "votos": {
+      "pessoa": 3,
+      "ia": 0,
+      "indeciso": 0
+    },
+    "maioria": "pessoa",
+    "confianca_media": 78,
+    "leitores": [
+      {
+        "bloco": "03",
+        "leitor": 1,
+        "veredito": "pessoa",
+        "confianca": 78,
+        "pistas": [
+          {
+            "trecho": "Só que o que mais acontece é aquela pessoa mais que decidida, ela morre no meio da conversa. Ela desaparece no meio da conversa.",
+            "pista": "Repetição imediata da mesma ideia trocando só o verbo (morre → desaparece). Isso é auto-correção de fala em tempo real: a pessoa disse \"morre\", não gostou do peso da palavra e reformulou. IA não gera redundância assim; se gerasse, um passe de edição cortaria uma das duas frases. O fato de as duas terem sobrevivido indica transcrição de alguém falando, com edição leve por cima."
+          },
+          {
+            "trecho": "porque antes ela tá assim, ó, dura igual uma pedra, uma porta que ela não tá abrindo brecha para mim",
+            "pista": "Metáfora que descarrila no meio: começa em \"pedra\" e emenda em \"porta\" sem conector, e a segunda imagem nem fecha gramaticalmente (\"uma porta que ela não tá abrindo brecha\"). IA erra por excesso de coerência, não por colapso sintático. Metáfora quebrada e mal costurada é assinatura de improviso oral."
+          },
+          {
+            "trecho": "E a resistência é isso, ó: ela esquiva de todas as respostas que ela deveria dar, eu faço uma pergunta, ela me responde “o que que é o preço?”. É entender que aquela pessoa, ela tá com medo de se comprometer.",
+            "pista": "Acúmulo de desvios que modelo treinado em PT-BR escrito não comete: verbo pronominal sem o pronome (\"ela esquiva de\" em vez de \"se esquiva de\"), \"o que que é\", sujeito duplicado com pronome resumptivo (\"aquela pessoa, ela tá\") e troca de tempo/pessoa dentro do mesmo período. Erro de regência convivendo com fluência é padrão de transcrição, não de geração."
+          },
+          {
+            "trecho": "Três coisas, ó, e as três acontecem na mesma mensagem.",
+            "pista": "O marcador \"ó\" (imperativo de olhar usado como muleta de atenção) aparece quatro vezes no texto e é fortemente regional e exclusivamente falado. Junto com \"Gente,\", \"tá?\", \"né?\" e \"entendeu?\" pendurados no fim de frase, forma uma camada de oralidade sistemática — não decorativa. IA imitando informalidade usa \"né\" e \"olha só\"; raramente esse \"ó\" isolado, e nunca com essa distribuição irregular."
+          },
+          {
+            "trecho": "Se ela responde sim ou não e para ali, você fica tendo que inventar a próxima pergunta sozinha.",
+            "pista": "Instabilidade de pessoa gramatical ao longo do capítulo — \"eu\" (\"às vezes eu nem vou conseguir\"), \"a gente\" (\"quando a gente se qualifica\") e \"você\" se alternam sem critério, e aqui o \"você\" ainda é flexionado no feminino (\"sozinha\"), pressupondo uma interlocutora concreta e específica. IA mantém a pessoa gramatical estável dentro de um capítulo; a deriva aqui é de quem fala para uma plateia que enxerga."
+          }
+        ]
+      },
+      {
+        "bloco": "03",
+        "leitor": 2,
+        "veredito": "pessoa",
+        "confianca": 76,
+        "pistas": [
+          {
+            "trecho": "porque antes ela tá assim, ó, dura igual uma pedra, uma porta que ela não tá abrindo brecha para mim",
+            "pista": "Colisão de metáforas dentro da mesma oração: a pessoa vira pedra e, meio segundo depois, vira porta, com a sintaxe desabando no meio (\"uma porta que ela não tá abrindo brecha\"). Máquina que imita oralidade erra pra menos, produz coloquialismo limpo; ela não produz imagem incoerente e deixa de pé. Isso é alguém falando e trocando de figura no meio do ar."
+          },
+          {
+            "trecho": "Só que o que mais acontece é aquela pessoa mais que decidida, ela morre no meio da conversa. Ela desaparece no meio da conversa.",
+            "pista": "Repetição imediata da mesma frase trocando só o verbo — autocorreção de fala (\"morre\" soou forte demais, emenda \"desaparece\") preservada na transcrição. Qualquer passada de LLM funde as duas em uma; nenhum modelo escreve isso espontaneamente porque é redundância pura, sem ganho retórico."
+          },
+          {
+            "trecho": "E a resistência é isso, ó: ela esquiva de todas as respostas que ela deveria dar, eu faço uma pergunta, ela me responde “o que que é o preço?”.",
+            "pista": "Três defeitos empilhados numa linha: regência errada (\"esquiva de\" sem o \"se\"), \"o que que é\" cru, e um exemplo que não fecha com a definição que ele deveria ilustrar. Texto de IA em PT-BR mantém regência e faz o exemplo casar com a tese — é o que ela faz melhor."
+          },
+          {
+            "trecho": "É entender que aquela pessoa, ela tá com medo de se comprometer.",
+            "pista": "Sujeito duplo com pronome resumptivo — construção de fala espontânea do português brasileiro, e não isolada: reaparece em \"aquela pessoa mais que decidida, ela morre\". Modelo treinado em texto escrito colapsa isso para \"aquela pessoa está com medo\" mesmo quando mandam soar informal."
+          },
+          {
+            "trecho": "Porque às vezes eu nem vou conseguir.",
+            "pista": "Furo de ponto de vista: o capítulo inteiro trata a profissional em terceira pessoa (\"a doutora vai conseguir te ajudar\") e aqui o narrador escorrega para primeira pessoa, como se fosse ele quem atende. É inconsistência que revisão automática normaliza sem pensar; sobreviver ao texto significa que ninguém passou o pente fino de coerência."
+          }
+        ]
+      },
+      {
+        "bloco": "03",
+        "leitor": 3,
+        "veredito": "pessoa",
+        "confianca": 80,
+        "pistas": [
+          {
+            "trecho": "porque antes ela tá assim, ó, dura igual uma pedra, uma porta que ela não tá abrindo brecha para mim",
+            "pista": "A metáfora quebra no meio: começa em \"pedra\", troca pra \"porta\" e a frase nem fecha direito a gramática. Isso é gente falando e mudando de ideia enquanto fala. Texto de IA fecha a comparação escolhida e não deixa duas imagens brigando na mesma linha."
+          },
+          {
+            "trecho": "Só que o que mais acontece é aquela pessoa mais que decidida, ela morre no meio da conversa. Ela desaparece no meio da conversa.",
+            "pista": "Repetiu a mesma informação duas vezes seguidas, só trocando o verbo, sem ganhar nada com isso. É a pessoa se corrigindo em voz alta (\"morre\" soou forte demais, então suavizou pra \"desaparece\"). IA não deixa redundância burra assim colada; ou junta as duas ou corta uma."
+          },
+          {
+            "trecho": "ela esquiva de todas as respostas que ela deveria dar, eu faço uma pergunta, ela me responde “o que que é o preço?”",
+            "pista": "Erro real de português falado: \"ela esquiva\" sem o \"se\", mais o \"o que que\" e as frases empilhadas por vírgula. São escorregões que sobram de fala transcrita, não escolhas de estilo. IA erra pouco assim e, quando imita coloquial, imita de forma limpinha e consistente."
+          },
+          {
+            "trecho": "Eu acho que ela some porque você agendou uma pessoa que você não conhece",
+            "pista": "Ela admite que está chutando o motivo (\"eu acho\"), e faz o mesmo em \"pelo que eu vejo\" e \"das clínicas que eu conheço\". Quem escreve assim está falando da experiência própria e não tem certeza. Texto de IA quase sempre afirma a causa com segurança, ou inventa um número pra sustentar."
+          },
+          {
+            "trecho": "Gente, esse “ou não” é o coração do passo.",
+            "pista": "Os vícios de fala aparecem espalhados de forma irregular ao longo do texto (\"Gente\", \"ó\", \"né\", \"tá?\"), e o registro oscila sem critério: \"ela tá com medo\" num parágrafo e \"o que está incomodando\" em outro. Quando é IA imitando informalidade, esses marcadores costumam vir distribuídos de forma regular e o registro fica uniforme do começo ao fim."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "bloco": "04",
+    "votos": {
+      "pessoa": 3,
+      "ia": 0,
+      "indeciso": 0
+    },
+    "maioria": "pessoa",
+    "confianca_media": 74,
+    "leitores": [
+      {
+        "bloco": "04",
+        "leitor": 1,
+        "veredito": "pessoa",
+        "confianca": 76,
+        "pistas": [
+          {
+            "trecho": "Porque flacidez, pra ela, é uma coisa que ela vê no espelho, num lugar específico, num momento específico, e não a palavra que tá na sua apostila. Porque flacidez, pra ela, é uma coisa que ela vê no espelho, num lugar específico, num momento específico.",
+            "pista": "Duplicação literal de uma frase inteira, a segunda cópia truncada no meio. Isso é resíduo de transcrição ou de copiar/colar mal resolvido na edição. Máquina que gera prosa nova não repete um bloco inteiro logo em seguida e ainda corta o final; ela alisaria ou variaria. É o achado mais difícil de explicar por IA no texto todo."
+          },
+          {
+            "trecho": "Nossa senhora, que ranço de quando eu fazia isso, gente.",
+            "pista": "Vergonha retroativa do próprio comportamento, com gíria regional (\"ranço\") e sem função retórica nenhuma no argumento. Não abre nem fecha ideia, não é gancho, não é exemplo. É alguém se lembrando de si mesma no meio da fala. Texto de máquina raramente gasta uma frase que não trabalha."
+          },
+          {
+            "trecho": "Se eu desse um control C, control V nessa pergunta, em qualquer conversa, ela caberia?",
+            "pista": "Grafia por som, não por convenção: \"control C, control V\" em vez de Ctrl+C / Ctrl+V. É a fala transposta direto, e ninguém depois corrigiu. IA escreve o atalho na forma canônica quase sempre; e se escrevesse por extenso, escreveria certo e uniforme."
+          },
+          {
+            "trecho": "nossa, querida, você é linda, vai ficar ainda mais linda depois que passar pelas mãos da doutora",
+            "pista": "Quebra de ponto de vista não resolvida. Antes ela fala como quem diagnostica (\"eu já sei qual que é o diagnóstico completo\"); aqui ela é a atendente falando da \"doutora\" em terceira pessoa. Duas identidades profissionais na mesma narradora, a poucos parágrafos de distância. IA mantém a persona coerente por padrão; humano contando caso antigo escorrega assim."
+          },
+          {
+            "trecho": "Ela fala bioestimulador, eu já sei qual que é o diagnóstico completo.",
+            "pista": "Sintaxe oral pesada e recorrente pelo capítulo: \"qual que é\", \"o que que é isso para ela\", \"o que que eu tô deixando passar\", \"afetando ela\" (em vez de afetando-a). O duplicado \"que que\" é marca de fala espontânea em pt-BR, distribuída de forma irregular, não como floreio decorativo colocado de propósito."
+          }
+        ]
+      },
+      {
+        "bloco": "04",
+        "leitor": 2,
+        "veredito": "pessoa",
+        "confianca": 72,
+        "pistas": [
+          {
+            "trecho": "Porque flacidez, pra ela, é uma coisa que ela vê no espelho, num lugar específico, num momento específico, e não a palavra que tá na sua apostila. Porque flacidez, pra ela, é uma coisa que ela vê no espelho, num lugar específico, num momento específico.",
+            "pista": "Repetição quase literal da mesma frase, colada uma na outra, com a segunda truncada. É sujeira de fala transcrita ou de montagem de trechos. Texto gerado sai limpo desse tipo de resíduo, e qualquer revisor que passasse o olho cortaria. Ficou porque alguém confiou no material bruto e não releu."
+          },
+          {
+            "trecho": "Nossa senhora, que ranço de quando eu fazia isso, gente.",
+            "pista": "Gíria brasileira atual usada com precisão e apontada contra si mesma, no meio de uma confissão de erro antigo. Vem acompanhada da citação constrangedora do próprio script velho (\"vai ficar ainda mais linda depois que passar pelas mãos da doutora\"). Máquina não se envergonha do próprio passado com endereço tão específico."
+          },
+          {
+            "trecho": "Se eu desse um control C, control V nessa pergunta, em qualquer conversa, ela caberia?",
+            "pista": "Atalho de teclado grafado como se pronuncia, não como se escreve (\"Ctrl+C\", \"copiar e colar\"). É marca de boca, não de teclado. Só sobrevive quando o texto nasceu de alguém falando e passou por transcrição."
+          },
+          {
+            "trecho": "Eu sempre gosto de pensar o seguinte quando tô atendendo: a pergunta que eu fiz, ela poderia ser feita para qualquer pessoa?",
+            "pista": "Deslocamento à esquerda com retomada pronominal (\"a pergunta que eu fiz, ela poderia\") — sintaxe oral do português do Brasil que modelo de linguagem normaliza para \"a pergunta que eu fiz poderia\". A frase seguinte confirma o descuido: \"Então, possivelmente, eu acho que eu tô sendo genérica demais\", com empilhamento de hedge que ninguém escreve de propósito."
+          },
+          {
+            "trecho": "Eu não tô ali para deixar ela confortável, porque esse conforto diminui a velocidade da decisão.",
+            "pista": "Afirmação comercialmente feia, dita sem amaciar: conforto da paciente tratado como atrito de venda. Texto sintético costuma envolver isso em cuidado e ética. Some-se a regência falada (\"deixar ela\", \"eu já sei qual que é o diagnóstico\"), e o padrão é de quem fala primeiro e edita depois."
+          }
+        ]
+      },
+      {
+        "bloco": "04",
+        "leitor": 3,
+        "veredito": "pessoa",
+        "confianca": 75,
+        "pistas": [
+          {
+            "trecho": "Porque flacidez, pra ela, é uma coisa que ela vê no espelho, num lugar específico, num momento específico, e não a palavra que tá na sua apostila. Porque flacidez, pra ela, é uma coisa que ela vê no espelho, num lugar específico, num momento específico.",
+            "pista": "A mesma frase aparece duas vezes seguidas, quase idêntica, a segunda mais curta. Isso é gente falando e se repetindo (ou alguém colando texto e esquecendo de apagar). Máquina não deixa esse tipo de sujeira: ela varia a frase, não fotocopia."
+          },
+          {
+            "trecho": "A pessoa está procurando uma harmonização facial e eu vou lá massagear o ego dela. Nossa senhora, que ranço de quando eu fazia isso, gente.",
+            "pista": "Confissão de um erro próprio, com vergonha e xingamento leve de si mesma. Não é o \"erro comum\" genérico que texto artificial usa pra parecer humilde; é uma lembrança específica, com raiva de si, sem moral bonitinha no fim."
+          },
+          {
+            "trecho": "Eu entendo como que resolve flacidez. Mas o que flacidez é para ela?",
+            "pista": "Frase torta, gramática de boca (\"como que resolve\"), sem sujeito claro. Aparece de novo em \"E isso vem sendo um problema... como?\", com as reticências no meio quebrando a frase. Texto de máquina sai liso e certinho; isso aqui tropeça."
+          },
+          {
+            "trecho": "Pensa que todo atendimento você é um balde vazio. Você não sabe como ela sente, você não sabe quem é ela, você não sabe nem o que que ela tá precisando",
+            "pista": "Pula de \"eu\" pra \"a gente\" pra \"você\" dentro do mesmo parágrafo, e repete \"o que que\" duas vezes. É alguém pensando enquanto fala, não alguém escolhendo pronome. Fica inconsistente do começo ao fim do capítulo e ninguém arrumou."
+          },
+          {
+            "trecho": "Se eu desse um control C, control V nessa pergunta, em qualquer conversa, ela caberia?",
+            "pista": "Analogia caseira e escrita errada de propósito (\"control C\" em vez de Ctrl+C), do mesmo jeito que sai da boca. Junto com a lista de gírias de paciente — \"bigode chinês\", \"rosto derretendo\", \"pele sem viço\", \"papada\" — soa vocabulário de quem atende de verdade, não de quem pesquisou o tema."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "bloco": "05",
+    "votos": {
+      "pessoa": 3,
+      "ia": 0,
+      "indeciso": 0
+    },
+    "maioria": "pessoa",
+    "confianca_media": 69,
+    "leitores": [
+      {
+        "bloco": "05",
+        "leitor": 1,
+        "veredito": "pessoa",
+        "confianca": 65,
+        "pistas": [
+          {
+            "trecho": "Termino a resposta dela, eu passo pra próxima pergunta, e aí fica uma conversa robótica como se eu tivesse entrevistando a pessoa, né?",
+            "pista": "Erro de conjugação/pessoa verbal: deveria ser \"Termina a resposta dela\". É um deslize de fala transcrita (ou de quem escreve rápido do jeito que fala). Texto de máquina em PT-BR praticamente não erra concordância desse tipo — ele erra por excesso de correção, nunca por falta."
+          },
+          {
+            "trecho": "A pessoa, ela não se sente ouvida.",
+            "pista": "Deslocamento à esquerda com retomada pronominal redundante (\"A pessoa, ela...\"). É marca canônica de oralidade brasileira. Máquina escreve \"A pessoa não se sente ouvida\" — ela poda o sujeito duplicado por default."
+          },
+          {
+            "trecho": "Eu chamo ele de presente inaceitável porque é o momento em que a paciente olha pro problema",
+            "pista": "\"chamo ele\" — pronome reto como objeto direto, coloquial não-padrão. Modelo treinado em PT-BR escrito produz \"chamo isso de\" ou \"o chamo de\". Aparece aqui sem ser corrigido, e sem virar tique repetido depois (a inconsistência é que convence)."
+          },
+          {
+            "trecho": "O “por que fazer agora e não esperar mais um pouco?” parece perigoso, eu sei, tá?",
+            "pista": "Empilhamento de muletas de fala ao vivo (\"eu sei, tá?\") e, em outro trecho, \"A flacidez tem dois anos, né?\" e \"Gente, ninguém cria inconformidade do nada\" — vocativo para plateia no meio do capítulo. Aparecem irregularmente: densos em algumas seções, zero em outras. Imitação de IA distribui essas marcas de forma uniforme."
+          },
+          {
+            "trecho": "Não tem nenhum indício de intolerância, entendeu? Ela não falou dor em nenhum momento, nem problema. Então, como não tem nem dor, nem problema, não tem por que a gente perguntar sobre tolerância ou sobre incômodo, sobre prioridade.",
+            "pista": "Raciocínio circular que repete a premissa em vez de avançar, e enumeração que desanda no fim (\"sobre incômodo, sobre prioridade\", sem conector, item jogado depois do ponto de fechamento). É gordura de pensamento falado. IA teria fundido isso numa frase só e teria fechado a lista com \"e\"."
+          }
+        ]
+      },
+      {
+        "bloco": "05",
+        "leitor": 2,
+        "veredito": "pessoa",
+        "confianca": 68,
+        "pistas": [
+          {
+            "trecho": "Termino a resposta dela, eu passo pra próxima pergunta, e aí fica uma conversa robótica como se eu tivesse entrevistando a pessoa, né?",
+            "pista": "Erro real, não estilizado: o verbo está na 1ª pessoa (\"Termino\") quando o sujeito é a paciente (\"termina a resposta dela\"), e o sujeito troca no meio da frase (ela -> eu). IA imitando oralidade insere marcadores (\"né\", \"tá\"), mas raramente comete um deslize de concordância/pessoa que nem o próprio texto percebe. Isso cheira a transcrição de fala mal aparada."
+          },
+          {
+            "trecho": "Não tem nenhum indício de intolerância, entendeu? Ela não falou dor em nenhum momento, nem problema. Então, como não tem nem dor, nem problema, não tem por que a gente perguntar sobre tolerância ou sobre incômodo, sobre prioridade.",
+            "pista": "Redundância circular: a frase repete o que acabou de dizer para chegar na mesma conclusão, e a enumeração final vem emendada e sem conjunção (\"sobre incômodo, sobre prioridade\"). É o desperdício típico de quem está pensando enquanto fala. Texto de IA economiza: diria a premissa uma vez e fecharia."
+          },
+          {
+            "trecho": "A pessoa, ela não se sente ouvida.",
+            "pista": "Deslocamento à esquerda com retomada pronominal, sintaxe de fala do português brasileiro. Aparece isolada, no meio de um parágrafo em que as outras frases são bem construídas, sem nenhuma função retórica que justifique a quebra. IA tende a usar esse recurso de forma decorativa e regular, não em surto isolado."
+          },
+          {
+            "trecho": "A flacidez tem dois anos, né?",
+            "pista": "Vazamento de contexto externo: a palavra \"flacidez\" não existe no diálogo citado logo acima (ela falou de \"perto do queixo\" e \"uns dois anos\"). O autor nomeia o quadro como se todo mundo já soubesse, coisa de quem está falando ao vivo pra uma turma que já viu o caso. IA que só tem o próprio capítulo tende a manter a coerência interna e usar o termo que ela mesma plantou."
+          },
+          {
+            "trecho": "Eu chamo ele de presente inaceitável porque é o momento em que a paciente olha pro problema que ela já tinha e decide que continuar assim não dá mais.",
+            "pista": "\"Chamo ele\" (pronome reto como objeto) convivendo, no mesmo capítulo, com construções corretas e até formais (\"Qualquer coisa que eu falar não vai fazer sentido para ela\"). Essa mistura instável de registro no mesmo texto é marca de fala transcrita e depois editada por partes; IA costuma escolher um nível de coloquialismo e mantê-lo estável do começo ao fim."
+          }
+        ]
+      },
+      {
+        "bloco": "05",
+        "leitor": 3,
+        "veredito": "pessoa",
+        "confianca": 74,
+        "pistas": [
+          {
+            "trecho": "Termino a resposta dela, eu passo pra próxima pergunta, e aí fica uma conversa robótica como se eu tivesse entrevistando a pessoa, né?",
+            "pista": "Erro de conjugação no meio da frase: o certo seria \"termina a resposta dela\". Quem escreve isso é alguém falando rápido e sendo transcrito. Máquina não tropeça assim, ela conjuga certo mesmo quando erra o resto."
+          },
+          {
+            "trecho": "Não tem nenhum indício de intolerância, entendeu? Ela não falou dor em nenhum momento, nem problema.",
+            "pista": "Salto de assunto no meio do parágrafo. Até aqui a paciente do exemplo tinha falado do casamento da irmã, aí de repente vira outra paciente que não falou nada. É o autor pulando pra outro caso na cabeça dele e esquecendo de avisar o leitor. Texto de IA mantém o exemplo coerente do começo ao fim."
+          },
+          {
+            "trecho": "A pessoa, ela não se sente ouvida.",
+            "pista": "Sujeito repetido em duas partes, do jeito que a gente fala e nunca escreve. Um revisor cortaria, uma IA nem produziria."
+          },
+          {
+            "trecho": "como não tem nem dor, nem problema, não tem por que a gente perguntar sobre tolerância ou sobre incômodo, sobre prioridade",
+            "pista": "Enumeração torta: repete \"sobre\" duas vezes, larga a terceira solta e não fecha com \"e\". IA faz lista simétrica, com ritmo de três e conectivo no fim. Aqui a lista sai desengonçada, como quem vai lembrando enquanto fala."
+          },
+          {
+            "trecho": "Gente, ninguém cria inconformidade do nada.",
+            "pista": "Os vícios de fala (\"gente\", \"né?\", \"entendeu?\", \"eu sei, tá?\") aparecem empilhados em alguns trechos e somem completamente em outros, como na abertura e na parte das perguntas. Quando é IA imitando oralidade, esses tiques vêm distribuídos por igual, um por parágrafo, como tempero medido. Aqui está irregular do jeito que fala humana é."
+          }
+        ]
+      }
+    ]
+  }
+]

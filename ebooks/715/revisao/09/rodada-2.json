@@ -1,0 +1,159 @@
+{
+ "capitulo": "/Users/saviomoraes/reconecta/ebooks/715/manuscrito/09-passo-7-fechamento.md",
+ "rodada": 2,
+ "brutos": 17,
+ "confirmados_n": 6,
+ "altas_confirmadas": 1,
+ "por_revisor": {
+  "fidelidade": {
+   "brutos": 2,
+   "confirmados": 1
+  },
+  "leitora": {
+   "brutos": 7,
+   "confirmados": 1
+  },
+  "voz": {
+   "brutos": 8,
+   "confirmados": 4
+  }
+ },
+ "confirmados": [
+  {
+   "revisor": "fidelidade",
+   "tipo": "fidelidade",
+   "gravidade": "media",
+   "trecho": "E se ela disser que faz o PIX à noite, ou que paga na hora da consulta? Você diz a mesma coisa, sem mudar o tom: que o horário fica reservado assim que o comprovante chegar, e que até lá ele continua aberto na agenda. Não é cobrança. É a regra, dita uma vez.",
+   "detalhe": "Política inventada. Nenhuma das duas fontes declaradas no cabeçalho do capítulo estabelece que o horário fica aberto na agenda até o comprovante chegar, nem dá resposta para a paciente que diz que paga depois. O framework (Etapa 7, p.9) só diz: 'Passo 3: Solicite o comprovante imediatamente' e traz uma única frase, 'Consegue me enviar o comprovante agora para já confirmarmos seu horário na agenda?'. O manual de perguntas (7. Fechamento, p.3) traz a variante 'Consegue me enviar o comprovante agora para já garantir o seu horário?'. Nenhuma das duas cria regra de reserva condicionada, e tratamento de objeção não é assunto deste capítulo (mapa manda isso pros capítulos 10 e 11).",
+   "correcao": "E se ela disser que faz o PIX à noite? A mesma frase, sem mudar o tom, e você não acrescenta nada. O que confirma o horário já está dito dentro dela. Pede uma vez e segue. Se ela empurrar o pagamento pra depois disso, aí já não é fechamento, é objeção, e objeção tem lugar próprio mais pra frente. (Motivo de eu não usar a correção proposta: ela recita a frase do script inteira em prosa três linhas abaixo do bloco :::frase que já traz a mesma frase, o que cria eco desnecessário na página.)",
+   "motivos": [
+    "Tentei salvar pela leitura de que \"para já confirmarmos seu horário na agenda\" já implica que o horário só se confirma com o comprovante, e essa metade sobrevive (é o que o parágrafo anterior, linha 69, diz). O que não sobrevive é \"até lá ele continua aberto na agenda\": isso é política operacional de clínica que nenhuma das duas fontes do cabeçalho estabelece, e o único lugar do corpus que chega perto (manual de objeções, \"Para não perder seu horário... outros pacientes pagam o valor da consulta\") está na fonte dos capítulos 10-11 e prescreve pergunta, não regra. A atendente lê e vai dizer literalmente na conversa que o horário da paciente não está guardado — dano real, e ainda invade o território de objeção que o próprio capítulo adia (linha 77)."
+   ]
+  },
+  {
+   "revisor": "leitora",
+   "tipo": "leitora",
+   "gravidade": "media",
+   "trecho": "E se ela só disser que quinta não dá, sem propor nada?",
+   "detalhe": "Da linha do 'um horario so' ate a pergunta do pre-compromisso sao tres situaçoes diferentes emendadas em prosa corrida: ela aceita, ela recusa sem propor, ela recusa e propoe. Lendo no celular eu li a segunda achando que era so um reforço da primeira, e quando cheguei no card do 'se eu conseguir um horario' eu ja nao sabia qual dos casos aquela frase atendia. Precisei subir e reler.",
+   "correcao": "Tirar a antecipação do parágrafo de cima e deixar os galhos em ordem. Fica: \"Um horário só. E o bastão continua com você: você ofereceu, ela reagiu.\" O parágrafo do \"quinta não dá\" segue igual. E o de baixo abre com a frase que hoje está lá em cima: \"E quando ela mesma fala quando pode, antes de você sair procurando esse horário, tem uma pergunta:\"",
+   "motivos": [
+    "Os rótulos que ela pede já existem (\"E se ela só disser que quinta não dá, sem propor nada?\" e \"E quando ela diz quando pode\"), então a correção proposta não muda nada. Mas a confusão que ela descreve tem causa real e localizável no arquivo: o parágrafo do \"um horário só\" antecipa o galho \"ela mesma fala quando pode\" dois parágrafos antes de ele ser tratado, com o outro galho no meio, e é por isso que o card do pré-compromisso parece órfão quando ela chega nele."
+   ]
+  },
+  {
+   "revisor": "voz",
+   "tipo": "voz",
+   "gravidade": "alta",
+   "trecho": "E é pra lá que se volta. Eu falo disso no capítulo 10.",
+   "detalhe": "\"se volta\" é sujeito indeterminado, registro de manual. Nas 1.816 palavras do corpus não existe uma única construção com \"se\" impessoal. Quando ela prescreve, o sujeito é \"a gente\" (12 ocorrências, 3 de 3, item 17 da whitelist: \"a gente\" inclusivo na prescrição convivendo com \"você\" direto no fecho) ou \"você\". A dose recomendada de \"a gente\" é 8 a 14 por capítulo; este tem 2.",
+   "correcao": "\"E é pra lá que a gente volta. Eu falo disso no capítulo 10.\"",
+   "motivos": [
+    "Confirmei: nas 1.816 palavras do corpus só há \"se\" reflexivo com sujeito claro (\"a doutora se capacita\", \"um animal se dirige\", \"quem é ilibado, que não se compara\"), nenhum \"se\" impessoal, e o capítulo tem só 2 \"a gente\" em 947 palavras (o item 17 pede \"a gente\" justamente na prescrição). Numa frase que manda a leitora voltar ao passo quatro, o sujeito indeterminado troca o registro de conversa pelo de manual bem no ponto de prescrição. A correção é exata, não usa travessão e devolve o pronome dela.",
+    "Tentei refutar e nao consegui: rodei a busca nas tres amostras e o unico 'se + verbo' e 'questionar se pode acontecer' (A2), que e conjuncao, nao impessoal — entao o corpus realmente nao tem essa construcao, e nenhum item da whitelist protege sujeito indeterminado (o item 17 empurra pro contrario). No paragrafo, a frase fica encaixada entre 'ela hesita' e 'Eu falo disso no capitulo 10', com 22 'voce' no capitulo inteiro, entao o sujeito sumir bem ali soa a norma de manual e a leitora sente a queda de temperatura mesmo sem saber nomear. A correcao proposta passa: mantem o 'E' inicial, mantem a pancada curta, usa 'a gente' prescritivo da whitelist e nao tem travessao — so registro que a parte do 'dose 8 a 14' esta inflada (a regua e por capitulo de 2.000 palavras e este tem 947), mas isso e argumento de apoio, nao o achado."
+   ]
+  },
+  {
+   "revisor": "voz",
+   "tipo": "voz",
+   "gravidade": "media",
+   "trecho": "Suficiente tem medida, e ela veio do passo quatro: se ela ainda não disse, com as palavras dela, o que espera que mude com a consulta, é cedo pra horário.",
+   "detalhe": "Aforismo de ensaísta (\"Suficiente tem medida\") mais 30 palavras encadeadas com dois pontos e um inciso subordinado no meio. Ela cunha termo e define nas frases seguintes, em frases curtas e sem dois pontos (item 22 da whitelist; A3: \"Eu chamava de procrastinação ativa. Eu não estava sentada sem fazer nada. Eu estava fazendo o que não precisava ser feito.\"). Longas acima de 25 palavras são 12% das frases dela e são sempre narração encadeada com \"e aí\" ou lista de atributos em linha, nunca definição abstrata. O ritmo dela aqui pede quebra, não subordinação.",
+   "correcao": "\"E suficiente tem medida. A medida veio do passo quatro. Se ela ainda não disse, com as palavras dela, o que espera que mude com a consulta, é cedo pra falar de horário.\"",
+   "motivos": [
+    "A frase existe como citada, tem 30 palavras e é a única definição abstrata subordinada do capítulo (as outras longas são narração ou encadeamento). O prejuízo real é maior do que o revisor diz: num capítulo em que \"ela\" é a paciente em quase toda frase, \"e ela veio do passo quatro\" faz a leitora ler \"ela\" como a paciente antes de reencontrar \"medida\". A quebra proposta mata a ambiguidade, repete \"medida\" sem sinônimo (item 9) e define o termo cunhado nas frases seguintes, que é o item 22."
+   ]
+  },
+  {
+   "revisor": "voz",
+   "tipo": "voz",
+   "gravidade": "media",
+   "trecho": "Agora, a sua última conversa que travou no horário: você ofereceu um horário ou perguntou qual ela preferia?",
+   "detalhe": "O \"Agora,\" de virada está certo (item 23). O resto não. Item 3 da whitelist: perguntas diretas à leitora em série, com \"você\", no fecho, 2 de 3 amostras (A2 fecha com quatro seguidas, A3 com duas), e a dose por capítulo é 2 a 4. Aqui é uma só. Além disso \"a sua última conversa que travou no horário:\" é sintagma nominal preso por dois pontos, sintaxe de legenda. Nas amostras a virada com \"Agora,\" sempre desemboca em oração com verbo: \"Agora, e o que você fala pra você mesma?\", \"Agora, se está funcionando desse jeito na sua clínica...\".",
+   "correcao": "\"Agora, na sua última conversa que travou no horário, você ofereceu um horário ou perguntou qual ela preferia? E o comprovante, você chegou a pedir na hora?\"",
+   "motivos": [
+    "Confirmado contra o próprio livro: 10 dos 11 blocos :::pergunta têm DUAS perguntas e nenhum usa sintagma nominal preso por dois pontos — os dois que abrem com \"Agora,\" (caps. 01 e 04) emendam oração com verbo, igual às amostras. Aqui é uma pergunta só, abaixo da dose de 2 a 4 no fecho, e o \"Agora, a sua última conversa...:\" fica com cara de legenda. A correção proposta serve; ofereço uma variante que mantém o bloco 100% em perguntas, como nos outros onze."
+   ]
+  },
+  {
+   "revisor": "voz",
+   "tipo": "voz",
+   "gravidade": "media",
+   "trecho": "O erro é perguntar antes de oferecer. Depois de oferecer, pode perguntar, porque aí ela já viu que a agenda anda.",
+   "detalhe": "Não há um único \"mas\" no capítulo inteiro, em 947 palavras. No corpus são 11 \"mas\" em 1.816 palavras, com 4 abrindo frase, e o item 5 da whitelist manda manter (dose por capítulo: 3 a 5 frases com \"Mas\"). Este trecho é exatamente uma virada adversativa escrita sem a adversativa: a segunda frase contradiz a primeira e entra seca. Ela emenda essa virada com \"Mas\" (A2: \"Mas eu acho que mais importante do que não sair do trilho... é saber quando voltar\").",
+   "correcao": "\"O erro é perguntar antes de oferecer. Mas depois de oferecer, pode perguntar, porque aí ela já viu que a agenda anda.\"",
+   "motivos": [
+    "Verifiquei: zero \"mas\" em 947 palavras, contra 11 no corpus e dose de 3 a 5 frases com \"Mas\" por capítulo (item 5, hábito 3 de 3). O par de frases é literalmente uma virada adversativa entregue sem a adversativa, que é onde ela emenda \"Mas\" na A2. A correção é de uma palavra, no lugar certo, sem travessão e sem efeito colateral."
+   ]
+  }
+ ],
+ "refutados": [
+  {
+   "revisor": "fidelidade",
+   "trecho": "E se ela só disser que quinta não dá, sem propor nada? Você oferece o seguinte, do mesmo jeito: o próximo horário livre, e o mesmo \"como fica para você?\".",
+   "detalhe": "Prescrição que a fonte não dá. O framework (Etapa 7, p.8) diz apenas: 'Se não funcionar, o lead naturalmente vai dizer quando pode, e você pode verificar a disponibilidade para aquele momento específico.' Não existe na fonte a instrução de oferecer um segundo horário quando ela recusa o primeiro sem propor nada. O capítulo inventa um degrau do procedimento.",
+   "motivo": "Não é degrau novo: é o Passo 1 aplicado de novo, e a fonte fecha a única alternativa ao proibir expressamente \"perguntar a disponibilidade da paciente antes de oferecer um primeiro horário\" — o próprio texto diz isso na frase seguinte (\"O erro é perguntar antes de oferecer\"). A fonte cobre o caso em que ela diz quando pode; o capítulo só tapa o buraco em que ela não diz nada, sem contradizer nem acrescentar procedimento estranho. Além disso a correção proposta repete o que a linha 43 já disse (\"ela mesma fala quando pode, e aí você olha a agenda pra aquele dia\") e ainda inventa uma advertência própria (\"segura a vontade de despejar a agenda inteira\") que também não está na fonte."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "E se ela disser que faz o PIX à noite, ou que paga na hora da consulta? Você diz a mesma coisa, sem mudar o tom: que o horário fica reservado assim que o comprovante chegar, e que até lá ele continua aberto na agenda.",
+   "detalhe": "Esse é o momento em que eu de fato travo, e é o unico do capitulo que nao tem card de frase pronta. Horario tem frase, PIX tem frase, comprovante tem frase, pre-compromisso tem frase. Justamente dizer nao pra uma paciente educada que acabou de aceitar pagar, que e a hora em que eu tenho medo de soar cobradora, veio em fala indireta. Eu leio 'sem mudar o tom' e penso: qual tom? Com que palavras? Se eu escrever isso do meu jeito as 21h, sai ou grosseiro ou tao macio que ela entende que pode pagar depois.",
+   "motivo": "Os quatro cards :::frase do capítulo são texto literal das fontes (framework p.8-9 e manual de perguntas p.3), e resposta pro \"faço à noite / pago na consulta\" não existe em fonte nenhuma; por isso ficou em prosa, que é a convenção do livro, não esquecimento. A prosa já entrega as palavras quase coláveis (\"o horário fica reservado assim que o comprovante chegar, e até lá ele continua aberto na agenda. Não é cobrança\"). Card ali só depois que a Ana gravar essa frase, porque inventar uma quebraria a regra de fidelidade do mapa, e a nota meta proposta (\"essa é a versão da autora\") não é convenção de nenhum capítulo."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "E é pra lá que se volta. Eu falo disso no capítulo 10.",
+   "detalhe": "Duas coisas me perderam. Primeira: voltar pra onde? O paragrafo fala do passo quatro, mas o ponteiro manda pro capitulo 10, que pelo mapa e sobre objecao, nao sobre o passo quatro. Fiquei sem saber se o capitulo 10 me ensina a voltar ou outra coisa. Segunda, e mais grave: eu ja ofereci quinta as 15h e ela hesitou. Como eu volto pro passo quatro depois disso? Nao da pra perguntar do nada o que ela espera que mude, a conversa ja passou desse ponto. Falta exatamente o exemplo de como se faz essa volta sem soar que eu reiniciei o atendimento.",
+   "motivo": "\"Pra lá\" está nomeado na oração anterior (passo quatro), e o capítulo 10 cumpre a promessa explicitamente: \"E é aqui que entra o voltar que eu prometi no capítulo 9. Voltar não é inventar resposta nova pra objeção. É refazer a pergunta do passo que ficou raso\", e dá a pergunta do passo quatro literal (\"Como entendeu que a consulta com a doutora vai te ajudar a resolver [problema]?\"). O ponteiro está correto e a volta está ensinada uma página adiante, com as palavras exatas."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "A leitura positiva é: estou tomando a melhor decisão. E acontece quando, ao longo da conversa, ficou claro qual era o problema, como ele mexe com ela e por que é agora e não depois.",
+   "detalhe": "Foi aqui que eu comecei a rolar a tela sem ler. Essa seçao inteira e a mesma frase repetida: a negativa e a positiva dizem a mesma coisa, uma virada do avesso, e a conclusao ('o fechamento nao gera essa leitura, ele colhe') e a terceira vez no capitulo que eu ouço isso, depois de 'ele so organiza' e de 'algum passo anterior ficou raso'. Alem disso a leitura negativa e um pensamento dela: eu nunca vou ver 'vou ter que me organizar pra ir na consulta' escrito na tela. A seçao me diz uma coisa que eu ja tinha entendido e nao me da nada pra reparar segunda de manha.",
+   "motivo": "O par negativa/positiva é a anatomia fixa dos capítulos 3 a 9 no mapa e vem literal da fonte (\"Percepção do paciente: Negativa / Positiva / Acontece quando\"), além de ser o espelhamento dos dois lados que a whitelist manda manter (item 8, somado ao contraste do item 1). A queixa de \"nunca vou ver isso escrito na tela\" erra o alvo: a seção é sobre a cabeça dela, não sobre a mensagem dela. Sobra só o eco de \"ele colhe\" com \"ele só organiza\", que são duas vezes e não três, na forma \"não X, Y\" com pancada curta que é assinatura dela."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "E manda a chave PIX numa mensagem separada, porque aí ela só copia e cola. Chave no meio do texto ela deixa pra pagar quando chegar em casa.",
+   "detalhe": "Concordo com tudo e mesmo assim o que mais acontece comigo nao esta aqui: mandei a chave, ela leu, nao respondeu nada. Nao e recusa, e sumiço. O capitulo cobre 'faço a noite' e 'pago na consulta', que sao as saidas em que ela ao menos responde, e nao diz uma linha sobre o silencio depois do PIX. Fechei o capitulo com essa pergunta na cabeça.",
+   "motivo": "O buraco existe no livro, mas não no trecho: o parágrafo está certo no que se propõe, e objeção e retorno são território declarado dos capítulos 10 e 11. Não há pra onde apontar (as famílias do 11 são preço, consulta paga, falta de compromisso, informação técnica, resistência e foto, nenhuma sobre sumiço depois do PIX) e não há linha nenhuma nas três fontes sobre prazo de espera, então escrever \"espera X horas e manda isso\" seria inventar frase pronta, que o mapa proíbe. Caminho certo é perguntar pra Ana e entrar no 11, não remendar o 9."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "Sabe onde o preço apareceu nessa cena? Na segunda mensagem. Depois do horário.",
+   "detalhe": "Essa abertura e ótima e ao mesmo tempo abre um buraco: na minha clinica a paciente pergunta o preço na primeira mensagem dela, antes de qualquer passo. O capitulo comemora que o preço so apareceu no fim sem dizer nada sobre a paciente que puxa o preço pra frente, e a cena montada e a versao em que ela nao pergunta. Fiquei com a sensaçao de que o script funciona com a paciente educada do exemplo.",
+   "motivo": "O livro trata a paciente que puxa o preço pra frente antes, e à exaustão: o capítulo 3 abre com a cena \"Oi, boa tarde! Quanto custa o preenchimento labial?\", o capítulo 2 tem duas cenas de \"Quanto custa a consulta?\", o 10 tem a seção do \"quanto custa a consulta?\" e o 11 tem a família Preço inteira. O capítulo 9 é o passo sete e já diz na primeira linha de prosa \"Depois de seis passos\", ou seja, a cena é o fim daquele arco, não uma paciente escolhida a dedo."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "Depois de oferecer, pode perguntar, porque aí ela já viu que a agenda anda.",
+   "detalhe": "Eu ja tinha entendido no paragrafo anterior, quando ela disse que o bastao continua com quem oferece. A explicaçao a mais so me atrasou. E 'a agenda anda' eu li duas vezes pra sacar que era sobre a agenda estar movimentada.",
+   "motivo": "Não é repetição: o parágrafo anterior justifica pelo bastão (\"você ofereceu, ela reagiu\") e este justifica por outra coisa, que ela viu a agenda se mexendo. Além disso o \"porque\" é o conector número um dela (dose de 12 a 18 por capítulo no fingerprint) e \"a agenda anda\" é a imagem concreta e coloquial que é assinatura dela, do mesmo naipe de \"sair do trilho\" e \"chegar lá\". A troca por \"a agenda tem movimento\" é exatamente o achatamento de registro que a whitelist manda não fazer."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Esse é o passo sete. Pelo que eu observo, é o passo em que mais atendente erra por educação: pergunta quando a paciente pode, em vez de oferecer um horário.",
+   "detalhe": "A primeira pessoa praticamente sumiu do capítulo. Em 947 palavras há 4 ocorrências de \"eu\", e duas delas estão dentro do script (\"Quinta às 15 eu consigo\", \"Se eu conseguir um horário\"). Na voz da autora sobram \"Pelo que eu observo\" e \"Eu falo disso no capítulo 10\". O fingerprint mede \"eu\" em 46 por mil na fala e recomenda 40 a 60 por capítulo de 2.000 palavras (seção 6). O capítulo 01 tem 37 \"eu\" em 976 palavras; este tem 4 em 947. Junto disso, o item 7 da whitelist (\"Caso pessoal em primeira pessoa como abertura, com aviso de que vai contar: 3 de 3 no aviso\") foi apagado: o capítulo abre com uma cena de script, não com caso dela, e não tem nenhum \"vou contar\", \"já dou spoiler, tá?\", nenhum caso próprio em lugar nenhum. Ainda na mesma frase, \"é o passo em que mais atendente erra\" é sintaxe de manchete, sem artigo; ela usa \"a doutora\", \"a paciente\", \"uma delas\", sempre com artigo.",
+   "motivo": "A contagem é verdadeira (4 \"eu\", sendo 2 na prosa da autora, mais \"o meu sinal preferido\", que o revisor não contou), mas ela é uniforme em TODOS os capítulos de passo (03=7, 04=6, 05=9, 06=10, 07=3, 08=4, 09=4) porque o mapa-de-capitulos.md fixa o esqueleto dos caps. 3 a 9 abrindo em cena de WhatsApp, e a regra de fidelidade proíbe caso que não esteja nas fontes — o próprio revisor admite que o caso não existe e deixa a acusação sem correção executável. A sintaxe \"mais atendente erra\" tem análogo literal no corpus (A2: \"tem muita gente, tem muito profissional também\"), e a correção proposta apaga \"Pelo que eu observo\", que é traço transversal 3 de 3 da seção 4 e frase literal da A1, trocando assinatura por paráfrase."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "E quem pergunta quando a paciente pode entrega o bastão de volta pra ela olhar a agenda, olhar a semana, e voltar depois. Ou não voltar.",
+   "detalhe": "\"entrega o bastão de volta\" é metáfora de revezamento, vocabulário de treinamento de vendas. Não existe em nenhuma das três amostras, e o capítulo ainda repete a mesma imagem emprestada logo adiante (\"E o bastão continua com você: você ofereceu, ela reagiu.\"). As imagens dela são físicas e do mundo dela: \"salinha do financeiro\", \"vão arrancar o couro aqui de mim\", \"eu sabia que ia levar facada\", \"tal qual um animal se dirige para o abatedouro\", \"aquela famigerada tela azul\", \"o danado\". O capítulo inteiro não tem nenhum item do vocabulário com sabor (dose recomendada: 1 a 2 por capítulo, seção 6). A escada \"olhar a agenda, olhar a semana, e voltar depois. Ou não voltar.\" está certa e deve ficar.",
+   "motivo": "\"Bastão\" não é vocabulário importado de treinamento de vendas: está na fonte da casa (fontes/03-manual-perguntas.md: \"Quem faz as perguntas conduz a conversa (mantenha o bastão)\") e já foi cunhado no capítulo 02, princípio 6 (\"Fica com o bastão\"). Logo, a reaparição no capítulo 09, duas vezes, é termo do livro sendo repetido sem sinônimo, que é o item 9 da whitelist, e não imagem emprestada. Trocar por \"agenda pra mão dela\" e \"condução\" quebraria o termo já ensinado à leitora e ainda repetiria \"agenda\" em duas frases seguidas."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "E acontece quando, ao longo da conversa, ficou claro qual era o problema, como ele mexe com ela e por que é agora e não depois.",
+   "detalhe": "O inciso \"ao longo da conversa\" entra entre a conjunção \"quando\" e o verbo \"ficou\". É pontuação de texto redigido e revisado; a fala dela nunca separa conjunção de verbo assim. Quando ela intercala, o inciso vem depois do verbo (\"Faço isso todo santo dia, na verdade muito mais do que eu gostaria de fazer\") ou vira frase nova. O parágrafo já traz outra frase de 32 palavras com o mesmo inciso duas linhas antes (\"e quando a gente não mostrou, ao longo da conversa, o que a consulta resolve\"), o que dobra a marca de prosa equalizada.",
+   "motivo": "O \"ao longo da conversa\" aparece nos dois parágrafos porque a seção \"Como ela lê você\" é montada como espelho da leitura negativa e da positiva, com a mesma sintaxe dos dois lados: é o item 8 da whitelist, não prosa equalizada. E o capítulo é mais espinhoso que a fala dela, não mais liso (mediana 10 contra 13; 18% de curtas contra 11%), então a premissa da acusação não se sustenta. A correção ainda mantém um inciso, só o desloca, e de quebra desmonta o espelho ao trocar \"ao longo da conversa\" por \"na conversa\"."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Essa lista, ponto importante, é o script inteiro.",
+   "detalhe": "\"ponto importante\" é dela e está bem posto (T2: \"porque até então, ponto importante, eu não sabia quanto ia custar\"). O problema é \"Essa lista\": não há lista nenhuma no parágrafo, é prosa corrida, e o fingerprint registra que nas três amostras toda enumeração é em prosa e ela nunca a chama de lista nem numera (seção 6, parágrafo e listas). Ela aponta com dêitico curto: \"isso\", \"aquilo\", \"esse negócio\".",
+   "motivo": "A premissa (1) é falsa: o parágrafo tem sim uma enumeração, em prosa, com quatro itens (qual era o problema, como ele mexe com ela, por que é agora e não depois, e a consulta como resposta), e \"Essa lista\" tem referente. O que o fingerprint registra é o FORMATO da enumeração dela (sempre em prosa, sem bullet e sem numerar), não proibição de nomear a enumeração; a pontuação e o vocabulário de escrita dela são lacuna declarada, não veto. Uma leitora não tropeça nisso."
+  }
+ ],
+ "cego": null
+}

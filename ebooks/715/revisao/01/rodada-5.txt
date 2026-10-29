@@ -1,0 +1,31 @@
+01-a-salinha-do-financeiro.md · rodada 5 · brutos 23 · confirmados 6 · altas 2 · cego None None
+
+[1] tell/media
+  TRECHO: No consultório, o preço veio de uma pessoa que não tinha ouvido nada do meu problema. No WhatsApp, o preço vem de uma pessoa que não perguntou nada, antes mesmo de ela pisar na clínica.
+  DETALHE: A doutora que está lendo vai travar aqui, porque na cabeça dela os dois casos são opostos: na salinha o preço demorou demais, no WhatsApp o preço sai rápido demais, quase sempre na primeira mensagem. O texto afirma que é
+  CORRECAO: Nomear a inversão antes de fechar a igualdade: 'Lá, o preço veio tarde demais, de uma pessoa que não tinha ouvido nada do meu problema. No WhatsApp, ele vem cedo demais, de uma pessoa que não perguntou nada, antes mesmo de ela pisar na clínica. Parece o contrário. É a mesma coisa: nos dois a paciente recebe um número de quem não fez o diagnóstico.'
+
+[2] fidelidade/alta
+  TRECHO: Você vai me dizer, mas eu não quero falar de dinheiro dentro da sala. E beleza, pode ser que o pagamento mesmo fique do lado de fora, até pela experiência da paciente. Salinha do pagamento é isso: ela sai da consulta sabendo quanto custa e já decidida, e vai l
+  DETALHE: A definição das duas salinhas não existe em nenhuma fonte. A fala da Ana só faz a pergunta na primeira linha ("Na sua clínica, você tem a salinha do fechamento ou a salinha do pagamento.") e nunca define os termos. Pior:
+  CORRECAO: Aceito a correção proposta; só evito repetir a imagem "quase uma cerimônia" duas vezes em três parágrafos. Fica: "Você vai me dizer, mas eu não quero falar de dinheiro dentro da sala. E beleza, pode ser que o fechamento mesmo fique do lado de fora da sala, até pela experiência da paciente. O que me pegou não foi o lado de fora. Foi eu sair da sala sem saber o preço e ir decidir com uma pessoa que não tinha ouvido nada do meu problema. E aqui eu não tô falando que existe um certo ou errado. Tô contando o que aconteceu comigo." O bloco :::grafico duas::: (linhas 48-52) sai, porque as duas definições não existem em fonte nenhuma; se elas forem ficar, precisam vir de uma fala confirmada da Ana.
+
+[3] leitora/media
+  TRECHO: Salinha do pagamento | Salinha do fechamento ⏎ Ela sai da consulta sabendo quanto custa. | Ela sai da consulta sem saber o preço.
+  DETALHE: Esse quadro repete, quase palavra por palavra, o parágrafo que está logo acima dele. Eu tinha acabado de entender, e o livro me explica de novo em duas colunas. Dá a sensação de que a autora acha que eu não peguei. Num l
+  CORRECAO: Casar com a correção do achado 0: a definição sobe pra abertura, o parágrafo da linha 46 fica só com "Você vai me dizer, mas eu não quero falar de dinheiro dentro da sala. E beleza, pode ser que o pagamento mesmo fique do lado de fora, até pela experiência da paciente. A que eu conheci foi a segunda." e o quadro de duas colunas permanece como âncora visual do capítulo, agora longe da definição e sem repetir a prosa vizinha.
+
+[4] leitora/baixa
+  TRECHO: A consulta | A doutora entende o problema. A gente chega junto num plano de tratamento. ⏎ A recepção | Uns dez minutinhos de espera. A cabeça vai embora.
+  DETALHE: Esse quadro vem logo depois dos três parágrafos que contam exatamente isso, inclusive com as mesmas palavras ("a gente chega junto num plano de tratamento", "uns dez minutinhos"). Não me dá nada novo, só me faz reler o q
+  CORRECAO: Manter o quadro no lugar, mas trocar o conteúdo pelo que a prosa não diz, que é a temperatura dela em cada etapa: "A consulta | Eu já tinha decidido, lá dentro." / "A recepção | Dez minutinhos sozinha, começando a fazer conta." / "A salinha do financeiro | Eu já ia só ouvir o número." E tirar "quase uma cerimônia" do quadro, deixando a imagem estrear onde ela foi escrita, na linha 44.
+
+[5] voz/alta
+  TRECHO: Salinha do pagamento é isso: ela sai da consulta sabendo quanto custa e já decidida, e vai lá só passar o cartão. Salinha do fechamento é quando ela sai sem saber o preço e vai decidir com uma pessoa que não ouviu nada do problema dela. A que eu conheci foi a 
+  DETALHE: Três coisas fora dela num parágrafo só. Primeira: "é isso:" com dois pontos é definição de glossário; ela cunha e define colado, dentro da frase, sem pontuação de manual (Ritmo, "Cunha o termo e define nas frases seguint
+  CORRECAO: Salinha do pagamento é quando ela sai da consulta sabendo quanto custa e já decidida, e vai lá só passar o cartão. Salinha do fechamento é quando ela sai sem saber o preço e vai decidir com uma pessoa que não ouviu nada do problema dela. A que eu conheci foi a do fechamento.
+
+[6] voz/media
+  TRECHO: Porque a paciente que sai da salinha do financeiro e vai pra casa pensar é a mesma que pergunta o preço no WhatsApp e some.
+  DETALHE: O título da seção cunha um terceiro termo, "A salinha do WhatsApp", e o termo nunca mais aparece na prosa nem é definido. Whitelist 22 e Ritmo (2 de 3): ela cunha o termo e define nas frases seguintes, colado, sem parênt
+  CORRECAO: Inserir logo depois de "...pergunta o preço no WhatsApp e some.", na linha 66, mantendo o resto do parágrafo intacto: «Essa é a salinha do WhatsApp. Não tem porta, não tem cadeira, não tem área de espera. Só tem o número chegando na tela.» (anáfora em escada de três degraus, whitelist 2; pancada curta depois da escada, whitelist 6; repete "salinha" sem sinônimo, whitelist 9; ecoa a "área de espera" da linha 16; sem travessão, sem dois-pontos e sem colidir com os "dez minutinhos" que fecham o parágrafo)

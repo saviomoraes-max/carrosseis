@@ -1,0 +1,185 @@
+{
+ "capitulo": "/Users/saviomoraes/reconecta/ebooks/715/manuscrito/C-paciente-modelo.md",
+ "rodada": 2,
+ "brutos": 15,
+ "confirmados_n": 9,
+ "altas_confirmadas": 3,
+ "por_revisor": {
+  "tell": {
+   "brutos": 5,
+   "confirmados": 4
+  },
+  "leitora": {
+   "brutos": 10,
+   "confirmados": 5
+  }
+ },
+ "confirmados": [
+  {
+   "revisor": "tell",
+   "tipo": "tell",
+   "gravidade": "media",
+   "trecho": "Acontece. E acontece porque essa pessoa não está procurando uma consulta. Está procurando uma vaga, e vaga é coisa que fecha, então o atendimento vira um processo seletivo.",
+   "detalhe": "Contraste fácil na forma partida em duas frases (catálogo 1.1: \"Isso não significa X. Significa Y.\"). A metade negativa é invenção do texto: a fonte não nega consulta nenhuma, ela repete o positivo (\"são pessoas que estão procurando por uma oportunidade. Literalmente por uma oportunidade. Por uma oportunidade que é escassa, que talvez não aconteça novamente\"). Repetir o miolo sem verbo e sem conector é hábito dela (fingerprint seção 3, dose 1 a 2 por capítulo); negar antes de afirmar não é. Segundo contraste do cluster.",
+   "correcao": "Acontece. E acontece porque essa pessoa está procurando uma oportunidade. Literalmente uma oportunidade, uma oportunidade escassa, que talvez não aconteça de novo. Então a gente precisa tratar esse atendimento mais do que nunca como um processo seletivo, um processo de seleção mesmo.",
+   "motivos": [
+    "Confirmado na fonte: ela nunca nega consulta ali, repete o positivo três vezes (\"por uma oportunidade. Literalmente por uma oportunidade. Por uma oportunidade que é escassa, que talvez não aconteça novamente\") e o sujeito é \"a gente precisa tratar esse atendimento\". A metade negativa foi acrescentada, a v3 revoga o item 1 da whitelist v2 (dose caiu de 3-5 para no máximo 1) e esta é a única das três antíteses do anexo sem fonte. A correção proposta falha no critério 4: abre com \"Aí\", que o fingerprint (§2) marca como registro errado fora do modo narrativo, e mantém o impessoal \"o atendimento vira\" justamente onde a fonte diz \"a gente precisa tratar\"."
+   ]
+  },
+  {
+   "revisor": "tell",
+   "tipo": "voz",
+   "gravidade": "media",
+   "trecho": "Quem veio pelo quiz, que é o formulário de perguntas que ela responde antes de cair no seu WhatsApp, chega um pouco mais consciente, porque leu muita coisa no caminho. Quem veio direto pra mensagem precisa dessa conscientização aqui, na conversa.",
+   "detalhe": "Espelhamento sintático dos dois lados: duas frases gêmeas, mesma abertura (\"Quem veio...\"), mesmo comprimento, uma pra cada metade. O fingerprint v3 é categórico: espelhamento dos dois lados é zero no corpus de 80.938 palavras e a dose no livro é 0. A forma dela pra isso é curta e coloquial (\"tem gente que..., tem gente que...\"), e a virada é \"Agora, se\", que ela usa 13 vezes. A fonte também não é simétrica: \"o lead que vem do quiz... vai estar um pouquinho com o nível de consciência um pouco mais elevado\" e depois, solto, \"as pessoas estão fazendo ele por direto para a mensagem\". A simetria foi acrescentada no polimento, que é justamente o que os leitores cegos leem como máquina.",
+   "correcao": "Tem gente que veio pelo quiz, que é aquele formulário de perguntas que ela responde antes de cair no seu WhatsApp, e essa chega um pouquinho mais consciente, porque leu bastante informação no caminho. Quando ela veio direto pra mensagem, essa conscientização a gente precisa fazer aqui também, na conversa. Tudo bem?",
+   "motivos": [
+    "O detalhe erra ao dizer \"mesmo comprimento\" (29 palavras contra 11), mas o par gêmeo \"Quem veio... / Quem veio...\" existe, e a proteção da whitelist v2 (item 8, \"Manter\") foi revogada pela v3, que zera o espelhamento e manda usar a forma coloquial dela. O dano maior nem é estilo: a fonte diz \"A gente precisa fazer esse processo de conscientização aqui também nas mensagens\", e o texto virou \"Quem veio direto pra mensagem precisa dessa conscientização\", com a paciente como sujeito — a leitora perde a instrução de que quem faz a conscientização é ela. A correção proposta repete \"Agora, se\", que já está na linha 32 (dois em 433 palavras contra 13 em 80.938 dela), por isso a alternativa troca a virada e recupera o literal da fonte, inclusive o \"Tudo bem?\"."
+   ]
+  },
+  {
+   "revisor": "tell",
+   "tipo": "voz",
+   "gravidade": "media",
+   "trecho": "Se o que você quer é caso pro feed, decide antes qual problema você quer mostrar.",
+   "detalhe": "Imperativo seco no \"você\" onde a fonte prescreve em primeira pessoa de demonstração: \"se eu estou buscando ter meus super casos, eu tenho que ter definido qual é o problema que eu resolvo, certo?\". O fingerprint mede \"a gente precisa\" 33 contra \"você precisa\" 7 e \"você tem que\" 1, e diz que imperativo seco praticamente não existe na fala dela. O mesmo apagamento acontece mais duas vezes no capítulo: \"E o volume não deixa fazer o framework completo com todo mundo\" (fonte: \"fica inviável a gente fazer o framework completo com todo mundo\") e \"ela fala e vocês ajustam\" (fonte: \"ela vai falar e a gente vai ajustando o horário\"). Três vezes o \"a gente\" da fonte virou impessoal ou ordem, e \"vocês\" ainda troca o tratamento no meio do capítulo, que é deriva de registro (catálogo 7.7).",
+   "correcao": "Linha 14: \"E fica inviável a gente fazer o framework completo com todo mundo: tem clínica que recebe dez, vinte, quarenta mensagens de paciente modelo por dia.\" Linha 32: \"Se o que você quer é caso pro feed, a gente precisa ter definido antes qual é o problema que você resolve, certo?\" Linha 56: \"Se ela não pode naquela hora, ela fala e a gente vai ajustando o horário.\"",
+   "motivos": [
+    "Confirmado duas vezes na letra da fonte: \"fica inviável a gente fazer o framework completo com todo mundo\" virou \"o volume não deixa fazer\", e \"ela vai falar e a gente vai ajustando o horário\" virou \"ela fala e vocês ajustam\" — este último ainda troca o tratamento no meio de um anexo que diz \"você\" em todo o resto (\"seu WhatsApp\", \"na sua mão\"), e o fingerprint (§4) só admite \"vocês\" para anunciar o que vem. A correção proposta passa no critério 4 (\"a gente precisa\" é 33 contra 7, sem travessão, sem tell novo), mas cobre só duas das três ocorrências que o próprio detalhe denuncia; a alternativa fecha as três e usa o \"certo?\" que está na fonte, evitando empilhar mais um \"né\" no anexo."
+   ]
+  },
+  {
+   "revisor": "tell",
+   "tipo": "voz",
+   "gravidade": "media",
+   "trecho": "Tem clínica na mentoria que faz mais direto ainda: uma conexão breve e já manda a apresentação inteira, pode ou não pode. Tem dado certo também. Então o que a gente pede é que você teste os dois jeitos e traga pra gente, nos treinamentos, o que está funcionando na sua mão e o que não está funcionando também.",
+   "detalhe": "Ritmo de metrônomo (catálogo 2.4), medido em unidade de fôlego no capítulo inteiro sem os blocos de script: coeficiente de variação 0,754 contra 1,074 dela; unidades de uma palavra 12,0% contra 21,2% dela; unidades de 20 palavras ou mais 2,7% contra 8,4% dela. Está acima da média do livro (0,652 e 7,4%), mas ainda no meio do caminho. Este parágrafo é o retrato: sete fôlegos entre 2 e 15 palavras, nenhum de uma palavra, nenhum longo, e o fecho ainda repete a mesma ideia com outras palavras (\"o que está funcionando... e o que não está funcionando também\", esteira, catálogo 2.6). O capítulo também não tem nenhum \"gente,\" antes da tese, que é o vocativo dela (dose 1 a 2 por capítulo). A fonte tinha o material pra quebrar isso e ele foi comprimido: \"testa, faça, escute, faça do jeito completo, faça do jeito mais quente, mais direto\".",
+   "correcao": "Tem clínica na mentoria que faz mais direto ainda. Conexão breve e já manda a apresentação inteira, pode ou não pode, e tem dado certo também. Então o que a gente pede é o seguinte: testa os dois jeitos, faz do jeito completo, faz do jeito mais direto, e traz pra gente nos treinamentos o que está funcionando na sua mão e o que não está. Tá?",
+   "motivos": [
+    "Recontei os fôlegos do parágrafo (8, 8, 4, 4, 16, 2, 14): coeficiente de variação 0,61, nenhuma unidade de uma palavra e nenhuma de 20+, exatamente o achatamento que a v3 chama de \"o número que mais importa do livro inteiro\" e que os três leitores cegos leram como \"ritmo de copy calibrado\"; nada disso está protegido, já que a v3 mata o item 6 da whitelist v2. A correção passa no critério 4 e é fiel à fonte (\"testa, faça, escute, faça do jeito completo, faça do jeito mais quente, mais direto\"), a rajada de imperativo é dela naquele exato ponto de entrega, e o \"Tá?\" fechando é liberado pela v3 (§5: as tags de checagem são o modo padrão de fechar um raciocínio), que sobrepõe a proibição da v2. Duas sub-acusações eu refuto: o par \"o que está funcionando / o que não está\" vem do \"se tá conseguindo gerar resultado, se não tá\" da fonte, e a falta de \"gente,\" não é falha num anexo de 433 palavras, cuja dose seria menos de meia ocorrência."
+   ]
+  },
+  {
+   "revisor": "leitora",
+   "tipo": "leitora",
+   "gravidade": "alta",
+   "trecho": "“Os leads estão chegando, mas, depois que eu passo o preço, a maioria questiona. Como assim, paciente modelo e eu vou ter que pagar?”",
+   "detalhe": "Esse é o motivo pelo qual eu abri esse anexo. É literalmente a minha dor, escrita com as minhas palavras, no primeiro parágrafo. E o capítulo termina sem nunca me dar a resposta pra essa frase. Ele me ensina um caminho pra tentar evitar que ela apareça, mas ela vai aparecer, porque aparece todo dia aqui. Quando aparecer, eu vou estar com o celular na mão sem saber o que digitar. Fecho o livro pior do que abri, porque agora eu sei que o problema existe, tem nome, e mesmo assim não me deram a linha.",
+   "correcao": "Fechar a seção da apresentação com o bloco, sem antítese nova, montado só com o que a aula já dá (mesma doutora, mesmo cuidado, valor mais acessível, uso de imagem): «E quando vier o \"como assim, eu vou ter que pagar?\", que vem, ó, a resposta já é a da apresentação:» + card «Essa vaga é o mesmo procedimento, com a própria doutora e o mesmo cuidado de sempre, por um valor bem abaixo do normal. O que a gente pede em troca é usar as suas fotos de antes e depois aqui e nos anúncios da clínica. Faz sentido pra você assim?» + uma linha de rota, no formato do anexo A: «E se ela continuar no valor, a lógica é a mesma do capítulo 11: ela ainda não entendeu o que está levando.»",
+   "motivos": [
+    "Confirmado: o anexo abre citando a objeção como o motivo de existir e nunca devolve a linha, e o capítulo 11 só cobre \"a avaliação é paga / achei que era gratuita\" da consulta comum, nunca a vaga de modelo. Pior: o anexo A fecha rotenado a leitora pro capítulo 11, então o anexo C quebra a convenção do próprio livro ao não apontar pra lugar nenhum. A correção proposta falha no critério 4 porque \"não é procedimento gratuito, é o mesmo procedimento\" seria a quarta antítese do capítulo (a dose do fingerprint é no máximo 1).",
+    "A citação de abertura é literal da aula (\"Vocês trazem isso para nós direto\") e o anexo nunca volta nela: o framework só previne a objeção na conscientização da conexão, e as únicas frases de objeção de preço do livro estão no capítulo 11, que o anexo não cita. Leitora com a mensagem parada no WhatsApp fica sem linha, e isso não está protegido por nada da whitelist (o item 24, \"fecho sem moral\", protege contra síntese, não contra card). A correção proposta falha no critério 4: \"não é procedimento gratuito, é o mesmo procedimento\" é uma segunda antítese num anexo de 700 palavras, e a v3 manda derrubar antítese de 1,04 para 0,10 por mil, sendo que o anexo já gastou a dele em \"Não é consulta, é «reserva»\"."
+   ]
+  },
+  {
+   "revisor": "leitora",
+   "tipo": "leitora",
+   "gravidade": "alta",
+   "trecho": "E aqui entram as informações da vaga, ó: a data disponível, o valor normal e o valor como modelo, a autorização de uso de imagem pra antes e depois e pra anúncio, e a reserva pra travar a vaga.",
+   "detalhe": "Todo o resto do capítulo me deu texto pronto pra copiar. Conexão tem card. Situação tem card. Saída tem card. Fechamento tem card. Justo a mensagem onde o preço aparece, que é a única que quebra a conversa, vira uma lista de tópicos do que eu tenho que escrever sozinha. É onde eu mais precisava de exemplo e é o único lugar sem exemplo. Eu ia parar de ler aqui e ir procurar no grupo.",
+   "correcao": "Virar card com os elementos da aula e placeholders, mantendo o «não é consulta, é reserva» que já está logo abaixo: «A vaga que abriu é dia [data], às [hora]. O valor normal desse protocolo é [valor] e como paciente modelo fica [valor]. Como modelo, a gente usa as suas fotos de antes e depois aqui da clínica e nos anúncios, tá? Pra travar a vaga tem a reserva de [valor], que já entra como parte do pagamento.» Depois do card, uma linha só: «Pode ir tudo numa mensagem só, num texto mais elaborado, se você achar melhor. A ordem é essa, ó.»",
+   "motivos": [
+    "Confirmado no arquivo: conexão, situação, saída, apresentação e fechamento têm card, e a única mensagem que a leitora precisa escrever sozinha é justamente a que carrega o preço. Não é invenção montar o card, porque os cinco elementos e a ordem estão na aula e a própria Ana diz que \"essas informações podem estar contidas dentro de um texto mais elaborado\". A correção proposta falha no critério 4 ao prescrever coisas que não existem na fonte (valor riscado, e a regra de uma ou duas mensagens).",
+    "Confere: Conexão, Situação, saída, Apresentação e Fechamento todos têm :::frase:::, e o único beat sem card é justamente o da mensagem em que o preço aparece. Nada na whitelist protege lista de tópicos, e a leitora nota porque o livro inteiro a treinou a copiar. A correção proposta falha no critério 4 por fidelidade: a aula só enumera os itens e deixa a redação em aberto (\"essas informações podem estar contidas dentro de um texto mais elaborado\"), então mandar \"valor normal riscado\" e decidir \"uma mensagem ou duas\" prescreve o que a Ana nunca decidiu."
+   ]
+  },
+  {
+   "revisor": "leitora",
+   "tipo": "leitora",
+   "gravidade": "alta",
+   "trecho": "Então o que a gente pede é que você teste os dois jeitos e traga pra gente, nos treinamentos, o que está funcionando na sua mão e o que não está funcionando também.",
+   "detalhe": "Essa é a última frase do capítulo e ela não é comigo. Eu comprei um ebook numa página de vendas. Eu não tenho treinamento pra levar nada. Somado ao “Tem clínica na mentoria que faz mais direto ainda”, o fecho me coloca do lado de fora: existe um grupo que testa, compara e recebe resposta, e eu sou a que leu o resumo. Não é um anúncio explícito, mas o efeito é o mesmo, e vem justo no lugar onde eu esperava a conclusão do que fazer.",
+   "correcao": "Manter o «Tem clínica na mentoria que faz mais direto ainda» (é prova de escala, não exclusão) e trocar só o pedido final por algo que ela cumpre sozinha, com a tag de checagem dela: «Então o que a gente pede é que você teste os dois jeitos na próxima leva de mensagens e fique com o que estiver fechando mais na sua mão, tá bom?»",
+   "motivos": [
+    "Tentei refutar por fidelidade (a aula termina exatamente assim) e não se sustenta: a aula era treinamento de mentorada e o livro é vendido em página de vendas, e o grep mostra que \"mentoria\", \"treinamento\" e \"comunidade\" só aparecem neste anexo, que é o último item do sumário, ou seja, é a última frase do livro. O convite já está resolvido no capítulo 12, com link e tudo, então aqui ele só deixa a leitora do lado de fora no fecho. A correção proposta falha no critério 4 porque inventa prescrição que não está na fonte (duas semanas, anotar quantas fecharam).",
+    "Grep no manuscrito inteiro: essa é a única linha do livro que fala com mentorada (\"traga pra gente, nos treinamentos\"), enquanto o capítulo 12 trata a leitora como quem está de fora (\"marca um horário com o nosso time\" mais o link do supercaso), e o anexo C é a última peça do sumário, então o livro fecha pedindo o que a leitora não tem como cumprir. A correção proposta acerta o diagnóstico mas falha no critério 4 por invenção: \"duas semanas\" e \"anota quantas fecharam em cada um\" não existem na aula nem em nenhuma fonte."
+   ]
+  },
+  {
+   "revisor": "leitora",
+   "tipo": "leitora",
+   "gravidade": "media",
+   "trecho": "Antes de passar as informações sobre a vaga de paciente modelo, deixa eu entender rapidinho se faz sentido você ainda nessa edição.",
+   "detalhe": "Essa frase eu ia copiar e colar, e ela sai torta no meu WhatsApp. Falta uma palavra: se faz sentido você entrar ainda nessa edição. E é a primeira vez que a palavra edição aparece no livro, dentro do script, sem ninguém me contar o que é. Eu presumi que é o lote de vagas do mês, mas presumi. Frase que a leitora copia tem que estar impecável, porque ela não vai revisar, ela vai colar entre um paciente e outro.",
+   "correcao": "No card: «deixa eu entender rapidinho se faz sentido você entrar ainda nessa edição». E uma linha antes do card, sem inventar regra de fechamento: «Edição aqui é a leva de vagas de modelo que você abre no mês, tá.»",
+   "motivos": [
+    "Confirmado nos dois pontos: a frase do card está sem verbo (\"se faz sentido você ainda nessa edição\") e é frase pra copiar e colar, que é o entregável do livro; e o grep mostra que \"edição\" só aparece neste anexo, com a estreia dentro do card. Não é traço de oralidade protegido, é resíduo de transcrição automática, tanto que os editores já normalizaram o \"atender\" pra \"entender\" na mesma frase. A correção proposta falha só no critério 4 por inventar que a edição fecha quando as fotos estão feitas, o que não está na aula."
+   ]
+  },
+  {
+   "revisor": "leitora",
+   "tipo": "leitora",
+   "gravidade": "media",
+   "trecho": "Só que a paciente que chega por anúncio de paciente modelo é outra conversa e tem framework próprio e por isso eu deixo aqui o resumo, né",
+   "detalhe": "Terceira linha do capítulo e eu já entendo que existe um material completo que eu não tenho na mão. Você me diz que tem framework próprio e me entrega o resumo. Eu paguei pelo livro. A frase também vem embolada, com dois e seguidos, e é a porta de entrada do anexo.",
+   "correcao": "Trocar só o miolo, mantendo o período correndo emendado: «Só que a paciente que chega por anúncio de paciente modelo é outra conversa e tem um caminho próprio, mais curto de propósito, e é ele inteiro que está aqui, né, porque a dúvida chega direto pra gente: [...]». Não quebrar em duas frases.",
+   "motivos": [
+    "A parte de ritmo eu refuto: o período emendado com dois \"e\" e o «Só que» abrindo são exatamente os traços que o fingerprint manda preservar (unidades de 20+ palavras, 8,4% dela contra 1,2% do livro), então quebrar em duas frases pioraria a voz. Mas a palavra \"resumo\" é defeito real e barato de corrigir: o que vem depois não é resumo nenhum, é o framework meio-termo inteiro da aula, com card em todas as etapas, e chamar de resumo na terceira linha faz a leitora achar que comprou a versão reduzida. Por isso volta como real, com a correção restrita à moldura."
+   ]
+  }
+ ],
+ "refutados": [
+  {
+   "revisor": "tell",
+   "trecho": "O que a gente usa é um meio-termo. Nem só a mensagem “topa ou não topa”, nem os sete passos completos.",
+   "detalhe": "Contraste fácil (catálogo 1.1, subtipo \"nem só X, nem Y\") e, ao mesmo tempo, frase-eco do cabeçalho (4.6): repete quase literal o subtítulo do capítulo (\"Nem a mensagem seca, nem os sete passos\"). É o terceiro contraste do capítulo: com \"não está procurando uma consulta. Está procurando uma vaga\" (l.14) e \"Não é consulta, é «reserva»\" (l.48), dá 3 antíteses em 433 palavras, ou 6,9 por mil. O fingerprint mede 0,10 por mil na fala dela e a dose é no máximo 1 por capítulo de 2.000 palavras. Aqui são três num anexo de 433. A que merece ficar é a da reserva, que vem literal da fonte (\"a gente não vai usar consulta, a gente vai usar esse termo, a reserva\") e carrega instrução; as outras duas são retórica.",
+   "motivo": "Refutado na fonte: \"um framework meio termo, ele não é nem tão direto quanto só enviar uma parte dessa mensagem, nem tão demorado, tão extenso como o nosso framework 715\" — o \"nem X, nem Y\" é a definição que ela mesma dá do framework na aula, não contraste fabricado no polimento. A densidade de 6,9/mil só fecha porque o revisor soma três construções diferentes: a v3 mediu especificamente a antítese \"não X, é Y\", e das três do anexo só a da linha 14 é invenção do texto (acusação [1]) — as outras duas são literais da fonte. Sobra o eco do subtítulo, que é redundância real mas se resolve no subtítulo, não trocando a palavra dela por um par reescrito."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "Agora, se a vaga é pra ter caso e caixa ao mesmo tempo, você não precisa escolher: vai da situação direto pra apresentação.",
+   "detalhe": "Perdi o fio aqui e voltei três vezes. O capítulo tem quatro blocos em sequência e da situação já vai pra apresentação de qualquer jeito, então essa frase parece anunciar um caminho diferente que não existe. Só na terceira leitura entendi que você quis dizer que nesse caso eu não uso a saída e não recuso ninguém. Lendo no celular, deitada, eu não teria voltado três vezes.",
+   "motivo": "A confusão existe e tem causa localizável no arquivo: a frase manda ir \"direto pra apresentação\" antes de a leitora ter visto o card da saída, que só aparece dois parágrafos depois, então ela lê como se fosse uma rota diferente quando o que muda é o filtro. Na aula a Ana explicita o que a frase esconde (\"não tem esse ponto de decisão ali no meio\"), e essa é a informação que sumiu na passagem pro papel. A correção proposta acerta o conteúdo mas derruba o «Agora, se», que é o hábito de virada medido dela (13 ocorrências), então devolvo com a virada preservada."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "Quem veio direto pra mensagem precisa dessa conscientização aqui, na conversa.",
+   "detalhe": "Ponto final e vira o assunto. Você acabou de me dizer que boa parte das minhas leads chega sem entender o que é a vaga e que eu preciso conscientizar essa pessoa dentro da conversa, e não me dá nenhuma frase pra isso. Essa é a mesma pessoa que daqui a três mensagens vai perguntar por que ela tem que pagar. Falta exatamente o exemplo que faria eu entender.",
+   "motivo": "O critério 1 falha: a frase de conscientização está três linhas acima, é o próprio card da conexão, cuja pergunta existe pra fazer a pessoa dizer com a boca dela que está buscando harmonização facial por um preço mais acessível, e o parágrafo diz literalmente que quem veio direto precisa dessa conscientização \"aqui, na conversa\", ou seja, nesse card. Colar uma segunda frase de conscientização duplicaria o card e inventaria um passo que a aula não tem. Se algo vale, é só amarrar o antecedente em meia oração (\"é essa pergunta da conexão que faz esse trabalho\"), o que não é a acusação feita."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "As vagas de paciente modelo desse mês já foram encerradas, mas numa próxima oportunidade eu te aviso, combinado?",
+   "detalhe": "A frase é boa e educada, mas eu não saberia quando mandar e travaria na hora de mandar. Primeiro porque não sei o momento: mando antes ou depois de ela ter mandado a foto que eu pedi? Segundo porque quase sempre as vagas não foram encerradas, elas só não são pra ela, e o anúncio continua rodando no dia seguinte no feed dela. Eu ia me sentir pega mentindo, e no meu bairro isso volta.",
+   "motivo": "O momento está dado pela posição no capítulo e pela condição escrita: a saída vem depois do card da foto e começa com \"Se não faz sentido\", que só se resolve depois de ver a foto, então a leitora não fica sem o gatilho. O incômodo com a honestidade é preferência editorial importada, não defeito do trecho: é o script que a autora ensina e o livro já o enquadra como \"uma saída que não humilha ninguém\", e reescrevê-lo criaria doutrina nova que a aula não dá."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "Quem veio pelo quiz, que é o formulário de perguntas que ela responde antes de cair no seu WhatsApp, chega um pouco mais consciente, porque leu muita coisa no caminho.",
+   "detalhe": "Duas coisas na mesma frase. A explicação do que é um quiz eu não precisava, eu rodo anúncio, é o que me trouxe esses quarenta contatos por dia. E o que eu precisava você não fala: se eu não tenho quiz, eu deveria montar um? O quiz aparece aqui como se fosse decisivo pra qualidade da lead e depois some do capítulo. Fica a sensação de que existe uma peça importante que eu não tenho e que ninguém vai me explicar.",
+   "motivo": "O critério 2 falha na primeira metade: o fingerprint registra que quando escapa palavra grande vem amortecedor colado, então a glosa curta de quiz é traço protegido, não gordura. A segunda metade pede o que o livro não se propõe a dar: montar quiz é decisão de tráfego, está fora do escopo de atendimento no WhatsApp e não existe na aula, e o capítulo já entrega a única consequência prática da informação, que é quem veio direto precisar da conscientização na conversa."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "Tem gente que faz o 715 inteiro com ela e se frustra muito, porque no final ela questiona o preço mais do que uma paciente normal.",
+   "detalhe": "Você afirma e não explica. Se eu fiz o framework inteiro, com conexão, presente inaceitável e qualificação bem feita, por que essa paciente questiona MAIS que a normal? Isso contraria tudo que o livro me ensinou até aqui. Parei nessa frase querendo o porquê e recebi só o argumento de volume, que é outro assunto.",
+   "motivo": "O critério 1 falha: o porquê está na frase imediatamente anterior, no mesmo parágrafo (ela não está procurando consulta, está procurando vaga, e o atendimento vira processo seletivo), e a frustração descrita é consequência disso. Além disso a correção proposta inventa causa que não está na aula e contradiz a doutrina do capítulo 11, que ensina o oposto, que o desconforto vem de ela não ter entendido o valor, não de valor construído demais."
+  }
+ ],
+ "cego": {
+  "veredito": "pessoa",
+  "confianca": 60,
+  "pistas": [
+   {
+    "trecho": "e tem framework próprio e por isso eu deixo aqui o resumo, né, porque a dúvida chega direto pra gente",
+    "pista": "Sintaxe de fala, não de prosa montada: dois \"e\" coordenando frouxo e um \"né\" no meio da frase amortecendo a digressão. O nexo também é torto (tem framework próprio → por isso deixo o resumo), do jeito que alguém comprime raciocínio falando. Texto gerado tende a arrumar essa junção."
+   },
+   {
+    "trecho": "E aqui entram as informações da vaga, ó: a data disponível, o valor normal e o valor como modelo",
+    "pista": "\"ó\" (redução de \"olha\") abrindo lista, seguido de dois-pontos. É marcador oral específico e pouco imitado; humanização artificial em PT-BR costuma cair em \"olha só\", \"sabe?\", \"tipo assim\", não em \"ó\" solto antes da enumeração."
+   },
+   {
+    "trecho": "o que está funcionando na sua mão e o que não está funcionando também",
+    "pista": "Fecho redundante e não aparado: repete o verbo em vez de dizer \"e o que não está\". É o tipo de sobra que um passe de edição (humano caprichado ou automático) corta primeiro; sobreviveu porque veio de fala."
+   },
+   {
+    "trecho": "Nem só a mensagem “topa ou não topa”, nem os sete passos completos.",
+    "pista": "Referência pendurada: cita \"a mensagem topa ou não topa\" como se já tivesse sido apresentada, e só no último parágrafo o leitor descobre o que é. Quem escreve de memória falando faz isso; texto gerado quase sempre apresenta antes de referir."
+   },
+   {
+    "trecho": "E é pra ela que serve a saída aqui embaixo.",
+    "pista": "Duas linhas depois o mesmo aviso volta inteiro (\"Se não faz sentido, tem uma saída que não humilha ninguém.\"). É costura visível, redundância que não trabalha — e o enquadramento moral (\"não humilha ninguém\") destoa do registro de checklist do resto, como quem lembrou de um cuidado no meio da explicação."
+   }
+  ]
+ }
+}

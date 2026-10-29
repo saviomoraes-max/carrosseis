@@ -1,0 +1,341 @@
+{
+ "capitulo": "/Users/saviomoraes/reconecta/ebooks/715/manuscrito/10-objecao-nao-e-um-nao.md",
+ "rodada": 1,
+ "brutos": 33,
+ "confirmados_n": 17,
+ "altas_confirmadas": 3,
+ "por_revisor": {
+  "tell": {
+   "brutos": 7,
+   "confirmados": 5
+  },
+  "fidelidade": {
+   "brutos": 8,
+   "confirmados": 1
+  },
+  "leitora": {
+   "brutos": 9,
+   "confirmados": 7
+  },
+  "voz": {
+   "brutos": 9,
+   "confirmados": 4
+  }
+ },
+ "confirmados": [
+  {
+   "revisor": "tell",
+   "tipo": "tell",
+   "gravidade": "alta",
+   "trecho": "Uma objeção não é um \"não\". É um pedido por mais clareza, mais segurança ou mais tempo. Se você reage com ansiedade, pressa ou justificativa, você perde a paciente.",
+   "detalhe": "Esteira (2.6) com tríade forçada (2.1) em cima. Esta é a terceira vez em três parágrafos seguidos que o capítulo diz \"objeção não é não, é pedido\": linha 18 (\"Uma objeção não é uma rejeição. É um pedido de mais informação\"), linha 22 (esta) e linha 24 (\"Curiosidade é o que você sente... Direção é o que você faz\"). A linha 22 é a página 6 do manual colada quase literal, e vem com as duas tríades de adjetivo abstrato do manual (\"clareza, segurança ou tempo\", \"ansiedade, pressa ou justificativa\") mais o espelho \"Se você reage... Se responde...\". Contrastes \"não é X, é Y\" no capítulo: cinco em 644 palavras (dose do fingerprint: 3 a 5 em 2.000). Três dos cinco são este mesmo contraste repetido. A Ana tira UMA frase de uma fonte e segue (fingerprint, seção 2, indicação de livro); aqui o manual entra três vezes, e a linha 48 ainda traz uma quarta citação dele. O corte de metade não perde informação: é o critério do catálogo pra gravidade alta.",
+   "correcao": "Cortar as linhas 20 a 24 (título \"O que a objeção é\" e os dois parágrafos). Linha 18 vira: \"Eu quero te propor outra leitura dessa mensagem. Objeção não é rejeição. É pedido de mais informação, ou sinal de que ainda não ficou claro pra ela o que a consulta resolve. Se você responde com pressa ou com justificativa, ela some. Se você responde com curiosidade e direção, ela conta o que precisa pensar. Curiosidade é o pensar no quê. Direção é perguntar, em vez de esperar. E aí a conversa voltou.\"",
+   "motivos": [
+    "Confere no arquivo: a linha 22 é a p.6 do manual quase literal (as duas tríades e o espelho), e a mesma ideia já foi dita na linha 18 e volta na 24; a whitelist protege o contraste e o cunhar-e-definir (itens 1 e 22), não a mesma definição três vezes seguidas, e o catálogo diz que contraste vira tique na terceira vez na mesma página. A correção proposta funciona, mas inventa um motivo que não está na fonte (\"ela não sabe perguntar isso direito\") e apaga \"curiosidade e direção\", que o mapa de capítulos lista como conteúdo do capítulo 10.",
+    "Confere: a linha 22 é a página 6 do manual quase literal (fontes/02-manual-objecoes.md, linhas 192-196), com as duas tríades abstratas, e repete a definição que a linha 18 já deu uma seção antes; uma leitora lê 'objeção não é rejeição, é pedido de informação' e logo depois 'objeção não é um não, é pedido de clareza'. O contraste em si é whitelist (item 1), mas duplicar a mesma definição não é, e a tríade abstrata contraria o hábito dela de traduzir palavra grande na frase seguinte. A correção proposta, porém, corta demais: a linha 24 é o item 22 da whitelist (cunha o termo e define colado), e a reescrita da 18 joga fora a concessão de humildade ('Eu sei que isso soa como frase de treinamento'), item 14, 3 de 3."
+   ]
+  },
+  {
+   "revisor": "tell",
+   "tipo": "voz",
+   "gravidade": "alta",
+   "trecho": "Se você atende WhatsApp de clínica, você já leu essa mensagem mais vezes do que gostaria. E a maioria responde \"claro, fico à disposição\".",
+   "detalhe": "O capítulo não tem a Ana dentro. \"Eu\" aparece 4 vezes em 644 palavras (6 por mil; no fingerprint ela roda a 46 por mil, \"o livro é dela e o caso é dela\"). Nenhum caso próprio, nenhum aviso de que vai contar, nenhum \"vou aproveitar pra contar\": o padrão macro número 1 dela, 3 de 3 amostras, está ausente. No lugar, \"você\" 22 vezes (34 por mil, o dobro do pico dela em modo prescrição, que é 18,7 por mil), e na primeira frase já vem dobrado (\"Se você atende..., você já leu\"), que é o 7.2 do catálogo: português deixa cair o segundo sujeito. Resultado: a seção 7 do manual reescrita na segunda pessoa, que qualquer mentoria assinaria. E o material dela existe: o caso da salinha (A1) é exatamente uma paciente que foi pra casa pensar, e é ela.",
+   "correcao": "Abrir assim, só com o que o capítulo 1 já contou: \"Lá no capítulo 1 eu contei o que passou pela minha cabeça naqueles dez minutinhos de espera: e se for muito caro, será que é prioridade agora, será que eu não encontro outro jeito. Eu, que trabalho com isso todo santo dia. E a doutora, na mesma consulta, tinha me falado que estava com muita gente indo pra casa pensar. Então quando eu leio um vou pensar e qualquer coisa te aviso no WhatsApp de uma clínica, eu sei o que tem atrás, porque já passou pela minha cabeça também. E a maioria responde \\\"claro, fico à disposição\\\". Educado, tranquilo, e a conversa acabou ali.\" Se a frase original ficar em algum lugar, tirar o segundo você: \"Se você atende WhatsApp de clínica, já leu essa mensagem mais vezes do que gostaria.\"",
+   "motivos": [
+    "Os números batem: contei 6 \"eu\" e 23 \"você\" em 726 palavras (8 e 32 por mil, contra a dose do fingerprint de 40 a 60 \"eu\" e 20 a 30 \"você\" por capítulo de 2.000), zero caso próprio, zero aviso, e o \"você\" dobrado da primeira frase é o 7.2. Mas a correção proposta fabrica fato: o capítulo 1 não diz que a Ana saiu sem fechar nem que foi pra casa pensar; ela diz \"talvez eu teria fechado. Lá dentro.\", ruminou na espera, e quem estava \"indo pra casa pensar\" eram as pacientes da doutora. Inventar biografia da autora é pior que o tell.",
+    "Confere: contei 6 'eu' e 23 'você' em 726 palavras (o fingerprint pede 40 a 60 'eu' e 20 a 30 'você' por 2.000, e o caso pessoal abrindo, item 7, 3 de 3, está ausente); o capítulo lê como a seção 7 do manual em segunda pessoa. Mas a correção proposta inventa fato: o capítulo 1 nunca diz que a Ana saiu sem fechar nem que foi pra casa pensar; diz que ruminou dez minutinhos na recepção e que no financeiro houve 'todo um processo de convencimento'. Além disso o capítulo 12 já abre com 'No capítulo 1 eu te contei a salinha...', então 'Eu já contei lá no capítulo 1' duplicaria o dispositivo, e 'todo santo dia' (item 35, 1 vez no livro) é melhor guardado pra concessão de humildade do capítulo 12."
+   ]
+  },
+  {
+   "revisor": "tell",
+   "tipo": "tell",
+   "gravidade": "media",
+   "trecho": "Quando a gente encara a objeção como oportunidade, e não como problema, a resistência vira confiança. Eu sei que isso soa como frase de treinamento.",
+   "detalhe": "Candor encenado (1.6). A frase \"a resistência vira confiança\" é o manual (p.6: \"transformar a resistência em confiança\"), abstrata, sem gente. Em vez de cortar, o texto pede desculpa por ela: \"Eu sei que isso soa como frase de treinamento\". Não é a concessão de humildade da whitelist (item 14), porque a concessão dela é sobre o comportamento dela (\"faço isso todo santo dia\"), nunca sobre a própria redação. Comentar a frase que acabou de escrever é coisa de modelo que percebeu o clichê e deixou os dois. Uma pessoa apaga.",
+   "correcao": "Cortar as duas frases. O parágrafo já tem o que importa logo em seguida: \"Mas repara no que vem depois de vou pensar quando você faz uma pergunta em vez de liberar a paciente. Ela conta o que precisa pensar.\" (Se a linha 18 for reescrita pelo achado 1, isso já está resolvido.)",
+   "motivos": [
+    "\"A resistência vira confiança\" é a p.6 do manual (\"transformar a resistência em confiança\") e o próprio texto admite que é frase de treinamento; o mais perto disso na Ana é o candidato 29 (\"É óbvio que eu tô sendo muito irônica\"), que comenta a ironia dela, não pede desculpa por frase emprestada. Sem essas duas frases o parágrafo já entrega o que importa (\"Ela conta o que precisa pensar\"), e o corte coincide com a reescrita do achado 0."
+   ]
+  },
+  {
+   "revisor": "tell",
+   "tipo": "tell",
+   "gravidade": "media",
+   "trecho": "Mas o princípio é um só, e é esse. Objeção se responde com pergunta.",
+   "detalhe": "Fecho de uma linha que repete o parágrafo (1.2) e recapitulação (4.11). As duas frases são a moral do capítulo dita em voz alta, depois de o capítulo inteiro já ter mostrado. Whitelist item 24, 3 de 3 amostras: ela nunca recapitula, nunca explica a moral. O fecho verdadeiro dela já está na linha seguinte (as duas perguntas com você, item 3 da whitelist); a moral no meio do caminho enfraquece as perguntas.",
+   "correcao": "Cortar as duas frases. O parágrafo termina em \"...e o que responder se quiser continuar a conversa.\" e emenda direto nas perguntas: \"Quantas vezes essa semana você respondeu fico à disposição? E o que aconteceu depois?\"",
+   "motivos": [
+    "A moral já foi mostrada na linha 34 (\"Pra saber qual das duas você tem na frente, pergunta\") e nas linhas 50 a 52, e o capítulo 11 abre repetindo-a de novo (\"todas as respostas que continuam a conversa terminam em pergunta\"); \"Mas o princípio é um só, e é esse.\" só anuncia. A pancada curta é dela (item 6), mas a whitelist 24 (3 de 3) é explícita: fecho sem moral nem recapitulação, e as duas perguntas com você da linha 56 são o fecho verdadeiro. Corte limpo, sem travessão, sem tell novo."
+   ]
+  },
+  {
+   "revisor": "tell",
+   "tipo": "tell",
+   "gravidade": "media",
+   "trecho": "Você deu a informação, ela pegou a informação, e a informação sem contexto não gera compromisso nenhum.",
+   "detalhe": "Aforismo de fôrma (1.4), cunhado na hora: \"X sem Y não gera Z\". Não está no manual (o manual diz \"coloca o paciente numa comparação de preços\" e \"vai comparar com base em algo que ela não entende\"). A repetição de \"informação\" três vezes é dela (whitelist 9), mas o terceiro degrau vira sentença de slide com verbo de negócio (\"gera compromisso\"). A frase seguinte, com o 200 e o 150, já faz o trabalho concreto.",
+   "correcao": "\"Você deu o número, ela pegou o número, e com o número na mão ela vai comparar o seu 200 com o 150 da clínica ao lado, sem saber o que nenhuma das duas consultas resolve.\"",
+   "motivos": [
+    "A escada \"deu a informação, pegou a informação, a informação\" é dela (itens 2 e 9), mas o terceiro degrau vira sentença abstrata \"X sem Y não gera Z\" com verbo de slide, coisa que a Ana não faz: os aforismos dela ou são citação de livro ou são concretos (salinha, facada). A correção do revisor mantém a escada, só que com dois degraus; como a escada de três é a assinatura dela (\"Ter saído, ter esperado, ter pensado\"), vale manter os três."
+   ]
+  },
+  {
+   "revisor": "fidelidade",
+   "tipo": "fidelidade",
+   "gravidade": "media",
+   "trecho": "Se a resposta for vaga, é cortina de fumaça, e a cortina esconde o verdadeiro motivo, que quase sempre é o mesmo: ela ainda não viu valor suficiente na consulta. Não é o preço, não é o marido, não é a agenda. É que em algum passo anterior ficou raso, e a paciente chegou no fechamento sem estar convencida por ela mesma.",
+   "detalhe": "O capítulo 9 (linha 58) promete: \"Se ela hesita no horário, o problema não está no horário. Está em algum passo anterior que ficou raso, e insistir no horário só piora. O que funciona é voltar, e eu falo disso no capítulo 10.\" O capítulo 10 diagnostica o passo raso mas não diz o que é \"voltar\". A fonte sustenta isso: as respostas de continuação do manual são perguntas dos passos 3 e 4 do framework (\"o que te fez pensar em resolver isso agora e nos trouxe até aqui?\" é Presente Inaceitável; \"como entendeu que a consulta com a Dra vai te ajudar a resolver [problema]?\" é Qualificação). O capítulo poderia fechar a promessa com isso, sem inventar nada.",
+   "correcao": "Manter o parágrafo da linha 44 inteiro (inclusive \"quase sempre\" e \"não é a agenda\") e acrescentar logo depois:\n\nÉ por isso que eu te falei no capítulo 9 que o que funciona é voltar. Voltar é isso: refazer a pergunta do passo que ficou raso. Repara nas duas respostas que o manual dá pro \"vou pensar\", que você vai ver inteiras no capítulo 11. \"O que te fez pensar em resolver isso agora e nos trouxe até aqui?\" é a pergunta do passo três. \"Como entendeu que a consulta com a doutora vai te ajudar a resolver [problema]?\" é a pergunta do passo quatro. Você não inventa uma resposta nova pra objeção. Você volta um passo e pergunta de novo.",
+   "motivos": [
+    "O capítulo 9 aponta o dedo: \"o que funciona é voltar, e eu falo disso no capítulo 10\". O 10 diagnostica o passo raso mas nunca diz o que é voltar, e a leitora que seguiu o ponteiro chega no fecho sem a resposta. A correção proposta é sourceada (as duas perguntas estão no manual p.2/p.8 e batem com o passo 3 e o passo 4), mas corta um degrau da anáfora (\"não é a agenda\") sem motivo e manda a leitora \"reparar no manual\" numa resposta que ela ainda não viu, porque só aparece no capítulo 11."
+   ]
+  },
+  {
+   "revisor": "leitora",
+   "tipo": "leitora",
+   "gravidade": "alta",
+   "trecho": "Se a resposta for vaga, é cortina de fumaça, e a cortina esconde o verdadeiro motivo, que quase sempre é o mesmo: ela ainda não viu valor suficiente na consulta. Não é o preço, não é o marido, não é a agenda. É que em algum passo anterior ficou raso, e a paciente chegou no fechamento sem estar convencida por ela mesma.",
+   "detalhe": "Aqui eu entendi o diagnóstico e fiquei sem o próximo passo. Ela respondeu vago, eu já sei que é cortina, e agora? Volto pra qual passo? Mando qual mensagem sem parecer que estou insistindo? O capítulo termina a explicação no momento em que eu mais precisava de uma instrução, e o capítulo 11 é anunciado como catálogo por objeção, não como \"o que fazer quando ficou raso\".",
+   "correcao": "Inserir DEPOIS do parágrafo \"Se a resposta for vaga...\" (sem mexer nele):\n\nE é aqui que entra o voltar que eu prometi no capítulo 9. Voltar não é inventar resposta nova pra objeção. É refazer a pergunta do passo que ficou raso, e pelo que eu observo esse passo é quase sempre o dois ou o três. Ela disse que vai pensar? Você volta pro problema que ela mesma te contou.\n\n:::frase\nSem problemas! Pra gente entender se faz sentido seguir também, o que te fez pensar em resolver isso agora e nos trouxe até aqui?\n:::\n\nEla vai contar. E a conversa está de novo no passo três, que é onde ela devia ter se convencido e não se convenceu.",
+   "motivos": [
+    "O capítulo 9 (linha 58) promete literalmente \"O que funciona é voltar, e eu falo disso no capítulo 10\", e o capítulo 10 termina o diagnóstico na linha 44 sem dizer o que é voltar; a leitora que seguiu a remissão fica sem o movimento. Nenhum item da whitelist cobre ausência de instrução, e a fonte tem a resposta pronta (manual p.2: a continuação do \"vou pensar\" é a pergunta do passo 3), então dá pra fechar sem inventar nada. A correção proposta pede \"um exemplo de troca de mensagens\" com fala de paciente inventada; melhor usar a frase da fonte e a doutrina que o livro já fixou (cap. 12: \"na maioria das vezes é o dois ou o três\").",
+    "Confirmado. O capítulo 9 (linha 58) promete literalmente \"O que funciona é voltar, e eu falo disso no capítulo 10\", e o capítulo 10 para em \"ficou raso\" sem dizer como voltar; a instrução existe no livro, mas só no apêndice A (\"Volta pra ele, refaz a pergunta, e só oferece horário de novo quando o sinal daquele passo aparecer\"), e a leitora que veio do capítulo 9 não vai achar lá. Nenhum item da whitelist cobre isso (o \"fecho sem moral\" protege o fim do capítulo, não um buraco no meio da mecânica). A correção proposta falha em (4): \"situação ou presente inaceitável, pelo mapa\" não tem fonte (manual e framework nunca dizem qual passo costuma ficar raso) e um exemplo de troca de mensagens inventado fabricaria diálogo; a frase certa já existe no capítulo 11 e é dela."
+   ]
+  },
+  {
+   "revisor": "leitora",
+   "tipo": "leitora",
+   "gravidade": "media",
+   "trecho": "Isso é real. Ela te contou o medo, o medo tem nome, e você pode conversar sobre ele.",
+   "detalhe": "\"Pode conversar sobre ele\" como? A paciente com medo de ficar artificial é o caso que mais me aparece e o capítulo dá o exemplo, me deixa animada, e não mostra nem uma linha do que eu respondo. Fico com a sensação de que a objeção real é tratada como resolvida só por ter nome.",
+   "correcao": "Trocar \"Isso é real. Ela te contou o medo, o medo tem nome, e você pode conversar sobre ele.\" por:\n\nIsso é real. Ela te contou o medo, o medo tem nome, e é o nome que você pergunta. Quando você diz que ficou artificial, o que exatamente te preocupa? Ela vai te contar como ficou e o que ela não quer de novo. É o passo dois de novo, só que sobre o medo, e não sobre a flacidez.",
+   "motivos": [
+    "A linha 28 promete que \"a resposta certa muda conforme qual das duas você tem na frente\", mas o capítulo só mostra resposta pra cortina; a objeção real recebe \"você pode conversar sobre ele\" e nenhuma linha, e a leitora que atende WhatsApp nota na hora. Não há whitelist pra isso. A correção proposta falha no critério 4: a família \"resistência\" do capítulo 11 cobre só \"não sei\" e \"cansada de técnicas de vendas\", nunca o medo de ficar artificial, então mandar a leitora pra lá seria enganar; a alternativa usa o card da própria fonte com [objeção] preenchido e a doutrina que o cap. 11 já fecha (\"É o passo dois de novo\")."
+   ]
+  },
+  {
+   "revisor": "leitora",
+   "tipo": "leitora",
+   "gravidade": "media",
+   "trecho": "Uma objeção não é um \"não\". É um pedido por mais clareza, mais segurança ou mais tempo.",
+   "detalhe": "Dois parágrafos antes eu já li \"Uma objeção não é uma rejeição. É um pedido de mais informação, ou um sinal de que ainda não ficou claro pra ela\". Quando chega o subtítulo \"O que a objeção é\" e repete a mesma ideia com outras palavras, eu pulo a seção inteira, e aí perco o \"curiosidade e direção\" que vem logo depois e é útil.",
+   "correcao": "Manter a linha 18 como está. Na seção, cortar \"Uma objeção não é um \\\"não\\\". É um pedido por mais clareza, mais segurança ou mais tempo.\" e começar direto em \"Se você reage com ansiedade, pressa ou justificativa, você perde a paciente.\" Renomear o subtítulo \"## O que a objeção é\" para \"## Curiosidade e direção\", que é o que a seção entrega.",
+   "motivos": [
+    "Linha 18 (\"não é uma rejeição. É um pedido de mais informação\") e linha 22 (\"não é um 'não'. É um pedido por mais clareza, mais segurança ou mais tempo\") são a mesma definição, no mesmo molde de contraste, quatro parágrafos de distância e sob um subtítulo que promete conteúdo novo; a repetição vem do PDF-fonte, que também diz duas vezes, não de hábito da Ana. A whitelist protege repetição de PALAVRA (item 9) e anáfora em escada (item 2), não a mesma ideia inteira reapresentada. A opção A da correção (definição fica na abertura, seção começa em \"Se você reage\") não introduz tell e preserva o parágrafo onde a voz dela está; só precisa renomear o subtítulo, porque \"O que a objeção é\" deixa de descrever a seção."
+   ]
+  },
+  {
+   "revisor": "leitora",
+   "tipo": "leitora",
+   "gravidade": "media",
+   "trecho": "Pra saber qual das duas você tem na frente, pergunta.",
+   "detalhe": "Vêm dois cards de frase pronta e eu não sei qual uso quando. O primeiro tem [objeção] entre colchetes, o segundo é fixo em \"pensar\". Pra \"vou ver com meu marido\" eu uso o primeiro? E pra \"vou pensar\" o segundo? Além disso, mandar \"O que especificamente você precisa pensar?\" seco, depois dela dizer que vai pensar, me dá medo de soar como se eu estivesse encurralando. E \"se a resposta for vaga\" não vem com exemplo de resposta vaga, então na hora eu não vou ter certeza se foi vaga ou não.",
+   "correcao": "Trocar \"Pra saber qual das duas você tem na frente, pergunta.\" por:\n\nPra saber qual das duas você tem na frente, pergunta. Uma das duas basta, a segunda é a primeira já com o \"vou pensar\" dentro. E pergunta com curiosidade, não com cobrança. Ela sente a diferença.\n\nE abrir o parágrafo seguinte com: \"Se a resposta for vaga, outro 'te aviso depois' ou um 'ah, não sei', é cortina de fumaça, e a cortina esconde...\"",
+   "motivos": [
+    "O livro cria a ambiguidade sozinho: no capítulo 9 os cards consecutivos são uma SEQUÊNCIA pra mandar em ordem (horário, PIX, comprovante), e aqui os dois cards são ALTERNATIVAS (a fonte diz \"pergunte X ou Y\"), sem uma palavra dizendo isso; a leitora pode mandar os dois. O medo de soar cobrando também procede, porque a autora acabou de defender curiosidade e o segundo card seco não carrega o tom. A correção proposta inventa duas falas de paciente e uma \"nota de tom\" que soa a apostila; a alternativa resolve com uma frase e usa como exemplo de resposta vaga só as formas que a fonte já lista."
+   ]
+  },
+  {
+   "revisor": "leitora",
+   "tipo": "leitora",
+   "gravidade": "media",
+   "trecho": "Pensa na pergunta mais comum de todas, \"quanto custa a consulta?\".",
+   "detalhe": "Até aqui o capítulo era sobre \"vou pensar\", e de repente o exemplo vira uma pergunta de preço, que pelo que eu entendi não é objeção, é uma pergunta normal. Eu perdi o fio por um instante: estou lendo sobre objeção ou sobre responder pergunta? A cena da abertura (\"vou pensar e qualquer coisa te aviso\") nunca ganha a resposta dela mostrada, e o exemplo que ganha resposta completa é um caso diferente.",
+   "correcao": "Se o achado 0 for aplicado, a cena de abertura já fecha com o card do passo três; basta então trocar \"Pensa na pergunta mais comum de todas\" por: \"Vale pra objeção e vale pra pergunta, porque a regra é a mesma. Pensa na pergunta mais comum de todas, 'quanto custa a consulta?'.\"\n\nSe o achado 0 NÃO for aplicado, inserir antes desse parágrafo:\n\n:::cena\nELA: Vou pensar e qualquer coisa te aviso.\nVOCÊ: O que especificamente você precisa pensar?\nELA: É que eu achei que a avaliação era gratuita.\n:::\n\nPronto. O \"vou pensar\" agora tem nome, e nome tem resposta no capítulo 11. Vale pra objeção e vale pra pergunta, porque a regra é a mesma. Pensa na pergunta mais comum de todas, \"quanto custa a consulta?\".",
+   "motivos": [
+    "A cena de abertura (\"vou pensar e qualquer coisa te aviso\") nunca ganha a resposta mostrada, só descrita na linha 18 (\"Ela conta o que precisa pensar\"), e o único exemplo com troca completa é um caso diferente, o preço, que ainda repete quase palavra por palavra a primeira entrada do capítulo 11 (linha 20 e card). O salto de objeção pra pergunta não é anunciado, e o capítulo nunca disse que pergunta de preço segue a mesma regra. A correção proposta está certa na direção; a alternativa usa pra fala da paciente uma objeção que está na fonte (consulta paga), pra não inventar caso."
+   ]
+  },
+  {
+   "revisor": "leitora",
+   "tipo": "leitora",
+   "gravidade": "baixa",
+   "trecho": "\"claro que eu posso te passar mais informações sobre a consulta, antes, pra entender se a doutora vai conseguir te ajudar no seu caso ou não, como você entende que a consulta vai te ajudar?\"",
+   "detalhe": "Essa é a frase que eu mais quero copiar do capítulo e ela está escondida no meio do parágrafo, entre aspas, e não num card como as outras duas. À noite no celular eu ia ter que selecionar texto corrido. E num fôlego só ela fica longa pra WhatsApp; eu mandaria em duas mensagens.",
+   "correcao": "Trocar o parágrafo \"Agora, se você responde \\\"claro que...\\\"\" por:\n\nAgora, se você responde assim, a conversa continua.\n\n:::frase\nClaro que eu posso te passar mais informações sobre a consulta.\nAntes, pra entender se a doutora vai conseguir te ajudar no seu caso ou não, como você entende que a consulta vai te ajudar?\n:::\n\nVocê não escondeu o preço. Você disse que vai passar. Só não passou antes de perguntar.\n\n(Se o renderizador não aceitar quebra de linha dentro do card, usar dois cards seguidos: são duas mensagens.)",
+   "motivos": [
+    "As outras duas frases prontas do capítulo estão em card :::frase e essa, a mais copiável, está em texto corrido entre aspas e emendada numa frase só com vírgulas (\"...sobre a consulta, antes, pra entender...\"), quando a fonte (p.6) tem ponto depois de \"consulta\" e pausa antes da pergunta, ou seja, duas mensagens. A leitora que vai copiar no celular nota. Nenhuma whitelist protege formatação, e a correção proposta não introduz tell nem mexe na voz; só restaura o formato do livro e a pontuação da fonte."
+   ]
+  },
+  {
+   "revisor": "leitora",
+   "tipo": "leitora",
+   "gravidade": "baixa",
+   "trecho": "Tem uma frase do nosso manual que eu acho que resume esse capítulo",
+   "detalhe": "Que manual? Eu paguei o livro e aqui a autora cita um material interno que eu não tenho. É a única passagem que me deu sensação de que existe um produto maior atrás desse, e eu não sei se estou lendo o resumo de alguma coisa.",
+   "correcao": "Tem uma frase que eu já te disse lá no capítulo 2 e que eu acho que resume esse capítulo: a forma mais fácil de encerrar uma conversa é com uma resposta.",
+   "motivos": [
+    "\"Nosso manual\" é vazamento da fonte: a leitora paga pelo livro e ouve falar de um material que não tem, e o próprio livro se contradiz, porque no capítulo 2 (linha 54) a Ana diz a mesma frase em primeira pessoa (\"E qual é a forma mais fácil de encerrar uma conversa? Com uma resposta.\"). O fingerprint mostra que ela empresta autoridade de livro com nome, nunca de documento interno sem nome. A correção proposta inventa uma afirmação sem fonte (\"toda atendente que a gente treina\"); a alternativa usa o que o livro já tem e mantém o \"eu acho que\" dela (whitelist 18)."
+   ]
+  },
+  {
+   "revisor": "voz",
+   "tipo": "voz",
+   "gravidade": "media",
+   "trecho": "Uma objeção não é um \"não\". É um pedido por mais clareza, mais segurança ou mais tempo. Se você reage com ansiedade, pressa ou justificativa, você perde a paciente. Se responde com curiosidade e direção, você reconquista a conversa, e o agendamento junto.",
+   "detalhe": "Parágrafo de manual colado na voz dela sem marcação. Três tríades de substantivo abstrato em quatro frases (\"clareza, segurança ou tempo\", \"ansiedade, pressa ou justificativa\", \"curiosidade e direção\") e o verbo \"reconquista\", que não existe nas 1.816 palavras dela. A anáfora dela é escada de frase começando igual, não lista de substantivos (\"Não depende da cidade. Não depende da idade.\"). Ela não enumera abstrato, ela enumera gente e número. O parágrafo seguinte (\"Curiosidade e direção. Eu gosto dessas duas palavras porque...\") é ela comentando um texto alheio, o que denuncia que este é alheio.",
+   "correcao": "Assumir que é citação, do jeito que o próprio capítulo faz mais adiante com \"Tem uma frase do nosso manual\": \"O nosso manual resume assim: objeção não é um não. É um pedido por mais clareza, mais segurança ou mais tempo. Se você reage com ansiedade, pressa ou justificativa, perde a paciente. Se responde com curiosidade e direção, a conversa volta.\" Aí o \"Curiosidade e direção. Eu gosto dessas duas palavras\" vira o que é: ela pegando UMA frase de uma fonte e seguindo, como faz com os livros (\"performance é igual a potencial menos interferência\").",
+   "motivos": [
+    "Conferido em fontes/02 linhas 192-197: o parágrafo é o manual colado quase literal, só com 'lead' trocado por 'paciente', e 'reconquista' não é dela. O capítulo já assume citação do manual mais adiante ('Tem uma frase do nosso manual') e o parágrafo seguinte ('Eu gosto dessas duas palavras') é ela comentando texto alheio, o que uma leitora que conhece a voz dela percebe como troca de registro. A correção é só moldura de citação, mantém o contraste 'não é um não, é' (item 1), troca 'reconquista' por 'a conversa volta', que ecoa 'a conversa voltando' e 'a conversa continua' do mesmo capítulo (repetição, item 9), e não usa travessão."
+   ]
+  },
+  {
+   "revisor": "voz",
+   "tipo": "voz",
+   "gravidade": "media",
+   "trecho": "É isso que o capítulo 11 faz, objeção por objeção: o que responder se quiser perder a paciente, por que não funciona, e o que responder se quiser continuar a conversa. Mas o princípio é um só, e é esse. Objeção se responde com pergunta.",
+   "detalhe": "Navegação de livro e moral explicada antes do fecho. Fingerprint, fecho em 3 de 3: \"nunca recapitula, nunca explica a moral\"; whitelist item 24: \"Fecho sem moral nem recapitulação\". \"Mas o princípio é um só, e é esse\" é a frase que anuncia a moral. Ela nunca refere a estrutura do que está dizendo; muda de plano com marcador curto (\"E, bom, de lá pra cá\", \"Aí vai mais uma indicação\"). A frase de 30 palavras com dois pontos e tríade (\"o que responder..., por que não funciona, e o que responder...\") é sumário de índice, não fala dela.",
+   "correcao": "No capítulo 11 eu pego uma objeção por vez. Objeção se responde com pergunta.",
+   "motivos": [
+    "A navegação entre capítulos em si é convenção do livro inteiro ('eu falo disso no capítulo 10', 'essa parte fica pro capítulo 12'), então esse lado da acusação não vale. O que vale: 'Mas o princípio é um só, e é esse' anuncia a moral antes do carimbo (item 24, fecho sem moral), e a tríade 'o que responder se quiser perder, por que não funciona, o que responder se quiser continuar' é a MESMA frase com que o capítulo 11 abre (linha 12 de 11-o-manual-de-respostas.md); a leitora lê o índice duas vezes, duas páginas de distância. A correção proposta fica no padrão de navegação em primeira pessoa do livro e deixa o carimbo sozinho antes das duas perguntas."
+   ]
+  },
+  {
+   "revisor": "voz",
+   "tipo": "voz",
+   "gravidade": "media",
+   "trecho": "Se a resposta for vaga, é cortina de fumaça, e a cortina esconde o verdadeiro motivo, que quase sempre é o mesmo: ela ainda não viu valor suficiente na consulta.",
+   "detalhe": "\"não viu valor suficiente\" é vocabulário de venda que ela não usa (\"gerar valor\" está na lista do que ela NÃO fala). A versão dela desse pensamento é concreta e está nas posições de A1: \"Eu já tinha entendido que aquilo ali resolvia o meu problema\" e, no teste de calibração, \"ela ainda não sabe se aquilo resolve o problema dela\". O capítulo já usa a forma concreta uma frase antes (\"o que a consulta resolve\") e troca pela abstrata bem no ponto que importa.",
+   "correcao": "\"Se a resposta for vaga, é cortina de fumaça. E a cortina esconde quase sempre a mesma coisa: ela ainda não sabe se a consulta resolve o problema dela.\"",
+   "motivos": [
+    "'gerar valor' está na lista explícita do fingerprint (linha 156) de palavras que ela não usa e que um modelo usaria; 'não viu valor suficiente' é a mesma família, vinda de 'falta de valor percebido' do manual (fontes/02 linha 218). O capítulo já tem a forma concreta dela duas vezes ('o que a consulta resolve', 'sem saber o que nenhuma das duas consultas resolve') e troca pela abstrata justamente na frase que fecha o diagnóstico. A correção usa a posição dela do teste de calibração, abre com 'E' (item 5), sem travessão, e o 'Não é o preço, não é o marido, não é a agenda' seguinte continua encaixando."
+   ]
+  },
+  {
+   "revisor": "voz",
+   "tipo": "voz",
+   "gravidade": "media",
+   "trecho": "Agora, se você responde \"claro que eu posso te passar mais informações sobre a consulta, antes, pra entender se a doutora vai conseguir te ajudar no seu caso ou não, como você entende que a consulta vai te ajudar?\", a conversa continua.",
+   "detalhe": "Frase de 45 palavras com o script inteiro engolido no meio, e a pancada (\"a conversa continua\") perdida no fim de uma subordinada. O capítulo já tem dois blocos :::frase e este script, que é o mais importante, ficou fora deles. Padrão micro 3 de 3: \"Frase longa de construção, depois pancada curta como complemento cortado\". Aqui a construção e a pancada estão coladas na mesma frase, e a pancada some.",
+   "correcao": "\"Agora, se você responde assim:\" seguido do script num bloco :::frase, e depois, em parágrafo próprio: \"A conversa continua. Você não escondeu o preço. Você disse que vai passar. Só não passou antes de perguntar.\"",
+   "motivos": [
+    "Frase de 42 palavras com o script principal do capítulo engolido no meio, num livro que já formata scripts em bloco :::frase (o próprio capítulo tem dois, com as perguntas de triagem). A leitora que vai copiar a resposta pro WhatsApp é prejudicada: o script mais importante do capítulo é o único que ela não consegue destacar. A correção mantém o 'Agora,' de virada (item 23), coloca a pancada 'A conversa continua.' isolada depois da frase longa (item 6) e não introduz nada novo."
+   ]
+  }
+ ],
+ "refutados": [
+  {
+   "revisor": "tell",
+   "trecho": "A objeção real é específica e detalhada. A paciente consegue explicar com clareza. E geralmente tem a ver com uma preocupação legítima: resultado, segurança, tempo.",
+   "detalhe": "Metrônomo (2.4) herdado de bullet: as três frases são os três bullets da p.6 do manual com ponto final no lugar do marcador (6, 6 e 12 palavras, sem sujeito humano nas duas primeiras). O parágrafo da cortina (linha 32) faz o mesmo com os três bullets dela, na mesma ordem e com o mesmo \"E geralmente tem a ver com\", que é o hedge do manual (\"Geralmente relacionadas\"). Média de frase do capítulo: 11,3 palavras, dp 6,6; a dela é 15,9 com dp 12. O traço rítmico principal do fingerprint é frase longa de construção seguida de pancada curta; aqui só tem pancada. Os dois parágrafos se salvam pelo que vem depois (\"Isso é real.\", \"O marido não apareceu do nada. Ele é a cortina.\"), que é ela.",
+   "motivo": "O metrônomo não se sustenta no parágrafo inteiro: a linha 30 vai 6, 6, 12, 14, 3, 15 palavras e a linha 32 vai 11, 8, 12, 22, 6, 4, que é exatamente o padrão do fingerprint (frase longa de construção e pancada curta); só as duas primeiras frases têm cheiro de bullet, e a segunda tem sujeito humano (\"A paciente consegue explicar\"), ao contrário do que o detalhe afirma. A correção ainda tira as aspas do depoimento sem o \"falou,\" do item 15, e num capítulo em que \"eu\" é a Ana, \"Eu fiz preenchimento uma vez e ficou muito artificial\" passa a ler como confissão dela. Se quiser mexer, o máximo é fundir as duas primeiras frases da linha 30 (\"A objeção real é específica, e a paciente consegue explicar com clareza o que teme.\") e deixar o resto como está."
+  },
+  {
+   "revisor": "tell",
+   "trecho": "Eu gosto dessas duas palavras porque elas descrevem o que a atendente sente e o que ela faz. Curiosidade é o que você sente quando ela diz \"vou pensar\": pensar no quê?",
+   "detalhe": "Deriva de tratamento (7.7): a mesma pessoa é \"a atendente... ela\" numa frase e \"você\" na seguinte. O capítulo abre falando com quem atende o WhatsApp (\"Se você atende WhatsApp de clínica\") e o fingerprint diz que ela chama a leitora de doutora; \"atendente\" na terceira pessoa é a única vez que o livro decide que a leitora é outra pessoa. Se a decisão do mapa de capítulos for leitora = doutora que tem atendente, o \"você\" do capítulo inteiro está errado; se for quem atende, \"a atendente... ela\" está. O parágrafo cai com o achado 1, mas a decisão de quem é \"você\" precisa ficar registrada pro capítulo 11, que é todo script.",
+   "motivo": "Não é a única vez: os capítulos 6, 7, 8 e 9 fazem o mesmo (\"a atendente, animada, emenda... e você entrou no meio\"), e o mapa de capítulos define a leitora como \"doutora que atende (ou supervisiona quem atende)\", então \"a atendente\" na terceira pessoa com \"você\" fazendo a ação é a convenção do livro, não deriva; o 7.7 do catálogo é mistura de você/tu/lhe, outra coisa. O parágrafo cai com o achado 0 de qualquer jeito, e a decisão de tratamento pro capítulo 11 é nota de projeto, não defeito deste capítulo."
+  },
+  {
+   "revisor": "fidelidade",
+   "trecho": "\"Eu fiz preenchimento uma vez e ficou muito artificial, tenho medo de acontecer de novo.\" Isso é real. Ela te contou o medo, o medo tem nome, e você pode conversar sobre ele.",
+   "detalhe": "Fala de paciente inventada. O manual de objeções (p.6) define objeção real só por características: \"São específicas e detalhadas / O lead consegue explicar claramente / Geralmente relacionadas a preocupações legítimas (resultados, segurança, tempo)\". Não existe nenhum exemplo com preenchimento artificial em nenhuma das três fontes. A regra do mapa é \"nenhum caso, número ou frase pronta que não esteja nas fontes\", e a cena/exemplo deve ser montada \"só com frases das fontes\".",
+   "motivo": "O trecho existe e a frase não está nas fontes, mas não é caso, número nem frase pronta: é uma ilustração da própria definição do manual (preocupação legítima com resultado), sem promessa nem dado. O livro já aceita linhas plausíveis fora das fontes nas cenas dos capítulos 4, 5 e 6 (\"casamento da minha irmã em novembro\", \"tem uns dois anos que eu reparo\"), e a correção proposta inventa do mesmo jeito (\"não tem tempo esse mês\") só que mais raso. Nenhuma leitora notaria ou seria prejudicada."
+  },
+  {
+   "revisor": "fidelidade",
+   "trecho": "Ela vai comparar o seu 200 com o 150 da clínica ao lado, sem saber o que nenhuma das duas consultas resolve.",
+   "detalhe": "O \"150\" não existe em nenhuma fonte. O único valor que aparece no manual é \"A consulta custa R$200.\" (p.6). A ideia de comparação vem da p.8, mas sem número: \"Responder com um número tira totalmente o foco do valor real e coloca o paciente numa comparação de preços. A pessoa vai comparar com base em algo que ela não entende\". O mapa diz que o único número disponível fora dos PDFs é \"mais de 3 mil clínicas\".",
+   "motivo": "O \"150\" é hipótese ilustrativa, não dado; o 200 vem do manual e a lógica da comparação vem da p.8. Número redondo como piada ou ilustração é whitelist item 12 (\"a fonte é ela\"), e a leitora entende na hora que é a clínica ao lado imaginária. A correção tira a imagem concreta e deixa a frase mais chapada sem ganhar fidelidade."
+  },
+  {
+   "revisor": "fidelidade",
+   "trecho": "Agora, se você responde \"claro que eu posso te passar mais informações sobre a consulta, antes, pra entender se a doutora vai conseguir te ajudar no seu caso ou não, como você entende que a consulta vai te ajudar?\", a conversa continua.",
+   "detalhe": "Script alterado. A fonte (manual de objeções p.6) diz: \"Claro que eu posso te passar mais informações sobre a consulta. Antes, para entender se a Dra vai conseguir te ajudar no seu caso ou não… como entende que a consulta vai te ajudar?\". Diferenças: \"para\" virou \"pra\"; \"como entende\" virou \"como você entende\"; a frase foi emendada em uma só. A troca \"Dra\" por \"a doutora\" é a única sancionada pelo mapa. Frase pronta tem que ser literal, e aqui ela está solta na prosa em vez de num card.",
+   "motivo": "O capítulo 10 não apresenta a frase como card (os cards literais são regra do esqueleto dos capítulos 3 a 9 e do catálogo do 11); aqui é a Ana parafraseando em prosa depois de \"se você responde\". \"Pra\" é o registro do livro inteiro (fingerprint linha 144; os cards do capítulo 11 já usam \"Pra gente\") e \"como você entende\" é a própria forma do manual de perguntas p.2. Diferença que nenhuma leitora nota e que não muda o que ela vai digitar."
+  },
+  {
+   "revisor": "fidelidade",
+   "trecho": ":::frase\nQuando você diz [objeção], o que exatamente te preocupa?\n:::",
+   "detalhe": "A frase é literal (manual p.6: \"Quando você diz [objeção], o que exatamente te preocupa?\"), mas o colchete chega na leitora sem nenhuma linha dizendo o que entra ali. No capítulo 9, \"R$ [valor]\" é autoexplicativo; \"[objeção]\" não é, porque a leitora vai repetir a palavra da paciente e o texto não diz isso. Não é pra mexer no script, é pra apresentá-lo.",
+   "motivo": "A convenção do colchete já foi ensinada no capítulo 8 (\"os dois colchetes você preenche com o que ela disse\") e reaparece em [valor] no 9 e [problema] no 11. Os dois parágrafos imediatamente anteriores nomeiam as objeções que entram ali (\"vou pensar\", \"te aviso depois\", \"vou ver com meu marido\"), então a leitora substitui sem ajuda. A linha extra não faz mal, mas não corrige defeito nenhum."
+  },
+  {
+   "revisor": "fidelidade",
+   "trecho": "E a maioria responde \"claro, fico à disposição\". Educado, tranquilo, e a conversa acabou ali. Ela não volta. Você sabe que ela não volta.",
+   "detalhe": "Duas coisas. A resposta ruim na fonte é \"Tudo bem, fico à disposição!\" (manual p.8), não \"claro, fico à disposição\". E a fonte diz \"transfere o controle para o lead — que provavelmente nunca mais vai voltar\"; o capítulo transforma \"provavelmente\" em certeza (\"Você sabe que ela não volta\"). Ambas pequenas, mas o texto está citando a fonte entre aspas.",
+   "motivo": "\"Claro, fico à disposição\" é a Ana descrevendo o que a maioria responde, não citação do manual; a citação literal (\"Tudo bem, fico à disposição!\") está no capítulo 11, linha 82, onde ela pertence. \"Ela não volta. Você sabe que ela não volta.\" é repetição sem sinônimo, pancada curta e absoluto retórico, tudo whitelist (itens 6 e 9; fingerprint linha 75). Trocar por \"provavelmente\" achata a voz e não protege ninguém."
+  },
+  {
+   "revisor": "fidelidade",
+   "trecho": "Pensa na pergunta mais comum de todas, \"quanto custa a consulta?\".",
+   "detalhe": "A fonte não diz que é a mais comum de todas. \"Quanto custa a consulta?\" é a primeira da seção \"Objeções Mais Comuns e Como Superá-las\" (manual p.6) e a primeira do bloco PREÇO (p.1). Ser a primeira da lista não é ser \"a mais comum de todas\".",
+   "motivo": "\"A mais comum de todas\" é opinião na voz dela, não caso, número nem frase pronta; a fonte a coloca em primeiro lugar tanto no bloco PREÇO da p.1 quanto na seção \"Objeções Mais Comuns\", e o touchstone do fingerprint (linha 379) trata \"quanto custa\" como a demanda padrão. Nenhuma doutora que atende WhatsApp discordaria nem seria prejudicada. \"A primeira pergunta do manual\" é mais fraco e pressupõe que a leitora está com o PDF na mão."
+  },
+  {
+   "revisor": "fidelidade",
+   "trecho": ":::cena\nELA: Ah, entendi. Vou pensar e qualquer coisa te aviso.\n:::",
+   "detalhe": "A fala da fonte é \"Vou pensar e qualquer coisa te aviso.\" (manual p.2 e p.8). O \"Ah, entendi.\" é acréscimo. O mapa pede cena \"montada só com frases das fontes\". Mínimo, mas é a primeira linha do capítulo.",
+   "motivo": "\"Ah, entendi.\" é conectivo que dá verossimilhança à cena (ela acabou de receber uma informação), sem conteúdo, promessa ou dado. As cenas dos capítulos 4, 5 e 6 já carregam linhas inteiras fora das fontes e passaram; aplicar rigor de citação a duas palavras de abertura é inconsistente com o padrão do próprio livro. Nenhuma leitora nota."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "Se você reage com ansiedade, pressa ou justificativa, você perde a paciente.",
+   "detalhe": "Eu não reconheço a minha reação nessa lista. O capítulo abriu com o erro passivo (\"fico à disposição\"), mas ansiedade, pressa e justificativa no WhatsApp têm cara de quê? Mandar três mensagens seguidas? Oferecer desconto na hora? Explicar por que a consulta é paga? Sem um exemplo eu leio como frase genérica de treinamento e não me vejo nela.",
+   "motivo": "O problema não prejudica a leitora: a instrução operativa (curiosidade e direção = perguntar em vez de esperar) é desdobrada com exemplo concreto no parágrafo seguinte, e as caras da pressa e da justificativa aparecem exatamente no formato pedido uma página adiante, no capítulo 11 (\"Temos formas de parcelamento\", \"Esse valor garante um atendimento personalizado\", \"o valor é abatido do procedimento\"). Inserir três mensagens inventadas aqui duplicaria o catálogo e criaria uma tríade de exemplos num capítulo de 644 palavras, o tell que o detector já marca. Na dúvida, refuto; se o achado do revisor de voz sobre esse parágrafo for aplicado (marcar como citação do manual), a abstração passa a ler como citação, não como frase dela."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "Quando a gente encara a objeção como oportunidade, e não como problema, a resistência vira confiança.",
+   "detalhe": "Ela mesma admite na linha seguinte que soa como frase de treinamento, e eu concordo: pulei. A parte que me convenceu foi a de depois (\"repara no que vem depois de 'vou pensar' quando você faz uma pergunta\"). A frase de efeito só atrasa o argumento bom.",
+   "motivo": "O trecho está protegido: \"como oportunidade, e não como problema\" é o contraste \"X, não Y\" (whitelist 1), \"Eu sei que isso soa como frase de treinamento\" é a concessão de humildade colada na prescrição (item 14, 3 de 3, e a auto-depreciação factual de A3), e \"Mas repara\" é o \"Mas\" inicial (item 5); dizer a frase, admitir que é frase e emendar no concreto é o movimento dela (T2: \"É óbvio que eu tô sendo muito irônica..., mas\"). A leitora pulou uma frase e chegou no argumento bom sem prejuízo. Cortar a frase e a desculpa achata justamente o que faz a linha do manual virar dela; se algum revisor quiser mexer aí, o problema é o vocabulário \"resistência vira confiança\", que é outro achado, não este."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Se você atende WhatsApp de clínica, você já leu essa mensagem mais vezes do que gostaria. E a maioria responde \"claro, fico à disposição\". Educado, tranquilo, e a conversa acabou ali.",
+   "detalhe": "Abertura sem caso próprio, sem aviso de que vai contar, sem spoiler. Whitelist item 7 apagado: \"Caso pessoal em primeira pessoa como abertura, com aviso de que vai contar: 3 de 3 no aviso, 2 de 3 no caso próprio\" e dose recomendada \"Caso pessoal em primeira pessoa: 1 por capítulo, abrindo. Com aviso\". O capítulo inteiro fala de \"vou pensar\" e ela TEM esse caso: A1 termina com \"a gente tá com muita gente indo pra casa pensar. Diagnóstico feito.\" e a objeção dela nasceu no corredor (\"Ter saído, ter esperado, ter pensado. Falei, cara, e se esse negócio for muito caro?\"). O coach de A3 é a tese do capítulo (devolveu pergunta em vez de técnica). Sem caso, somem junto o \"e aí\" (0), o \"aqui\" (0), o \"falou,\" (0) e o \"eu\" protagonista (6 ocorrências, 8 por mil, contra 46 por mil dela). O leitor fica só com o \"você\" (23, 32 por mil), que é o modo prescrição dela sem o modo caso que vem antes.",
+   "motivo": "A whitelist protege o caso quando ele existe; não obriga a inserir um em todo capítulo, e o próprio fingerprint registra que A2 (registro sério) não tem caso próprio e que 'o livro alterna'. A correção proposta repete quase palavra por palavra o capítulo 1 ('Não fazia a menor ideia', 'a minha cabeça já tinha ido embora', 'Falei, cara, e se esse negócio for muito caro?'), e o capítulo 12 já retoma a salinha uma segunda vez ('dez minutinhos numa área de espera, eu fui pra casa pensar sem sair da clínica'); uma terceira volta é o que a leitora notaria. Os capítulos 2 a 11 também não abrem com caso, então o 10 está dentro da convenção do livro e a métrica de 'eu' baixa é a de um capítulo curto de conceito, não um tell."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Eu quero te propor outra leitura dessa mensagem.",
+   "detalhe": "\"propor outra leitura\" é registro de ensaio, um degrau acima do 4 de 10 do livro. Ela anuncia virada com \"E aqui vem um plot twist interessante\" (A1) ou \"E o plot twist é que\" (A2), whitelist item 10, dose 1 a 2 por capítulo, e o capítulo tem zero. A reviravolta aqui (\"vou pensar\" não é um não, é a conversa voltando) é exatamente o tipo de coisa que ela chama de plot twist.",
+   "motivo": "'Eu quero te propor outra leitura' é um degrau acima do registro dela, mas é da mesma família de 'O que eu quero te mostrar' (cap. 1) e 'eu quero te passar' (cap. 2), e nenhuma leitora tropeça nisso. Enfiar 'plot twist' aqui é preencher cota: em A1/A2 ela usa a expressão pra virada dentro de história contada, não pra reframe de conceito, e o fingerprint avisa que o erro de quem 'faz a Ana' é encher de muleta; num capítulo de registro sério isso vira tell maior do que o que corrige."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Eu sei que isso soa como frase de treinamento. Mas repara no que vem depois de \"vou pensar\" quando você faz uma pergunta em vez de liberar a paciente.",
+   "detalhe": "O aparte está certo e é dela (parente do \"É óbvio que eu tô sendo muito irônica e exagerada aqui\"), mas o capítulo tem zero muleta oral em 726 palavras: 0 \"tá?\", 0 \"né\", 0 \"sabe?\", 0 \"enfim\", 0 \"olha\", 0 \"na verdade\". Whitelist item 11. A dose dela é rara (1 a 2 por mil), então zero num capítulo curto não é crime, mas este é o único lugar do capítulo onde a muleta cairia natural, e o fingerprint diz que \"tá?\" vem \"sempre depois de aparte ou de aviso\". Também não tem nenhuma palavra com sabor (item 20, item 35): o registro ficou uniforme, e \"Editor que uniformiza o registro apaga a Ana\".",
+   "motivo": "A dose recomendada é 2 'tá?' por 2.000 palavras; em 726 palavras a expectativa é 0,7, então zero está dentro da dose, e a própria acusação admite que 'não é crime'. Nenhuma leitora nota a ausência de uma muleta oral, e a lacuna número 1 do fingerprint é justamente que não se sabe se ela mantém o 'tá?' quando escreve. O trecho já tem o aparte na voz dela ('Eu sei que isso soa como frase de treinamento'), que é o que importa."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "A cortina de fumaça é vaga e genérica: \"vou pensar\", \"te aviso depois\". Ela surge de repente no final da conversa.",
+   "detalhe": "\"surge\" e o par \"vaga e genérica\" são manual (fontes/02). Ela diz \"aparece\", \"do nada\" (o próprio capítulo usa \"não apareceu do nada\" duas frases depois, que é a forma dela). O adjetivo duplo sinônimo (\"vaga e genérica\", e antes \"específica e detalhada\") não é hábito dela; ela repete a mesma palavra, não empilha sinônimo.",
+   "motivo": "Os pares 'específica e detalhada' e 'vaga e genérica' vêm dos bullets do manual, mas a seção 'Dois tipos' é explicitamente a taxonomia do manual e o capítulo traduz cada bullet na voz dela logo em seguida ('Repara no de repente', 'O marido não apareceu do nada. Ele é a cortina.'). A correção proposta quebra a referência: troca 'surge de repente' por 'Aparece do nada' e deixa pendurado o 'Repara no \"de repente\"' da frase seguinte, além de antecipar 'tem nome', que é o fecho do parágrafo ('o medo tem nome'). Dois adjetivos de manual numa lista de tipos não são coisa que a leitora note."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "E geralmente tem a ver com uma preocupação legítima: resultado, segurança, tempo.",
+   "detalhe": "\"preocupação legítima\" é registro jurídico/de manual. Ela chama medo de medo: \"eu sabia que ia levar facada\", \"vão arrancar o couro aqui de mim\". O capítulo acerta na frase seguinte (\"Ela te contou o medo, o medo tem nome\") e a frase anterior contradiz o tom.",
+   "motivo": "'preocupação legítima' vem do bullet do manual, mas não está na lista de vocabulário que ela não usa e a frase seguinte já faz a tradução pra 'medo' no tom dela ('Ela te contou o medo, o medo tem nome'). A correção proposta cria 'medo da segurança' e 'medo do tempo', que não fazem sentido em português corrente (ninguém tem medo de segurança), e emendaria quatro 'medo' em três frases, o que aqui já não é repetição de ênfase, é ruído. Gravidade baixa, leitora não nota, correção piora: refutado."
+  }
+ ],
+ "cego": {
+  "veredito": "ia",
+  "confianca": 68,
+  "pistas": [
+   {
+    "trecho": "Você não escondeu o preço. Você disse que vai passar. Só não passou antes de perguntar.",
+    "pista": "Tríade de frases curtas em anáfora, com a terceira fechando em torção. Esse ritmo aparece de novo em \"Não é o preço, não é o marido, não é a agenda\" e em \"Ela não volta. Você sabe que ela não volta.\" Repetição do mesmo recurso de fechamento em capítulo curto é marca de gerador, não de quem fala assim de improviso."
+   },
+   {
+    "trecho": "Eu sei que isso soa como frase de treinamento. Mas repara no que vem depois de \"vou pensar\" quando você faz uma pergunta em vez de liberar a paciente.",
+    "pista": "Antecipação da objeção do leitor contra o próprio texto (\"sei que soa como frase de treinamento, mas...\"). É um movimento padrão de humanização: o texto reconhece o clichê pra se absolver dele em vez de simplesmente não usar o clichê."
+   },
+   {
+    "trecho": "Curiosidade e direção. Eu gosto dessas duas palavras porque elas descrevem o que a atendente sente e o que ela faz.",
+    "pista": "Metacomentário sobre as próprias palavras-chave, seguido de definição simétrica (curiosidade = o que sente / direção = o que faz). Paralelismo limpo demais; pessoa escrevendo de memória de aula raramente organiza o par com essa simetria."
+   },
+   {
+    "trecho": "Quantas vezes essa semana você respondeu \"fico à disposição\"? E o que aconteceu depois?",
+    "pista": "Fechamento com pergunta reflexiva de duas partes, sem gancho pra nada concreto. É o encerramento mais frequente de capítulo gerado com instrução de \"terminar com reflexão\". O capítulo inteiro não tem nenhuma digressão, nenhum caso com nome, data ou detalhe sujo; só os números redondos 200 e 150."
+   },
+   {
+    "trecho": "O marido não apareceu do nada. Ele é a cortina.",
+    "pista": "Fragmento de punchline de duas palavras montado em cima da metáfora já introduzida (cortina de fumaça), mesmo padrão de \"E isso é a conversa voltando.\" A oralidade (\"repara\", \"pensa na\", \"a gente\") está presente, mas distribuída com regularidade demais entre os parágrafos, como se fosse cota, não hábito."
+   }
+  ]
+ }
+}

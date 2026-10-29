@@ -1,0 +1,140 @@
+{
+  "arquivo": "manuscrito/02-vender-o-que-ela-ja-quer-comprar.md",
+  "palavras": 1003,
+  "paragrafos": 20,
+  "frases": 56,
+  "mascarado": {
+    "frontmatter": 1,
+    "blocos_script": 3,
+    "marcadores_bloco": 10,
+    "citacoes": 13,
+    "titulos_curtos": 3
+  },
+  "avisos": [],
+  "absolvidos_pelo_corpus": [],
+  "amostra_pequena": false,
+  "score": 11,
+  "faixa": "limpo (soa gente)",
+  "pontos": 6.0,
+  "densidade": 6.0,
+  "formula": "densidade = pontos / max(palavras, piso_palavras) * 1000; score = 100 * (1 - exp(-densidade / k)), k = 50, piso_palavras = 300 (texto curto não explode com um achado só). Nota por categoria usa k_categoria sobre a densidade só daquela categoria.",
+  "categorias": {
+    "conteudo": {
+      "rotulo": "Conteúdo e inflação",
+      "achados": 1,
+      "pontos": 2.5,
+      "densidade": 2.5,
+      "nota": 15
+    },
+    "linguagem": {
+      "rotulo": "Linguagem e vocabulário",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "estrutura": {
+      "rotulo": "Estrutura e ritmo",
+      "achados": 1,
+      "pontos": 2.5,
+      "densidade": 2.5,
+      "nota": 15
+    },
+    "comunicacao": {
+      "rotulo": "Sobras de chatbot",
+      "achados": 1,
+      "pontos": 1,
+      "densidade": 1.0,
+      "nota": 6
+    },
+    "meta": {
+      "rotulo": "Uniformidade de ritmo (estatística)",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "calques": {
+      "rotulo": "Calques do inglês e burocratês",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    }
+  },
+  "metricas": {
+    "frases_media_palavras": 17.9,
+    "frases_desvio_padrao": 10.4,
+    "frases_cv": 0.58,
+    "paragrafos": 20,
+    "paragrafos_mediana_palavras": 46.0,
+    "paragrafos_proporcao_mesmo_tamanho": 0.56,
+    "ritmo_entre_paragrafos_desvio": 0.186,
+    "pontuacao_cv": 0.62,
+    "ttr": 0.358,
+    "frases_mesmo_inicio_proporcao": 0.0,
+    "travessoes": 0,
+    "travessoes_por_mil": 0.0,
+    "dois_pontos": 8,
+    "dois_pontos_por_mil": 7.98,
+    "itens_lista": 0,
+    "proporcao_linhas_em_lista": 0.0,
+    "negritos": 0,
+    "triades": 0,
+    "triades_por_mil": 0.0,
+    "contrastes": 0,
+    "paragrafos_terminando_em_pergunta": 1,
+    "fechos_grandiosos": 0,
+    "hedges": 0,
+    "hedges_por_mil": 0.0
+  },
+  "achados": [
+    {
+      "id": "ct_momento_decisivo",
+      "categoria": "conteudo",
+      "subtipo": "inflacao",
+      "gravidade": "media",
+      "peso": 2.5,
+      "texto": "mudar tudo",
+      "inicio": 1961,
+      "fim": 1971,
+      "explicacao": "Significância inflada.",
+      "sugestao": "diga o que aconteceu",
+      "contribuicao": 2.5,
+      "linha": 24,
+      "trecho": "ia que mudar de cidade, teria que mudar de região, teria que mudar meu tráfego, teria que «mudar tudo»."
+    },
+    {
+      "id": "cb_em_primeiro_lugar_e",
+      "categoria": "comunicacao",
+      "subtipo": "chatbot",
+      "gravidade": "baixa",
+      "peso": 1,
+      "texto": "Antes de tudo",
+      "inicio": 3499,
+      "fim": 3512,
+      "explicacao": "Aquecimento de apresentador.",
+      "sugestao": "corte",
+      "contribuicao": 1,
+      "linha": 39,
+      "trecho": "«Antes de tudo», uma coisa sobre o “você” deste livro."
+    },
+    {
+      "id": "es_x_e_o_novo_y",
+      "categoria": "estrutura",
+      "subtipo": "aforismo",
+      "gravidade": "media",
+      "peso": 2.5,
+      "texto": "Empatia é a base do atendimento",
+      "inicio": 4978,
+      "fim": 5009,
+      "explicacao": "Fórmula de aforismo ('X é o novo Y', 'X é a moeda de Y').",
+      "sugestao": "diga a afirmação concreta por trás",
+      "contribuicao": 2.5,
+      "linha": 58,
+      "trecho": "» «Empatia é a base do atendimento», sabe, e quando eu digo “empatia” é a paciente sentir que você está tentando entender o p"
+    }
+  ],
+  "achados_ocultos": 0,
+  "min_gravidade": "baixa"
+}

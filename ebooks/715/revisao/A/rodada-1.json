@@ -1,0 +1,95 @@
+{
+ "capitulo": "/Users/saviomoraes/reconecta/ebooks/715/manuscrito/A-cola-de-uma-pagina.md",
+ "rodada": 1,
+ "brutos": 8,
+ "confirmados_n": 5,
+ "altas_confirmadas": 0,
+ "por_revisor": {
+  "fidelidade": {
+   "brutos": 3,
+   "confirmados": 2
+  },
+  "leitora": {
+   "brutos": 5,
+   "confirmados": 3
+  }
+ },
+ "confirmados": [
+  {
+   "revisor": "fidelidade",
+   "tipo": "fidelidade",
+   "gravidade": "media",
+   "trecho": "Claro que posso te passar valores! Mas antes, até pra entender se a doutora vai conseguir te ajudar no seu caso ou não, o que faz você buscar por isso hoje?",
+   "detalhe": "Frase pronta não é literal. Framework p.2 diz: \"Claro que posso te passar valores e mais informações sobre o [procedimento/consulta]! Mas antes, até pra entender se a Dra [Nome] vai conseguir te ajudar no seu caso ou não… o que faz você buscar por [procedimento/consulta] hoje?\". O capítulo cortou \"e mais informações sobre o [procedimento/consulta]\" e trocou o placeholder \"[procedimento/consulta]\" por \"isso\", que numa cola de referência deixa a atendente sem o gancho do que a paciente pediu. \"Dra [Nome]\" virar \"a doutora\" está coberto pela regra do mapa.",
+   "correcao": "Claro que posso te passar valores e mais informações sobre o [procedimento/consulta]! Mas antes, até pra entender se a doutora vai conseguir te ajudar no seu caso ou não... o que faz você buscar por [procedimento/consulta] hoje?",
+   "motivos": [
+    "Confirmado. O mapa (linha 31) manda card 'frase pronta' ser texto literal do PDF, e a cola cortou 'e mais informações sobre o [procedimento/consulta]' e trocou o placeholder por 'isso', divergindo tanto do framework p.2 quanto do card que o próprio livro ensina no cap. 3 (linha 48). Como a cola é a folha que fica do lado do celular, 'buscar por isso' sem antecedente tira da atendente o gancho do que a paciente pediu; a whitelist só protege hábitos orais da Ana, não card de PDF. A correção proposta serve: sem travessão, reticências já usadas nos cards dos passos 4 e 5, placeholder entre colchetes como o resto da cola."
+   ]
+  },
+  {
+   "revisor": "fidelidade",
+   "tipo": "fidelidade",
+   "gravidade": "baixa",
+   "trecho": "Posso estar enganada, mas parece que isso não começou agora. Antes não parecia ser uma prioridade, e agora parece ser. Aconteceu alguma coisa?",
+   "detalhe": "Reescrita leve de frase pronta. Framework p.4 diz: \"Posso estar enganada, mas parece que [problema] não começou agora. E antes não parecia ser uma prioridade, mas agora parece ser. Aconteceu alguma coisa?\". Placeholder \"[problema]\" virou \"isso\" e a conjunção \"E antes ... mas agora\" virou \"Antes ..., e agora\". Sentido preservado, mas não é literal, e o placeholder [problema] ajuda a atendente a repetir a palavra da paciente.",
+   "correcao": "Posso estar enganada, mas parece que [problema] não começou agora. E antes não parecia ser uma prioridade, mas agora parece ser. Aconteceu alguma coisa?",
+   "motivos": [
+    "Confirmado. O cap. 5 (linha 33) traz a frase literal com '[problema]' e 'E antes... mas agora', e a cola entrega uma mistura que não bate com nenhuma das duas variantes do framework p.4 (a segunda variante tem 'isso', mas não é ela). Uma leitora que estudou o card do cap. 5 e imprime a cola vê duas versões da mesma frase pronta, e o '[problema]' carrega justamente o ensino do passo 2 (repetir a palavra dela), que a cola já usa no card do passo 6. A correção proposta é o texto do PDF, sem tell nem travessão."
+   ]
+  },
+  {
+   "revisor": "leitora",
+   "tipo": "leitora",
+   "gravidade": "media",
+   "trecho": "«7. Fechamento.» Um horário, depois o investimento e o PIX, depois o comprovante. Nessa ordem.",
+   "detalhe": "O cabeçalho promete três mensagens em ordem e a cola só entrega a primeira (o horário). Eu estou com o celular na mão, ela acabou de dizer \"pode ser terça\", e agora preciso escrever a mensagem do investimento e do PIX e depois pedir o comprovante. É justamente aqui que eu abriria a cola e ela me larga na metade. O capítulo 9 (mapa, bloco 9) tem as três etapas; a cola deveria ter as três frases, mesmo que curtas.",
+   "correcao": "Depois do card do horário, no mesmo formato:\n\n:::frase\nPerfeito. O investimento da consulta é de R$ [valor]. Posso te enviar nossa chave PIX agora para confirmarmos seu horário?\n:::\n\nA chave PIX vai numa mensagem separada, pra ela copiar e colar.\n\n:::frase\nConsegue me enviar o comprovante agora para já confirmarmos seu horário na agenda?\n:::\n\nSucesso quando ela confirma sem hesitar, paga na hora e pergunta onde fica.",
+   "motivos": [
+    "O cabeçalho do bloco 7 promete três mensagens e a cola entrega só a do horário; o framework (fonte declarada no frontmatter, Etapa 7, Passos 2 e 3) e o capítulo 9 têm as outras duas em texto literal, então não há nada a inventar. É o ponto exato em que a leitora abre a cola com o celular na mão, e nenhum item da whitelist protege uma omissão funcional. A correção proposta serve; só uso o literal do framework, sem frase nova."
+   ]
+  },
+  {
+   "revisor": "leitora",
+   "tipo": "leitora",
+   "gravidade": "media",
+   "trecho": "«Objeção.» Nunca se responde com informação. Se responde com pergunta.\n\n:::frase\nQuando você diz [objeção], o que exatamente te preocupa?\n:::",
+   "detalhe": "Todos os outros sete blocos têm a linha \"Avança quando...\". Este é o único que termina no card. Ela responde \"me preocupa gastar e não gostar do resultado\", e aí? Volto pro passo em que eu estava? Refaço a qualificação? Vou pro horário? A cola me dá a pergunta e não me diz o que fazer com a resposta, e objeção é o momento de mais ansiedade da conversa.",
+   "correcao": "Fechar o bloco com:\n\nResposta específica, você conversa sobre ela. Resposta vaga é cortina: algum passo anterior ficou raso. Volta pra ele, refaz a pergunta, e só oferece horário de novo quando o sinal daquele passo aparecer. As respostas prontas, objeção por objeção, estão no capítulo 11.",
+   "motivos": [
+    "O bloco Objeção é o único sem a linha de saída, e a cola é feita pra ser usada sozinha, longe do capítulo 10. O livro já responde o que fazer (cap. 10: resposta vaga é cortina, algum passo anterior ficou raso; cap. 11: quase toda objeção é um passo que ficou pra trás pedindo pra ser refeito), então falta só trazer isso pra cola. A correção proposta erra o alvo: manda voltar pro passo em que a objeção apareceu, que quase sempre é o fechamento, quando a doutrina do livro manda voltar pro passo que ficou raso."
+   ]
+  },
+  {
+   "revisor": "leitora",
+   "tipo": "leitora",
+   "gravidade": "baixa",
+   "trecho": "Claro que posso te passar valores! Mas antes, até pra entender se a doutora vai conseguir te ajudar no seu caso ou não, o que faz você buscar por isso hoje?",
+   "detalhe": "A frase pressupõe que a primeira mensagem dela foi de preço. É a maioria, mas não é todas: chega \"vocês fazem preenchimento labial?\" ou \"queria uma avaliação\". Aí a primeira metade da frase (\"claro que posso te passar valores\") não encaixa e eu não sei se adapto ou se a frase serve só pra quem pediu valor. A cola não sinaliza isso.",
+   "correcao": "Uma linha depois do card do passo 1, antes de \"Avança quando\":\n\nEssa é pra quando ela abre pedindo preço, que é a maioria. Se abriu de outro jeito, as outras oito aberturas estão no Anexo B.",
+   "motivos": [
+    "A frase do passo 1 só encaixa quando ela abriu pedindo valor; o Anexo B tem oito aberturas pra quando não abriu assim, e a cola não avisa. Quem copia literal e recebe \"queria uma avaliação\" trava, e isso não é tell de estilo protegido pela whitelist. A correção proposta é boa (uma linha, sem frase nova); abaixo só o texto concreto, no ritmo dela."
+   ]
+  }
+ ],
+ "refutados": [
+  {
+   "revisor": "fidelidade",
+   "trecho": "fontes: \"fontes/01-framework-715.md; fontes/03-manual-perguntas.md\"",
+   "detalhe": "O bloco \"«Objeção.»\" e a frase \"Quando você diz [objeção], o que exatamente te preocupa?\" vêm do Manual de Objeções p.6 (\"Para identifica se é uma cortina de fumaça, pergunte: 'Quando você diz [objeção], o que exatamente te preocupa?'\"), que não está listado no frontmatter. A rastreabilidade do anexo fica incompleta.",
+   "motivo": "Refutado pelo critério 3. O campo 'fontes' do frontmatter não é renderizado (zero ocorrências em render/livro.html e render/preview.html), então a leitora nunca vê essa lista; é metadado interno de rastreabilidade do pipeline, não defeito de fidelidade no texto. A atribuição ao Manual de Objeções p.6 está correta e acrescentar o arquivo é faxina inofensiva, mas não é achado que prejudique ou seja notado por uma leitora real."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "Avança quando ela responde com mensagem mais longa e detalhada.",
+   "detalhe": "A cola inteira só diz o que fazer quando o sinal aparece. Na vida real, o que me faz abrir a cola é o sinal não aparecer: ela responde \"quero botox, quanto é?\" em quatro palavras e pronto. Eu fico entre avançar sem sinal (o que o livro diz pra não fazer) e não saber como ficar no passo. Uma linha geral no topo ou no rodapé resolveria pra todos os passos sem inchar a página.",
+   "motivo": "O subtítulo declara o escopo da cola (sete passos, uma pergunta por passo, o sinal pra avançar) e o caso citado, \"quero botox, quanto é?\", é a mensagem de abertura, que o card do passo 1 responde exatamente. Quando o sinal não vem depois da pergunta (\"só quero o preço\"), isso é objeção, e a cola já tem o bloco Objeção no rodapé pra isso. A regra proposta (\"faz outra pergunta do mesmo passo\") não está escrita nas fontes desse jeito, e o framework até lista \"muitas perguntas em sequência\" como erro; na dúvida, não prescrevo doutrina nova num anexo."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "Por isso, já sei que a doutora vai te ajudar com o [problema] e parar de se sentir [como está se sentindo].",
+   "detalhe": "Cola é pra copiar e colar trocando o colchete. Com \"o [problema]\" fixo, quando o problema é \"flacidez\" ou \"olheira\" sai \"com o flacidez\". Coisa pequena, mas é o tipo de erro que aparece na tela da paciente porque eu copiei literal, que é o que a cola me pede pra fazer.",
+   "motivo": "O \"com o [problema]\" vem literal do framework (linha 283) e é o mesmo texto do capítulo 8; mudar só na cola faz a cola divergir do capítulo que ela resume, e o próprio livro já ensina (cap. 8) que o colchete absorve a palavra dela com o que vier junto (\"com essa região do queixo\"). Uma falante nativa preenchendo um modelo no WhatsApp ajusta o artigo sem pensar, como faz em toda mensagem; \"com o flacidez\" não é erro que uma leitora real produza. Se um dia for mexer, mexer nos três lugares de uma vez (framework citado, cap. 8 e cola), não só aqui."
+  }
+ ],
+ "cego": null
+}

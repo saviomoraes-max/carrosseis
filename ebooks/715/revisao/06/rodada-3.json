@@ -1,0 +1,86 @@
+{
+  "rodada": 3,
+  "data": "2026-09-09",
+  "lente": "corpus de fala da autora (80.938 palavras), 2a leva",
+  "juri": "opus-5",
+  "brutos": 9,
+  "confirmados_n": 6,
+  "altas_confirmadas": 5,
+  "aparado_por_colisao": "fala do 'só ela se convence' saiu: colide com o bloco 05",
+  "resumo": "Garimpei o corpus (80.938 palavras) com ~30 buscas em torno de qualificacao, se qualificar, convencer, verbalizar, declarar, valor na conversa, argumentar, compromisso, disponibilidade/agenda, pedir pela consulta, presumir, bastao, emocao, salinha e a propria frase do script. O bloco esta bem ancorado nas fontes: o passo 4 do framework, as cinco perguntas do manual e o caso da salinha conferem linha a linha. O que sobra de prosa composta e o miolo explicativo, e ai o corpus tem seis passagens que dizem a mesma coisa melhor e mais concreta. As duas mais fortes: (1) \"a unica pessoa capaz de convencer alguem a fazer alguma coisa e ela mesma\" e a doutrina inteira do passo 4 dita por ela, e hoje o livro resolve isso com uma frase de copy (\"ja vendeu a consulta pra ela mesma\"); (2) \"se a pessoa nao verbalizar isso, qualquer coisa que eu falar depois vai ser uma solucao para um problema que ela nao e tao grave assim\" explica a leitura negativa que o livro so afirma. Achados que nao viraram troca mas ficam registrados pro editor: no corpus (linha 1782-1790) tem uma paciente real levando a pergunta de qualificacao cedo demais e devolvendo \"pode te me ajudar o que? Nao, e por isso que eu to entrando em contato para saber como que vai me ajudar\", que e a leitura negativa dita por uma lead de verdade, mas usar isso obrigaria a abrir um caso novo dentro do capitulo; e a linha 3348 (\"a melhor forma de fazer isso e sempre resgatando o motivo que levou ela ate a clinica\") serviria pro \"com tudo o que falamos\", so que no corpus ela esta falando de followup pos-consulta, entao a transferencia muda o contexto e eu deixei de fora. Uma correcao de precisao que nao e caso de fonte: o bloco diz que se qualificar demais aparece \"na conexao, aqui na qualificacao e de novo na transicao\", mas o framework tambem lista o erro na Etapa 6, Apresentacao (\"Qualificar demais a consulta na intencao de agregar valor\", p.7-8). O superlativo \"o erro que mais volta no material\" continua verdadeiro, e a enumeracao e que esta incompleta. Duas afirmacoes ficaram sem lastro nenhum, ambas leves.",
+  "confirmados": [
+    {
+      "tipo": "troca",
+      "gravidade": "alta",
+      "trecho": "Você não apresentou nada ainda, gente. E a paciente já vendeu a consulta pra ela mesma.",
+      "fala_dela": "As pessoas elas só vão confiar naquilo que elas entendem e a única pessoa capaz de convencer alguém a fazer alguma coisa é ela mesma [...] Qualquer coisa que eu falar não vai ser, não vai fazer sentido para ela se ela não falar junto comigo, entendeu?",
+      "aplicado": "Então lê a resposta dela de novo. Ela acabou de escrever, com as palavras dela, o que a consulta é. A doutora vai olhar, vai dizer o que dá pra fazer, antes de novembro, pra ela não se esconder nas fotos. Você não apresentou nada ainda, gente. E a única pessoa capaz de convencer alguém a fazer alguma coisa é ela mesma. Qualquer coisa que eu falar não vai fazer sentido para ela se ela não falar junto comigo, entendeu?",
+      "cetico": "Grep confirma as duas falas literais e em turnos consecutivos (corpus linhas 2328 e 2330), e o contexto 2320-2330 é exatamente sobre construir figura de confiança e sobre quem convence quem, que é a doutrina do passo 4. O trecho_livro existe igual na linha 17 e a proposta não contradiz nada: a linha 51 já diz 'a paciente estava se convencendo sozinha' e a linha 19 já diz 'não precisava ter tido processo de convencimento nenhum'. Um único 'entendeu?' num parágrafo que hoje não tem nenhum marcador não é empilhamento, e a virada pro 'eu' emenda bem com o 'Eu já estive do lado de lá' que abre o parágrafo seguinte."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "alta",
+      "trecho": "Repara na ordem. Primeiro ela declara, depois você oferece, né? O caminho contrário é oferecer primeiro e esperar a paciente se encaixar na oferta e aí ela escuta uma consulta genérica e pensa: “será que isso é pra mim?” Agora, se ela declara antes, não tem esse “será”. A consulta que você vai apresentar é a que ela acabou de descrever.",
+      "fala_dela": "acaba existindo acontecendo quando a gente aprofunda ou entende ela, a pessoa verbaliza o problema que ela tá passando e a gente oferece o problema dela resolvido [...] É muito difícil a gente acertar a resposta que a pessoa quer receber / Agora, se ela falar que tipo de resposta ela quer receber, fica muito mais simples",
+      "aplicado": "Repara na ordem. A pessoa verbaliza o problema que ela tá passando e a gente oferece o problema dela resolvido, né? O caminho contrário é oferecer primeiro e esperar a paciente se encaixar na oferta e aí ela escuta uma consulta genérica e pensa: “será que isso é pra mim?” É muito difícil a gente acertar a resposta que a pessoa quer receber. Agora, se ela falar que tipo de resposta ela quer receber, fica muito mais simples. A consulta que você vai apresentar é a que ela acabou de descrever.",
+      "cetico": "As quatro falas são literais (corpus 1992, 5684, 5686) e dizem a mesma coisa que o trecho: verbalizar antes, oferecer depois. Só que a proposta desarruma o parágrafo: ela deixa 'A consulta que você vai apresentar é a que ela acabou de descrever' logo depois do 'será que isso é pra mim?', resolve a objeção, e aí volta pro problema ('é muito difícil acertar a resposta') pra resolver de novo. Devolvo com a ordem consertada, mantendo a troca de fonte intacta."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "alta",
+      "trecho": "E quem comete não faz por mal, sabe? A intenção é aumentar o valor percebido.",
+      "fala_dela": "chega a ser até automático essa coisa da gente qualificar a pessoa, né? [...] Se qualificar na professora, na verdade chega a ser automático mesmo, ainda mais quando a gente gosta do trabalho da doutora ou de onde a gente trabalha, né?",
+      "aplicado": "O segundo é o erro que mais volta no material, porque se qualificar demais aparece lá na conexão, aqui na qualificação, de novo na transição e ainda na apresentação. E quem comete não faz por mal, sabe? Chega a ser automático mesmo, ainda mais quando a gente gosta do trabalho da doutora ou de onde a gente trabalha. A paciente acabou de dizer que quer a consulta, e a atendente, toda animada, emenda: “e a doutora é ótima, os casos dela são perfeitos, olha esse caso que lindo”. Parou. A paciente estava se convencendo sozinha e você entrou no meio pra convencer.",
+      "cetico": "Fala literal no corpus 800 e 802, e ela está falando de se qualificar na doutora, mesmo assunto do trecho. Conferi também a mudança que a proposta faz sem avisar, o acréscimo de 'e ainda na apresentação': procede, o framework repete o erro na Etapa 6 (linhas 294 e 306), então não é invenção. O único defeito é (5): 'não faz por mal, sabe?' seguido de 'trabalha, né?' são dois marcadores em frases coladas; tirei o 'né?' final e a fala dela continua literal."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "alta",
+      "trecho": "Ela sente a mudança de tom na hora.",
+      "fala_dela": "Quando a gente qualifica a doutora, eh, todas as informações que a gente coloca, elas entram, se fosse falado, né? / Entraria pro outro sairia pro outro / Então, é, nem elas nem chegam a ser avaliadas, sabe?",
+      "aplicado": "Parou. A paciente estava se convencendo sozinha e você entrou no meio pra convencer. E quando a gente qualifica a doutora, todas as informações que a gente coloca nem chegam a ser avaliadas.",
+      "cetico": "Falas literais no corpus 724, 726 e 728, e o contexto imediatamente acima (linhas 714 a 722) é literalmente um script de credenciais da doutora, ou seja, ela está falando do mesmo erro que o bloco descreve. É verdade que o mecanismo muda (o livro diz que a paciente percebe o tom, ela diz que a informação nem é avaliada), mas é a mesma tese com lastro em vez de sem, e 'sente a mudança de tom' não existe em lugar nenhum das fontes. Falha só (5): o parágrafo já termina uma frase com 'sabe?' no 'não faz por mal, sabe?', então tirei o segundo."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "alta",
+      "trecho": "As duas aparecem pelo mesmo motivo: a gente não foi fundo no problema, e ela nunca chegou a contar por que foi procurar a consulta.",
+      "fala_dela": "Porque se a pessoa não verbalizar isso, qualquer coisa que eu falar depois vai ser uma solução para um problema que ela não é tão grave assim, não é tão sério para ela",
+      "aplicado": "A leitura negativa do passo quatro tem duas frases: “ainda não sei se o meu problema vai ser resolvido” e “eu só quero fazer o procedimento tal”. As duas aparecem pelo mesmo motivo: a gente não foi fundo no problema, e ela nunca chegou a contar por que foi procurar a consulta. Porque se a pessoa não verbalizar isso, qualquer coisa que eu falar depois vai ser uma solução para um problema que, pra ela, não é tão grave assim, não é tão sério para ela. Então, se ela chega no passo quatro e ainda fala em procedimento, é porque o passo dois ficou raso, ou o três. Volta.",
+      "cetico": "Fala literal no corpus 2302, e o contexto 2294 a 2300 é exatamente sobre por que importa saber o que motivou a pessoa, que é o mesmo motivo que o trecho do livro dá. Encaixa sem quebrar nada: entra entre o motivo e o 'Então, se ela chega no passo quatro'. Só reparei o tropeço de transcrição 'para um problema que ela não é tão grave assim', que sai como erro de português impresso; o manuscrito já limpa fala dela assim (compare a linha 19 com fontes/voz/amostra-fala-analuiza.txt 63-65)."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "media",
+      "trecho": "E quando ela pergunta “e a agenda, como funciona?” antes de você oferecer, o passo quatro acabou com nota dez.",
+      "fala_dela": "Eh, eu sinto que muitas vezes eu perdia de andamentos porque eu passei o Pix sem a pessoa pedir pelo Pix ou sem a pessoa pedir pela consulta, sabe?",
+      "aplicado": "Eu sinto que muitas vezes eu perdia agendamentos porque eu passei o Pix sem a pessoa pedir pelo Pix ou sem a pessoa pedir pela consulta, sabe? E quando ela pergunta “e a agenda, como funciona?” antes de você oferecer, o passo quatro acabou.",
+      "cetico": "Fala literal no corpus 5546, e o 'sem a pessoa pedir pela consulta' é o avesso exato do sinal que o trecho descreve; 'nota dez' de fato não aparece uma vez no corpus. O reparo 'de andamentos' para 'agendamentos' se sustenta na própria fala dela seis linhas abaixo (5552: 'eu perdi agendamentos'). Só reordenei: terminar o capítulo no Pix desvia da :::pergunta seguinte, que é sobre quem falou da agenda primeiro."
+    }
+  ],
+  "refutados": [
+    {
+      "trecho": "A vontade de argumentar é o sinal de que a paciente ainda não declarou e aí o que resolve é mais uma pergunta, igual você fez no passo dois.",
+      "motivo": "A fala existe (corpus 5682), mas o contexto (5676 a 5680) é ela falando de ter presumido o que a pessoa queria dizer e ter perdido atendimentos por isso: prescreve perguntar, não diagnostica nada, então não diz a mesma coisa que 'a vontade de argumentar é o sinal de que a paciente ainda não declarou'. E a proposta apaga justamente esse diagnóstico, deixando o parágrafo abrir com 'quem dá esse sinal é você, não a paciente' sem nunca dizer o que o sinal significa nem por que a saída é voltar. Pior: o diagnóstico apagado tem fonte (corpus 2330 e 2302, mais a Etapa 4 do framework), então não havia o que trocar ali."
+    },
+    {
+      "trecho": "No WhatsApp isso é uma coisa só: a sua mensagem começa pela palavra dela e no fim do passo ela escreveu mais do que você.",
+      "motivo": "Achei a fonte que ele não achou: o framework mede escuta por volume, com essas palavras, em 01-framework-715.md linha 142, 'O paciente fala mais do que você nesta etapa', listado como sinal de avançar. Somado a 'Ouvimos mais do que falamos' da Etapa 4 (linha 238), 'no fim do passo ela escreveu mais do que você' é esse critério traduzido pro WhatsApp, não métrica inventada. Ele só rodou os greps no corpus e nunca procurou 'fala mais do que' dentro do framework."
+    },
+    {
+      "trecho": "A vontade de argumentar é o sinal de que a paciente ainda não declarou",
+      "motivo": "A ligação causal está na boca dela, por paráfrase, e é a mesma fala que ele próprio garimpou nas trocas 0 e 4: corpus 2330, 'qualquer coisa que eu falar não vai fazer sentido para ela se ela não falar junto comigo', e 2302, 'se a pessoa não verbalizar isso, qualquer coisa que eu falar depois vai ser uma solução para um problema que não é tão grave'. Ou seja: enquanto ela não declara, o que você fala precisa convencer, que é exatamente 'a vontade de argumentar é o sinal de que ela ainda não declarou'. O framework fecha as duas pontas na mesma página da Etapa 4: a leitura negativa acontece quando 'o paciente não verbalizou o motivo' e o sinal de avançar é 'você sente que não precisa convencer de nada'. Buscar só a palavra 'argumentar' era o que a instrução mandava não fazer."
+    }
+  ],
+  "cego": {
+    "veredito": "pessoa",
+    "confianca": 71,
+    "votos": {
+      "pessoa": 3,
+      "ia": 0,
+      "indeciso": 0
+    },
+    "leitores": 3,
+    "data": "2026-09-09"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "artboards": [
+    {
+      "file": "Capa.dc.html",
+      "title": "Capa",
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1920,
+      "print": "fixed"
+    },
+    {
+      "file": "Abertura.dc.html",
+      "title": "Abertura de capítulo",
+      "x": 1180,
+      "y": 0,
+      "w": 1080,
+      "h": 1920,
+      "print": "fixed"
+    },
+    {
+      "file": "Main.dc.html",
+      "title": "Miolo · dossiê completo",
+      "x": 2360,
+      "y": 0,
+      "w": 1080,
+      "h": 1920,
+      "print": "fixed"
+    },
+    {
+      "file": "MioloDiscreto.dc.html",
+      "title": "Miolo · alternativa discreta",
+      "x": 3540,
+      "y": 0,
+      "w": 1080,
+      "h": 1920,
+      "print": "fixed"
+    }
+  ],
+  "annotations": [
+    {
+      "id": "nota-sistema",
+      "x": 0,
+      "y": -170,
+      "w": 700,
+      "text": "Script 715 · páginas no Reconecta Design System (dossiê): Obsidian #161616, Pearl #EED9BD, Gold #EECE66, REC #D3111A. TT Modernoir Bold no display, Space Mono no chrome, Inter no corpo. Formato 9:16 em 1080×1920 (leitura no celular). Sem fotos: só vetor e texto.\nDecidir: miolo com REC/HUD/barcode em toda página (dossiê completo) ou só na capa e aberturas (discreto)."
+    }
+  ],
+  "launch": {
+    "view": "canvas"
+  }
+}

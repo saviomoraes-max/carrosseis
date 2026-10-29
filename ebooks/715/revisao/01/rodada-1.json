@@ -1,0 +1,321 @@
+{
+ "capitulo": "/Users/saviomoraes/reconecta/ebooks/715/manuscrito/01-a-salinha-do-financeiro.md",
+ "rodada": 1,
+ "brutos": 29,
+ "confirmados_n": 18,
+ "altas_confirmadas": 2,
+ "por_revisor": {
+  "tell": {
+   "brutos": 7,
+   "confirmados": 6
+  },
+  "fidelidade": {
+   "brutos": 4,
+   "confirmados": 1
+  },
+  "leitora": {
+   "brutos": 6,
+   "confirmados": 2
+  },
+  "voz": {
+   "brutos": 12,
+   "confirmados": 9
+  }
+ },
+ "confirmados": [
+  {
+   "revisor": "tell",
+   "tipo": "tell",
+   "gravidade": "alta",
+   "trecho": "## Lá dentro\n\nSe eu tivesse entendido o preço na sala, talvez eu teria fechado. Lá dentro.",
+   "detalhe": "Padrão 4.6 do catálogo (cabeçalho repetido na primeira frase) e 4.3 (estrutura em excesso: 6 subtítulos H2 em 949 palavras de UM caso contado em cronologia). Quatro dos seis subtítulos entregam a pancada da seção antes de ela chegar: '## Você tem a salinha do fechamento ou a salinha do pagamento?' repete literalmente a primeira frase do texto; '## Lá dentro' gasta o carimbo de duas palavras que é o principal traço rítmico dela (fingerprint, whitelist 6 e candidato 31); '## Doutora é vendedora também' gasta a ênfase champagne «vendedora também» da linha 50; '## O plot twist' é seguido por 'E aqui vem um plot twist interessante.' (frase-eco). O caso da salinha é uma história de 600 palavras que ela contou em 4 min 36 s sem parar; picar em cinco cabeçalhos que citam o final de cada trecho é estrutura por regra, e a leitora chega ao 'Lá dentro.' pela terceira vez (spoiler na linha 20, título na 34, pancada na 36).",
+   "correcao": "Apagar o H2 da linha 12: o capítulo abre direto do \"# A salinha do financeiro\" pra \"Na sua clínica, você tem a salinha do fechamento ou a salinha do pagamento?\", que é como ela abre falando, sem cabeçalho anunciando a pergunta. Apagar também \"## Um animal indo pro abatedouro\", \"## Lá dentro\", \"## Doutora é vendedora também\" e \"## O plot twist\"; o caso corre inteiro até \"Diagnóstico feito.\" e o único H2 do capítulo fica \"## O que este livro conserta\". Se o layout do PDF exigir âncora no meio, no máximo dois títulos que não citem nem a primeira nem a última frase do bloco: \"## Dez minutinhos na recepção\" antes da linha 24 e \"## Pelo lado de quem vende\" antes da linha 48. Nunca um H2 separado antes de \"Diagnóstico feito.\" nem antes de \"Lá dentro.\"",
+   "motivos": [
+    "Confirmado no arquivo: o H2 da linha 12 repete literalmente a primeira frase (linha 14), \"## Lá dentro\" (34) entrega antes a pancada de duas palavras da linha 36 (que já tinha sido antecipada pelo spoiler da linha 20), \"## Doutora é vendedora também\" (46) gasta a ênfase «vendedora também» da linha 50 e \"## O plot twist\" (56) é ecoado pela linha 58; a whitelist protege as frases dela (pancada curta, \"plot twist\", carimbo de duas palavras), não cabeçalhos que as antecipam, e a leitora sente a pancada chegar murcha mesmo sem saber o nome do padrão. A correção proposta falha em (4) por contradição interna: manda manter \"o da abertura\", que é justamente o H2 que repete a primeira frase, ao mesmo tempo que proíbe H2 repetir a primeira frase.",
+    "Confirmado no arquivo: o H2 da linha 12 é literalmente a primeira frase (linha 14); \"## Lá dentro\" (34) antecede a frase que termina em \"Lá dentro.\" (36); \"## O plot twist\" (56) antecede \"E aqui vem um plot twist interessante.\" (58); e \"## Um animal indo pro abatedouro\" (22) entrega a imagem da linha 24 antes dela. A whitelist protege hábitos da FALA dela (contraste, anáfora, pancada curta, repetição de palavra na prosa), não cabeçalhos, que ela nunca falou; no render (render/livro.html, h2.disp a 66px caixa alta) \"LÁ DENTRO\" aparece gigante logo acima da pancada, matando exatamente o traço rítmico do item 6, então a leitora é prejudicada. A correção proposta falha em (4) por contradição interna: manda manter \"o cabeçalho da abertura\", que é justamente o H2 que repete a primeira frase (padrão 4.6), enquanto a própria regra final proíbe isso."
+   ]
+  },
+  {
+   "revisor": "tell",
+   "tipo": "voz",
+   "gravidade": "media",
+   "trecho": "Eu já dou spoiler, tá? Eu não fechei lá dentro.",
+   "detalhe": "O spoiler antes do caso é dela (whitelist candidato 33, A3). O problema é a redação: 'lá dentro' é exatamente a pancada curta que fecha a seção seguinte ('talvez eu teria fechado. Lá dentro.'), o traço rítmico número 1 do fingerprint (frase longa de construção, depois complemento cortado, 3 de 3). Gasto no spoiler e de novo no título, quando o 'Lá dentro.' chega ele é a terceira ocorrência e não bate. Além disso 'não fechei lá dentro' deixa aberto se ela fechou depois, coisa que a fala não diz.",
+   "correcao": "Linha 20: \"Eu já dou spoiler, tá? Eu fui pra casa pensar.\" (igual à proposta). E trocar o título da linha 34 \"## Lá dentro\" por \"## Ter saído, ter esperado, ter pensado\" (frase dela na linha 38, anáfora em escada protegida pelo item 2), pra que \"Lá dentro.\" na linha 36 volte a ser a primeira e única vez que a leitora encontra a expressão como pancada. A ocorrência da linha 54 (\"ela precisa ter entendido lá dentro\") pode ficar: vem depois e funciona como eco da prescrição.",
+   "motivos": [
+    "Confirmado: na fala original (amostra-fala-analuiza.txt, linhas 59-61) \"Lá dentro.\" aparece UMA vez, como complemento cortado surpresa; no manuscrito a expressão já foi gasta na linha 20 (spoiler inventado pelo redator, não está na fonte) e no título da seção (linha 34), então quando chega a pancada da linha 36 ela é a terceira ocorrência e o corte perde o efeito que o fingerprint chama de traço rítmico principal (seção 2, padrão micro). A whitelist não protege: o item 33 cobre a fórmula \"Eu já dou spoiler, tá?\" (mantida na correção) e o item 9 cobre repetição de palavra em vez de sinônimo, não pré-gastar a frase de fecho no setup; a própria calibração do fingerprint (par 1, B) escreve o spoiler como \"Eu fui pra casa pensar.\", que ainda planta o motivo do plot twist e do fecho. A correção proposta passa (sem travessão, sem tell, é a forma do fingerprint), mas fica incompleta: o título \"## Lá dentro\" duas linhas acima da pancada é o vazamento mais próximo e também precisa mudar."
+   ]
+  },
+  {
+   "revisor": "tell",
+   "tipo": "tell",
+   "gravidade": "media",
+   "trecho": "Não é fórmula rígida, é mapa. Algumas pacientes passam correndo por uma etapa, outras precisam de mais tempo em outra.",
+   "detalhe": "Contraste fácil 1.1 com metade negativa que ninguém afirmou ('fórmula rígida'), mais aforismo de fôrma 1.4 ('é mapa', metáfora que ela não usa; o vocabulário dela pra isso é 'processo', 'movimento', 'formato', 'forma'). A origem é a frase do PDF: 'Este framework não é uma fórmula rígida, mas um mapa para guiar suas conversas. Alguns pacientes passarão rapidamente por algumas etapas, enquanto outros precisarão de mais tempo', que passa no teste da retradução 7.9 (this framework is not a rigid formula but a map). O Escritor traduziu o inglês do PDF pra voz dela sem tirar a alma inglesa. É o único contraste do capítulo que não é dela (o da linha 32 é literal da fala), então a dose está ok; o que pesa é a fôrma importada. Detalhe de mapa: o mapa de capítulos reserva esse aviso pro bloco 0 ('como usar este livro'), então aqui ele é duplicado.",
+   "correcao": "Sete passos, do primeiro oi ao comprovante do PIX. E o preço só entra no último, depois de entender o problema dela.",
+   "motivos": [
+    "Confirmado: o trecho está literal na linha 70 e é retradução do PDF (fontes/01-framework-715.md: \"não é uma fórmula rígida, mas um mapa para guiar suas conversas. Alguns pacientes passarão rapidamente...\"); \"mapa\" não aparece em nenhuma das 3 amostras de fala (o vocabulário dela é processo, forma, movimento, formato, caminho) e o mapa-de-capitulos.md reserva esse aviso pro bloco 0, sem citá-lo na linha do cap 01, então é duplicata. A whitelist (item 1) protege a FÔRMA \"não é X, é Y\" como hábito dela, não protege conteúdo importado com metáfora que ela não usa; a acusação de \"contraste fácil\" em si é fraca (dose ok, 1 contraste real no capítulo), o que pesa é a alma inglesa do PDF e a repetição do bloco 0. A correção proposta passa (sem travessão, anáfora \"tem paciente que... e tem paciente que\" é dela), mas ainda repete o aviso do bloco 0; a alternativa abaixo corta a duplicata e fecha na tese do próprio capítulo."
+   ]
+  },
+  {
+   "revisor": "tell",
+   "tipo": "tell",
+   "gravidade": "media",
+   "trecho": "Antes de virar a página, eu te devolvo a pergunta do começo.",
+   "detalhe": "Narração do próprio texto (5.2) em cluster de três no mesmo capítulo: 'Guarda essa pergunta.' (linha 16, o livro pede pra leitora segurar um bookend), 'O script que você vai ler nos próximos capítulos nasceu de uma frase' (linha 70) e 'Antes de virar a página' (linha 72). Uma ponte com número é serviço; três avisos de estrutura é andaime. O fingerprint mostra como ela muda de plano: marcador curto no começo da frase ('E', 'Agora,', 'E, bom,'), nunca anúncio do que o texto vai fazer (seção 2, 'Como muda de plano'; whitelist 23). Ela abriu A1 com a pergunta e emendou 'E eu vou aproveitar pra contar', sem pedir pra guardar nada.",
+   "correcao": "Linha 16: cortar \"Guarda essa pergunta.\" e começar o parágrafo em \"E eu vou aproveitar pra contar um caso meu, ...\" (literal da A1). Linha 70: manter como está ou, se o mapa v1 for aprovado sem mudar numeração, \"O script dos capítulos 3 a 9 nasceu de uma frase que a gente repete nas clínicas por aqui\". Linha 72: \"E eu te devolvo a pergunta do começo.\" (só a versão com \"E\"; não usar \"Agora,\" porque já aparece duas vezes na virada anterior).",
+   "motivos": [
+    "Confirmado com um reparo: o cluster real é de dois, não três. \"Guarda essa pergunta.\" (linha 16) não existe na A1 (ela emenda direto \"E eu vou aproveitar para contar um caso meu\") e \"Antes de virar a página\" (linha 72) narra o ato de ler, coisa que ela nunca faz (fingerprint seção 2: muda de plano com marcador curto, nunca anunciando o que o texto vai fazer); nenhum dos dois está na whitelist (o item 7 protege só o aviso de que vai contar o caso, que fica). A linha 70 é ponte legítima e a própria acusação a mantém. A correção proposta vale (o mapa confirma que o script é capítulos 3 a 9), exceto a opção \"Agora,\" na linha 72: o capítulo já tem dois \"Agora,\" (linhas 52 e 54) abrindo a virada final, e um terceiro estoura a dose do item 23."
+   ]
+  },
+  {
+   "revisor": "tell",
+   "tipo": "fidelidade",
+   "gravidade": "media",
+   "trecho": "Agora, se está funcionando desse jeito na sua clínica, continua.",
+   "detalhe": "A seção inteira '## Doutora é vendedora também' (linhas 46 a 54: 'não estou falando que existe um certo ou errado', '3 mil clínicas', 'se está funcionando, continua', 'se capacitar pra vender na sala') é o conteúdo que o mapa de capítulos aprovado reserva pro bloco 12, com o mesmo título ('Fecho: volta à salinha do financeiro. Se está funcionando do seu jeito, continua. Se não, se capacitar pra vender na sala e no WhatsApp. O que muda quando a doutora aceita que também vende: ticket médio e taxa de fechamento sobem'). O mapa do capítulo 1 pede caso, plot twist, 'Diagnóstico feito.' e a ponte pro WhatsApp. Gastar a prescrição aqui esvazia o fecho do livro e interrompe a cronologia do caso (monólogo na recepção, prescrição, e só depois o plot twist que aconteceu dentro da consulta).",
+   "correcao": "Não reescrever nada no capítulo 1: manter as linhas 42 a 44 exatamente como estão (\"Passar o preço nesse formato de quase uma cerimônia. / Foi assim que eu me senti. E eu pude analisar aquela situação em duas perspectivas, tanto de paciente quanto de vendedora. O que eu quis te trazer aqui foi principalmente a de paciente.\") e emendar direto em \"## O plot twist / E aqui vem um plot twist interessante.\" Recortar as linhas 46 a 54 inteiras (título \"## Doutora é vendedora também\" incluído) e colar no capítulo 12 sem alterar uma palavra, onde o \"Agora,\" vira a última virada antes do fecho, como a fingerprint descreve (item 23), e a perspectiva \"de vendedora\" prometida no capítulo 1 recebe o pagamento.",
+   "motivos": [
+    "Confirmado: as linhas 46 a 54 reproduzem, com o mesmo título, exatamente o que o mapa reserva pro bloco 12 (concessão, 3 mil clínicas, \"se está funcionando, continua\", \"se capacitar pra vender na sala\", ticket e taxa sobem), e a única fonte do bloco 12 é essa mesma fala, ou seja, gastar aqui deixa o fecho do livro sem material novo e a leitora reencontra a prescrição repetida no fim; além disso o próprio capítulo diz duas seções depois que \"este livro é sobre o que acontece antes\" da sala, o que briga com uma prescrição sobre a sala dada antes de o script ser ensinado. A whitelist protege a forma (concessão colada na prescrição, número redondo, \"Agora,\"), não o lugar no livro, e a mudança move o bloco intacto, então nada é cortado. O sub-argumento de cronologia é fraco (na fala original a prescrição também vem antes do plot twist), mas a acusação se sustenta sem ele; só a correção proposta perde \"Foi assim que eu me senti.\" e o \"aqui\" dêitico sem necessidade."
+   ]
+  },
+  {
+   "revisor": "tell",
+   "tipo": "voz",
+   "gravidade": "baixa",
+   "trecho": "Eu já tinha entendido que aquilo ali resolvia o meu problema.",
+   "detalhe": "Dêitico de gesto, que o fingerprint manda cortar por nome (seção 6: 'Cortar pontuar aqui, aquilo ali'; 'ali e o aqui de gesto: cortar'). No capítulo: 'aquilo ali' duas vezes (linhas 38 e 42), 'Fico ali numa área de espera' (linha 18) e 'O que eu quis te trazer aqui' (linha 44). 'aqui' aparece 8 vezes em 949 palavras, densidade de fala (7,2 por mil), acima da dose de escrita (6 a 8 por 2.000 palavras). Os 'aqui' de proximidade ('por aqui', 'aqui de mim', 'ajuda aqui' na fala da doutora) ficam.",
+   "correcao": "'Eu já tinha entendido que aquilo resolvia o meu problema.' / 'Quando eu cheguei no financeiro, aquilo pra mim já era quase uma encenação pra poder fechar.' / 'Fico numa área de espera, uns dez minutinhos.' / 'O que eu quis te trazer foi principalmente a de paciente.'",
+   "motivos": [
+    "Confirmado no arquivo: \"aquilo ali\" aparece duas vezes em prosa (linhas 38 e 42, não em citação literal), e o fingerprint nomeia exatamente essa expressão pra cortar (seção 6: \"Cortar 'pontuar aqui', 'aquilo ali'\"; \"'ali' e o 'aqui' de gesto: cortar\"), com \"ali\" só como candidato A1 não promovido (item 34), portanto sem proteção da whitelist. Os \"aqui\" que a correção deixa em pé são justamente os protegidos (\"aqui de mim\", \"por aqui\" x2, \"ajuda aqui\" na fala da doutora, \"exagerada aqui\" do item 29, \"E aqui eu não estou falando\" do item 14, \"E aqui vem um plot twist\" do item 10), e os quatro cortes propostos não introduzem travessão nem tell novo e mantêm \"pra poder fechar\", que é bordão listado dela. Nota menor: o corpo tem 994 palavras e não 949, o que só reforça o argumento (8 por mil, densidade de fala)."
+   ]
+  },
+  {
+   "revisor": "fidelidade",
+   "tipo": "fidelidade",
+   "gravidade": "media",
+   "trecho": "Eu já dou spoiler, tá? Eu não fechei lá dentro.",
+   "detalhe": "A fonte nunca diz se a Ana fechou ou não o plano. O que ela diz é: \"Se eu tivesse entendido o preço na sala, talvez eu teria fechado. Lá dentro.\" e \"Quando eu cheguei no financeiro, aquilo ali pra mim já era quase que uma encenação pra poder fechar.\" Nenhuma frase informa o desfecho no financeiro. Colocado antes de o leitor saber o que é \"lá dentro\", o spoiler lê como \"eu não comprei\", um fato que a fonte deixa em aberto. (A frase \"Eu já dou spoiler, tá?\" vem da amostra 03, do caso do coach, e é reaproveitada aqui como tique de voz; isso em si não é problema.)",
+   "correcao": "Eu já dou spoiler, tá? Quando eu entrei naquela salinha, a minha cabeça já tinha ido embora.",
+   "motivos": [
+    "Confirmado: no arquivo (linha 20) o spoiler vem logo depois de \"sala de fechamento, com o financeiro\", então o antecedente natural de \"lá dentro\" é a salinha do financeiro e a frase afirma que ela não comprou, desfecho que a amostra A1 deixa em aberto (\"talvez eu teria fechado. Lá dentro.\" e \"quase que uma encenação pra poder fechar\" não dizem se fechou). A whitelist (item 33) protege o tique \"Eu já dou spoiler, tá?\", não o fato inventado que vem colado nele. A correção proposta não tem travessão nem tell, mas achata o padrão dela (spoiler = pancada curta sozinha, cf. \"A consulta durou 27 minutos.\") e repete na íntegra o parágrafo seguinte (\"eu não sabia quanto ia custar\"), por isso devolvo alternativa que usa só o que a fonte diz (ela já ruminava antes de chegar na salinha)."
+   ]
+  },
+  {
+   "revisor": "leitora",
+   "tipo": "leitora",
+   "gravidade": "alta",
+   "trecho": "Porque a paciente que vai pra casa pensar na salinha do financeiro é a mesma que pergunta o preço no WhatsApp e some. É o mesmo movimento, só que mais cedo. Ela chegou com um problema, alguém respondeu com um número, e ela foi ruminar sozinha.",
+   "detalhe": "Aqui eu senti a costura forçada. Na história que acabei de ler, a Ana ruminou porque ficou dez minutos SEM número na área de espera. No WhatsApp, a paciente some porque RECEBEU o número. São gatilhos opostos, e a autora chama de \"o mesmo movimento\". O que os dois casos têm em comum de verdade já está dito pela própria Ana duas seções antes: o preço chegou de alguém que não tinha entendido o problema dela. No consultório, veio do financeiro; no WhatsApp, vem da atendente que responde \"a consulta é X\" sem perguntar nada. Essa é a ponte que me faria comprar o resto do livro, e ela não está escrita.",
+   "correcao": "Porque a paciente que vai pra casa pensar na salinha do financeiro é a mesma que pergunta o preço no WhatsApp e some. No consultório, o preço veio de uma pessoa que não tinha ouvido nada do meu problema. No WhatsApp, o preço vem de uma pessoa que não perguntou nada, antes mesmo de ela pisar na clínica. É o mesmo movimento, só que mais cedo. Ela chegou com um problema, alguém respondeu com um número, e ela foi ruminar sozinha. Ninguém perguntou o que ela estava vendo. Ninguém entendeu por que agora.",
+   "motivos": [
+    "A costura existe no arquivo (linha 68): o capítulo narra a ruminação nascendo na espera sem número e depois na cerimônia do financeiro que não tinha ouvido nada, e a ponte pro WhatsApp resolve isso só com \"É o mesmo movimento, só que mais cedo\", sem reaproveitar a tese que a própria Ana cravou na linha 54 (\"o preço, ela precisa ter entendido lá dentro, com quem entendeu o problema dela\"); a acusação exagera ao chamar de gatilhos opostos (na salinha o número também chegou e ela foi pra casa), mas uma leitora atenta sente o salto porque o que é \"o mesmo\" nunca é nomeado. A whitelist protege a pancada curta e a anáfora do parágrafo, não a lacuna lógica, e a correção proposta é uma diretriz vaga com palavra que não é dela (\"vazamento\"), então segue versão na voz da autora com espelhamento dos dois lados (item 8) e o resto intacto.",
+    "Confere no arquivo (linha 68): a ponte diz \"alguém respondeu com um número, e ela foi ruminar sozinha\", mas a Ana acabou de narrar (linhas 38 a 42) que ruminou na área de espera ANTES de qualquer número; a leitora que leu a sequência \"ter saído, ter esperado, ter pensado\" 30 linhas antes sente a ordem invertida, e o elo que a própria Ana fixou na linha 54 (\"o preço, ela precisa ter entendido lá dentro, com quem entendeu o problema dela\") não aparece na costura. A whitelist protege a forma (pancada curta, espelhamento, \"movimento\" é palavra dela na linha 16), não a lógica, e a correção proposta é só direção, arrisca \"vazamento\" (jargão fora do vocabulário dela) e perder a pancada curta; por isso segue alternativa que mantém \"É o mesmo movimento\" e acrescenta o mecanismo na voz dela."
+   ]
+  },
+  {
+   "revisor": "leitora",
+   "tipo": "leitora",
+   "gravidade": "media",
+   "trecho": "Sete passos, do primeiro oi ao comprovante do PIX. Não é fórmula rígida, é mapa. Algumas pacientes passam correndo por uma etapa, outras precisam de mais tempo em outra.",
+   "detalhe": "Eu acabei de ler isso na página \"como usar este livro\" (o mapa do bloco 0 traz exatamente \"é mapa, não fórmula: alguns pacientes correm por etapas, outros demoram\"). Ler de novo três páginas depois soa que a autora não confia que eu li o aviso. O mesmo parágrafo ainda antecipa o princípio \"vender aquilo que a pessoa já quer comprar\", que é o assunto inteiro do capítulo 2. É um trecho que eu pularia com o polegar.",
+   "correcao": "O script que você vai ler nos próximos capítulos nasceu de uma frase que a gente repete nas clínicas por aqui: «para vender qualquer coisa, é só vender aquilo que a pessoa já quer comprar». Sete passos, do primeiro oi ao comprovante do PIX. E a pessoa que manda mensagem já quer. Isso fica pro próximo capítulo.",
+   "motivos": [
+    "O trecho existe como acusado (linha 70) e o mapa-de-capitulos.md aprovado define o bloco 0 com exatamente \"é mapa, não fórmula: alguns pacientes correm por etapas, outros demoram\" e o capítulo 2 inteiro como \"Vender o que ela já quer comprar\", então a duplicação é estrutural, não hipotética. A whitelist protege a FORMA \"não X, é Y\" (item 1) e \"cunha o termo e define\" (item 22), não a repetição de conteúdo já entregue três páginas antes; e o item 24 (fecho sem recapitulação) pesa a favor da leitora. A correção proposta é só descrição e, ao mandar cortar toda a explicação, arrisca perder a costura com o parágrafo anterior (\"alguém respondeu com um número\"), por isso devolvo texto na voz da Ana mantendo uma pancada curta como gancho."
+   ]
+  },
+  {
+   "revisor": "voz",
+   "tipo": "voz",
+   "gravidade": "media",
+   "trecho": "Eu já dou spoiler, tá? Eu não fechei lá dentro.",
+   "detalhe": "O spoiler em si é dela (candidato 33 da whitelist, A3). O problema é o conteúdo: \"lá dentro\" é a pancada curta de A1 (\"talvez eu teria fechado. Lá dentro.\"), o principal traço rítmico dela segundo o fingerprint (item 6 da whitelist: \"pancada curta depois de frase longa\"). Aqui a expressão aparece no spoiler (linha 20), no H2 \"## Lá dentro\" e só depois como carimbo na linha 36, quando já não surpreende. Repetir palavra é hábito dela, mas gastar o carimbo antes de ele cair não é. O próprio fingerprint, no teste de calibração (par 1 B), resolveu isso assim: \"Eu já dou spoiler, tá? Eu fui pra casa pensar.\", que ainda planta o \"muita gente indo pra casa pensar\" do plot twist.",
+   "correcao": "Eu já dou spoiler, tá? Eu fui pra casa pensar.",
+   "motivos": [
+    "Confirmo, com um agravante que o revisor não viu: na linha 20 \"lá dentro\" vem logo depois de \"sala de fechamento, com o financeiro\", então a leitora entende \"não fechei na salinha do financeiro\"; já nas linhas 36 e 54 \"lá dentro\" significa o oposto, a sala da consulta com quem fez o diagnóstico. O termo que carrega a tese do capítulo nasce com referente trocado e ainda gasta a pancada de A1 antes de ela cair. A whitelist protege o spoiler (33) e a repetição sem sinônimo (9), não protege trocar o referente do carimbo; a correção proposta é da própria calibração do fingerprint, sem travessão e sem tell. Fica o aviso de que o H2 \"## Lá dentro\" (linha 34), duas linhas acima do carimbo, também o entrega antes da hora."
+   ]
+  },
+  {
+   "revisor": "voz",
+   "tipo": "voz",
+   "gravidade": "baixa",
+   "trecho": "Mas eu não pude deixar de registrar esse sentimento.",
+   "detalhe": "Registro subiu. Na fala ela diz \"eu não pude deixar de, enfim, pontuar esse sentimento que eu fiquei\". \"Pontuar\" está na lista de termos de negócio dela (seção 3 do fingerprint); \"registrar\" é verbo de ata. O guia manda cortar \"pontuar aqui\" (o de gesto), não o \"pontuar\" com objeto. Perde também o \"enfim\" de aparte, que o guia dosa em 2 por capítulo e aqui só sobrou 1.",
+   "correcao": "Mas eu não pude deixar de pontuar esse sentimento.",
+   "motivos": [
+    "Confirmo só metade: \"pontuar\" está listado como termo dela (seção 3, A1) e o guia manda cortar apenas \"pontuar aqui\" (gesto), então trocar por \"registrar\" (verbo de ata, sem sabor nem culto nem de rua) é um desvio real de registro num parágrafo cheio de \"tô\", \"tá lá\" e \"facada\". A parte do \"enfim\" eu refuto: o capítulo tem 1.039 palavras e a dose do guia é 2 por 2.000, ou seja, 1 aqui já está na medida; enfiar \"deixar de, enfim, pontuar\" adiciona um segundo \"enfim\" acima da dose e cria um soluço oral que no papel pesa mais do que na fala (regra dos 60%)."
+   ]
+  },
+  {
+   "revisor": "voz",
+   "tipo": "voz",
+   "gravidade": "media",
+   "trecho": "Mas o processo de eu sair e esperar, e não só de ter saído e ter esperado. Ter saído, ter esperado, ter pensado.",
+   "detalhe": "Muleta oral em excesso pra texto escrito. A primeira frase é o recomeço de fala de A1 copiado cru: não tem verbo principal, é um fragmento que deixa a leitora sem chão (\"o processo de eu sair e esperar\" + \"e não só de...\" e acaba). A escada \"Ter saído, ter esperado, ter pensado\" é whitelist item 2 e tem que ficar, inclusive o degrau de autocorreção que a gera. Mas o guia fala→escrita já dá a forma escrita disso: \"Não foi só ter saído e esperado. Foi ter saído, ter esperado, ter pensado.\"",
+   "correcao": "Mas aí eu saí e esperei. E não foi só ter saído e esperado. Foi ter saído, ter esperado, ter pensado.",
+   "motivos": [
+    "O trecho está no arquivo exatamente como acusado e a primeira frase é um fragmento sem verbo principal (\"Mas o processo de eu sair e esperar, e não só de ter saído e ter esperado.\" acaba sem predicado), logo depois de uma frase completa, o que faz a leitora procurar o verbo e não achar. A whitelist item 2 protege o degrau de autocorreção que gera a escada, não o fragmento oral cru, e o próprio fingerprint (seção 6, linha 324) já prescreve a forma escrita desse exato caso: \"Não foi só ter saído e esperado. Foi ter saído, ter esperado, ter pensado.\" A correção proposta segue essa forma, sem travessão, e fica dentro das doses dela (\"aí\" passa de 2 pra 3 em 1.039 palavras; \"Mas\" e \"E\" iniciais são assinatura confirmada), então não achata a voz."
+   ]
+  },
+  {
+   "revisor": "voz",
+   "tipo": "voz",
+   "gravidade": "baixa",
+   "trecho": "Eu já tinha entendido que aquilo ali resolvia o meu problema.",
+   "detalhe": "\"aquilo ali\" aparece duas vezes (aqui e em \"aquilo ali pra mim já era quase uma encenação pra poder fechar\"). O guia de adaptação fala→escrita é explícito: \"Cortar 'pontuar aqui', 'aquilo ali'\" e \"'ali' e o 'aqui' de gesto: cortar\". \"ali\" foi rebaixado a candidato (só A1, 3 ocorrências). No papel o gesto não existe e o \"ali\" vira ruído. \"aquilo\" sozinho é dela (\"Falei, cara, e se esse negócio\"; \"aquilo acabou naquele momento pra mim\").",
+   "correcao": "Eu já tinha entendido que aquilo resolvia o meu problema. (e adiante:) Quando eu cheguei no financeiro, aquilo pra mim já era quase uma encenação pra poder fechar.",
+   "motivos": [
+    "Confirmado: \"aquilo ali\" está nas linhas 38 e 42 do capítulo, e o fingerprint não o protege: \"ali\" é só candidato (item 34, apenas A1) e o guia fala→escrita manda explicitamente \"Cortar 'pontuar aqui', 'aquilo ali'\" (linha 276) e \"'ali' e o 'aqui' de gesto: cortar\" (linha 314); o touchstone T5 cita a frase como fala literal, o que não a licencia na escrita. É gravidade baixa (leitora sente só um resíduo de transcrição crua), mas a correção proposta é limpa: preserva \"aquilo\", que é dela, sem travessão, e a repetição resultante \"ruminar aquilo... aquilo pra mim\" está coberta pelo item 9 da whitelist (repetição sem sinônimo)."
+   ]
+  },
+  {
+   "revisor": "voz",
+   "tipo": "voz",
+   "gravidade": "media",
+   "trecho": "Olha, por conta de tudo que a doutora trouxe, e por isso, e por aquilo. Passar o preço nesse formato de quase uma cerimônia.",
+   "detalhe": "Ironia higienizada. Na fala é \"Olha, por conta de tudo que a doutora trouxe, parará, parará, parará, parará.\" O \"parará\" está nas imagens concretas de A1 (seção 3) e o guia diz: \"'parará': cortar, ou 1 no livro inteiro, dentro de fala reproduzida\". Este é o único lugar do livro em que é fala reproduzida (depois de \"Olha,\", item 15 da whitelist) e em registro irônico: é o caso de uso do 1 permitido. \"e por isso, e por aquilo\" é enchimento neutro que uma IA escolheria; some a impaciência dela com a cerimônia. A segunda frase é fragmento nominal sem verbo (na fala era reticência abandonada); no papel fica solta. \"quase que uma cerimônia para passar o preço\" está nas imagens dela.",
+   "correcao": "Olha, por conta de tudo que a doutora trouxe, parará, parará, parará. Foi quase uma cerimônia pra passar o preço.",
+   "motivos": [
+    "Confirmado: o manuscrito tem zero \"parará\" (a cota de 1 do guia está livre) e o trecho é fala reproduzida depois de \"Olha,\" (item 15, confirmado), em registro irônico, exatamente o caso previsto; \"e por isso, e por aquilo\" é paráfrase que não está em nenhuma amostra dela e tira a impaciência do \"parará\" (A1, linha 57). A segunda frase junta duas falas separadas na fonte (linhas 53 e 57) num fragmento sem verbo que uma leitora lê como continuação da fala da vendedora, não como comentário da Ana; isso é tropeço real, não protegido por nenhum item da whitelist. A correção proposta não usa travessão, mantém o discurso direto sem aspas e devolve as palavras dela (\"quase (que) uma cerimônia para passar o preço\"); \"Foi... / Foi assim que eu me senti.\" no parágrafo seguinte vira anáfora de dois degraus, que é dela (item 2)."
+   ]
+  },
+  {
+   "revisor": "voz",
+   "tipo": "voz",
+   "gravidade": "media",
+   "trecho": "Ninguém perguntou o que ela estava vendo. Ninguém entendeu por que agora.",
+   "detalhe": "Imagem genérica onde ela usaria a concreta, e primeira pessoa que some: do \"Porque a paciente que vai pra casa pensar\" até \"mais tempo em outra\" são ~130 palavras sem nenhum \"eu\", num capítulo que o fingerprint mede em 46 \"eu\" por mil. \"o que ela estava vendo\" é abstrato; \"por que agora\" é jargão de framework solto na frase. Regra da seção 3: \"palavra abstrata vem com amortecedor ou vem traduzida na frase seguinte\". No próprio capítulo, a versão concreta disso já existe: \"uma especialista que tinha entendido o meu problema\" e \"com quem entendeu o problema dela\". A anáfora \"Ninguém... Ninguém...\" é dela (whitelist 2) e fica.",
+   "correcao": "Ninguém perguntou qual era o problema dela. Ninguém entendeu por que ela procurou agora, e não mês passado.",
+   "motivos": [
+    "(1)-(3) valem: \"o que ela estava vendo\" não tem antecedente no capítulo (o caso é \"em alguma especialidade\", ninguém olha, vê ou se espelha), e \"por que agora\" fica cortado sem tradução na frase seguinte, contrariando a regra da seção 3; a whitelist protege só a anáfora \"Ninguém... Ninguém...\", não o miolo. A correção proposta falha em (4): a terceira frase \"E eu vejo isso todo dia nas clínicas por aqui\" é enxerto pra cumprir a métrica de \"eu\", cola em \"nas clínicas por aqui\" que abre o parágrafo seguinte (seria a 3ª vez no capítulo), estoura a dose de \"aqui\" (já em 8 num capítulo de 1.039 palavras, teto 6-8 por 2.000) e mata a pancada dupla que fecha o parágrafo (whitelist 6). Basta trocar o miolo, mantendo \"problema\" repetido sem sinônimo (whitelist 9) e \"agora\" como eco do \"será que isso é prioridade agora?\" da ruminação."
+   ]
+  },
+  {
+   "revisor": "voz",
+   "tipo": "voz",
+   "gravidade": "media",
+   "trecho": "Não é fórmula rígida, é mapa. Algumas pacientes passam correndo por uma etapa, outras precisam de mais tempo em outra.",
+   "detalhe": "Contraste \"não é X, é Y\" é whitelist (item 1), mas o Y é imagem genérica de IA (\"é mapa\"), não imagem concreta dela. As imagens dela são físicas e da clínica: salinha, facada, abatedouro, couro, cerimônia, ir pra casa pensar, tela azul. \"Fórmula rígida\" também não é vocabulário dela; quando ela precisa de palavra grande ela amortece (\"digamos assim\") ou concretiza. A segunda frase é equalizada (\"algumas... outras\") sem o espelhamento sintático dela, que dá aos dois lados a mesma frase (\"Uma achava... A outra... achava\").",
+   "correcao": "Não é fórmula pra decorar, é a ordem em que a conversa acontece. Tem paciente que passa correndo por uma etapa. Tem paciente que fica muito mais tempo na mesma etapa.",
+   "motivos": [
+    "O trecho está no arquivo (linha 70) e a estrutura \"não é X, é Y\" é protegida pelo item 1 da whitelist, mas o conteúdo do Y não é: \"mapa\" e \"fórmula rígida\" não aparecem em nenhuma das 3 amostras nem na lista de imagens dela (que são físicas: salinha, facada, couro, cerimônia, tela azul), e \"não é fórmula, é mapa\" é reframe de estoque que leitora acostumada a texto de IA reconhece; a frase seguinte ainda equaliza \"algumas... outras\" em vez das duas frases gêmeas do item 8. A correção proposta falha: \"seguir na risca\" é erro (o idioma é \"à risca\") e joga fora o contraste, que é assinatura dela; por isso vai alternativa que mantém o contraste com Y literal e espelha os dois lados."
+   ]
+  },
+  {
+   "revisor": "voz",
+   "tipo": "voz",
+   "gravidade": "media",
+   "trecho": "Antes de virar a página, eu te devolvo a pergunta do começo.",
+   "detalhe": "Fecho anunciado. O fingerprint é categórico (3 de 3): \"nunca recapitula, nunca explica a moral\". A frase é um aviso editorial de que vai recapitular, coisa que ela não faz; ela entra direto na pergunta. Whitelist item 23: a última virada dela antes do fecho abre com \"Agora,\" (\"Agora, e o que você fala pra você mesma?\"). \"Devolver a pergunta\" é do caso do coach (A3), mas aqui ninguém fez pergunta pra ela devolver.",
+   "correcao": "Cortar a linha 72 inteira. O parágrafo final fica só: \"Na sua clínica, você tem a salinha do fechamento ou a salinha do pagamento? Quantas pessoas foram pra casa pensar esse mês? E quantas perguntaram o preço no seu WhatsApp e nunca mais responderam?\"",
+   "motivos": [
+    "Confirmado: a frase existe na linha 72 e é um aviso editorial de narrador de livro (\"antes de virar a página\", \"eu te devolvo a pergunta do começo\") que anuncia o retorno à pergunta de abertura, coisa que nenhuma das 3 amostras faz (A2 e A3 entram direto nas perguntas; item 24 e linha 95 do fingerprint são categóricos); o aviso que a whitelist protege (item 7) é só o de abertura de caso, não de fecho. Uma leitora sente a mudança de registro de fala pra \"voz de livro\" e a redundância, já que a pergunta é literalmente a primeira linha do capítulo. A correção proposta não introduz tell, mas seria o terceiro \"Agora,\" do capítulo (linhas 52 e 54 já o usam na condicional espelhada de A1, e ela nunca passou de 2 por peça); a alternativa mais fiel é simplesmente cortar a frase e deixar as 3 perguntas com \"você\" entrarem sozinhas, como em A2/A3."
+   ]
+  },
+  {
+   "revisor": "voz",
+   "tipo": "voz",
+   "gravidade": "baixa",
+   "trecho": "E aqui vem um plot twist interessante.",
+   "detalhe": "O H2 imediatamente acima é \"## O plot twist\", e a frase seguinte repete a palavra: o título entrega a reviravolta antes da frase dela que a anuncia, e a frase vira eco do título. Mesma coisa em \"## Um animal indo pro abatedouro\": a imagem dela só chega depois de dois passos (\"vão arrancar o couro\" → \"não sabia quanto ia custar\" → \"tal qual um animal\"), e o H2 já contou. E o H2 de abertura é a primeira frase do texto, palavra por palavra. Ela entrega spoiler de conteúdo (\"Eu já dou spoiler, tá?\"), não de imagem: a graça está no caminho (seção 2, padrão 2). Títulos que repetem a frase seguinte lêem como template.",
+   "correcao": "Manter \"E aqui vem um plot twist interessante.\" intacto. Trocar só os três H2 acusados, mapeados assim: linha 12 \"## Você tem a salinha do fechamento ou a salinha do pagamento?\" vira \"## A última vez foi bem recente\" (a pergunta já abre o parágrafo e fecha o capítulo; o título vira gancho, não eco). Linha 22 \"## Um animal indo pro abatedouro\" vira \"## Uns dez minutinhos\" (a espera é o que muda tudo, e a imagem do abatedouro chega no tempo dela). Linha 56 \"## O plot twist\" vira \"## O que a doutora me perguntou\" (anuncia sem repetir a frase seguinte nem entregar o pedido de ajuda). Deixar \"## Lá dentro\", \"## Doutora é vendedora também\" e \"## O que este livro conserta\" como estão: são seções de prescrição, o título ali é tese, não spoiler de imagem.",
+   "motivos": [
+    "Confere no arquivo: o H2 da linha 12 é a linha 14 palavra por palavra (a leitora lê a mesma pergunta duas vezes seguidas), \"## O plot twist\" (l.56) ecoa \"E aqui vem um plot twist interessante.\" (l.58) e \"## Um animal indo pro abatedouro\" (l.22) entrega a imagem que o parágrafo constrói em três passos. A whitelist protege repetição de palavra e \"plot twist\" na PROSA dela; intertítulo é camada editorial, não fala dela, e o fingerprint não diz nada sobre H2, então nada blinda o eco. A correção proposta acerta no critério mas \"A doutora perguntou com quem eu trabalhava\" repete quase literal a segunda frase da seção (mesmo tell que a acusação combate) e não mapeia qual título vai em qual seção."
+   ]
+  }
+ ],
+ "refutados": [
+  {
+   "revisor": "tell",
+   "trecho": "Foi assim que eu me senti.",
+   "detalhe": "Fecho de uma linha que repete o parágrafo (1.2). O parágrafo anterior já é inteiro sobre como ela se sentiu ('ruminar', 'encenação', 'processo de convencimento', 'cerimônia'); a linha só carimba sem acrescentar fato. Os carimbos dela trazem coisa nova ('Lá dentro.' completa a frase; 'Diagnóstico feito.' conclui o caso). Na fala, o que existe nesse ponto é 'eu não pude deixar de, enfim, pontuar esse sentimento', e o capítulo já usou isso na linha 26 ('Mas eu não pude deixar de registrar esse sentimento'). É a única ocorrência do padrão no capítulo.",
+   "motivo": "A acusação erra o fato: \"Foi assim que eu me senti.\" está literal na fala da Ana (amostra-fala-analuiza.txt, linha 85), exatamente na mesma posição, logo depois de \"aquilo ali pra mim já era quase que uma encenação pra poder fechar\", e não é reescrita do editor de \"pontuar esse sentimento\" (que é a linha 29 da fala e já virou a linha 26 do capítulo). Além de ser fidelidade à fonte, é o traço rítmico número 1 dela na whitelist (item 6, pancada curta depois de frase longa, 3 de 3) e faz trabalho no texto: fecha o relato subjetivo e abre a costura pra \"analisar em duas perspectivas\". Cortar não corrige tell nenhum, só apaga uma frase da autora."
+  },
+  {
+   "revisor": "fidelidade",
+   "trecho": "E beleza, pode ser que a transação em si, o pagamento, fique do lado de fora da sala, até pela experiência da paciente.",
+   "detalhe": "A fonte diz: \"pode ser que a transação mesmo, o fechamento fique do lado de fora da sala, até mesmo pela experiência do paciente\". O capítulo trocou \"fechamento\" por \"pagamento\". A troca é coerente com a pergunta de abertura (salinha do fechamento x salinha do pagamento) e resolve uma contradição interna da fala, mas altera a palavra numa frase de doutrina. Precisa de aval da autora, não de correção automática.",
+   "motivo": "A troca existe (fonte diz \"o fechamento\", capítulo diz \"o pagamento\") e não está coberta pela whitelist, mas o critério 3 falha: a leitora nunca vê a transcrição, e o literal \"o fechamento fique do lado de fora da sala\" contradiria na mesma página a prescrição imediatamente anterior (\"se capacitar pra vender na sala, na consulta\") e a pergunta que abre o capítulo, que opõe salinha do fechamento a salinha do pagamento. Na fala a Ana usa \"fechamento\" de forma frouxa (sala de fechamento = sala do financeiro; taxa de fechamento = conversão), e o próprio fingerprint (linha 170) lê essa frase como \"concede o processo, não o princípio\", que é exatamente o que \"pagamento\" torna explícito. É pedido de aval da autora, não defeito de texto; vale anotar pra Ana confirmar, mas não é correção."
+  },
+  {
+   "revisor": "fidelidade",
+   "trecho": "O script que você vai ler nos próximos capítulos nasceu de uma frase que a gente repete nas clínicas por aqui: «para vender qualquer coisa, é só vender aquilo que a pessoa já quer comprar».",
+   "detalhe": "A frase entre aspas é literal (framework p.1: \"Para vender qualquer coisa, é só vender aquilo que a pessoa já quer comprar.\"). O que não existe em nenhuma fonte é a moldura \"nasceu de uma frase que a gente repete nas clínicas por aqui\": a frase é a epígrafe do PDF do framework, e nada diz que o script nasceu dela nem que ela é repetida nas clínicas.",
+   "motivo": "A frase entre aspas é literal e está na posição de epígrafe do framework (p.1, logo abaixo do subtítulo), ou seja, a fonte mesma a apresenta como a frase-mãe dos sete passos; dizer que o script \"nasceu\" dela é leitura legítima de uma epígrafe, não invenção. O único acréscimo sem lastro é \"que a gente repete nas clínicas por aqui\", uma moldura de dêixis (\"por aqui\", \"a gente\") que o fingerprint lista como assinatura dela (itens 16 e 17), é inverificável nos dois sentidos e não afirma número, caso nem resultado; nenhuma leitora nota ou sai prejudicada, e a própria Ana, que assina, confirma ou corta isso em um segundo na leitura final. Gravidade baixa e critério 3 não se sustenta: refutado."
+  },
+  {
+   "revisor": "fidelidade",
+   "trecho": "Mas pelo que eu observo nas mais de 3 mil clínicas por aqui, quando a doutora se capacita pra fazer o fechamento e ela entende que ela é doutora e que ela é «vendedora também», o ticket médio sobe, a taxa de fechamento sobe, enfim, é mil maravilhas.",
+   "detalhe": "O trecho é fiel à fonte. O problema é contra o mapa: o mapa reserva exatamente este bloco (\"Doutora é vendedora também\", \"Se está funcionando do seu jeito, continua\", ticket médio e taxa de fechamento sobem, 3 mil clínicas) para o capítulo 12, como fecho do livro. O capítulo 1 gasta a seção inteira \"Doutora é vendedora também\" com esse material. A fala da Ana é a única fonte dos dois capítulos, então o capítulo 12 vai repetir as mesmas frases ou ficar sem munição.",
+   "motivo": "O trecho é fiel à A1 e não há defeito no texto do capítulo 1; a acusação é uma tensão de planejamento, e o próprio mapa já a resolve ao descrever o cap. 12 como \"volta à salinha do financeiro\" (retomada pressupõe que o cap. 1 plantou o bloco), além de dar ao cap. 12 munição própria que o cap. 1 não gasta: a extensão \"vender na sala E no WhatsApp\", a amarração dos 7 passos e o convite pra mentoria. A leitora do cap. 1 não é prejudicada em nada; a repetição só existiria se o cap. 12 for escrito copiando as frases, o que é nota pra quem escrever o cap. 12, não correção deste capítulo. Cortar a seção (opção A) ainda arrancaria do lugar nativo três marcas da whitelist que nascem exatamente aí na A1 (concessão de humildade, item 14; \"Agora,\" abrindo a virada, item 23; condicional espelhada, item 26), achatando a voz."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "Na sua clínica, você tem a salinha do fechamento ou a salinha do pagamento?\n\nGuarda essa pergunta.",
+   "detalhe": "Perdi o fio logo na primeira linha. Na minha clínica tem uma sala só, onde a recepção passa o valor e o cartão. Eu não sei qual é a diferença entre \"salinha do fechamento\" e \"salinha do pagamento\", e o capítulo nunca diz. Dá pra deduzir lá embaixo, em \"pode ser que a transação em si, o pagamento, fique do lado de fora da sala... Mas o preço, ela precisa ter entendido lá dentro\", mas isso vem depois de três telas de rolagem. Quando a pergunta volta no final, eu continuo sem saber responder, e a pergunta é o gancho do capítulo inteiro.",
+   "motivo": "Refutado. A definição chega por demonstração no parágrafo seguinte (linha 18: \"conduzida... pra sala de fechamento, com o financeiro\" + linha 24: \"eu não sabia quanto ia custar\"), a uns 60 palavras da pergunta, não a três telas; e pra leitora-alvo (dona de clínica que vive de \"taxa de fechamento\", termo usado na própria linha 50) fechar vs pagar é vocabulário de ofício, não jargão novo. Na transcrição-fonte (amostra-fala-analuiza.txt, linhas 1-7) a Ana faz exatamente isso: solta a pergunta e entra direto no caso sem definir, então a frase explicativa proposta seria acréscimo do editor, contra a fidelidade e contra o item 7 da whitelist (caso pessoal de abertura com aviso de que vai contar, sem preâmbulo entre o aviso e o caso)."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "E eu pude analisar aquela situação em duas perspectivas, tanto de paciente quanto de vendedora. O que eu quis te trazer aqui foi principalmente a de paciente.",
+   "detalhe": "Eu sou a doutora dessa história, não a paciente. Quando a Ana diz que tem a leitura de vendedora e escolhe não me dar, eu fico com a pergunta que mais me interessa sem resposta: o que a doutora deveria ter feito na sala? Dito o preço ela mesma? Em que momento? Com que frase? O capítulo diz \"Se eu tivesse entendido o preço na sala, talvez eu teria fechado\" e \"vale a pena a gente se capacitar pra vender na sala\", mas não mostra nem uma linha do que é \"entender o preço na sala\". Falta o exemplo que faria eu enxergar minha própria clínica de outro jeito. Eu sei pelo mapa que o capítulo 12 volta nisso, mas o texto do capítulo 1 não avisa.",
+   "motivo": "Refutado. O trecho é transcrição quase literal da fala da Ana (amostra linhas 19-21: \"eu pude analisar aquela situação em duas perspectivas... quero pontuar minha perspectiva principalmente enquanto paciente\"), e a leitura de vendedora que a acusação pede não existe em nenhuma fonte (nem na fala, nem no framework), então escrever \"duas ou três frases do que a doutora podia ter dito na sala\" viola a regra de fidelidade do mapa (\"nenhum caso ou frase pronta que não esteja nas fontes\") e seria dado inventado. Além disso o capítulo já entrega o que a fonte tem da leitura de vendedora (\"o preço, ela precisa ter entendido lá dentro, com quem entendeu o problema dela\"; pagamento pode ficar fora) e já avisa o escopo em \"Esse caso aconteceu numa sala de consulta. Este livro é sobre o que acontece antes dela\", e a alternativa de prometer o capítulo 12 também falha porque o mapa desse capítulo (fonte: a mesma fala da Ana) não traz script de sala, só a volta à salinha e o convite."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "É óbvio que eu tô sendo muito irônica e exagerada aqui. Mas eu não pude deixar de registrar esse sentimento.",
+   "detalhe": "Eu ri do abatedouro e do couro. Aí a frase seguinte me explica que era ironia. Isso tira a graça e me trata como quem não pegou. O mesmo acontece em \"Foi assim que eu me senti.\" depois de dois parágrafos descrevendo exatamente como ela se sentiu. Nos dois pontos a autora explica o que eu já tinha entendido.",
+   "motivo": "As duas frases são literais da fala da Ana na amostra A1 (linhas 29 e 85 de amostra-fala-analuiza.txt), e o fingerprint as protege explicitamente: item 29 da whitelist (\"ironia com aviso de exagero\", com esse trecho exato como exemplo), item 25 (permite \"É óbvio que\" 1 vez por capítulo irônico, que é o caso) e o touchstone T2 (\"imagem exagerada + ironia declarada\"); \"Foi assim que eu me senti.\" é a pancada curta depois de frase longa (item 6, confirmado 3 de 3) que abre a virada pras duas perspectivas. Cortar seria trocar o jeito dela de contar por um jeito \"mais elegante\" que não é dela, ou seja, o que o revisor chama de tell é assinatura documentada."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "quando a doutora se capacita pra fazer o fechamento e ela entende que ela é doutora e que ela é «vendedora também», o ticket médio sobe, a taxa de fechamento sobe, enfim, é mil maravilhas.",
+   "detalhe": "\"Se capacita\" aqui e \"vale a pena a gente se capacitar\" quatro linhas abaixo. Duas vezes a mesma palavra num livro que eu comprei pela página de uma mentoria, e eu já sei que no fim vem o convite pra falar com o time. Não é um pitch, mas é o único momento do capítulo em que eu senti a mão da empresa em vez da voz da Ana. \"É mil maravilhas\" sem nenhum número ao lado também soa promessa de anúncio, não observação.",
+   "motivo": "Refutado: o trecho é transcrição quase literal da fala da própria Ana (amostra-fala-analuiza.txt, linhas 43 a 51: \"quando a doutora se capacita para poder fazer o fechamento\", \"enfim, é mil maravilhas\", \"Acho que vale a pena a gente se capacitar\"), então \"mão da empresa em vez da voz da Ana\" é o oposto do que a fonte mostra; o fingerprint inclusive usa esse mesmo parágrafo como touchstone de calibração (linha 437) e lista \"mil maravilhas\" como vocabulário \"de rua\" dela e \"se capacitar\" como vocabulário de A1. A repetição sem sinônimo é whitelist item 9 (não variar), \"enfim\" fechando enumeração abandonada é item 11 com função documentada na linha 64, \"3 mil clínicas\" ao lado é o número redondo como prova do item 12, e a concessão \"não existe certo ou errado\" é o item 14; trocar o segundo \"se capacitar\" por \"passar o preço ela mesma\" e deslocar \"é mil maravilhas\" pro capítulo 12 seria exatamente o editor \"variando\" e aplainando o que a whitelist manda preservar."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Porque até então, ponto importante, eu não sabia quanto ia custar o plano de tratamento. Não fazia a menor ideia.",
+   "detalhe": "Hábito da whitelist apagado. Na fala (A1) é: \"eu não sabia quanto ia custar o procedimento, né, esse plano de tratamento, não fazia a menor ideia\". O \"né\" é item 11 da whitelist (2 de 3 amostras) e o guia fala→escrita dá dose de 1 por capítulo, \"dentro de fala reproduzida ou de aparte\". Era exatamente uma aparte de autocorreção (procedimento → plano de tratamento), do mesmo tipo do \"na verdade\" de correção pra cima. O capítulo ficou com zero \"né\". Cortar todas as muletas dela deixa o texto mais limpo do que ela é.",
+   "motivo": "O capítulo tem 1.039 palavras, metade do capítulo de 2.000 que a dose \"né: 1\" pressupõe; a dose proporcional é 0,5, e as outras muletas não foram apagadas (\"tá?\" 2, \"enfim\" 1, \"olha\" 1, \"aí\" 2), logo o texto não ficou \"mais limpo do que ela é\". O próprio fingerprint, no Par 1-B do teste de calibração, reescreve exatamente esta frase sem o \"né\" (\"Até ali eu não sabia quanto ia custar. Não fazia a menor ideia.\"), o que mostra que a queda dessa autocorreção na passagem fala→escrita é a norma do documento que manda no editor, e o guia avisa que o erro de quem \"faz a Ana\" é encher de \"né\". Nenhuma leitora nota a ausência de um \"né\", e a correção proposta ainda inventa \"inteiro\", que não está na fala."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Esse caso aconteceu numa sala de consulta. Este livro é sobre o que acontece antes dela.",
+   "detalhe": "Registro mais formal do que ela usa. Nas 1.816 palavras das três amostras não há um único \"este/esta\"; é sempre \"esse/essa\" (\"esse movimento\", \"essa salinha\", \"esse negócio\", \"desse jeito\", \"dessa forma\"). O capítulo mistura \"Esse caso\" e \"Este livro\" na mesma linha, e repete \"este\" no H2 \"O que este livro conserta\". A frase também tira o \"eu\" justamente onde ela avisa o que vai fazer (3 de 3 amostras abrem com aviso explícito em primeira pessoa: \"eu vou aproveitar pra contar\", \"eu queria compartilhar\").",
+   "motivo": "Refutado. A ausência de \"este\" em 1.816 palavras de FALA não prova nada sobre a escrita dela (o próprio fingerprint diz que fala casual é evidência fraca de estrutura e lista \"como ela escreve digitando\" como lacuna nº 1); \"este livro\" pro livro que está na mão da leitora é a forma escrita normal mesmo em prosa casual, e o par \"Esse caso / Este livro\" é o uso anafórico/dêitico correto, que nenhuma leitora nota. O aviso em primeira pessoa já está cumprido onde a whitelist (item 7) pede, na abertura do caso (\"eu vou aproveitar pra contar um caso meu\", linha 16), e a correção proposta quebra o item 6 da whitelist (a pancada curta \"Este livro é sobre o que acontece antes dela\" depois da frase longa vira uma frase comprida) e usa \"tratar\", verbo com zero ocorrências nas amostras."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Quantas pessoas foram pra casa pensar esse mês?",
+   "detalhe": "Fecho em perguntas em série é whitelist (item 3), mas o fingerprint especifica: \"todas com você\" (A2 quatro seguidas com você, A3 duas com você; guia: \"2 a 4 em série no fecho, todas com 'você'\"). Das três perguntas finais, a primeira tem \"você\", a terceira tem \"seu\", a do meio não tem ninguém e fica genérica, como estatística de mercado e não como pergunta pra leitora.",
+   "motivo": "A pergunta do meio vem colada entre \"Na sua clínica, você tem...\" e \"no seu WhatsApp\", logo depois de \"eu te devolvo a pergunta do começo\": nenhuma leitora real lê \"Quantas pessoas foram pra casa pensar esse mês?\" como estatística de mercado, o \"esse mês\" só faz sentido pra clínica dela. A regra \"todas com você\" do fingerprint é meta de guia (linha 280), e o fecho já cumpre o espírito com 2 de 3 marcadas, igual a A3; a série longa/curta/longa é o traço rítmico dela (whitelist item 6). A correção proposta repetiria \"sua clínica\" duas vezes em três frases, eco mecânico que a autora não faz."
+  }
+ ],
+ "cego": {
+  "veredito": "ia",
+  "confianca": 60,
+  "pistas": [
+   {
+    "trecho": "Esse caso aconteceu numa sala de consulta. Este livro é sobre o que acontece antes dela.",
+    "pista": "Antítese espelhada de uma linha só, funcionando como ponte editorial entre a história e a promessa do livro. É frase de redator montando capítulo, não de quem está contando o caso. O corpo inteiro antes disso é fala corrida com repetição e correção; aqui a voz muda de repente pra prosa cortada."
+   },
+   {
+    "trecho": "Ninguém perguntou o que ela estava vendo. Ninguém entendeu por que agora.",
+    "pista": "Anáfora em par exato (Ninguém / Ninguém) fechando com fragmento sem verbo (\"por que agora\"). Esse corte cirúrgico, duas frases curtas rimando em estrutura, é assinatura recorrente de prosa gerada quando tenta soar punchy. Na fala transcrita do resto do capítulo não aparece nada com essa simetria."
+   },
+   {
+    "trecho": "Não é fórmula rígida, é mapa. Algumas pacientes passam correndo por uma etapa, outras precisam de mais tempo em outra.",
+    "pista": "Aforismo no molde \"não é X, é Y\" seguido de \"algumas... outras...\" balanceado. Junto com \"Sete passos, do primeiro oi ao comprovante do PIX\" (frase nominal, sem verbo), é o trecho mais parecido com copy de landing page gerada: cada frase termina num gancho redondo demais."
+   },
+   {
+    "trecho": "Diagnóstico feito.",
+    "pista": "Parágrafo de duas palavras como soco depois da cena da doutora pedindo ajuda. A cena em si é plausível de vida real, mas o fechamento em uma linha isolada, mais o título \"O plot twist\" anunciando o twist antes dele acontecer, é ritmo de edição de texto, não de quem fala. Gente contando caso emenda; máquina (ou editor imitando máquina) isola pra dar efeito."
+   },
+   {
+    "trecho": "fontes: \"fontes/voz/amostra-fala-analuiza.txt; fontes/01-framework-715.md (p.1)\"",
+    "pista": "O próprio frontmatter declara que o capítulo foi montado a partir de uma amostra de FALA mais um documento de framework. Isso explica a quebra de registro: as seções 1 a 5 têm disfluência real de pessoa (\"Ter saído, ter esperado, ter pensado.\", \"enfim, é mil maravilhas\", \"Eu já dou spoiler, tá?\"), o que nenhum modelo produz espontaneamente. Mas quem costurou, titulou as seções, inseriu a frase da casa entre «» e escreveu o fecho é outra mão, e essa mão soa como IA. Por isso o veredito é IA com confiança média: a matéria-prima é humana, a redação final não."
+   }
+  ]
+ }
+}

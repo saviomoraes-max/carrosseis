@@ -1,0 +1,237 @@
+{
+  "notas": {
+    "repeticao": 7,
+    "leitora": 7.5,
+    "termos": 7.5
+  },
+  "nota_media": 7.3,
+  "brutos_n": 34,
+  "confirmados_n": 0,
+  "altas": 0,
+  "pareceres": [
+    {
+      "lente": "repeticao",
+      "nota": 7,
+      "resumo": "A espinha do livro é bem costurada: a frase-âncora \\\"vender aquilo que a pessoa já quer comprar\\\" volta nos capítulos 2, 6 e 8 sempre sinalizada, os anexos A e B resumem sem repetir prosa, e as frases prontas se repetem porque são material de consulta, o que é certo. O problema está na anedota da salinha do financeiro, que aparece em quatro lugares (1, 6, 10 e 12) e em dois deles é recontada por extenso, inclusive com as mesmas frases do capítulo 1 e com o plot twist da doutora reaproveitado como se fosse novidade. O segundo problema é um punhado de frases de efeito e comentários reusados inteiros em outro capítulo: \\\"nem se a consulta for de graça vai valer a pena\\\" (7 e 11), \\\"Não justifica, não precisa... Pede uma vez e segue\\\" (9 e 11), e o exemplo \\\"a doutora é ótima, os casos dela são perfeitos, olha esse caso que lindo\\\" (3 e 6). Tem ainda uma cena inteira reencenada: a demonstração do bastão com o R$ 200 do capítulo 2 é refeita no capítulo 10, com a mesma frase pronta, logo depois de o texto dizer \\\"eu já te disse isso lá no capítulo 2\\\". Nenhum desses achados quebra o livro, mas o capítulo 12 depende de a salinha ainda ter carga, e ela chega lá gasta pelas duas revisitas do meio."
+    },
+    {
+      "lente": "leitora",
+      "nota": 7.5,
+      "resumo": "Li de uma sentada e não pulei nenhum capítulo, o que já diz muita coisa. O livro me ganhou logo na primeira página, porque a salinha do financeiro é a minha clínica e eu nunca tinha ligado ela com o WhatsApp, e a virada de que é a mesma paciente no mesmo lugar da cabeça vale o preço sozinha. Me ganhou de novo no \\\"ou não\\\" do passo um, no bastão do capítulo 2 e principalmente na paciente do queixo com o casamento em novembro, que eu segui do capítulo 4 até o PIX e reconheci em três conversas minhas dessa semana. O diagnóstico de que objeção vaga é passo raso é a coisa mais útil que eu li sobre venda em muito tempo, e o capítulo 11 vai ficar aberto do lado do celular. O que não fecha: eu sou a doutora que atende o próprio WhatsApp e o livro resolve o meu caso numa linha, mas todas as frases prontas dizem \\\"a doutora\\\", então eu terminei o livro tendo que reescrever tudo sozinha. E o medo do resultado, que é a mensagem que mais me chega, é definido como o tipo de objeção mais importante no capítulo 10 e não tem cartão nenhum no manual do 11. Faltou também a cena que eu mais precisava ver, que é a conversa travando e voltando, e uma forma de eu medir o um a cada cinco que está na capa. Recomendo pra uma colega, com o aviso de que ela vai ter que adaptar as frases se atender o WhatsApp dela mesma."
+    },
+    {
+      "lente": "termos",
+      "nota": 7.5,
+      "resumo": "O básico está firme e não é pouco: WhatsApp aparece 32 vezes e é WhatsApp nas 32, PIX é PIX nas 26, \"harmonização facial\" nunca vira sigla, a paciente é \"paciente\" ou \"a pessoa\" em quase todas as ocorrências, e todas as remissões de capítulo fecham (o 1 promete o 12 e o 12 entrega, o 9 promete o 10 e o 10 volta, o 8 aponta a frase certa no 11). As contagens declaradas também batem uma a uma: seis jeitos de perguntar por que agora, oito bases, seis erros no capítulo 08, quatro movimentos no passo dois. O problema está inteiro num lugar só: as frases coláveis não são a mesma frase quando saem do capítulo e entram nos anexos. \"Posso estar enganada\" vira \"Posso estar errada\", \"confirmarmos seu horário na agenda\" vira \"garantir o seu horário\", \"[problema]\" vira \"[dor trazida]\" e, no caso mais grave, a frase do passo cinco é impressa três vezes com \"desde [tempo]\" enquanto o parágrafo ao lado jura que o script chama aquilo de \"tempo informado\" e o Anexo B escreve \"há [tempo informado]\". Isso num livro que a leitora vai usar com o polegar, copiando do anexo, é o defeito que mais custa. Fora daí sobram deslizes menores de vocabulário: \"o lead\" invadindo duas frases num livro de \"paciente\", \"framework\" e \"material\" disputando com \"script\", e uma frase pronta do capítulo 09 que ficou com quinta-feira às 15h chumbados no lugar do colchete."
+    }
+  ],
+  "confirmados": [],
+  "refutados": [
+    {
+      "lente": "repeticao",
+      "trecho": "Eu já estive do lado de lá dessa conversa, lembra da salinha? Quando a doutora terminou o diagnóstico, eu já tava completamente na emoção e já tinha entendido que aquilo ali resolvia o meu problema, e não precisava ter tido processo de convencimento nenhum depois, né? Se eu tivesse entendido o preço ali na sala, talvez eu teria fechado lá dentro.",
+      "problema": "Isso reconta o desfecho do capítulo 1 quase palavra por palavra. Lá está escrito \"Se eu tivesse entendido o preço na sala, talvez eu teria fechado. Lá dentro.\" e \"Porque eu já tava completamente na emoção. Eu já tinha entendido que aquilo resolvia o meu problema.\" O gancho \"lembra da salinha?\" já faz o trabalho de lembrar; o que vem depois dele é a anedota de novo por extenso.",
+      "motivo": "sem veredito do cetico (falha)"
+    },
+    {
+      "lente": "repeticao",
+      "trecho": "Naqueles dez minutinhos antes da salinha, o que passou pela minha cabeça foi isso: e se for muito caro, será que é prioridade agora, será que eu não encontro outro jeito? Eu, que trabalho com isso o dia inteiro. E a doutora, na mesma consulta, tinha me falado que estava com muita gente indo pra casa pensar.",
+      "problema": "É a terceira vez que a salinha volta, e aqui voltam as três perguntas da ruminação do capítulo 1 (\"e se esse negócio for muito caro? [...] será que isso é prioridade agora? Será que eu não consigo encontrar outros meios?\") mais o plot twist da doutora com gente indo pra casa pensar, que no capítulo 1 era a revelação que fechava o capítulo. Recontar a revelação gasta ela.",
+      "motivo": "sem veredito do cetico (falha)"
+    },
+    {
+      "lente": "repeticao",
+      "trecho": "Pensa na pergunta que chega logo no início da conversa, “quanto custa a consulta?”. Se você responde “a consulta custa R$ 200”, acabou.",
+      "problema": "A seção inteira refaz a demonstração do bastão do capítulo 2: mesma pergunta, mesmo R$ 200, e logo abaixo a mesma frase pronta (\"Claro que eu posso te passar mais informações sobre a consulta. Antes...\"), fechando com \"Você não escondeu o preço, você disse que vai passar\", que é o \"Você não escondeu nada\" do capítulo 3. O texto até avisa \"Eu já te disse isso lá no capítulo 2\", e mesmo assim reencena a cena inteira em vez de só referenciar.",
+      "motivo": "sem veredito do cetico (falha)"
+    },
+    {
+      "lente": "repeticao",
+      "trecho": "De fato, só existe uma forma da gente gerar valor na conversa, que é quando a pessoa entende que o problema que ela tem a gente consegue ajudar a resolver. E se o valor não for percebido, nem se a consulta for de graça vai valer a pena.",
+      "problema": "\"e se o valor não for percebido, nem se a consulta for de graça vai valer a pena\" é frase de efeito, e ela já apareceu inteira no capítulo 7, fechando o comentário sobre falar de preço antes de mostrar como a consulta resolve. Frase de efeito só bate uma vez; na segunda a leitora reconhece e ela vira bordão.",
+      "motivo": "sem veredito do cetico (falha)"
+    },
+    {
+      "lente": "repeticao",
+      "trecho": "Não justifica, não precisa. Quanto mais a gente fala, mais parece que tá querendo justificar alguma coisa. Pede uma vez e segue.",
+      "problema": "Três frases repetidas do capítulo 9, onde está \"Não justifica, não precisa. Quanto mais a gente fala, mais a gente se explica, e mais parece que a gente tá querendo justificar alguma coisa. É o que é e ponto. [...] Pede uma vez e segue.\" Os dois capítulos já se citam um ao outro (o 9 manda pro 11 pelas frases prontas, o 11 volta pro 9 pela regra do PIX), então a duplicação do comentário é gratuita.",
+      "motivo": "sem veredito do cetico (falha)"
+    },
+    {
+      "lente": "repeticao",
+      "trecho": "A paciente acabou de dizer que quer a consulta, e você, toda animada, emenda: “e a doutora é ótima, os casos dela são perfeitos, olha esse caso que lindo”.",
+      "problema": "O exemplo de se qualificar é o mesmo do capítulo 3, quase letra por letra: \"aquele “a doutora é ótima, esses casos são perfeitos, olha esse caso que lindo”\". O parágrafo até avisa que o erro reaparece em quatro passos, o que justifica citar o erro de novo, mas não repetir a mesma frase inventada de exemplo.",
+      "motivo": "sem veredito do cetico (falha)"
+    },
+    {
+      "lente": "repeticao",
+      "trecho": "Termino a resposta dela, eu passo pra próxima pergunta, e aí fica uma conversa robótica como se eu tivesse entrevistando a pessoa, né?",
+      "problema": "A leitura negativa do passo três reexplica o diagnóstico que o capítulo 4 já tinha dado uma página antes (\"A leitura negativa do passo dois tem cara de interrogatório, e acontece quando você só faz perguntas sem referenciar o que ela disse\"), e \"conversa robótica\" já é do capítulo 2. Em capítulos vizinhos a leitora sente que leu duas vezes a mesma explicação.",
+      "motivo": "sem veredito do cetico (falha)"
+    },
+    {
+      "lente": "leitora",
+      "trecho": "Se quem atende é você mesma, doutora, aí você fala de você na terceira pessoa mesmo, que é como a paciente ouve do outro lado.",
+      "problema": "Esse sou eu, o livro inteiro. Eu atendo o WhatsApp da minha clínica e você resolve o meu caso em uma linha e segue com umas sessenta frases prontas que todas dizem \"a doutora\". Mandar \"até pra entender se a doutora vai conseguir te ajudar\" do meu próprio número, pra uma paciente que me segue e sabe que sou eu, soa falso, e eu não vou mandar.",
+      "motivo": "sem veredito do cetico (falha)"
+    },
+    {
+      "lente": "leitora",
+      "trecho": "Existem dois tipos de objeção, e a resposta certa muda conforme qual das duas você tem na frente.",
+      "problema": "Você define objeção real como \"preocupação legítima: resultado, segurança, tempo\" e me dá o exemplo do fofão, que é literalmente a mensagem que mais chega no meu WhatsApp. Aí o capítulo 11, que é o manual, tem sete famílias e nenhuma é essa. Preço, consulta paga, compromisso, PIX, informação técnica, resistência, foto. A objeção que você chamou de real é a única sem cartão, e as duas acabam no mesmo lugar, que é voltar.",
+      "motivo": "sem veredito do cetico (falha)"
+    },
+    {
+      "lente": "leitora",
+      "trecho": "Voltar é refazer a pergunta do passo que ficou raso, em vez de inventar resposta nova pra objeção.",
+      "problema": "Eu entendi o diagnóstico e acho ele o melhor pedaço do livro, mas ele fica só em teoria. A paciente do queixo, que é a única conversa que eu vejo do começo ao fim, vai do oi ao PIX sem hesitar uma vez. Eu nunca vejo uma cena de conversa travando e voltando, e é isso que acontece comigo toda semana. Não sei o que mando entre a pergunta de volta e oferecer o horário de novo, nem como faço isso sem parecer que eu travei.",
+      "motivo": "sem veredito do cetico (falha)"
+    },
+    {
+      "lente": "leitora",
+      "trecho": "Então, o nome é “sete passos para um agendamento a cada cinco contatos”: um a cada cinco, e não “sete passos para agendar todo mundo”",
+      "problema": "Eu comprei por causa desse número. E fecho o livro sem saber como eu conto isso na minha clínica, nem em quanto eu estou hoje. Sem uma medida, na semana que vem eu vou achar que melhorou ou que não melhorou, e as duas coisas vão ser palpite.",
+      "motivo": "sem veredito do cetico (falha)"
+    },
+    {
+      "lente": "leitora",
+      "trecho": "[Nome], por conta da forma que trouxe... e de já estar desde [tempo] sentindo assim... concordo que não tem por que deixar mais para depois.",
+      "problema": "Essa é a única frase do passo cinco e eu vou copiar ela literal, então eu paro nela. \"Por conta da forma que trouxe\" fica no ar pra mim: trouxe o quê? E no anexo C aparece a versão que fecha, \"Pela forma como você trouxe isso\". Fico com duas na mão, não sei qual é a certa e acabo não mandando nenhuma.",
+      "motivo": "sem veredito do cetico (falha)"
+    },
+    {
+      "lente": "leitora",
+      "trecho": "Vou te explicar como funciona. Antes, que outra dúvida ainda ficou em como podemos ajudar a resolver [problema mencionado], antes de vermos a disponibilidade na agenda da doutora?",
+      "problema": "Li três vezes e ainda travo. Tem dois \"antes\" na mesma frase e \"que outra dúvida ainda ficou em como podemos ajudar\" não é uma coisa que sai da minha boca. É uma das frases mais úteis do livro, porque é a que termina em agenda, e é a que eu tenho menos coragem de colar.",
+      "motivo": "sem veredito do cetico (falha)"
+    },
+    {
+      "lente": "leitora",
+      "trecho": "As vagas de paciente modelo desse mês já foram encerradas, mas numa próxima oportunidade eu te aviso, combinado?",
+      "problema": "O livro inteiro me ganha com \"você não escondeu nada\" e \"o motivo verdadeiro\", e aqui você me pede pra dizer uma coisa que não é verdade pra dispensar quem não passou no corte. Na minha cidade essa paciente conversa com outras, e uma delas vai entrar na mesma edição que eu disse que tinha encerrado. Eu não mando essa.",
+      "motivo": "sem veredito do cetico (falha)"
+    },
+    {
+      "lente": "leitora",
+      "trecho": "Agora, se ela empurrar o pagamento pra depois disso e insistir, aí já virou objeção. E objeção nunca se responde com informação, se responde com pergunta, que é o capítulo 10. As frases prontas dessa, inclusive a do “faço o PIX à noite”, estão no capítulo 11.",
+      "problema": "O capítulo 9 é o único que eu vou abrir com a paciente esperando resposta na tela, e no meio dele você me manda pra dois capítulos que estão na frente. No celular isso é rolar, procurar, perder o fio e voltar. É justo no lugar onde eu tenho menos tempo pra procurar.",
+      "motivo": "sem veredito do cetico (falha)"
+    },
+    {
+      "lente": "leitora",
+      "trecho": "Na sua última conversa que morreu, você sabe o que tinha mudado na vida da paciente? Ou você só sabe o que ela queria fazer?",
+      "problema": "Dez capítulos terminam do mesmo jeito e todos me perguntam sobre o que eu já perdi. Na quarta eu já pulo o rodapé. Lendo cansada às onze da noite, o que eu queria no fim de cada capítulo era uma linha do que fazer amanhã de manhã com aquele passo, e isso só chega no capítulo 12, quando o livro já acabou.",
+      "motivo": "sem veredito do cetico (falha)"
+    },
+    {
+      "lente": "leitora",
+      "trecho": "O segundo é o erro que mais volta no material, porque se qualificar demais aparece lá na conexão, aqui na qualificação, de novo na transição e ainda na apresentação.",
+      "problema": "Você percebeu que repete e repetiu mesmo assim. Eu entendi no capítulo 3 que não é pra elogiar a doutora, e no 6, no 7, no 8 e duas vezes no 11 eu leio de novo o parágrafo inteiro explicando. É o ponto do livro onde eu comecei a pular parágrafo.",
+      "motivo": "sem veredito do cetico (falha)"
+    },
+    {
+      "lente": "leitora",
+      "trecho": "Então, eu quero te passar primeiro o que a gente considera a base de qualquer atendimento, tá? São oito coisas, e isso aqui é o que eu vejo dar certo nas clínicas que passam por aqui e são mais de 3 mil. Essas oito voltam em todos os capítulos, então guarda.",
+      "problema": "Você me manda guardar oito e três delas são a mesma coisa: empatia é a base, conexão o tempo inteiro, conexão derruba a resistência. Leio oito parágrafos e saio com quatro ideias na cabeça, então a lista que eu deveria guardar é justamente a que eu não guardo.",
+      "motivo": "sem veredito do cetico (falha)"
+    },
+    {
+      "lente": "leitora",
+      "trecho": "Agora, se a base parada é grande demais pra ir uma por uma, a gente faz repescagem, e a nossa é no dia 20 de cada mês: você separa um dia e reativa todo mundo que está parado, com uma abordagem só.",
+      "problema": "Não sei se o dia 20 tem um motivo ou se é a data de vocês. Se tem motivo eu quero saber, porque eu copio. Se não tem, me dá a regra e não a data. É a mesma sensação de \"a regra da casa\", que aparece quatro vezes no livro sem você me dizer o que é a casa: parece bastidor de um grupo em que eu não estou.",
+      "motivo": "sem veredito do cetico (falha)"
+    },
+    {
+      "lente": "leitora",
+      "trecho": "Ó, gente, eu não sei quantos maridos que eu tive na minha vida de ter falado “não, tenho que ver com meu marido”. Os maridos, o tanto de marido que essas mulheres criam.",
+      "problema": "Eu ri, e aí travei. Você me diz que o marido é invenção e no capítulo seguinte a resposta pronta trata o marido como real: \"faz total sentido querer conversar com quem a gente confia\". Fico sem saber se eu escrevo acreditando nela ou desconfiando, e é exatamente isso que muda o tom da mensagem que eu vou digitar.",
+      "motivo": "sem veredito do cetico (falha)"
+    },
+    {
+      "lente": "leitora",
+      "trecho": "E se você quiser que a gente olhe isso junto, a sua conversa, o seu número, a sua clínica, marca um horário com o nosso time.",
+      "problema": "É o único momento em que eu senti venda num livro que eu já paguei. A execução é elegante, você faz comigo o que me ensinou a fazer com a paciente, e mesmo assim ela cai bem no meio da seção chamada \"o que eu quero que você faça agora\", que é onde eu esperava o meu plano de segunda de manhã. E o capítulo me dá sete tarefas antes disso: os sete passos, o anexo A, o anexo C, reabrir conversa morta, curtir mensagem antiga, repescagem dia 20, voltar no passo dois.",
+      "motivo": "sem veredito do cetico (falha)"
+    },
+    {
+      "lente": "termos",
+      "trecho": "[Nome], por conta da forma que trouxe... e de já estar desde [tempo] sentindo assim... concordo que não tem por que deixar mais para depois.",
+      "problema": "A frase do passo cinco aparece três vezes no corpo com \"desde [tempo]\" e no Anexo B com \"por já estar há [tempo informado]\". Pior: o parágrafo logo abaixo dela diz \"O script chama esse pedaço de 'tempo informado'\", ou seja, o livro nomeia um placeholder que ele não imprime, e o \"desde\" preenchido dá \"de já estar desde uns dois anos sentindo assim\", que quebra a regência (o certo é \"há\").",
+      "motivo": "sem veredito do cetico (falha)"
+    },
+    {
+      "lente": "termos",
+      "trecho": "“Posso estar errada, mas me parece que isso não começou agora. O que mudou para você buscar uma solução neste momento?”",
+      "problema": "A abertura da frase mais importante do passo três é \"Posso estar enganada\" nas três aparições do corpo (capítulo 05, duas vezes, e Anexo A) e vira \"Posso estar errada\" no Anexo B. A ressalva do Anexo B só autoriza \"outro colchete ou sem as reticências\", não troca de palavra.",
+      "motivo": "sem veredito do cetico (falha)"
+    },
+    {
+      "lente": "termos",
+      "trecho": "FRASE PRONTA — O próximo horário disponível na agenda da doutora é quinta-feira às 15h. Como fica para você?",
+      "problema": "Frase pronta com o dia e a hora chumbados, no mesmo capítulo em que as outras duas frases prontas usam colchete (\"R$ [valor]\", \"[período mencionado]\"). O Anexo A já traz a mesma frase certa, com \"[dia] às [hora]\". Quem copia do capítulo cola \"quinta-feira às 15h\" na paciente.",
+      "motivo": "sem veredito do cetico (falha)"
+    },
+    {
+      "lente": "termos",
+      "trecho": "O lead sumiu, eu não agendei, todo mundo saiu sem o problema resolvido.",
+      "problema": "A mulher do outro lado é \"a paciente\" ou \"a pessoa\" em 99 ocorrências, e vira \"o lead\" em duas frases da autora (esta e \"é queimar o lead\", no capítulo 12) sem nenhum critério. O fingerprint é explícito: ela chama de \"a pessoa\", e \"o lead\" aparece quatro vezes menos na fala dela. Dentro deste parágrafo o pronome já vinha sendo \"ela\", então a troca também quebra a costura.",
+      "motivo": "sem veredito do cetico (falha)"
+    },
+    {
+      "lente": "termos",
+      "trecho": "Um dos dois erros que o framework manda evitar aqui é perguntar quando a paciente pode, em vez de oferecer um horário.",
+      "problema": "A mesma coisa é chamada de \"o script\" umas quinze vezes, de \"o framework\" três (aqui, no capítulo 06 e em \"fazer o framework completo com todo mundo\", no Anexo C), de \"o material\" no capítulo 06 e de \"a lista logo acima\" no capítulo 07. \"Framework\" é justamente a palavra corporativa que o fingerprint diz não existir na boca dela.",
+      "motivo": "sem veredito do cetico (falha)"
+    },
+    {
+      "lente": "termos",
+      "trecho": "“Consegue me enviar o comprovante agora para já garantir o seu horário?”",
+      "problema": "No capítulo 09 e no Anexo A a frase é \"para já confirmarmos seu horário na agenda\", três vezes igual; aqui vira \"para já garantir o seu horário\". No mesmo bloco, o item 1 do Anexo B também perde o \"da doutora\" (\"o próximo horário disponível na agenda é...\"), que no resto do livro é o que marca que quem escreve não é a doutora.",
+      "motivo": "sem veredito do cetico (falha)"
+    },
+    {
+      "lente": "termos",
+      "trecho": "“Por isso, já sei que a doutora vai te ajudar com a [dor trazida] e parar de se sentir [sentimento informado].”",
+      "problema": "Convivem dois vocabulários de placeholder para os mesmos dois campos: \"[problema]\" e \"[como está se sentindo]\" no capítulo 08 e no Anexo A, \"[dor trazida]\" e \"[sentimento informado]\" aqui, com o artigo mudando junto (\"com o\" contra \"com a\"). A ressalva do Anexo B cobre \"outro colchete\", mas quem procura na cola não acha o mesmo nome. De quebra, o \"e parar de se sentir\" deixa a doutora como sujeito de \"parar\".",
+      "motivo": "sem veredito do cetico (falha)"
+    },
+    {
+      "lente": "termos",
+      "trecho": "Claro que eu posso te passar mais informações sobre a consulta. Antes, para entender se a doutora vai conseguir te ajudar no seu caso ou não... como entende que a consulta vai te ajudar?",
+      "problema": "A resposta canônica ao \"quanto custa a consulta?\" aparece em duas redações: aqui com \"para entender\", reticências e \"como entende\", e no capítulo 10 com \"pra entender\", vírgula e \"como você entende\". É a frase que o livro mais defende, e ela não bate consigo mesma.",
+      "motivo": "sem veredito do cetico (falha)"
+    },
+    {
+      "lente": "termos",
+      "trecho": "Sem problemas! Até pra gente entender se faz sentido seguir ou não, o que fez você considerar a consulta como um caminho para resolver [problema] agora?",
+      "problema": "Ela escreveu \"avaliação\" (\"Ah, a avaliação é paga?\"), e a resposta modelo devolve \"consulta\". O livro inteiro ensina o contrário, que é devolver a palavra dela (capítulo 04 e capítulo 08). O título da família também é \"Consulta paga\" enquanto as duas objeções dela dizem \"avaliação\".",
+      "motivo": "sem veredito do cetico (falha)"
+    },
+    {
+      "lente": "termos",
+      "trecho": "Então, o nome é “sete passos para um agendamento a cada cinco contatos”: um a cada cinco, e não “sete passos para agendar todo mundo”",
+      "problema": "O nome é citado por extenso entre aspas, como se fosse o título, mas a capa traz \"7 passos para 1 agendamento a cada 5 contatos\", em algarismo. Citar o próprio título com outra grafia dentro de aspas é o tipo de coisa que a leitora nota.",
+      "motivo": "sem veredito do cetico (falha)"
+    },
+    {
+      "lente": "termos",
+      "trecho": "Isso é o passo quatro, e é onde a frase da primeira página do framework acontece: vender só aquilo que a pessoa já quer comprar.",
+      "problema": "A mesma frase é chamada aqui de \"a frase da primeira página do framework\" e no capítulo 08 de \"a frase do capítulo 2\". E não existe primeira página de framework nenhum: a frase aparece no fim do capítulo 01 e em página inteira no capítulo 02.",
+      "motivo": "sem veredito do cetico (falha)"
+    },
+    {
+      "lente": "termos",
+      "trecho": "Daí em diante é o passo sete do 715, igualzinho. Horário, chave PIX, comprovante.",
+      "problema": "O \"igualzinho\" manda a leitora repetir o passo sete, mas a frase pronta do passo sete diz \"O investimento da consulta é de R$ [valor]\" e o próprio Anexo C acabou de dizer que \"o que ela paga pra travar a vaga não é a consulta, é uma «reserva»\". Quem seguir a instrução ao pé da letra vai cobrar consulta de paciente modelo.",
+      "motivo": "sem veredito do cetico (falha)"
+    },
+    {
+      "lente": "termos",
+      "trecho": "“Você mencionou ‘harmonização’, o que exatamente você imagina quando pensa nisso?”",
+      "problema": "É a única vez no livro em que o termo aparece cortado. Nas outras quatro ocorrências é \"harmonização facial\" por extenso, inclusive na mesma pergunta do capítulo 04 (\"Como assim 'harmonização facial'?\"), e o fingerprint diz que ela fala por extenso, sempre.",
+      "motivo": "sem veredito do cetico (falha)"
+    }
+  ],
+  "relatorio": null,
+  "_INVALIDA": "Banca abortada: limite semanal da conta. Três lentes de seis terminaram (repetição, leitora, termos), e NENHUM cético rodou. Todos os 34 achados estão marcados 'sem veredito do cetico (falha)', que pela régua da casa significa que o agente morreu, NÃO que a acusação seja boa. Não aplicar nada daqui sem refazer a banca."
+}

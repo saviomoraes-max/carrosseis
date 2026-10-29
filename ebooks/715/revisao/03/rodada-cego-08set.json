@@ -1,0 +1,28 @@
+{
+  "cego": {
+    "veredito": "ia",
+    "confianca": 80
+  },
+  "pistas": [
+    {
+      "trecho": "Autoridade no WhatsApp não é currículo. É a pessoa que faz a pergunta certa.",
+      "pista": "Aforismo em \"não é X, é Y\" isolado como parágrafo de uma linha só, no fim exato da seção. Esse formato de punchline colocado no lugar milimetricamente certo é a assinatura mais forte de composição por máquina. E não é caso isolado: o mesmo molde aparece em \"quem pega qualquer uma não está escolhendo, está vendendo\" e em \"Você não escondeu nada. Você só não largou o bastão.\" Gente escrevendo direto raramente acerta esse fecho três, quatro vezes no mesmo capítulo curto."
+    },
+    {
+      "trecho": "Acho que ninguém relaxa com quem já decidiu vender. A gente relaxa com quem ainda está decidindo se dá pra ajudar.",
+      "pista": "O hedge (\"Acho que\") está grudado num par antitético perfeitamente simétrico — mesma estrutura sintática nas duas frases, só o predicado invertido. Humano hesita sobre fato, número, memória; aqui a hesitação enfeita um aforismo balanceado. É a marca de passada de humanização: injetar \"acho que\", \"pelo que eu vejo\", \"eu entendo\" por cima de sentenças que nasceram assertivas."
+    },
+    {
+      "trecho": "Acontece quando a gente se qualifica, aquele a doutora é ótima, esses casos são perfeitos, olha esse caso que lindo. Acontece quando a gente não fala pra que está ali. Acontece quando a paciente sente que pode agendar a hora que quiser",
+      "pista": "Anáfora quádrupla (\"Acontece quando...\") anunciada por uma contagem exata logo antes (\"isso acontece em quatro situações\"), com os quatro itens cabendo num parágrafo só e nenhum deles fugindo do paralelismo. Fala real desmonta a lista no meio: repete um item, esquece outro, volta atrás. Aqui a lista fecha certinha em quatro."
+    },
+    {
+      "trecho": "Três coisas, e as três acontecem na mesma mensagem. Abrir espaço pra conversa. Tirar a resistência inicial, aquela desconfiança de quem chama numa clínica e já espera ser empurrada. E mostrar que você está ali pra entender se consegue ajudar ou não.",
+      "pista": "Declara o número antes de entregar e entrega exatamente três, em fragmentos infinitivos paralelos com o \"E\" no último. É o ritmo de tríade mais previsível que existe em texto gerado. Somado a \"Esse \\\"ou não\\\" é o coração do passo\", que rotula o próprio insight, dá um texto que explica a si mesmo — coisa que quem fala de dentro do ofício não faz, porque pra ele aquilo é óbvio."
+    },
+    {
+      "trecho": "Sobre a última: a paciente que chega direta, já pedindo horário, engana. Parece pronta. Aí você manda o horário, ela some, e você fica sem entender.",
+      "pista": "Ponto exato onde apareceria uma história real — um nome, uma data, um valor, uma conversa que deu errado — e não aparece nada. O capítulo inteiro não tem uma única anedota, número, exceção ou digressão que não sirva ao argumento. Zero desperdício: todo parágrafo entra, desenvolve e fecha num remate. Texto de pessoa tem pelo menos um trecho que não vai a lugar nenhum; este não tem nenhum. Os marcadores de oralidade (\"tá?\", \"Repara que\") aparecem uma vez cada, dosados demais pra serem fala."
+    }
+  ]
+}

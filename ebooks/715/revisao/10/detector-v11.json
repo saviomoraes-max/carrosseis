@@ -1,0 +1,125 @@
+{
+  "arquivo": "manuscrito/10-objecao-nao-e-um-nao.md",
+  "palavras": 734,
+  "paragrafos": 17,
+  "frases": 54,
+  "mascarado": {
+    "frontmatter": 1,
+    "blocos_script": 5,
+    "marcadores_bloco": 12,
+    "citacoes": 9,
+    "titulos_curtos": 4
+  },
+  "avisos": [],
+  "absolvidos_pelo_corpus": [],
+  "amostra_pequena": false,
+  "score": 9,
+  "faixa": "limpo (soa gente)",
+  "pontos": 3.5,
+  "densidade": 4.8,
+  "formula": "densidade = pontos / max(palavras, piso_palavras) * 1000; score = 100 * (1 - exp(-densidade / k)), k = 50, piso_palavras = 300 (texto curto não explode com um achado só). Nota por categoria usa k_categoria sobre a densidade só daquela categoria.",
+  "categorias": {
+    "conteudo": {
+      "rotulo": "Conteúdo e inflação",
+      "achados": 1,
+      "pontos": 1,
+      "densidade": 1.4,
+      "nota": 9
+    },
+    "linguagem": {
+      "rotulo": "Linguagem e vocabulário",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "estrutura": {
+      "rotulo": "Estrutura e ritmo",
+      "achados": 1,
+      "pontos": 2.5,
+      "densidade": 3.4,
+      "nota": 20
+    },
+    "comunicacao": {
+      "rotulo": "Sobras de chatbot",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "meta": {
+      "rotulo": "Uniformidade de ritmo (estatística)",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "calques": {
+      "rotulo": "Calques do inglês e burocratês",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    }
+  },
+  "metricas": {
+    "frases_media_palavras": 13.6,
+    "frases_desvio_padrao": 8.1,
+    "frases_cv": 0.6,
+    "paragrafos": 17,
+    "paragrafos_mediana_palavras": 45.5,
+    "paragrafos_proporcao_mesmo_tamanho": 0.36,
+    "ritmo_entre_paragrafos_desvio": 0.16,
+    "pontuacao_cv": 0.94,
+    "ttr": 0.349,
+    "frases_mesmo_inicio_proporcao": 0.04,
+    "travessoes": 0,
+    "travessoes_por_mil": 0.0,
+    "dois_pontos": 4,
+    "dois_pontos_por_mil": 5.45,
+    "itens_lista": 0,
+    "proporcao_linhas_em_lista": 0.0,
+    "negritos": 0,
+    "triades": 1,
+    "triades_por_mil": 1.36,
+    "contrastes": 0,
+    "paragrafos_terminando_em_pergunta": 2,
+    "fechos_grandiosos": 0,
+    "hedges": 1,
+    "hedges_por_mil": 1.36
+  },
+  "achados": [
+    {
+      "id": "ct_talvez",
+      "categoria": "conteudo",
+      "subtipo": "hedge",
+      "gravidade": "baixa",
+      "peso": 1,
+      "texto": "provavelmente",
+      "inicio": 1159,
+      "fim": 1172,
+      "explicacao": "Hedge adverbial (um por texto passa; a densidade é o tell).",
+      "sugestao": "afirme ou corte",
+      "contribuicao": 1,
+      "linha": 18,
+      "trecho": "O controle passou pra ela, e ela «provavelmente» não volta."
+    },
+    {
+      "id": "ct_pergunta_gancho",
+      "categoria": "estrutura",
+      "subtipo": "pergunta_retorica",
+      "gravidade": "media",
+      "peso": 2.5,
+      "texto": "quer saber qual",
+      "inicio": 3008,
+      "fim": 3023,
+      "explicacao": "Pergunta retórica de abertura pré-fabricada.",
+      "sugestao": "afirme; ou faça a pergunta com dado concreto",
+      "contribuicao": 2.5,
+      "linha": 43,
+      "trecho": "Se a gente «quer saber qual» das duas chegou, a gente pergunta."
+    }
+  ],
+  "achados_ocultos": 0,
+  "min_gravidade": "baixa"
+}

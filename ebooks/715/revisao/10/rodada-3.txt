@@ -1,0 +1,56 @@
+10-objecao-nao-e-um-nao.md · rodada 3 · brutos 19 · confirmados 11 · altas 6 · cego ia 70
+
+[1] tell/alta
+  TRECHO: Eu gosto dessas duas palavras porque elas descrevem o que a atendente sente e o que ela faz. Curiosidade é o que você sente quando ela diz “vou pensar”: pensar no quê? Direção é o que você faz com isso: pergunta, em vez de esperar.
+  DETALHE: Esteira (catálogo 2.6) em cima de espelhamento sintático dos dois lados (2.5). O parágrafo anterior, que é literal da fonte, já disse a mesma coisa: "Se você reage com ansiedade, pressa ou justificativa, perde a paciente
+  CORRECAO: "Eu gosto dessas duas palavras. Curiosidade é o que passa na sua cabeça quando chega o “vou pensar”, né, pensar no quê. E a direção é o que a gente faz com essa curiosidade, que é perguntar em vez de ficar esperando ela voltar."
+
+[2] tell/alta
+  TRECHO: A objeção real é específica e detalhada. A paciente consegue explicar com clareza. E geralmente tem a ver com uma preocupação legítima: resultado, segurança, tempo.
+  DETALHE: Esteira (2.6, gravidade alta quando cortar metade não perde informação): isso é o gráfico logo acima lido em voz alta, palavra por palavra e na mesma ordem ("Específica e detalhada. / Ela consegue explicar com clareza. /
+  CORRECAO: Objeção real: corta as três frases de esteira e abre no exemplo. "“Eu fiz preenchimento uma vez e ficou muito artificial, tenho medo de acontecer de novo.” Isso é objeção real. Ela te contou o medo, né, o medo tem nome, e é o nome que você pergunta." O resto do parágrafo segue igual. Cortina: corta as três primeiras frases e abre em "Repara no “de repente”: a paciente estava conversando bem...".
+
+[3] tell/alta
+  TRECHO: Eu quero te propor outra leitura dessa mensagem.
+  DETALHE: Corrida de aproximação antes do ponto (1.5, gravidade alta) somada a narração do próprio texto (5.2). Ela anuncia que vai propor uma leitura em vez de propor. A frase seguinte já é a tese, com o "Gente," que o fingerprin
+  CORRECAO: Corta a frase inteira. O parágrafo abre em "Gente, objeção não é rejeição."
+
+[4] tell/alta
+  TRECHO: Pra saber qual das duas você tem na frente, pergunta.
+  DETALHE: O capítulo prescreve em "você" e a Ana prescreve em "a gente". Medido no corpo do capítulo (963 palavras): "você" 25,96 por mil contra 9,45 dela; "a gente" 1,04 por mil contra 17,62 dela. O fingerprint é explícito: "a ge
+  CORRECAO: Sem o segundo "Agora,", mantendo o cenário condicional da §5 e devolvendo o ", mas" dentro do período (82% dos dela vêm depois de vírgula), o que ainda mata dois imperativos secos: "Se a gente quer saber qual das duas chegou, a gente pergunta. Uma das duas basta, a segunda é a primeira já com o "vou pensar" dentro. E a gente pergunta com curiosidade, mas curiosidade de verdade, não cobrança disfarçada. Ela sente a diferença." Adiante, aceito a proposta do revisor como está: "A gente volta um passo e pergunta de novo." Manter em "você" o que é fala reproduzida, script colável e a frase literal da fonte (linha 22, "Se você reage com ansiedade...").
+
+[5] tell/media
+  TRECHO: Claro que eu posso te passar mais informações sobre a consulta. Antes, pra entender se a doutora vai conseguir te ajudar no seu caso ou não, como você entende que a consulta vai te ajudar?
+  DETALHE: A seção "Por que responder mata" é o primeiro verbete do capítulo 11 rodado antes da hora, e o próprio capítulo admite isso duas linhas depois ("no capítulo 11 eu pego uma objeção por vez"). O capítulo 11 traz a mesma pe
+  CORRECAO: Mantém o bloco no capítulo 10 e nomeia a variação com o mesmo recurso que o capítulo 11 já usa na l.34 ("Essa é quase a mesma frase de cima, e é de propósito"). Depois de "Só que você não passou antes de perguntar.", entra: "Essa mesma resposta volta no capítulo 11 terminando em “você já sabe o que está procurando?”, e é de propósito, porque as duas perguntam antes de passar o valor. O começo é sempre o mesmo, o que muda é a pergunta que cabe na conversa."
+
+[6] tell/media
+  TRECHO: Tem uma frase que eu já te disse lá no capítulo 2 e que eu acho que resume esse capítulo: a forma mais fácil de encerrar uma conversa é com uma resposta.
+  DETALHE: Narração do próprio texto (5.2, alta): o livro etiqueta o próprio capítulo ("resume esse capítulo") e monta a frase como revelação por dois-pontos (1.9). E a frase seguinte, "Vale pra objeção e vale pra pergunta, porque 
+  CORRECAO: "A forma mais fácil de encerrar uma conversa é com uma resposta. Eu já te disse isso lá no capítulo 2, e acho que aqui é onde ela pesa mais, porque vale pra objeção e vale pra pergunta, a regra é a mesma."
+
+[7] tell/media
+  TRECHO: Uma das duas basta, a segunda é a primeira já com o “vou pensar” dentro.
+  DETALHE: A frase vem antes dos dois blocos de pergunta, então a leitora lê "a segunda" sem ter visto nenhuma das duas. E quando vê, a conta não fecha: a primeira é "Quando você diz [objeção], o que exatamente te preocupa?" e a se
+  CORRECAO: Tira a frase da l.41 (que fica "Pra saber qual das duas você tem na frente, pergunta. E pergunta com curiosidade, não com cobrança. Ela sente a diferença.") e põe depois dos dois blocos: "As duas fazem a mesma coisa, então uma basta. A de baixo é pra quando o que chegou foi só o “vou pensar”, sem nome nenhum."
+
+[8] tell/media
+  TRECHO: No fundo você sabe disso.
+  DETALHE: Fecho de uma linha que só reafirma o parágrafo (1.2), na fôrma "no fundo" que o catálogo lista em 1.4. O parágrafo já disse que a conversa acabou e que ela não volta; a frase não acrescenta fato, só avisa a leitora que e
+  CORRECAO: O controle passou pra ela, e ela provavelmente não volta. E mesmo assim a gente responde isso, porque parece o certo.
+
+[9] leitora/alta
+  TRECHO: A objeção real é específica e detalhada. A paciente consegue explicar com clareza. E geralmente tem a ver com uma preocupação legítima: resultado, segurança, tempo.
+  DETALHE: Acabei de ler a tabela e o parágrafo seguinte repete a coluna da tabela palavra por palavra. Acontece de novo no parágrafo da cortina de fumaça. No celular isso é duas telas dizendo a mesma coisa, e eu comecei a rolar rá
+  CORRECAO: Manter o parágrafo, trocando só a abertura repetida por uma frase que não é célula da tabela e já emenda no exemplo: "A objeção real vem com nome. Olha uma: 'Eu fiz preenchimento uma vez e ficou muito artificial, tenho medo de acontecer de novo.' Ela te contou o medo, né, o medo tem nome, e é o nome que você pergunta. 'Quando você diz que ficou artificial, o que exatamente te preocupa?' E ela vai te contar como ficou e o que ela não quer de novo e você tá de volta no passo dois só que agora em cima do medo dela." Mesma poda no parágrafo da cortina, cortando as três células e começando direto em "Repara no 'de repente' ali em cima: a paciente estava conversando bem e contou o problema...", qu
+
+[10] leitora/alta
+  TRECHO: Pra saber qual das duas você tem na frente, pergunta. Uma das duas basta, a segunda é a primeira já com o “vou pensar” dentro.
+  DETALHE: Aqui eu parei e voltei. "Uma das duas basta" vem logo depois de duas páginas falando de dois tipos de objeção, então eu li como "um dos dois tipos basta", que não faz sentido nenhum. Só entendi que ela estava falando das
+  CORRECAO: Ordem: "Pra saber qual das duas você tem na frente, pergunta. E pergunta com curiosidade, não com cobrança. Ela sente a diferença." Depois os dois cards. Depois dos cards: "Qualquer uma das duas serve, tá? A segunda é a primeira já com o 'vou pensar' dentro, então usa ela quando foi isso que chegou."
+
+[11] leitora/media
+  TRECHO: Naqueles dez minutinhos da salinha, o que passou pela minha cabeça foi isso: e se for muito caro, será que é prioridade agora, será que eu não encontro outro jeito? Eu, que trabalho com isso o dia inteiro.
+  DETALHE: Li duas vezes. É um bloco só, sem respiro, e ele faz quatro coisas: o que ela pensou como paciente, o que a doutora contou pra ela, o que acontece no meu WhatsApp e a resposta educada que perde a paciente. No celular iss
+  CORRECAO: Quebrar em dois, não em três, sem mudar uma palavra: o primeiro parágrafo vai até "já leu essa mensagem mais vezes do que gostaria, sabe?" e o segundo abre em "E a resposta que perde a paciente é justamente a mais educada: 'claro, fico à disposição'. Educado, tranquilo, e a conversa acabou ali. O controle passou pra ela, e ela provavelmente não volta. No fundo você sabe disso. E mesmo assim a gente responde isso, porque parece o certo." O primeiro bloco continua correndo solto e não fecha redondo, e a frase que interessa passa a abrir bloco.

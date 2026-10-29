@@ -1,0 +1,369 @@
+{
+  "pessoa": 4,
+  "total": 15,
+  "por_bloco": [
+    {
+      "bloco": "01",
+      "veredito": "pessoa",
+      "confianca": 68
+    },
+    {
+      "bloco": "02",
+      "veredito": "ia",
+      "confianca": 72
+    },
+    {
+      "bloco": "03",
+      "veredito": "ia",
+      "confianca": 65
+    },
+    {
+      "bloco": "04",
+      "veredito": "ia",
+      "confianca": 72
+    },
+    {
+      "bloco": "05",
+      "veredito": "ia",
+      "confianca": 72
+    },
+    {
+      "bloco": "06",
+      "veredito": "ia",
+      "confianca": 68
+    },
+    {
+      "bloco": "07",
+      "veredito": "ia",
+      "confianca": 70
+    },
+    {
+      "bloco": "08",
+      "veredito": "pessoa",
+      "confianca": 60
+    },
+    {
+      "bloco": "09",
+      "veredito": "ia",
+      "confianca": 72
+    },
+    {
+      "bloco": "10",
+      "veredito": "ia",
+      "confianca": 70
+    },
+    {
+      "bloco": "11",
+      "veredito": "pessoa",
+      "confianca": 67
+    },
+    {
+      "bloco": "12",
+      "veredito": "ia",
+      "confianca": 66
+    },
+    {
+      "bloco": "A",
+      "veredito": "ia",
+      "confianca": 65
+    },
+    {
+      "bloco": "B",
+      "veredito": "pessoa",
+      "confianca": 84
+    },
+    {
+      "bloco": "C",
+      "veredito": "ia",
+      "confianca": 72
+    }
+  ],
+  "pistas_de_ia": [
+    {
+      "bloco": "02",
+      "confianca": 72,
+      "pistas": [
+        {
+          "trecho": "E conexão é o que derruba a resistência, né, porque a paciente que se sente entendida responde mensagem longa e a que se sente vendida responde com uma palavra, e você já deve ter visto as duas.",
+          "pista": "Os marcadores de oralidade («né», «tá», «sabe», «gente», «ó») estão distribuídos com regularidade suspeita: um por parágrafo, quase sem repetir o mesmo dois parágrafos seguidos. Pior, «né, porque» aparece quatro vezes na mesma posição sintática exata (linhas 19, 25, 49 e 71), sempre soldando a frase principal à justificativa. Fala real amontoa e repete o mesmo bordão em rajada; isso aqui é rodízio controlado de vocabulário, tique de modelo tentando simular voz."
+        },
+        {
+          "trecho": "Aí uma outra falou, é porque eu acho que os pacientes estão procurando profissionais mais jovens do que eu. Aí a outra, que é mais jovem, falou, é porque eu acho que os pacientes estão procurando profissionais mais experientes do que eu.",
+          "pista": "As quatro doutoras da anedota caem em dois pares perfeitamente opostos (cidade pequena × cidade grande, mais jovem × mais experiente), com a segunda fala sendo a primeira invertida palavra por palavra. Conversa de verdade não sai com essa simetria de dois eixos fechados. Isso é ilustração construída pra provar a tese, não caso lembrado."
+        },
+        {
+          "trecho": "Nós temos pessoas que faturam 200 mil em cidades de 5 mil habitantes e em cidades de 1 milhão. Nós temos pessoas que faturam 200 mil com mais de 60 anos e com menos de 25. Nós temos pessoas do interior e de capital. Nós temos biomédicas, médicas, dentistas, farmacêuticas, fisioterapeutas.",
+          "pista": "Anáfora quádrupla de «Nós temos» com pares espelhados (5 mil × 1 milhão, +60 × -25, interior × capital) e a quarta linha fechando em lista de cinco itens. É a mesma figura retórica da abertura («de situações bem diferentes, de cidades de tamanhos muito diferentes, de idades muito diferentes, de formações diferentes», quatro vezes «diferentes»). Duas construções paralelas idênticas em dez linhas denuncia geração por padrão, não fala."
+        },
+        {
+          "trecho": "porque ela não depende da cidade e não depende da idade e não depende de quanto profissional abriu clínica na sua rua, depende do que você digita depois do oi, e quando chega menos gente, cada conversa que morre pesa mais e é a única parte que dá pra mudar já na próxima mensagem",
+          "pista": "Frase de fôlego longo, sem pontuação forte, imitando pessoa falando sem respirar; só que ela é gramaticalmente impecável, faz tríplice negação em polissíndeto e ainda aterrissa numa virada de imagem («depende do que você digita depois do oi»). Fala solta não fecha assim. Além disso, esse parágrafo faz exatamente o trabalho de costura entre a anedota e o tema do capítulo, tarefa de quem tinha um roteiro na mão, não de quem estava contando o caso."
+        },
+        {
+          "trecho": "Menos informação, menos objeção, porque cada informação que você entrega antes da hora vira um motivo pra ela ir pra casa pensar.",
+          "pista": "Os oito itens fecham, sem exceção, em antítese ou aforismo calibrado («Script é referência, não roteiro», «Quem pergunta conduz», «responde mensagem longa / responde com uma palavra»). Oito de oito acertando o mesmo tipo de fecho é consistência de máquina. Numa aula real, dois ou três dos itens sairiam frouxos, arrastados ou terminariam no meio. E o texto inteiro não tem nenhum falso começo abandonado, nenhuma frase que se perde: só um único auto-reparo plantado («a coisa mais interna que existe, interna, né»), que soa mais como enfeite de humanização do que como tropeço."
+        }
+      ]
+    },
+    {
+      "bloco": "03",
+      "confianca": 65,
+      "pistas": [
+        {
+          "trecho": "Eu entendo, né, porque parece educação.",
+          "pista": "Os marcadores de oralidade (né, tá?, ó, Gente, Então) aparecem racionados, cerca de um por seção e bem espalhados. Fala real não distribui filler assim: ela vem em rajada, com o mesmo vício repetido dez, quinze vezes em duas páginas e depois trechos limpos. Aqui a soltura está dosada uniformemente, que é o padrão de quem escreve para SOAR falado, não de quem falou."
+        },
+        {
+          "trecho": "Abrir espaço pra conversa. Tirar a resistência inicial, aquela desconfiança de quem chama numa clínica e já espera ser empurrada. E mostrar que você está ali pra entender se consegue ajudar ou não.",
+          "pista": "Tríade em fragmentos paralelos, os três começando em infinitivo, o terceiro aberto com E para dar cadência. É a assinatura mais comum de LLM instruída a não usar bullet: vira lista de três itens disfarçada de frase curta, com ritmo perfeito demais para improviso."
+        },
+        {
+          "trecho": "E pelo que eu vejo, isso acontece em quatro situações. Acontece quando a gente se qualifica",
+          "pista": "Anuncia quatro itens e entrega os quatro em anáfora limpa (Acontece quando... e acontece quando... Acontece quando... E acontece quando...), sem perder a conta, sem repetir item, sem sobrar um quinto. Quem fala anuncia quatro e entrega três, ou enumera fora de ordem. Isso é lista de slide convertida em prosa."
+        },
+        {
+          "trecho": "porque agenda sempre aberta é clínica que pega qualquer uma, e quem pega qualquer uma não está escolhendo, está vendendo",
+          "pista": "Encadeamento retórico com repetição do termo e fecho em antítese (não está X, está Y), no meio do que se apresenta como fala solta. O mesmo molde reaparece no fim de outra seção (Autoridade no WhatsApp não é currículo. É a pessoa que faz a pergunta certa.). Punchline polida em posição de fechamento, duas vezes, é construção de escrita, não de conversa."
+        },
+        {
+          "trecho": "Essa é a primeira mensagem que chega na maioria das clínicas que eu conheço.",
+          "pista": "Em cerca de 900 palavras de ensino em primeira pessoa não existe UM específico: nenhum nome, nenhuma data, nenhum número, nenhum caso concreto, nenhuma digressão que não volte. Só hipóteses genéricas (ela, a paciente, a doutora). Quem ensina o que viveu vaza detalhe o tempo todo; modelo evita detalhe porque não pode inventá-lo. Os poucos hedges (Acho que ninguém relaxa, Eu acho que ela some porque) caem exatamente onde amaciam uma afirmação forte, nunca onde haveria dúvida real."
+        }
+      ]
+    },
+    {
+      "bloco": "04",
+      "confianca": 72,
+      "pistas": [
+        {
+          "trecho": "Porque flacidez, pra ela, é uma coisa que ela vê no espelho, num lugar específico, num momento específico, e não a palavra que tá na sua apostila. E até você saber que lugar e que momento, você não sabe o problema dela. Você sabe o nome que ela deu.",
+          "pista": "Todo bloco do texto termina em frase de efeito curta e simétrica, sem exceção: aqui, \"Você sabe o nome que ela deu\"; depois \"O passo dois é o passo em que você mais fica quieta\"; depois \"E quem manda as três de uma vez tá aplicando questionário\"; depois \"E ninguém agenda com quem não acreditou\"; depois \"Está conversando com alguém que entendeu\". Sete blocos, sete pousos ritmados. Fala humana editada quase sempre deixa dois ou três parágrafos terminando torto, no meio da ideia. Regularidade dessa ordem é geração de padrão, não fala."
+        },
+        {
+          "trecho": "A mesma pergunta, feita solta, é entrevista. Feita depois de repetir a palavra dela, é conversa.",
+          "pista": "Máquina de antítese ligada o tempo todo (\"não é X, é Y\" / \"A é isso, B é aquilo\"). Só neste capítulo: \"é tudo verbo de entender, nenhum de explicar\", \"é a conversa morrendo de novo, só que mais tarde\", \"não está mais conversando com uma atendente. Está conversando com alguém que entendeu\". Cinco vezes em noventa linhas, sempre com o mesmo desenho de balanço. Quem fala usa esse recurso uma vez ou duas, quando a ideia pede; aqui ele é o motor de construção."
+        },
+        {
+          "trecho": "E aí vem a parte que eu mais vejo dar errado, gente: ela disse rosto flácido, você sabe o que é flacidez, você já tem três protocolos na cabeça e a próxima mensagem já sai explicando bioestimulador",
+          "pista": "As marcas de oralidade estão bem colocadas, mas dosadas demais: \"gente\" uma vez, \"tá?\" duas, \"né\" uma, \"ó\" uma, cada uma num bloco diferente, nunca duas juntas. Fala real amontoa (\"aí, tipo, assim, sabe, enfim\") e produz marcador inútil, que não aquece nada. Aqui não sobra nenhum: todo traço oral está trabalhando a favor do texto. Isso é tempero aplicado depois, não resíduo de quem falou."
+        },
+        {
+          "trecho": "Repara que é tudo verbo de entender, nenhum de explicar.",
+          "pista": "A frase anterior enumera quatro ações em paralelo perfeito (\"entender o que está acontecendo... entender como isso está afetando... clarear o significado... aprofundar até entender\") e a seguinte aponta para o padrão que ela mesma acabou de fabricar. Construir a lista simétrica e depois comentar a simetria é movimento típico de texto gerado: a regularidade não emergiu da fala, foi montada para o comentário existir."
+        },
+        {
+          "trecho": "Ela leu que você não acreditou nela. E ninguém agenda com quem não acreditou.",
+          "pista": "Coerência interna sem folga nenhuma. A regra do \"não pergunte como ela se sente\" é enunciada, aplicada na caixa de evitar, reaparece na leitura negativa e volta ainda uma vez; nada é dito duas vezes por engano, nada fica pendurado, não existe uma digressão que não retorne. O capítulo inteiro fecha sem sobra e sem contradição — limpeza de coerência que texto oral editado raramente alcança, e que modelo entrega por padrão."
+        }
+      ]
+    },
+    {
+      "bloco": "05",
+      "confianca": 72,
+      "pistas": [
+        {
+          "trecho": "O \"por que fazer agora e não esperar mais um pouco?\" parece perigoso, eu sei, tá?",
+          "pista": "As marcas de oralidade estão racionadas: \"né\" aparece uma vez, \"tá?\" uma vez, \"Gente,\" uma vez, cada uma em uma seção diferente e sempre no ponto em que o texto precisa baixar a guarda. Fala real não distribui filler assim — ela empilha (\"aí, tipo, sabe, aí então\") em rajadas e some por parágrafos inteiros. Essa dosagem regular é de quem colocou tempero medido, não de quem falou."
+        },
+        {
+          "trecho": "Quem fez a pergunta foi você. Quem se convenceu foi ela.",
+          "pista": "Antítese em par simétrico, e não é caso isolado: \"O que muda é que ela vem depois do casamento, não no lugar dele\", \"Com paciente, não alivia\", \"quem alivia tira dela o motivo\". A densidade de quiasmo e de frase-espelho por parágrafo é o tique retórico mais previsível de LLM em português quando o pedido é \"soar didático e firme\"."
+        },
+        {
+          "trecho": "Se quem está convencida é ela, os próximos passos são só confirmação.",
+          "pista": "Toda seção fecha com um aforismo redondo, no mesmo compasso, sem sobra: a de \"Pra que serve\" fecha em \"Quem se convenceu foi ela\", a de \"Como ela lê você\" fecha em \"não no lugar dele\", a de \"Quando avançar\" fecha nessa. Texto humano longo tem seção que termina no meio, que se arrasta, que emenda um caso. Aqui nenhuma termina mal — a regularidade do fecho é industrial."
+        },
+        {
+          "trecho": "Todas elas perguntam a mesma coisa de seis jeitos: por que agora.",
+          "pista": "Movimento de contar os itens e rotular o conjunto antes de mostrá-lo (\"as mesmas seis\", \"o quarto é o que engana\", \"não precisa dos quatro\"). É a mania de sumarização enumerada de modelo: ele sabe quantos itens tem na lista porque acabou de gerá-la. Quem fala numa aula raramente sabe que disse exatamente seis e ainda ancora a explicação nesse número."
+        },
+        {
+          "trecho": "Essa última palavra assusta um pouco, então deixa eu explicar como eu entendo.",
+          "pista": "Andaime metadiscursivo: antecipa a reação do leitor, anuncia que vai explicar e explica na frase seguinte, tudo limpo. O mesmo padrão se repete em \"parece perigoso, eu sei\" seguido de \"Só que é o contrário, porque...\" e em \"E se ela responde nada, sempre quis?\" seguido da resposta imediata. Objeção levantada e resolvida no mesmo fôlego, sempre — nenhuma fica solta, nenhuma tangente, nenhum erro, nenhuma repetição inútil. É a ausência total de ruído que entrega, não a presença de gíria."
+        }
+      ]
+    },
+    {
+      "bloco": "06",
+      "confianca": 68,
+      "pistas": [
+        {
+          "trecho": "Ela pediu a consulta. Você só perguntou.",
+          "pista": "Quase todo parágrafo do texto termina numa frase curta de fechamento, com a mesma arquitetura: explicação → virada → punch de 3 a 7 palavras. Aparece em \"Volta.\", \"Ela sente a mudança de tom na hora.\", \"o passo quatro acabou com nota dez.\", \"Ela ouve que o próximo passo existe e que você ainda não deu.\" Escrita humana, mesmo de copywriter bom, deixa parágrafos morrerem sem punch de vez em quando. Regularidade de 100% é assinatura de geração otimizada por ritmo."
+        },
+        {
+          "trecho": "O \"com tudo o que falamos\" no começo da primeira não é enfeite. Ele amarra a resposta dela a tudo que ela contou nos passos dois e três.",
+          "pista": "Estrutura de negação-e-pivô (\"não é X, é Y\") repetida como motor argumentativo em várias seções: \"quem dá esse sinal é você, não a paciente\", \"E argumentar não é errado, tá? Só que ainda não é a hora\", \"A venda acontece sem você vender\". É o tique estrutural mais característico de LLM em PT-BR quando pede-se texto didático e persuasivo."
+        },
+        {
+          "trecho": "A paciente estava se convencendo sozinha e você entrou no meio pra convencer.",
+          "pista": "Quiasmo — inversão simétrica do mesmo verbo dentro da frase. Construção que quase não sai em fala espontânea nem em primeira escrita; sai em texto reescrito para efeito. Aparece junto com outra do mesmo tipo: \"Você não apresentou nada ainda, gente. E a paciente já vendeu a consulta pra ela mesma.\""
+        },
+        {
+          "trecho": "E quem comete não faz por mal, sabe?",
+          "pista": "Os marcadores de oralidade (\"né?\", \"sabe?\", \"tá?\", \"gente\") estão espalhados um por parágrafo, sempre em posição gramaticalmente confortável e nunca em cluster. Fala real se aglomera — três \"né\" seguidos e depois nada por meia página. Aqui a oralidade parece camada aplicada por cima de um texto já pronto, não resíduo de quem estava falando."
+        },
+        {
+          "trecho": "No WhatsApp isso é uma coisa só: a sua mensagem começa pela palavra dela e no fim do passo ela escreveu mais do que você.",
+          "pista": "Critério dual perfeitamente simétrico e limpo demais para ser lembrança de prática — duas condições balanceadas, dois lados do mesmo par (você/ela), fechando redondo. O mesmo acabamento aparece nos imperativos isolados usados como dispositivo de seção (\"Repara na ordem.\", \"Parou.\", \"Volta.\"), um por bloco, distribuídos com regularidade de template."
+        }
+      ]
+    },
+    {
+      "bloco": "07",
+      "confianca": 70,
+      "pistas": [
+        {
+          "trecho": "A paciente não precisa responder nada entre uma e outra, tá.",
+          "pista": "Os marcadores de oralidade aparecem em dose regular demais: um por bloco, sempre no fim da frase e depois de vírgula (\"...fica faltando uma coisa, ó\", \"...ela mesma te deu, né\", \"...porque é curta, né\", \"...entre uma e outra, tá\"). Quem fala assim de verdade concentra três \"né\" num parágrafo só e passa dois parágrafos sem nenhum. Essa distribuição uniforme é regra aplicada, não fala."
+        },
+        {
+          "trecho": "Preço aqui não é informação demais, é ordem trocada.",
+          "pista": "Antítese \"não é X, é Y\" usada como fecho de raciocínio, e repetida em variações ao longo do capítulo (\"E a transição não apresenta a consulta ainda... Ela só justifica o próximo passo\", \"Você não está propondo que ela resolva agora... o que você faz aqui é concordar\"). É o tique retórico mais previsível de texto gerado."
+        },
+        {
+          "trecho": "Uma mensagem. É isso o passo cinco.",
+          "pista": "Densidade alta de abertura e fecho em fragmento curto encenado: \"Uma mensagem.\", \"A ponte.\", \"Imediatamente.\", \"Mantém.\", \"a ponte caiu\", \"a frase aguenta\". Cada seção começa ou termina com um golpe seco. Escrita humana não mantém esse ritmo de percussão em todas as seções de um texto curto; é staging."
+        },
+        {
+          "trecho": "Ele é o mais curto do script, e é onde a tentação de pular etapa tem endereço.",
+          "pista": "Metáfora \"fresca\" calibrada logo na primeira frase útil do capítulo, do tipo que aparece quando se pede texto com voz própria. Ela não volta, não é desenvolvida, não vira vício do autor: é um enfeite isolado, plantado no lugar de maior visibilidade."
+        },
+        {
+          "trecho": "As reticências são do script e eu acho que fazem diferença.",
+          "pista": "Única aparição de primeira pessoa e única opinião assumida em todo o capítulo, exatamente onde um humanizador colocaria a cota de subjetividade. Fora isso, o texto não tem autocorreção (\"quer dizer\", \"ou melhor\"), nem digressão que morre no meio, nem repetição involuntária de uma frase preferida — resíduos que prosa de origem falada quase sempre deixa. O que puxa pro lado humano (o parágrafo-monstro da linha 21, o \"tempo informado\" sem aspas num texto que aspeia tudo o resto, o \"não inventa um\") é real, e é por isso que a confiança não é alta."
+        }
+      ]
+    },
+    {
+      "bloco": "09",
+      "confianca": 72,
+      "pistas": [
+        {
+          "trecho": "Sabe onde o preço apareceu nessa cena? Na segunda mensagem. Depois do horário. Depois de seis passos.",
+          "pista": "Cadência de fragmentos em anáfora, montada como efeito. Fala real não corta em três estilhaços simétricos desse jeito; isso é ritmo desenhado, e é o tique mais reconhecível de prosa gerada tentando soar incisiva."
+        },
+        {
+          "trecho": "Se os seis passos anteriores aconteceram, o fechamento não convence ninguém, ele só organiza.",
+          "pista": "Antítese \"não é X, é só Y\" — o molde de aforismo mais frequente em texto de IA. E ela se repete pelo capítulo inteiro (\"ele não está ali por pressa\", \"Ela não está mais decidindo. Ela está se organizando pra chegar.\", \"porque não sobrou nada pra pensar\"), sempre no mesmo encaixe."
+        },
+        {
+          "trecho": "O erro é perguntar antes de oferecer, mas depois de oferecer, pode perguntar, porque aí ela já viu que a agenda anda.",
+          "pista": "Espelhamento perfeito das palavras (antes de oferecer / depois de oferecer, perguntar / pode perguntar). É prazer de simetria, não pensamento em movimento. Quem escreve falando embola essa regra ou repete de forma torta; aqui ela sai quiasmática de primeira."
+        },
+        {
+          "trecho": "E o bastão continua com você, ó: você ofereceu, ela reagiu.",
+          "pista": "As marcas de oralidade (\"ó\", \"tá\", \"gente\") aparecem isoladas, uma por seção, dentro de prosa com pontuação impecável, zero repetição involuntária, zero frase que começa e não termina. Oralidade de verdade vem com a bagunça junto; aqui ela foi injetada como tempero, o que denuncia humanização deliberada em cima de texto limpo."
+        },
+        {
+          "trecho": "E suficiente tem medida. A medida veio do passo quatro.",
+          "pista": "Anadiplose de manual — a última palavra vira a primeira da frase seguinte. Some com a mesma técnica em \"O horário só existe quando ele change\"/\"O horário dela só passa a existir quando o comprovante chega\". Somado a isso: nenhum parágrafo do capítulo é neutro ou funcional, todos fecham com uma virada. Densidade uniforme de insight é assinatura de geração, não de escrita humana, que sempre tem um trecho morno."
+        }
+      ]
+    },
+    {
+      "bloco": "10",
+      "confianca": 70,
+      "pistas": [
+        {
+          "trecho": "Se você reage com ansiedade, pressa ou justificativa, perde a paciente. Se responde com curiosidade e direção, a conversa volta, e o agendamento junto.",
+          "pista": "Simetria antitética perfeita: duas condicionais espelhadas, tríade de um lado e par do outro, com ganho no fim. Fala real quase nunca sai balanceada assim; isso é construção retórica montada, não dita."
+        },
+        {
+          "trecho": "Curiosidade é o que você sente quando ela diz \"vou pensar\": pensar no quê? Direção é o que você faz com isso: pergunta, em vez de esperar.",
+          "pista": "Par definicional idêntico em forma (X é o que você sente / Y é o que você faz), cada um com dois-pontos e complemento do mesmo tamanho. É a assinatura de conceito-embalado-em-dupla que modelo de linguagem produz por default."
+        },
+        {
+          "trecho": "Se você atende WhatsApp de clínica, já leu essa mensagem mais vezes do que gostaria, sabe?",
+          "pista": "Registro misturado: \"mais vezes do que gostaria\" é fórmula de texto escrito, e o \"sabe?\" vem grudado no fim como enfeite. Mesma coisa com o \"Gente,\" plantado no meio do parágrafo em \"Gente, objeção não é rejeição\". Os marcadores de oralidade estão posicionados, não acontecendo."
+        },
+        {
+          "trecho": "Educado, tranquilo, e a conversa acabou ali.",
+          "pista": "Fragmento em ritmo de três batidas para fechar a cena, seguido logo depois de \"No fundo você sabe disso.\" e de \"O marido não apareceu do nada, né? Ele é a cortina.\" São punchlines curtas demais e frequentes demais: cada bloco termina com uma frase citável. Texto de gente deixa parágrafo morrendo sem graça de vez em quando; aqui nenhum morre."
+        },
+        {
+          "trecho": "E é aqui que entra o voltar que eu prometi no capítulo 9.",
+          "pista": "Arquitetura sem sobra e sem digressão: promete no 9, entrega aqui, anuncia o 11 (\"você vai ver inteiras no capítulo 11\"), recupera o 2 (\"a forma mais fácil de encerrar uma conversa é com uma resposta\") e ainda fecha com pergunta ao leitor. Tudo o que abre, fecha. Não existe uma linha inútil, uma repetição malsucedida ou um assunto que começa e não vai a lugar nenhum, que é o resíduo típico de quem escreveu ou falou de verdade."
+        }
+      ]
+    },
+    {
+      "bloco": "12",
+      "confianca": 66,
+      "pistas": [
+        {
+          "trecho": "não porque o número é alto, mas porque ela ainda não sabe se aquilo resolve o problema dela",
+          "pista": "Antítese \"não X, mas Y\" (negação + pivô) colocada no ponto retórico exato de fechamento do parágrafo. É o tique de copy mais recorrente de LLM em PT-BR: a frase resolve a tensão com uma simetria limpa demais para quem está falando de improviso."
+        },
+        {
+          "trecho": "já contou o problema, já disse por que agora, já descreveu com as palavras dela o que a consulta vai resolver. Ela entra pronta.",
+          "pista": "Anáfora tripla perfeitamente escalonada (\"já... já... já...\") seguida de fragmento-soco de três palavras, e logo depois um segundo fragmento no mesmo parágrafo (\"Lá dentro.\"). Frase longa + fragmento curtíssimo na cadência ideal, duas vezes seguidas, é ritmo desenhado, não ritmo de fala."
+        },
+        {
+          "trecho": "Primeiro a gente entende. Depois a gente vê se consegue ajudar. Se conseguir, aí a gente pensa em próximos passos, pode ser?",
+          "pista": "Tricolon crescente com encadeamento condicional impecável e o \"pode ser?\" oral colado no fim como amaciante. O \"pode ser?\" é textura humana aplicada por cima de uma estrutura que já estava fechada; a oralidade não alterou a arquitetura da frase, foi só verniz."
+        },
+        {
+          "trecho": "Tudo, e é por isso que eu escrevi este livro em vez de um sobre a consulta.",
+          "pista": "Título em forma de pergunta respondido por uma palavra no primeiro caractere do parágrafo — movimento de copy muito bem armado. Somado a isso, a vírgula de emenda (\"Tudo, e é por isso\") se repete de forma uniforme no capítulo inteiro, e maneirismo uniforme demais é sinal de estilo aplicado como regra, não de escrita variando ao longo do texto."
+        },
+        {
+          "trecho": "A doutora que responde o preço na primeira mensagem do WhatsApp é a mesma que manda a paciente pra salinha do financeiro.",
+          "pista": "Equação de identidade sem nenhuma escória, unindo as duas metades do livro. Reforça o traço geral: o capítulo tem \"né\", \"tá\", \"salinha\", \"dez minutinhos\" distribuídos de forma regular, mas zero redundância, zero digressão, zero fio abandonado — oralidade sem o custo da oralidade. Contraponto honesto: \"enfim, é mil maravilhas\" (idiom levemente torto) e \"eu fui pra casa pensar sem sair da clínica\" são marcas humanas fortes e sustentam a hipótese de base transcrita — mas a arquitetura por cima delas é de máquina."
+        }
+      ]
+    },
+    {
+      "bloco": "A",
+      "confianca": 65,
+      "pistas": [
+        {
+          "trecho": "Nunca se responde com informação. Se responde com pergunta.",
+          "pista": "Quiasmo de negação seguida de espelho positivo — a construção \"não é X, é Y\" em duas frases curtas simétricas. É a assinatura mais recorrente de prosa de modelo tentando soar afiada. Uma pessoa escrevendo cola operacional normalmente escreveria \"objeção não se responde, se devolve\" e seguiria; aqui a frase foi polida até virar aforismo."
+        },
+        {
+          "trecho": "Resposta vaga é cortina: algum passo anterior ficou raso.",
+          "pista": "Dois pontos usados como golpe de efeito, metáfora + diagnóstico no mesmo fôlego, tudo em nove palavras. Esse padrão (imagem curta + colon + explicação lapidada) é tique de texto gerado sob instrução de \"cortar gordura e ser concreto\". A metáfora é boa demais e curta demais pro contexto — cola de página não costuma parar pra ser literária."
+        },
+        {
+          "trecho": "Perguntar como ela entende, nunca como ela se sente.",
+          "pista": "Terceira ocorrência do mesmo molde antitético (\"faça X, nunca Y\") em um texto de 81 linhas, junto com \"Vender só o que ela já quer\" e \"Nunca se responde com informação\". A repetição do mesmo esqueleto retórico em pontos diferentes indica gerador, não mão — pessoa varia a forma sem perceber, modelo converge pra fórmula que \"funciona\"."
+        },
+        {
+          "trecho": "Avança quando ela responde completo e emocional, e começa a perguntar da agenda.",
+          "pista": "O slot de saída aparece seis vezes com a mesma sintaxe exata: \"Avança quando ela [sinal 1], e [sinal 2]\". Sempre dois sinais, sempre coordenados por \"e\", sempre no mesmo comprimento. Nenhum passo recebe mais atenção que outro, nem o passo 3 (o mais difícil de executar). Uniformidade perfeita entre itens de dificuldade desigual é preenchimento de template, não escrita."
+        },
+        {
+          "trecho": "«6. Apresentação.» Vender só o que ela já quer, com as palavras dela.",
+          "pista": "Os sete subtítulos seguem o mesmo molde (infinitivo + objeto + qualificação) sem uma única quebra, e o texto inteiro não tem primeira pessoa, digressão, redundância, ressalva, frase malfeita ou excesso. Em 81 linhas de escrita humana quase sempre sobra uma frase torta ou uma explicação a mais; aqui tudo é load-bearing. A ausência total de ruído é o sinal mais forte de máquina — ainda que o conteúdo (termos como \"presente inaceitável\", o detalhe do PIX em mensagem separada, \"pergunta onde fica\") venha claramente de material humano real."
+        }
+      ]
+    },
+    {
+      "bloco": "C",
+      "confianca": 72,
+      "pistas": [
+        {
+          "trecho": "e por isso eu deixo aqui o resumo, né, porque a dúvida chega direto pra gente",
+          "pista": "Oralidade dosada com conta-gotas. Em 50 linhas existe UM \"né\" e UM \"ó\", e nada mais: zero falsa partida, zero frase abandonada, zero repetição involuntária, zero anacoluto. Texto que veio mesmo de fala (ou de gente escrevendo como fala) tem marcador oral espalhado o tempo todo e sintaxe que às vezes não fecha. Aqui todo período fecha limpo e os fillers aparecem em posição estratégica, como tempero aplicado depois. É a assinatura de máquina imitando fala, não de fala transcrita."
+        },
+        {
+          "trecho": "Não é consulta, é «reserva».",
+          "pista": "Antítese \"não é X, é Y\" três vezes no mesmo capítulo curto — além desta, \"essa pessoa não está procurando uma consulta. Está procurando uma vaga\" e \"Nem só a mensagem \"topa ou não topa\", nem os sete passos completos\". Essa construção de contraste é o tique de ritmo mais previsível de LLM em copy; humano usa uma, não três em cinco parágrafos."
+        },
+        {
+          "trecho": "Quem veio pelo quiz, que é o formulário de perguntas que ela responde antes de cair no seu WhatsApp, chega um pouco mais consciente",
+          "pista": "Definição embutida em aposto no meio da frase, explicando ao leitor um termo que o próprio texto trata como já conhecido do público. É o reflexo de auto-suficiência de IA (glosar todo termo pra o texto não depender de contexto). Quem fala pra dentro da própria mentoria não para pra explicar o que é quiz."
+        },
+        {
+          "trecho": "Daí em diante é o passo sete do 715, igualzinho. Horário, chave PIX, comprovante.",
+          "pista": "Fecho em tricolon seco de três itens sem conectivo, o padrão de cadência mais recorrente de saída de modelo. E não é isolado: aparece de novo em \"tem clínica que recebe dez, vinte, quarenta mensagens\" e na lista da vaga, toda balanceada em quatro membros. Ritmo de três/quatro simétrico demais pra ser espontâneo."
+        },
+        {
+          "trecho": "Então o que a gente pede é que você teste os dois jeitos e traga pra gente, nos treinamentos, o que está funcionando na sua mão e o que não está funcionando também.",
+          "pista": "Encerramento em cláusula-espelho (\"o que está funcionando... e o que não está funcionando\"), fechando o capítulo com pedido equilibrado e redondo. Somado à arquitetura perfeitamente simétrica do texto (cada seção = um script em bloco + exatamente um parágrafo de comentário, uma ideia por parágrafo, nenhuma digressão, nenhum ponto repetido duas vezes), dá um documento organizado demais para material derivado de aula ou de conversa real."
+        }
+      ]
+    }
+  ]
+}

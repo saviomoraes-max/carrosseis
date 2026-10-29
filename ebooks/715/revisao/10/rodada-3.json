@@ -1,0 +1,76 @@
+{
+  "rodada": 3,
+  "data": "2026-09-09",
+  "lente": "corpus de fala da autora (80.938 palavras), 2a leva",
+  "juri": "opus-5",
+  "brutos": 8,
+  "confirmados_n": 5,
+  "altas_confirmadas": 3,
+  "aparado_por_colisao": "duas frases saíram: 'que tipo de resposta ela quer receber' fica no 06, 'por que passar o valor' fica no 11",
+  "resumo": "Bloco 10 (\"Objeção não é um não\"). Busquei no corpus por: objeção / objeções, cortina de fumaça, vou pensar, te aviso, à disposição, marido, curiosidade, tom de, cobrança, preocupa, quanto custa, preço da consulta, 200, encerrar uma conversa, forma mais fácil / mais rápida, bastão, controle da conversa, some / sumiu, desculpa, saída, medo, fofão, artificial, preenchimento, gerar valor, valor percebido, aprofundar, raso, voltar, retomar, passo anterior, prioridade, rejeição, de repente, do nada. Cruzei cada achado com o manuscrito inteiro pra não repetir fala já usada em outro capítulo (por isso descartei \"só existe uma forma da gente gerar valor na conversa\", que o capítulo 11 já usa, e \"se a gente responde as perguntas que a pessoa faz, quem tá no controle da conversa é ela\", que o 11 também já usa). O padrão do bloco: a doutrina vem fiel do PDF, e a costura aparece nos fechos de parágrafo, que são pancadas curtas fabricadas (\"Ele é a cortina.\", \"E isso é a conversa voltando.\", \"Objeção se responde com pergunta.\") e numa anáfora de três degraus (\"Você deu o número, ela pegou o número, e com o número na mão\"), que o próprio projeto proíbe. Para todos esses o corpus tem a fala dela dizendo a mesma coisa, mais concreta. Seis trocas propostas. Em sem_fonte, dois achados: o exemplo de objeção real é uma citação de paciente inventada (o corpus tem a versão real dela, e a troca 2 já resolve), e a definição de \"voltar\" é regra própria do livro, derivada de forma honesta mas sem fonte literal. As duas frases de bloco :::frase conferem com o manual e não foram tocadas.",
+  "confirmados": [
+    {
+      "tipo": "troca",
+      "gravidade": "alta",
+      "trecho": "O marido não apareceu do nada, né? Ele é a cortina.",
+      "fala_dela": "O, gente, eu não sei quantos maridos que eu tive na minha vida de ter falado / Vou ver com o meu marido / Não, tenho que ver com meu marido / Os maridos, gente, o tanto de marido que essas mulheres criam",
+      "aplicado": "Repara no “de repente”: a paciente estava conversando bem e contou o problema e estava tudo certo e na hora do horário apareceu o “vou ver com meu marido”. Ó, gente, eu não sei quantos maridos que eu tive na minha vida de ter falado não, tenho que ver com meu marido. Os maridos, o tanto de marido que essas mulheres criam.",
+      "cetico": "Grep confirma literal nas linhas 2126-2132 do corpus, e o contexto imediato (2120-2124: \"não confia no lead, ele tá mentindo, ele tá fugindo, não compra as desculpas dele\") é exatamente o argumento do parágrafo: o marido é inventado, é cortina. O trecho_livro existe na linha 41 e a troca não mexe em :::frase nem contradiz a linha 55, que reancora \"o preço, o marido e a agenda\" como cortina. Falha só o (5): \"gente\" duas vezes em frases seguidas (com um terceiro \"Gente\" já na linha 20) e \"vou ver com meu marido\" repetido três vezes em duas frases; corrigi na alternativa."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "alta",
+      "trecho": "Olha uma: “Eu fiz preenchimento uma vez e ficou muito artificial, tenho medo de acontecer de novo.”",
+      "fala_dela": "Ah, eu posso ficar igual o fofão ou a GR / Uma bochecha imensa, a cara quadrada, o queixo docol, aquela / Como é que você me garante que não vai acontecer?",
+      "aplicado": "A objeção real vem com nome. Olha uma: “Ah, eu posso ficar igual o fofão. Uma bochecha imensa, a cara quadrada. Como é que você me garante que não vai acontecer?” Ela te contou o medo, né, o medo tem nome, e é o nome que você pergunta. “Quando você diz que pode ficar igual o fofão, o que exatamente te preocupa?” E ela vai te contar de onde vem isso e o que ela não quer de jeito nenhum, e você tá de volta no passo dois só que agora em cima do medo dela.",
+      "cetico": "Grep acha as três linhas literais no corpus (5652, 5654, 5656), e o contexto prova que é a Ana fazendo o papel da paciente com medo de resultado numa dramatização com o Léo (5686: \"nossa conversa entre eu e o Léo, porque ele perguntou o que que eu tinha medo\"). O trecho_livro está na linha 39, o exemplo continua sendo objeção real com nome (bate com a linha 36 da tabela, \"preocupação legítima: resultado\"), a pergunta inline segue o molde do :::frase da linha 46 sem invadi-lo, e o ajuste de \"como ficou\" para \"de onde vem isso\" é necessário porque o novo exemplo não tem experiência passada. Sem travessão, sem itálico, um \"né\" só."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "alta",
+      "trecho": "Objeção se responde com pergunta.",
+      "fala_dela": "E a gente esquece que a gente tem que, mais importante do que ter as respostas é ter mais perguntas e que não precisamos inclusive saber a resposta que a pessoa / É muito difícil a gente acertar a resposta que a pessoa quer receber / Agora, se ela falar que tipo de resposta ela quer receber, fica muito mais simples",
+      "aplicado": "E a gente esquece que mais importante do que ter as respostas é ter mais perguntas. É muito difícil a gente acertar a resposta que a pessoa quer receber. Agora, se ela falar que tipo de resposta ela quer receber, fica muito mais simples. Então, no capítulo 11 eu pego uma objeção por vez.",
+      "cetico": "Literal no corpus (5682-5686), e o contexto blinda o uso: quatro linhas antes ela mesma generaliza, \"isso vale para qualquer objeção e para qualquer ponto da conversa\". Diz a mesma coisa que \"objeção se responde com pergunta\" (linha 71) e ainda cola o motivo, sem contradizer \"a forma mais fácil de encerrar uma conversa é com uma resposta\" da linha 61. Passa (5); a alternativa só inverte a ordem, porque anunciar o capítulo 11 e depois emendar \"E a gente esquece que\" fica com conector solto, e terminar no encaminhamento entrega melhor no :::pergunta."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "media",
+      "trecho": "Você deu o número, ela pegou o número, e com o número na mão ela vai comparar o seu 200 com o preço da clínica ao lado sem saber o que nenhuma das duas consultas resolve.",
+      "fala_dela": "E pensa só, ela quer saber o preço / [aparte de outro participante] / Ela não quer saber o preço / Ela quer saber se vale o preço, né?",
+      "aplicado": "Por que você vai passar o valor da consulta se você nem sabe se o que ela está buscando ela vai encontrar na consulta? E pensa só. Ela quer saber o preço? Ela não quer saber o preço. Ela quer saber se vale o preço, né? E com o seu 200 na mão ela vai comparar com a clínica ao lado sem saber o que nenhuma das duas consultas resolve.",
+      "cetico": "Literal em 2012-2018, e o contexto é decisivo a favor: a fala vem duas linhas depois de \"E a forma mais rápida de encerrar uma conversa é com a resposta\", que é justamente a frase com que o parágrafo da linha 61 abre, ou seja é a continuação natural da mesma passagem. Não contradiz nada do bloco e não entra em :::frase. Só que a versão do garimpeiro perde precisão ao trocar \"nenhuma das duas consultas\" por \"a consulta\", que era o ponto (nem a sua nem a do lado ela entende); a alternativa devolve isso."
+    },
+    {
+      "tipo": "sem_fonte",
+      "gravidade": "media",
+      "afirmacao": "Eu fiz preenchimento uma vez e ficou muito artificial, tenho medo de acontecer de novo.",
+      "cetico": "Refiz a busca e confirmo: \"artificial\" não aparece nenhuma vez nas três fontes, e no corpus inteiro só aparece como \"inteligência artificial\" (6 ocorrências, nenhuma sobre resultado). O manual de objeções nas linhas 220 em diante não tem categoria de resultado nem de medo, e o único vizinho é a pergunta de clarear do manual de perguntas (\"O que significa para você um resultado 'natural'?\"), que é pergunta da atendente, não fala de paciente. A citação entre aspas na linha 39 é inventada, e há equivalente real no corpus (5652-5656)."
+    }
+  ],
+  "refutados": [
+    {
+      "trecho": "E pergunta com curiosidade, não com cobrança, que ela sente a diferença.",
+      "motivo": "As linhas existem (1596-1602), mas dizem outra coisa: pelo contexto 1580-1594, \"essa pergunta\" é o \"como vem sendo isso?\" do passo de aprofundamento, não a pergunta que diagnostica objeção, e \"curiosidade\" aparece uma única vez em 81 mil palavras justamente aí (a dupla \"curiosidade e direção\" do livro vem do manual, não da fala). Encaixar isso na linha 43 põe \"sério, mas como é que vem sendo isso?\" imediatamente antes dos dois :::frase que dão uma pergunta DIFERENTE, e o leitor vai ler \"essa pergunta\" como a da objeção: troca o referente da fala dela e prescreve áudio para um momento que nenhuma fonte prescreve. Falha (3) e (4)."
+    },
+    {
+      "trecho": "Ela conta o que precisa pensar. E isso é a conversa voltando.",
+      "motivo": "A fala existe (8370-8372), mas não diz o que o trecho diz: \"E isso é a conversa voltando\" é sobre a conversa voltar, e a fala é sobre objeção ser interesse, que é outro assunto. Pior, \"a conversa voltando\" é o termo que a seção seguinte cobra na linha 24 (\"a conversa volta, e o agendamento junto\") e que a linha 18 arma (\"ela provavelmente não volta\"): tirar a demonstração concreta deixa a abstração sem âncora. E a substituta comete o próprio pecado da acusação, porque carimba a abertura do mesmo parágrafo e deixa três definições de objeção em cinco frases (não é rejeição, é pedido de mais informação, é interesse)."
+    },
+    {
+      "trecho": "Voltar é refazer a pergunta do passo que ficou raso, em vez de inventar resposta nova pra objeção.",
+      "motivo": "Achei a fonte que o garimpeiro descartou: no corpus, linha 3018, ela está exatamente no momento tardio da conversa e diz \"eu retomaria a alguma pergunta para ela poder aprofundar um pouquinho mais\", e na 3026 completa \"Eu vou recuperar uma coisa que foi dita lá atrás\"; a linha 4250 fecha o diagnóstico do passo raso, \"passou por todas as etapas... a gente não aprofundou no problema certo\". Somado a 02-manual-objecoes.md linhas 66-72, onde as duas respostas do \"vou pensar\" são literalmente as perguntas dos passos 3 e 4, a afirmação tem lastro por paráfrase e não é doutrina própria do livro. Ele grepou \"retomar\" e dispensou como follow-up sem ler o contexto."
+    }
+  ],
+  "cego": {
+    "veredito": "pessoa",
+    "confianca": 85,
+    "votos": {
+      "pessoa": 3,
+      "ia": 0,
+      "indeciso": 0
+    },
+    "leitores": 3,
+    "data": "2026-09-09"
+  }
+}

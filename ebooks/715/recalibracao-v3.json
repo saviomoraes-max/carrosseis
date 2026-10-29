@@ -1,0 +1,816 @@
+{
+  "total_aprovado": 111,
+  "por_bloco": [
+    {
+      "bloco": "01",
+      "propostas": 16,
+      "aprovadas": 11,
+      "medicao": "Medido por script (`m3.py`) sobre a prosa do bloco, descontando frontmatter, títulos e o bloco :::grafico. Corte de fôlego em vírgula/ponto/;/:/?/! e quebra de parágrafo.\n\nCOMO ESTÁ HOJE (900 palavras de prosa, 141 unidades de fôlego):\n- média 6,38 / mediana 6,0 / desvio 4,36 / CV 0,683 (alvo dela: 1,074)\n- unidades de 1 palavra: 7,1% (10 de 141) (alvo: 21,2%). São elas: tá, Falei, cara, tá, Olha, parará, parará, parará, poxa, Agora. Zero \"né\", zero \"ó\", zero \"Gente,\" vocativo.\n- unidades de até 3 palavras: 27,7% (alvo: 38,7%)\n- unidades de 20+ palavras: 2,1% (3 de 141) (alvo: 8,4%). Maior unidade: 28 palavras.\n- antíteses \"não X, é Y\": 5 em 900 palavras = 5,56 por mil (alvo: 0,10 por mil, ou seja, no máximo 1 no capítulo inteiro). As cinco: (1) \"não foi só ter saído e esperado. Foi\", (2) \"não foi o lado de fora. Foi\", (3) \"Não tem porta, não tem a moça do financeiro. Tem\", (4) \"não tô falando que existe um certo ou errado. Tô\", (5) \"Um é o contrário do outro, e dá na mesma\". Há ainda uma sexta, espelhada em dois tempos, que o regex não pega: \"Porque eu não estava mais falando com uma especialista... Eu estava falando com uma pessoa que...\".\n- aberturas de frase: E 15, Porque 4, Mas 2, Só que 2, Então 1, Agora 1 (de 78 frases). \"Então\" está em 1 quando a dose dela seria 3 ou 4 num bloco deste tamanho; \"Porque\" abre 4 vezes quando só 11% dos \"porque\" dela abrem.\n- tags de checagem: \"tá?\" 2, \"sabe\" 0 como tag, \"né\" 0, \"ó\" 0, \"Gente,\" vocativo 0.\n\nDEPOIS DAS 16 EDIÇÕES (rodei o texto editado no mesmo script, 923 palavras, 132 unidades):\n- CV 0,683 → 0,834\n- 1 palavra: 7,1% → 12,9% (17 unidades)\n- até 3 palavras: 27,7% → 31,1%\n- 20+ palavras: 2,1% → 6,8% (9 unidades), maior unidade 30 palavras\n- antítese: 5,56 → 1,08 por mil (sobra 1, a tese central do capítulo: \"O que me pegou não foi o lado de fora. Foi eu sair da sala sem saber o preço e ir decidir com uma pessoa que não tinha ouvido nada do meu problema.\")\n- aberturas: E 12, Porque 3, Só que 3, Então 2, Agora 1\n- tags: né 3, tá 4, ó 1, Gente vocativo 1\n\nRESSALVA HONESTA SOBRE O 20%: não dá pra chegar em 21,2% de unidades de 1 palavra neste bloco sem contrariar o próprio v3. Chegar lá exigiria ~28 unidades de 1 palavra em 923 palavras. As unidades de 1 palavra dela são \"quase sempre de checagem\", e a dose do v3 (seção 7) é \"né\" 5 a 7 por 2.000 palavras, o que num bloco de 900 dá 2 ou 3. O resto dos 21,2% no corpus vem de hesitação e recomeço de transcrição de fala (\"Não, não, não\", \"a gente tenta, a gente tenta\", falso começo), que não passa pro papel sem virar maneirismo. Então empurrei os 1-palavra até onde a dose de tags aguenta (né 3, ó 1, gente 1, mais advérbio-amortecedor isolado por vírgula) e paguei o resto da variação subindo o teto: 3 → 9 unidades de 20+. É por isso que o CV sobe pra 0,834 e não pros 1,07. Fechar o resto do buraco pede mais texto de fala longa dela dentro do capítulo, não mais \"né\"."
+    },
+    {
+      "bloco": "02",
+      "propostas": 12,
+      "aprovadas": 12,
+      "medicao": "Medido por script (`medir_bloco02_meu.py`, no scratchpad), descontando os 3 blocos `:::grafico` (funil, grade, bastao). Não há `:::frase`/`:::cena`/`:::evite` neste bloco; `:::punch` e `:::pergunta` entraram como prosa, já que a instrução só mandou descontar os quatro. Corte de fôlego em , . ; : ! ? e quebra de parágrafo. Marcadores «1.»…«8.» não contam como palavra.\n\nHOJE — 1.034 palavras de prosa, 145 unidades de fôlego.\n- média 7,13 | mediana 6,0 | **CV 0,660** (alvo 1,074; hoje o livro inteiro está em 0,652, ou seja o bloco 02 é o livro médio)\n- **unidades de 1 palavra: 7,6% (11)** — alvo ~21%. E das 11, 6 não são checagem: são itens de lista literais da fonte (\"médicas\", \"dentistas\", \"farmacêuticas\", \"fisioterapeutas\"). Checagem de verdade: `né` 0, `ó` 0, `sabe` 0, `gente` vocativo 0, `tá` tag 1.\n- **unidades de 20+ palavras: 1,4% (2)** — alvo 8,4%. Maior unidade do bloco inteiro: 21 palavras. Histograma colado entre 3 e 8: (1:11)(2:12)(3:17)(4:14)(5:9)(6:12)(7:11)(8:10)(9:9)(10:6)(11:9)(12:5)(13:3)(14:2)(15:6)(16:2)(17:3)(18:1)(19:1)(20:1)(21:1). É a regularidade que os leitores cegos chamam de \"ritmo de copy calibrado\".\n- **antíteses: 3 estritas \"não X, é Y\" = 2,90 por mil** (alvo 0,10; dose = no máximo 1 por capítulo). Contando também as invertidas e o \"não só\", são 7 = 6,77 por mil. As 3 estritas: \"Não foi nada externo, é sempre algo interno\" (literal da fonte, é a tese), \"Não é sete passos para agendar todo mundo. É a paciente…\", \"Não é certo ou errado. É o que eu vejo…\". As invertidas: \"é consequência, não objetivo\", \"são referências, não roteiros\", \"não só no começo\", \"não tô te pedindo… Tô pedindo\".\n- Rodei o mesmo contador no manuscrito inteiro: 25 antíteses em 10.338 palavras. **O bloco 02 carrega 6 delas, 24% do total em 10% das palavras.** É o capítulo mais antitético do livro.\n- Fora de dose também: anáfora de 3 degraus (\"Não depende da cidade. / Não depende da idade. / Não depende de quanto profissional abriu…\", dose máx 1, e essa vem em pancadas separadas) e espelhamento dos dois lados em «8.» (dose medida: 0).\n- Zero travessão (ok). Conector inicial 26,6% (ela: 33,4%).\n\nDEPOIS das 12 edições (apliquei numa cópia de teste e remedi com o mesmo script) — 1.055 palavras, 139 unidades:\n- média 7,59 | **CV 0,885** (de 0,660; o corpus dela mede 0,896 na seção 3 e 1,074 na tabela do capítulo)\n- **1 palavra: 18,7% (26)**, de 7,6%\n- **20+: 8,6% (12)**, de 1,4%. Maior unidade 29 palavras.\n- **antítese estrita: 1 (0,95 por mil)** — sobra só \"Não foi nada externo, é sempre algo interno\", que é literal de `amostra-fala-analuiza-02.txt` e é a tese do capítulo. Bate a dose \"no máximo 1\".\n- checagem dentro da taxa medida no corpus dela (para 1.055 palavras): `né` 5 (alvo 5,1) · `gente` vocativo 2 (alvo 2,3) · `ó` 1 (alvo 1,0) · `tá` tag 2 (alvo 2,0) · `sabe` 2 (alvo 2,8). Não empilhei tag pra forçar o número.\n- conector inicial 32,0% (ela 33,4%) · \"Então\" abrindo 3 · \"Agora, se\" 1 (era 0; é a virada padrão dela, 13 ocorrências) · zero travessão.\n- O que ainda não fecha: CV 0,885 contra 1,074 e 1 palavra 18,7% contra 21%. Chegar lá exigiria reescrever também os parágrafos narrativos das linhas 12-24, que são transcrição literal da fonte. Fidelidade vence, então parei aqui.\n- Não mexi em `:::punch`, `:::grafico` nem `:::pergunta`. Nenhum número, caso ou linha de script foi criado; toda palavra nova é conector, aposto de checagem ou repetição de termo que já estava na frase."
+    },
+    {
+      "bloco": "03",
+      "propostas": 15,
+      "aprovadas": 8,
+      "medicao": "Medido com script (`medir2.py`) sobre a prosa do bloco, descontando frontmatter, headings e os blocos :::frase, :::cena, :::evite e :::grafico. Sobra 760 palavras em 116 unidades de fôlego (corte em , . ; : ! ?).\n\nHOJE: média 6,55 · mediana 6,0 · desvio 3,82 · CV 0,586 · unidades de 1 palavra 8 (6,9%) · até 3 palavras 25,9% · 20+ palavras 0 (0,0%), maior unidade do bloco = 18 palavras · antítese \"não X, é Y\" = 2 (2,63/mil): \"quem pega qualquer uma não está escolhendo, está vendendo\" e \"Autoridade no WhatsApp não é currículo. É a pessoa que faz a pergunta certa\".\n\nALVO v3: CV 1,074 · 1 palavra 21,2% · 20+ 8,4% · antítese 0,10/mil.\n\nAchados colaterais que puxam o CV pra baixo: \"Então\" aparece ZERO vez (dose dela: 6 a 8 aberturas por 2.000 palavras, 321 aberturas no corpus); \"né/tá/ó/sabe/gente/entendeu\" aparecem ZERO vez como aposto (ela tem 380 \"né\", 140 \"tá\", 105 \"sabe\", 90 \"gente\", 58 \"entendeu\", 53 \"ó\" como unidade de uma palavra); anáfora de 4 degraus em \"Acontece quando...\" (ela faz par de dois, 3+ degraus é 1 a cada 5.900 palavras); \"você\" a 32,9/mil contra 9,45/mil dela e \"a gente\" a 2,63/mil contra 17,62/mil dela (não mexi nisso, fica registrado).\n\nDEPOIS das 15 edições (aplicadas em cópia e remedidas): 810 palavras, 128 unidades · média 6,33 · mediana 5,5 (dela 5,0) · desvio 5,52 · CV 0,876 · 1 palavra 26 (20,3%) · até 3 palavras 35,9% · 20+ palavras 5 (3,9%), maior unidade 30 palavras · antítese 1 (1,23/mil) · \"Então\" 3, \"né\" 4 (2 fechando frase), \"tá\" 3, \"ó\" 3, \"sabe\" 2, \"entendeu\" 1, \"Gente,\" 1 · zero travessão.\n\nO que ficou fora do alvo, honestamente: CV 0,876 contra 1,074 e 20+ em 3,9% contra 8,4%. Fechar esses dois exigiria inventar conteúdo pra alongar períodos, e fidelidade vence estilo. Ressalva do próprio v3: os 8,4% dela são inflados porque a transcrição não põe vírgula, então 8,4% em papel pontuado é teto teórico, não meta literal. A antítese que sobra é a máxima do capítulo (\"Autoridade no WhatsApp não é currículo\"), que a tabela de doses permite (máximo 1) e o v3 manda não explicar depois — ela está sozinha no parágrafo, correto."
+    },
+    {
+      "bloco": "04",
+      "propostas": 14,
+      "aprovadas": 10,
+      "medicao": "Medido por script (python, corte em , . ; : ! ?), descontando frontmatter, headings e os blocos :::cena/:::frase/:::evite/:::grafico/:::pergunta. Sobram 650 palavras de prosa em 102 unidades de fôlego.\n\nHOJE: média 6,37 | mediana 6,0 | desvio 3,73 | CV 0,585 (alvo dela 1,074). Unidades de 1 palavra: 5,9% (6 de 102; alvo 21,2%). Até 3 palavras: 30,4% (alvo 38,7%). Unidades de 20+ palavras: 0,0%, ZERO unidades (alvo 8,4%); a maior unidade do bloco inteiro tem 15 palavras. Ou seja: o bloco vive todo entre 3 e 15, nunca sai disso. É a regularidade que o v3 chama de assinatura de máquina.\n\nANTÍTESE: 8 construções de contraste em 650 palavras = 12,31 por mil (alvo 0,10; dose = no máximo 1 por capítulo). São 7 do tipo \"não X, é Y\": \"não é uma palavra da sua apostila. É uma coisa\"; \"você não sabe o problema dela. Você sabe o nome\"; \"tudo verbo de entender. Nenhum de explicar\"; \"não está perguntando, está aplicando questionário\"; \"Você não perguntou. Ela contou\"; \"não está mais conversando com uma atendente. Está conversando\"; \"Parece atendimento bom. É a conversa morrendo\". Mais 1 espelhamento dos dois lados (\"feita solta, é entrevista. Feita depois de repetir a palavra dela, é conversa\"), que o v3 mediu no corpus dela e deu 0 absoluto.\n\nAPOSTO DE CHECAGEM: 1 no bloco inteiro (\"tá?\"). Zero \"né\", zero \"ó\", zero \"gente,\" vocativo. Travessão: 0 (isso já está certo).\n\nDEPOIS das 14 edições, remedido no arquivo com as trocas aplicadas: 697 palavras, 99 unidades. CV 0,585 → 0,912. Unidades de 1 palavra 5,9% → 16,2%. Unidades de 20+ 0,0% → 5,1% (5 unidades, a maior com 36 palavras). Antítese 12,31/mil → 1,43/mil, uma só, e a que fica é a tese do capítulo (\"você não sabe o problema dela. Você sabe o nome que ela deu\"). Travessão continua 0. \"né\" 0 → 4, \"ó\" 0 → 4, \"tá?\" 1 → 2, \"gente,\" vocativo 0 → 1.\n\nRESSALVA HONESTA: não cheguei em CV 1,074 nem em 8,4% de 20+, e não dá pra chegar num bloco de 650 palavras sem virar tique. O 1,074 dela sai de 80.938 palavras de FALA, onde turno de uma palavra é abundante. E o próprio v3 se contradiz: a §3 diz que 20,6% das unidades são tag de checagem (o que daria ~20 tags aqui), enquanto §5 mede tags em 4,60/mil e §7 dá dose de 5 a 7 \"né\" por capítulo de 2.000 palavras (o que daria 2 aqui). Parei em 10 apostos novos, que é onde o texto ainda soa dela e não soa imitação."
+    },
+    {
+      "bloco": "05",
+      "propostas": 12,
+      "aprovadas": 7,
+      "medicao": "Medi com script (`b05_calib.py`), descontando :::cena, :::frase, :::evite e :::grafico, mais frontmatter e headings. Calibrei o splitter contra o corpus dela antes de medir o bloco: cortando em , . ; : ! ? (sem cortar em quebra de linha) o corpus dá média 7,85, mediana 5,0, CV 1,075, 1 palavra 21,2%, 20+ 8,4%, que reproduz exatamente a tabela do v3. É esse o splitter usado aqui.\n\nBLOCO 05 HOJE: 678 palavras de prosa, 110 unidades de fôlego. Média 6,16, mediana 5,5, CV 0,631 (ela 1,074; livro 0,652). Unidades de 1 palavra 5,5% (6 de 110; ela 21,2%; livro 7,4%) — abaixo até da média do livro. Unidades de até 3 palavras 20,9% (ela 38,7%). Unidades de 20+ palavras 0,9% (1 só, de 29 palavras; ela 8,4%). Antítese estrita \"não X, é Y\": 2 = 2,95/mil (ela 0,10; livro 1,04) — \"ela vem depois do casamento, não no lugar dele\" e \"emoção não vem com lágrima, vem com história\"; mais 3 na forma frouxa (a tríade negativa \"não pediu / não falou / não ofereceu\" + virada positiva, que é também a única anáfora de 3 degraus do bloco; \"com amiga / Com paciente, não alivia\"; \"Mas é o contrário\"). Aposto de checagem: \"né\" 0 (ela 4,74/mil), \"ó\" 0 (1,01/mil), \"Gente,\" 0 (dose 1 a 2 por capítulo), \"tá?\" 1. Conectores fora da voz: \"Mas\" abrindo frase 1, \"Porque\" abrindo 2, \"Aí\" abrindo em parágrafo de prescrição 1, \"Só que\" 0, \"Agora, se\" 0. Espelhamento dos dois lados (dose 0 no v3): 2 pares (\"Quem fez a pergunta foi você. / Quem se convenceu foi ela.\" e \"Se quem está convencida é você... / Se quem está convencida é ela...\").\n\nDEPOIS DAS 12 EDIÇÕES (simulei o arquivo inteiro e remedi): 694 palavras, 105 unidades. CV 0,631 → 0,842. 1 palavra 5,5% → 12,4% (13 unidades). 20+ 0,9% → 4,8% (5 unidades). Antítese 2,95 → 1,44/mil (sobra 1, a de lágrima/história, que serve de máxima do capítulo, dose 1). Tags: né 3 (4,32/mil contra 4,74 dela), tá? 2, ó 1, Gente, 1. Zero travessão, blocos de fonte intactos. Honestidade: não chega em 1,07 nem em 21% de unidade de 1 palavra — pra isso eu teria que fabricar tag e fragmento que a fonte não sustenta. Sobem CV, unidade curta e unidade longa sem inventar fato nenhum."
+    },
+    {
+      "bloco": "06",
+      "propostas": 12,
+      "aprovadas": 10,
+      "medicao": "Medido por script (`scratchpad/medir.py`) sobre a prosa do bloco: descontei frontmatter, headings e os blocos :::cena, :::frase, :::evite e :::grafico. Sobram 671 palavras em 95 unidades de fôlego (corte em vírgula/ponto/;/:/?/! e quebra de parágrafo).\n\nCOMO ESTÁ HOJE\n- CV das unidades de fôlego: 0,536. Alvo dela 1,074. O livro inteiro está em 0,652, ou seja, este bloco é MAIS regular que a média do livro. Média 7,06, mediana 7,0, desvio 3,78.\n- Unidades de 1 palavra: 5,3% (5 de 95). Alvo 21,2%. As cinco são \"emenda\", \"Parou\", \"Volta\", \"segura\", \"tá\".\n- Unidades de 20+ palavras: 0,0% (0 de 95). Alvo 8,4%. A maior unidade do bloco tem 18 palavras.\n- Antítese \"não X, é Y\": 0 no padrão estrito (com \"é\" depois da vírgula); 2 no padrão espelhado, que é o mesmo defeito: \"Ela não responde do zero, ela responde a partir do queixo\" e \"quem dá esse sinal é você, não a paciente\". Em 671 palavras isso dá 2,98 por mil. Alvo 0,10 por mil.\n- Conectores: 0 \"Então\", 0 \"Mas\", 0 \"Porque\" abrindo, 0 \"Agora, se\", 0 \"Só que\", 0 \"né\", 0 \"gente\", 0 \"ó\". A única ocorrência de \"né\" no arquivo está dentro da palavra \"genérica\". Tem 1 \"Aí\" abrindo frase em parágrafo de prescrição, que o v3 marca como registro narrativo errado. Zero travessão (ok).\n\nDEPOIS DAS 12 EDIÇÕES (simulei numa cópia e remedi)\n- CV 0,536 → 0,839\n- 1 palavra 5,3% → 13,0% (12 de 92)\n- 20+ palavras 0,0% → 5,4% (5 unidades; a maior tem 33 palavras)\n- antítese espelhada 2 → 1 (fica só a do sinal quatro, que é factual)\n- conectores: 2 \"Então\" abrindo, 1 \"Agora, se\", 1 \"Só que\", 3 \"né\", 1 \"gente\", 1 \"sabe?\", 1 \"tá?\", 0 \"Aí\" abrindo. Zero travessão.\nNão chega em 1,07 / 21% / 8,4% porque cravar isso em 671 palavras exigiria inventar fala. O que dá pra fazer sem inventar está abaixo."
+    },
+    {
+      "bloco": "07",
+      "propostas": 7,
+      "aprovadas": 5,
+      "medicao": "Medido com script (regex + statistics), descontando frontmatter, headings e os blocos :::cena, :::frase, :::evite e :::pergunta. Prosa minha no bloco: 457 palavras, 66 unidades de fôlego (corte em , . ; : ! ?).\n\nANTES — média 6,92 / mediana 6,0 / desvio 3,65 / CV 0,528. Unidades de 1 palavra: 3 = 4,5%. Até 3 palavras: 19,7%. Unidades de 20+ palavras: 0 = 0,0% (a maior do bloco inteiro tem 17). Antítese \"não X, é Y\": 1 (\"Preço aqui não é informação demais, é ordem trocada\") = 2,19 por mil. Apostos de checagem: zero \"né\", zero \"tá\", zero \"ó\", zero \"gente,\" vocativo. Aberturas de frase: mas 1, e 4, o 7, a 4, se 2. \"Só que\" abrindo: 0. \"Agora, se\": 0. Travessões: 0.\n\nDiagnóstico contra o v3 (ela: CV 1,074 / 1 palavra 21,2% / 20+ 8,4% / antítese 0,10 por mil): o bloco está MAIS regular que a média do livro (CV 0,528 contra 0,652 do livro inteiro) e é o pior caso do livro em unidade longa, porque não tem nenhuma. A antítese isolada, num bloco de 457 palavras, dá 22x a taxa dela e já estoura sozinha a dose de \"no máximo 1 por capítulo de 2.000 palavras\".\n\nDEPOIS (simulei as 7 edições num arquivo cópia e rodei a mesma régua): 470 palavras, 67 unidades, média 7,01 / mediana 6,0 / desvio 5,83 / CV 0,831. Unidades de 1 palavra: 12 = 17,9%. Até 3 palavras: 32,8%. Unidades de 20+ palavras: 3 = 4,5% (a maior tem 33). Antítese: 0 = 0,00 por mil. \"Só que\" abrindo: 1. \"Agora, se\": 1. Travessões: 0.\n\nOnde não cheguei ao alvo, e por quê, sem maquiar: CV 0,831 contra 1,074 dela, e 20+ em 4,5% contra 8,4%. Pra chegar em 8% num bloco de 470 palavras eu precisaria de ~5 unidades de 20+, ou seja ~110 palavras (23% do bloco) dentro de períodos atropelados, e isso num bloco cujo assunto é literalmente \"a transição funciona porque é curta\" viraria contradição de conteúdo. Parei em 3. As unidades de 1 palavra ficaram em 17,9% e não em 21,2% pela mesma razão de dose: contei no corpus e ela usa \"né\" 4,79/mil, \"tá\" tag 1,96/mil, \"ó\" 1,28/mil, \"sabe\" 2,86/mil — pra 470 palavras isso dá ~5 apostos de checagem no orçamento honesto. Coloquei 8 (né×3, tá×2, ó×2, \"gente\" vocativo×1), que já é 1,6x a taxa dela, porque o bloco vinha de ZERO. Empurrar até 21% exigiria dobrar de novo e aí o aposto vira tique, não voz. Nota de fidelidade: \"Repara que\" eu testei e descartei — \"repara/reparem/reparar\" aparece 1 vez em 81.017 palavras do corpus, não é dela."
+    },
+    {
+      "bloco": "08",
+      "propostas": 9,
+      "aprovadas": 8,
+      "medicao": "Medido por script (`scratchpad/medir.py`), descontando frontmatter, headings e os blocos :::cena/:::frase/:::evite/:::grafico/:::pergunta. Sobram 540 palavras de prosa minha, 76 unidades de fôlego (corte em vírgula/ponto/;/:/!/?).\n\nANTES — média de fôlego 7,11 · mediana 6,5 · **CV 0,508** · unidades de 1 palavra **1,3%** (1 de 76, e é \"Antes\", que nem é checagem) · até 3 palavras 15,8% · **20+ palavras 0,0%** (a maior unidade do bloco tem 19) · antítese: 1 plena (\"com o que ela disse, não com o que você diagnosticou\") + 1 espelhamento dos dois lados (\"Sem a duração… Com a duração…\", dose do v3 = 0) + 1 meia-antítese de pancada (\"Não é a explicação.\") = **5,56 por mil** contra 0,10 dela.\nLéxico de checagem: \"né\" 0 · \"ó\" 0 · \"tá\" 0 · \"sabe\" 0 · \"Gente,\" vocativo 0. Conectores: \"Então\" 0 · \"Agora, se\" 0 · \"Só que\" 0. Frases abrindo com conector dela: 23,1% (ela: 33,4%). Dois \"Porque\"/\"E porque\" abrindo frase (nela só 11% dos \"porque\" abrem) e um \"Aí vem…\" em parágrafo de prescrição, que o v3 marca como registro errado.\n\nDiagnóstico: o bloco não tem excesso de pancada, tem falta de amplitude. Tudo mora entre 4 e 13 palavras. É exatamente a regularidade que o v3 chama de assinatura de máquina.\n\nDEPOIS (as 9 edições aplicadas numa cópia e remedidas): 563 palavras · 78 unidades · média 7,22 · mediana 6,0 · **CV 0,909** · 1 palavra **17,9%** · até 3 palavras 26,9% · **20+ palavras 6,4%** (maior unidade: 37) · antítese **1** (a tese central, \"a palavra é dela\"), 1,78 por mil · conector na abertura 34,5% · \"né\" 3, \"ó\" 4, \"tá\" 2, \"Gente,\" 1, \"Então\" 2, \"Agora, se\" 1 · zero travessão.\n\nFico a 0,16 do CV alvo e a 2 pontos do 20+ de propósito: subir mais só sairia inflando \"né\" além da dose por capítulo do próprio v3 (5 a 7 em 2.000 palavras; aqui são 540, então 3 já é o teto honesto). Preferi ficar dentro das duas réguas a bater um número quebrando a outra."
+    },
+    {
+      "bloco": "09",
+      "propostas": 12,
+      "aprovadas": 6,
+      "medicao": "Medido por script (`b09_medir.py`, no scratchpad da sessão), descontando :::cena, :::frase, :::evite e :::grafico. Sobra 622 palavras de prosa em 105 unidades de fôlego (corte em vírgula/ponto/;/:/?/!).\n\nCOMO ESTÁ HOJE — média 5,92 | mediana 5,0 | desvio 3,31 | **CV 0,559** (ela: 1,074; livro inteiro: 0,652 — este bloco é MAIS regular que a média do livro).\nUnidades de 1 palavra: 4 de 105 = **3,8%** (ela: 21,2%). É metade do já baixo 7,4% do livro. Zero \"né\", zero \"ó\", zero \"tá\", zero \"gente\", zero \"sabe\" em toda a prosa.\nUnidades de até 3 palavras: 25,7%. Unidades de 20+ palavras: **0 de 105 = 0,0%** (ela: 8,4%). A maior unidade do bloco tem 18 palavras. A distribuição inteira mora entre 3 e 9 palavras: 82 das 105 unidades caem aí.\nAntítese \"não X, é Y\": **5 = 8,04 por mil** (ela: 0,10; livro: 1,04). São 3 na forma com vírgula (\"o fechamento não convence ninguém, ele só organiza\"; \"aí já não é fechamento, é objeção\"; \"Se ela ainda não disse..., é cedo\") e 2 partidas em duas frases, que é a mesma figura com ponto no meio (\"O fechamento não gera essa leitura. Ele colhe.\" e \"Ela não está mais decidindo. Ela está se organizando pra chegar.\"). As duas partidas são também pancada curta fabricada: 2 e 4 palavras logo depois de período longo.\nConectores de abertura: 55 frases, \"E\" abre 13 (23,6%), \"Mas\" abre 1, e **zero \"Então\"**, zero \"Só que\", zero \"Agora, se\" — ou seja, as três aberturas que o v3 mede como hábito dela não existem no bloco. Zero travessão (ok).\n\nDEPOIS DAS 12 EDIÇÕES (simulei o arquivo inteiro e remedi): 686 palavras, 115 unidades, média 5,97 | desvio 5,52 | **CV 0,926**. 1 palavra: 23 = **20,0%**. 20+: 6 = **5,2%**, maior unidade 33. Antítese: **1 = 1,46 por mil**, e a que fica é a tese do capítulo (\"o fechamento não convence ninguém, ele só organiza\"). Aberturas: 2 \"Então\", 2 \"Agora\", 1 \"Só que\". Zero travessão.\n\nO que continua fora e eu não mexi porque sairia do escopo desta rodada: \"E\" abrindo 11 de 44 frases (25%), contra 9 a 11% dela em capítulo de ensino. É a próxima dívida do bloco."
+    },
+    {
+      "bloco": "10",
+      "propostas": 16,
+      "aprovadas": 11,
+      "medicao": "Medido com script (scratchpad/med.py + cmp.py). Descontei frontmatter, títulos (#) e os blocos :::frase, :::cena, :::evite e :::grafico. Sobram 846 palavras de prosa em 126 unidades de fôlego (corte em vírgula, ponto, ponto-e-vírgula, dois-pontos, ? e !).\n\nCOMO ESTÁ HOJE\n- Coeficiente de variação do fôlego: 0,658. Alvo v3: 1,074. Ela: média 7,86 / mediana 5. O bloco: média 6,71 / mediana 5,5. É o retrato exato do problema descrito na seção 3 do v3: não sobra nem falta pancada, falta variação. Quase tudo vive entre 4 e 9 palavras.\n- Unidades de 1 palavra: 8,7% (11 de 126). Alvo ~21%. E as 11 que existem são acidentais (\"Eu\", \"Educado\", \"tranquilo\", \"resultado\", \"segurança\", \"tempo\", uma aspa solta), não aposto de checagem.\n- Unidades de até 3 palavras: 19,8%. Ela: 38,7%.\n- Unidades de 20+ palavras: 1,6% (2 de 126). Alvo 8,4%. O bloco não tem um único período que se atropela e emenda com \"e\".\n- Antítese \"não X, é Y\": 3 em 846 palavras = 3,55 por mil. Alvo 0,10 por mil, dose máxima 1 por capítulo. São elas: (a) \"Objeção não é rejeição. É pedido de mais informação\" — tese central, vem literal do manual (p.5) e é o título, fica; (b) \"Não é o preço, não é o marido, não é a agenda. É que em algum passo anterior ficou raso\" — antítese somada a anáfora de 3 degraus, que o v3 mede como 1 a cada 5.900 palavras; (c) \"Voltar não é inventar resposta nova pra objeção. É refazer a pergunta\".\n- Aposto de checagem: ZERO em 846 palavras. \"né\" 0 (o único hit do grep está dentro de \"genérica\"), \"ó\" 0, \"tá\" 0, \"sabe\" 0, \"gente\" 0 como vocativo. Dose esperada nesse tamanho: 4 \"né\", 1 \"sabe\", 1 \"tá\", 1 \"Gente,\".\n- Conectores: \"Então\" 1 (dose ~3 a 4 nesse tamanho, 71% dos dela abrem frase), \"Só que\" 0 (dose 1 a 2), \", mas\" dentro do período 0, \"Agora, se\" 1 (ok).\n- Espelhamento dos dois lados, que o v3 mede em ZERO ocorrências: 2 casos. \"Se você reage... / Se responde...\" (esse é do manual, mantive o conteúdo) e \"Curiosidade é o que você sente... / Direção é o que você faz...\".\n\nDEPOIS DAS 16 EDIÇÕES (remedido no arquivo de trabalho)\n- 897 palavras, 125 unidades.\n- CV: 0,908 (era 0,658; alvo 1,074).\n- Média 7,18 / mediana 5,0 (ela: 7,86 / 5).\n- 1 palavra: 18,4%, 23 unidades (era 8,7%, 11).\n- Até 3 palavras: 28,0% (era 19,8%).\n- 20+ palavras: 6,4%, 8 unidades (era 1,6%, 2).\n- Antítese: 1 = 1,11 por mil, só a tese central que é do manual e do título. As outras duas saíram.\n- \"Então\" 3 (2 abrindo com vírgula), \"Só que\" 1 abrindo, \"né\" 4, \"ó\" 2, \"tá\" 2, \"sabe\" 1, \"Gente,\" 1, \"Agora, se\" 1.\n\nO que não fecha 100%: 1 palavra parou em 18,4% e não em 21%, e 20+ em 6,4% e não em 8,4%. Passar disso obrigaria a estourar as doses da seção 7 (mais de 4 \"né\" ou mais de 2 \"tá\" em 900 palavras vira maneirismo) ou a fabricar frase longa sem conteúdo novo. Preferi parar aqui. A antítese em 1,11/mil também fica acima de 0,10, mas é aritmética de bloco curto: uma única antítese num capítulo de 900 palavras já dá esse número, e a instrução manda preservar a tese central."
+    },
+    {
+      "bloco": "11",
+      "propostas": 20,
+      "aprovadas": 14,
+      "medicao": "Medido por script (`b11_medir_meu.py`) sobre a prosa do bloco, descontando frontmatter, headings e os blocos :::frase (o :::pergunta final entra, porque não está na lista de descontos). Unidade de fôlego = corte em vírgula, ponto, ponto-e-vírgula, dois-pontos, ! ? e quebra de parágrafo.\n\nHOJE (arquivo como está): 1.054 palavras de prosa, 141 unidades. Média 7,55 | mediana 6 | desvio 4,45 | CV 0,590. Unidades de 1 palavra: 4 = 2,8%. Até 3 palavras: 12,8%. Unidades de 20+: 4 = 2,8% (maior: 24). Antítese \"não X, é Y\" estrita: 1 (\"não é pagar, é pagar por algo...\") = 0,95 por mil; contando toda forma antitética (inclui \"X, não Y\" e \"Não X, Y\") são 4 = 3,80 por mil: \"são modelo, não roteiro\", \"o problema é o preço, e não a clareza\", \"Não muda a frase, muda a pergunta que ela fez\", \"não é pagar, é pagar por algo...\". Marcadores de checagem em unidade solta: zero \"né\", zero \"tá\", zero \"ó\", zero \"Gente,\" vocativo. Conector de abertura na voz dela: 1 \"Então\", 0 \"Agora, se\", 0 \"Só que\".\n\nALVO v3: CV 1,074 | 1 palavra 21,2% | 20+ 8,4% | antítese 0,10/mil (dose: no máximo 1 no capítulo).\n\nDEPOIS das 20 edições abaixo (simulei o arquivo aplicado e remedi): 1.081 palavras, 147 unidades. Média 7,42 | mediana 6 | CV 0,783. Unidades de 1 palavra: 23 = 15,6%. Até 3 palavras: 23,8%. Unidades de 20+: 9 = 6,1% (maior: 26). Forma antitética: 4 → 1 (fica só \"não é pagar, é pagar por algo que ela ainda não entendeu o valor\", que é a tese da família Preço/Consulta paga e o eixo doutrinário do capítulo) = 0,93/mil, dentro da dose de \"no máximo 1\". Marcadores: 5 \"né\" (2 no meio do período, 3 fechando), 5 \"tá\", 4 \"ó\", 2 \"Gente,\" vocativo colado na frase mais forte, 2 \"Então,\" abrindo, 2 \"Agora, se\" de virada, 1 \"Só que\" abrindo.\n\nHonestidade sobre o que NÃO fecha: CV para em 0,783 (alvo 1,074) e 1 palavra em 15,6% (alvo 21,2%). O teto aqui é estrutural: 20 dos 39 parágrafos do bloco são rótulos de uma linha (\"A paciente diz X\") e mais 14 são blocos :::frase intocáveis, então sobra pouca prosa onde variar sem fabricar. Empurrar além disso viraria maneirismo, que é justamente o que o v3 proíbe."
+    },
+    {
+      "bloco": "12",
+      "propostas": 9,
+      "aprovadas": 5,
+      "medicao": "Medido por script (`b12_medir_voz.py`, corte de fôlego em , . ; : ! ?), descontando frontmatter, headings e a URL. O bloco não tem :::frase/:::cena/:::evite/:::grafico, só um :::pergunta, que não está na lista de descarte, então contei com ele; entre parênteses o número sem nenhum bloco :::.\n\nCOMO ESTÁ HOJE — 597 palavras (551), 85 unidades de fôlego (77):\n- média de fôlego 7,02 | mediana 6 | desvio 4,89 | CV 0,696 (0,698). Alvo dela: 1,074. Livro inteiro: 0,652. Ou seja, este bloco já está um pouco acima da média do livro, mas ainda a dois terços do caminho.\n- unidades de 1 palavra: 8,2% (6,5%), 7 unidades. Alvo 21,2%. As 7 são \"enfim\", \"Agora\" x3, \"Tudo\", \"continua\", \"Você\" — nenhuma é aposto de checagem. Zero \"né\", zero \"tá\", zero \"ó\", zero \"gente\" no bloco inteiro.\n- unidades de 20+ palavras: 2,4% (2,6%), só 2. Alvo 8,4%.\n- unidades de até 3 palavras: 30,6%. Dela: 38,7%.\n- antítese \"não X, é Y\": 1 em padrão estrito = 1,68 por mil (1,81). Alvo 0,10 por mil; a tabela de doses dá no máximo 1 por capítulo de 2.000 palavras, e este bloco tem 597. A ocorrência é \"Não porque o número é alto. Porque ela ainda não sabe se aquilo resolve o problema dela.\" Tem ainda uma segunda, frouxa, que o padrão estrito não pega: \"não estou falando que existe um certo ou errado. Mas...\".\n- conectores: \"Então\" abrindo = 0 (dose ~2 a 3 em 597 palavras, a taxa dela é 3,95/mil). \"Só que\" abrindo = 0. \"Mas\" abrindo frase = 2, e dela só 18% dos \"mas\" abrem.\n- espelhamento dos dois lados (dose 0 no fingerprint): 1, o par \"No WhatsApp o número... / Na salinha, vai...\".\n- anáfora de 3 degraus (dose máx 1): 2, o \"já contou / já disse / já descreveu\" e o \"Primeiro a gente entende. Depois a gente vê. Se conseguir, aí a gente pensa\".\n- pancada curta fabricada (dose 0): \"Ela entra pronta.\" + \"Lá dentro.\" coladas, e \"Está tudo certo. Continua desse jeito.\".\n\nDEPOIS DAS 9 EDIÇÕES ABAIXO, medido na cópia de teste — 612 palavras (566), 81 unidades (73):\n- CV 0,696 → 0,866 (0,873). Fecha 60% da distância até 1,074.\n- 1 palavra 8,2% → 17,3% (16,4%), de 7 para 14 unidades.\n- 20+ palavras 2,4% → 7,4% (8,2%), de 2 para 6 unidades. Na leitura sem blocos bate o alvo de 8,4%.\n- até 3 palavras 30,6% → 34,6%.\n- antítese 1 → 0.\n- \"Então\" abrindo 0 → 3; \"Só que\" abrindo 0 → 1; \"Mas\" abrindo 2 → 0; \"Agora, se\" continua 2.\n- apostos acrescentados dentro do orçamento medido no corpus dela (80.938 palavras): né 3 (taxa 4,79/mil dá 2,9 em 597 palavras), tá 2 (1,58/mil dá 0,9 — é o único levemente acima), ó 1 (0,64/mil dá 0,4), gente 1 (1,44/mil dá 0,9). Um dos \"né\" fecha frase, que é a proporção dela (31% fecham).\n- zero travessão introduzido, conferido por grep.\n\nONDE PAREI E POR QUÊ: não fui aos 21% de unidade de 1 palavra porque para chegar lá seriam ~17 apostos em 597 palavras, ou 28 por mil, seis vezes a taxa medida dela. Os 21,2% do corpus incluem falso começo e fragmento de fala que não sobrevivem no papel, e o próprio fingerprint diz que a pontuação é da máquina e que falta amostra escrita dela. Preferi bater o orçamento de cada marcador a bater a porcentagem agregada. Testei uma décima edição (mais um \"tá\" na linha do \"E beleza\") e ela só movia o CV de 0,866 para 0,872 estourando o orçamento do \"tá\", então descartei."
+    },
+    {
+      "bloco": "C",
+      "propostas": 8,
+      "aprovadas": 4,
+      "medicao": "Medido por script (`medir_blocoC_unico.py`), descontando frontmatter, títulos e os blocos :::frase — sobram 473 palavras de prosa em 74 unidades de fôlego (corte em vírgula/ponto/;/:).\n\nCOMO ESTÁ: média de fôlego 6,39 | mediana 6,0 | desvio 4,17 | **CV 0,652** (alvo 1,07 — o bloco está no mesmo 0,65 do livro inteiro, ou seja, não puxa nada). **Unidades de 1 palavra: 9,5% (7 de 74)**, alvo ~20%; e das 7, nenhuma é aposto de checagem dela: são \"vinte\", \"Agora\", \"melhor\", \"igualzinho\", \"Horário\", \"comprovante\" e um resíduo de aspas. **Zero \"né\", zero \"tá\", zero \"ó\", zero \"gente\" como vocativo** em 473 palavras. **Unidades de 20+ palavras: 1,4% (1 de 74)**, alvo 8,4%; a única é a citação do script na etapa de conexão, não prosa dela. **Antítese \"não X, é Y\": 3 = 6,34 por mil**, alvo 0,10 (e são três, a três parágrafos de distância uma da outra): \"não está procurando uma consulta. Está procurando uma vaga\", \"Nem só a mensagem 'topa ou não topa', nem os sete passos completos\" e \"Não é consulta, é «reserva»\" — mais uma quarta repetida no subtítulo do frontmatter.\n\nAberturas de frase: \"E\" 6x, \"Então\" 1x, \"Agora, se\" 1x (esse está certo, é a virada dela), \"Só que\" 0.\n\nCOMO FICA com as 8 edições abaixo (simulei o arquivo inteiro e remedi): 533 palavras, 75 unidades, média 7,11 | **CV 0,974** | **1 palavra 21,3% (16)** | **20+ 6,7% (5 unidades: 24, 24, 26, 30, 37)** | **antítese 1 (1,88 por mil)**, e a que sobra é a tese do anexo (ela disputa vaga, não marca consulta), que é o critério de manter. CV vai de 0,65 para 0,97 contra alvo 1,07; 1-palavra bate o alvo; 20+ sai de 1,4% para 6,7% contra 8,4%."
+    }
+  ],
+  "edicoes": [
+    {
+      "bloco": "01",
+      "itens": [
+        {
+          "trecho": "Na clínica o preço veio tarde demais, de uma pessoa que não tinha ouvido nada do meu problema. No WhatsApp ele vem cedo. Vem antes de ela pisar na clínica, e vem de alguém que também não perguntou nada. Um é o contrário do outro, e dá na mesma. A paciente recebe um número de quem não fez o diagnóstico dela, e vai ruminar sozinha do jeito que eu ruminei.",
+          "novo": "Na clínica o preço veio tarde demais, de uma pessoa que não tinha ouvido nada do meu problema, e no WhatsApp ele vem cedo, vem antes de ela pisar na clínica e vem de alguém que também não perguntou nada, e dá na mesma. A paciente recebe um número de quem não fez o diagnóstico dela e vai ruminar sozinha do jeito que eu ruminei.",
+          "problema": "antitese",
+          "motivo": "APROVADA. Trecho confere literalmente (linha 62). Este parágrafo é escrito, não transcrito, então não há fala dela sendo apagada. «Um é o contrário do outro» era o par retórico montado, e «e dá na mesma» sobrevive carregando a mesma conclusão, com «tarde demais» e «vem cedo» ainda em contraste dentro do período. Nenhum fato novo, nenhum travessão, nenhum bloco ::: tocado. Confirmei a métrica: a segunda frase vira mesmo uma unidade de 21 palavras («A paciente recebe... eu ruminei»), embora o ganho não venha do primeiro período como a justificativa dá a entender."
+        },
+        {
+          "trecho": "Só que no WhatsApp não tem salinha nenhuma. Não tem porta, não tem a moça do financeiro. Tem o número chegando na tela.",
+          "novo": "Só que no WhatsApp não tem salinha nenhuma, não tem porta, não tem a moça do financeiro, tem só o número chegando na tela.",
+          "problema": "antitese",
+          "motivo": "APROVADA. Trecho confere (linha 60), parágrafo escrito. O trio «não tem» sobrevive, e é o único trio do bloco, dentro da dose 1. «tem só» no lugar de «Tem» é intensificador, não fato. O «Só que» que abre fica onde estava, sem criar ocorrência nova. Perda real: some a batida final, mas é justamente a pancada curta fabricada com dose 0 no v3, e o conteúdo fica inteiro."
+        },
+        {
+          "trecho": "pras dores que eu tinha levado pra ela. Eu estava falando com uma pessoa que entendeu",
+          "novo": "pras dores que eu tinha levado pra ela, né, eu estava falando com uma pessoa que entendeu",
+          "problema": "antitese",
+          "motivo": "APROVADA COM CONSERTO. A ideia está certa e a fonte confirma: na fala dela isso é UM período só («Porque eu estava falando não com uma especialista..., mas sim com uma pessoa que entendeu...», amostra linha 43). O espelhamento em dois períodos gêmeos foi o manuscrito que criou, então desmontar é fidelidade, não estilo. O «né» no meio é dela com folga (171 ocorrências de «, né,» no corpus) e o bloco tem ZERO «né» hoje. O defeito é o «tava»: dentro do MESMO período fica «não estava mais falando» e depois «eu tava falando», mistura de registro que a fonte não tem (ela diz «estava» nas duas pontas). Consertei mantendo «estava»."
+        },
+        {
+          "trecho": "Toda aquela aura que tinha se formado até eu falar com a doutora foi completamente dizimada. Mesmo que a experiência tenha sido satisfatória. Mesmo que tenha sido tudo bacana.",
+          "novo": "Toda aquela aura que tinha se formado até eu falar com a doutora foi completamente dizimada mesmo que a experiência tenha sido satisfatória, mesmo que tenha sido tudo bacana.",
+          "problema": "falta-frase-longa",
+          "motivo": "APROVADA COM CONSERTO. Ideia certa e ancorada na fonte: na fala dela os dois «mesmo que» vêm emendados por VÍRGULA num período só («Mesmo que a experiência tenha sido satisfatória, mesmo que tenha sido tudo bacana, tudo aquilo...», amostra linha 37). Quem quebrou em três frases foi o manuscrito. Também derrubei minha própria objeção de que unidade longa sem vírgula não seria dela: ela produz uma de 30 palavras corridas na mesma amostra («Porque eu estava falando não com uma especialista... que eu estava trazendo para ela»). O defeito é o «e» acrescentado entre os dois «mesmo que»: ela faz o par assindético, só vírgula, e meter «e» arruma justamente o que a edição queria desarrumar. Sem o «e» a unidade fica com 23 palavras, ainda acima de 20, e a pontuação vira a dela."
+        },
+        {
+          "trecho": "E aí, na hora do fechamento, eu sou conduzida pra recepção. Fico numa área de espera, uns dez minutinhos. E depois sou conduzida de novo, agora pra sala de fechamento, com o financeiro. Uma outra pessoa.",
+          "novo": "E aí, na hora do fechamento, eu sou conduzida pra recepção e fico numa área de espera uns dez minutinhos e depois sou conduzida de novo, agora pra sala de fechamento, com o financeiro. Uma outra pessoa, né.",
+          "problema": "falta-frase-longa",
+          "motivo": "APROVADA. Esta é restauração, não invenção: a fala dela é exatamente esse atropelo («A gente chega junto num plano de tratamento e aí na hora de fazer o fechamento eu sou conduzida para uma recepção e depois sou conduzida novamente para a sala de fechamento com o financeiro, uma outra especialista», amostra linha 7). O manuscrito é que picou em quatro frases regulares. A unidade dá 20 palavras (a edição diz 21; a diferença não muda nada). O «né» fechando tem lastro forte (206 ocorrências de «, né.» no corpus, mais que as 171 do meio) e o bloco tem zero. «Uma outra pessoa» segue sendo a repetição do miolo sem verbo, dose 1 a 2, e o bloco fica com 2 contando o «Diagnóstico feito.» que EU estou preservando na edição 13."
+        },
+        {
+          "trecho": "E eu comecei a ruminar aquilo na minha cabeça. Quando eu cheguei no financeiro, aquilo pra mim já era quase uma encenação pra poder fechar.",
+          "novo": "E eu comecei a ruminar aquilo na minha cabeça e quando eu cheguei no financeiro aquilo pra mim já era quase uma encenação pra poder fechar.",
+          "problema": "falta-frase-longa",
+          "motivo": "APROVADA. Conteúdo idêntico, só junção com «e» e queda de duas vírgulas; nada inventado, nada apagado. A fonte separa em duas frases, mas a pontuação da transcrição é automática (o próprio v3 avisa isso na seção 8), então não conta como prova contra. A unidade dá 26 palavras (a edição diz 25) e o parágrafo passa a abrir correndo antes do pé quebrado do «parará, parará, parará», que é onde o CV realmente sobe."
+        },
+        {
+          "trecho": "É óbvio que eu tô sendo muito irônica e exagerada aqui. Mas eu não pude deixar de pontuar esse sentimento. Eu ia lá no caminho, tá lá a salinha do financeiro, e eu sabia que ia levar facada.",
+          "novo": "É óbvio que eu tô sendo muito irônica e exagerada aqui, mas eu não pude deixar de pontuar esse sentimento. Eu ia lá no caminho e tá lá a salinha do financeiro e eu sabia que ia levar facada.",
+          "problema": "conector-errado",
+          "motivo": "APROVADA COM CONSERTO. A parte principal é restauração literal e por isso é a melhor edição do lote: na fala dela está «É óbvio que eu tô sendo muito irônica e exagerada aqui, mas eu não pude deixar de...» com o «mas» DENTRO, depois de vírgula (amostra linha 29), e a frase seguinte é palavra por palavra «Eu ia lá no caminho e tá lá a salinha do financeiro e eu sabia que ia levar facada» (linha 31). Confirmei a estatística: 132 «Mas» abrindo em 548 no corpus, 24%, e o bloco está em 2 de 4, 50%. Mas a edição acrescenta duas coisas que ela NÃO disse em cima de uma frase verbatim: o «já» e o «, ó». E o «ó» está na posição errada: no corpus são 48 «, ó,» apontando pra frente («assim, ó,», «aqui, ó,») contra apenas 4 fechando período em 81 mil palavras. Meter um fechamento raríssimo num bloco de 875 palavras é 22x a taxa dela. Consertei devolvendo a frase exata da fonte."
+        },
+        {
+          "trecho": "de mim. Porque até então, ponto importante, eu não sabia quanto ia custar o plano de tratamento.",
+          "novo": "de mim, porque até então, ponto importante, eu não sabia quanto ia custar o plano de tratamento.",
+          "problema": "conector-errado",
+          "motivo": "APROVADA, e é a mais segura do lote. Não é ajuste estatístico: é a pontuação literal da fonte, «...vão arrancar o couro aqui de mim, porque até então, ponto importante, eu não sabia quanto ia custar...» (amostra linha 27). O manuscrito é que cortou em duas frases. Confirmei o número no corpus: 64 «Porque» abrindo em 468, 13,7%, contra 4 de 5 abrindo no bloco. O aposto «ponto importante» fica intacto e nenhuma palavra muda."
+        },
+        {
+          "trecho": "O script 715 parte de uma frase só",
+          "novo": "Então o script 715 parte de uma frase só",
+          "problema": "conector-errado",
+          "motivo": "APROVADA. Parágrafo escrito, sem fala dela sendo mexida. Contei: o bloco tem 2 «Então» em 875 palavras, 1 abrindo, contra 5,16/mil e 71% em abertura no corpus. É o conector nº1 dela e é o ponto exato onde o capítulo vira do caso pra doutrina. Uma palavra a mais, zero risco."
+        },
+        {
+          "trecho": "São sete passos, do primeiro oi até o comprovante do PIX. E o preço entra no último.",
+          "novo": "São sete passos, do primeiro oi até o comprovante do PIX, e o preço entra no último.",
+          "problema": "regularidade",
+          "motivo": "APROVADA. Parágrafo escrito, uma vírgula no lugar de um ponto, dado idêntico, nada inventado. Contei as aberturas com «E»: 14 em 76 frases, 18,4%, contra a dose de 9 a 11% em capítulo de ensino, então cortar uma é movimento na direção certa. O fecho do capítulo continua sendo o bloco :::pergunta, que não foi tocado, e a promessa «o preço entra no último» segue inteira."
+        },
+        {
+          "trecho": "e normalmente ela não sabe mesmo",
+          "novo": "e geralmente ela não sabe mesmo",
+          "problema": "falta-aposto",
+          "motivo": "APROVADA COM CONSERTO. A troca de vocabulário está certa e confirmada por contagem: «geralmente» 16 contra «normalmente» 2 no corpus. Mas o isolamento por vírgula está errado, e é verificável: «, geralmente,» aparece ZERO vezes em 81 mil palavras. Nos 16 casos reais ela usa colado dentro da oração («geralmente vão ter um comportamento», «que geralmente os conteúdos»). Fabricar unidade de 1 palavra com um advérbio que ela nunca destaca é inventar traço pra bater métrica. Consertei mantendo só a troca lexical. As unidades de 1 palavra que faltam vêm dos apostos de checagem («né», «gente», «tá»), não daqui."
+        }
+      ]
+    },
+    {
+      "bloco": "02",
+      "itens": [
+        {
+          "trecho": "Mas eu acho que a resposta do WhatsApp é a coisa mais interna que existe. Não depende da cidade. Não depende da idade. Não depende de quanto profissional abriu clínica na sua rua. Depende do que você digita depois do oi. E quando chega menos gente, cada conversa que morre pesa mais. É a única parte que dá pra mudar já na próxima mensagem.",
+          "novo": "Mas eu acho que a resposta do WhatsApp é a coisa mais interna que existe, interna, né, porque ela não depende da cidade e não depende da idade e não depende de quanto profissional abriu clínica na sua rua, depende do que você digita depois do oi, e quando chega menos gente, cada conversa que morre pesa mais e é a única parte que dá pra mudar já na próxima mensagem.",
+          "problema": "pancada-fabricada",
+          "motivo": "Trecho existe literal na linha 28. Sem invenção, sem perda, sem travessão, sem bloco. A anáfora de 3 degraus mais punch de 6 palavras é exatamente o que o fingerprint chama de fabricado (3+ degraus = 1 a cada 5.900 palavras; \"Não fabricar a pancada curta\"). Emendar num fôlego só resolve, e as unidades resultantes (14/1/1/22/8/24) dão a variação que falta. \"interna\" sozinho é repete-o-miolo legítimo. DEFEITO: apagou a vírgula de \"e quando chega menos gente, cada conversa\", que é oração adverbial deslocada; sem ela o leitor tropeça em \"menos gente cada conversa\". Vírgula restaurada, o ganho de 19 palavras na unidade continua de pé."
+        },
+        {
+          "trecho": "Essa frase é o 715 inteiro. Ela já quer. Ninguém manda mensagem pra clínica sem querer alguma coisa, e o que a gente faz nos sete passos é descobrir o que ela quer de verdade. Porque o que ela pergunta e o que ela quer quase nunca são a mesma coisa. A paciente pergunta o preço do preenchimento, mas o que ela quer é parar de ouvir que tá com o olhar cansado.",
+          "novo": "Gente, essa frase é o 715 inteiro. Ela já quer. Ninguém manda mensagem pra clínica sem querer alguma coisa e o que a gente faz nos sete passos é descobrir o que ela quer de verdade, né, porque o que ela pergunta e o que ela quer quase nunca são a mesma coisa, e a paciente pergunta o preço do preenchimento, mas o que ela quer é parar de ouvir que tá com o olhar cansado.",
+          "problema": "falta-frase-longa",
+          "motivo": "Trecho existe literal na linha 34. Nada inventado, nada apagado. \"Gente,\" está verificado em 162 ocorrências (2,0/mil) e é exatamente a função descrita: colado na frase mais forte, logo depois do :::punch. Um \"né\" só, dentro da dose de 4,79/mil. A máxima \"Ela já quer.\" fica de pé, que é o certo (máxima é rara mas existe). A única vírgula que sai é entre duas orações de sujeito diferente (\"alguma coisa e o que a gente faz\"), o \"é descobrir\" desfaz qualquer leitura torta e a oralidade justifica. Passa como está."
+        },
+        {
+          "trecho": "O nome é sete passos para um agendamento a cada cinco contatos. Não é sete passos para agendar todo mundo. É a paciente sair da conversa querendo marcar sem ninguém ter empurrado, se o problema que ela trouxe se resolve com a consulta. Se não resolve, ela não agenda, e está tudo certo.",
+          "novo": "Então, o nome é sete passos para um agendamento a cada cinco contatos, ó, um a cada cinco, e não sete passos para agendar todo mundo, porque o que a gente quer é a paciente sair da conversa querendo marcar sem ninguém ter empurrado, se o problema que ela trouxe se resolve com a consulta. Agora, se não resolve, ela não agenda, e está tudo certo.",
+          "problema": "antitese",
+          "motivo": "Trecho existe literal na linha 36. Virar a antítese copular em ressalva coordenada é a manobra certa e está atestada (\", e não\" tipo \"saber e não querer\" aparece 43x). \"Agora, se\" confirmado 21x no corpus. \"ó, um a cada cinco\" é repete-o-miolo legítimo. \"porque o que a gente quer é\" acrescenta oração mas não inventa fato, número, caso nem script, e \"a gente\" é onde mora a doutrina. DEFEITO GRAVE: apagou a vírgula de \"sem ninguém ter empurrado, se o problema que ela trouxe se resolve\". Sem ela a condicional gruda em \"empurrado\" e a frase passa a dizer outra coisa. Vírgula devolvida. Só cuidado na hora de aplicar: o parágrafo de baixo (linha 43) já abre com \"Então\", então dois \"Então\" seguidos, com só um gráfico e um título no meio."
+        },
+        {
+          "trecho": "Então, eu quero te passar primeiro o que a gente considera a base de qualquer atendimento. São oito coisas. Não é certo ou errado. É o que eu vejo dar certo nas clínicas que passam por aqui, e são mais de 3 mil. Elas voltam em todos os capítulos, então guarda.",
+          "novo": "Então, eu quero te passar primeiro o que a gente considera a base de qualquer atendimento, tá? São oito coisas, e isso aqui é o que eu vejo dar certo nas clínicas que passam por aqui e são mais de 3 mil, e elas voltam em todos os capítulos, então guarda.",
+          "problema": "antitese",
+          "motivo": "Trecho existe literal na linha 43. Fui checar a alegação sobre o cap. 01 e ela procede: linha 46 traz \"eu não tô falando que existe um certo ou errado. Tô contando o que aconteceu comigo\". Pior: o cap. 12 linha 16 repete de novo (\"E aqui eu não estou falando que existe um certo ou errado\"). Manter no 02 faria a mesma ressalva em três capítulos. O sentido não some porque \"o que eu vejo dar certo\" já é a ressalva. \"mais de 3 mil\" preservado, nada inventado. DEFEITO MENOR: \"tá.\" com ponto. A tag de checagem dela é \"tá?\" (156 ocorrências de \"tá,\"/\"tá?\"), e o próprio capítulo já usa \"tá?\" na linha 66. Com ponto vira quase um \"tá bom\" afirmativo. Corrigido, a unidade de 1 palavra continua lá."
+        },
+        {
+          "trecho": "«1.» O atendimento é pra entender se aquela pessoa tem um problema que você consegue resolver ou não. Parece a mesma coisa que entrar pra agendar, mas na conversa não é, porque quem entra pra agendar pula pro fechamento. E aí a paciente sente que você só está querendo vender.",
+          "novo": "«1.» O atendimento é pra entender se aquela pessoa tem um problema que você consegue resolver ou não. Parece a mesma coisa que entrar pra agendar, mas na conversa não é, porque quem entra pra agendar pula pro fechamento e a paciente sente que você só está querendo vender.",
+          "problema": "conector-errado",
+          "motivo": "Trecho existe literal na linha 56. Matar o \"E aí\" está certíssimo e é prescrição pura, o fingerprint é explícito (\"Em parágrafo de prescrição é registro errado\"). DEFEITO GRAVE: apagou a vírgula de \"mas na conversa não é, porque quem entra pra agendar\". Sem vírgula, \"não é porque X\" em português inverte: passa a NEGAR a causa, ou seja, diz que não é por causa disso. É o oposto do que o parágrafo ensina. E a vírgula nem custa nada, porque a posição dela é justamente essa: no corpus \", porque\" aparece 178 vezes e \". Porque\" ZERO. Vírgula devolvida, o ganho de emenda com \"e\" no lugar do \"E aí\" continua inteiro."
+        },
+        {
+          "trecho": "«2.» Agendamento é consequência, não objetivo. Quando a conversa é bem feita, você oferece o horário e ela já estava esperando por ele. E às vezes ela pergunta da agenda antes de você.",
+          "novo": "«2.» Agendamento é consequência. Quando a conversa é bem feita, você oferece o horário e ela já estava esperando por ele, né, e às vezes ela pergunta da agenda antes de você.",
+          "problema": "antitese",
+          "motivo": "Trecho existe literal na linha 58. Aviso: a justificativa está ERRADA num ponto. A grade da linha 48 diz só \"2 | Agendamento é consequência\", ela NÃO carrega o \"não objetivo\". Então não é verdade que a grade repõe o corte. Aprovo assim mesmo por outro motivo, mais forte: o capítulo tem umas 6 antíteses copulares em 1.140 palavras (5,7/mil contra 0,10/mil dela) e só uma pode ficar de pé. A que fica é a da linha 20 (\"Não foi nada externo, é sempre algo interno\"), que é a tese do capítulo. E o resto do item já ensina o \"não objetivo\" na prática: ela já estava esperando o horário. DEFEITO: caiu a vírgula de \"Quando a conversa é bem feita, você oferece\", oração adverbial deslocada de novo. Devolvida."
+        },
+        {
+          "trecho": "«3.» Empatia é a base do atendimento. E quando eu digo empatia, é a paciente sentir que você está tentando entender o problema dela. E no WhatsApp isso é coisa concreta: repetir a palavra que ela usou e perguntar antes de responder.",
+          "novo": "«3.» Empatia é a base do atendimento, sabe, e quando eu digo empatia é a paciente sentir que você está tentando entender o problema dela, e no WhatsApp isso é coisa concreta, é repetir a palavra que ela usou e perguntar antes de responder.",
+          "problema": "falta-aposto",
+          "motivo": "Trecho existe literal na linha 60. Cortar os dois \"E\" iniciais em fila é correto, e trocar os dois-pontos por \", é\" também: dois-pontos é pontuação de texto, não de fala. \"sabe\" verificado (119 ocorrências, 1,47/mil), a dose do bloco comporta. DEFEITO: sem nenhuma vírgula no pivô, o período fica com 40 palavras corridas e o leitor não enxerga onde a definição vira aplicação (\"problema dela e no WhatsApp isso é coisa concreta\"). Coloquei uma vírgula só, antes de \"e no WhatsApp\". A unidade longa do miolo (17 palavras) continua, que é o que a edição queria."
+        },
+        {
+          "trecho": "«4.» Conexão acontece durante o atendimento inteiro, não só no começo. A doutora que é simpática no oi e vira tabela de preço quando chega o quanto custa perdeu a paciente ali. Isso vai voltar em cada passo.",
+          "novo": "«4.» Conexão acontece durante o atendimento inteiro, gente, e não só no começo, porque a doutora que é simpática no oi e vira tabela de preço quando chega o quanto custa perdeu a paciente ali. Isso vai voltar em cada passo.",
+          "problema": "antitese",
+          "motivo": "Trecho existe literal na linha 62, mas a execução é a pior do lote e quase levou reprovação. Dois problemas reais. Um: \"do começo ao fim\" tem ZERO ocorrências nas 81 mil palavras dela, não é frase dela, e é pleonasmo puro grudado em \"inteiro\", enquanto \"não só no começo\" corrigia um erro de verdade (a doutora que acha que conexão é só no oi, que é exatamente o exemplo do próprio parágrafo). Trocar uma correção por uma redundância piora. Dois: colar \"e isso vai voltar em cada passo\" logo depois de \"perdeu a paciente ali\" faz o \"isso\" apontar pra perda da paciente e não pro princípio. Salvei mantendo a negação como ressalva dentro do período (mesma manobra aprovada na [2], e ressalva coordenada não conta como antítese copular na métrica), deixando \"Isso vai voltar em cada passo\" de pé sozinho. A unidade de 22 palavras que a edição queria continua lá, e o \"gente\" mediano fica."
+        },
+        {
+          "trecho": "«5.» Scripts são referências, não roteiros. As perguntas dos próximos capítulos são modelo: você copia a pergunta e troca pelas palavras que ela mesma usou. O que você manda depois depende do que ela respondeu. Copiar o script sem prestar atenção na conversa é justamente o que faz a paciente sentir que está numa entrevista. Copia a pergunta, e o que você manda depois depende do que ela respondeu. Com o tempo você para de olhar o script, porque passa a ler o sinal dela.",
+          "novo": "«5.» Scripts são referências. As perguntas dos próximos capítulos são modelo, sabe, você copia a pergunta e troca pelas palavras que ela mesma usou e o que você manda depois depende do que ela respondeu, porque copiar o script sem prestar atenção na conversa é justamente o que faz a paciente sentir que está numa entrevista. Com o tempo você para de olhar o script, tá, porque passa a ler o sinal dela.",
+          "problema": "antitese",
+          "motivo": "Trecho existe literal na linha 64. Melhor edição do lote e a única que conserta um bug do manuscrito: \"o que você manda depois depende do que ela respondeu\" está mesmo escrito DUAS vezes no parágrafo original, e a emenda elimina a repetição sem perder a instrução. A alegação sobre a grade eu conferi e desta vez procede: a linha 50 traz \"5 | Script é referência, não roteiro\", com a negação inclusa, então cortar \"não roteiros\" no corpo realmente não perde nada. O imperativo \"Copia a pergunta\" sai mas sobrevive em \"você copia a pergunta\". Sem invenção, sem travessão, sem mexer em bloco. As vírgulas que caem aqui não seguram sentido: \"troca pelas palavras\" pede substantivo e bloqueia a leitura torta em \"e o que você manda\". Passa como está."
+        },
+        {
+          "trecho": "«6.» Quem faz as perguntas conduz a conversa. Fica com o bastão. Porque no momento em que ela pergunta quanto custa, você responde o valor e não manda mais nada, o bastão passou pra ela, e aí ela manda um obrigada, vou pensar, e você fica olhando pro visto azul sem saber o que escrever depois.",
+          "novo": "«6.» Quem faz as perguntas conduz a conversa, e fica com o bastão na mão. Porque no momento em que ela pergunta quanto custa e você responde o valor e não manda mais nada, o bastão passou pra ela, e aí ela manda um obrigada, vou pensar, e você fica olhando pro visto azul sem saber o que escrever depois, né.",
+          "problema": "falta-frase-longa",
+          "motivo": "Trecho existe literal como início da linha 66. Fui atrás do \"bastão na mão\" e ele se confirma no corpus em quatro variantes: \"Bastão na nossa mão\", \"bastão tá na mão dela\", \"bastão continua na mão dela\", \"bastão esteja na nossa mão\". Reestruturar a temporal pra abraçar os dois eventos (ela pergunta E você responde e não manda mais nada) é mais lógico que o original. Manter o \"e aí\" aqui é acerto, porque este pedaço é narrativa e não prescrição, ao contrário da [4]. DEFEITO GRAVE: sem a vírgula, \"não manda mais nada o bastão passou pra ela\" faz o leitor ler \"não manda mais nada o bastão\". Precisa da fronteira entre a subordinada e a principal. Devolvida, e a unidade longa continua longa."
+        },
+        {
+          "trecho": "«7.» Menos informação, menos objeção. Por quê? Porque cada informação que você entrega antes da hora vira um motivo pra ela ir pra casa pensar. Preço, duração da consulta, currículo da doutora, lista de procedimentos, enfim. Ela pediu uma informação e você mandou quatro motivos pra ela ir pra casa pensar.",
+          "novo": "«7.» Menos informação, menos objeção, porque cada informação que você entrega antes da hora vira um motivo pra ela ir pra casa pensar. Preço, duração da consulta, currículo da doutora, lista de procedimentos, enfim, ela pediu uma informação e você mandou quatro motivos pra ela ir pra casa pensar.",
+          "problema": "conector-errado",
+          "motivo": "Trecho existe literal na linha 78. Cortar \"Por quê?\" está bem embasado e a contagem confirma com folga: \". Porque\" ZERO ocorrências no corpus contra \", porque\" 178. A pergunta retórica não é o modo dela, as perguntas dela são tag de checagem. Nada some de conteúdo, e \"quatro motivos\" continua batendo com os quatro itens da lista (preço, duração, currículo, lista de procedimentos). O \"enfim,\" puxando a conclusão lê bem, é marcador de fala genuíno e não atrapalha. Nenhuma vírgula de sentido foi removida. Passa como está. Observação pro próximo passe, não é motivo de reprova: sobraram duas retóricas na linha 66 (\"E qual é a forma mais fácil de encerrar uma conversa?\" e \"Qual pergunta?\") que caem no mesmo argumento e ficaram de fora do lote."
+        },
+        {
+          "trecho": "«8.» E conexão é o que derruba a resistência. A paciente que se sente entendida responde mensagem longa. A que se sente vendida responde com uma palavra. Você já deve ter visto as duas.",
+          "novo": "«8.» E conexão é o que derruba a resistência, né, porque a paciente que se sente entendida responde mensagem longa e a que se sente vendida responde com uma palavra, e você já deve ter visto as duas.",
+          "problema": "regularidade",
+          "motivo": "Trecho existe literal na linha 80. Aprovo, com uma ressalva sobre a justificativa: ela alega espelhamento de dose ZERO, mas a reescrita NÃO tira o espelho, só o repontua num fôlego. Ou seja, o remédio não é o que a justificativa diz que é. E ainda bem que não é, porque apagar um dos dois tipos de paciente seria apagar ensino, e aí eu reprovaria. O que a edição de fato conserta é o que importa aqui: quatro frases de 7 a 9 palavras em fila, que é o retrato da regularidade que os leitores cegos leem como máquina. Vira 20+ mais tag de 1 palavra. \"as duas\" continua com referente claro, \"a que se sente vendida\" tem sujeito próprio e não gera leitura torta, e o \"né\" cabe na dose. Sem invenção, sem perda, sem travessão, sem bloco."
+        }
+      ]
+    },
+    {
+      "bloco": "03",
+      "itens": [
+        {
+          "trecho": "A leitura negativa aqui é: ela só está querendo me vender. E pelo que eu vejo, isso acontece em quatro situações. Acontece quando a gente se qualifica, aquele a doutora é ótima, esses casos são perfeitos, olha esse caso que lindo. Acontece quando a gente não fala pra que está ali.",
+          "novo": "Então, a leitura negativa aqui é: ela só está querendo me vender. E pelo que eu vejo, isso acontece em quatro situações. Acontece quando a gente se qualifica, aquele a doutora é ótima, esses casos são perfeitos, olha esse caso que lindo, e acontece quando a gente não fala pra que está ali.",
+          "problema": "regularidade",
+          "motivo": "Ideia certa: anafora de 4 degraus esta acima da dose (maximo 1 por capitulo) e o capitulo tem ZERO \"Entao\" contra 6 a 8 aberturas por 2.000 palavras. Execucao com contrabando: a reescrita tambem troca \"nao fala pra que esta ali\" por \"nao fala pra paciente pra que e que esta ali\", mudanca de redacao que a justificativa nem declara. Corrigido mantem a emenda com \"e\" e o \"Entao\" de abertura, devolve a redacao original e tira o \"o\" daqui, porque o unico \"o\" que o capitulo comporta esta melhor gasto na edicao [12], onde aponta pra lista que vem em seguida."
+        },
+        {
+          "trecho": "Esse \"ou não\" é o coração do passo. Quando você diz pra paciente que primeiro precisa entender se a doutora consegue ajudar no caso dela, você está dizendo que existe a possibilidade de não conseguir.",
+          "novo": "Gente, esse \"ou não\" é o coração do passo. Quando você diz pra paciente que primeiro precisa entender se a doutora consegue ajudar no caso dela, você está dizendo que existe a possibilidade de não conseguir, tá?",
+          "problema": "falta-frase-longa",
+          "motivo": "Salvo so o \"Gente,\": e dose do fingerprint (1 a 2 por capitulo, colado na frase mais forte) e o capitulo tem zero. Reprovo o miolo da proposta: apagar a virgula depois de uma subordinada de 22 palavras trava a leitura exatamente na frase que a autora chama de \"coracao do passo\", e o \"pra ela\" acrescentado nao e declarado na justificativa que jura \"zero conteudo novo\". O folego longo dela, no item 2 da lista de retorno, se faz emendando com \"e\" e se atropelando, nao apagando virgula estrutural. Vale lembrar que essas virgulas do corpus sao pontuacao de transcricao automatica (ressalva 1 do proprio fingerprint): perseguir a virgula da maquina nao e perseguir a voz dela. Tag final vira \"ta?\" pra bater com a linha 19, que ja usa essa forma."
+        },
+        {
+          "trecho": "Eu acho que ela some porque você agendou uma pessoa que você não conhece. Você ainda não sabe o que ela quer de verdade, e é pra isso que o passo um existe.",
+          "novo": "Eu acho que ela some porque você agendou uma pessoa que você não conhece e você ainda não sabe o que ela quer de verdade, e é pra isso que o passo um existe.",
+          "problema": "falta-frase-longa",
+          "motivo": "Este e o unico folego longo do lote que usa a mecanica que o fingerprint de fato prescreve: ponto vira \"e\", o periodo se estende e se atropela, zero palavra de conteudo nova. Tirei so o \", ta\" do fim: com a edicao [2] aprovada, seriam tres \"ta\" num capitulo de 1.121 palavras, contra cerca de 1 pela taxa dela (\"ta?\" 26 em 35 mil palavras)."
+        },
+        {
+          "trecho": "engana. Parece pronta. Aí você manda o horário, ela some, e você fica sem entender.",
+          "novo": "engana. Parece pronta, né? Aí você manda o horário e ela some e você fica sem entender.",
+          "problema": "falta-frase-longa",
+          "motivo": "\"engana. Parece pronta.\" e pancada montada mesmo, e as duas emendas com \"e\" sao a mecanica dela. O que reprovo e o rabo: \"fica ali sem entender o que foi que aconteceu naquela conversa\" e enchimento nao declarado, que dilui a frase e troca uma imagem seca por uma explicacao. Corrigido mantem o \"ne?\" e os dois \"e\", sem o rabo e sem o \"ali\"."
+        },
+        {
+          "trecho": "Não precisa das três pra você saber que o passo um cumpriu o papel dele. Se a paciente que abriu com \"quanto custa?\" responde a sua pergunta com uma mensagem mais longa, contando o que está incomodando, a abertura acabou. Ela abriu.",
+          "novo": "Então, não precisa das três pra você saber que o passo um cumpriu o papel dele. Se a paciente que abriu com \"quanto custa?\" responde a sua pergunta com uma mensagem mais longa contando o que está incomodando, a abertura acabou. Ela abriu.",
+          "problema": "pancada-fabricada",
+          "motivo": "Aprovo o \"Entao,\" de abertura (terceiro do capitulo, dentro da dose para 1.121 palavras) e o corte da virgula antes de \"contando\", que ali nao gera ambiguidade nenhuma. Reprovo matar \"Ela abriu.\": isso nao e a pancada curta fabricada da v2, e o traco da secao 3 do fingerprint, \"repete o miolo da frase sozinho, sem verbo e sem conector\", dose 1 a 2 por capitulo, e a frase seguinte depende dela (\"Agora voce precisa entender o que ela abriu\"). A emenda proposta ainda produz \"a abertura acabou, ela abriu\", virgula ligando duas oracoes independentes num ebook pago."
+        },
+        {
+          "trecho": "Isso é o passo um. Uma mensagem, e o objetivo dela é pequeno.",
+          "novo": "Então, isso aqui é o passo um. Uma mensagem, e o objetivo dela é pequeno.",
+          "problema": "conector-errado",
+          "motivo": "\"Entao\" abrindo o paragrafo logo depois da cena e o lugar tipico dela, e o capitulo tem zero. Mantive o \"isso aqui\", que e oral e inofensivo. Tirei o \", sabe,\": ele cai a menos de 20 palavras do \"ta?\" que ja fecha o mesmo paragrafo, empilhando duas checagens seguidas, e o orcamento de tags do capitulo ja esta gasto em [2], [6], [11] e [12]."
+        },
+        {
+          "trecho": "Eu entendo, porque parece educação.",
+          "novo": "Eu entendo, né, porque parece educação.",
+          "problema": "falta-aposto",
+          "motivo": "Aprovada como esta. \"ne\" no meio do periodo, logo antes do \"porque\", e a colocacao dela (31% fecham, o resto e interno) e nao mexe em uma palavra do argumento. E o melhor lugar do capitulo pra primeira tag: a frase em que ela concorda com o erro da leitora."
+        },
+        {
+          "trecho": "Três coisas, e as três acontecem na mesma mensagem.",
+          "novo": "Três coisas, ó, e as três acontecem na mesma mensagem.",
+          "problema": "falta-aposto",
+          "motivo": "Aprovada como esta. \"o\" apontando pra lista que vem na mesma frase e o uso dela, abre uma secao que comecava chapada e nao toca conteudo. Este e o \"o\" do capitulo, por isso tirei o da edicao [1]."
+        }
+      ]
+    },
+    {
+      "bloco": "04",
+      "itens": [
+        {
+          "trecho": "A paciente passou do passo um. Ela respondeu contando. E aí vem a parte que eu mais vejo dar errado: ela disse rosto flácido, você sabe o que é flacidez, você já tem três protocolos na cabeça, e a próxima mensagem sai explicando bioestimulador. Parece atendimento bom. É a conversa morrendo de novo, só que mais tarde.",
+          "novo": "A paciente passou do passo um. Ela respondeu contando. E aí vem a parte que eu mais vejo dar errado, gente: ela disse rosto flácido, você sabe o que é flacidez, você já tem três protocolos na cabeça e a próxima mensagem já sai explicando bioestimulador, e por fora parece atendimento bom, mas é a conversa morrendo de novo, só que mais tarde.",
+          "problema": "pancada-fabricada",
+          "motivo": "Diagnostico certo: \"Parece atendimento bom. É a conversa morrendo de novo\" é pancada fabricada (dose 0 no v3). Mas a execução tem 3 defeitos. 1) \"antes de você saber onde no rosto ela olha e o que ela vê ali quando fala isso\" antecipa a revelação do parágrafo seguinte (\"num lugar específico, num momento específico\") e queima o \"Porque\" que abre o próximo bloco; a justificativa admite que é repetição do que vem depois, o que é exatamente o problema. 2) \"só que é a conversa morrendo de novo, mais tarde\" quebra o idiomatismo \"só que mais tarde\" e deixa \"mais tarde\" pendurado, e ainda contradiz a própria justificativa, que queria \"só que\" ABRINDO (60% abrem) e aqui ele fica no meio do período. 3) empilha \"gente,\" + \"né\" no mesmo período. Consertado: mantém o vocativo \"gente,\" (1 por capítulo, colado na frase forte), emenda o período com \"e\" (unidade longa, item 2 do v3), some com a pancada e usa \", mas\" que é o padrão dela (só 18% dos \"mas\" abrem, o resto vem depois de vírgula), preservando \"só que mais tarde\" intacto."
+        },
+        {
+          "trecho": "Porque flacidez, pra ela, não é uma palavra da sua apostila. É uma coisa que ela vê no espelho, num lugar específico, num momento específico.",
+          "novo": "Porque flacidez, pra ela, é uma coisa que ela vê no espelho, num lugar específico, num momento específico, e não a palavra que tá na sua apostila.",
+          "problema": "antitese",
+          "motivo": "A ideia é legítima: derruba a balança de dois pratos e deixa a antítese única do bloco ser a da frase seguinte (\"você não sabe o problema dela. Você sabe o nome que ela deu\"), que fica intacta. Dois defeitos na execução. 1) O \"ó\" cai depois de \"espelho\", onde ele parece apontar pro espelho e não pro que vem a seguir; guardei o único \"ó\" do bloco pra edição 12, que é a posição natural (depois de dois pontos, abrindo a demonstração). 2) Trocar \"num lugar específico, num momento específico\" por \"...e num momento...\" mata o assíndeto, que é o par de dois que ela realmente faz. Consertado mantém o assíndeto e a inversão."
+        },
+        {
+          "trecho": "O passo dois é entender o que está acontecendo hoje e que poderia ser diferente. Entender como isso está afetando ela hoje. Clarear o significado das palavras que ela usou, pra chegar no problema que trouxe ela até o WhatsApp. E aprofundar até entender o que faz disso um problema agora.",
+          "novo": "O passo dois é entender o que está acontecendo hoje e que poderia ser diferente, entender como isso está afetando ela hoje, clarear o significado das palavras que ela usou pra chegar no problema que trouxe ela até o WhatsApp e aprofundar até entender o que faz disso um problema agora.",
+          "problema": "falta-frase-longa",
+          "motivo": "Melhor edição do lote e passa limpo. Mesmos quatro verbos, mesma ordem, zero conteúdo mexido, zero tag de oralidade enfiada, e cria a única unidade de 20+ palavras do bloco, que é o item 2 da lista de retorno do v3 (8,4% dela contra 1,2% do livro). A anáfora de 4 degraus que sai é justamente o traço que o v3 mediu como raro nela (6 casos de 3+ degraus em 80 mil palavras). E o \"Repara que é tudo verbo de entender\" do parágrafo seguinte continua funcionando, porque os quatro infinitivos seguem visíveis. Diferente da edição 10, aqui os itens são delimitados por infinitivos distintos, então o período longo continua parseável."
+        },
+        {
+          "trecho": "Repara que é tudo verbo de entender. Nenhum de explicar.",
+          "novo": "Repara que é tudo verbo de entender, nenhum de explicar.",
+          "problema": "antitese",
+          "motivo": "Tirar a pancada de 3 palavras é justo, mas o \"né\" no meio é ruim por dois motivos: a frase seguinte no arquivo já fecha com \"tá?\" (\"E eu não tô dizendo que explicar é errado, tá?\"), então ficariam duas tags de checagem em frases coladas, e \"entender, né, nenhum de explicar\" vira tropeço que embaça a oposição didática. Consertado faz o que a edição queria (a pancada some, vira ressalva dentro do período) sem gastar tag e sem perder clareza."
+        },
+        {
+          "trecho": "Dá pra fazer isso com qualquer palavra que ela trouxer. Olhar cansado, rejuvenescer, natural, bigode chinês, rosto derretendo, pele sem viço, papada. Cada uma dessas tem um significado diferente na cabeça de cada paciente, e o trabalho da gente é descobrir o dela.",
+          "novo": "Dá pra fazer isso com qualquer palavra que ela trouxer. Olhar cansado, rejuvenescer, natural, bigode chinês, rosto derretendo, pele sem viço, papada. Cada uma dessas tem um significado diferente na cabeça de cada paciente e o trabalho da gente é descobrir o dela.",
+          "problema": "falta-frase-longa",
+          "motivo": "A metade boa é tirar a vírgula antes de \"e o trabalho da gente\": vira unidade de 21 palavras num bloco que tem zero de 20+, custo zero. O \"ó\" depois de \"trouxer\" seguido de ponto é que não funciona: \"ó\" aponta pra frente (\"ó: olhar cansado, rejuvenescer...\") e o ponto corta o gesto no meio, deixando ele pendurado no fim da frase. Como o bloco só comporta um \"ó\" e o melhor lugar dele é a edição 12, aqui fica só a emenda."
+        },
+        {
+          "trecho": "Às vezes duas bastam. Quem manda as três de uma vez não está perguntando, está aplicando questionário.",
+          "novo": "Às vezes duas bastam. E quem manda as três de uma vez tá aplicando questionário.",
+          "problema": "antitese",
+          "motivo": "Cortar a metade negativa da antítese está certo, mas a justificativa erra ao dizer que \"na mesma mensagem\" é o que \"de uma vez\" já dizia. Não é: duas linhas acima o texto manda \"Uma por mensagem\", e o :::evite proíbe também \"Fazer muitas perguntas em sequência sem dar tempo de resposta\". Trocar \"de uma vez\" por \"na mesma mensagem\" estreita a regra e passa a liberar as três perguntas em três mensagens seguidas, que é exatamente o que o bloco :::evite veta. Isso é inventar política (critério a). Consertado mantém \"de uma vez\" e entrega a mesma redução de antítese."
+        },
+        {
+          "trecho": "Acho que vale a pena a gente perguntar como ela entende, como ela percebe, o que ela vê. Perguntar como ela se sente presume que ela está incomodada com algo, e isso pode gerar resistência. Prefira perguntar como ela entende.",
+          "novo": "Acho que vale a pena a gente perguntar como ela entende, como ela percebe, o que ela vê, porque perguntar como ela se sente já presume que ela está incomodada com algo, e isso pode gerar resistência, né. Então a gente prefere perguntar como ela entende.",
+          "problema": "conector-errado",
+          "motivo": "Miolo bem embasado: \"Prefira\" é imperativo seco, que o v3 mede como quase inexistente (\"a gente precisa\" 33 contra \"você tem que\" 1), e \"Então a gente prefere\" é a doutrina no sujeito certo com o abridor certo (71% dos \"então\" abrem). O \"porque\" depois de vírgula e o \"né\" fechando o raciocínio também batem. O defeito é o \"e aí\": o próprio fingerprint diz que \"Aí / E aí\" é modo narrativo e que em parágrafo de prescrição é registro errado, e este parágrafo é prescrição pura. Consertado só remove o \"e aí\"; o resto fica."
+        },
+        {
+          "trecho": "O que ela sente está dentro da cena, nas palavras dela. Você não perguntou. Ela contou.",
+          "novo": "O que ela sente tá ali dentro da cena, nas palavras dela, sem você ter perguntado nada.",
+          "problema": "pancada-fabricada",
+          "motivo": "\"Você não perguntou. Ela contou.\" é o caso mais claro de pancada fabricada do bloco (3 + 2 palavras em antítese fechando parágrafo) e o conteúdo sobrevive inteiro em \"sem você ter perguntado nada\". Um defeito só: o \"E\" inicial. O parágrafo JÁ abre com \"E o impacto emocional...\", e o bloco todo já está carregado de \"E\" abrindo frase (\"E até você saber\", \"E eu não tô dizendo\", \"E em nenhuma dessas\", \"E ninguém agenda\", \"E acontece quando\"), acima da faixa de 9 a 11% de capítulo de ensino. Consertado tira o \"E\" e mantém o resto, inclusive o parágrafo deixando de resolver, que é o item 4 do v3."
+        },
+        {
+          "trecho": "Eu sei que o \"mas você é linda\" sai como carinho. Mas a paciente escreveu que o rosto dela está caindo, e você respondeu que ela é linda. Ela leu que você não acreditou nela.",
+          "novo": "Eu sei que o \"mas você é linda\" sai como carinho, tá? Só que a paciente escreveu que o rosto dela está caindo, e você respondeu que ela é linda. Ela leu que você não acreditou nela.",
+          "problema": "conector-errado",
+          "motivo": "A troca de \"Mas\" por \"Só que\" abrindo é a parte certa e bem medida: é virada contra a expectativa que a frase anterior acabou de criar, e é exatamente a divisão de trabalho descrita no v3 (60% dos \"Só que\" abrem; só 18% dos \"mas\"). O \"tá?\" também passa. O que reprovo é a segunda metade: \"e o que ela leu ali foi que você não acreditou nela\" é uma clivada mais longa e mais frouxa que \"Ela leu que você não acreditou nela\", que não é pancada fabricada (7 palavras, frase normal) e é a acusação que arma o fecho \"E ninguém agenda com quem não acreditou\". Diluir ali é perda seca. Consertado faz só o conector e a tag."
+        },
+        {
+          "trecho": "Esse \"exatamente isso\" sai da pergunta que repetiu a palavra dela: você perguntou em que momento ela percebe mais isso que tá caindo perto do queixo, e ela respondeu \"é isso, exatamente\".",
+          "novo": "Esse \"exatamente isso\" sai da pergunta que repetiu a palavra dela: ó, você perguntou em que momento ela percebe mais isso que tá caindo perto do queixo e ela respondeu \"é isso, exatamente\".",
+          "problema": "falta-aposto",
+          "motivo": "Passa limpo, e é a melhor colocação de \"ó\" do lote: depois dos dois pontos, abrindo a demonstração, que é como ela realmente usa (\"ó, você perguntou X e ela respondeu Y\"). A resposta entre aspas fica literal, a pergunta com a palavra da paciente fica literal, sai só a vírgula antes de \"e ela respondeu\", o que gera uma unidade de 21 palavras. Sobe as duas métricas piores do bloco (1 palavra e 20+) sem inventar nada e sem tocar em bloco marcado. Aprovada como está."
+        }
+      ]
+    },
+    {
+      "bloco": "05",
+      "itens": [
+        {
+          "trecho": "Repara: o problema dela não começou hoje. A flacidez tem dois anos. O que mudou foi a tolerância, e alguma coisa mudou a tolerância. O seu trabalho é fazer ela dizer o que foi.",
+          "novo": "Repara: o problema dela não começou hoje. A flacidez tem dois anos, né. O que mudou foi a tolerância, e alguma coisa mudou a tolerância. Então o seu trabalho é fazer ela dizer o que foi.",
+          "problema": "falta-aposto",
+          "motivo": "Aprovado com conserto. O 'né' aqui é legítimo: a leitora ACABOU de ler na cena que ela repara faz dois anos, então a checagem aponta pra informação compartilhada, não é enchimento. 'Então' abrindo a prescrição está literalmente na tabela de conectores (5,16/mil, 71% em abertura) e o bloco tinha zero. O defeito é o que a justificativa nem menciona: trocar 'mudou a tolerância' por 'mudou essa tolerância' quebra o eco exato do substantivo, que é a dobradiça do parágrafo e é traço dela (repetir o miolo sem conector). Conservei a repetição."
+        },
+        {
+          "trecho": "Ninguém cria inconformidade do nada. A paciente percebe, respondendo a sua pergunta, que ela já está inconformada faz tempo, e que só não tinha dito em voz alta. Quem fez a pergunta foi você. Quem se convenceu foi ela.",
+          "novo": "Gente, ninguém cria inconformidade do nada. A paciente percebe, respondendo a sua pergunta, que ela já está inconformada faz tempo, e que só não tinha dito em voz alta. Quem fez a pergunta foi você. Quem se convenceu foi ela.",
+          "problema": "regularidade",
+          "motivo": "Aprovado só pelo 'Gente,'. Esse pedaço é sustentado: dose 1 a 2 por capítulo, sempre colado na frase mais forte, e 'Ninguém cria inconformidade do nada' é a tese. O resto é reprovável e eu tirei. O fingerprint mede espelhamento ZERO em duas formas específicas ('uma X / a outra Y' e 'por um lado / por outro'), não em par de duas frases, e a mesma tabela diz que o que ela faz É par de dois. 'Quem fez a pergunta foi você. Quem se convenceu foi ela.' é a frase que carrega o método inteiro do capítulo; juntar com ', mas' transforma uma constatação dupla em concessiva e apaga a batida. O 'isso' extra também entrou sem justificativa nenhuma."
+        },
+        {
+          "trecho": "Parece que você está dando a ideia de esperar. Mas é o contrário. Porque quando você oferece a espera, ela é obrigada a argumentar contra a espera, e quem argumenta contra esperar está se convencendo de agir.",
+          "novo": "Parece que você está dando a ideia de esperar. Só que é o contrário, porque quando você oferece a espera ela é obrigada a argumentar contra a espera e quem argumenta contra esperar está se convencendo de agir.",
+          "problema": "conector-errado",
+          "motivo": "Aprovado sem ressalva. É o único uso do 'Só que' que a seção 2 descreve com todas as letras: 'quando ela vira contra a expectativa que acabou de criar, abre com Só que'. Esse parágrafo é literalmente isso ('parece perigoso... parece que você está dando a ideia de esperar... é o contrário'), o bloco tinha zero 'Só que' e a dose é 1 a 2 por capítulo. 'Porque' abrindo frase é 11% nela, então voltar pra dentro do período está certo. Nenhum fato sai, ninguém precisa reler pra entender, e a cauda longa entra sem quebrar nada."
+        },
+        {
+          "trecho": "Aí você ainda não tem o motivo.",
+          "novo": "Então você ainda não tem o motivo.",
+          "problema": "conector-errado",
+          "motivo": "Aprovado. Esse está escrito na tabela de conectores em uma linha só: 'Aí / E aí: só no modo narrativo. Em parágrafo de prescrição é registro errado'. O parágrafo é prescrição (termina mandando voltar pro passo dois), não é caso narrado. Troca de uma palavra, nenhuma perda de conteúdo, e com o 'Então' da edição 1 fecham 2 no bloco de ~700 palavras, dentro da dose de 7 a 10 por 2.000."
+        },
+        {
+          "trecho": "Se nem assim vem nada, ou se ela topa esperar, o passo três não aconteceu, e quem está convencida é você.",
+          "novo": "Agora, se nem assim vem nada, ou se ela topa esperar, o passo três não aconteceu, e quem está convencida é você.",
+          "problema": "conector-errado",
+          "motivo": "Aprovado. 'Agora, se' tem 13 ocorrências no corpus e é chamado de virada padrão dela; o bloco tinha zero e este é o ponto exato de virada do parágrafo (funcionou / não funcionou). Acrescenta duas palavras, não remove nada, não inventa nada, e o próprio editor se limitou a um uso pra não estourar a taxa."
+        },
+        {
+          "trecho": "Com paciente, não alivia. Porque quem alivia tira dela o motivo que ela acabou de encontrar. Deixa ela falar até o fim.",
+          "novo": "Com paciente, não alivia, porque quem alivia tira dela o motivo que ela acabou de encontrar. Deixa ela falar até o fim.",
+          "problema": "conector-errado",
+          "motivo": "Aprovado pela metade. O 'porque' voltando pra dentro do período está certo (11% abrem nela) e 'Com paciente, não alivia' continua sendo frase própria, então o contraste amiga/paciente sobrevive. Cortei o 'tá?' final: a justificativa alega 'tá? sozinho é 1,58/mil nela', número que não está no fingerprint e que a própria fonte contradiz (26 ocorrências de 'tá?' no corpus). Com o 'tá?' que já existe na linha 58, seriam 2 em ~700 palavras, cerca de 2,9/mil, muito acima da taxa dela. E amaciar justo 'Deixa ela falar até o fim', que é a instrução mais dura do capítulo, enfraquece a ordem."
+        },
+        {
+          "trecho": "Ela acontece quando a conversa vira interrogatório, quando a sua pergunta seguinte não tem nada a ver com o que ela acabou de responder.",
+          "novo": "Ela acontece quando a conversa vira interrogatório e a sua pergunta seguinte não tem nada a ver com o que ela acabou de responder.",
+          "problema": "falta-frase-longa",
+          "motivo": "Aprovado. É a forma menos destrutiva de comprar a cauda longa que falta (0,9% contra 8,4%): vira uma unidade de 24 palavras sem apagar fato, sem tag falsa e sem desmontar par de frases. A ressalva honesta é que a relação muda de explicativa (o segundo 'quando' redefinia o primeiro) para aditiva, e a justificativa disfarça isso com 'é o mesmo fato'. Mas a frase seguinte reexplica o diagnóstico com exemplo ('você mandou a próxima pergunta do script sem citar o casamento'), então a leitora não perde nada operacional."
+        }
+      ]
+    },
+    {
+      "bloco": "06",
+      "itens": [
+        {
+          "trecho": "Lê a resposta dela de novo. Ela acabou de escrever",
+          "novo": "Então lê a resposta dela de novo. Ela acabou de escrever",
+          "problema": "falta-aposto",
+          "motivo": "O \"Então\" se sustenta: o corpus tem literalmente \"Então lê o que ele tá falando, presta atenção no...\", e o bloco tem 0 \"Então\" contra 5,16/mil dela. O \"ó\" não se sustenta como foi escrito. Recontei no corpus: \", ó\" aparece 52 vezes, não 83, e dessas só 3 estão em posição final de período (\", ó.\"). As 48 dominantes são \", ó,\" apontando pra FRENTE (\", ó, caladinha para\", \", ó, na testa\", \", ó, 18 horas\") e as de abertura são \"Ó, ...\". Aqui o \"ó\" apontaria pra trás, pra cena acima, que é justamente a posição rara dela (6% dos casos), em cima de uma contagem inflada. Somado ao \"Então\", vira dois marcadores numa frase de 9 palavras, a injeção mais densa do lote. Aprovo a metade bem embasada e corto o \"ó\": a cota de unidade de 1 palavra é paga por [1], [2], [3], [6] e [8]."
+        },
+        {
+          "trecho": "Você não apresentou nada ainda. E a paciente já vendeu a consulta pra ela mesma.",
+          "novo": "Você não apresentou nada ainda, gente. E a paciente já vendeu a consulta pra ela mesma.",
+          "problema": "falta-aposto",
+          "motivo": "A justificativa erra a conta e o padrão (\"gente,\" abrindo tem 162 no corpus, não 117, e é o vocativo que ANUNCIA a tese, ou seja vem antes), mas o que foi executado é outro padrão que também existe e está medido: \", gente\" em fim de período aparece 89 vezes (\"Tem que encher o saco da Tamara sempre, gente.\", \"eu sou dentista, não sou vendedora, gente.\"), e a seção 3 do fingerprint pede exatamente aposto de checagem no fim do período com \"gente\". Não inventa fato, não apaga nada, não toca bloco protegido, sem travessão. Fica na frase que arma a virada e a punch line seguinte continua intacta."
+        },
+        {
+          "trecho": "Quando a doutora terminou o diagnóstico eu já tava completamente na emoção, já tinha entendido que aquilo ali resolvia o meu problema. Não precisava ter tido processo de convencimento nenhum depois.",
+          "novo": "Quando a doutora terminou o diagnóstico eu já tava completamente na emoção e já tinha entendido que aquilo ali resolvia o meu problema, e não precisava ter tido processo de convencimento nenhum depois, né?",
+          "problema": "falta-frase-longa",
+          "motivo": "A ideia está certa (o bloco tem 0 unidade de 20+ contra 8,4% dela, e emendar com \"e\" é o traço 2 da lista de retorno), mas a execução cria ambiguidade real de sentido: com dois \"e\" secos, \"e não precisava ter tido processo de convencimento nenhum depois\" passa a poder ser lido como segundo complemento de \"já tinha entendido que\", e a frase deixa de ser afirmação da autora sobre a mecânica da venda pra virar conteúdo do que ela entendeu na salinha. Consertei com uma vírgula antes do segundo \"e\", que devolve a coordenação no nível certo e ainda assim entrega uma unidade de fôlego de 23 palavras (o objetivo declarado). O \"né?\" fica: 210 dos 385 \"né\" dela fecham período, é a posição mais comum, e é o primeiro do bloco."
+        },
+        {
+          "trecho": "Primeiro ela declara, depois você oferece. O caminho contrário é oferecer primeiro e esperar a paciente se encaixar na oferta. Aí a paciente escuta uma consulta genérica e pensa, será que isso é pra mim? Quando ela declara antes",
+          "novo": "Primeiro ela declara, depois você oferece, né? O caminho contrário é oferecer primeiro e esperar a paciente se encaixar na oferta e aí ela escuta uma consulta genérica e pensa, será que isso é pra mim? Agora, se ela declara antes",
+          "problema": "conector-errado",
+          "motivo": "As três mudanças se defendem. \"Agora, se\" é hábito medido (13 ocorrências, virada padrão dela) e substitui um \"Quando\" temporal por cenário condicional, que é a unidade de argumento dela (\"se\" 10,51/mil). Tirar o \"Aí\" da abertura reduz o marcador narrativo num parágrafo de prescrição, e mantê-lo dentro do período é o que segura a troca de sujeito (\"esperar a paciente se encaixar na oferta e aí ela escuta\"); sem ele a coordenação quebra. A emenda gera unidade longa que o bloco não tinha. \"a paciente\" vira \"ela\" com antecedente imediato, sem perda. \"né?\" fecha o raciocínio da tese, que é o modo padrão dela de fechar. Nada inventado, nada apagado, nenhum bloco protegido tocado."
+        },
+        {
+          "trecho": "Ela não responde do zero, ela responde a partir do queixo, do celular, do casamento.",
+          "novo": "Ela responde a partir do queixo, do celular, do casamento.",
+          "problema": "antitese",
+          "motivo": "Corte correto e é a prioridade 3 do fingerprint (antítese de 1,04 pra 0,10 por mil). Não é a tese do capítulo, que é \"primeiro ela declara, depois você oferece\". E o conteúdo do lado negado já está dito na frase imediatamente anterior, literal no arquivo: \"Ele amarra a resposta dela a tudo que ela contou nos passos dois e três\". A tríade \"do queixo, do celular, do casamento\" continua inteira, então a leitora não perde informação nenhuma."
+        },
+        {
+          "trecho": "E quem comete não faz por mal: a intenção é aumentar o valor percebido.",
+          "novo": "E quem comete não faz por mal, sabe? A intenção é aumentar o valor percebido.",
+          "problema": "falta-aposto",
+          "motivo": "Único caso do lote em que a contagem da justificativa bate exata no corpus: \"sabe?\" tem 94 ocorrências em 81.015 palavras (1,16/mil), o que dá aproximadamente 1 num bloco de 675. É tag de checagem, que é 60% das perguntas dela, e substitui dois-pontos de ensaio. Não inventa nada, não apaga nada, sem travessão, fora dos blocos protegidos. A frase continua dizendo a mesma coisa e ganha unidade de 1 palavra, que é o item 1 da lista de retorno."
+        },
+        {
+          "trecho": "Se ela chega no passo quatro e ainda fala em procedimento",
+          "novo": "Então, se ela chega no passo quatro e ainda fala em procedimento",
+          "problema": "conector-errado",
+          "motivo": "Segundo \"Então\" de abertura, bem colocado: a frase anterior dá o motivo e esta tira a consequência, que é o uso dele (71% dos \"então\" dela abrem frase, 5,16/mil). Só corrigi a pontuação contra o corpus: \"Então, se\" aparece 14 vezes e \"Então se\" apenas 3, e no geral \"Então,\" com vírgula é 197 contra 139 sem. Com a vírgula ainda ganha de brinde uma unidade de fôlego de 1 palavra, que é exatamente o que falta no bloco. Com 2 \"Então\" o bloco fica em 2,96/mil, abaixo dos 5,16/mil dela, então não estoura dose."
+        },
+        {
+          "trecho": "E acontece quando a gente mostra que quer entender o que ela está dizendo, e quando a gente ouve mais do que fala. No WhatsApp isso é uma coisa só: a sua mensagem começa pela palavra dela, e no fim do passo",
+          "novo": "E acontece quando a gente mostra que quer entender o que ela está dizendo e quando a gente ouve mais do que fala. No WhatsApp isso é uma coisa só: a sua mensagem começa pela palavra dela e no fim do passo",
+          "problema": "falta-frase-longa",
+          "motivo": "As duas vírgulas a menos são o ganho real e legítimo: entrega unidade de 23 palavras num bloco cujo teto era 18, sem mudar fato nenhum. Cortei o \"né?\". Recontei: dela, 210 \"né\" fecham período (2,59/mil). Com este, o bloco teria 3 \"né\" todos fechando, ou seja 4,44/mil de né final, 1,7 vez a taxa dela, e 100% em posição final contra 54% dela (175 dos \"né\" ficam no meio do período, forma que o bloco não usaria nenhuma vez). Aprovando só [2] e [3], fica 2,96/mil, colado na taxa medida. Este é o mais dispensável dos três: cai no meio da explicação, logo antes de uma frase de definição com dois-pontos, e a edição entrega o objetivo dela sem ele."
+        },
+        {
+          "trecho": "E eu não tô dizendo que argumentar é errado, tá? Tô dizendo que ainda não é a hora.",
+          "novo": "E argumentar não é errado, tá? Só que ainda não é a hora.",
+          "problema": "antitese",
+          "motivo": "Confirmei no corpus: \"tô dizendo\" tem 0 ocorrência em 81.015 palavras (existe 1 \"to dizendo\" sem acento), então a fórmula \"não tô dizendo X, tô dizendo Y\" é mesmo construção de fora. \"Só que\" tem 47 ocorrências com abertura de frase farta (\"Só que é exatamente essa percepção...\", \"Só que ao invés de falar do se cuidar...\"), e o fingerprint define a divisão de trabalho: vira contra a expectativa que acabou de criar, que é exatamente o movimento aqui. Corta a segunda antítese do bloco (prioridade 3) e mantém o \"tá?\" que já era da autora. A troca de \"não tô dizendo que argumentar é errado\" por \"argumentar não é errado\" afirma o que o original já implicava e não contradiz o :::evite, que fala de se qualificar, não de argumentar."
+        },
+        {
+          "trecho": "A vontade de argumentar é o sinal de que a paciente ainda não declarou, e aí o que resolve é mais uma pergunta",
+          "novo": "A vontade de argumentar é o sinal de que a paciente ainda não declarou e aí o que resolve é mais uma pergunta",
+          "problema": "falta-frase-longa",
+          "motivo": "A edição mais limpa do lote: tira uma vírgula, a unidade vai de 14 pra 23 palavras, zero palavra mudada, zero fato mexido, sem travessão, fora dos blocos protegidos. É o traço 2 da lista de retorno (período que se estende e emenda com \"e\") aplicado sem efeito colateral, e o \"e aí\" que ficou no meio do período já era do texto original, não foi acrescentado por esta edição."
+        }
+      ]
+    },
+    {
+      "bloco": "07",
+      "itens": [
+        {
+          "trecho": "Você não está propondo que ela resolva agora. Você está concordando com uma decisão que ela já tomou no passo três, quando disse por que agora. Quem concorda está do lado dela.",
+          "novo": "Você não está propondo que ela resolva agora. Ela já tomou essa decisão no passo três, quando disse por que agora, e o que você faz aqui é concordar. Quem concorda está do lado dela.",
+          "problema": "antitese",
+          "motivo": "APROVADO com conserto. A ideia é boa e o ganho real não é o que a justificativa alega: desmontar o \"Você não está X. Você está Y.\" tira uma antítese disfarçada de duas frases (item 3 da lista de retorno) e devolve a paciente como protagonista em terceira pessoa (18,54 contra 9,45 por mil), que é o que o v3 cobra em \"um capítulo com só eu e você já está fora da voz dela\". Nada é inventado, a máxima final fica de pé e o conteúdo é idêntico.\n\nRessalva na evidência: o \"espelhamento dos dois lados = ZERO\" do v3 foi medido com duas sondas lexicais (\"uma X / a outra Y\" e \"por um lado / por outro\"). Nenhuma delas mede \"Você não está X. Você está Y.\". A edição passa pelo item da antítese, não pelo do espelhamento.\n\nDefeito da execução: o \"ó\". Em pt-BR o \"ó\" posposto é dêitico, aponta pra coisa que vem em seguida (\"é assim, ó\"). Depois de uma negação sobre o que você NÃO está fazendo ele não aponta pra nada e soa colado à força. O bloco já ganha unidade de 1 palavra nas edições [2], [3], [4] e [5]; não precisa forçar mais uma aqui."
+        },
+        {
+          "trecho": "Uma mensagem. É isso o passo cinco. Ele é o mais curto do script, e é onde a tentação de pular etapa tem endereço. Sabe o que a atendente faz? Sai do passo quatro, com a paciente declarada, e vai direto pro horário. Funciona às vezes. Mas fica faltando uma coisa entre o que ela disse e o que você vai oferecer, e essa coisa é a ponte.",
+          "novo": "Uma mensagem. É isso o passo cinco. Ele é o mais curto do script, e é onde a tentação de pular etapa tem endereço. Sabe o que a atendente faz? Sai do passo quatro, com a paciente declarada, e vai direto pro horário e às vezes funciona. Só que entre o que ela disse e o que você vai oferecer fica faltando uma coisa, ó. A ponte.",
+          "problema": "pancada-fabricada",
+          "motivo": "APROVADO só em parte, com dois consertos. O que se salva: (i) \"Mas\" abrindo frase vira \"Só que\", que é literalmente a divisão de trabalho do v3 (Só que 60% abrem, mas só 18%) e aqui é virada contra a expectativa recém-criada; (ii) \"e essa coisa é a ponte\" vira \"A ponte.\", que é o movimento de repetir o miolo sem verbo e sem conector, dose 1 a 2 por capítulo; (iii) o \"ó\" aqui funciona, porque aponta pro que vem logo depois.\n\nO que reprovo dentro da edição:\n\n1) \"e às vezes funciona e ela marca\" acrescenta desfecho que o texto não afirma. \"Funciona\" nesse parágrafo é vago de propósito. \"Ela marca\" é asserção nova, e o bloco só volta a falar de marcar lá no :::pergunta final, onde é uma PERGUNTA aberta (\"Ela marcou?\"). Afirmar antes queima a pergunta do fim.\n\n2) Tirar as vírgulas de \"Sai do passo quatro, com a paciente declarada, e vai direto pro horário\" briga com a assinatura que o próprio v3 nomeia: \"a frase dela nunca corre limpa até o ponto: é interrompida por aposto curto. No papel isso vira vírgula com aposto\". Foi sacrificar um traço medido pra fabricar a unidade de 20+, sendo que [3] e [5] já entregam duas.\n\n3) \"Uma mensagem, o passo cinco\" não é ganho. \"Uma mensagem. É isso o passo cinco.\" não é a pancada curta fabricada que o v3 proíbe (o maneirismo proibido é frase longa seguida de pancada; aqui são duas aberturas curtas seguidas, sem frase longa antes). A única pancada fabricada de verdade no trecho é \"Funciona às vezes.\", e essa sim eu emendo no período anterior.\n\n4) \"né\" mais \"ó\" no mesmo parágrafo de abertura, somados ao \"né\" de [3] e ao de [4], levaria o bloco a 6,4 \"né\" por mil contra os 4,74 dela. Tiro este."
+        },
+        {
+          "trecho": "O tempo ela te contou quando você perguntou por que agora, e o script chama esse pedaço de tempo informado, porque é o tempo que ela mesma te deu.",
+          "novo": "O tempo ela te contou lá no passo três quando você perguntou por que agora e o script chama esse pedaço de tempo informado porque é o tempo que ela mesma te deu, né.",
+          "problema": "falta-frase-longa",
+          "motivo": "APROVADO como está. Conferi item por item.\n\n\"lá no passo três\" não é fato novo: o mesmo parágrafo, mais adiante, já diz \"uma decisão que ela já tomou no passo três, quando disse por que agora\". A reescrita só antecipa uma referência que o texto já faz.\n\nContei o período: 33 palavras sem vírgula interna, entrega a unidade de 20+ que o bloco não tinha (item 2 da lista de retorno, o livro tem 1,2% contra 8,4% dela). Nada é apagado, o conteúdo é palavra por palavra o mesmo mais a referência.\n\nO \"porque\" continua dentro do período, como os 89% dos \"porque\" dela. O \"né\" fechando está dentro dos 31% medidos e é o primeiro do bloco.\n\nAceito o pequeno tropeço de leitura em \"por que agora e o script chama\": a fricção é justamente o que o v3 chama de período que se atropela e emenda com \"e\", e recolocar a vírgula mataria o único motivo da edição existir."
+        },
+        {
+          "trecho": "A transição funciona porque é curta. Se depois do \"não tem por que deixar mais para depois\" você emenda um parágrafo sobre bioestimulador, a ponte caiu.",
+          "novo": "A transição funciona porque é curta, né. Agora, se depois do \"não tem por que deixar mais para depois\" você emenda um parágrafo sobre bioestimulador, a ponte caiu.",
+          "problema": "conector-errado",
+          "motivo": "APROVADO como está. É a edição mais bem embasada do lote.\n\n\"Agora, se\" está na tabela do v3 como hábito medido (13 ocorrências, \"é a virada padrão dela\"), e o lugar está certo: a frase anterior afirma que a transição funciona por ser curta, e esta vira contra exatamente essa afirmação. Não é \"Agora, se\" enfiado em qualquer condicional.\n\nA autolimitação a uma ocorrência no bloco é correta: 0,16 por mil no corpus não aguenta duas em 470 palavras.\n\nO \"né\" fechando \"funciona porque é curta\" é o segundo do bloco depois do meu corte em [2], o que deixa o bloco em 2 \"né\" por 470 palavras, ou 4,3 por mil, contra os 4,74 dela. Dose certa.\n\nNada inventado, nada apagado, a citação entre aspas do script fica intacta."
+        },
+        {
+          "trecho": "Esse é o único passo do script em que o \"quando avançar\" não tem sinal pra observar. Você manda a transição e, na mesma mensagem ou na seguinte, apresenta. A paciente não precisa responder nada entre uma e outra. Se você esperar a resposta, você abre espaço pra ela pensar, e o passo três já tinha fechado esse espaço.",
+          "novo": "Esse é o único passo do script em que o \"quando avançar\" não tem sinal pra observar. Você manda a transição e, na mesma mensagem ou na seguinte, apresenta. A paciente não precisa responder nada entre uma e outra, tá. Se você esperar a resposta você abre espaço pra ela pensar e o passo três já tinha fechado esse espaço.",
+          "problema": "regularidade",
+          "motivo": "APROVADO com um corte. O diagnóstico está certo: quatro períodos de tamanho quase igual fechando com laço causal é exatamente a regularidade que os leitores cegos chamam de \"ritmo de copy calibrado\", e emendar o último período entrega uma unidade longa sem inventar nada.\n\nCorto o \"de novo\". A justificativa diz que não é fato novo porque reabrir espaço fechado implica pensar outra vez, mas isso é inferência do revisor, não do texto: \"abre espaço pra ela pensar\" é o que a autora escreveu, e \"pensar de novo\" carrega a suposição de que já houve um episódio anterior de hesitação, que o bloco não conta. E o melhor: é grátis cortar. Sem o \"de novo\" o período ainda tem 20 palavras e continua sendo unidade de 20+, que era o único objetivo declarado.\n\nO \"tá\" fica aqui, e só aqui, porque vem depois de instrução (\"não precisa responder nada entre uma e outra\"), que é o lugar natural da tag de checagem dela."
+        }
+      ]
+    },
+    {
+      "bloco": "08",
+      "itens": [
+        {
+          "trecho": "Isso é a apresentação inteira. Uma frase, colada na transição, e ela tem exatamente duas coisas dentro: o problema, com a palavra dela, e o sentimento, com a palavra dela. Não tem o nome do procedimento, nem o que a doutora vai fazer, nem quanto tempo dura a consulta.",
+          "novo": "Então, isso aí é a apresentação inteira. Uma frase, colada na transição, e ela tem exatamente duas coisas dentro: o problema, com a palavra dela, e o sentimento, com a palavra dela. Não tem o nome do procedimento e não tem o que a doutora vai fazer e não tem quanto tempo dura a consulta, né.",
+          "problema": "falta-aposto",
+          "motivo": "Ideia certa, execução com um tique a mais. O trecho existe literal, nada é inventado, nada some. 'Então' na abertura e 'né' no fecho estão dentro da taxa dela (382 'né' = 4,72/mil no corpus). O 'ó' sai: no corpus são 81 casos = 1,0/mil, e 30 deles vêm grudados em dêitico ('assim, ó', 'aqui, ó', 'tipo, ó'), apontando pra coisa visível na tela ou no corpo; aqui não há o que apontar, e o conjunto das 9 edições enfiava 5 'ó' em 540 palavras (9x a taxa dela). Também registro que a justificativa erra: 'não tem X e não tem Y e não tem Z' não desmonta a anáfora, repete o degrau três vezes de forma MAIS explícita que o 'nem... nem'. Mas o ganho real é outro e é legítimo: vira unidade de fôlego de 23 palavras, e o livro tem 1,2% de unidades 20+ contra 8,59% dela (medido)."
+        },
+        {
+          "trecho": "Eu sei que dá vontade de encher. É o momento em que a atendente sente que finalmente pode falar, depois de quatro passos perguntando e um só concordando. E é por isso que a apresentação é curta: quem construiu o valor da consulta foi ela, nos cinco passos anteriores. Você só devolve.",
+          "novo": "Eu sei que dá vontade de encher, né. É o momento em que a atendente sente que finalmente pode falar, depois de quatro passos perguntando e um só concordando. E é por isso que a apresentação é curta, gente: quem construiu o valor da consulta foi ela, nos cinco passos anteriores, e você só devolve.",
+          "problema": "pancada-fabricada",
+          "motivo": "Passa inteira. 'Você só devolve.' é pancada de 3 palavras fechando parágrafo redondo, que é exatamente a dose 0 do v3 e o item 4 ('parar de resolver todo parágrafo'); emendar com 'e' resolve sem perder uma sílaba de conteúdo. O vocativo no meio do período é padrão medido: 65 casos de '..., gente, ...' dentro da frase, mais 39 abrindo. O 'né' fechando frase também (31% dos dela fecham). Nenhum fato novo, nenhum corte, sem travessão, não toca bloco protegido."
+        },
+        {
+          "trecho": "Ela quer resolver o queixo antes do casamento. É isso que você vende. Se você aproveitar pra falar do bioestimulador, do protocolo de pele, do pacote de manutenção, você está vendendo o que ela ainda não quer, e cada item a mais é um motivo a mais pra ela pensar.",
+          "novo": "Ela quer resolver o queixo antes do casamento, e é isso que você vende. Agora, se a gente aproveita pra falar do bioestimulador, do protocolo de pele, do pacote de manutenção, a gente está vendendo o que ela ainda não quer e cada item a mais é um motivo a mais pra ela pensar, tá.",
+          "problema": "pancada-fabricada",
+          "motivo": "Aprovo sem retoque. 'Agora, se' é hábito confirmado (21 ocorrências no corpus) e o giro de 'você' pra 'a gente' na hora de apontar o erro é a doutrina medida ('a gente precisa' 33 contra 'você tem que' 1) e o jeito dela de se incluir na falha antes de corrigir. Nada foi inventado nem cortado: 'É isso que você vende.' vira o rabo do período anterior. E o fecho sem a vírgula dá unidade de 22 palavras, que é o buraco número um do livro (1,2% contra 8,59% dela). O 'tá' fica aqui porque é o único da leva depois do meu corte na edição 7."
+        },
+        {
+          "trecho": "E a duração: quando você diz que a consulta dura uma hora, você deu pra ela uma medida pra comparar com o preço. Sem a duração, a consulta vale o problema resolvido. Com a duração, vale uma hora.",
+          "novo": "E a duração: quando você diz que a consulta dura uma hora, você deu pra ela uma medida pra comparar com o preço e a consulta deixa de valer o problema resolvido e passa a valer uma hora.",
+          "problema": "antitese",
+          "motivo": "Ideia defensável, execução perigosa. Duas coisas reprovariam como veio: o 'ó' antes de dois-pontos (zero ocorrências no corpus, e fora do padrão dêitico) e, principalmente, a perda da linha que ENSINA. 'Sem a duração, a consulta vale o problema resolvido' é o mecanismo do capítulo, e trocar isso por 'passa a valer uma hora na cabeça dela' entrega metade. Também anoto que a base da acusação é frouxa: o v3 mediu zero em duas fórmulas específicas ('uma X / a outra Y', 'por um lado / por outro'), e 'Sem X / Com X' não é nenhuma das duas. O que sobra de bom é dissolver o par de frases curtas em espelho. Minha versão faz isso sem perder nada: mantém os dois estados, corta o 'ó' e ainda entrega unidade de fôlego de 26 palavras."
+        },
+        {
+          "trecho": "Repara que as três nascem de excesso. Porque a gente apresentou mais solução do que ela pediu, e solução que não resolve o problema dela. E porque a gente qualificou demais a consulta e encheu a paciente de informação que não serve pra ela.",
+          "novo": "Repara que as três nascem de excesso, né, porque a gente apresentou mais solução do que ela pediu e solução que não resolve o problema dela e porque a gente qualificou demais a consulta e encheu a paciente de informação que não serve pra ela.",
+          "problema": "conector-errado",
+          "motivo": "A melhor da leva, e a única em que eu recontei o corpus e a evidência ficou mais forte do que a justificativa dizia: 'Porque' abrindo frase aparece 1 vez em 81.015 palavras, contra 178 ', porque' dentro do período. Os dois 'Porque'/'E porque' do original eram, de longe, o traço mais fora da voz dela no capítulo. Cheguei a suspeitar que 37 palavras num fôlego só fosse estourar o teto dela, então medi: 8,59% das unidades dela têm 20+ palavras e 1,77% têm 35+ (179 casos reais). Cabe. Nenhuma palavra de conteúdo mudou, o 'né' no meio está na taxa, sem travessão, sem bloco protegido. Vai como está."
+        },
+        {
+          "trecho": "A leitura positiva é uma frase só: é exatamente isso que eu estou buscando. E acontece quando você apresenta a solução certa pro problema que ela trouxe, e quando você usa as palavras dela pra referenciar o problema durante a apresentação.",
+          "novo": "A leitura positiva é uma frase só: é exatamente isso que eu estou buscando. E acontece quando você apresenta a solução certa pro problema que ela trouxe e quando você usa as palavras dela pra referenciar o problema durante a apresentação.",
+          "problema": "falta-frase-longa",
+          "motivo": "O miolo da edição é bom e o enfeite é ruim. Tirar a vírgula antes do segundo 'quando' entrega unidade de 27 palavras sem mexer em uma palavra de conteúdo, e isso ataca o buraco medido do livro. Mas o 'E' na abertura colide com o 'E acontece quando' da frase seguinte (dois 'E' colados, que o original evitava) e ainda quebra o paralelo deliberado com 'A leitura negativa tem três frases', que espelha o NEG/POS do gráfico logo acima. E o 'ó' antes de dois-pontos de novo: zero ocorrências no corpus. Fico só com o ganho de ritmo."
+        },
+        {
+          "trecho": "ela comprou a consulta. E o que você responde? Não é a explicação. A resposta pronta pra essa pergunta no meio da conversa está no capítulo 11:",
+          "novo": "ela comprou a consulta. Então a resposta pronta pra essa pergunta no meio da conversa, que não é sair explicando na hora, está no capítulo 11:",
+          "problema": "antitese",
+          "motivo": "Aprovo com um corte de dose. O acerto é real: 'E o que você responde?' é pergunta retórica pra leitora, e 60% das perguntas dela são tag de checagem; e 'Não é a explicação.' é metade de antítese servida como pancada de 4 palavras. Virar aposto dentro do período é o padrão medido ('a frase dela nunca corre limpa até o ponto'). Confirmei que não há invenção: 'não é sair explicando na hora' é paráfrase fiel, porque o próprio script do capítulo 11 adia a explicação atrás de uma pergunta, e o aviso continua na página. O que corto é o 'tá': com o da edição 2, seriam 2 em 540 palavras = 3,7/mil, contra 1,58/mil medidos (128 ', tá.' em 81 mil palavras). Um por capítulo basta, e o valor desta edição está na reestruturação, não no tique."
+        },
+        {
+          "trecho": "Ela termina em agenda. A pergunta dela é a porta do passo sete. Aí vem o passo sete.",
+          "novo": "E ela termina em agenda, e a pergunta dela já é a porta do passo sete.",
+          "problema": "regularidade",
+          "motivo": "O corte se sustenta: 'Aí vem o passo sete.' só repete 'a pergunta dela é a porta do passo sete', e 'Aí' abrindo é registro narrativo, com 4 ocorrências em 81 mil palavras deste corpus de ensino. Fundir as três frases em fila (4, 9 e 5 palavras) tira a regularidade que os leitores cegos leem como máquina, e nada que a leitora precise sai da página. Só o 'ó' cai, pelo mesmo motivo das edições 3, 4 e 6: taxa 9x acima da dela e sem o dêitico que sempre o acompanha na fala. Sem ele o período fica com a emenda em 'e', que é o traço que a gente quer mesmo."
+        }
+      ]
+    },
+    {
+      "bloco": "09",
+      "itens": [
+        {
+          "trecho": "A leitura positiva é: estou tomando a melhor decisão. E acontece quando, ao longo da conversa, ficou claro qual era o problema, como ele mexe com ela e por que é agora e não depois. E quando a consulta apareceu como a resposta pra isso. Essa lista, ponto importante, é o script inteiro. O fechamento não gera essa leitura. Ele colhe.",
+          "novo": "A leitura positiva é: estou tomando a melhor decisão. E acontece quando, ao longo da conversa, ficou claro qual era o problema, como ele mexe com ela e por que é agora e não depois. E quando a consulta apareceu como a resposta pra isso. Essa lista, ponto importante, é o script inteiro, gente. O fechamento colhe o que os seis passos deixaram pronto.",
+          "problema": "antitese",
+          "motivo": "Trecho literal (linha 88). A tese já aparece em \"o fechamento não convence ninguém, ele só organiza\" (linha 27), então \"O fechamento não gera essa leitura. Ele colhe.\" é a segunda antítese pra mesma ideia, e \"Ele colhe.\" é pancada curta fabricada (dose 0 no v3). A reescrita não inventa nada: \"os seis passos\" já está no capítulo (linhas 23 e 27) e \"deixaram pronto\" é reformulação, não fato novo. Nada apagado que a leitora precise. Um \"gente\" só, colado na frase mais forte, dentro da dose de 1 a 2 por capítulo. Sem travessão, fora dos blocos."
+        },
+        {
+          "trecho": "E se ela disser que faz o PIX à noite? A mesma frase, sem mudar o tom, e você não acrescenta nada. O que confirma o horário já está dito dentro dela. Pede uma vez e segue. Se ela empurrar o pagamento pra depois disso, aí já não é fechamento, é objeção, e objeção tem lugar próprio mais pra frente.",
+          "novo": "E se ela disser que faz o PIX à noite? A mesma frase, sem mudar o tom, e você não acrescenta nada, tá. O que confirma o horário já está dito dentro dela. Pede uma vez e segue. Só que, se ela empurrar o pagamento pra depois disso, aí já virou objeção, e objeção tem lugar próprio mais pra frente.",
+          "problema": "antitese",
+          "motivo": "Trecho literal (linha 71). Aqui a antítese é a forma pura mesmo (\"aí já não é fechamento, é objeção\") e a dose do v3 é no máximo 1 por capítulo, que a linha 27 já ocupa. \"aí já virou objeção\" mantém a consequência inteira e o encaminhamento pro capítulo de objeção. \"Só que\" abrindo está no uso certo definido na seção 2: ela vira contra a expectativa que acabou de criar (\"Pede uma vez e segue\"), e a dose é 1 a 2 por capítulo com o bloco em zero. Um \"tá\" só, em frase de prescrição, que é onde a tag de checagem dela mora. Nenhum fato, número ou frase de script inventado; blocos :::frase intactos; sem travessão."
+        },
+        {
+          "trecho": "Um horário só. E o bastão continua com você: você ofereceu, ela reagiu.",
+          "novo": "Um horário só. E o bastão continua com você, ó: você ofereceu, ela reagiu.",
+          "problema": "falta-aposto",
+          "motivo": "Trecho literal (linha 43). Zero mudança de conteúdo: entra só a quebra de checagem, que é a recomendação nº 1 do v3 (subir unidade de 1 palavra de 7,4% pra perto de 20%). \"Um horário só.\" fica de pé, e ela é a repetição do miolo sem verbo e sem conector que o fingerprint credita a ela (dose 1 a 2 por capítulo), não pancada fabricada. O \"ó\" antes dos dois-pontos funciona como \"olha:\" e é fala dela. Sem invenção, sem travessão, fora dos blocos. Único porém: essa mesma construção \"X, ó:\" não pode se repetir no capítulo — por isso tirei o \"ó\" da edição 5."
+        },
+        {
+          "trecho": "Primeiro ela diz que segue. Só depois você vai olhar a agenda.",
+          "novo": "Primeiro ela diz que segue, tá. Só depois você vai olhar a agenda.",
+          "problema": "falta-aposto",
+          "motivo": "Trecho literal (linha 53). Uma tag só, em cima de uma instrução (\"primeiro ela diz que segue\"), que é exatamente o lugar do \"tá\" no corpus (\"tá?\" 26, tags somadas 4,60 por mil, modo padrão de fechar raciocínio). Nenhuma palavra de conteúdo sai ou entra, a ordem da prescrição continua idêntica e o :::frase acima fica intacto. É a edição de menor risco do lote."
+        },
+        {
+          "trecho": "Esse é o passo sete. E um dos dois erros que o framework manda evitar aqui é perguntar quando a paciente pode, em vez de oferecer um horário. E quem pergunta quando a paciente pode passa o controle da conversa pra ela: olhar a agenda, olhar a semana, e voltar depois. Ou não voltar.",
+          "novo": "Então, esse é o passo sete. E um dos dois erros que o framework manda evitar aqui é perguntar quando a paciente pode, em vez de oferecer um horário. E quem pergunta quando a paciente pode passa o controle da conversa pra ela: olhar a agenda, olhar a semana, voltar depois, ou não voltar.",
+          "problema": "pancada-fabricada",
+          "motivo": "Trecho literal (linha 23). \"Ou não voltar.\" é fragmento de 3 palavras depois de período longo, que é a pancada curta fabricada de dose 0 no v3; emendada na enumeração diz a mesma coisa e vira o atropelo dela. \"Então,\" abrindo está dentro da dose (6 a 8 aberturas por capítulo, bloco em zero). Nada inventado, nada apagado. Corrigi um ponto: o \"ó\" antes dos dois-pontos repete a construção idêntica que já entra na edição 3, e a mesma quebra duas vezes no mesmo capítulo vira tique de máquina, que é o defeito que o v3 está tentando consertar. Fica só a mudança estrutural."
+        },
+        {
+          "trecho": "E se ela só disser que quinta não dá, sem propor nada? Você oferece o seguinte, do mesmo jeito: o próximo horário livre, e o mesmo \"como fica para você?\". O erro é perguntar antes de oferecer. Mas depois de oferecer, pode perguntar, porque aí ela já viu que a agenda anda.",
+          "novo": "Agora, se ela só disser que quinta não dá, sem propor nada, você oferece o seguinte, do mesmo jeito: o próximo horário livre, e o mesmo \"como fica para você?\". O erro é perguntar antes de oferecer, mas depois de oferecer, pode perguntar, porque aí ela já viu que a agenda anda.",
+          "problema": "conector-errado",
+          "motivo": "Trecho literal (linha 45). As duas trocas de conector estão ancoradas em número do corpus: \"Mas\" só abre 18% das vezes (o resto vem depois de vírgula dentro do período) e \"Agora, se\" é a virada padrão dela, 13 ocorrências, com o bloco em zero. E aqui é virada de verdade: o horário oferecido não colou. Vira também a segunda \"E se ela...?\" do capítulo em cenário condicional com \"se\", que a seção 5 chama de a unidade do argumento dela. Nenhum conteúdo sai, nenhum script muda. Corrigi dois pontos: devolvi a vírgula de \"mas depois de oferecer, pode perguntar\" (é o aposto dela, e sem ela a frase fica corrida) e tirei o \"tá\", porque seria o terceiro do capítulo — três tags iguais no mesmo encaixe viram tique, e o total do lote já fica na taxa dela (~4,6 por mil) sem este."
+        }
+      ]
+    },
+    {
+      "bloco": "10",
+      "itens": [
+        {
+          "trecho": "Então quando eu leio um \"vou pensar",
+          "novo": "Então, quando eu leio um \"vou pensar",
+          "problema": "conector-errado",
+          "motivo": "Trecho confere literal (linha 16). Só uma vírgula: não inventa, não apaga, não toca em bloco protegido, sem travessão. \"Então\" com pausa é o conector de abertura medido (5,16/mil, 71% na abertura). O argumento de que a vírgula cria \"unidade de fôlego de 1 palavra\" é esticado (as unidades de 1 palavra medidas são né/gente/ó/sabe, não conector), mas a mudança em si é inócua e casa com a fala dela. Aprovo pela mudança, não pela justificativa."
+        },
+        {
+          "trecho": "Se você atende WhatsApp de clínica, já leu essa mensagem mais vezes do que gostaria.",
+          "novo": "Se você atende WhatsApp de clínica, já leu essa mensagem mais vezes do que gostaria, sabe?",
+          "problema": "falta-aposto",
+          "motivo": "Ideia certa e, esta sim, bem dosada: o bloco tem ZERO tag de checagem (conferi: os \"né\" do grep eram \"genérica\"), e 1 \"sabe\" em ~850 palavras bate com 0,80/mil. Dois defeitos de execução: (1) \"sabe.\" com ponto, quando a seção 5 mede a tag como pergunta (\"sabe?\" 28; 60% das perguntas dela são tag de checagem); (2) o \"você\" repetido não estava na justificativa e é deriva silenciosa. Corrigi os dois, mantendo a frase original intacta."
+        },
+        {
+          "trecho": "Eu quero te propor outra leitura dessa mensagem. Objeção não é rejeição.",
+          "novo": "Eu quero te propor outra leitura dessa mensagem. Gente, objeção não é rejeição.",
+          "problema": "falta-aposto",
+          "motivo": "Sustentada direto pela seção 5 e pela tabela de doses: \"Gente,\" anuncia a tese, 1 a 2 por capítulo, sempre colado na frase mais forte. O bloco tem 0 e \"Objeção não é rejeição\" é o título do capítulo, ou seja, a frase mais forte mesmo. Uma palavra, zero fato novo, zero perda, prosa (não mexe em :::frase)."
+        },
+        {
+          "trecho": "Ela te contou o medo, o medo tem nome, e é o nome que você pergunta. Quando você diz que ficou artificial, o que exatamente te preocupa? Ela vai te contar como ficou e o que ela não quer de novo. É o passo dois de novo, agora sobre o medo.",
+          "novo": "Ela te contou o medo, né, o medo tem nome, e é o nome que você pergunta. Quando você diz que ficou artificial, o que exatamente te preocupa? E ela vai te contar como ficou e o que ela não quer de novo e você tá de volta no passo dois só que agora em cima do medo dela.",
+          "problema": "falta-frase-longa",
+          "motivo": "Trecho confere. Mesmo conteúdo (\"É o passo dois de novo, agora sobre o medo\" = \"você tá de volta no passo dois só que agora em cima do medo dela\"), nada apagado, nenhum dado novo, sem travessão, fora de bloco protegido. O período que se estende e emenda com \"e\" é literalmente o item 2 da lista de retorno do v3, e o bloco está em 1,6% de unidades 20+ contra 8,4% dela. O \"né\" aqui é o uso majoritário (aposto dentro da frase, 69%), então não leva interrogação. Este e o [8] são os dois \"né\" que cabem na dose."
+        },
+        {
+          "trecho": "Repara no \"de repente\": a paciente estava conversando bem, contou o problema, e na hora do horário apareceu o \"vou ver com meu marido\".",
+          "novo": "Repara no \"de repente\": a paciente estava conversando bem e contou o problema e estava tudo certo e na hora do horário apareceu o \"vou ver com meu marido\".",
+          "problema": "falta-frase-longa",
+          "motivo": "Aprovada, com ressalva registrada. \"estava tudo certo\" só reafirma \"conversando bem\" (a própria justificativa assume isso) e repetir o miolo é padrão medido dela, então não é invenção de fato nem de caso. Nada é apagado, funde três unidades curtas numa de ~25 palavras, que é a faixa quase ausente do bloco. A ressalva: a corrida de \"e\" tira as vírgulas que davam a batida antes da virada; olhei de novo e a virada continua marcada por \"e na hora do horário\", que é onde o \"de repente\" mora. Passa."
+        },
+        {
+          "trecho": "O marido não apareceu do nada. Ele é a cortina.",
+          "novo": "O marido não apareceu do nada, né? Ele é a cortina.",
+          "problema": "falta-aposto",
+          "motivo": "Boa posição: checagem imediatamente antes da máxima copular (\"Ele é a cortina\"), que fica intacta, e a máxima é rara por definição (1 a cada 1.500 palavras) então não pode ser mexida. Único defeito é pontuação: a seção 5 conta a tag como pergunta (\"né?\" 51), não com ponto final. Corrigido só nisso."
+        },
+        {
+          "trecho": "E a cortina esconde quase sempre a mesma coisa: ela ainda não sabe se a consulta resolve o problema dela. Não é o preço, não é o marido, não é a agenda. É que em algum passo anterior ficou raso, e a paciente chegou no fechamento sem estar convencida por ela mesma.",
+          "novo": "E a cortina esconde quase sempre a mesma coisa: ela ainda não sabe se a consulta resolve o problema dela. O preço, o marido e a agenda entram na conversa porque em algum passo anterior ficou raso e a paciente chegou no fechamento sem estar convencida por ela mesma.",
+          "problema": "antitese",
+          "motivo": "A ideia é a de maior retorno do lote e eu concordo com ela: \"Não é o preço, não é o marido, não é a agenda\" acumula antítese (bloco tem 4, dose máxima 1) com anáfora de 3 degraus, que é o traço mais raro do corpus inteiro (6 casos em 80 mil palavras). Mas a execução tem três defeitos: inventa \"e ela foi respondendo tudo direitinho\" (detalhe novo sobre o comportamento da paciente, que é (a)); soma o terceiro \"né\", fora de dose; e escreve \"né:\" antes de dois-pontos, o que não existe em lugar nenhum do fingerprint. O corrigido corta a anáfora, mantém os três substantivos, mantém a causa e mantém o diagnóstico (\"em algum passo anterior ficou raso\" + \"sem estar convencida por ela mesma\"), sem invenção e sem tag, e ainda entrega uma unidade de ~25 palavras."
+        },
+        {
+          "trecho": "Voltar não é inventar resposta nova pra objeção. É refazer a pergunta do passo que ficou raso.",
+          "novo": "Voltar é refazer a pergunta do passo que ficou raso, em vez de inventar resposta nova pra objeção.",
+          "problema": "antitese",
+          "motivo": "Cortar a segunda antítese é legítimo (bloco tem 4, dose é no máximo 1). Mas a versão proposta joga fora \"não é inventar resposta nova pra objeção\", que é o anti-padrão central do capítulo: a atendente precisa ouvir que voltar NÃO é bolar resposta nova, senão ela lê \"refazer a pergunta\" e continua improvisando resposta. Isso é (b). Ainda soma \"tá.\" com ponto, fora de dose e com pontuação errada. O corrigido desmonta o par \"não X. É Y.\" numa frase só, preserva as duas metades e elimina uma unidade média da faixa 6 a 9, que era o ganho métrico pretendido."
+        },
+        {
+          "trecho": "com o preço da clínica ao lado, sem saber o que nenhuma das duas consultas resolve.",
+          "novo": "com o preço da clínica ao lado sem saber o que nenhuma das duas consultas resolve.",
+          "problema": "falta-frase-longa",
+          "motivo": "Trecho confere. Tirar uma vírgula: zero texto novo, zero perda, zero risco de invenção. Conferi a ambiguidade que isso poderia criar (\"a clínica ao lado sem saber\") e não se sustenta, porque o sujeito de \"vai comparar\" domina o período e clínica não sabe nada. O gancho do parágrafo continua na posição final, que já é a enfática. É a unidade 20+ mais barata do lote."
+        },
+        {
+          "trecho": "A conversa continua. Você não escondeu o preço. Você disse que vai passar. Só não passou antes de perguntar.",
+          "novo": "A conversa continua. Você não escondeu o preço, você disse que vai passar. Só que você não passou antes de perguntar.",
+          "problema": "conector-errado",
+          "motivo": "A melhor edição do lote e a única que fecha um buraco que o fingerprint aponta explicitamente como erro da v2: \"Só que\" existe, 0,86/mil, 60% abrindo frase, dose 1 a 2 por capítulo, e a função medida é virar contra a expectativa que a frase anterior acabou de criar. É exatamente o que acontece aqui (\"você disse que vai passar\" → \"só que não passou antes de perguntar\"). Sentido idêntico, nada inventado, nada apagado, e a fusão das duas frases curtas com vírgula é o aposto dela, não pancada fabricada."
+        },
+        {
+          "trecho": "No capítulo 11 eu pego uma objeção por vez.",
+          "novo": "Então, no capítulo 11 eu pego uma objeção por vez.",
+          "problema": "conector-errado",
+          "motivo": "Com [9] reprovado, \"Então\" vai de 1 para 2 no bloco, ou seja, ~4,7 por 2.000 palavras, ainda abaixo da dose medida (7 a 10, sendo 6 a 8 em abertura). Pendura o fecho na frase anterior, que é como ela liga (33,4% das frases abrem com conector, e a fala dela nunca parte do zero). Não encosta no :::pergunta logo abaixo nem na máxima \"Objeção se responde com pergunta\"."
+        }
+      ]
+    },
+    {
+      "bloco": "11",
+      "itens": [
+        {
+          "trecho": "As frases de continuar são modelo, não roteiro, do mesmo jeito que eu falei no capítulo 2.",
+          "novo": "As frases de continuar são modelo, tá, do mesmo jeito que eu falei no capítulo 2.",
+          "problema": "antitese",
+          "motivo": "Trecho existe literal. Corta antitese local sem perder fato: a adaptacao continua inteira na frase seguinte (\"Copia a frase, troca pelas palavras que ela mesma usou\"), e \"modelo\" sozinho ja carrega o aviso. O \"ta\" cai exatamente no lugar onde estava \"nao roteiro\", entao o folego nao muda. Nada inventado, nada de travessao, nao mexe em bloco."
+        },
+        {
+          "trecho": "Eu organizei por família de objeção, e em cada uma você vai ver a mensagem que a paciente manda e o que a gente responde se quiser continuar a conversa. Nas que mais aparecem eu mostro também o que a gente responde se quiser perder a paciente, e por que perde.",
+          "novo": "Eu organizei por família de objeção, e em cada uma você vai ver a mensagem que a paciente manda e o que a gente responde se quiser continuar a conversa, e nas que mais aparecem eu mostro também o que a gente responde se quiser perder a paciente, e por que perde.",
+          "problema": "falta-frase-longa",
+          "motivo": "Trecho literal. Conteudo 100% preservado, so troca ponto por \", e\". Ressalva ao POR QUE: juntar periodo NAO mexe no CV de folego (unidade e corte em virgula, e virgula/ponto contam igual) — o ganho real e de sentenca, nao de folego. Ainda assim o resultado le como fala dela e nao piora nada, entao passa."
+        },
+        {
+          "trecho": "Repara que toda resposta que continua a conversa devolve uma pergunta.",
+          "novo": "Gente, repara que toda resposta que continua a conversa devolve uma pergunta.",
+          "problema": "falta-aposto",
+          "motivo": "Trecho literal. Uso de manual do \"Gente,\": vocativo colado na frase mais forte do bloco (a tese das respostas que devolvem pergunta). Uma palavra, zero conteudo perdido, zero inventado."
+        },
+        {
+          "trecho": "Por que não funciona: a forma mais fácil de encerrar uma conversa é com uma resposta.",
+          "novo": "Por que não funciona: a forma mais fácil de encerrar uma conversa é com uma resposta, né.",
+          "problema": "falta-aposto",
+          "motivo": "Trecho literal. \"ne\" fechando maxima copular e o padrao medido (31% fecham, tag e o modo padrao de fechar raciocinio). Mantive este como o UNICO \"ne\" em posicao final do capitulo — os outros tres propostos ([9], [15]/[18]) foram cortados justamente pra nao virar formula de fim de bloco."
+        },
+        {
+          "trecho": "Por que não funciona: responder com um número tira o foco do valor real e coloca a paciente numa comparação de preços. Ela vai comparar com base em algo que ela não entende, e provavelmente vai embora sem nem saber se esse procedimento seria indicado no caso dela.",
+          "novo": "Por que não funciona: responder com um número tira o foco do valor real e coloca a paciente numa comparação de preços, e ela vai comparar com base em algo que ela não entende e provavelmente vai embora sem nem saber se esse procedimento seria indicado no caso dela.",
+          "problema": "falta-frase-longa",
+          "motivo": "APROVADO COM CONSERTO. A ideia (emendar com \"e\" em vez de recomecar em frase nova) e boa, a execucao adultera o argumento: \"comparacao de precos que ela nao entende\" diz que ela nao entende a comparacao, quando o texto diz que ela compara COM BASE em algo que nao entende — e a base da comparacao, nao a comparacao. Isso e perda de conteudo. O \"o\" no fim tambem sai: fecha mal uma frase abstrata sobre a paciente ir embora (o \"o\" dela e deitico, aponta pra coisa) e seria a 2a de 7 tags coladas em \"Por que nao funciona\"."
+        },
+        {
+          "trecho": "Essa é quase a mesma frase de cima, e é de propósito. Não muda a frase, muda a pergunta que ela fez. Consulta ou procedimento, o movimento é o mesmo: você diz que passa, e pergunta antes.",
+          "novo": "Essa é quase a mesma frase de cima, e é de propósito. O que muda é a pergunta que ela fez. Então, consulta ou procedimento, o movimento é o mesmo: você diz que passa, e pergunta antes.",
+          "problema": "antitese",
+          "motivo": "Trecho literal. Corta a antitese paralela sem perder fato (\"Essa e quase a mesma frase de cima\" ja disse que a frase nao muda) e o \"Entao,\" abrindo e o conector n1 dela (5,16/mil, 71% em abertura) num bloco que so tinha 1. Nada inventado."
+        },
+        {
+          "trecho": "Por que não funciona: se ela ainda não viu valor suficiente, oferecer parcelamento só reforça que o problema é o preço, e não a clareza. O foco precisa voltar pro que ela perde ao adiar.",
+          "novo": "Por que não funciona: se ela ainda não viu valor suficiente, oferecer parcelamento só reforça que o problema é o preço, quando o que falta ali é clareza. O foco precisa voltar pro que ela perde ao adiar.",
+          "problema": "antitese",
+          "motivo": "APROVADO COM CONSERTO. Cortar a terceira antitese esta certo e \"quando o que falta ali e clareza\" preserva o fato. Mas a execucao tira a virgula da condicional anteposta e cria leitura errada: \"se ela ainda nao viu valor suficiente oferecer parcelamento\" le como \"valor suficiente PARA oferecer parcelamento\". Virgula de subordinada anteposta e obrigatoria — em ebook pago isso vira erro, nao estilo. Tambem desfiz a emenda da ultima frase: \"O foco precisa voltar pro que ela perde ao adiar\" e prescricao, e diluir ela dentro do periodo apaga a instrucao. E tirei o \"ne\" pra ficar dentro da dose (1.105 palavras de prosa = ~55% de um capitulo)."
+        },
+        {
+          "trecho": "Essa primeira serve pras duas. A segunda é só pra quem disse caro.",
+          "novo": "Então, essa primeira serve pras duas, tá. A segunda é só pra quem disse caro.",
+          "problema": "falta-aposto",
+          "motivo": "Trecho literal. \"Entao,\" apos bloco de script e movimento dela, e \"ta\" depois de instrucao operacional (qual frase serve pra qual objecao) e checagem legitima. Zero conteudo novo. Segundo e ultimo \"ta\" que aprovei no capitulo."
+        },
+        {
+          "trecho": "Por que não funciona: você acabou de dizer pra ela que a consulta sozinha não vale nada, que ela só vale se virar procedimento no mesmo dia. E é isso que ela escuta. Aí, quando ela não fechar o procedimento, ela também não volta pra consulta.",
+          "novo": "Por que não funciona: você acabou de dizer pra ela que a consulta sozinha não vale nada e que ela só vale se virar procedimento no mesmo dia. E é isso que ela escuta. Aí, quando ela não fechar o procedimento, ela também não volta pra consulta.",
+          "problema": "falta-frase-longa",
+          "motivo": "APROVADO COM CONSERTO. A parte boa e real: virar \"nao vale nada, que ela so vale\" em \"nao vale nada E que ela so vale\" cria a unidade de ~28 palavras sem virgula, que e o traco que mais falta. O resto e dano: \"E e isso que ela escuta.\" e a batida em que a leitora entende o estrago, e dissolvida no meio de uma corrente de tres \"e\" ela some; tirar o \"Ai,\" ainda apaga um conector narrativo dela (3,60/mil). Mais o \"ta\" no fim, que seria a 4a tag em bloco de \"Por que nao funciona\"."
+        },
+        {
+          "trecho": "O que incomoda a paciente não é pagar, é pagar por algo que ela ainda não entendeu o valor.",
+          "novo": "Gente, o que incomoda a paciente não é pagar, é pagar por algo que ela ainda não entendeu o valor.",
+          "problema": "falta-aposto",
+          "motivo": "Trecho literal. E a antitese que fica (tese doutrinaria de Preco e Consulta paga), e o \"Gente,\" cai colado nela. Segundo e ultimo do capitulo, dentro da dose de 1 a 2. Uma palavra, nada inventado."
+        },
+        {
+          "trecho": "Essa é pra quem agenda. Se é você mesma que responde, a lógica não muda: você não passa valor de um caso que ainda não olhou.",
+          "novo": "Essa é pra quem agenda. Agora, se é você mesma que responde, a lógica não muda: você não passa valor de um caso que ainda não olhou.",
+          "problema": "conector-errado",
+          "motivo": "APROVADO COM CONSERTO. \"Agora, se\" esta certo, e virada de cenario legitima (quem agenda vs voce mesma) e habito medido (13 ocorrencias). Mas tirar a virgula produz \"se e voce mesma que responde a logica nao muda\" — le \"responde A LOGICA\". Isso e defeito, nao ritmo. E trocar os dois-pontos por \", o,\" perde o sinal de que o que vem depois e a explicacao da regra."
+        },
+        {
+          "trecho": "Por que não funciona: essa frase encerra a conversa e transfere o controle pra paciente, que provavelmente nunca mais vai voltar. Você perde a chance de entender o que ainda está impedindo a decisão.",
+          "novo": "Por que não funciona: essa frase encerra a conversa e transfere o controle pra paciente, que provavelmente nunca mais vai voltar, né, e você perde a chance de entender o que ainda está impedindo a decisão.",
+          "problema": "falta-frase-longa",
+          "motivo": "APROVADO COM CONSERTO. A emenda com \"e\" e o \"ne\" no meio (posicao rara, 69% dos dela nao fecham) valem. Mas tirar a virgula da relativa transforma explicativa em restritiva: \"a paciente que provavelmente nunca mais vai voltar\" passa a distinguir um tipo de paciente, quando o texto diz que ESSA paciente nao volta. E mudanca de sentido, nao de ritmo. Virgula restaurada, resto mantido."
+        },
+        {
+          "trecho": "Se for no meio do atendimento:",
+          "novo": "Agora, se for no meio do atendimento:",
+          "problema": "conector-errado",
+          "motivo": "Trecho literal. Uso perfeito de \"Agora, se\": a linha anterior e \"Se for no inicio do atendimento:\" e esta e literalmente a virada de cenario. Uma palavra, nada perdido, nada inventado."
+        },
+        {
+          "trecho": "Eu gosto dessa última porque ela recusa a foto sem recusar. Você agradece, e devolve pra ela o trabalho de dizer o que ela vê. É o passo dois de novo.",
+          "novo": "Eu gosto dessa última porque ela recusa a foto sem recusar, e você agradece e devolve pra ela o trabalho de dizer o que ela vê. É o passo dois de novo.",
+          "problema": "falta-frase-longa",
+          "motivo": "APROVADO COM CONSERTO PARCIAL. Emendar as duas primeiras frases com \"e\" e legitimo e gera o periodo longo. O que nao pode e dissolver \"E o passo dois de novo.\" dentro do periodo: e o ultimo paragrafo de prosa do capitulo e essa frase e o callback que amarra o manual inteiro na metodologia — o item 4 da v3 e \"parar de resolver TODO paragrafo\", nao proibir o fecho do capitulo. Tirei tambem o \"o\", que seria a quarta tag do tipo e ainda no ponto mais exposto do texto."
+        }
+      ]
+    },
+    {
+      "bloco": "12",
+      "itens": [
+        {
+          "trecho": "E de vendedora, o que eu vi foi isso. A doutora entendeu o meu problema. Uma outra pessoa vendeu. E no caminho entre as duas, dez minutinhos numa área de espera, eu fui pra casa pensar sem sair da clínica.",
+          "novo": "E de vendedora, o que eu vi foi isso, a doutora entendeu o meu problema e uma outra pessoa vendeu e no caminho entre as duas, dez minutinhos numa área de espera, eu fui pra casa pensar sem sair da clínica.",
+          "problema": "falta-frase-longa",
+          "motivo": "Ideia certa, execução com defeito. Certa: 5, 4 e 6 palavras seguidas são o miolo da regularidade, e deixar o período correr e emendar com \"e\" é o item 2 da lista de retorno do fingerprint. Defeito: jogar \"dez minutinhos numa área de espera\" pro fim gruda os dez minutos em \"fui pra casa pensar sem sair da clínica\", quando o fato é que eles são a espera NO CAMINHO entre as duas salas (capítulo 1: \"Fico numa área de espera, uns dez minutinhos\"). Aposto pendurado no lugar errado vira fato torto. Tirei também o \"ó\": a taxa alegada (0,64 por mil) não existe no fingerprint, que só cita \"ó\" como exemplo de unidade de uma palavra, e o bloco já ganha unidade de 1 palavra nas edições 2 e 4. O corrigido mantém o aposto interrompendo no meio do período, que é o traço medido da §3 (\"a frase dela nunca corre limpa até o ponto: é interrompida por aposto curto\"), e ainda entrega período de 41 palavras atropelado com dois \"e\", contra as três frases picadas de antes."
+        },
+        {
+          "trecho": "é o mesmo ticket médio que fecha lá no final, a taxa de conversão é a mesma, não tem ninguém indo embora pra casa pra pensar. Está tudo certo. Continua desse jeito.",
+          "novo": "é o mesmo ticket médio que fecha lá no final e a taxa de conversão é a mesma, né, e não tem ninguém indo embora pra casa pra pensar. Então está tudo certo, continua desse jeito.",
+          "problema": "regularidade",
+          "motivo": "Passa em tudo. Não corta informação (os três critérios de \"funcionando\" continuam legíveis), não inventa nada, não usa travessão, não toca bloco protegido. Ganha uma unidade de fôlego de 26 palavras num bloco que tinha zero acima de 20, um \"Então\" em abertura (o bloco tinha zero e a dose dela dá 2 a 3 em 597 palavras) e um \"né\" no meio, sendo que o bloco não tinha nenhum. Ressalva ao motivo, não à edição: o parágrafo continua fechando redondo em \"continua desse jeito\", então o ganho alegado do item 4 (\"parar de resolver todo parágrafo\") não acontece. O resto acontece."
+        },
+        {
+          "trecho": "E aqui eu não estou falando que existe um certo ou errado. Mas pelo que eu observo",
+          "novo": "E aqui eu não estou falando que existe um certo ou errado, tá, mas pelo que eu observo",
+          "problema": "conector-errado",
+          "motivo": "Aprovado. É a edição mais bem embasada do lote: só 18% dos \"mas\" dela abrem frase, o resto vem depois de vírgula dentro do período (§2), e puxar pra dentro transforma a concessão em ressalva, que é o uso dela. Não perde palavra, não inventa fato, não mexe em bloco protegido, sem travessão. O \"tá\" é um só em 597 palavras, com precedente escrito no próprio livro (capítulo 1: \"Eu já dou spoiler, tá?\"), e o bloco não tinha nenhuma unidade de checagem de uma palavra."
+        },
+        {
+          "trecho": "Mas o preço, ela precisa ter entendido lá dentro, com quem entendeu o problema dela.",
+          "novo": "Só que o preço, ela precisa ter entendido lá dentro, com quem entendeu o problema dela.",
+          "problema": "conector-errado",
+          "motivo": "Aprovado. Aplica a divisão de trabalho medida na §2: virada contra a expectativa que ela acabou de criar abre com \"Só que\"; ressalva dentro do raciocínio usa \", mas\". A frase anterior concede que o fechamento pode ficar fora da sala, e esta vira contra isso, então é virada. Dose 1 a 2 por capítulo e o bloco tinha zero. Verifiquei o precedente citado: o capítulo 1 tem literalmente \"Só que no WhatsApp não tem salinha nenhuma.\" Nenhuma palavra a mais, nenhuma a menos."
+        },
+        {
+          "trecho": "Se a conversa travar, tem um passo que ficou raso. Eu começaria olhando o dois, o capítulo 4, porque é onde ela conta o problema. Paciente que chega lá na frente ainda falando em procedimento é passo dois raso. Volta lá e refaz",
+          "novo": "Se a conversa travar, tem um passo que ficou raso. Eu começaria olhando o dois, o capítulo 4, porque é onde ela conta o problema, e paciente que chega lá na frente ainda falando em procedimento é passo dois raso. Então volta lá e refaz",
+          "problema": "falta-aposto",
+          "motivo": "Aprovado com corte de excesso. Ficam as duas partes embasadas: a emenda com \"e\" que cria uma unidade maior no trecho mais liso do bloco, e o \"Então\" abrindo a prescrição final (71% dos \"então\" dela estão em abertura, bloco tinha zero). Sai o segundo \"tá\": somado ao \"tá\" da edição 4 dariam dois em 597 palavras, cerca de 3,3 por mil, contra \"tá?\" mais \"tá bom?\" = 40 em 35 mil, cerca de 1,1 por mil dela, e o orçamento de 1,58 por mil citado no motivo não existe no fingerprint. Com um \"né\" (edição 2) e um \"tá\" (edição 4), o bloco fica em duas tags, dentro dos 4,60 por mil dela e sem virar imitação de oralidade."
+        }
+      ]
+    },
+    {
+      "bloco": "C",
+      "itens": [
+        {
+          "trecho": "A paciente que chega por anúncio de paciente modelo é outra conversa, e tem framework próprio. Eu deixo aqui o resumo, porque a dúvida chega direto pra gente:",
+          "novo": "Só que a paciente que chega por anúncio de paciente modelo é outra conversa e tem framework próprio e por isso eu deixo aqui o resumo, né, porque a dúvida chega direto pra gente:",
+          "problema": "falta-frase-longa",
+          "motivo": "Trecho literal confere. Nada some, nada é inventado, não encosta em :::frase e não tem travessão. O \"Só que\" tem lastro (fingerprint seção 2: existe, 60% abrem frase, e o bloco tinha zero) e a virada é legítima, porque o parágrafo anterior acabou de dizer que tudo até ali era a paciente do link da bio. A unidade emendada dá 26 palavras antes da primeira vírgula, que é ganho real contra o 1,2% vs 8,4% de unidades 20+. Um \"né\" só, dentro da dose de um bloco de 473 palavras. O \"por isso... porque\" fica redundante no papel, mas é exatamente a frouxidão de fala que o fingerprint pede, então deixo passar."
+        },
+        {
+          "trecho": "Está procurando uma vaga. E vaga é coisa que fecha. Então o atendimento vira um processo seletivo. Tem gente que faz o 715 inteiro com ela e se frustra muito, porque no final ela questiona o preço mais do que uma paciente normal. E o volume não deixa fazer o framework completo com todo mundo:",
+          "novo": "Está procurando uma vaga, e vaga é coisa que fecha, então o atendimento vira um processo seletivo. Tem gente que faz o 715 inteiro com ela e se frustra muito, porque no final ela questiona o preço mais do que uma paciente normal. E o volume não deixa fazer o framework completo com todo mundo:",
+          "problema": "regularidade",
+          "motivo": "A ideia está certa: quatro frases de 4, 6, 7 e 8 palavras em fila é o pior ponto de regularidade do bloco. A execução quebra três coisas. Primeiro, \"e aí\" em parágrafo de prescrição é registro errado pelo próprio fingerprint (seção 2: \"Aí / E aí: só no modo narrativo. Em parágrafo de prescrição é registro errado\"). Segundo, \"a pessoa se frustra\" troca o sujeito para o termo que o livro reserva ao LEAD (\"a pessoa\", 159 ocorrências, seção 4), então a leitora lê que quem se frustra é a paciente, quando quem se frustra é a clínica. Terceiro, empilha \"né\" e \"gente\" num parágrafo curto e ainda enfraquece \"se frustra muito\" para \"se frustra\". O conserto pega só o ganho seguro: junta as três primeiras num período só, sem tirar nenhuma palavra e sem tag nova."
+        },
+        {
+          "trecho": "E aqui entram as informações da vaga. A data disponível. O valor normal e o valor como modelo. A autorização de uso de imagem, pra antes e depois e pra anúncio. E a reserva pra travar a vaga.",
+          "novo": "E aqui entram as informações da vaga, ó: a data disponível, o valor normal e o valor como modelo, a autorização de uso de imagem pra antes e depois e pra anúncio, e a reserva pra travar a vaga.",
+          "problema": "regularidade",
+          "motivo": "A melhor do lote. Quatro frases nominais em fila é lista de slide, não fala dela, e a fonte confirma o despejo num fôlego só: \"aqui a gente pode colocar a data disponível. o valor normal, o valor como modelo... Permitir o uso de imagem para antes, depois e anúncios... E a reserva para travar a vaga.\" Os cinco itens continuam todos lá, na mesma ordem, nada inventado, nada apagado; a leitora ainda enxerga a enumeração porque o dois-pontos e as vírgulas seguram. O \"ó\" está na lista literal de unidades de checagem de 1 palavra do fingerprint (seção 3) e cai onde faz sentido, anunciando lista. Tirar a vírgula de \"uso de imagem\" foi acerto, senão a lista quebrava."
+        },
+        {
+          "trecho": "Tem dado certo também. O que a gente pede é que você teste os dois jeitos e traga pra gente, nos treinamentos, o que está funcionando na sua mão.",
+          "novo": "Tem dado certo também. Então o que a gente pede é que você teste os dois jeitos e traga pra gente, nos treinamentos, o que está funcionando na sua mão e o que não está funcionando também.",
+          "problema": "falta-frase-longa",
+          "motivo": "Ideia certa e o rabo tem fonte de verdade: \"fala pra gente o que você tá sentindo, se tá conseguindo gerar resultado, se não tá\", então pedir também o que não está funcionando não é invenção e ainda é útil pra leitora. Duas coisas na execução estão erradas. \"Teste os dois jeitos e faça do jeito completo e faça do jeito mais direto\" diz a mesma coisa duas vezes, porque no manuscrito os dois jeitos já foram nomeados no parágrafo de cima (o meio-termo e a clínica que manda direto); na fonte a enumeração existe porque lá não há o \"os dois jeitos\". E tirar as vírgulas de \"nos treinamentos\" apaga o aposto que o fingerprint manda preservar, de novo trocando traço medido por contagem de palavras. O conserto mantém o aposto, corta a duplicação, guarda o \"Então\" na abertura (fica o segundo do bloco, dentro da dose) e desfaz o fecho redondo, que era o objetivo."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+07-passo-5-transicao.md · rodada 1 · brutos 27 · confirmados 10 · altas 0 · cego ia 68
+
+[1] tell/media
+  TRECHO: As reticências não são enfeite de texto. No WhatsApp elas fazem a paciente ler com a pausa, como se você estivesse pensando junto. Mantém.
+  DETALHE: Tell 1.1, contraste fácil ("não X, Y"), em cluster: são quatro na mesma página de 446 palavras. Além desta: "A transição não fala da consulta ainda. Ela fala de por que..." (l.22), "Você não está propondo que ela resolva
+  CORRECAO: As reticências são do script e eu acho que fazem diferença. No WhatsApp a paciente lê com a pausa, como se você estivesse pensando junto com ela. Mantém.
+
+[2] tell/media
+  TRECHO: Repara que os três objetivos falam do problema dela.
+  DETALHE: Fôrma "Repara que os N [itens] [têm em comum X]" duas vezes no mesmo capítulo: aqui e em "Repara que os quatro erros são a mesma tentação: encher a mensagem." (l.38). É a escritora apontando pra própria lista e dizendo à
+  CORRECAO: Só tirar a moldura, sem reescrever o resto. L.22: "Os três objetivos falam do problema dela. Nenhum fala da consulta ainda. A transição fala de por que a consulta é o caminho pra essa pessoa, com o que essa pessoa contou." L.38: "Os quatro erros são a mesma tentação: encher a mensagem. A transição funciona porque é curta." A cota de "Repara" no livro fica como sugestão fora deste capítulo.
+
+[3] tell/media
+  TRECHO: Você lembra da última vez que uma paciente disse por que agora, e a sua resposta foi "que bom, deixa eu ver a agenda"? Entre uma coisa e outra faltava essa frase.
+  DETALHE: Tell 1.2, fecho de uma linha que repete o parágrafo. "Entre uma coisa e outra faltava essa frase" é a tese da abertura reescrita ("fica faltando uma coisa entre o que ela disse e o que você vai oferecer"). A pergunta com
+  CORRECAO: Você lembra da última vez que uma paciente disse por que agora, e a sua resposta foi "que bom, deixa eu ver a agenda"? Ela marcou? (Ou simplesmente terminar na primeira pergunta, como A2.)
+
+[4] tell/media
+  TRECHO: Conectar a solução que a gente tem com o problema que ela trouxe. Mostrar que a solução é a resposta que ela estava buscando.
+  DETALHE: "solução" duas vezes no mesmo parágrafo. É termo [marca] proibido (catálogo, regras da marca: "Nunca ... solução"; tabela nível 1: "solução [marca]: sistema, método, o que resolve (nomear)"), e o catálogo diz que termo d
+  CORRECAO: "Ligar o que a gente faz com o problema que ela trouxe. Mostrar que é isso que ela estava procurando. E dizer por que, pro problema dela, a consulta é o próximo passo."
+
+[5] fidelidade/media
+  TRECHO: VOCÊ: Ana, por conta da forma que você trouxe isso... e de já estar desde uns dois anos sentindo assim... concordo que não tem por que deixar mais para depois.
+  DETALHE: A paciente ganha nome ("Ana") pela primeira vez no livro, e só aqui. Nas cenas dos capítulos 03, 04, 05 e 06 ela nunca é nomeada (grep em manuscrito/: "Ana" como paciente só aparece neste capítulo). Nenhuma fonte traz es
+  CORRECAO: VOCÊ: Por conta da forma que você trouxe isso... e de já estar desde uns dois anos sentindo assim... concordo que não tem por que deixar mais para depois.
+
+[6] leitora/media
+  TRECHO: VOCÊ: Ana, por conta da forma que você trouxe isso... e de já estar desde uns dois anos sentindo assim... concordo que não tem por que deixar mais para depois.
+  DETALHE: A paciente da cena se chama Ana e quem está me contando o livro é a Ana Luiza. Na primeira leitura eu parei e voltei pra entender quem falava com quem. Em capítulo que abre direto na cena, sem preparação, esse tropeço cu
+  CORRECAO: Trocar só o nome na linha 13, mantendo o resto literal (a paciente já é a mesma do queixo e dos dois anos): "VOCÊ: Carla, por conta da forma que você trouxe isso... e de já estar desde uns dois anos sentindo assim... concordo que não tem por que deixar mais para depois." Qualquer nome curto que não comece com Ana serve.
+
+[7] voz/media
+  TRECHO: pelo que eu vejo nas clínicas, o mais pulado.
+  DETALHE: Imagem genérica onde ela usa número redondo como prova de escala (whitelist item 12, 3 de 3): a frase dela é "pelo que eu observo nas mais de 3 mil clínicas por aqui" (T4). O capítulo tem zero número redondo fora da nume
+  CORRECAO: pelo que eu observo nas mais de 3 mil clínicas por aqui, o mais pulado.
+
+[8] voz/media
+  TRECHO: A forma como ela trouxe e o tempo que ela está assim, que são coisas que ela te contou nos passos dois e três, devolvidas.
+  DETALHE: Construção de texto escrito que ela não faz na fala: 26 palavras com oração relativa no meio e particípio solto no fim ("devolvidas"). O ritmo dela é frase de construção seguida de pancada curta como complemento cortado 
+  CORRECAO: A forma como ela trouxe e o tempo que ela está assim. Isso ela já te contou, nos passos dois e três. Você só devolve.
+
+[9] voz/media
+  TRECHO: Ele é o mais curto do script e, pelo que eu vejo nas clínicas, o mais pulado. A atendente sai do passo quatro, com a paciente declarada, e vai direto pro horário.
+  DETALHE: Zero pergunta de gancho no meio do capítulo (whitelist item 4, 3 de 3, 16% das frases). Ela introduz a próxima informação com pergunta ("Sabe o que ele falou comigo?", "O que que tem de diferente nessas pessoas...?"). Aq
+  CORRECAO: Ele é o mais curto do script e, pelo que eu observo nas mais de 3 mil clínicas por aqui, o mais pulado. Sabe o que a atendente faz? Sai do passo quatro, com a paciente declarada, e vai direto pro horário.
+
+[10] voz/baixa
+  TRECHO: Concordar é diferente de convencer. Quem concorda está do lado dela.
+  DETALHE: Dois aforismos simétricos seguidos, logo depois de um contraste que já disse a mesma coisa ("Você não está propondo... Você está concordando..."). Ela fecha raciocínio com UM carimbo curto ("Diagnóstico feito.", "É muito
+  CORRECAO: Quem concorda está do lado dela.

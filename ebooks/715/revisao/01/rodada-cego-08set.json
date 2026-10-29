@@ -1,0 +1,28 @@
+{
+  "cego": {
+    "veredito": "ia",
+    "confianca": 68
+  },
+  "pistas": [
+    {
+      "trecho": "Lá na clínica, o preço veio tarde demais, de uma pessoa que não tinha ouvido nada do meu problema. No WhatsApp, ele vem cedo demais, de uma pessoa que não perguntou nada, antes mesmo de ela pisar na clínica. Parece o contrário. É a mesma coisa.",
+      "pista": "Quiasmo perfeito (tarde demais / cedo demais, com as duas subordinadas espelhadas palavra a palavra) seguido do par negação-e-inversão em duas frases curtas. Ninguém fala assim e quase ninguém escreve assim de primeira; é a assinatura mais previsível de LLM em prosa persuasiva. Fala real produz simetria torta, não simetria de régua."
+    },
+    {
+      "trecho": "Não tem porta, não tem cadeira, não tem área de espera. Só tem o número chegando na tela.",
+      "pista": "Tricolon de negação com anáfora exata (\"não tem\" x3) e pivô no \"Só tem\". Padrão de ritmo que a IA aplica sozinha para dar cadência. Note que o texto vinha oral e sujo até aqui: essa frase é limpa demais para o entorno, o registro muda de dono no meio do capítulo."
+    },
+    {
+      "trecho": "E aí ela vai ruminar sozinha, do jeito que eu ruminei naqueles dez minutinhos.",
+      "pista": "Callback costurado com pinça: recupera o verbo \"ruminar\" da linha 35 e o \"dez minutinhos\" que virou título de seção, fechando o arco na penúltima frase útil. Motivo recorrente plantado e colhido no lugar exato é decisão de montagem editorial, não de quem está contando uma história."
+    },
+    {
+      "trecho": "Acho que o trabalho é a gente entender o que ela quer antes de passar qualquer número.",
+      "pista": "Hedge de humanização plantado. É a única frase da seção final que hesita, e ela hesita justo na tese central do produto, cercada por frases 100% assertivas. Quando o narrador tem certeza de tudo menos da própria tese, o \"acho que\" foi adicionado para amaciar, não sentido."
+    },
+    {
+      "trecho": "O script 715 parte de uma frase só: «para vender qualquer coisa, é só vender aquilo que a pessoa já quer comprar». A pessoa que manda mensagem já quer.",
+      "pista": "Sequência de embalagem: nome do método + máxima entre aspas + eco imediato da máxima aplicada ao caso + contagem fechada (\"São sete passos, do primeiro oi ao comprovante do PIX da consulta. E o preço só entra no último.\"). A primeira metade do arquivo tem entulho de fala real (\"parará, parará, parará\", \"um caso meu, que aconteceu duas ou três vezes\", \"tal qual um animal se dirige para o abatedouro\"); a partir de \"A salinha do WhatsApp\" esse entulho some por completo e entra prosa calibrada. A leitura mais provável é transcrição humana reaproveitada com a ponte, a virada e o fecho escritos por IA."
+    }
+  ]
+}

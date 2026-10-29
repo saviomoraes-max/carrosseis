@@ -1,0 +1,180 @@
+{
+  "arquivo": "/Users/saviomoraes/reconecta/ebooks/715/revisao/C/capitulo-limpo.md",
+  "palavras": 599,
+  "paragrafos": 15,
+  "frases": 46,
+  "mascarado": {
+    "citacoes": 2,
+    "titulos_curtos": 5
+  },
+  "avisos": [],
+  "score": 58,
+  "faixa": "sotaque forte (reescrever os trechos marcados)",
+  "pontos": 26.0,
+  "densidade": 43.4,
+  "formula": "densidade = pontos / max(palavras, piso_palavras) * 1000; score = 100 * (1 - exp(-densidade / k)), k = 50, piso_palavras = 300 (texto curto não explode com um achado só). Nota por categoria usa k_categoria sobre a densidade só daquela categoria.",
+  "categorias": {
+    "conteudo": {
+      "rotulo": "Conteúdo e inflação",
+      "achados": 1,
+      "pontos": 2.5,
+      "densidade": 4.2,
+      "nota": 24
+    },
+    "linguagem": {
+      "rotulo": "Linguagem e vocabulário",
+      "achados": 1,
+      "pontos": 1.0,
+      "densidade": 1.7,
+      "nota": 11
+    },
+    "estrutura": {
+      "rotulo": "Estrutura e ritmo",
+      "achados": 1,
+      "pontos": 2.5,
+      "densidade": 4.2,
+      "nota": 24
+    },
+    "comunicacao": {
+      "rotulo": "Sobras de chatbot",
+      "achados": 3,
+      "pontos": 20.0,
+      "densidade": 33.4,
+      "nota": 89
+    },
+    "meta": {
+      "rotulo": "Uniformidade de ritmo (estatística)",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "calques": {
+      "rotulo": "Calques do inglês e burocratês",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    }
+  },
+  "metricas": {
+    "frases_media_palavras": 13.3,
+    "frases_desvio_padrao": 8.4,
+    "frases_cv": 0.63,
+    "paragrafos": 15,
+    "paragrafos_mediana_palavras": 50,
+    "paragrafos_proporcao_mesmo_tamanho": 0.46,
+    "ritmo_entre_paragrafos_desvio": 0.202,
+    "pontuacao_cv": 0.92,
+    "ttr": 0.444,
+    "frases_mesmo_inicio_proporcao": 0.09,
+    "travessoes": 0,
+    "travessoes_por_mil": 0.0,
+    "dois_pontos": 4,
+    "dois_pontos_por_mil": 6.68,
+    "itens_lista": 0,
+    "proporcao_linhas_em_lista": 0.0,
+    "negritos": 0,
+    "triades": 2,
+    "triades_por_mil": 3.34,
+    "contrastes": 1,
+    "paragrafos_terminando_em_pergunta": 0,
+    "fechos_grandiosos": 0,
+    "hedges": 0,
+    "hedges_por_mil": 0.0
+  },
+  "achados": [
+    {
+      "id": "cb_placeholder",
+      "categoria": "comunicacao",
+      "subtipo": "placeholder",
+      "gravidade": "critica",
+      "peso": 10,
+      "texto": "[nome]",
+      "inicio": 1017,
+      "fim": 1023,
+      "explicacao": "Lacuna de template não preenchida.",
+      "sugestao": "preencha ou corte",
+      "contribuicao": 6.67,
+      "linha": 12,
+      "trecho": "Oi «[nome]», aqui é a [seu nome], da clínica da doutora [nome da doutora]."
+    },
+    {
+      "id": "cb_placeholder",
+      "categoria": "comunicacao",
+      "subtipo": "placeholder",
+      "gravidade": "critica",
+      "peso": 10,
+      "texto": "[seu nome]",
+      "inicio": 1034,
+      "fim": 1044,
+      "explicacao": "Lacuna de template não preenchida.",
+      "sugestao": "preencha ou corte",
+      "contribuicao": 6.67,
+      "linha": 12,
+      "trecho": "Oi [nome], aqui é a «[seu nome]», da clínica da doutora [nome da doutora]."
+    },
+    {
+      "id": "cb_placeholder",
+      "categoria": "comunicacao",
+      "subtipo": "placeholder",
+      "gravidade": "critica",
+      "peso": 10,
+      "texto": "[nome da doutora]",
+      "inicio": 1068,
+      "fim": 1085,
+      "explicacao": "Lacuna de template não preenchida.",
+      "sugestao": "preencha ou corte",
+      "contribuicao": 6.67,
+      "linha": 12,
+      "trecho": "Oi [nome], aqui é a [seu nome], da clínica da doutora «[nome da doutora]»."
+    },
+    {
+      "id": "v3_valor",
+      "categoria": "linguagem",
+      "subtipo": "vocabulario_n3",
+      "gravidade": "baixa",
+      "peso": 1.0,
+      "texto": "valor (abstrato) x4",
+      "inicio": 2877,
+      "fim": 2882,
+      "explicacao": "Palavra comum usada demais (4 vezes em 599 palavras).",
+      "sugestao": "diga o que vale, com preço ou efeito",
+      "contribuicao": 1.0,
+      "linha": 34,
+      "trecho": "nto são feitos pela própria doutora, com o mesmo cuidado do atendimento de sempre, por um «valor» mais acessível."
+    },
+    {
+      "id": "ct_momento_decisivo",
+      "categoria": "conteudo",
+      "subtipo": "inflacao",
+      "gravidade": "media",
+      "peso": 2.5,
+      "texto": "antes e depois",
+      "inicio": 3035,
+      "fim": 3049,
+      "explicacao": "Significância inflada.",
+      "sugestao": "diga o que aconteceu",
+      "contribuicao": 2.5,
+      "linha": 37,
+      "trecho": "A autorização de uso de imagem, pra «antes e depois» e pra anúncio."
+    },
+    {
+      "id": "es_contraste_nao_e_x_e_y",
+      "categoria": "estrutura",
+      "subtipo": "contraste",
+      "gravidade": "media",
+      "peso": 2.5,
+      "texto": "Não é consulta, é",
+      "inicio": 3097,
+      "fim": 3114,
+      "explicacao": "Contraste fácil 'não é X, é Y': virou tique.",
+      "sugestao": "afirme a coisa que importa",
+      "contribuicao": 2.5,
+      "linha": 39,
+      "trecho": "«Não é consulta, é» «reserva»."
+    }
+  ],
+  "achados_ocultos": 0,
+  "min_gravidade": "baixa"
+}

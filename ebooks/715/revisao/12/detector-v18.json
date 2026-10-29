@@ -1,0 +1,126 @@
+{
+  "arquivo": "manuscrito/12-doutora-e-vendedora-tambem.md",
+  "palavras": 802,
+  "paragrafos": 19,
+  "frases": 47,
+  "mascarado": {
+    "frontmatter": 1,
+    "urls": 1,
+    "blocos_script": 2,
+    "marcadores_bloco": 6,
+    "citacoes": 4,
+    "titulos_curtos": 2
+  },
+  "avisos": [],
+  "absolvidos_pelo_corpus": [],
+  "amostra_pequena": false,
+  "score": 12,
+  "faixa": "limpo (soa gente)",
+  "pontos": 5.0,
+  "densidade": 6.2,
+  "formula": "densidade = pontos / max(palavras, piso_palavras) * 1000; score = 100 * (1 - exp(-densidade / k)), k = 50, piso_palavras = 300 (texto curto não explode com um achado só). Nota por categoria usa k_categoria sobre a densidade só daquela categoria.",
+  "categorias": {
+    "conteudo": {
+      "rotulo": "Conteúdo e inflação",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "linguagem": {
+      "rotulo": "Linguagem e vocabulário",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "estrutura": {
+      "rotulo": "Estrutura e ritmo",
+      "achados": 2,
+      "pontos": 5.0,
+      "densidade": 6.2,
+      "nota": 34
+    },
+    "comunicacao": {
+      "rotulo": "Sobras de chatbot",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "meta": {
+      "rotulo": "Uniformidade de ritmo (estatística)",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "calques": {
+      "rotulo": "Calques do inglês e burocratês",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    }
+  },
+  "metricas": {
+    "frases_media_palavras": 17.8,
+    "frases_desvio_padrao": 11.9,
+    "frases_cv": 0.67,
+    "paragrafos": 19,
+    "paragrafos_mediana_palavras": 49.0,
+    "paragrafos_proporcao_mesmo_tamanho": 0.56,
+    "ritmo_entre_paragrafos_desvio": 0.24,
+    "pontuacao_cv": 0.53,
+    "ttr": 0.36,
+    "frases_mesmo_inicio_proporcao": 0.04,
+    "travessoes": 0,
+    "travessoes_por_mil": 0.0,
+    "dois_pontos": 6,
+    "dois_pontos_por_mil": 7.48,
+    "itens_lista": 0,
+    "proporcao_linhas_em_lista": 0.0,
+    "negritos": 0,
+    "triades": 1,
+    "triades_por_mil": 1.25,
+    "contrastes": 2,
+    "paragrafos_terminando_em_pergunta": 2,
+    "fechos_grandiosos": 0,
+    "hedges": 0,
+    "hedges_por_mil": 0.0
+  },
+  "achados": [
+    {
+      "id": "es_contraste_nao_e_x_e_y",
+      "categoria": "estrutura",
+      "subtipo": "contraste",
+      "gravidade": "media",
+      "peso": 2.5,
+      "texto": "não é insistência, é",
+      "inicio": 3405,
+      "fim": 3425,
+      "explicacao": "Contraste fácil 'não é X, é Y': virou tique.",
+      "sugestao": "afirme a coisa que importa",
+      "contribuicao": 2.5,
+      "linha": 50,
+      "trecho": "Repetir cobrança sem novidade «não é insistência, é» queimar o lead."
+    },
+    {
+      "id": "es_contraste_nao_e_x_e_y",
+      "categoria": "estrutura",
+      "subtipo": "contraste",
+      "gravidade": "media",
+      "peso": 2.5,
+      "texto": "Não é cobrança, é",
+      "inicio": 3748,
+      "fim": 3765,
+      "explicacao": "Contraste fácil 'não é X, é Y': virou tique.",
+      "sugestao": "afirme a coisa que importa",
+      "contribuicao": 2.5,
+      "linha": 52,
+      "trecho": "«Não é cobrança, é» reaproximação, e é a palavra dela que abre a porta de novo, do mesmo jeito que abriria nu"
+    }
+  ],
+  "achados_ocultos": 0,
+  "min_gravidade": "baixa"
+}

@@ -1,0 +1,122 @@
+{
+  "arquivo": "/Users/saviomoraes/reconecta/ebooks/715/revisao/C/capitulo-limpo.md",
+  "palavras": 433,
+  "paragrafos": 10,
+  "frases": 35,
+  "mascarado": {
+    "blocos_script": 5,
+    "marcadores_bloco": 10,
+    "citacoes": 2,
+    "titulos_curtos": 5
+  },
+  "avisos": [],
+  "amostra_pequena": false,
+  "score": 29,
+  "faixa": "sotaque perceptível (revisar antes de gastar agente)",
+  "pontos": 7.5,
+  "densidade": 17.3,
+  "formula": "densidade = pontos / max(palavras, piso_palavras) * 1000; score = 100 * (1 - exp(-densidade / k)), k = 50, piso_palavras = 300 (texto curto não explode com um achado só). Nota por categoria usa k_categoria sobre a densidade só daquela categoria.",
+  "categorias": {
+    "conteudo": {
+      "rotulo": "Conteúdo e inflação",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "linguagem": {
+      "rotulo": "Linguagem e vocabulário",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "estrutura": {
+      "rotulo": "Estrutura e ritmo",
+      "achados": 2,
+      "pontos": 7.5,
+      "densidade": 17.3,
+      "nota": 68
+    },
+    "comunicacao": {
+      "rotulo": "Sobras de chatbot",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "meta": {
+      "rotulo": "Uniformidade de ritmo (estatística)",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "calques": {
+      "rotulo": "Calques do inglês e burocratês",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    }
+  },
+  "metricas": {
+    "frases_media_palavras": 12.7,
+    "frases_desvio_padrao": 7.7,
+    "frases_cv": 0.61,
+    "paragrafos": 10,
+    "paragrafos_mediana_palavras": 51,
+    "paragrafos_proporcao_mesmo_tamanho": 0.33,
+    "ritmo_entre_paragrafos_desvio": 0.112,
+    "pontuacao_cv": 0.48,
+    "frases_mesmo_inicio_proporcao": 0.09,
+    "travessoes": 0,
+    "travessoes_por_mil": 0.0,
+    "dois_pontos": 4,
+    "dois_pontos_por_mil": 9.24,
+    "itens_lista": 0,
+    "proporcao_linhas_em_lista": 0.0,
+    "negritos": 0,
+    "triades": 2,
+    "triades_por_mil": 4.62,
+    "contrastes": 1,
+    "paragrafos_terminando_em_pergunta": 0,
+    "fechos_grandiosos": 0,
+    "hedges": 0,
+    "hedges_por_mil": 0.0
+  },
+  "achados": [
+    {
+      "id": "m_dois_pontos",
+      "categoria": "estrutura",
+      "subtipo": "pontuacao",
+      "gravidade": "media",
+      "peso": 5,
+      "texto": "4 dois-pontos em 433 palavras",
+      "inicio": 341,
+      "fim": 343,
+      "explicacao": "Dois-pontos demais no meio de frase: cadência de slide.",
+      "sugestao": "Troque por ponto ou vírgula; deixe só os que apresentam algo.",
+      "contribuicao": 5,
+      "linha": 3,
+      "trecho": "Eu deixo aqui o resumo, porque a dúvida chega direto pra gente«: »\"os leads estão chegando, mas depois que eu passo o preço a maioria questiona."
+    },
+    {
+      "id": "es_contraste_nao_e_x_e_y",
+      "categoria": "estrutura",
+      "subtipo": "contraste",
+      "gravidade": "media",
+      "peso": 2.5,
+      "texto": "Não é consulta, é",
+      "inicio": 3135,
+      "fim": 3152,
+      "explicacao": "Contraste fácil 'não é X, é Y': virou tique.",
+      "sugestao": "afirme a coisa que importa",
+      "contribuicao": 2.5,
+      "linha": 39,
+      "trecho": "«Não é consulta, é» «reserva»."
+    }
+  ],
+  "achados_ocultos": 0,
+  "min_gravidade": "baixa"
+}

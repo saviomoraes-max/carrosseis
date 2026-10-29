@@ -1,0 +1,28 @@
+{
+  "cego": {
+    "veredito": "ia",
+    "confianca": 70
+  },
+  "pistas": [
+    {
+      "trecho": "Parece atendimento bom. É a conversa morrendo de novo, só que mais tarde.",
+      "pista": "Fórmula de antítese em dois tempos (afirma / vira do avesso em frase curta) usada como fecho de quase todo parágrafo-chave. Não é um recurso ocasional aqui, é a estrutura da prosa inteira — repetição mecânica de um único movimento retórico é o tique mais forte de texto gerado."
+    },
+    {
+      "trecho": "Quem manda as três de uma vez não está perguntando, está aplicando questionário.",
+      "pista": "Mesmo molde 'não é X, é Y' reaparece em cadência idêntica: também em 'você não sabe o problema dela. Você sabe o nome que ela deu' e em 'não está mais conversando com uma atendente. Está conversando com alguém que entendeu'. Quatro ocorrências do mesmo esqueleto sintático em 90 linhas."
+    },
+    {
+      "trecho": "Você não perguntou. Ela contou.",
+      "pista": "Punchline de três palavras fechando seção, com simetria perfeita de pessoa e tempo verbal. Escrita humana oral erra o compasso às vezes; aqui todo fecho de bloco cai no mesmo ritmo curto-curto, sem uma sobra, sem uma frase que se arrasta ou se perde."
+    },
+    {
+      "trecho": "ELA: É que eu tô com o rosto muito flácido, queria ver o que dá pra fazer.",
+      "pista": "Diálogo de WhatsApp limpo demais: sem erro de digitação, sem mensagem quebrada em três balões, sem áudio, sem emoji, sem 'oi bom dia'. É uma cena-composto construída pra ilustrar o argumento, não uma conversa lembrada ou colada de um print. E o capítulo inteiro não tem UM nome, data, número ou caso concreto."
+    },
+    {
+      "trecho": "\"Quando você diz que tá caindo perto do queixo, em que momento você percebe mais isso?\"",
+      "pista": "Callback cirúrgico: o 'queixo' plantado na cena de abertura volta aqui e de novo no 'exatamente isso' do fim, sempre com a palavra exata. Coerência de detalhe recuperada e reaproveitada como demonstração é comportamento de quem tem o texto todo à vista de uma vez, não de quem escreve pensando."
+    }
+  ]
+}

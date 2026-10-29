@@ -1,0 +1,41 @@
+C-paciente-modelo.md · rodada 1 · brutos 27 · confirmados 8 · altas 0 · cego None None
+
+[1] fidelidade/media
+  TRECHO: Oi [nome], aqui é a [fulana], da clínica da doutora [tal].
+  DETALHE: Placeholder da fonte que sobrou no texto. A transcrição diz "Então, oi fulana, aqui é a fulana de tal, da clínica da doutora tal", ou seja, "fulana" ali é o marcador genérico da própria Ana, não um campo pra leitora pree
+  CORRECAO: Oi [nome], aqui é a [seu nome], da clínica da doutora [nome da doutora].
+
+[2] leitora/media
+  TRECHO: Pela forma como você trouxe isso, e pelo que a doutora avaliou, faz todo sentido você ser uma das selecionadas pra vaga de paciente modelo.
+  DETALHE: Perdi o fio aqui. Entre a foto e essa mensagem existe uma etapa inteira que o capítulo não conta: alguém leva a foto pra doutora, a doutora olha, alguém volta e responde. Na prática isso são horas, às vezes um dia. E a p
+  CORRECAO: Frase de ponte antes da Apresentação, ancorada na lógica que a própria fonte dá ("uma oportunidade escassa, que talvez não aconteça de novo"): "Recebeu a foto, avisa que você vai levar pra doutora olhar e diz quando volta. Ainda hoje, se der. E cumpre. Quem respondeu anúncio de vaga veio atrás de uma oportunidade que ela acha que não vai aparecer de novo, e oportunidade escassa não espera resposta dois dias." Se quiser o card do aviso de espera: ":::frase\nJá anotei tudo aqui e vou levar pra doutora olhar. Te dou retorno ainda hoje, combinado?\n:::"
+
+[3] leitora/media
+  TRECHO: Se você está fazendo paciente modelo pra ter casos no feed, você precisa ter definido qual problema você resolve, e não abrir a vaga pra todo tipo de paciente. Se o objetivo é caixa e caso ao mesmo tempo, não tem esse ponto de decisão: vai da situação direto p
+  DETALHE: Reli três vezes. Você me dá duas rotas, uma bifurcação e um nome novo ("ponto de decisão") em duas frases, sem nenhum exemplo. Não sei em qual das duas eu estou, e nada aqui me ajuda a decidir. E aí vem "Se não faz senti
+  CORRECAO: "Se o que você quer é caso de antes e depois pro feed, decide antes qual problema você quer mostrar. Se você está se posicionando em derretimento facial, a paciente mais nova, que não tem derretimento nenhum, não entra nessa edição, por mais simpática que ela seja. E é pra ela que serve a saída aqui embaixo. Agora, se a vaga é pra ter caso e caixa ao mesmo tempo, você não precisa escolher: vai da situação direto pra apresentação." Usa o exemplo da própria fonte, repete "derretimento" sem sinônimo, deixa explícito pra quem é a frase de saída e abre a virada com "Agora," (item 23).
+
+[4] leitora/media
+  TRECHO: Me manda uma foto, se puder, diferente de perfil.
+  DETALHE: Não entendi o que eu peço. Uma foto diferente da de perfil do WhatsApp? Uma de frente e outra de perfil? Travei numa frase pronta, que é justamente o tipo de coisa que eu ia copiar e colar sem pensar. Uma frase colável q
+  CORRECAO: Dentro do card, uma linha que cobre as duas leituras possíveis sem inventar exigência nova: "Me manda uma foto sua de frente, se puder. Não vale a do perfil." E, fora do card, uma frase que já existe em espírito no capítulo: "A foto não é enfeite. É onde a seleção começa." Antes de fechar, vale confirmar com a Ana qual dos dois sentidos era o dela, porque a fala original permite os dois.
+
+[5] leitora/media
+  TRECHO: Quem veio pelo quiz chega um pouco mais consciente, porque leu bastante coisa no caminho.
+  DETALHE: Que quiz? Nada antes no livro fala de quiz. Eu não tenho quiz, tenho um anúncio e um WhatsApp. Por meio parágrafo eu acho que perdi um capítulo, e ainda fico com a impressão de que o método pressupõe uma estrutura que eu
+  CORRECAO: Ou explicar em meia linha o que é ("quem passou por um formulário de perguntas antes de cair no seu WhatsApp"), ou tirar a referência e ficar só na parte que serve pra todo mundo: quem cai direto na mensagem precisa dessa conscientização na conversa.
+
+[6] voz/media
+  TRECHO: Quem veio pelo quiz chega um pouco mais consciente, porque leu bastante coisa no caminho.
+  DETALHE: 'bastante' está na lista explícita de palavras que ela NÃO usa: 'muito é o único intensificador dela. Não aparece extremamente, incrivelmente, super, bastante.' E o inverso também é verdade no capítulo: contei ZERO ocorr
+  CORRECAO: Quem veio pelo quiz chega um pouco mais consciente, porque leu muita coisa no caminho.
+
+[7] voz/media
+  TRECHO: A palavra é «reserva», e não consulta.
+  DETALHE: Contraste na ordem errada. Whitelist 1: 'Contraste não X, Y, 6 ocorrências, 3 de 3. A negativa vem primeiro em todas.' Aqui a positiva vem primeiro e a negativa vira apêndice depois da vírgula, que é o jeito neutro de es
+  CORRECAO: Não é consulta, é «reserva».
+
+[8] voz/media
+  TRECHO: Acontece. E acontece porque essa pessoa não está procurando uma consulta. Está procurando uma oportunidade, escassa, que pode não aparecer de novo.
+  DETALHE: 'uma oportunidade, escassa, que pode não aparecer de novo' é definição de dicionário com aposto entre vírgulas, registro escrito. O capítulo inteiro não tem uma única imagem concreta dela nem uma única palavra da lista d
+  CORRECAO: Acontece. E acontece porque essa pessoa não está procurando uma consulta. Está procurando uma vaga. E vaga é coisa que fecha.

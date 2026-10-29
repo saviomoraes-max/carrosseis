@@ -1,0 +1,120 @@
+{
+  "arquivo": "/Users/saviomoraes/reconecta/ebooks/715/revisao/05/capitulo-limpo.md",
+  "palavras": 874,
+  "paragrafos": 23,
+  "frases": 78,
+  "mascarado": {
+    "citacoes": 2,
+    "titulos_curtos": 5
+  },
+  "avisos": [],
+  "score": 17,
+  "faixa": "leve sotaque (passa no portão)",
+  "pontos": 8,
+  "densidade": 9.2,
+  "formula": "densidade = pontos / max(palavras, piso_palavras) * 1000; score = 100 * (1 - exp(-densidade / k)), k = 50, piso_palavras = 300 (texto curto não explode com um achado só). Nota por categoria usa k_categoria sobre a densidade só daquela categoria.",
+  "categorias": {
+    "conteudo": {
+      "rotulo": "Conteúdo e inflação",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "linguagem": {
+      "rotulo": "Linguagem e vocabulário",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "estrutura": {
+      "rotulo": "Estrutura e ritmo",
+      "achados": 2,
+      "pontos": 8,
+      "densidade": 9.2,
+      "nota": 46
+    },
+    "comunicacao": {
+      "rotulo": "Sobras de chatbot",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "meta": {
+      "rotulo": "Uniformidade de ritmo (estatística)",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "calques": {
+      "rotulo": "Calques do inglês e burocratês",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    }
+  },
+  "metricas": {
+    "frases_media_palavras": 11.2,
+    "frases_desvio_padrao": 6.9,
+    "frases_cv": 0.61,
+    "paragrafos": 23,
+    "paragrafos_mediana_palavras": 40.0,
+    "paragrafos_proporcao_mesmo_tamanho": 0.35,
+    "ritmo_entre_paragrafos_desvio": 0.164,
+    "pontuacao_cv": 0.87,
+    "ttr": 0.358,
+    "frases_mesmo_inicio_proporcao": 0.09,
+    "travessoes": 0,
+    "travessoes_por_mil": 0.0,
+    "dois_pontos": 10,
+    "dois_pontos_por_mil": 11.44,
+    "itens_lista": 0,
+    "proporcao_linhas_em_lista": 0.0,
+    "negritos": 0,
+    "triades": 1,
+    "triades_por_mil": 1.14,
+    "contrastes": 0,
+    "paragrafos_terminando_em_pergunta": 1,
+    "fechos_grandiosos": 0,
+    "hedges": 0,
+    "hedges_por_mil": 0.0
+  },
+  "achados": [
+    {
+      "id": "m_dois_pontos",
+      "categoria": "estrutura",
+      "subtipo": "pontuacao",
+      "gravidade": "media",
+      "peso": 5,
+      "texto": "10 dois-pontos em 874 palavras",
+      "inicio": 35,
+      "fim": 37,
+      "explicacao": "Dois-pontos demais no meio de frase: cadência de slide.",
+      "sugestao": "Troque por ponto ou vírgula; deixe só os que apresentam algo.",
+      "contribuicao": 5,
+      "linha": 4,
+      "trecho": "ELA«: »É isso, exatamente."
+    },
+    {
+      "id": "m_anafora",
+      "categoria": "estrutura",
+      "subtipo": "anafora",
+      "gravidade": "media",
+      "peso": 3,
+      "texto": "4 frases seguidas começando com «frase O»",
+      "inicio": 1640,
+      "fim": 1925,
+      "explicacao": "Três ou mais frases seguidas começando igual.",
+      "sugestao": "Deixe uma; reescreva as outras com outro começo.",
+      "contribuicao": 3,
+      "linha": 27,
+      "trecho": "«:::frase O que te fez decidir que agora é o momento certo para resolver isso? ::: :::frase Por que fazer agora e não esperar mais um pouco? ::: :::frase O que te levou a dar esse passo de nos procurar hoje? ::: :::frase Parece que esse incômodo chegou a um ponto decisivo para você.» O que aconteceu?"
+    }
+  ],
+  "achados_ocultos": 0,
+  "min_gravidade": "baixa"
+}

@@ -1,0 +1,28 @@
+{
+  "cego": {
+    "veredito": "ia",
+    "confianca": 68
+  },
+  "pistas": [
+    {
+      "trecho": "É o mesmo gesto: entregar o número pra alguém que ainda não entendeu o que o número resolve.",
+      "pista": "Nomeação de um padrão abstrato com substantivo elevado (\"o mesmo gesto\") seguida de dois-pontos que glosam a definição. Ninguém fala assim: em fala espontânea sai \"é a mesma coisa\". Essa manobra de fabricar um conceito e explicá-lo na mesma frase é assinatura de LLM produzindo insight."
+    },
+    {
+      "trecho": "Não porque o número é alto. Porque ela ainda não sabe se aquilo resolve o problema dela.",
+      "pista": "Padrão negação + pivô partido em dois fragmentos sem verbo principal na segunda parte. É o ritmo mais reconhecível de copy humanizada por IA (\"Não porque X. Porque Y.\"), colocado exatamente no fim do parágrafo, onde rende mais."
+    },
+    {
+      "trecho": "No WhatsApp o número vai pra paciente cedo demais. Na salinha, vai por uma pessoa que não ouviu nada. E nos dois casos a paciente sai com o número na mão e vai pensar sozinha.",
+      "pista": "Simetria perfeita demais: dois casos contrastados em frases de mesmo comprimento e mesma estrutura, fechados por um \"E nos dois casos\" que amarra a comparação. Texto vindo de fala real quase nunca fecha um paralelismo tão limpo sem sobra, repetição acidental ou digressão."
+    },
+    {
+      "trecho": "já contou o problema, já disse por que agora, já descreveu com as palavras dela o que a consulta vai resolver. Ela entra pronta.",
+      "pista": "Tricolon crescente com anáfora (\"já... já... já...\") desaguando num fragmento-soco de três palavras. Construção retórica calibrada, não falada; a escalada é regular demais e o soco chega na posição milimetricamente certa."
+    },
+    {
+      "trecho": "Diagnóstico feito.",
+      "pista": "Fecho em fragmento nominal de duas palavras, terceiro fragmento-soco isolado do capítulo (junto com \"Ela entra pronta.\" e \"Lá dentro.\"), todos concentrados no terço final. Somado à arquitetura sem nenhuma gordura (recapitula, ressalva o \"não existe certo ou errado\", trata o caso que funciona, trata o que não funciona, faz a ponte, dá a tarefa, CTA, callback), o capítulo não tem uma única frase perdida ou atrito de escrita humana."
+    }
+  ]
+}

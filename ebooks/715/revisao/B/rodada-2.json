@@ -1,0 +1,46 @@
+{
+  "rodada": 2,
+  "data": "2026-09-09",
+  "lente": "corpus de fala da autora (80.938 palavras)",
+  "juri": "opus-5",
+  "brutos": 4,
+  "confirmados_n": 3,
+  "altas_confirmadas": 0,
+  "aplicados": 2,
+  "revertidos_por_colisao": {
+    "B/troca0": "fórmula 'se ela falar flacidez' já ficou no 04 e na cola; 3x é assinatura"
+  },
+  "resumo": "Bloco B é anexo de lista: 46 das 50 linhas são perguntas literais das fontes, e a prosa composta cabe em seis frases. Conferi uma a uma as 46 perguntas contra 01-framework-715.md e 03-manual-perguntas.md (achatando as fontes com tr '\\n' ' ' porque a quebra de linha do PDF derruba grep de frase longa): todas batem, inclusive as duas que pareciam órfãs no primeiro grep (\"Teve mais alguma coisa\" e \"a gente pode seguir com o seu agendamento\", ambas quebradas em duas linhas na fonte). Por isso sem_fonte está vazio, e vazio aqui é resposta boa: o anexo é cópia de fonte, não lugar de afirmação nova. Nos descritores de etapa, cinco dos sete saem literais do PDF (\"Aqui ganhamos a permissão/confiança...\", \"Clarear e aprofundar o presente...\", \"Fica claro o que leva...\", \"verificar se o paciente realmente está pronto...\", \"Confirmar o entendimento e assegurar o compromisso...\"), então o problema deles não é fidelidade, é que são PDF-ês transposto. Busquei no corpus por clarear, aprofundar, conexão, permissão, confiança, transição, qualificação, qualificar, fechamento, compromisso, comprovante, presente inaceitável, prioridade, resolver agora, script, copiar e colar, decorar, bastão, minutinho, papada, bigode chinês, olhar cansado, derretendo, viço, contorno, rejuvenescer. Quatro trocas sobreviveram. Duas medições que sustentam as propostas: \"assegurar\" e \"verificar\" aparecem 0 vezes em 80.938 palavras dela, e \"por que que\" aparece 40 vezes no corpus contra 0 no manuscrito inteiro, ou seja, é marca oral dela que o livro apagou por completo. Deixei quieto o que já estava bom: a abertura (\"Aqui é só a lista, tá.\"), o descritor da conexão (já vem em \"a gente\"), o da transição, e o da qualificação, porque a única alternativa do corpus para \"verificar se está pronta\" é um trecho embolado (\"Só para essa pessoa qualificarse... Pelo menos para ela dar um sinal positivo\") que não melhora a linha. Também descartei duas tentações: enfiar no anexo a fala dela sobre copiar e colar script (\"Copiar e colar o script sem contexto é outro pecado mortal\", linha 6554), porque isso já está nos capítulos 2 e 11 e o subtítulo do anexo promete \"sem prosa\"; e usar \"a gente aprofunda exatamente no que ela trouxer\" (linha 1522), porque ecoaria demais o \"qualquer palavra que ela trouxer\" do capítulo 4. Nenhuma proposta tem travessão nem itálico, nenhuma toca em frase de script.",
+  "confirmados": [
+    {
+      "tipo": "troca",
+      "gravidade": "media",
+      "trecho": "As primeiras servem pra clarear a palavra que ela usou.",
+      "fala_dela": "Se ela falar flacidez, a gente clareia flacidez",
+      "aplicado": "As primeiras servem pra clarear. Se ela falar flacidez, a gente clareia flacidez.",
+      "cetico": "Fala confere literal no corpus (linha 1518: \"Se ela falar flacidez, a gente clareia flacidez\") e o trecho do livro está exato na linha 34; a acusação de duplicata também se confirma, a mesma frase abre 04-passo-2-situacao.md:30. O contexto da fala é exatamente a operação de clarear termo trazido pela paciente, então a troca faz a operação em vez de nomeá-la. Único incômodo é o eco com a pergunta 1 da lista (\"rosto flácido\"), mas isso reforça em vez de contradizer, e não dá pra trocar a palavra sem quebrar a literalidade."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "media",
+      "trecho": "Fica claro o que leva resolver esse problema a ser a prioridade agora.",
+      "fala_dela": "Por que que ela quer resolver agora?",
+      "aplicado": "Aqui fica claro por que que ela quer resolver agora.",
+      "cetico": "Fala literal no corpus na linha 2754, e o contexto imediato é o próprio passo três (\"Ela já trouxe o presente inaceitável / Por que que ela quer resolver agora?\"), então diz a mesma coisa que a legenda. Confirmei as duas contagens do garimpeiro: \"por que que\" tem 40 ocorrências no corpus e 0 no manuscrito, e \"por que agora\" já é o atalho do próprio livro em 05:30, 07:30, 12:30 e A-cola:33. Não há travessão, itálico nem empilhamento de marcador oral."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "baixa",
+      "trecho": "Confirmar o entendimento e assegurar o compromisso antes de fechar.",
+      "fala_dela": "Eh, seguir para o agendamento sem gerar compromisso",
+      "aplicado": "Confirmar o entendimento e gerar compromisso antes de fechar.",
+      "cetico": "Fala literal na linha 6834, dentro da lista de erros de atendimento, e ela explica logo abaixo que é ir pro agendamento sem a paciente ter dito que quer, que é exatamente o que a legenda do passo sete previne. Confirmei que \"assegur\" tem 0 ocorrência no corpus e que a frase atual é cópia verbatim de 03-manual-perguntas.md:113, enquanto o próprio livro já escreve \"criado compromisso\" (09:74) e \"não gera compromisso\" (11:164). Troca de uma palavra, sem travessão nem itálico, e não altera o que a fonte afirma."
+    }
+  ],
+  "refutados": [
+    {
+      "trecho": "E essas três são pra aprofundar, depois que ela clareou.",
+      "motivo": "A fala existe literal (linha 1616), mas o contexto derruba a proposta: ela está falando de atendente que referencia tudo que a paciente disse e deixa a atenção difusa, e completa na linha seguinte com \"A gente quer aprofundar na dor, por exemplo\". Ou seja, é sobre escolher QUAL informação aprofundar, não sobre quantas das três perguntas usar. Colada na frente de uma lista numerada de três perguntas, a frase passa a ordenar \"use só uma delas\", instrução que nenhuma das fontes dá, então falha nos testes 3 e 4."
+    }
+  ]
+}

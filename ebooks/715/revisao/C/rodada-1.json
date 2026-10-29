@@ -1,0 +1,232 @@
+{
+ "capitulo": "/Users/saviomoraes/reconecta/ebooks/715/manuscrito/C-paciente-modelo.md",
+ "rodada": 1,
+ "brutos": 27,
+ "confirmados_n": 8,
+ "altas_confirmadas": 0,
+ "por_revisor": {
+  "tell": {
+   "brutos": 5,
+   "confirmados": 0
+  },
+  "fidelidade": {
+   "brutos": 2,
+   "confirmados": 1
+  },
+  "leitora": {
+   "brutos": 9,
+   "confirmados": 4
+  },
+  "voz": {
+   "brutos": 11,
+   "confirmados": 3
+  }
+ },
+ "confirmados": [
+  {
+   "revisor": "fidelidade",
+   "tipo": "fidelidade",
+   "gravidade": "media",
+   "trecho": "Oi [nome], aqui é a [fulana], da clínica da doutora [tal].",
+   "detalhe": "Placeholder da fonte que sobrou no texto. A transcrição diz \"Então, oi fulana, aqui é a fulana de tal, da clínica da doutora tal\", ou seja, \"fulana\" ali é o marcador genérico da própria Ana, não um campo pra leitora preencher. O mapa de capítulos é explícito: \"Placeholders do PDF (Dra. Mariana, Fulana) viram 'a doutora', 'ela', ou o nome que o vídeo trouxer.\" Dentro dos colchetes o livro precisa dizer O QUE preencher, e \"[fulana]\" não diz nada. Repare que no resto do capítulo os colchetes já funcionam assim ([nome], [hora]), então esse aqui destoa.",
+   "correcao": "Oi [nome], aqui é a [seu nome], da clínica da doutora [nome da doutora].",
+   "motivos": [
+    "A transcricao usa \"fulana\" tres vezes como marcador generico da propria Ana, e o manuscrito converteu so o primeiro em [nome], deixando [fulana] no segundo colchete da mesma frase; o mapa proibe explicitamente que \"Fulana\" sobreviva no texto. Nada na whitelist protege placeholder (ela cobre tique de voz, nao campo de preenchimento), e a leitora que copia o card pro WhatsApp nao sabe se [fulana] e o nome dela ou o da doutora. A correcao proposta so troca rotulo dentro de card de frase pronta: sem travessao, sem tell novo, sem achatar a voz."
+   ]
+  },
+  {
+   "revisor": "leitora",
+   "tipo": "leitora",
+   "gravidade": "media",
+   "trecho": "Pela forma como você trouxe isso, e pelo que a doutora avaliou, faz todo sentido você ser uma das selecionadas pra vaga de paciente modelo.",
+   "detalhe": "Perdi o fio aqui. Entre a foto e essa mensagem existe uma etapa inteira que o capítulo não conta: alguém leva a foto pra doutora, a doutora olha, alguém volta e responde. Na prática isso são horas, às vezes um dia. E a paciente fica esperando no visualizado. Eu não sei se paro a conversa, o que digo enquanto isso, nem o que faço se a doutora demorar. Como o script é da secretária falando (\"aqui é a fulana, da clínica da doutora\"), esse buraco é o meu dia inteiro.",
+   "correcao": "Frase de ponte antes da Apresentação, ancorada na lógica que a própria fonte dá (\"uma oportunidade escassa, que talvez não aconteça de novo\"): \"Recebeu a foto, avisa que você vai levar pra doutora olhar e diz quando volta. Ainda hoje, se der. E cumpre. Quem respondeu anúncio de vaga veio atrás de uma oportunidade que ela acha que não vai aparecer de novo, e oportunidade escassa não espera resposta dois dias.\" Se quiser o card do aviso de espera: \":::frase\\nJá anotei tudo aqui e vou levar pra doutora olhar. Te dou retorno ainda hoje, combinado?\\n:::\"",
+   "motivos": [
+    "O buraco existe: o script é da secretária falando, e entre \"me manda uma foto\" e \"pelo que a doutora avaliou\" não há uma linha sobre quem leva, em quanto tempo volta e o que dizer no intervalo, nem no capítulo nem na fonte. Nada na whitelist cobre isso e a leitora que seguir o anexo ao pé da letra trava justamente aí. A correção proposta falha no critério 4 porque inventa dado que não está em lugar nenhum (\"ela mandou mensagem pra outras cinco clínicas no mesmo dia\"), e número na voz dela vale por ter ela como fonte (item 12)."
+   ]
+  },
+  {
+   "revisor": "leitora",
+   "tipo": "leitora",
+   "gravidade": "media",
+   "trecho": "Se você está fazendo paciente modelo pra ter casos no feed, você precisa ter definido qual problema você resolve, e não abrir a vaga pra todo tipo de paciente. Se o objetivo é caixa e caso ao mesmo tempo, não tem esse ponto de decisão: vai da situação direto pra apresentação.",
+   "detalhe": "Reli três vezes. Você me dá duas rotas, uma bifurcação e um nome novo (\"ponto de decisão\") em duas frases, sem nenhum exemplo. Não sei em qual das duas eu estou, e nada aqui me ajuda a decidir. E aí vem \"Se não faz sentido\" logo depois, e eu não sei se \"não faz sentido\" é a paciente não servir pro caso que eu quero ou a vaga não servir pra ela.",
+   "correcao": "\"Se o que você quer é caso de antes e depois pro feed, decide antes qual problema você quer mostrar. Se você está se posicionando em derretimento facial, a paciente mais nova, que não tem derretimento nenhum, não entra nessa edição, por mais simpática que ela seja. E é pra ela que serve a saída aqui embaixo. Agora, se a vaga é pra ter caso e caixa ao mesmo tempo, você não precisa escolher: vai da situação direto pra apresentação.\" Usa o exemplo da própria fonte, repete \"derretimento\" sem sinônimo, deixa explícito pra quem é a frase de saída e abre a virada com \"Agora,\" (item 23).",
+   "motivos": [
+    "A bifurcação está mesmo apertada em duas frases e os dois lados não se opõem com clareza (\"casos no feed\" contra \"caixa e caso ao mesmo tempo\": os dois querem caso), e \"ponto de decisão\" é cunhado sem a definição colada que o item 22 da whitelist registra como hábito dela. Refuto a segunda metade da acusação: \"Se não faz sentido\" ecoa literalmente o \"se faz sentido você ainda nessa edição\" do card de conexão, então ali a repetição sem sinônimo está funcionando. A correção proposta é boa, mas troca o exemplo concreto que a autora deu na fonte (derretimento facial contra paciente mais nova sem derretimento) por um inventado (mandíbula e olheira), o que joga fora imagem dela sem precisar."
+   ]
+  },
+  {
+   "revisor": "leitora",
+   "tipo": "leitora",
+   "gravidade": "media",
+   "trecho": "Me manda uma foto, se puder, diferente de perfil.",
+   "detalhe": "Não entendi o que eu peço. Uma foto diferente da de perfil do WhatsApp? Uma de frente e outra de perfil? Travei numa frase pronta, que é justamente o tipo de coisa que eu ia copiar e colar sem pensar. Uma frase colável que eu não entendo é pior do que nenhuma.",
+   "correcao": "Dentro do card, uma linha que cobre as duas leituras possíveis sem inventar exigência nova: \"Me manda uma foto sua de frente, se puder. Não vale a do perfil.\" E, fora do card, uma frase que já existe em espírito no capítulo: \"A foto não é enfeite. É onde a seleção começa.\" Antes de fechar, vale confirmar com a Ana qual dos dois sentidos era o dela, porque a fala original permite os dois.",
+   "motivos": [
+    "A frase está ambígua mesmo dentro de um card colável, e card que a leitora não entende ela não cola. A ambiguidade vem da fonte (a transcrição traz \"Me manda uma foto, se você puder, diferente de perfil\"), mas fidelidade à fala não obriga a carregar uma ambiguidade pro texto colável, e nada na whitelist protege isso. A correção proposta falha no critério 4 porque escolhe um sentido que a fonte não sustenta (passa a pedir duas fotos, de frente e de lado) e ainda acrescenta exigências que a autora nunca fez (\"luz boa\", \"sem filtro\")."
+   ]
+  },
+  {
+   "revisor": "leitora",
+   "tipo": "leitora",
+   "gravidade": "media",
+   "trecho": "Quem veio pelo quiz chega um pouco mais consciente, porque leu bastante coisa no caminho.",
+   "detalhe": "Que quiz? Nada antes no livro fala de quiz. Eu não tenho quiz, tenho um anúncio e um WhatsApp. Por meio parágrafo eu acho que perdi um capítulo, e ainda fico com a impressão de que o método pressupõe uma estrutura que eu não montei.",
+   "correcao": "Ou explicar em meia linha o que é (\"quem passou por um formulário de perguntas antes de cair no seu WhatsApp\"), ou tirar a referência e ficar só na parte que serve pra todo mundo: quem cai direto na mensagem precisa dessa conscientização na conversa.",
+   "motivos": [
+    "Grep no manuscrito inteiro: \"quiz\" aparece uma única vez em todo o livro, exatamente nessa linha do anexo, sem nenhuma definição anterior. Na fonte o quiz é um TIPO de anúncio (\"você já fez ele pelo quiz ou fez pelo anúncio estático com mensagem direta para o WhatsApp?\"), então a leitora que só tem anúncio estático realmente não tem como saber do que se trata. A correção proposta passa nos quatro critérios: glosa de meia linha, sem travessão, sem tell, e preserva a parte que serve pra todo mundo."
+   ]
+  },
+  {
+   "revisor": "voz",
+   "tipo": "voz",
+   "gravidade": "media",
+   "trecho": "Quem veio pelo quiz chega um pouco mais consciente, porque leu bastante coisa no caminho.",
+   "detalhe": "'bastante' está na lista explícita de palavras que ela NÃO usa: 'muito é o único intensificador dela. Não aparece extremamente, incrivelmente, super, bastante.' E o inverso também é verdade no capítulo: contei ZERO ocorrências de 'muito' em 621 palavras, quando a dose medida é 11,6 por mil e a recomendada é 15 a 20 por capítulo de 2.000 palavras. Whitelist 19 apagada.",
+   "correcao": "Quem veio pelo quiz chega um pouco mais consciente, porque leu muita coisa no caminho.",
+   "motivos": [
+    "Confirmado e verificado no arquivo: 1 \"bastante\" e 0 \"muito\" em 621 palavras, quando a dose escalada de \"muito\" é ~7. \"bastante\" está nominalmente vetado em duas partes do fingerprint (§1 conectores e whitelist 19), não em inferência. Correção de uma palavra, sem risco de tell novo."
+   ]
+  },
+  {
+   "revisor": "voz",
+   "tipo": "voz",
+   "gravidade": "media",
+   "trecho": "A palavra é «reserva», e não consulta.",
+   "detalhe": "Contraste na ordem errada. Whitelist 1: 'Contraste não X, Y, 6 ocorrências, 3 de 3. A negativa vem primeiro em todas.' Aqui a positiva vem primeiro e a negativa vira apêndice depois da vírgula, que é o jeito neutro de escrever, não o dela. Compare com o que a própria página faz certo dois parágrafos antes ('não está procurando uma consulta. Está procurando uma oportunidade').",
+   "correcao": "Não é consulta, é «reserva».",
+   "motivos": [
+    "Confirmado: o contraste com a negativa primeiro é 6 de 6 nas três amostras (whitelist 1 diz \"em todas\"), e aqui a negativa virou apêndice depois da vírgula, que é a ordem neutra. O ritmo da frase é o que a leitora sente, e a correção proposta devolve a pancada sem inventar nada, sem travessão e sem achatar."
+   ]
+  },
+  {
+   "revisor": "voz",
+   "tipo": "voz",
+   "gravidade": "media",
+   "trecho": "Acontece. E acontece porque essa pessoa não está procurando uma consulta. Está procurando uma oportunidade, escassa, que pode não aparecer de novo.",
+   "detalhe": "'uma oportunidade, escassa, que pode não aparecer de novo' é definição de dicionário com aposto entre vírgulas, registro escrito. O capítulo inteiro não tem uma única imagem concreta dela nem uma única palavra da lista de vocabulário com sabor (dose: 1 a 2 por capítulo, item 35). Nas amostras esse mesmo trabalho é feito com coisa que se vê: 'salinha do financeiro', 'ia levar facada', 'tal qual um animal se dirige para o abatedouro', 'famigerada tela azul'. O ritmo dela também pede a pancada curta aqui, não o aposto.",
+   "correcao": "Acontece. E acontece porque essa pessoa não está procurando uma consulta. Está procurando uma vaga. E vaga é coisa que fecha.",
+   "motivos": [
+    "Confirmado: o adjetivo isolado entre vírgulas (\"uma oportunidade, escassa, que pode não aparecer de novo\") é a construção mais escrita do capítulo e contraria a regra do §6 \"a imagem forte vai sozinha na frase, sem adjetivo extra\". A correção proposta usa repetição sem sinônimo, \"E\" inicial e pancada curta, todos confirmados 3 de 3, e ancora na palavra que o capítulo inteiro já usa (\"vaga\"), sem travessão e sem perder a escassez."
+   ]
+  }
+ ],
+ "refutados": [
+  {
+   "revisor": "tell",
+   "trecho": "Se o objetivo é caixa e caso ao mesmo tempo, não tem esse ponto de decisão: vai da situação direto pra apresentação.",
+   "detalhe": "\"Caixa\" aparece do nada e \"esse ponto de decisão\" não tem antecedente. A fonte abre a bifurcação antes de usar (\"pessoas que estão fazendo o processo de paciente modelo para ter caixa, tem pessoas que é para ter caso, caso no feed\") e o capítulo cortou a montagem e manteve a conclusão. Pior: o ponto de decisão só aparece no texto DEPOIS, como a saída (\"Se não faz sentido, tem uma saída que não humilha ninguém\"), então a referência aponta pra frente. A leitora tem que reler o parágrafo pra reconstruir que existiam dois objetivos.",
+   "motivo": "sem veredito do cetico (falha)"
+  },
+  {
+   "revisor": "tell",
+   "trecho": "Se você está fazendo paciente modelo pra ter casos no feed, você precisa ter definido qual problema você resolve, e não abrir a vaga pra todo tipo de paciente.",
+   "detalhe": "A fonte dá o critério com exemplo concreto e com termo proprietário da casa: \"não faz sentido (...) que eu abra o meu espectro de seleção de paciente modelo para todo tipo de paciente, pessoas mais novas, sem derretimento facial, se eu vou buscar me posicionar em derretimento\". O capítulo apagou o exemplo e ficou só com a regra abstrata (\"todo tipo de paciente\"), que é exatamente o que a leitora já sabia. \"Derretimento Facial\" é termo proprietário da casa e sumiu; era a única imagem concreta desta seção.",
+   "motivo": "sem veredito do cetico (falha)"
+  },
+  {
+   "revisor": "tell",
+   "trecho": "A palavra é «reserva», e não consulta. O valor da reserva já entra como parte do pagamento, sem taxa extra.",
+   "detalhe": "A regra chegou sem o mecanismo. A fonte mostra a objeção que obriga a troca de palavra: \"Poxa, mas não teve uma avaliação mais ou menos minha aqui? Vai ter uma consulta também? Não, a gente não vai usar consulta, a gente vai usar esse termo, a reserva, para travar a sua vaga\". Sem essa fala, a leitora não sabe o que quebra se ela escrever \"consulta\", e a prescrição vira preferência de vocabulário. Some também o hábito confirmado 3 de 3 no fingerprint (item 15): fala alheia em discurso direto sem aspas, que aqui estava pronta na fonte.",
+   "motivo": "sem veredito do cetico (falha)"
+  },
+  {
+   "revisor": "tell",
+   "trecho": "E aqui entram as informações da vaga. A data disponível. O valor normal e o valor como modelo. A autorização de uso de imagem, pra antes e depois e pra anúncio. E a reserva pra travar a vaga.",
+   "detalhe": "Tell 4.10 (lista de substantivos nus) na forma de 1.3 (fragmentos em rajada): quatro sintagmas nominais sem verbo, com ponto entre eles, todos do mesmo formato. O conteúdo é legítimo (são os campos reais da oferta), a forma não é dela. O fingerprint é explícito na seção 6: \"3 de 3 enumeram em linha, 0 de 3 sugerem lista\", inclusive a enumeração de 4 degraus da A2. Ela enumera em prosa corrida, não em rajada de fragmentos.",
+   "motivo": "sem veredito do cetico (falha)"
+  },
+  {
+   "revisor": "tell",
+   "trecho": "Quem faz o 715 inteiro com ela se frustra, porque no final ela questiona o preço mais do que uma paciente normal, e o volume não deixa: tem clínica que recebe dez, vinte, quarenta mensagens de paciente modelo por dia.",
+   "detalhe": "O maior número do capítulo, que é o que justifica o atalho inteiro, está enterrado no fim de uma frase de 38 palavras com duas orações e dois-pontos. O traço rítmico número 1 dela (whitelist 6, 3 de 3) é o contrário: frase longa de construção e depois pancada curta como complemento cortado (\"talvez eu teria fechado. Lá dentro.\", \"A consulta durou 27 minutos.\"). O número redondo dela é prova e bate sozinho (item 12). Aqui ele vira subordinada. Some também \"engrenagem\", palavra da fonte (\"quando ligam essa engrenagem de paciente modelo\"), e a frase da fonte que fecha o argumento (\"fica inviável a gente fazer o framework completo com todo mundo\"). No capítulo inteiro são 554 palavras com zero perguntas na prosa dela e dois \"eu\" próprios: o registro é de manual, não é o dela.",
+   "motivo": "sem veredito do cetico (falha)"
+  },
+  {
+   "revisor": "fidelidade",
+   "trecho": "prova: \"Anexo C · Paciente modelo\"",
+   "detalhe": "O mapa de capítulos não prevê este anexo. Ele lista 14 blocos e só dois anexos: \"A | Anexo 1: Cola de uma página\" e \"B | Anexo 2: Banco de perguntas\", ambos com fonte \"Perguntas p.1-3\". Um capítulo C, com fonte nova (transcrição da aula de paciente modelo), entrou no manuscrito sem entrar na estrutura aprovada. Não é erro de conteúdo, é divergência entre o mapa e o livro: quem for compilar o PDF pelo mapa não vai saber que existe um anexo C nem onde ele cai na ordem.",
+   "motivo": "O livro.json, que e a fonte de verdade da compilacao, ja lista o Anexo C logo depois do B com o titulo correto, e o arquivo esta nomeado na sequencia A/B/C do manuscrito, entao a premissa de que \"quem compilar o PDF nao vai saber que existe\" nao se sustenta. O mapa e um documento de planejamento marcado \"v1, para aprovacao\" que ja prevê fonte nova entrando depois como passada de fidelidade. Nenhuma leitora nota ou e prejudicada: atualizar a tabela do mapa e higiene de documento, nao defeito no capitulo."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "A paciente que chega por anúncio de paciente modelo é outra conversa, e a gente ensina isso separado na plataforma. Eu deixo aqui o resumo, porque a dúvida chega direto pra gente",
+   "detalhe": "Terceira linha do anexo e eu já sei que o conteúdo bom está em outro lugar que eu não comprei. \"Eu deixo aqui o resumo\" me diz, na cara, que estou lendo a versão reduzida. Eu paguei pelo livro. Se o assunto cabe no livro, ele tem que vir inteiro; se não cabe, não cita a plataforma, cita o motivo.",
+   "motivo": "O trecho está no arquivo (linha 12) e nada na whitelist protege menção a plataforma; a whitelist cobre tiques de voz, não escopo comercial. A fonte não sustenta a frase: na transcrição a plataforma aparece só como onde mora o framework 715, nunca como \"a gente ensina paciente modelo separado\", então \"Eu deixo aqui o resumo\" é invenção do escritor que rebaixa o que o anexo de fato entrega (script completo até o passo 7). A correção proposta é boa em voz, mas apaga \"porque a dúvida chega direto pra gente\", que é o gancho da citação que vem logo depois e é fiel à fonte (\"Vocês trazem isso para nós direto\"), deixando a aspas órfã."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "\"os leads estão chegando, mas depois que eu passo o preço a maioria questiona. Como assim, paciente modelo e eu vou ter que pagar?\"",
+   "detalhe": "Essa é exatamente a minha dor e é ela que me faz continuar lendo. O capítulo inteiro passa e nunca me dá o que dizer quando a paciente responde isso. Eu recebo a explicação de por que acontece (\"vira um processo seletivo\") e recebo um script que evita chegar lá, mas se ela questionar mesmo assim eu continuo sem frase. Fecho o capítulo com a pergunta de abertura em aberto.",
+   "motivo": "Confirmei varrendo o capítulo inteiro: a objeção citada na abertura nunca ganha frase de resposta. O que existe é explicação do porquê (parágrafo 2), um card que pré-enquadra (\"por um valor mais acessível\") e um parágrafo que resolve outra objeção (reserva x consulta), e a transcrição também não fecha esse laço. A correção proposta é fiel (troca de imagem, vaga limitada e seleção estão todas na fonte) e está na voz dela, mas troca \"valor mais acessível\" por \"valor bem abaixo do normal\" duas linhas depois do card que usa \"mais acessível\", que é exatamente o trocar-por-sinônimo proibido pelo item 9 da whitelist."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "E aqui entram as informações da vaga. A data disponível. O valor normal e o valor como modelo. A autorização de uso de imagem, pra antes e depois e pra anúncio. E a reserva pra travar a vaga.",
+   "detalhe": "Esse é o minuto em que a conversa quebra, o próprio capítulo diz isso na abertura, e é o único ponto do texto onde você para de me dar frase pronta e me dá lista de tópicos. Todo o resto tem card com texto colável. Aqui eu tenho que redigir sozinha justamente a mensagem mais difícil, no celular, entre pacientes. Eu pulo esse trecho porque não dá pra usar.",
+   "motivo": "É verdade que este é o único beat do capítulo sem card colável, e é o beat do preço, que a própria abertura aponta como o ponto onde a conversa quebra. A whitelist protege a enumeração em prosa (3 de 3 amostras enumeram em linha, 0 sugerem bullet), então substituir a prosa pelo card viola o item de enumeração; e a fonte diz explicitamente \"essas informações podem estar contidas dentro de um texto mais elaborado, se você achar interessante\", ou seja, ela deixou a redação em aberto de propósito. Por isso a correção precisa somar o card à prosa em vez de trocar uma pela outra."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "O que a gente pede é que você teste os dois jeitos e traga pra gente, nos treinamentos, o que está funcionando na sua mão.",
+   "detalhe": "O anexo termina me mandando pra um lugar que eu não tenho. Eu não tenho treinamento, tenho o livro. Somado a \"Tem clínica na mentoria que faz mais direto ainda\", a última página me deixa do lado de fora, como se a leitora de verdade fosse a mentorada e eu estivesse lendo o material dela. É a sensação de estar sendo empurrada pra comprar de novo dentro do que já comprei.",
+   "motivo": "O trecho está na linha 58 e não há whitelist que o proteja; ao contrário, o fingerprint registra em 3 de 3 amostras que ela nunca fecha com chamada de venda, e a transcrição mostra que \"na mentoria\" foi acréscimo do escritor (a fonte diz só \"algumas pessoas\"). O anexo é o último texto do livro e termina mandando a leitora pra treinamentos e comunidade que ela não comprou, o que é o mesmo problema do achado 0 aparecendo no fecho. A correção proposta passa nos quatro critérios: sem travessão, com concessão de humildade colada na prescrição (\"mesmo que não seja o que eu faria\", item 14) e fecho sem moral (item 24)."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "Nem só a mensagem \"topa ou não topa\", nem os sete passos completos.",
+   "detalhe": "Você cita a mensagem \"topa ou não topa\" como se eu já soubesse o que é, e ela só aparece explicada no último parágrafo do capítulo. Não me travou, mas li com a sensação de estar entrando no meio de uma conversa.",
+   "motivo": "\"Topa ou não topa\" não é termo cunhado nem jargão: é fala corrente em português e se explica sozinha na primeira leitura, tanto que a própria revisora diz que não travou. A frase atual (\"Nem só a mensagem 'topa ou não topa', nem os sete passos completos\") é justamente o contraste de dois lados curtos e simétricos que o item 1 da whitelist marca como assinatura dela no registro sério, e a aposição proposta alonga um lado e achata a pancada. Além disso a expressão é dela, está literal na transcrição (\"quase que uma mensagem, você topa ou não topa\"), então trocar por paráfrase perde vocabulário da autora sem ganhar clareza."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "O que a gente pede é que você teste os dois jeitos e traga pra gente, nos treinamentos, o que está funcionando na sua mão.",
+   "detalhe": "O capítulo fecha em tarefa administrativa. Contei 4 interrogações no capítulo inteiro e as 4 estão DENTRO dos scripts (fala pra paciente) ou dentro da dúvida citada. Zero pergunta da Ana pra leitora. Isso apaga dois itens confirmados da whitelist de uma vez: item 3 (perguntas diretas à leitora em série, com 'você', no fecho, 2 de 3 amostras, até 4 seguidas) e o traço de fecho 'pergunta direta à leitora com você nas últimas cinco frases' (A2 quatro seguidas, A3 duas). O guia manda 12 a 18 perguntas por capítulo de 2.000 palavras, sendo 2 a 4 em série no fecho. Também falta a sentença curta imediatamente antes do fecho (2 de 3).",
+   "motivo": "Confirmado: as 4 interrogações estão todas dentro de script ou da dúvida citada, e o capítulo fecha pedindo tarefa, que não é nenhuma das três formas de fecho dela (pergunta em série, carimbo, fecho baixo). A correção proposta resolve, mas a segunda pergunta tem 24 palavras e front-loading pesado, diferente das dela, que são curtas e paralelas; e continua faltando a sentença curta antes do fecho (traço 2 de 3)."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "A seleção começa na foto. Se você está fazendo paciente modelo pra ter casos no feed, você precisa ter definido qual problema você resolve, e não abrir a vaga pra todo tipo de paciente.",
+   "detalhe": "Prescrição entregue como regra fechada. O fingerprint diz, no transversal 3 de 3: 'Ela dá a posição como observação (pelo que eu observo, que eu conheço, eu sinto que), não como regra. E amortece com acho que quando prescreve.' Whitelist 18 ('acho que' amortecendo a prescrição) manda 1 a 2 por capítulo. O capítulo inteiro tem zero 'acho que', zero 'pelo que eu observo', zero 'eu sinto que'. Ainda por cima 'você precisa ter definido' é construção mais formal do que qualquer coisa nas três amostras (nível de formalidade dela: 3 de 10 na fala, 4 de 10 no livro).",
+   "motivo": "Refutado pelo próprio fingerprint: o touchstone T4 mostra ela prescrevendo em condicional sem nenhum amortecedor (\"está tudo certo, continua desse jeito\"), e o trecho acusado é exatamente a condicional espelhada dela (se o objetivo é caso no feed / se o objetivo é caixa e caso), que já é a forma de dar posição sem virar regra. A postura de observação também está presente no capítulo por outra via (\"Tem clínica que recebe dez, vinte, quarenta\", \"Tem clínica na mentoria que faz mais direto ainda... Tem dado certo também\"), e a dose de \"acho que\" escalada pra 621 palavras é 0,3 a 0,6, então zero não é desvio. Ainda por cima a correção empilha \"pelo que eu observo\" e \"acho que\" na mesma frase, o que não acontece em nenhuma das três amostras e vira tell de hedge duplo."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "O que a gente usa é um meio-termo. Nem só a mensagem \"topa ou não topa\", nem os sete passos completos.",
+   "detalhe": "A primeira pessoa sumiu. Contei 7 'eu' no corpo, mas só 2 são da Ana em prosa ('Tudo que eu te mostrei', 'Eu deixo aqui o resumo'); os outros 5 estão dentro de script ou de fala citada. São 2 'eu' em cerca de 470 palavras de prosa, ou seja 4 por mil, contra 46 por mil medidos nas amostras e contra a dose recomendada de 40 a 60 por capítulo de 2.000 palavras (20 a 30 por mil). Whitelist 7 (caso pessoal em primeira pessoa, 3 de 3) e padrão macro 1 (abertura em primeira pessoa com experiência vivida, 3 de 3) foram apagados: do parágrafo 3 até o fim não existe mais autora, existe manual.",
+   "motivo": "Confirmado: 2 \"eu\" em ~470 palavras de prosa contra 12 a 19 esperados nessa extensão, e do parágrafo 3 até o fim não existe autora. Troca boa também porque o capítulo já tem 6 \"a gente\" (acima da dose escalada), então o swap corrige os dois contadores. Só ressalvo que \"vejo funcionando\" transforma o que a casa ENSINA em observação pessoal, o que é um problema de fidelidade e não de voz."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Quem veio direto pra mensagem precisa dessa conscientização aqui, na conversa.",
+   "detalhe": "'conscientização' é exatamente a família de nominalização abstrata que o fingerprint lista como estrangeira à voz dela (ao lado de 'jornada', 'abordagem', 'protagonismo', 'autoconhecimento'). O vocabulário dela nesse lugar é 'entender', 'perceber', 'saber'. E quando a palavra grande é inevitável, ela amortece ('do seu próprio propósito, digamos assim'). Aqui não amortece nem traduz.",
+   "motivo": "Refutado: \"conscientização\" não está na lista de palavras estrangeiras à voz dela e fica no mesmo registro dos termos de negócio que ela usa sem explicar (§3: \"processo de convencimento\", \"fator comportamental\", \"performance\", \"perspectiva\", \"identidade\"). A regra de amortecer palavra grande está marcada no próprio fingerprint como inferência a partir de 1 ocorrência (\"digamos assim\"), não como hábito 2 de 3, então não sustenta acusação de gravidade média."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Se o objetivo é caixa e caso ao mesmo tempo, não tem esse ponto de decisão: vai da situação direto pra apresentação.",
+   "detalhe": "'ponto de decisão' é vocabulário de fluxograma, não dela. O fingerprint registra o que ela usa nesse campo: 'processo', 'movimento', 'ponto' (solto, como em 'ponto importante'), 'formato', 'forma', 'situação', 'cenário', 'fator', 'questão'. Ela não constrói termo composto de processo. Composto ela só usa quando é termo que ela mesma cunhou ('procrastinação ativa', 'salinha do fechamento', 'conversa mental'), e aí define nas frases seguintes.",
+   "motivo": "Refutado na premissa: o fingerprint (§3, termos de negócio) lista vários compostos de processo que ela usa sem definir — \"processo de convencimento\", \"plano de tratamento\", \"taxa de fechamento\", \"fator comportamental\", \"volume de leads\", \"gestão de tempo\". \"ponto de decisão\" usa a palavra dela (\"ponto\") nessa mesma família, e uma leitora não tropeça. A correção ainda troca por \"peneira\", que é imagem cunhada nova, risco maior do que o suposto problema."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Eu deixo aqui o resumo, porque a dúvida chega direto pra gente: \"os leads estão chegando, mas depois que eu passo o preço a maioria questiona. Como assim, paciente modelo e eu vou ter que pagar?\"",
+   "detalhe": "Fala alheia entrando por dois pontos e aspas, sem dono. Whitelist 15: 'Fala alheia e pensamento próprio em discurso direto sem aspas, depois de falou,, Falei,, Eu fico,: 3 de 3, 9 ocorrências. Editor vai querer pôr aspas. Não pôr.' Nas amostras ela sempre dá um rosto à frase: 'eu ouvi de uma delas, mas é porque a minha cidade é muito pequena', 'Aí uma outra falou, é porque também eu acho que'. Aqui a dúvida flutua sem ninguém dizendo.",
+   "motivo": "Refutado pela própria whitelist 15, que abre a exceção literal: \"Não pôr [aspas], ou pôr só quando a frase reproduzida for longa\" — e a dúvida citada tem duas frases, ~25 palavras. O dono também existe no texto (\"a dúvida chega direto pra gente\"). A correção ainda introduz \"Elas falam\" com \"elas\" sem antecedente no capítulo, o que é defeito novo, não conserto."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Quem faz o 715 inteiro com ela se frustra, porque no final ela questiona o preço mais do que uma paciente normal, e o volume não deixa: tem clínica que recebe dez, vinte, quarenta mensagens de paciente modelo por dia.",
+   "detalhe": "Frase de 39 palavras com três articulações (porque, e, dois pontos) e nenhuma pancada curta depois. Whitelist 6: 'Pancada curta depois de frase longa, como complemento cortado: 3 de 3. É o principal traço rítmico.' O guia de fala para escrita manda quebrar as frases longas em duas ou três mantendo o marcador na junta. O número em escala ('dez, vinte, quarenta') é dela e está certo, mas está enterrado no fim de uma subordinada em vez de vir sozinho, como '3 mil clínicas' e '27 minutos' vêm nas amostras.",
+   "motivo": "Refutado: a frase tem 39 palavras, dentro dos 12% de longas dela, e o guia §6 só manda quebrar as de 45 a 73 palavras geradas por transcrição. Ela termina na enumeração em escala com número redondo, que o próprio revisor reconhece como dela, e o parágrafo seguinte já abre com frase de 7 palavras, o que dá a pancada curta. Os dois pontos caem na lacuna 4 do fingerprint (pontuação escrita: zero evidência), então não dá pra acusar por isso."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Se não faz sentido, tem uma saída que não humilha ninguém.",
+   "detalhe": "Zero muleta oral no capítulo: nenhum 'tá?', 'né', 'sabe?', 'enfim', 'olha', 'aí'. A dose dela é baixa (1 a 2 por mil), então em 621 palavras cabe pouca coisa, mas cabe pelo menos uma, e este é o lugar exato: whitelist 11 diz que 'tá?' vem 'sempre depois de aparte ou de aviso' ('tudo certinho, tá?', 'Eu já dou spoiler, tá?'). Esta frase é literalmente um aviso antes de dar a saída.",
+   "motivo": "Refutado por dose: \"tá?\" tem 2 por capítulo de 2.000 palavras, o que em 621 palavras dá menos de 1, então zero não é desvio. E o lugar escolhido viola a regra do próprio item que o revisor cita: \"tá?\" nunca fecha parágrafo de prescrição, e essa frase é a prescrição que abre o script de saída, não um aparte nem um spoiler."
+  }
+ ],
+ "cego": null
+}

@@ -1,0 +1,46 @@
+C-paciente-modelo.md · rodada 2 · brutos 15 · confirmados 9 · altas 3 · cego pessoa 60
+
+[1] tell/media
+  TRECHO: Acontece. E acontece porque essa pessoa não está procurando uma consulta. Está procurando uma vaga, e vaga é coisa que fecha, então o atendimento vira um processo seletivo.
+  DETALHE: Contraste fácil na forma partida em duas frases (catálogo 1.1: "Isso não significa X. Significa Y."). A metade negativa é invenção do texto: a fonte não nega consulta nenhuma, ela repete o positivo ("são pessoas que estã
+  CORRECAO: Acontece. E acontece porque essa pessoa está procurando uma oportunidade. Literalmente uma oportunidade, uma oportunidade escassa, que talvez não aconteça de novo. Então a gente precisa tratar esse atendimento mais do que nunca como um processo seletivo, um processo de seleção mesmo.
+
+[2] tell/media
+  TRECHO: Quem veio pelo quiz, que é o formulário de perguntas que ela responde antes de cair no seu WhatsApp, chega um pouco mais consciente, porque leu muita coisa no caminho. Quem veio direto pra mensagem precisa dessa conscientização aqui, na conversa.
+  DETALHE: Espelhamento sintático dos dois lados: duas frases gêmeas, mesma abertura ("Quem veio..."), mesmo comprimento, uma pra cada metade. O fingerprint v3 é categórico: espelhamento dos dois lados é zero no corpus de 80.938 pa
+  CORRECAO: Tem gente que veio pelo quiz, que é aquele formulário de perguntas que ela responde antes de cair no seu WhatsApp, e essa chega um pouquinho mais consciente, porque leu bastante informação no caminho. Quando ela veio direto pra mensagem, essa conscientização a gente precisa fazer aqui também, na conversa. Tudo bem?
+
+[3] tell/media
+  TRECHO: Se o que você quer é caso pro feed, decide antes qual problema você quer mostrar.
+  DETALHE: Imperativo seco no "você" onde a fonte prescreve em primeira pessoa de demonstração: "se eu estou buscando ter meus super casos, eu tenho que ter definido qual é o problema que eu resolvo, certo?". O fingerprint mede "a 
+  CORRECAO: Linha 14: "E fica inviável a gente fazer o framework completo com todo mundo: tem clínica que recebe dez, vinte, quarenta mensagens de paciente modelo por dia." Linha 32: "Se o que você quer é caso pro feed, a gente precisa ter definido antes qual é o problema que você resolve, certo?" Linha 56: "Se ela não pode naquela hora, ela fala e a gente vai ajustando o horário."
+
+[4] tell/media
+  TRECHO: Tem clínica na mentoria que faz mais direto ainda: uma conexão breve e já manda a apresentação inteira, pode ou não pode. Tem dado certo também. Então o que a gente pede é que você teste os dois jeitos e traga pra gente, nos treinamentos, o que está funcionand
+  DETALHE: Ritmo de metrônomo (catálogo 2.4), medido em unidade de fôlego no capítulo inteiro sem os blocos de script: coeficiente de variação 0,754 contra 1,074 dela; unidades de uma palavra 12,0% contra 21,2% dela; unidades de 20
+  CORRECAO: Tem clínica na mentoria que faz mais direto ainda. Conexão breve e já manda a apresentação inteira, pode ou não pode, e tem dado certo também. Então o que a gente pede é o seguinte: testa os dois jeitos, faz do jeito completo, faz do jeito mais direto, e traz pra gente nos treinamentos o que está funcionando na sua mão e o que não está. Tá?
+
+[5] leitora/alta
+  TRECHO: “Os leads estão chegando, mas, depois que eu passo o preço, a maioria questiona. Como assim, paciente modelo e eu vou ter que pagar?”
+  DETALHE: Esse é o motivo pelo qual eu abri esse anexo. É literalmente a minha dor, escrita com as minhas palavras, no primeiro parágrafo. E o capítulo termina sem nunca me dar a resposta pra essa frase. Ele me ensina um caminho p
+  CORRECAO: Fechar a seção da apresentação com o bloco, sem antítese nova, montado só com o que a aula já dá (mesma doutora, mesmo cuidado, valor mais acessível, uso de imagem): «E quando vier o "como assim, eu vou ter que pagar?", que vem, ó, a resposta já é a da apresentação:» + card «Essa vaga é o mesmo procedimento, com a própria doutora e o mesmo cuidado de sempre, por um valor bem abaixo do normal. O que a gente pede em troca é usar as suas fotos de antes e depois aqui e nos anúncios da clínica. Faz sentido pra você assim?» + uma linha de rota, no formato do anexo A: «E se ela continuar no valor, a lógica é a mesma do capítulo 11: ela ainda não entendeu o que está levando.»
+
+[6] leitora/alta
+  TRECHO: E aqui entram as informações da vaga, ó: a data disponível, o valor normal e o valor como modelo, a autorização de uso de imagem pra antes e depois e pra anúncio, e a reserva pra travar a vaga.
+  DETALHE: Todo o resto do capítulo me deu texto pronto pra copiar. Conexão tem card. Situação tem card. Saída tem card. Fechamento tem card. Justo a mensagem onde o preço aparece, que é a única que quebra a conversa, vira uma list
+  CORRECAO: Virar card com os elementos da aula e placeholders, mantendo o «não é consulta, é reserva» que já está logo abaixo: «A vaga que abriu é dia [data], às [hora]. O valor normal desse protocolo é [valor] e como paciente modelo fica [valor]. Como modelo, a gente usa as suas fotos de antes e depois aqui da clínica e nos anúncios, tá? Pra travar a vaga tem a reserva de [valor], que já entra como parte do pagamento.» Depois do card, uma linha só: «Pode ir tudo numa mensagem só, num texto mais elaborado, se você achar melhor. A ordem é essa, ó.»
+
+[7] leitora/alta
+  TRECHO: Então o que a gente pede é que você teste os dois jeitos e traga pra gente, nos treinamentos, o que está funcionando na sua mão e o que não está funcionando também.
+  DETALHE: Essa é a última frase do capítulo e ela não é comigo. Eu comprei um ebook numa página de vendas. Eu não tenho treinamento pra levar nada. Somado ao “Tem clínica na mentoria que faz mais direto ainda”, o fecho me coloca d
+  CORRECAO: Manter o «Tem clínica na mentoria que faz mais direto ainda» (é prova de escala, não exclusão) e trocar só o pedido final por algo que ela cumpre sozinha, com a tag de checagem dela: «Então o que a gente pede é que você teste os dois jeitos na próxima leva de mensagens e fique com o que estiver fechando mais na sua mão, tá bom?»
+
+[8] leitora/media
+  TRECHO: Antes de passar as informações sobre a vaga de paciente modelo, deixa eu entender rapidinho se faz sentido você ainda nessa edição.
+  DETALHE: Essa frase eu ia copiar e colar, e ela sai torta no meu WhatsApp. Falta uma palavra: se faz sentido você entrar ainda nessa edição. E é a primeira vez que a palavra edição aparece no livro, dentro do script, sem ninguém 
+  CORRECAO: No card: «deixa eu entender rapidinho se faz sentido você entrar ainda nessa edição». E uma linha antes do card, sem inventar regra de fechamento: «Edição aqui é a leva de vagas de modelo que você abre no mês, tá.»
+
+[9] leitora/media
+  TRECHO: Só que a paciente que chega por anúncio de paciente modelo é outra conversa e tem framework próprio e por isso eu deixo aqui o resumo, né
+  DETALHE: Terceira linha do capítulo e eu já entendo que existe um material completo que eu não tenho na mão. Você me diz que tem framework próprio e me entrega o resumo. Eu paguei pelo livro. A frase também vem embolada, com dois
+  CORRECAO: Trocar só o miolo, mantendo o período correndo emendado: «Só que a paciente que chega por anúncio de paciente modelo é outra conversa e tem um caminho próprio, mais curto de propósito, e é ele inteiro que está aqui, né, porque a dúvida chega direto pra gente: [...]». Não quebrar em duas frases.

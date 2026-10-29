@@ -1,0 +1,90 @@
+{
+  "rodada": 3,
+  "data": "2026-09-09",
+  "lente": "corpus de fala da autora (80.938 palavras), 2a leva",
+  "juri": "opus-5",
+  "brutos": 11,
+  "confirmados_n": 5,
+  "altas_confirmadas": 1,
+  "aparado_por_colisao": "",
+  "resumo": "O bloco C é o mais bem ancorado do livro em transcrição de aula (script-paciente-modelo.txt cobre quase tudo), então as trocas não são de conteúdo, são de textura: nos pontos em que a aula era vaga, a prosa composta fechou o buraco com frase de autor (\"uma saída que não humilha ninguém\", \"fica com o que funcionar na sua mão\", \"por mais simpática que ela seja\"). O corpus tem a Ana falando de paciente modelo em 16 lugares (linhas 864-940, 3796-3828, 6408-6410) e ela é MUITO mais concreta ali do que na aula gravada: \"microavaliação ali dentro do WhatsApp\", \"uma pessoa mais ou menos na faixa dos 28 anos\", \"a gente já agradece\", \"sem isso, qualquer investimento em paciente modelo é dinheiro jogado fora\", \"quem não tá recebendo uns tapa na cara é porque tá testando pouco\". São 6 trocas, 2 altas. Um achado extra de fidelidade que o corpus resolveu: o livro manda pedir foto, e em outro ponto do corpus ela diz que \"fazer avaliação no WhatsApp é terminantemente proibido\" (linha 6786); a linha 874 mostra que paciente modelo é a exceção declarada por ela, e a troca 3 traz isso pro texto, o que ao mesmo tempo humaniza e conserta uma incoerência com o resto do livro. Em sem_fonte, o mais grave é a frase de resposta à objeção \"vou ter que pagar?\": ela não existe em nenhuma das três fontes, nem no corpus, nem na transcrição da aula. A aula levanta essa objeção na abertura e nunca a responde. E o script composto responde justificando o preço, que é exatamente o que o manual de objeções classifica como resposta que faz perder o lead.",
+  "confirmados": [
+    {
+      "tipo": "troca",
+      "gravidade": "alta",
+      "trecho": "Se o que você quer é caso pro feed, a gente precisa ter definido antes qual é o problema que você resolve, certo?",
+      "fala_dela": "Pega aqui, assiste essas quatro aulas de posicionamento que você vai definir qual que é o problema que você resolve\n\nE sem isso, qualquer investimento em paciente modelo é dinheiro jogado fora",
+      "aplicado": "A seleção começa na foto. Se o que você quer é caso pro feed, a gente precisa ter definido antes qual que é o problema que você resolve, certo? E sem isso, qualquer investimento em paciente modelo é dinheiro jogado fora.",
+      "cetico": "Grep confirma as duas falas literais no corpus: linha 3796 (\"assiste essas quatro aulas de posicionamento que você vai definir qual que é o problema que você resolve\") e linha 3798 (\"E sem isso, qualquer investimento em paciente modelo é dinheiro jogado fora\"), e o contexto é exatamente paciente modelo, a mesma doutrina do trecho. O trecho do livro existe como citado, a proposta fica fora de bloco :::frase, não tem travessão nem itálico e não acrescenta marcador oral. O \"sem isso\" ancora no condicional da frase anterior, então não atropela a rota \"caso e caixa\" duas frases adiante."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "media",
+      "trecho": "A seleção começa na foto.",
+      "fala_dela": "A paciente modelo, ela precisa passar por uma avaliação, uma microavaliação ali dentro do WhatsApp também",
+      "aplicado": "A paciente modelo, ela precisa passar por uma avaliação, uma microavaliação ali dentro do WhatsApp também. A seleção começa na foto.",
+      "cetico": "Fala literal na linha 874, no mesmo assunto (paciente modelo, microavaliação dentro do WhatsApp) e respondendo à mesma pergunta de abordagem de interessada em ser modelo. Não contradiz o bloco nem o resto do manuscrito: grep em manuscrito/ não acha nenhuma proibição de avaliar no WhatsApp, e no corpus a linha 6738 (\"terminantemente proibido\") é sobre elogiar a foto, não sobre receber foto. Fica fora de :::frase, sem travessão, sem itálico e sem empilhar marcador oral."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "media",
+      "trecho": "Se você está se posicionando em derretimento facial, a paciente mais nova, que não tem derretimento nenhum, não entra nessa edição, por mais simpática que ela seja.",
+      "fala_dela": "entra em contato para ser paciente modelo, uma pessoa mais ou menos na faixa dos 28 anos\n\npor exemplo, não é o problema que ela tá posicionada para resolver",
+      "aplicado": "Se você está se posicionando em derretimento facial e entra em contato uma pessoa mais ou menos na faixa dos 28 anos, não é o problema que você tá posicionada para resolver. Essa não entra nessa edição.",
+      "cetico": "As duas falas são literais (linhas 876 e 878) e a lógica é idêntica: paciente fora do problema em que a doutora se posiciona não entra. Só que a proposta troca o interlocutor no meio do parágrafo, que duas frases antes fala com \"você\" (\"o problema que você resolve\"), e passa a falar de \"a doutora\" em terceira pessoa; devolvo com o endereçamento consertado."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "media",
+      "trecho": "Se não faz sentido, tem uma saída que não humilha ninguém.",
+      "fala_dela": "Primeiro, se ela já fora da faixa etária ou fora do problema, a gente já agradece, tchau e bção",
+      "aplicado": "Fora da faixa etária ou fora do problema, a gente já agradece.",
+      "cetico": "Fala literal na linha 888, na mesma cena (triagem de paciente modelo, critério de faixa etária e de problema) e com a mesma função de despachar sem constranger. O ponteiro para o script não se perde, porque a frase anterior do bloco já anuncia \"E é pra ela que serve a saída aqui embaixo\", e a idade já está na vizinhança (\"a paciente mais nova\"). Sem travessão, sem itálico, fora de :::frase."
+    },
+    {
+      "tipo": "troca",
+      "gravidade": "baixa",
+      "trecho": "Tudo que eu te mostrei até aqui é pra paciente que chegou por conta própria, pelo link da bio, perguntando de procedimento ou de preço.",
+      "fala_dela": "Agora no geral vem pelo link da bio, ele tá quentinho, tá morno ali, ó\n\nTá só esperando você aquecer mais",
+      "aplicado": "Tudo que eu te mostrei até aqui é pra paciente que chegou por conta própria, pelo link da bio, perguntando de procedimento ou de preço. Quem vem pelo link da bio tá quentinho, tá morno ali. Tá só esperando você aquecer mais.",
+      "cetico": "As duas falas são literais (linhas 6818 e 6820) e caracterizam exatamente o lead do link da bio, inclusive em contraste com quem chega direto no WhatsApp, que é o contraste do parágrafo. Mas o critério 5 falha: o bloco já fecha três frases com \", ó.\" e o parágrafo ficaria com dois \"ó\" mais um \"né\", o que vira marcador oral empilhado de forma uniforme. Devolvo sem o \"ó\" acrescentado."
+    }
+  ],
+  "refutados": [
+    {
+      "trecho": "Então o que a gente pede é o seguinte, ó. Testa os dois jeitos na próxima leva de mensagens, faz do jeito completo, faz do jeito mais direto, e fica com o que funcionar na sua mão. Tá?",
+      "motivo": "A fala existe literal (linha 4962), mas o contexto é outro: é brincadeira de treinamento sobre frases agressivas de fechamento (\"Esse aí é o famoso pedir a venda\", \"não repitam isso em casa, crianças\"), ou seja, apanhar por ousar na abordagem, e não escolher entre o script completo e o direto. Falha o critério 3, e a proposta ainda apaga o desfecho do teste sem repor nada, enquanto a aula pede o oposto de silêncio: \"faça do jeito completo, faça do jeito mais quente, mais direto, fala pra gente o que você tá sentindo\" e traz nos treinamentos diários."
+    },
+    {
+      "trecho": "E quando vier o “como assim, eu vou ter que pagar?”, que vem, a resposta já é a da apresentação.",
+      "motivo": "Achei a fonte: a aula responde sim essa objeção, e a resposta é o conteúdo da apresentação (\"Tanto a consulta quanto o procedimento são feitos pela própria doutora, com o mesmo cuidado do atendimento de sempre por um valor mais acessível\" mais \"permitir o uso de imagem para antes, depois e anúncios\"), e trata na hora a variante \"vai ter uma consulta também?\" com \"não, a gente vai usar esse termo, a reserva... já entra como parte do pagamento, não é uma taxa extra\". O fecho \"faz sentido para você?\" é literal no corpus, linha 3674, na mesma situação de valor abatido. E não contradiz o manual: o que o corpus proíbe em hipótese alguma (linha 3684) é justificar por que a consulta é paga, coisa que a frase do livro não faz, além de a própria aula dizer que o lead de paciente modelo não segue o mesmo framework."
+    },
+    {
+      "trecho": "Edição é a leva de vagas de modelo que você abre no mês, tá.",
+      "motivo": "\"Edição\" é termo da casa, não do livro: aparece duas vezes no script da aula (\"entrar ainda nessa edição\", \"participar dessa edição\"), e cada peça da glosa tem fonte, com \"as vagas de paciente modelo desse mês já foram encerradas\" (aula) dando o mês e o encerramento da leva, e \"vou abrir algumas poucas vagas para modelo em harmonização facial\" (fontes/transcricao/bonus-captacao-2.txt) dando o abrir vagas. É glosa derivada das fontes, não invenção."
+    },
+    {
+      "trecho": "que é o formulário de perguntas que ela responde antes de cair no seu WhatsApp",
+      "motivo": "A aula sustenta as duas metades: a abertura opõe \"você já fez ele pelo quiz ou fez pelo anúncio estático com mensagem direta para o WhatsApp\", ou seja, a rota do quiz não cai direto no WhatsApp, e depois fala em \"processo de preenchimento do quiz, tem bastante informação lá\", que é preencher formulário. Quiz é conjunto de perguntas por definição, então \"formulário de perguntas que ela responde antes de cair no seu WhatsApp\" é leitura fiel da fonte, não acréscimo."
+    },
+    {
+      "trecho": "O valor normal desse protocolo é [valor] e, como paciente modelo, fica [valor].",
+      "motivo": "A busca do garimpeiro está errada no fato: \"protocolo\" NÃO tem zero ocorrência nas fontes, aparece em /Users/saviomoraes/reconecta/ebooks/715/fontes/transcricao/bonus-captacao-1.txt, e justamente em contexto de captação de paciente modelo, com \"estamos selecionando um modelo... para realizar o protocolo Booty Pump\" e \"O preço do protocolo é 8 mil, mas apenas domingo será XYZ\", que é exatamente a estrutura valor normal versus valor de modelo. Com fonte no próprio acervo do projeto e no mesmo assunto, a acusação cai."
+    },
+    {
+      "trecho": "Me manda uma foto sua de frente, se puder. Não vale a do perfil.",
+      "motivo": "A única fonte é mesmo \"Me manda uma foto, se você puder, diferente de perfil\", mas ela comporta a leitura frontal: em foto de rosto, perfil é a vista de lado, e a finalidade declarada na aula é fazer a seleção pela imagem (\"você já começa a fazer a seleção por aí... para entender se vai ser um super caso ou não\"), o que pede frente. Logo a regra frontal não é acréscimo sem fonte, é uma das leituras da frase de origem. O que sobra de duvidoso é a segunda sentença, \"Não vale a do perfil\", que duplica a mesma instrução na leitura de rede social, e ela está dentro de bloco :::frase."
+    }
+  ],
+  "cego": {
+    "veredito": "pessoa",
+    "confianca": 72,
+    "votos": {
+      "pessoa": 2,
+      "ia": 1,
+      "indeciso": 0
+    },
+    "leitores": 3,
+    "data": "2026-09-09"
+  }
+}

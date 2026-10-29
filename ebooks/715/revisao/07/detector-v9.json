@@ -1,0 +1,107 @@
+{
+  "arquivo": "/Users/saviomoraes/reconecta/ebooks/715/revisao/07/capitulo-limpo.md",
+  "palavras": 472,
+  "paragrafos": 10,
+  "frases": 44,
+  "mascarado": {
+    "blocos_script": 3,
+    "marcadores_bloco": 8,
+    "citacoes": 3,
+    "titulos_curtos": 4
+  },
+  "avisos": [],
+  "amostra_pequena": false,
+  "score": 10,
+  "faixa": "limpo (soa gente)",
+  "pontos": 2.5,
+  "densidade": 5.3,
+  "formula": "densidade = pontos / max(palavras, piso_palavras) * 1000; score = 100 * (1 - exp(-densidade / k)), k = 50, piso_palavras = 300 (texto curto não explode com um achado só). Nota por categoria usa k_categoria sobre a densidade só daquela categoria.",
+  "categorias": {
+    "conteudo": {
+      "rotulo": "Conteúdo e inflação",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "linguagem": {
+      "rotulo": "Linguagem e vocabulário",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "estrutura": {
+      "rotulo": "Estrutura e ritmo",
+      "achados": 1,
+      "pontos": 2.5,
+      "densidade": 5.3,
+      "nota": 30
+    },
+    "comunicacao": {
+      "rotulo": "Sobras de chatbot",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "meta": {
+      "rotulo": "Uniformidade de ritmo (estatística)",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    },
+    "calques": {
+      "rotulo": "Calques do inglês e burocratês",
+      "achados": 0,
+      "pontos": 0,
+      "densidade": 0.0,
+      "nota": 0
+    }
+  },
+  "metricas": {
+    "frases_media_palavras": 11.2,
+    "frases_desvio_padrao": 6.3,
+    "frases_cv": 0.57,
+    "paragrafos": 10,
+    "paragrafos_mediana_palavras": 33.0,
+    "paragrafos_proporcao_mesmo_tamanho": 0.6,
+    "ritmo_entre_paragrafos_desvio": 0.231,
+    "pontuacao_cv": 0.38,
+    "frases_mesmo_inicio_proporcao": 0.09,
+    "travessoes": 0,
+    "travessoes_por_mil": 0.0,
+    "dois_pontos": 0,
+    "dois_pontos_por_mil": 0.0,
+    "itens_lista": 0,
+    "proporcao_linhas_em_lista": 0.0,
+    "negritos": 0,
+    "triades": 1,
+    "triades_por_mil": 2.12,
+    "contrastes": 1,
+    "paragrafos_terminando_em_pergunta": 1,
+    "fechos_grandiosos": 0,
+    "hedges": 0,
+    "hedges_por_mil": 0.0
+  },
+  "achados": [
+    {
+      "id": "es_contraste_nao_e_x_e_y",
+      "categoria": "estrutura",
+      "subtipo": "contraste",
+      "gravidade": "media",
+      "peso": 2.5,
+      "texto": "não é informação demais, é",
+      "inicio": 2518,
+      "fim": 2544,
+      "explicacao": "Contraste fácil 'não é X, é Y': virou tique.",
+      "sugestao": "afirme a coisa que importa",
+      "contribuicao": 2.5,
+      "linha": 33,
+      "trecho": "Preço aqui «não é informação demais, é» ordem trocada."
+    }
+  ],
+  "achados_ocultos": 0,
+  "min_gravidade": "baixa"
+}

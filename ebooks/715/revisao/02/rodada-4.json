@@ -1,0 +1,215 @@
+{
+ "capitulo": "/Users/saviomoraes/reconecta/ebooks/715/manuscrito/02-vender-o-que-ela-ja-quer-comprar.md",
+ "rodada": 4,
+ "brutos": 22,
+ "confirmados_n": 6,
+ "altas_confirmadas": 2,
+ "por_revisor": {
+  "tell": {
+   "brutos": 6,
+   "confirmados": 3
+  },
+  "leitora": {
+   "brutos": 8,
+   "confirmados": 1
+  },
+  "voz": {
+   "brutos": 8,
+   "confirmados": 2
+  }
+ },
+ "confirmados": [
+  {
+   "revisor": "tell",
+   "tipo": "tell",
+   "gravidade": "alta",
+   "trecho": "«1.» O atendimento não é pra agendar. É pra entender se aquela pessoa tem um problema que você consegue resolver ou não. Parece a mesma coisa, mas na conversa não é, porque quem entra pra agendar começa a empurrar já na segunda mensagem, e a paciente sente o empurrão.",
+   "detalhe": "1.1 Contraste fácil, em cluster. Este é o terceiro «não X. Y.» em 9 linhas: linha 40 «Não é sete passos para agendar todo mundo. É a paciente sair», linha 46 «não estou falando que existe um certo ou errado. Estou falando do que eu vejo», linha 48 este, linha 50 «Agendamento é consequência, não objetivo», linha 58 «não tô te pedindo pra esconder o preço, tá? Tô pedindo pra perguntar». Somando a linha 20 (literal de A2) e a cauda da linha 42 («não quantas pagaram»), são 7 no capítulo de 1.086 palavras; a dose do fingerprint (seção 6) é 3 a 5 por capítulo de 2.000. A whitelist protege o contraste dela, não o molde repetido a cada princípio. Agrava que o 1 e o 2 dizem a mesma coisa nos dois lados do mesmo molde (a fonte 03-manual-perguntas.md p.1 já tem essa redundância, mas na prosa dela ela vira tique). Os itens 2 e 5 são nomes literais da fonte e ficam; o 1 é redação nossa.",
+   "correcao": "«1.» O atendimento é pra entender se aquela pessoa tem um problema que você consegue resolver ou não. Parece a mesma coisa que entrar pra agendar, mas na conversa não é, porque quem entra pra agendar começa a empurrar já na segunda mensagem, e a paciente sente o empurrão.",
+   "motivos": [
+    "Contei no arquivo: L20, L40, L42 (cauda), L46, L48, L50, L56 («Scripts são referências, não roteiros», que o revisor nem contou) e L58 são 8 moldes «não X, Y» em 1.178 palavras, contra dose de 3 a 5 por 2.000 (seção 6); entre L40 e L58 são 6 em 9 linhas. A whitelist 1 protege o contraste, não a dose, e o item 1 (redação nossa; a fonte p.1 põe o positivo na frente e a negativa entre parênteses) colado ao item 2 diz a mesma coisa no mesmo molde, o que a leitora sente como repetição. A correção proposta funciona, mas «Agendar parece a mesma coisa» perde o referente; a alternativa mantém a repetição de palavra (whitelist 9) sem o molde.",
+    "Confirmado com ressalva de contagem: das 7 ocorrências, 3 são intocáveis (linha 20 literal de A2, linha 46 é a concessão de humildade literal do item 14 da whitelist, linha 50 é nome literal da fonte), mas mesmo assim sobram 4 de redação nossa (40, 42, 48, 58) num capítulo de ~1.086 palavras, quando a dose da seção 6 é 3 a 5 por 2.000, e cinco delas caem em cinco parágrafos seguidos (40 a 50). O item 1 é o elo mais fraco do cluster: é redação nossa, vem colado ao item 2 dizendo a mesma coisa no mesmo molde invertido, e uma leitora sente o eco entre «não é pra agendar. É pra entender» e «é consequência, não objetivo». A correção proposta falha em (4): «Agendar parece a mesma coisa» perde o referente (a mesma coisa que o quê?), fica muda e mantém o mini-contraste «parece, mas não é»."
+   ]
+  },
+  {
+   "revisor": "tell",
+   "tipo": "voz",
+   "gravidade": "media",
+   "trecho": "Então, eu quero te passar primeiro o que a gente considera a base de qualquer atendimento por aqui. São oito coisas. E eu não estou falando que existe um certo ou errado. Estou falando do que eu vejo dar certo nas mais de 3 mil clínicas por aqui.",
+   "detalhe": "A concessão de humildade dela (whitelist 14, touchstone T4) é «E aqui eu não estou falando que existe um certo ou errado. Mas pelo que eu observo nas mais de 3 mil clínicas por aqui». O capítulo trocou o «Mas pelo que eu observo» por «Estou falando do que eu vejo», que espelha a frase anterior e transforma a concessão dela em mais um «não X. Y.» (1.1), o segundo do cluster das linhas 40 a 58. E «por aqui» duas vezes em três frases: o segundo é literal dela, o primeiro é muleta performada, exatamente o erro que a seção 6 do fingerprint aponta em quem «faz a Ana». Já apontado na rodada 3, não mexido.",
+   "correcao": "Então, eu quero te passar primeiro o que a gente considera a base de qualquer atendimento. São oito coisas. E eu não estou falando que existe um certo ou errado. Mas pelo que eu observo nas mais de 3 mil clínicas por aqui, é isso que dá certo. Elas voltam em todos os capítulos, então guarda.",
+   "motivos": [
+    "A concessão literal dela (T4, A1 linha 47 do txt) é «não estou falando que existe um certo ou errado. Mas pelo que eu observo nas mais de 3 mil clínicas por aqui»; o capítulo trocou o «Mas pelo que eu observo» por «Estou falando do que eu vejo», que espelha «não estou falando» e vira mais um molde «não X. Y.» dentro do cluster das L40 a L58 (ver achado 0). O «por aqui» só aparece nas amostras colado a «3 mil clínicas»; o de «base de qualquer atendimento por aqui» é acréscimo nosso e cria eco em três frases. A correção proposta devolve a forma literal dela, sem travessão e sem tell novo; aceito como está."
+   ]
+  },
+  {
+   "revisor": "tell",
+   "tipo": "tell",
+   "gravidade": "media",
+   "trecho": "Agora, o nome. Sete passos para um agendamento a cada cinco contatos. Não é sete passos para agendar todo mundo.",
+   "detalhe": "1.5 Corrida de aproximação: «Agora, o nome.» é sintagma nominal anunciando o assunto em vez de entrar nele (retraduz como «Now, the name.»). O «Agora,» dela abre oração inteira («Agora, se está funcionando», «Agora, e o que você fala pra você mesma?») e marca a última virada antes do fecho (whitelist 23), que o capítulo já usa certo na linha 64. Em seguida vem o primeiro «Não é X. É Y.» do cluster (ver achado 1). A unidade «um agendamento» está certa agora (fonte p.1). Já apontado na rodada 3, não mexido.",
+   "correcao": "O nome é sete passos para um agendamento a cada cinco contatos. Não é sete passos para agendar todo mundo. É a paciente sair da conversa querendo marcar sem ninguém ter empurrado, se o problema que ela trouxe se resolve com a consulta. Se não resolve, ela não agenda, e está tudo certo.",
+   "motivos": [
+    "«Agora, o nome.» é fragmento nominal que anuncia o assunto; nas 3 amostras todo «Agora,» abre oração inteira (A1 L47/L49, A2 L71) e marca a última virada (whitelist 23), que o capítulo já usa certo na L64, então o da L40 dilui o do fecho. A correção proposta falha em (4): junta 33 palavras de argumento com «porque... se...» e inverte o contraste pra positivo-primeiro («Um a cada cinco, e não todo mundo»), que não é a forma dela (negativa primeiro, whitelist 1). O contraste da L40 é o mais legítimo do capítulo (define o nome, dois lados curtos, negativa primeiro) e pode ficar; basta cortar o fragmento."
+   ]
+  },
+  {
+   "revisor": "leitora",
+   "tipo": "leitora",
+   "gravidade": "baixa",
+   "trecho": "Agora, o nome. Sete passos para um agendamento a cada cinco contatos.",
+   "detalhe": "O mapa propõe capa e título com 'uma consulta a cada cinco contatos'. O capítulo diz 'agendamento' e define agendou como 'marcou horário, tenha vindo ou não'. Se a capa que eu vi disser consulta e o capítulo disser agendamento, eu noto, e a definição do capítulo é a mais honesta das duas (consulta soa como quem compareceu).",
+   "correcao": "Manter o capítulo como está. Em /Users/saviomoraes/reconecta/ebooks/715/livro.json trocar titulo_capa para '7 passos para 1 agendamento\\na cada 5 contatos.' e em mapa-de-capitulos.md (item 2 de 'O que ainda falta decidir' e linha do capítulo 2) alinhar pra 'agendamento', seguindo o nome literal do framework.",
+   "motivos": [
+    "Confirmado fora do capítulo: livro.json linha 5 tem titulo_capa '7 passos para 1 consulta a cada 5 contatos' e o mapa (item 2 de 'falta decidir') também propõe 'consulta', enquanto a fonte (framework p.1) e o capítulo dizem 'agendamento', com a definição 'marcou horário, tenha vindo ou não'. A leitora que compara capa e capítulo nota, e 'consulta' promete comparecimento que o script não mede. O trecho do capítulo está certo; a correção é na capa e no sumário, não no texto."
+   ]
+  },
+  {
+   "revisor": "voz",
+   "tipo": "voz",
+   "gravidade": "alta",
+   "trecho": "A queixa das quatro era a mesma: chegou menos gente. Isso é de fora. Mas quando chega menos gente, cada conversa que morre no WhatsApp pesa mais.",
+   "detalhe": "Concessão que ela não faz. Na A2 ela nunca admite a desculpa externa; a posição dela é literal: \"essa interferência nunca está do lado de fora, está sempre do lado de dentro\" e \"Não foi nada externo, é sempre algo interno\" (fingerprint, seção 4, A2). O capítulo diz isso na linha 20 e oito linhas depois diz \"Isso é de fora.\", o que soa como outra pessoa amortecendo a Ana. De quebra, apagou dois hábitos da whitelist que estavam na própria A2 nesse ponto: o \"plot twist\" (whitelist 10, 2 de 3, \"E o plot twist é que essa interferência nunca está do lado de fora\") e a imagem concreta dela do lado de fora/lado de dentro. O capítulo inteiro ficou com zero \"plot twist\" e zero estrangeirismo de tela dela, sendo o capítulo construído em cima da A2.",
+   "correcao": "A queixa das quatro era a mesma: chegou menos gente. E as quatro foram procurar o motivo do lado de fora. Cidade, idade, concorrência. Só que o que decide é o que acontece do lado de dentro, e no WhatsApp o lado de dentro é a conversa. Quando chega menos gente, cada conversa que morre pesa mais. E a conversa é a única parte disso que dá pra mudar. Já na próxima mensagem.",
+   "motivos": [
+    "Confirmado no fundamento da contradição: a linha 20 diz \"Não foi nada externo, é sempre algo interno\" e oito linhas depois o texto diz \"Isso é de fora\", e nenhum item da whitelist (14 é concessão de humildade, não concessão da desculsa externa) protege isso; a leitora que acabou de ler a tese sente a autora recuar. Já a ausência de \"plot twist\" no capítulo não é defeito em si (a dose é \"1 a 2, com parcimônia\", não mínimo). A correção proposta falha em (4): usa \"a interferência\" sem o capítulo ter apresentado a equação do livro (a palavra chega órfã) e chama de \"plot twist\" algo que a linha 20 já disse, o que esvazia a reviravolta.",
+    "O clash existe no arquivo: a linha 20 fecha com \"Não foi nada externo, é sempre algo interno\" e a linha 28 abre a seção seguinte com \"Isso é de fora.\", uma afirmação de causa externa que contradiz literalmente a posição da A2 (\"essa interferência nunca está do lado de fora\"). A whitelist protege concessão de humildade sobre a autoridade dela (item 14, \"não existe certo ou errado\"), não concessão da tese da adversária; e a leitora nota o vaivém e ainda ganha a desculpa que o capítulo inteiro tenta tirar dela. A correção do revisor falha em (4): joga \"a interferência\" sem a equação do Jogo Interior que dá sentido ao termo, então a leitora do capítulo não sabe a que interferência ele se refere (o livro nem foi citado no capítulo)."
+   ]
+  },
+  {
+   "revisor": "voz",
+   "tipo": "voz",
+   "gravidade": "baixa",
+   "trecho": "O cenário no geral era até bem parecido, porque todas estavam com a dúvida de ter baixado o volume de leads esse mês, essa primeira semana aqui de setembro.",
+   "detalhe": "\"estavam com a dúvida de ter baixado\" é frase de transcrição que ficou torta na prosa; a leitora tropeça. O guia fala -> escrita manda limpar o que a fala embola sem trocar as palavras dela, e o próprio par 2 do teste de calibração já resolveu esse trecho: \"todas com a mesma dúvida: o volume de leads baixou\". Manter \"aqui de setembro\" (aqui dêitico de proximidade, whitelist 16).",
+   "correcao": "O cenário no geral era até bem parecido, porque todas estavam com a mesma dúvida: o volume de leads baixou esse mês, essa primeira semana aqui de setembro.",
+   "motivos": [
+    "\"estavam com a dúvida de ter baixado o volume\" é tropeço real de prosa (a dúvida não é \"de ter baixado\", é sobre o volume ter baixado) e a leitora relê a frase; nenhum item da whitelist protege essa torção, e o par 2 do teste de calibração, escrito pelo próprio fingerprint, já resolve o trecho com dois pontos. Ressalva: a regra \"limpar o que a fala embola\" citada pelo revisor não existe no guia com essas palavras; o que existe é a calibração. A correção proposta usa vírgula onde a calibração usa dois pontos, o que deixa a frase frouxa; a alternativa mantém o verbo dela."
+   ]
+  }
+ ],
+ "refutados": [
+  {
+   "revisor": "tell",
+   "trecho": "E qual é a forma mais fácil de encerrar uma conversa? Com uma resposta.",
+   "detalhe": "1.8 Pergunta retórica com resposta em fragmento (a forma «O resultado? X.»). A pergunta de gancho dela vem com resposta inteira («Por quê? Porque eu estava falando não com uma especialista...»); resposta de duas palavras é punchline de copy. A fonte (02-manual-objecoes.md p.6) diz isso como afirmação: «a forma mais fácil de encerrar uma conversa é com uma resposta». O parágrafo já entregou o mecanismo com o bastão e o visto azul; a pergunta só reembala. Já apontado na rodada 3, não mexido.",
+   "motivo": "Pergunta como gancho no meio da peça é 3 de 3 (whitelist 4) e pancada curta depois de frase longa é o traço rítmico principal dela (whitelist 6, T5 «Lá dentro.»); a combinação pergunta + resposta curta está dentro do repertório, e a tese de que a resposta dela é sempre inteira se apoia num único caso (T3). O capítulo tem 5 perguntas em 1.178 palavras, abaixo da dose de 12 a 18 por 2.000, então não há excesso. A correção proposta vira afirmação chapada e achata o ritmo sem ganho pra leitora."
+  },
+  {
+   "revisor": "tell",
+   "trecho": "A palavra que importa é o já. Ela já quer. Ninguém manda mensagem pra clínica sem querer alguma coisa, e o que a gente faz nos sete passos é descobrir o que ela quer de verdade, porque o que ela pergunta e o que ela quer quase nunca são a mesma coisa.",
+   "detalhe": "Dois problemas no mesmo parágrafo. (a) 1.11 Etiqueta de importância: «A palavra que importa é o já» aponta pro quadro em vez de fazer o ponto; ela não etiqueta, ela cunha ou repete o termo e define na frase seguinte (whitelist 22: «e quando eu digo funcionando é o ticket médio que...», e o próprio capítulo faz certo na linha 52, «E quando eu digo empatia, é»). (b) A terceira frase tem 42 palavras de raciocínio colado por «e» e «porque». As longas dela (12%) são narração com «e aí» ou lista de atributos, nunca argumento encadeado; mediana 13. Ela quebra e abre frase com «Porque» (T5: «Lá dentro. Porque eu já tava completamente na emoção.»). Apontado na rodada 3, não mexido.",
+   "motivo": "(a) «A palavra que importa é o já. Ela já quer.» é cunhar e definir na frase seguinte, colado e sem parênteses, exatamente o que a whitelist 22 protege; uma leitora lê como ênfase de professora, não como etiqueta. (b) A frase tem 42 palavras, abaixo do corte de 45 da seção 6, e a alegação de que as longas dela nunca são argumento encadeado é falsa: T3 («Porque eu estava falando não com uma especialista... mas sim com uma pessoa que entendeu que...») e T4 («quando a doutora se capacita... o ticket médio sobe, a taxa de fechamento sobe, enfim») são argumento encadeado de 50 a 60 palavras. A correção proposta ainda tira o «Ninguém manda mensagem pra clínica sem querer alguma coisa», que é a prova do «já»."
+  },
+  {
+   "revisor": "tell",
+   "trecho": "Porque cada informação que você entrega antes da hora vira um motivo pra ela ir pra casa pensar. Preço, duração da consulta, currículo da doutora, lista de procedimentos, enfim. Ela pediu uma informação e você mandou quatro motivos pra ela ir pensar.",
+   "detalhe": "2.6 Esteira, versão leve: «motivo pra ela ir pra casa pensar» e «motivos pra ela ir pensar» no mesmo parágrafo, com «enfim» fechando a enumeração no meio (o «enfim» está certo, é a função dela). O eco quatro/quatro saiu, mas o fecho ainda devolve a mesma oração da primeira frase. A repetição dela é de palavra (whitelist 9), não de oração inteira; o carimbo dela é seco («É muito melhor.»).",
+   "motivo": "«Ir pra casa pensar» é frase literal dela em A1, duas vezes na mesma peça («não tem ninguém indo embora para casa para pensar», «muita gente indo pra casa pensar»), e a whitelist 9 e o guia da seção 6 mandam manter repetição em vez de variar; a volta da oração depois do «enfim» fecha a enumeração no formato dela. Uma leitora lê o eco como o carimbo do parágrafo, não como esteira. A correção proposta ainda troca «você mandou» por «recebeu», apagando o «você» direto que é dela na prescrição (whitelist 17)."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "Quatro é uma a cada cinco. Esse número é de onde você tá saindo.",
+   "detalhe": "Fiz a conta na cabeça enquanto lia: se eu contar as 20 e der quatro, eu já estou no número que dá nome ao script. E aí? Já cheguei? O capítulo nunca diz o que um a cada cinco é: meta, piso, média das clínicas, ou só uma régua. O parágrafo anterior explica o que o nome NÃO é (não é agendar todo mundo) mas não explica de onde vem o cinco. Sem isso, a frase 'é de onde você tá saindo' só faz sentido pra quem deu menos de quatro; quem deu quatro ou mais fecha o capítulo sem motivo pra seguir.",
+   "motivo": "O capítulo já responde de forma implícita e em sequência: o nome do script define a régua (um agendamento a cada cinco), a conta define o ponto de partida ('de onde você tá saindo') e a frase seguinte manda recontar daqui a um mês; a leitora sabe o que fazer com o número. A correção proposta acrescenta uma promessa nova ('o livro é pra você não cair disso') que não está em nenhuma fonte, e a leitora que já bate quatro em vinte não é a compradora que a VSL trouxe (a queixa é lead indo pensar)."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "Porque cada informação que você entrega antes da hora vira um motivo pra ela ir pra casa pensar. Preço, duração da consulta, currículo da doutora, lista de procedimentos, enfim.",
+   "detalhe": "Duas linhas antes, no 6, a autora me tranquilizou: 'não tô te pedindo pra esconder o preço, tá?'. Agora no 7 o preço é a primeira coisa da lista do que vira motivo pra ela ir pensar quando entregue 'antes da hora'. Fico com a pergunta óbvia de quem atende o WhatsApp: então QUANDO é a hora do preço? O capítulo não nomeia. Eu sei que existe um passo 7 de fechamento só porque olhei o sumário, o texto não me leva até lá. É a frase boa que eu não saberia quando aplicar.",
+   "motivo": "A hora do preço foi nomeada uma página antes, no fecho do capítulo 01: 'São sete passos, do primeiro oi ao comprovante do PIX da consulta. E o preço só entra no último.' Repetir no 02 vira recapitulação, e o item 6 já fecha o assunto com 'A pergunta desse momento é a primeira do passo um', mantendo o gancho pra frente sem virar sumário."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "Nós temos pessoas que faturam 200 mil em cidades de 5 mil habitantes e em cidades de 1 milhão. Nós temos pessoas que faturam 200 mil com mais de 60 anos e com menos de 25. Nós temos pessoas do interior e de capital. Nós temos biomédicas, médicas, dentistas, farmacêuticas, fisioterapeutas.",
+   "detalhe": "Fora dos trechos focados, mas é o único lugar do capítulo em que eu senti a página de vendas dentro do livro que eu já paguei. O conteúdo é a prova certa pra 'é comportamental' (cidade pequena e grande, jovem e experiente espelham as quatro doutoras). O que denuncia é a cadência: quatro frases começando com 'Nós temos', '200 mil' duas vezes seguidas. É o ritmo de VSL, e eu vim da VSL. Aqui eu passei o dedo mais rápido.",
+   "motivo": "Trecho é fala literal da Ana (amostra 02, linhas 37 a 43, quatro 'Nós temos pessoas que' seguidas) e está protegido três vezes na whitelist: item 2 (anáfora em escada até 4 degraus, 3 de 3, 'não cortar'), item 9 (repetição sem sinônimo, 'não variar') e item 36 ('Nós temos pessoas que' apontado como candidato forte pra capítulo de prova). A correção proposta desmonta exatamente a assinatura que o fingerprint manda preservar; o eco de VSL é porque a VSL também é ela falando."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "Não foi nada externo, é sempre algo interno.",
+   "detalhe": "Três parágrafos depois a ponte abre com 'chegou menos gente. Isso é de fora.' Eu li 'nunca é externo' e logo em seguida 'isso é externo'. A ponte em si funciona (o que eu controlo é a conversa), mas a virada não é assumida, então por um segundo pareceu que a autora se contradisse em vez de conceder de propósito.",
+   "motivo": "As duas frases falam de sujeitos diferentes: 'Não foi nada externo' é sobre o fator que decide dar certo (fala literal da Ana, A2 linha 19); 'Isso é de fora' é sobre a queda de leads, e o 'Mas' logo depois já marca a concessão como escolha. A própria acusação admite que a ponte funciona e que o tropeço dura 'um segundo'; a correção ('e eu não vou fingir que não é') acrescenta uma defesa que ninguém pediu e alonga a pancada curta."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "E qual é a forma mais fácil de encerrar uma conversa? Com uma resposta.",
+   "detalhe": "A pergunta retórica chega depois que o exemplo já me mostrou exatamente isso (respondi o valor, ela mandou 'obrigada, vou pensar', fiquei olhando o visto azul). Quando a autora pergunta, eu já sabia a resposta, então a frase explica o que eu acabei de entender sozinha.",
+   "motivo": "A frase é literal da fonte (manual de objeções, linha 228: 'a forma mais fácil de encerrar uma conversa é com uma resposta') e o formato pergunta-gancho no meio da peça é whitelist item 4 (3 de 3, 16% das frases), com o item 6 (pancada curta após frase longa). Depois do exemplo do visto azul ela não explica o exemplo, ela generaliza o princípio, que é o que a leitora leva pra próxima conversa diferente daquela."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "Se a sua avaliação hoje é de graça, conta do mesmo jeito, porque o que eu quero ver é quantas conversas viraram horário, não quantas pagaram.",
+   "detalhe": "É a primeira vez que o livro toca no assunto avaliação grátis, e toca de lado. Eu, que hoje faço avaliação grátis, entendi que minha conta vale, mas fiquei com a dúvida maior: o método é pra mim ou ele pressupõe consulta paga? O 4 já falou em 'horário e PIX'. Ninguém me diz onde isso vai ser tratado.",
+   "motivo": "A dúvida 'o método é pra mim?' já está respondida na própria frase: o que o script mede é conversa virando horário, não pagamento, logo a conta dela vale e o método vale. Um aviso de 'isso vai ser tratado no capítulo tal' é referência de sumário dentro da prosa, coisa que a Ana não faz (fecho sem recapitulação, item 24), e o capítulo 11 já está no índice que a leitora tem na mão."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "Acho que vale a pena a gente fazer uma conta antes do passo um. Pega as últimas 20 pessoas novas que chamaram no WhatsApp da clínica perguntando de procedimento ou de preço e conta quantas agendaram.",
+   "detalhe": "A tarefa é boa e eu faria, mas ela vem num parágrafo só com oito instruções em sequência (pega, conta, o que é agendou, quanto é um em cinco, avaliação grátis, anota, repete em um mês). No celular à noite é um bloco de texto corrido; eu lia até o fim e não fazia, porque não tem onde voltar quando eu for de fato abrir o WhatsApp.",
+   "motivo": "O parágrafo tem sete frases curtas em imperativo, e as três ações essenciais já abrem frase ('Pega...', 'conta...', 'Anota esse número'), então há onde voltar. Virar card é decisão de layout da fase de render, não defeito do manuscrito: o mapa reserva card 'frase pronta' pra texto literal do PDF, o capítulo já tem sua âncora visual (o punch), e estrutura visual é validada com o Sávio antes, não decidida em revisão de texto."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Acho que vale a pena a gente fazer uma conta antes do passo um. Pega as últimas 20 pessoas novas que chamaram no WhatsApp da clínica perguntando de procedimento ou de preço e conta quantas agendaram.",
+   "detalhe": "Whitelist 4 (pergunta como gancho no meio, 3 de 3, 16% das frases) está rala no capítulo: 5 perguntas em cerca de 75 frases, metade da taxa dela, e do punch até o princípio 5 (uns 400 palavras) não tem pergunta nenhuma. O bloco da conta é prescrição, e ela prescreve perguntando (\"Sabe o que ele falou comigo?\", A3; \"Você consegue fazer isso?\", A2). O guia recomenda 12 a 18 perguntas por 2.000 palavras; aqui daria 6 a 9 e tem 5.",
+   "motivo": "O déficit é marginal (5 perguntas reais em 1.126 palavras contra um piso pro-rata de 6 a 7) e a dose do guia é recomendação pra capítulo de caso, não quota; a própria A2 fica ~400 palavras sem pergunta nenhuma antes de \"O que que tem de diferente\", ou seja, o trecho seco do punch até o princípio 5 reproduz o padrão dela. Whitelist 4 é proteção contra corte, não obrigação de mínimo, e a leitora não nota nem é prejudicada por uma pergunta a menos."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Agendou aqui é marcou horário, tenha vindo ou não.",
+   "detalhe": "\"tenha vindo ou não\" é subjuntivo de texto formal (uns 6 de 10), acima do registro dela (3 na fala, 4 no livro). O jeito dela de definir termo é \"e quando eu digo funcionando é o ticket médio que...\" (A1, whitelist 22), e a repetição sem sinônimo (whitelist 9) resolve o \"ou não\".",
+   "motivo": "O subjuntivo concessivo está na fala dela: A1 tem \"Mesmo que a experiência tenha sido satisfatória, mesmo que tenha sido tudo bacana\" (citado no fingerprint como anáfora dela) e \"Se eu tivesse entendido o preço na sala\". \"tenha vindo ou não\" não sobe o registro acima do que ela produz; além disso o trecho já cunha e define (\"Agendou aqui é marcou horário\", whitelist 22 + 16), e a correção proposta empilharia um segundo \"E quando eu digo\" no mesmo capítulo."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "A palavra que importa é o já. Ela já quer.",
+   "detalhe": "\"A palavra que importa é\" é gesto de copywriter comentando a frase de fora. A ênfase dela é por repetição e por \"presta atenção nisso\" (o \"interessante\" dela, fingerprint conectores), não por metacomentário sobre a palavra. Baixa porque a frase seguinte (\"Ela já quer.\") já é o jeito dela.",
+   "motivo": "Apontar pra palavra e definir na frase seguinte é hábito confirmado dela (whitelist 22, \"e quando eu digo funcionando é...\"), e \"A palavra que importa é o já. Ela já quer.\" é esse gesto seguido da pancada curta (whitelist 6). A correção introduz \"Presta atenção no já\", frase que não aparece em nenhuma das 3 amostras; o fingerprint (linha 70) diz que o adjetivo \"interessante\" faz o papel de \"presta atenção nisso\", não que ela diga isso. A leitora não nota nada aqui."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Porque no momento em que ela pergunta quanto custa, você responde o valor e não manda mais nada, o bastão passou pra ela, e aí ela manda um obrigada, vou pensar, e você fica olhando pro visto azul sem saber o que escrever depois.",
+   "detalhe": "44 palavras numa frase só. É narração encadeada, que é o tipo de longa dela, mas o guia manda quebrar as longas de transcrição \"mantendo o e aí na junta\". Aqui o \"e aí\" está no meio pedindo o ponto. A fala reproduzida sem aspas (\"obrigada, vou pensar\") e o \"visto azul\" estão certos, manter.",
+   "motivo": "A regra do guia é pra frases de 45 a 73 palavras geradas pela transcrição; esta tem 44, é prosa do escritor, e é seguida da pancada curta \"E qual é a forma mais fácil de encerrar uma conversa? Com uma resposta.\", que é exatamente o ritmo protegido pela whitelist 6 (longa de construção + curta cortada). Fala reproduzida sem aspas e \"visto azul\" também estão certos, como o próprio revisor admite. Não há prejuízo à leitora."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "«8.» E conexão é o que derruba a resistência.",
+   "detalhe": "\"conexão\" está na lista de palavras que ela NÃO usa em 1.816 palavras (fingerprint, seção 3). É termo da fonte (03-manual-perguntas.md: \"Conexão é essencial para reduzir resistência\"), então fica, mas a regra dela pra palavra grande é amortecer ou traduzir na frase seguinte. O «4.» traduz; o «8.» empilha duas abstrações da fonte (\"conexão\" e \"resistência\") antes de chegar na imagem concreta da mensagem longa contra a palavra só. O \"E quando eu digo X\" já foi usado no «3.», e repetir o dispositivo é dela.",
+   "motivo": "A tradução da palavra grande já está na frase seguinte: \"A paciente que sente que você quer entender o problema dela responde mensagem longa. Quando ela sente que você quer vender, vem uma palavra só.\" é a imagem concreta que a regra pede. A correção proposta define conexão com a mesma frase que o «3.» usa pra empatia (\"a paciente sentir que você quer entender o problema dela\"), o que torna os dois princípios indistinguíveis e repete o dispositivo \"E quando eu digo\" pela segunda ou terceira vez no capítulo."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "No WhatsApp isso é coisa concreta: repetir a palavra que ela usou e perguntar antes de responder.",
+   "detalhe": "\"isso é coisa concreta\" é o escritor avisando que vai ser concreto em vez de ser. Ela usa \"coisa\" no sentido de \"isso\" (\"esse negócio\", \"coisa de 18 horas\"), não como rótulo de qualidade da própria frase. Baixa; o resto do «3.» (\"E quando eu digo empatia\") é literalmente o padrão dela.",
+   "motivo": "\"isso é coisa concreta:\" é um rótulo de três palavras que a leitora não nota nem a prejudica; o que vem depois dos dois pontos já é a instrução concreta, e o «3.» inteiro segue o padrão dela (\"E quando eu digo empatia\"). A correção é inofensiva, mas o problema não passa no critério 3, e na dúvida se refuta."
+  }
+ ],
+ "cego": {
+  "veredito": "ia",
+  "confianca": 65,
+  "pistas": [
+   {
+    "trecho": "Então, eu ouvi de uma delas, mas é porque a minha cidade é muito pequena, eu acho que de alguma forma pode ter saturado. Ao passo que a outra falou que morava em uma cidade muito grande [...] O que que essas pessoas que conseguiram chegar lá têm de diferente de você?",
+    "pista": "O primeiro bloco é fala transcrita de verdade (discurso indireto sem aspas, 'aí uma outra falou', 'o que que'), com repetições e frouxidão de quem fala. Do subtítulo 'O que é interno no WhatsApp' em diante o texto muda de textura: frases curtas, paralelismo limpo, nenhum tropeço. Essa costura entre transcrição crua e prosa polida é o padrão de transcrição reescrita por modelo, não de uma pessoa que escreveu o capítulo inteiro."
+   },
+   {
+    "trecho": "A palavra que importa é o já. Ela já quer.",
+    "pista": "Fragmento isolado pra efeito, eco de uma palavra em frase de duas palavras. É o cacoete mais reconhecível de texto 'humanizado' por IA em PT-BR: ritmo staccato fabricado, que a fala real do primeiro bloco não tem em nenhum momento."
+   },
+   {
+    "trecho": "Isso é de fora. Mas quando chega menos gente, cada conversa que morre no WhatsApp pesa mais. E a conversa é a única parte disso que dá pra mudar. Já na próxima mensagem.",
+    "pista": "Sequência de quatro frases com escalada calculada e um fecho de três palavras solto no fim. Estrutura de punchline construída, com cada frase fazendo um trabalho retórico distinto (constatação, agravante, virada, urgência). Gente falando ou escrevendo de improviso não empilha assim com tanta economia."
+   },
+   {
+    "trecho": "Agendou aqui é marcou horário, tenha vindo ou não. [...] Se a sua avaliação hoje é de graça, conta do mesmo jeito, porque o que eu quero ver é quantas conversas viraram horário, não quantas pagaram.",
+    "pista": "O exercício das 20 conversas fecha cada brecha de interpretação antes que o leitor pergunte (no-show conta? avaliação gratuita conta?). Essa precisão defensiva, que antecipa objeções e define termos em frase seca, é comportamento típico de modelo tornando uma instrução à prova de falhas. Um mentor falando deixa a borda solta."
+   },
+   {
+    "trecho": "A paciente pergunta o preço do preenchimento. O que ela quer é parar de ouvir que tá com o olhar cansado.",
+    "pista": "Par de contraste perfeito demais (pergunta X, quer Y) com um 'tá' enfiado na segunda frase pra simular oralidade dentro de uma sentença escrita. O mesmo padrão volta em 'No WhatsApp isso é coisa concreta: repetir a palavra que ela usou e perguntar antes de responder' e em 'a paciente sente o empurrão': abstração seguida de tradução concreta em dois pontos, repetida como fórmula ao longo dos oito itens."
+   }
+  ]
+ }
+}

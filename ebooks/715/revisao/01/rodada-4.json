@@ -1,0 +1,95 @@
+{
+ "capitulo": "/Users/saviomoraes/reconecta/ebooks/715/manuscrito/01-a-salinha-do-financeiro.md",
+ "rodada": 4,
+ "brutos": 7,
+ "confirmados_n": 2,
+ "altas_confirmadas": 0,
+ "por_revisor": {
+  "leitora": {
+   "brutos": 7,
+   "confirmados": 2
+  }
+ },
+ "confirmados": [
+  {
+   "revisor": "leitora",
+   "tipo": "leitora",
+   "gravidade": "media",
+   "trecho": "Foi assim que eu me senti, de paciente. De vendedora eu vi outra coisa, e essa parte fica pro capítulo 12.\n\nVocê vai me dizer, mas eu não quero falar de dinheiro dentro da sala.",
+   "detalhe": "Solavanco. \"Fica pro capítulo 12\" soa como fim de assunto (e quase fim de capítulo). Na linha seguinte ela reabre justamente o assunto que adiou, agora respondendo a uma objeção minha que veio de dez linhas antes (\"Se eu tivesse entendido o preço na sala, talvez eu teria fechado\"). E depois do parágrafo de definição vem \"E aqui vem um plot twist interessante\", que me devolve pra história que eu achava encerrada. Eu perco o fio duas vezes em quatro parágrafos. Além disso \"De vendedora eu vi outra coisa\" sem nem uma pista do que é vira só uma promessa vazia.",
+   "correcao": "Ordem: \"...Quase uma cerimônia pra passar o preço.\" → parágrafo \"Você vai me dizer, mas eu não quero falar de dinheiro dentro da sala. E beleza... A que eu conheci foi a segunda.\" → \"Foi assim que eu me senti, de paciente. De vendedora eu vi outra coisa, e essa parte fica pro capítulo 12.\" → \"E aqui vem um plot twist interessante.\" → consulta → \"Diagnóstico feito.\" Nenhuma palavra muda; só a posição do parágrafo das salinhas, que passa a grudar na objeção e deixa o plot twist emendar direto no \"Foi assim que eu me senti\", como na fala original.",
+   "motivos": [
+    "Na fala-fonte (amostra, linhas 82 a 88) \"Foi assim que eu me senti.\" vem colado em \"E aqui vem um plot twist interessante.\"; o capítulo enfiou entre os dois a linha do capítulo 12 (que soa a fim de assunto) e o parágrafo das duas salinhas (que responde a uma objeção de cinco parágrafos atrás), e o plot twist volta pra consulta sem a leitora ter sido avisada de que a história continuava. O reordenamento não cria tell nem travessão e devolve a sequência original da autora."
+   ]
+  },
+  {
+   "revisor": "leitora",
+   "tipo": "leitora",
+   "gravidade": "baixa",
+   "trecho": "São sete passos, do primeiro oi ao comprovante do PIX.",
+   "detalhe": "Comprovante do PIX de quê? Na minha cabeça o PIX é o do procedimento, e aí sete passos pra chegar num PIX de procedimento pelo WhatsApp não faz sentido. Só pelo mapa eu entendi que é o PIX da consulta. Quem faz avaliação gratuita vai tropeçar aqui.",
+   "correcao": "\"São sete passos, do primeiro oi ao comprovante do PIX da consulta. E o preço só entra no último.\"",
+   "motivos": [
+    "O capítulo nunca diz que o script vende consulta: fala de WhatsApp \"antes de ela pisar na clínica\" e de paciente que \"pergunta o preço\", e nesse contexto o preço na cabeça da leitora é o do procedimento; o PIX do passo 7 é, pelo framework, o investimento da consulta. Quem faz avaliação gratuita lê \"comprovante do PIX\" como PIX de procedimento e o \"preço só entra no último\" fica sem sentido. Duas palavras resolvem, sem tell, sem travessão, e a frase continua no ritmo dela."
+   ]
+  }
+ ],
+ "refutados": [
+  {
+   "revisor": "leitora",
+   "trecho": "São sete passos, do primeiro oi ao comprovante do PIX. E o preço só entra no último.",
+   "detalhe": "Aqui eu paro e penso: na minha clínica a primeira mensagem já é \"quanto custa o preenchimento labial?\". Se o preço só entra no passo sete, o que eu faço com a paciente que pergunta no passo um? O capítulo termina sem nem reconhecer que isso existe, e é a objeção que toda leitora tem antes de virar a página. Não preciso da resposta agora (imagino que vem no capítulo 11), preciso saber que a autora sabe que eu vou perguntar isso.",
+   "motivo": "A premissa (1) não se sustenta: o capítulo já reconhece duas vezes que a primeira mensagem é o preço, no parágrafo da ponte (\"é a mesma que pergunta o preço no WhatsApp e some\", \"o preço vem de uma pessoa que não perguntou nada\") e no fecho (\"quanta gente perguntou o preço no seu WhatsApp e nunca mais respondeu?\"). A resposta também já está dada em princípio (\"entender o que ela quer antes de passar qualquer número\"), que é exatamente o que o manual de objeções faz com \"Quanto custa a consulta?\". A frase proposta empilharia um segundo aviso de capítulo futuro num capítulo que já remete ao 12."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "A pessoa que manda mensagem já quer. Acho que o trabalho é a gente entender o que ela quer antes de passar qualquer número.",
+   "detalhe": "Se ela já quer, por que eu preciso entender o que ela quer? Do jeito que está, as duas frases se contradizem pra quem lê rápido no celular. Falta a linha que separa o que ela pergunta (o preço) do que ela quer (resolver alguma coisa que está incomodando). Sem esse exemplo eu leio \"entender o que ela quer\" como jargão de vendas. O \"Acho que\" também me deixa em dúvida se a autora acredita na própria tese.",
+   "motivo": "\"Já quer\" e \"o que ela quer\" não se contradizem: a primeira diz que a vontade existe, a segunda pede o conteúdo dela, e o parágrafo anterior já colocou que ela pergunta o preço; a leitora chega nessa frase sabendo o que a paciente pergunta. \"Acho que\" amortecendo a prescrição é whitelist confirmada (item 18, dose 1 a 2 por capítulo) e esta é a única ocorrência do capítulo, então a correção proposta corta um traço protegido da voz."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "E beleza, pode ser que o pagamento mesmo fique do lado de fora, até pela experiência da paciente. Salinha do pagamento é isso: ela sai da consulta sabendo quanto custa e já decidida, e vai lá só passar o cartão.",
+   "detalhe": "Ela diz \"beleza\" pra minha objeção (não quero falar de dinheiro na sala) e na frase seguinte me diz que a paciente sai da sala sabendo quanto custa. Ou seja, eu vou ter que falar o preço na sala, sim. O texto concorda comigo e me contraria sem dizer que está me contrariando. Eu percebo e fico com a sensação de que passaram a mão na minha cabeça.",
+   "motivo": "O texto já faz a separação: concede \"o pagamento mesmo\" (o \"mesmo\" marca que é o ato de pagar, não o preço) e na frase seguinte define que ela sai da sala \"sabendo quanto custa\", e cinco parágrafos antes já disse \"Se eu tivesse entendido o preço na sala, talvez eu teria fechado\". A própria acusação admite que a leitora percebe a contrariedade, ou seja, não é induzida a erro. A forma concessão curta seguida de prescrição é assinatura dela (whitelist 14, 3 de 3) e a definição colada ao termo cunhado é o item 22."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "É óbvio que eu tô sendo muito irônica e exagerada aqui. Mas eu não pude deixar de pontuar esse sentimento.",
+   "detalhe": "Eu já tinha entendido que \"animal a caminho do abatedouro\" era exagero. O aviso explica a piada e tira a força dela. É trecho que eu pularia.",
+   "motivo": "É frase literal da fala dela (amostra, linha 29: \"É óbvio que eu tô sendo muito irônica e exagerada aqui, mas eu não pude deixar de, enfim, pontuar esse sentimento\"), e o fingerprint registra o aviso de exagero como candidato dela (item 29) e autoriza \"É óbvio que\" uma vez por capítulo, só em capítulo irônico (item 25): este é o capítulo irônico e a única ocorrência. A correção proposta troca palavras reais da autora por uma pergunta-resposta inventada (\"Exagero? Um pouco.\") que ela nunca disse."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "Falei, cara, e se esse negócio for muito caro? E se for muito além do que eu tava imaginando? Paguei pela consulta, tudo certinho, tá? E se for muito diferente do que eu tava imaginando, será que isso é prioridade agora?",
+   "detalhe": "O \"Paguei pela consulta, tudo certinho, tá?\" cai no meio da ruminação e eu não entendo o que ele faz ali. Quebra a sequência dos \"e se\" que estava me levando junto. Tem \"tava imaginando\" duas vezes em três frases, o que também reforça a sensação de que o aparte entrou no lugar errado.",
+   "motivo": "A sequência, inclusive o aparte no meio dos \"e se\" e o \"tava imaginando\" repetido, é transcrição fiel da fala (amostra, linhas 72 a 78); repetição de palavra sem sinônimo é whitelist 9 (\"não variar\"), pensamento em discurso direto depois de \"Falei,\" é o item 15, e \"tá?\" depois de aparte é exatamente a posição prescrita pra muleta (item 11, dose 2 por capítulo, e este é o segundo). A ruminação real não é linear, e é isso que o trecho encena; tirar o aparte e antecipar \"Consulta paga, tudo certinho.\" na descrição da consulta alisa a voz e desloca o \"tá?\" pra fora da posição que o fingerprint pede."
+  }
+ ],
+ "cego": {
+  "veredito": "pessoa",
+  "confianca": 60,
+  "pistas": [
+   {
+    "trecho": "Eu estava falando com uma pessoa que entendeu que agora, depois que eu entendi que meus problemas têm solução, a gente parte para uma transação financeira.",
+    "pista": "Frase com sintaxe enrolada de fala improvisada (sujeito que muda no meio, subordinada encaixada em subordinada). IA tende a entregar a frase resolvida; isso aqui parece transcrição de alguém pensando enquanto fala."
+   },
+   {
+    "trecho": "Falei, cara, e se esse negócio for muito caro? E se for muito além do que eu tava imaginando? Paguei pela consulta, tudo certinho, tá? E se for muito diferente do que eu tava imaginando, será que isso é prioridade agora?",
+    "pista": "Intrusão fora de lugar ('Paguei pela consulta, tudo certinho, tá?') no meio de uma sequência de perguntas, e a mesma ideia repetida duas vezes ('muito além / muito diferente do que eu tava imaginando'). Redundância desordenada assim é típica de oralidade real, não de texto gerado."
+   },
+   {
+    "trecho": "Olha, por conta de tudo que a doutora trouxe, parará, parará, parará. Quase uma cerimônia pra passar o preço.",
+    "pista": "'parará, parará, parará' é tique de fala pra abreviar discurso alheio; modelo de linguagem quase nunca inventa isso espontaneamente em prosa."
+   },
+   {
+    "trecho": "Então eu fui até essa salinha tal qual um animal se dirige para o abatedouro.\n\nÉ óbvio que eu tô sendo muito irônica e exagerada aqui. Mas eu não pude deixar de pontuar esse sentimento.",
+    "pista": "Exagero seguido de autocorreção em tempo real ('É óbvio que eu tô sendo muito irônica'), com mistura de registro ('tal qual' culto ao lado de 'tô'). É a marca de quem falou e depois se ouviu, não de quem planejou o parágrafo."
+   },
+   {
+    "trecho": "E aí ela falou, poxa, tô precisando de uma ajuda aqui, porque a gente tá com muita gente indo pra casa pensar.\n\nDiagnóstico feito.",
+    "pista": "Detalhe de caso específico e irônico (a própria doutora pedindo ajuda sobre o problema que acabou de causar) que uma IA sem fonte não fabricaria com essa naturalidade. Ressalva que baixa a confiança: a seção final ('A salinha do WhatsApp') tem paralelismo limpo demais ('No consultório, o preço veio de... No WhatsApp, o preço vem de...') e fechamento em par de perguntas retóricas, cheiro de edição/polimento por IA sobre uma base falada por pessoa."
+   }
+  ]
+ }
+}

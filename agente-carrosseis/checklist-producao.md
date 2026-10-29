@@ -121,11 +121,12 @@ qualquer outra coisa — o resto do checklist detalha, mas é aqui que se ganha 
 
 ## 4 · Legenda (feita JUNTO, entregue JUNTO — e roda os passes B e E também)
 
-> **(PARE)** Depois da estrutura abaixo, rodar o **`checklist-legenda.md`** inteiro — os 7 cheiros de IA em legenda + o teste do áudio de WhatsApp. Estrutura certa com bafo de IA reprova igual (caso real: AD010, 09/jul).
+> **(PARE)** Depois da estrutura abaixo, rodar o **`checklist-legenda.md`** inteiro — os 8 cheiros de IA em legenda + o teste do áudio de WhatsApp. Estrutura certa com bafo de IA reprova igual (caso real: AD010, 09/jul).
 
-- [ ] **5 parágrafos:** material NOVO (outro ângulo/teste imediato/efeito que não coube nos slides) → mecanismo vívido → o que tem nos slides SEM parafrasear → SALVA + MANDA com burn carinhoso → CTA espelho do card.
+- [ ] **4-5 parágrafos:** material NOVO (outro ângulo/teste imediato/efeito que não coube nos slides) → mecanismo vívido → SALVA + MANDA com burn carinhoso → CTA espelho do card.
+- [ ] **SEM parágrafo-índice (PARE — 16/set/26, AD002):** nada de "nos slides tá a resposta…", "as três peças estão no slide 4", "Deixei nos slides…". Estava em **51 das 58 legendas de SEM33-38** e é o que mais dá cara de robô (8º cheiro do `checklist-legenda.md`): ninguém lista slide num áudio de WhatsApp. Se precisar anunciar, uma frase dizendo que a resposta EXISTE, sem dizer onde mora.
 - [ ] **ANTI-ECO (PARE):** comparação LITERAL parágrafo × cada slide, lado a lado. Frase/cena/construção repetida = reescrever com material novo. Máximo UMA palavra-motivo. *Casos reais: AD012 (P1/P2 eram corpos de slides — o usuário explodiu) e AD010 (P2/P3 reciclavam "a tua mensagem seguinte"/"nenhuma empurra").*
-- [ ] **CTA espelha o card em prosa humana.** Campanha de comentário: "comenta SUPERCASO aqui embaixo (tudo junto, é uma palavra só) que eu te chamo no direct". Nunca "clique agora/não perca". Card e legenda mudam JUNTOS.
+- [ ] **(SUBSTITUÍDO 26/10 → `checklist-legenda.md` topo + `banco-cta-legenda.md`: promessa igual, frase SEMPRE diferente; legenda curta no jeito dos Reels da Ana.)** ~~CTA espelha o card em prosa humana.~~ **Texto vigente, verbatim do Sávio (19/set/26), usar assim nas legendas novas:** "E se você quer que o meu time analise o seu cenário atual e te mostre o mapa claro pra também ter 10-60 novos pacientes todo mês, comenta SUPERCASO aqui embaixo que eu te chamo no direct." Mudou a promessa (era "converter 9 a cada 10 consultas e subir o seu ticket médio") e caiu o parêntese "(tudo junto, é uma palavra só)". Nunca "clique agora/não perca". Card e legenda mudam JUNTOS: card antigo no slide = pedir o card novo antes de publicar.
 - [ ] **Formato:** linha em branco entre parágrafos = U+2800 ("⠀") sozinho; `legenda.txt` na pasta SINCRONIZADO com o campo `legenda` do json (conferir os DOIS após qualquer edit).
 
 ## 5 · Render & design — checar nos PNGs, não na copy
@@ -308,3 +309,56 @@ adjacente, autoridade implícita via prova, nunca inventar dado):**
 | 35 | **Mockup de e-commerce no lugar de fotografia** (29/ago — o Raio-X da Principia saiu com crops de card de anúncio: produto renderizado em fundo chapado, rótulo ampliado e ilegível; o Sávio: "absurdo de feio". Piorou ao compor produto vertical em cartão paisagem = 80% de fundo vazio) | Foto de marca vem de FOTOGRAFIA EDITORIAL (luz natural, textura, cena real), nunca de mockup/card de e-commerce — o design D pede "documentary, available light" pelo próprio readme. Onde buscar: feed de marcas com direção de arte (ex.: @augustinusbader), não feed de varejo. Produto vertical não preenche cartão paisagem: usar macro/detalhe ou textura. E crop exclui QUALQUER logo de terceiro do quadro |
 | 34 | **Verificação por AMOSTRAGEM deixou criança passar** (27/ago — o slide 2 do AD019 foi ao export com foto de piscina COM CRIANÇA: troquei o rótulo de dois arquivos baixados na cabeça e conferi os slides 1/3/5/9, nunca o 2; o Sávio pegou no preview e perguntou "você não está conseguindo ver o que você está criando?". A varredura completa que veio em seguida achou OUTRA: crianças na grade atrás do Tom Holland no AD017) | Verificação visual NÃO é amostragem: depois de todo render, TODO slide que contém imagem (capa, photo, cartão, proof) é aberto no pixel, um a um, ANTES do export — e o ORIGEM registra "varredura N/N". Arquivo baixado nunca é identificado de memória: confere-se OLHANDO no momento do uso. Afirmar conteúdo de slide pro usuário sem ter aberto o PNG = proibido. **E o incidente teve 2º ato (mesmo dia):** a foto foi trocada, o slides/ re-renderizado e conferido, mas os EXPORTS renomeados da raiz não foram refeitos — o arquivo que o usuário posta continuou com a criança. Re-render sem re-export = mentira de prontidão |
 | 28 | **ELIPSE SEM VERBO NA CAPA** (29/jul, o pior da semana): "«Isso é só na avaliação.» «Agenda pelo link.» E A LEAD, NUNCA MAIS." — nunca mais O QUÊ? A frase não fecha, e está na superfície lida em 2s sem contexto. Passou por 59 agentes do portão | Leitura fria da capa LINHA POR LINHA (§3C) + dimensão SENTIDO no portão (C5), rodando ANTES de território/eco. Elipse ("nunca mais", "e pronto", "e já era") = reprova automática na capa |
+
+## Slide 1: sem ponto final (Sávio, 08/10/2026)
+*"na copy, no slide 1 de todo carrossel, não vamos usar ponto final, apenas vírgulas
+(se for o caso de usar uma vírgula)."* Headline e subheadline da capa terminam sem
+ponto; ponto no meio da frase vira vírgula. Reticências e número com ponto ficam.
+Vale pra `copy.md` e pra `copy.engine41.json` (o render). Conferir antes de exportar.
+
+## Capa: duas linhas curtas, e a fonte com acento é mais larga (12/10/2026)
+Medido nos reposts da SEM42. A capa B foi desenhada pra 2 linhas; com 3 ou 4 o
+headline sobe pro rosto ("que coisas horríveis", Sávio). Regra: **2 linhas**.
+Linha SEM acento (CountryClub): até ~13–15 caracteres. Linha COM acento vai pra
+DeeplySixties (a CountryClub não desenha acento nenhum — medido glifo a glifo) e
+cabe só ~11. Copy longa demais = reescrever a capa, nunca descer a fonte.
+Bug consertado no engine em 12/10: a capa B em texto corrido não aplicava a troca
+de fonte da linha acentuada (saía "E ABATIDA", "VOCE") — agora toda capa passa
+pelo `_linhas_mistas`.
+
+## Orientação da Ana Luiza + regras do Sávio (26/10/2026) — PARE
+Ana Luiza (expert): *"Orienta o Claude a não detalhar tanto a história, focar mais no meio.
+Em vez de contar o que a paciente falou, focar no processo de não julgar o lead."*
+Sávio: *"sempre utilize uma foto no primeiro card pra ilustrar o que tá sendo dito"* e
+*"carrosséis de no máximo 8 cards"*.
+
+1. **História é só o gatilho: no máximo 1 card.** O caso (quem era a paciente, o que ela
+   disse, o diálogo) não ocupa mais que um card. Do card 2 em diante é o MEIO: o processo,
+   passo a passo, o que a comercial/doutora faz e por quê. Diálogo da paciente só entra se
+   for a frase que o processo responde.
+2. **Capa sempre com foto que ilustra a frase da capa**, de ATRIZ, INFLUENCIADORA ou meme conhecido (Sávio, 26/10: "invés desse banco de IA") (no formato tweet: imagem anexada
+   ao tweet 1). Foto sem relação com o que a capa diz não serve.
+3. **Máximo 8 cards**, contando capa, prova e CTA. Esqueleto padrão: capa (com foto) →
+   1 card de contexto → 3–4 cards de processo (pelo menos 1 com a frase pronta colável) →
+   prova → CTA.
+*Base de dado (Publer, 26/10):* os 3 tweets com 2,8–3,4% de envios/alcance (áudio de 3 s,
+lead desqualificado, técnica da supervisora) entregam técnica + frase pronta; os de
+história/opinião (salinha, clínica que demorou, duas análises, Victoria's Secret) ficaram
+em 0,4–0,9%.
+
+## Post de ISCA: conceito, nunca o roteiro (Ana Luiza, áudio de 26/10/2026) — PARE
+*"ao invés de passar as frases no negócio… isso causa um burburinho danado, a galera entra metendo o pau…
+sugiro que fale do conceito de cada etapa e não de como fazer cada etapa em si… causa muito mais a percepção:
+'deixa eu ver então como fazer isso acessando o material', do que dando de bandeja a pessoa criar uma
+objeção pra ela não querer baixar o material."*
+- Carrossel que distribui material (715, matriz, recorrência…): cada card = O QUE a etapa resolve e POR QUÊ.
+  Zero frase pronta do atendimento, zero print que mostre o roteiro. Prova = resultado (agendamentos, consultas pagas).
+- «Nesse próximo minutinho vou buscar entender com você…» está no PDF do 715 mas a casa NÃO usa. Não publicar.
+- **Framework 715** = atendimento no WhatsApp (7 passos: conexão, situação, presente inaceitável, qualificação,
+  transição, apresentação, fechamento). **10 Passos** = venda em consulta (mais etapas, condução diferente).
+  Nunca misturar os dois num post.
+
+## Fotos no design B (Sávio, 28/10/2026: "nos que temos fotos, preciso que tome cuidado")
+- Nenhum rosto cortado pela borda do painel nem escondido atrás de título, print ou rótulo. O `engine_dump.py` acusa no render ("rosto CORTADO", "rosto EMBAIXO do texto", "nenhum rosto aparece") — aviso de rosto = não exportar.
+- Card de prova: título + print formam UM bloco centralizado na vertical (nada concentrado no terço de cima). Fundo sem pessoa em destaque (palco/plateia), porque o print cobre o meio.
+- Foto de baixo no layout "duas": o rosto tem que cair ABAIXO do texto; retrato em pé com rosto no alto não serve ali.

@@ -1,0 +1,269 @@
+{
+ "capitulo": "/Users/saviomoraes/reconecta/ebooks/715/manuscrito/05-passo-3-presente-inaceitavel.md",
+ "rodada": 1,
+ "brutos": 26,
+ "confirmados_n": 11,
+ "altas_confirmadas": 3,
+ "por_revisor": {
+  "tell": {
+   "brutos": 4,
+   "confirmados": 3
+  },
+  "fidelidade": {
+   "brutos": 4,
+   "confirmados": 2
+  },
+  "leitora": {
+   "brutos": 8,
+   "confirmados": 5
+  },
+  "voz": {
+   "brutos": 10,
+   "confirmados": 1
+  }
+ },
+ "confirmados": [
+  {
+   "revisor": "tell",
+   "tipo": "tell",
+   "gravidade": "alta",
+   "trecho": "Você avança quando ela demonstra emoção ao falar do problema, quando compartilha histórias específicas de como o problema afeta ela, quando expressa urgência ou necessidade de mudança, e quando você percebe que ela própria está convencida da necessidade da mudança.",
+   "detalhe": "Família 7.9 (frase em português, alma em inglês) com 7.4 (nominalização) e 3.10 (intensificador oco). É a lista de bullets da fonte (01-framework-715.md, p.5: 'demonstra emoção', 'compartilha histórias específicas sobre como o problema o afeta', 'expressa urgência ou necessidade de mudança') colada com vírgulas e passada pro feminino. Retraduz perfeito: 'shows emotion, shares specific stories about how the problem affects her, expresses urgency or need for change'. 'Necessidade de mudança' e 'necessidade da mudança' na mesma frase é a redundância do manual carregada junto. 'Específicas' promete o específico e a frase não dá nenhum. Registro de manual num capítulo que até aqui falava como a Ana ('deixa ela falar até o fim', 'imagina, nem é tão assim').",
+   "correcao": "Você avança quando ela se emociona falando do problema, quando conta uma história com data e lugar, como o casamento da irmã em novembro, quando diz que não dá mais pra esperar, e quando você percebe que ela própria já está convencida.",
+   "motivos": [
+    "Confirmado no arquivo (l.74): são os quatro bullets de 'Quando avançar' da fonte (01-framework-715.md, l.193-196) emendados com vírgula e passados pro feminino, com a redundância 'necessidade de mudança / necessidade da mudança' na mesma frase e 'histórias específicas' sem nenhuma. O resto do capítulo reescreveu os bullets da fonte na voz dela (l.64, l.68), então a leitora sente o degrau de registro. A escada de 'quando' é whitelist 2 e a correção preserva a escada, só troca o conteúdo de manual por exemplo da cena; sem travessão, sem tell novo.",
+    "O trecho está na linha 74 exatamente assim e é a lista da fonte (01-framework-715.md, linhas 193-196) costurada por vírgula e passada pro feminino: 'demonstra emoção', 'compartilha histórias específicas', 'expressa urgência ou necessidade de mudança', 'necessidade da mudança' repetida na mesma frase. A whitelist protege a anáfora 'quando... quando... quando' (item 2) e a repetição sem sinônimo (item 9), mas não protege verbo de manual nem nominalização; a repetição de 'necessidade de/da mudança' vem do documento-fonte, não do ritmo da Ana. O parágrafo anterior fala 'estamos entendendo juntas' e o posterior 'Eu grifo o ela própria', então a leitora sente o degrau de registro. A correção proposta mantém a escada de 'quando', os 4 sinais da fonte e não usa travessão; só 'com data e lugar' promete lugar e o exemplo (casamento em novembro) só tem data."
+   ]
+  },
+  {
+   "revisor": "tell",
+   "tipo": "tell",
+   "gravidade": "media",
+   "trecho": "Repara no \"juntas\".",
+   "detalhe": "Família 1.11 (etiqueta de importância: apontar pra própria palavra e mandar a leitora notar). Aparece três vezes em 722 palavras: 'Repara: o problema dela não começou hoje.' (l.20), 'Repara no \"juntas\".' (l.70) e 'Eu grifo o \"ela própria\".' (l.76). As duas últimas estão a seis linhas uma da outra e fazem o mesmo gesto: citar uma palavra entre aspas e avisar que ela importa. O hábito da Ana no fingerprint (whitelist 22) é outro: cunhar ou repetir a palavra e DEFINIR na frase seguinte, sem anunciar ('Eu chamava de procrastinação ativa. Eu não estava sentada sem fazer nada.'). O amortecedor 'Essa última palavra assusta um pouco, então deixa eu explicar' (l.26) é dela e fica; o que sobra é o dedo apontado duas vezes.",
+   "correcao": "l.70: 'A leitura positiva é: estamos entendendo juntas pra ver se vão conseguir me ajudar. Juntas, ela e você, do mesmo lado do problema. Acontece quando ela entende que as respostas dela importam pra ter o problema resolvido, e quando a conversa flui.' l.76: 'Ela própria. Se quem está convencido é você, o passo três não aconteceu. Você vai levar essa convicção pros próximos passos e vai empurrar. Se quem está convencida é ela, os próximos passos são só confirmação.'",
+   "motivos": [
+    "Confirmado: 'Repara no \"juntas\".' (l.70) aponta pra palavra e não paga, a frase seguinte é o bullet da fonte e não explica o 'juntas'; seis linhas depois 'Eu grifo o \"ela própria\"' repete o gesto de etiqueta. O fingerprint não tem esse hábito; o que tem é cunhar/repetir a palavra e definir na frase seguinte (whitelist 22) e a repetição sem sinônimo (9). A correção proposta pra l.70 serve; pra l.76 cortar o aviso inteiro perde a presença da autora, então prefiro trocar a etiqueta por eco curto da palavra, que é pancada curta (whitelist 6) e já emenda na definição."
+   ]
+  },
+  {
+   "revisor": "tell",
+   "tipo": "fidelidade",
+   "gravidade": "baixa",
+   "trecho": "Todas elas perguntam a mesma coisa de sete jeitos: por que agora.",
+   "detalhe": "O capítulo lista seis blocos :::frase. A fonte (01-framework-715.md, Etapa 3) tem sete perguntas, mas a segunda ('Antes isso não parecia ser uma prioridade, agora parece ser. Aconteceu alguma coisa?') já está contida na primeira e o manuscrito a fundiu, com razão. Ficou o número da fonte com a lista do manuscrito. A leitora conta seis.",
+   "correcao": "Todas elas perguntam a mesma coisa de seis jeitos: por que agora.",
+   "motivos": [
+    "Confirmado: o capítulo lista seis blocos :::frase (l.32-54) e o texto diz 'sete jeitos' (l.30); a fonte tem sete porque inclui a pergunta que o manuscrito fundiu na primeira. A leitora conta seis e vê o erro. 'Seis jeitos' resolve sem introduzir nada; número redondo na frase é hábito dela (whitelist 12)."
+   ]
+  },
+  {
+   "revisor": "fidelidade",
+   "tipo": "fidelidade",
+   "gravidade": "media",
+   "trecho": "Todas elas perguntam a mesma coisa de sete jeitos: por que agora.",
+   "detalhe": "O capitulo diz sete e mostra seis cards. O Framework p.4 lista sete perguntas na Etapa 3 e o Manual de Perguntas p.2 lista sete numeradas. A que sumiu e a segunda das duas fontes: \"Antes isso não parecia ser uma prioridade, agora parece ser. Aconteceu alguma coisa?\" (Framework p.4, linhas 159-160; Manual p.2, pergunta 2). O mapa de capitulos prometeu para este capitulo \"As 7 perguntas de 'o que mudou'\". Entregou seis e contou sete.",
+   "correcao": "Inserir o card que falta logo depois do primeiro, literal ao PDF: \":::frase\\nAntes isso não parecia ser uma prioridade, agora parece ser. Aconteceu alguma coisa?\\n:::\". E dar uma linha a ele na prosa, por exemplo: \"A segunda é a primeira sem a abertura. Serve quando ela já contou que o problema é antigo e você não precisa mais dizer que percebeu.\" Se a decisão editorial for manter seis, trocar \"de sete jeitos\" por \"de seis jeitos\" e avisar o mapa, porque hoje o texto mente na contagem.",
+   "motivos": [
+    "Conferido no arquivo: linha 30 diz \"de sete jeitos\" e há exatamente seis cards :::frase (linhas 32-54). Framework p.4 (linhas 156-167) e Manual p.2 (perguntas 1-7) trazem sete, e a que falta é mesmo a segunda (\"Antes isso não parecia ser uma prioridade, agora parece ser. Aconteceu alguma coisa?\"); o mapa promete \"As 7 perguntas\". Nenhum item da whitelist cobre contagem errada, uma leitora que conte nota na hora, e a correção proposta (card literal + uma linha de prosa, sem travessão) não introduz tell nem quebra os ordinais seguintes (\"A primeira\" e o \"por que fazer agora\" continuam valendo)."
+   ]
+  },
+  {
+   "revisor": "fidelidade",
+   "tipo": "fidelidade",
+   "gravidade": "baixa",
+   "trecho": "A primeira é a que eu mais uso, por causa do \"posso estar enganada\".",
+   "detalhe": "Nenhuma das fontes registra qual pergunta a Ana prefere. O Framework p.4 e o Manual p.2 apenas listam as sete, e o Manual ainda traz uma variante da primeira (\"Posso estar errada, mas me parece que isso não começou agora. O que mudou para você buscar uma solução neste momento?\") sem hierarquia entre elas. Atribuir um habito pessoal a quem assina o livro, sem fala dela que sustente, e afirmacao que a Ana vai ter que endossar sem ter dito.",
+   "correcao": "Trocar a preferencia pessoal por observacao sobre a pergunta em si: \"A primeira é a que abre mais espaço, por causa do 'posso estar enganada'. Você dá a ela o direito de te corrigir. E ela quase nunca corrige. Ela confirma e conta.\" Se o video trouxer a Ana dizendo qual ela usa, ai volta a frase original.",
+   "motivos": [
+    "Conferido: nada em fontes/voz nem nos PDFs registra qual pergunta a Ana usa mais (grep por enganada/errada/prefiro/mais uso só acha os dois PDFs), e o Manual ainda traz a variante \"posso estar errada\", então a preferência atribuída é dupla invenção. A whitelist protege hedges e concessões de humildade como estilo, não fato biográfico posto na boca de quem assina; é exatamente o tipo de frase que a Ana teria que endossar sem ter dito. A correção proposta mantém o ritmo (frase longa, pancada curta, \"Ela confirma e conta.\"), não usa travessão e não achata a voz."
+   ]
+  },
+  {
+   "revisor": "leitora",
+   "tipo": "leitora",
+   "gravidade": "alta",
+   "trecho": "Todas elas perguntam a mesma coisa de sete jeitos: por que agora.",
+   "detalhe": "Contei os cards: são seis frases (linhas 33, 37, 41, 45, 49, 53). O mapa de capítulos também promete \"As 7 perguntas de 'o que mudou'\". No celular eu voltei e contei de novo achando que tinha pulado um card. Perde confiança num livro que se vende como script de sete passos e erra a própria conta.",
+   "correcao": "Trocar só a conta, sem reabrir o card duplicado: 'Todas elas perguntam a mesma coisa de seis jeitos: por que agora.' E alinhar a linha 16 do mapa-de-capitulos.md pra 'As 6 perguntas' (ou anotar ali que a 2ª do PDF vive dentro da 1ª). Não acrescentar o sétimo card, porque ele repetiria metade do primeiro e a leitora ia estranhar do mesmo jeito.",
+   "motivos": [
+    "Confirmado no arquivo: linha 30 diz 'de sete jeitos' e há exatamente seis cards :::frase (linhas 32-54). A fonte (01-framework-715.md, p.4 e 03-manual-perguntas.md) lista sete, e a que ficou de fora ('Antes isso não parecia ser uma prioridade, agora parece ser. Aconteceu alguma coisa?') já está inteira dentro do primeiro card, ou seja, a autora fundiu de propósito e esqueceu de ajustar a conta. Nenhuma whitelist protege número errado; uma leitora que compra um livro de sete passos e conta seis perde confiança.",
+    "Confirmado no arquivo: a frase da linha 30 diz \"sete jeitos\" e há exatamente seis blocos :::frase (linhas 32-54); o mapa (mapa-de-capitulos.md linha 16) também promete \"As 7 perguntas\". Não é número redondo de prova nem piada (item 12 da whitelist), é contagem verificável na mesma página, e num livro que se vende como \"7 passos\" a leitora conta. A sétima da fonte (manual, pergunta 2: \"Antes isso não parecia ser uma prioridade, agora parece ser. Aconteceu alguma coisa?\") é a segunda metade da primeira, que o framework já traz fundida, então reinserir viraria card duplicado; a autora dobrou de propósito, e o número é que tem que acompanhar."
+   ]
+  },
+  {
+   "revisor": "leitora",
+   "tipo": "leitora",
+   "gravidade": "alta",
+   "trecho": "Você avança quando ela demonstra emoção ao falar do problema, quando compartilha histórias específicas de como o problema afeta ela, quando expressa urgência ou necessidade de mudança, e quando você percebe que ela própria está convencida da necessidade da mudança.",
+   "detalhe": "Estou lendo isso pra usar no WhatsApp. \"Demonstra emoção\" eu entendo na sala, com a paciente na minha frente. No chat ela manda \"sim, é isso\" e pronto. O capítulo inteiro (\"aqui a paciente às vezes se emociona\", \"quando ela está se abrindo\", \"deixa ela falar até o fim\") descreve uma conversa presencial e me deixa sem saber como reconhecer o sinal em texto. Além disso são quatro \"quando\" numa frase só e eu não sei se preciso dos quatro ou de um. Passei o dedo.",
+   "correcao": "Manter a linha 74 como está e emendar logo abaixo, antes do 'Eu grifo': 'Não precisa dos quatro. No WhatsApp emoção não vem com lágrima, vem com história. Ela escreve mais do que você perguntou, cita a data, cita a foto, cita a irmã. Se ela te contou do casamento sem você pedir, o passo três aconteceu.'",
+   "motivos": [
+    "O parágrafo da linha 74 é o bullet do framework (p.5) colado quase literal, e o capítulo 3 mostra o padrão certo da casa: mesma frase de quatro sinais seguida de 'Não precisa das três' e um exemplo de como o sinal aparece na tela. Aqui falta as duas coisas, e a leitora que usa isso no WhatsApp fica sem saber se precisa dos quatro sinais nem como 'emoção' aparece em texto. A anáfora dos quatro 'quando' é assinatura (whitelist 2) e fica; o buraco é o que vem depois. A correção proposta inventa 'ela manda áudio', que não está em nenhuma fonte, e troca a lista por outra; melhor manter a frase e acrescentar um parágrafo só com material que o capítulo já tem.",
+    "Metade da acusação cai: os quatro \"quando\" em escada são anáfora de até 4 degraus, item 2 da whitelist, e o capítulo 4 (linha 78) usa a mesma construção sem ninguém tropeçar; a correção proposta, que reduz a lista a dois ou três sinais, cortaria isso e achata a voz. A outra metade fica de pé: o capítulo 5 é o único dos passos sem a palavra WhatsApp e sem tradução pra tela, enquanto o 3 fala em \"mensagens mais longas\" e o 4 em \"quando ela escreve isso\"; e só o capítulo 3 avisou \"não precisa das três\", então aqui a leitora não sabe se precisa dos quatro. A frase da linha 74 é transcrição literal do framework (p.5), então fica; o que falta é um parágrafo dela por baixo."
+   ]
+  },
+  {
+   "revisor": "leitora",
+   "tipo": "leitora",
+   "gravidade": "media",
+   "trecho": "Você perguntou o que mudou, e ela te entregou o motivo pelo qual ela vai marcar.",
+   "detalhe": "Na cena ela entrega o casamento em novembro. Na minha vida a resposta mais comum a \"aconteceu alguma coisa?\" é \"não, sempre quis fazer\" ou \"só resolvi ver\". O capítulo não tem uma linha sobre o que fazer nesse caso: insisto com outro card, volto pro passo 2, avanço mesmo assim? Fico com a impressão de que o passo só funciona com paciente que já vem com o motivo pronto.",
+   "correcao": "Depois da linha 58 (o parágrafo do 'esperar mais um pouco'): 'E se ela responde nada, sempre quis? Aí você ainda não tem o motivo. É pra isso que serve o por que fazer agora e não esperar mais um pouco: ela vai ter que dizer por que não espera. Se nem assim vem nada, ou se ela topa esperar, o passo três não aconteceu, e quem está convencida é você. Volta pro passo dois e aprofunda até achar o que faz disso um problema agora.'",
+   "motivos": [
+    "Confirmado: o capítulo inteiro assume que a paciente entrega o motivo (linhas 18, 20, 26) e não tem uma linha pro 'não, sempre quis'. O material pra responder já existe dentro do próprio capítulo (o card 'por que fazer agora e não esperar' faz ela argumentar; 'se quem está convencido é você, o passo três não aconteceu'; e o passo dois, no cap. 4, é 'aprofundar até entender o que faz disso um problema agora'), só não está costurado. Leitora real trava exatamente aí. A correção proposta é vaga ('um parágrafo, na voz dela'); vai a versão costurada com o que o livro já diz, sem inventar caso nem dado. Esse parágrafo também responde o achado 6."
+   ]
+  },
+  {
+   "revisor": "leitora",
+   "tipo": "leitora",
+   "gravidade": "media",
+   "trecho": "Deixar claro que o problema que causa a dor de hoje precisa mudar agora. Fazer com que não resolver deixe de ser uma opção. Gerar inconformidade.",
+   "detalhe": "Três frases de manual coladas logo depois de dois parágrafos que já tinham me explicado a mesma coisa em linguagem de gente (\"decide que continuar assim não é mais uma opção\"). Eu já tinha entendido. A explicação de inconformidade que vem em seguida é boa, mas as três frases antes dela soam como outra pessoa escrevendo.",
+   "correcao": "Substituir a linha 24 por duas frases que preservam a emenda 'Essa última palavra': 'Fazer ela dizer, com as palavras dela, que continuar assim não dá mais. Gerar inconformidade.' A segunda frase curta fica como pancada e a linha 26 continua fazendo sentido sem mexer.",
+   "motivos": [
+    "Confirmado: a linha 24 são os três bullets do framework (p.4) em infinitivo, colados um atrás do outro, e a linha 20 já tinha dito a mesma coisa na voz dela ('decide que continuar assim não é mais uma opção'). O esqueleto pede 'objetivo, nas palavras da Ana', e os caps. 4 e 6 cumprem isso; aqui não. Não é pancada curta da whitelist (item 6), porque não vem depois de frase longa, é manual. O cuidado é que 'Essa última palavra assusta' (linha 26) depende de 'inconformidade' ser a última palavra da seção, então a correção proposta (cortar tudo e diluir a palavra no parágrafo seguinte) quebra a emenda."
+   ]
+  },
+  {
+   "revisor": "leitora",
+   "tipo": "leitora",
+   "gravidade": "media",
+   "trecho": "Se ela contou do casamento e você mandou a próxima pergunta do script sem citar o casamento, acabou. Ela viu o script.",
+   "detalhe": "Concordo e reconheço o erro, eu já fiz isso. Mas o capítulo para aí. O que é citar o casamento na próxima pergunta? Falta a versão certa, uma linha de exemplo de como o casamento entra na pergunta seguinte, senão eu sei o que não fazer e continuo sem saber o que fazer.",
+   "correcao": "Emendar na linha 68, depois de 'Ela viu o script.': 'Citar é pouca coisa. É começar a próxima mensagem pela palavra dela: Novembro, então... e só depois vem a pergunta seguinte. A pergunta pode ser a mesma do script. O que muda é que ela vem depois do casamento, não no lugar dele.'",
+   "motivos": [
+    "Confirmado: a linha 68 dá só a versão errada ('sem citar o casamento, acabou') e o capítulo nunca mostra como o casamento entra na mensagem seguinte. Pior: a cena de abertura do cap. 6 faz a próxima pergunta ('Com tudo o que falamos...') sem citar o casamento, ou seja, o livro em seguida faz o que acabou de proibir. Uma linha de exemplo resolve; não precisa alterar o card literal do passo quatro nem antecipar o capítulo, basta mostrar a costura antes da pergunta."
+   ]
+  },
+  {
+   "revisor": "voz",
+   "tipo": "voz",
+   "gravidade": "baixa",
+   "trecho": "Eu grifo o \"ela própria\". Se quem está convencido é você, o passo três não aconteceu. Você vai levar essa convicção pros próximos passos e vai empurrar. Se quem está convencida é ela, os próximos passos são só confirmação.",
+   "detalhe": "Gênero da leitora escorrega: \"convencido é você\" no masculino e \"convencida é ela\" no feminino, o que quebra o espelhamento sintático que é assinatura dela (whitelist 8). Fingerprint, Pronomes: em 3 de 3 ela fala com a leitora no feminino (\"conduzida\", \"pra você mesma\", \"sentada\"). Além disso \"Eu grifo\" é verbo de editor, não dela; o marcador oral que ela usa pra dizer presta atenção é \"interessante\" ou \"Repara\" (que o próprio capítulo já usa duas vezes).",
+   "correcao": "\"Repara no \\\"ela própria\\\". Se quem está convencida é você, o passo três não aconteceu. Você vai levar essa convicção pros próximos passos e vai empurrar. Se quem está convencida é ela, os próximos passos são só confirmação.\"",
+   "motivos": [
+    "\"Se quem está convencido é você\" trata a leitora no masculino, contra o livro inteiro (\"você mais fica quieta\" no 04, \"Posso estar enganada\" na cena deste) e contra o fingerprint (feminino 3 de 3); e quebra o espelho com \"convencida é ela\" na frase gêmea, que é o espelhamento sintático da whitelist 8. Uma doutora lendo nota a concordância errada dirigida a ela. A correção proposta resolve os dois pontos sem travessão e mantém o resto intacto; \"Repara\" é o marcador que o próprio capítulo já usa duas vezes."
+   ]
+  }
+ ],
+ "refutados": [
+  {
+   "revisor": "tell",
+   "trecho": "Parece que você está dando a ideia de esperar. É o contrário.",
+   "detalhe": "Família 1.1 (contraste fácil), por densidade. Contrastes e espelhos de autoria (fora os que vêm literais da fonte, como 'não parece conversa, e sim interrogatório'): 'Você não pediu a data, não falou de urgência, não ofereceu desconto... Você perguntou o que mudou' (l.18), 'Quem fez a pergunta foi você. Quem se convenceu foi ela.' (l.26), 'É o contrário.' (l.58), 'Se quem está convencido é você... Se quem está convencida é ela' (l.76) e o fecho 'você sabe o que tinha mudado... Ou você só sabe o que ela queria fazer?' (l.78). Cinco em 722 palavras; a dose do fingerprint é 3 a 5 contrastes mais 1 a 2 espelhos por capítulo de 2.000. Contraste é assinatura dela (whitelist 1 e 8) e os outros quatro carregam informação nos dois lados; este é o único em que a metade positiva é uma linha vazia de pivô ('É o contrário.') que a frase seguinte já faz sozinha.",
+   "motivo": "'É o contrário.' não é contraste 'não X, Y'; é pancada curta de três palavras depois de frase longa, que o fingerprint chama de principal traço rítmico dela (whitelist 6) e o que mais separa ela de texto de IA. A frase seguinte explica o porquê, então o pivô é pago, e cortar ele deixa 'Parece que você está dando a ideia de esperar' emendar direto na explicação sem a virada oral. Leitora real não tropeça aqui; a correção achata o ritmo."
+  },
+  {
+   "revisor": "fidelidade",
+   "trecho": "Posso estar enganada, mas parece que [problema] não começou agora. E antes não parecia ser uma prioridade, mas agora parece ser. Aconteceu alguma coisa?",
+   "detalhe": "O texto do card e literal ao Framework p.4 (correto), mas o colchete \"[problema]\" e um slot do PDF que ficou no livro sem instrucao de preenchimento. O mapa manda placeholders de nome virarem \"a doutora\" ou \"ela\"; slot de conteudo como este precisa ao menos de uma linha dizendo o que entra ali. A cena do topo ja mostra a versao preenchida (\"parece que isso não começou agora\"), mas o leitor que pula direto pros cards nao tem essa ponte.",
+   "motivo": "O card é literal ao PDF, que é o que o esqueleto do mapa manda (\"texto literal do PDF\"); a regra de placeholder do mapa vale só pra nomes (Dra. Mariana, Fulana), não pra slot de conteúdo. Colchete em frase pronta de script é convenção que qualquer atendente lê como \"preencha aqui\", a cena três parágrafos acima já mostra a versão preenchida, e o capítulo 04 inteiro é sobre usar a palavra dela. Nenhuma leitora é prejudicada; a frase proposta ainda repetiria a lição do 04 e a proibição \"nunca a sua palavra\" não está nas fontes."
+  },
+  {
+   "revisor": "fidelidade",
+   "trecho": "ELA: Aconteceu que eu tenho o casamento da minha irmã em novembro e eu não quero aparecer assim nas fotos.",
+   "detalhe": "O mapa fixa o esqueleto dos capitulos 3 a 9 com \"Cena curta (uma conversa de WhatsApp plausível, montada só com frases das fontes)\". As falas da paciente na cena (\"Tem uns dois anos que eu reparo\", \"casamento da minha irmã em novembro\") nao existem em nenhuma fonte; so a fala de VOCÊ e do PDF. A prosa depois trata a invencao como dado (\"A flacidez tem dois anos\", \"Ela conta do casamento, da separação, do comentário que ouviu, da foto que viu\"). O capitulo 04 ja usa o mesmo recurso (\"Ah, é mais aqui na parte de baixo, sabe?\"), entao ha precedente aceito na serie; o achado e pra decisao coerente entre capitulos, nao pra reescrever sozinho este.",
+   "motivo": "O próprio achado admite que é decisão de série, não erro deste capítulo: os capítulos 03, 04, 06 e 07 usam o mesmo recurso, e o 06 já reaproveita o casamento e o novembro, de modo que mexer só aqui quebraria a continuidade. A regra de fidelidade do mapa mira caso, número e frase pronta; a fala da paciente numa cena declarada como \"plausível\" não é nenhum dos três, e uma conversa de WhatsApp só com a atendente falando deixaria de ser conversa. Nenhuma leitora é prejudicada nem toma a cena por caso real; se quiser fechar a ambiguidade, o ajuste é na redação do mapa (falas da atendente literais das fontes, fala da paciente plausível), não no capítulo."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "O que te levou a dar esse passo de nos procurar hoje?",
+   "detalhe": "Dos seis cards, a autora explica quando usar o primeiro (o \"posso estar enganada\") e o terceiro (o \"esperar mais um pouco\"). Os outros quatro ficam soltos. Este em particular me confunde: parece pergunta de primeiro contato, e no passo 3 ela já me contou o problema e por que veio. Não sei se é pra escolher um card, se é pra usar dois, ou em que situação este cabe e o \"posso estar enganada\" não cabe.",
+   "motivo": "A frase que abre a seção ('Todas elas perguntam a mesma coisa de sete jeitos: por que agora') já diz que os cards são variantes da mesma pergunta, e 'A primeira é a que eu mais uso' já sinaliza que se escolhe uma. As fontes não trazem situação de uso por card; escrever 'ela respondeu seco' ou 'demorou a responder' seria inventar prescrição que a autora não deu, e mandar quatro cards pro anexo quebra o esqueleto fixo (cards = texto literal do PDF, todos). O aviso contra 'interrogatório' na seção Como ela lê você já cobre o 'não empilha duas'."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "Quando você oferece a espera, ela é obrigada a argumentar contra a espera, e quem argumenta contra esperar está se convencendo de agir.",
+   "detalhe": "O argumento convence, mas a autora reconhece que a pergunta parece perigosa e não diz o que acontece quando o perigo se concretiza: a paciente responde \"é, acho que vou esperar mesmo\". Eu não vou usar esse card sem saber o que fazer se ele virar contra mim.",
+   "motivo": "O caso 'é, acho que vou esperar mesmo' é o mesmo buraco do achado 3 (paciente sem motivo), e a correção alternativa proposta lá já o cobre explicitamente ('ou se ela topa esperar, o passo três não aceceu, e quem está convencida é você'). Fora isso, a linha 76 já diz a regra geral. Confirmar de novo geraria dois parágrafos sobre a mesma coisa no capítulo."
+  },
+  {
+   "revisor": "leitora",
+   "trecho": "Eu grifo o \"ela própria\". Se quem está convencido é você, o passo três não aconteceu.",
+   "detalhe": "É a segunda vez que o capítulo me diz isso. Na seção Pra que serve já tinha \"Quem fez a pergunta foi você. Quem se convenceu foi ela.\" A segunda versão acrescenta a consequência (você vai empurrar nos próximos passos), que é o que vale, mas a leitura sente a repetição.",
+   "motivo": "A repetição existe (linhas 26 e 76), mas é a tese do capítulo voltando no fecho com informação nova (a consequência de empurrar nos próximos passos), e o 'Eu grifo o ela própria' está comentando o bullet literal do framework que a seção anterior acabou de reproduzir. Repetir sem variar é assinatura confirmada (whitelist 9) e o editor não deve 'variar'; a leitora não é prejudicada, no máximo sente o eco, que é o que a autora faz na fala."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Ela acabou de te contar a data. Você não pediu a data, não falou de urgência, não ofereceu desconto pra fechar hoje. Você perguntou o que mudou, e ela te entregou o motivo pelo qual ela vai marcar. Isso é o passo três.",
+   "detalhe": "Abertura sem primeira pessoa e sem caso vivido. Fingerprint, seção Ritmo padrão 1 e whitelist item 7: em 3 de 3 amostras ela abre com experiência vivida nas duas primeiras frases e avisa que vai contar (\"E eu vou aproveitar para contar um caso meu\", \"Teve uma vez que eu procurei um coach..., sabe?\", \"Eu já dou spoiler, tá?\"). Aqui a cena é da paciente genérica e a prosa começa em \"você\". O capítulo inteiro tem 10 \"eu\" em 764 palavras (13 por mil; ela fica em 46 por mil). É a lacuna mais grave: a Ana é quem some.",
+   "motivo": "A abertura em cena da paciente é o molde fixo dos sete capítulos de passo (03 a 09 abrem todos com :::cena e prosa em \"você\"); os casos pessoais dela vivem nos capítulos 01 e 02, e o fingerprint admite (Lacunas, item 6) que não tem evidência nenhuma de como ela dá instrução passo a passo. A Ana está presente no segundo parágrafo (\"Eu chamo ele de presente inaceitável\", \"deixa eu explicar como eu entendo\", \"a que eu mais uso\"), e o modo prescrição da A2 é justamente \"você\" alto. A correção proposta inventa um caso que não existe em amostra nenhuma (\"eu tinha uma coisa no rosto\"), o que é dado fabricado; se um caso dela entrar, tem que vir de amostra real e valer pro molde dos sete passos, não só deste."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Deixar claro que o problema que causa a dor de hoje precisa mudar agora. Fazer com que não resolver deixe de ser uma opção. Gerar inconformidade.",
+   "detalhe": "Três infinitivos em fila é registro de slide do manual (fontes/03-manual-perguntas), não fala dela. Fingerprint, Registro: formalidade 3 de 10 na fala, 4 no livro; ela prescreve com \"a gente\" e \"acho que\" (whitelist 17 e 18) e não usa \"gerar\" (lista de palavras que ela NÃO usa: \"gerar valor\"). O parágrafo seguinte já sabe que \"inconformidade\" assusta, mas o bloco cru ficou em cima.",
+   "motivo": "A seção \"Pra que serve\" em infinitivos é o molde de todos os capítulos de passo (03: \"Abrir espaço... Tirar a resistência... E mostrar\"; 04: \"entender... Clarear... E aprofundar\"; 06: \"Fazer a paciente declarar... E aumentar\"), transcrevendo o objetivo da fonte. A palavra grande vem com o amortecedor exato que o fingerprint pede na frase seguinte (\"Essa última palavra assusta um pouco, então deixa eu explicar como eu entendo\"), e a lista de palavras que ela não usa traz \"gerar valor\", não \"gerar\". A correção achata três objetivos em um (\"serve pra uma coisa só\") e cria um \"No manual a gente chama\" dentro do próprio manual."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Você avança quando ela demonstra emoção ao falar do problema, quando compartilha histórias específicas de como o problema afeta ela, quando expressa urgência ou necessidade de mudança, e quando você percebe que ela própria está convencida da necessidade da mudança.",
+   "detalhe": "Frase de 43 palavras copiada do PDF: \"demonstra emoção\", \"compartilha histórias específicas\", \"expressa urgência ou necessidade de mudança\", \"convencida da necessidade da mudança\" (repete \"necessidade\" por descuido, não por escolha). Fingerprint, Guia fala para escrita: enumeração dela vira anáfora em escada de frases curtas começando igual (whitelist 2, T7), nunca lista de gerúndios de manual. É o trecho que mais denuncia que ela não escreveu.",
+   "motivo": "A frase é cópia quase literal dos quatro bullets da fonte (\"demonstra emoção\", \"expressa urgência ou necessidade de mudança\", \"convencida da necessidade da mudança\"), com \"necessidade\" duas vezes por herança do PDF e não por escolha; é o registro mais de manual do capítulo, e uma doutora lendo sente o corte de tom depois de \"Deixa ela falar até o fim\". A correção proposta falha porque apaga \"ela própria\", que o parágrafo seguinte grifa literalmente (\"Eu grifo o 'ela própria'\"), e antecipa a ideia \"quem está convencida é ela, não você\", que o mesmo parágrafo seguinte já desenvolve."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "A leitura positiva é: estamos entendendo juntas pra ver se vão conseguir me ajudar. Repara no \"juntas\". Acontece quando ela entende que as respostas dela importam pra ter o problema resolvido, e quando a conversa flui.",
+   "detalhe": "\"quando a conversa flui\" é imagem genérica de redator. Fingerprint, seção Vocabulário: ela troca abstração por cena concreta (\"salinha do financeiro\", \"muita gente indo pra casa pensar\", \"a minha cabeça já tinha ido embora\"). O capítulo já tem a cena concreta certa dois parágrafos antes (ela contou do casamento, você citou o casamento) e não usa.",
+   "motivo": "\"quando a conversa flui\" traduz a fonte (\"conseguimos desenvolver uma conversa fluida\") em quatro palavras de fecho de parágrafo; nenhuma leitora tropeça nisso. A cena concreta do casamento já está dois parágrafos acima, na leitura negativa, e a correção a repete (\"Ela falou do casamento, você perguntou do casamento\") além de repetir \"não é script\", que o parágrafo anterior fecha com \"Ela viu o script\", e derruba o gatilho \"as respostas dela importam\" que vem da fonte."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Esse passo tem uma coisa diferente dos outros: aqui a paciente às vezes se emociona. Ela conta do casamento, da separação, do comentário que ouviu, da foto que viu. E a nossa reação de gente educada é aliviar: \"imagina, nem é tão assim\". Não alivia. Quem alivia tira dela o motivo que ela acabou de encontrar. Deixa ela falar até o fim.",
+   "detalhe": "Melhor parágrafo do capítulo, mas a prescrição vem seca, sem concessão de humildade nem amortecedor. Whitelist 14 (3 de 3): ela cola uma admissão factual na ordem (\"Faço isso todo santo dia\", \"E eu não falo da posição de quem é ilibado\"). Whitelist 18: \"acho que\" na prescrição. Zero ocorrências das duas coisas no capítulo inteiro. Ela não manda \"Deixa ela falar até o fim\" sem antes confessar que também alivia. Também: fala reproduzida curta vem sem aspas depois de \"falou,\"/\"Falei,\" (whitelist 15); aqui veio entre aspas.",
+   "motivo": "O parágrafo já inclui a autora na fraqueza (\"a nossa reação de gente educada é aliviar\"), que é o \"a gente\" inclusivo da whitelist 17; concessão de humildade tem dose de 1 a 2 por 2.000 palavras e ausência num capítulo de 764 não é tell. A correção fabrica uma admissão (\"Eu faço isso, tá? A paciente começa a chorar e eu já quero falar\") que não está em amostra nenhuma, e as admissões reais dela são factuais. A regra de aspas da whitelist 15 é pra fala depois de \"falou,\"; aqui a fala vem depois de dois-pontos, mesma construção que o :::evite do capítulo 04 usa com aspas."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "A primeira é a que eu mais uso, por causa do \"posso estar enganada\". Você abre dando a ela o direito de te corrigir. E ela quase nunca corrige. Ela confirma e conta.",
+   "detalhe": "Aqui está a chance de número redondo como prova (whitelist 12, 3 de 3: \"nas mais de 3 mil clínicas por aqui\", \"100% das pessoas\") e ela não aparece. \"quase nunca\" é exatamente o tipo de \"muita gente\" que o fingerprint diz que ela NÃO usa quando tem número (seção 8: \"Nunca 'muita gente' quando tem número\"). O capítulo inteiro tem zero número de prova na prosa. Se não existir dado real, a correção é a observação em escala dela, não um número inventado.",
+   "motivo": "A regra do fingerprint é \"nunca 'muita gente' quando tem número\", e aqui não tem número nenhum sobre quantas pacientes corrigem; o próprio revisor admite que não existe dado. \"quase nunca\" é a posição dada como observação, que o fingerprint diz ser o jeito dela. A correção empresta \"pelo que eu observo nas clínicas por aqui\" (frase da A1 sobre clínicas, já gasta no capítulo 01) pra um comportamento de paciente no WhatsApp, e a variante com \"em 10 conversas, 9 confirmam\" é número inventado."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "O \"por que fazer agora e não esperar mais um pouco?\" parece perigoso, eu sei. Parece que você está dando a ideia de esperar. É o contrário. Quando você oferece a espera, ela é obrigada a argumentar contra a espera, e quem argumenta contra esperar está se convencendo de agir.",
+   "detalhe": "O ritmo está certo (construção, \"É o contrário.\" como pancada), mas a virada anunciada dela é \"plot twist\" (whitelist 10, 2 de 3, dose 1 a 2 por capítulo) e o capítulo não usa nenhum estrangeirismo de tela. Este é o único ponto do capítulo com reviravolta de verdade e é onde ela diria \"E aqui vem um plot twist interessante\". Também é o lugar do \"porque\": o capítulo tem 1 \"porque\" em 764 palavras contra 8,3 por mil dela; a frase final tem estrutura de \"porque\" e foi resolvida com \"e quem argumenta\".",
+   "motivo": "\"É o contrário.\" sozinho é a pancada curta depois de frase longa (whitelist 6) e a reviravolta sem a palavra, que o fingerprint registra em 3 de 3 na estrutura e só 2 de 3 na palavra; dose de \"plot twist\" é 1 a 2 por 2.000 palavras, então zero em 764 está dentro. A correção cola a pancada num dois-pontos (\"E aqui vem o plot twist: é o contrário.\") e perde o corte. A contagem baixa de \"porque\" é estatística de capítulo, não algo que a leitora perceba nesse parágrafo."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Interromper a paciente quando ela está se abrindo. Tentar animar a paciente minimizando o problema. Oferecer solução imediata sem explorar a dor por completo.",
+   "detalhe": "Caixa :::evite em registro de manual (\"explorar a dor por completo\", \"solução imediata\"). Se a caixa é citação do PDF, tudo bem, mas então o livro precisa marcar isso; se é voz dela, não é: ela não diz \"explorar a dor\". Baixa porque a prosa logo abaixo traduz o mesmo conteúdo do jeito dela (\"Não alivia.\").",
+   "motivo": "A caixa :::evite é o componente que marca conteúdo do manual em todos os capítulos de passo (03, 04 e 06 fazem o mesmo com os bullets de \"O que evitar\"), e o frontmatter cita a fonte; a tradução na voz dela vem logo abaixo (\"Não alivia.\"), como o próprio revisor reconhece. A correção muda o sentido: \"oferecer o procedimento\" troca a solução do 715 (a consulta) por procedimento, e \"antes de ela terminar de contar\" não é \"sem explorar a dor por completo\"."
+  },
+  {
+   "revisor": "voz",
+   "trecho": "Todas elas perguntam a mesma coisa de sete jeitos: por que agora.",
+   "detalhe": "Transição de história pra lição está boa (sem \"a lição aqui é\"), mas do bloco de perguntas até \"Como ela lê você\" o capítulo não tem nenhum marcador de mudança de plano dela: \"E aí\", \"Aí\", \"Agora,\" (whitelist 23: \"Agora,\" abrindo a última virada antes do fecho, 2 de 3; \"aí/e aí\" 3 de 3, dose 4 a 6 por capítulo). Contagem: zero \"aí\", zero \"Agora,\". As seções mudam de plano só por título de H2. No papel dela, o marcador curto fica no começo do parágrafo (fingerprint, Como muda de plano).",
+   "motivo": "Os H2 (\"Pra que serve\", \"As perguntas\", \"Como ela lê você\", \"Quando avançar\") são o molde fixo dos sete capítulos de passo e fazem a mudança de plano; a dose de \"aí\" do fingerprint é condicionada a \"caso narrado e lista de pessoas\", que este capítulo não tem, então zero é o esperado. A correção cria redundância: \"Agora, quando é que você avança?\" repete o título \"Quando avançar\" na linha de baixo, e \"E aí vem a parte que dói:\" bate com \"A leitura negativa aqui é uma que dói\" na frase seguinte. Se quiserem o \"Agora,\" da whitelist 23, o lugar é a pergunta de fecho, como fazem os capítulos 04 e 09, e isso é escolha de padronização, não defeito."
+  }
+ ],
+ "cego": {
+  "veredito": "ia",
+  "confianca": 65,
+  "pistas": [
+   {
+    "trecho": "Quem fez a pergunta foi você. Quem se convenceu foi ela.",
+    "pista": "Quase todo parágrafo fecha com um par de frases espelhadas em punchline (ver também \"Se quem está convencido é você... Se quem está convencida é ela...\" e \"Você perguntou o que mudou, e ela te entregou o motivo\"). O ritmo é uniforme demais: setup, inversão, corte. Gente escrevendo de cabeça varia mais, erra a mão, deixa parágrafo sem fecho."
+   },
+   {
+    "trecho": "Repara no \"juntas\".",
+    "pista": "O mesmo dispositivo de grifar uma única palavra do material-fonte e fazer close reading dela aparece duas vezes em 70 linhas (\"Eu grifo o \"ela própria\"\"). É um tique recorrente de modelo reescrevendo transcrição: extrai a palavra e a comenta, em vez de contar o que viu acontecer."
+   },
+   {
+    "trecho": "Quando você oferece a espera, ela é obrigada a argumentar contra a espera, e quem argumenta contra esperar está se convencendo de agir.",
+    "pista": "Aforismo por inversão em cadeia (espera → argumentar contra a espera → convencer-se de agir), limpo demais, sem nenhum caso concreto que o sustente. O capítulo inteiro não tem um nome, uma clínica, um número, um mês específico fora da cena inicial; tudo é genérico e simétrico."
+   },
+   {
+    "trecho": "Ela conta do casamento, da separação, do comentário que ouviu, da foto que viu.",
+    "pista": "Enumerações em tríade/tétrade construídas para soar vividas mas sem detalhe real (idem \"Você não pediu a data, não falou de urgência, não ofereceu desconto pra fechar hoje\"). Quem viveu isso normalmente puxa UM caso com sobra de detalhe; quem gera lista quatro categorias equilibradas."
+   },
+   {
+    "trecho": "Todas elas perguntam a mesma coisa de sete jeitos: por que agora.",
+    "pista": "O texto anuncia sete perguntas e lista seis. Erro típico de reescrita a partir de fonte (contagem herdada da aula, um item cortado, ninguém releu). Somado ao fecho-fórmula \"Na sua última conversa que morreu, você sabe o que tinha mudado na vida da paciente? Ou você só sabe o que ela queria fazer?\", pergunta retórica dupla que encerra capítulo como manual de humanização manda."
+   }
+  ]
+ }
+}
