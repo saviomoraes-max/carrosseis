@@ -27,7 +27,9 @@ try:
 except ImportError:
     sys.exit("ERRO: PIL não disponível (pip install pillow no venv de metricas-ig)")
 
-BASE = "/Volumes/SSD kenipe/estáticos/novos"
+SSD = "/Volumes/SSD kenipe/estáticos/novos"
+# sem o SSD (outro membro do time): posts vivem em ./producao na raiz do repo (CLAUDE.md)
+BASE = SSD if os.path.isdir(SSD) else os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "producao")
 
 
 def dhash(caminho, tam=16):
@@ -51,7 +53,13 @@ def distancia(a, b):
 def catalogo():
     """Todos os prints de todos os posts produzidos, com sua assinatura."""
     itens = []
-    for f in sorted(glob.glob(os.path.join(BASE, "SEM*", "AD*", "img", "dep*.png"))):
+    padroes = ["dep*.png", "depo*.png", "prova*.png", "prova*.jpg", "p[0-9]*.png"]
+    arquivos = []
+    for pad in padroes:
+        arquivos += glob.glob(os.path.join(BASE, "SEM*", "AD*", "img", pad))
+    # o padrão novo das semanas 38+ é prova-N.png; sem ele a varredura volta limpa
+    # e vira um no-op (pego na auditoria de território da SEM41, 05/out/26).
+    for f in sorted(set(arquivos)):
         if "/._" in f:
             continue
         h = dhash(f)
